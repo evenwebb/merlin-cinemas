@@ -58,7 +58,7 @@ jobs:
             echo "::endgroup::"
             if [ "$i" -lt "$ATTEMPTS" ]; then
               SLEEP=$((i * 30))
-              echo "Attempt $i failed — retrying in ${SLEEP}s..."
+              echo "Attempt $i failed - retrying in ${SLEEP}s..."
               sleep "$SLEEP"
             fi
           done
@@ -87,7 +87,7 @@ jobs:
             done
             PAGES=$(find docs/films -maxdepth 1 -name '*.html' | wc -l)
             CINEMAS=$(find docs -maxdepth 1 -name '*.html' ! -name 'index.html' | wc -l)
-            git commit -m "Update: ${FOUND} premieres, ${PAGES} film pages, ${CINEMAS} cinema pages — $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git commit -m "Update: ${FOUND} premieres, ${PAGES} film pages, ${CINEMAS} cinema pages - $(date -u +'%Y-%m-%d %H:%M UTC')"
             git push
           fi
 
@@ -100,7 +100,7 @@ jobs:
             if (!createIssue) return;
 
             const label = 'scraper-failure';
-            const title = `Scraper run failed — ${new Date().toISOString().slice(0, 10)}`;
+            const title = `Scraper run failed - ${new Date().toISOString().slice(0, 10)}`;
             const body = `The daily scraper run failed after ${{ vars.SCRAPER_RUN_ATTEMPTS || 2 }} attempt(s).\n\nCheck the [workflow run](${process.env.GITHUB_SERVER_URL}/${process.env.GITHUB_REPOSITORY}/actions/runs/${process.env.GITHUB_RUN_ID}) for details.`;
 
             const { data: issues } = await github.rest.issues.listForRepo({
@@ -117,7 +117,7 @@ jobs:
                 owner: context.repo.owner,
                 repo: context.repo.repo,
                 issue_number: existing.number,
-                body: `Repeated failure — ${new Date().toISOString()}\n\n${process.env.GITHUB_SERVER_URL}/${process.env.GITHUB_REPOSITORY}/actions/runs/${process.env.GITHUB_RUN_ID}`,
+                body: `Repeated failure - ${new Date().toISOString()}\n\n${process.env.GITHUB_SERVER_URL}/${process.env.GITHUB_REPOSITORY}/actions/runs/${process.env.GITHUB_RUN_ID}`,
               });
             } else {
               await github.rest.issues.create({

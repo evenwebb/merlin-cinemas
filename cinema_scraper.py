@@ -65,7 +65,7 @@ RUNTIME_RE = re.compile(r"(\d+)\s*(?:minutes?|mins?)", re.IGNORECASE)
 FILM_LINK_RE = re.compile(r"/film/")
 TITLE_CLEAN_RE = re.compile(r"\s*\([^)]*\)$")
 
-# Merlin special screening suffixes — stripped before TMDb search
+# Merlin special screening suffixes - stripped before TMDb search
 MERLIN_TITLE_CLEAN = [
     (re.compile(r"\s+Toddler Cinema$", re.IGNORECASE), ""),
     (re.compile(r"\s+Double Bill$", re.IGNORECASE), ""),
@@ -93,7 +93,7 @@ MERLIN_TITLE_CLEAN = [
     (re.compile(r"^RBO \d{4}-\d{2}:\s*", re.IGNORECASE), ""),
 ]
 
-# Screening labels for display — derived from pattern names
+# Screening labels for display - derived from pattern names
 _SCREENING_LABEL_MAP = {
     "Toddler Cinema": "Toddler Cinema", "Kids Club": "Kids Club",
     "Silver Screen": "Silver Screen", "Mini Movie Deal": "Mini Movie Deal",
@@ -2263,9 +2263,9 @@ def build_film_page(
     if not overview:
         screening = film_details.get("screening", "")
         if screening == "RBO":
-            overview = "Royal Ballet & Opera broadcast — a world-class production from the Royal Opera House, Covent Garden, screened live at this cinema."
+            overview = "Royal Ballet & Opera broadcast - a world-class production from the Royal Opera House, Covent Garden, screened live at this cinema."
         elif screening == "NT Live":
-            overview = "National Theatre Live broadcast — exceptional British theatre captured live and screened at this cinema."
+            overview = "National Theatre Live broadcast - exceptional British theatre captured live and screened at this cinema."
         elif screening:
             overview = f"A special {screening} event at Merlin Cinemas. Check the showtimes below for dates and booking."
         else:
@@ -2433,7 +2433,7 @@ def build_film_page(
             '});\n'
             '</script>\n'
         )
-    # Accessibility key popup — shown inline when showtimes have tag badges
+    # Accessibility key popup - shown inline when showtimes have tag badges
     tag_popup = ""
     tag_popup_js = ""
     if showtimes:
@@ -2469,7 +2469,7 @@ def build_film_page(
             'document.addEventListener("keydown",function(e){if(e.key==="Escape")tagPopup.hidden=true});\n'
             '</script>\n'
             '<script>\n'
-            '// Nearest cinema highlight — reorder showtime rows\n'
+            '// Nearest cinema highlight - reorder showtime rows\n'
             '(function(){\n'
             'var coords={'
             + ",".join(f'"{s}":{{lat:{lat},lng:{lng}}}' for s, lat, lng in [("bodmin",50.466,-4.718),("helston",50.102,-5.274),("falmouth",50.155,-5.067),("redruth",50.233,-5.226),("st-ives",50.210,-5.490),("penzance-savoy",50.118,-5.538),("penzance-ritz",50.118,-5.536)])

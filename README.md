@@ -4,7 +4,7 @@
 
 # Merlin Cinemas
 
-**All-in-one cinema tracker for Cornwall — now showing, special events, coming soon, and calendar feeds.**
+**All-in-one cinema tracker for Cornwall - now showing, special events, coming soon, and calendar feeds.**
 
 [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-live-22d3ee?style=flat-square)](https://evenwebb.github.io/merlin-cinemas/)
 [![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](LICENSE)
@@ -19,7 +19,7 @@
 
 ## What it does
 
-A single Python file scrapes all seven Merlin Cinemas in Cornwall and generates a complete static site with no server, no database — just GitHub Pages.
+A single Python file scrapes all seven Merlin Cinemas in Cornwall and generates a complete static site with no server, no database - just GitHub Pages.
 
 **7 cinemas**: Capitol (Bodmin), Flora (Helston), Phoenix (Falmouth), Regal (Redruth), Royal (St Ives), Savoy (Penzance), The Ritz (Penzance).
 
@@ -29,7 +29,7 @@ A single Python file scrapes all seven Merlin Cinemas in Cornwall and generates 
 
 **7 cinema pages**: Per-venue Now Showing + Coming Soon with map links and calendar feeds.
 
-**Special screenings**: RBO (Royal Ballet & Opera), NT Live (National Theatre), Double Bill, Toddler Cinema, Kids Club, with Q&A — detected via pattern matching, displayed with colored banners and descriptive info boxes, and grouped in their own section.
+**Special screenings**: RBO (Royal Ballet & Opera), NT Live (National Theatre), Double Bill, Toddler Cinema, Kids Club, with Q&A - detected via pattern matching, displayed with colored banners and descriptive info boxes, and grouped in their own section.
 
 **iCal + subscribe**: 7 per-cinema `.ics` feeds, Google Calendar one-click, iOS webcal links, copy-to-clipboard, and inline how-to instructions.
 
@@ -130,7 +130,7 @@ TMDB_API_KEY=your_key_here python3 cinema_scraper.py
 | `HTTP_RETRIES` | 3 | Retry attempts per request |
 | `CACHE_EXPIRY_DAYS` | 7 | Film detail cache TTL |
 | `TMDB_CACHE_DAYS` | 30 | TMDb cache TTL |
-| `TMDB_API_KEY` (env) | — | Required for live TMDb enrichment |
+| `TMDB_API_KEY` (env) | - | Required for live TMDb enrichment |
 | `CALENDAR_TIMEZONE` (env) | `Europe/London` | iCal timezone |
 | `HEALTH_MIN_FILMS` (env) | 1 | Minimum films before health check fails |
 | `HEALTH_MIN_CINEMAS` (env) | 1 | Minimum cinemas before health check fails |
