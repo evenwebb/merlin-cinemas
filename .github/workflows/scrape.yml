@@ -17,19 +17,12 @@ jobs:
   scrape:
     runs-on: ubuntu-latest
     timeout-minutes: 15
-    env:
-      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
     steps:
       - uses: actions/checkout@v4
 
-      - uses: astral-sh/setup-uv@v4
-        with:
-          enable-cache: true
-          cache-dependency-glob: requirements.txt
-
       - name: Install dependencies
-        run: uv pip install --system --break-system-packages -r requirements.txt
+        run: pip install --user -r requirements.txt
 
       - name: Restore scraper caches
         uses: actions/cache@v4
