@@ -55,9 +55,19 @@ body{position:relative}
 .film-info .crew p{font-size:0.88rem;color:var(--text-muted);padding:0.55rem 0;border-bottom:1px solid var(--border)}
 .film-info .crew p:last-child{border-bottom:none}
 .film-info .crew strong{color:var(--text);margin-right:0.5rem;font-weight:600}
-.links{display:flex;flex-wrap:wrap;gap:0.5rem;margin-bottom:1.5rem}
-.ext-link{display:inline-flex;align-items:center;padding:0.45rem 0.85rem;background:var(--surface);border:1px solid var(--border);border-radius:100px;color:var(--text-muted);text-decoration:none;font-size:0.82rem;font-weight:500;transition:all var(--transition)}
-.ext-link:hover{border-color:var(--accent);color:var(--accent);background:var(--accent-dim)}
+.links{display:flex;flex-wrap:wrap;gap:0.6rem;margin-bottom:1.5rem}
+.ext-link{display:inline-flex;align-items:center;gap:0.55rem;padding:0.45rem 0.85rem;background:var(--surface);border:1px solid var(--border);border-radius:100px;color:var(--text-muted);text-decoration:none;font-size:0.82rem;font-weight:500;transition:all var(--transition)}
+.ext-link:hover{transform:translateY(-1px);box-shadow:0 4px 15px rgba(0,0,0,0.18)}
+.ext-link::before{content:"";width:1rem;height:1rem;display:inline-block;flex-shrink:0;background:currentColor;mask-position:center;mask-repeat:no-repeat;mask-size:contain;-webkit-mask-position:center;-webkit-mask-repeat:no-repeat;-webkit-mask-size:contain}
+.ext-link[href*="imdb.com"]{color:#f5c518;background:rgba(245,197,24,0.1);border-color:rgba(245,197,24,0.24)}
+.ext-link[href*="imdb.com"]:hover{background:rgba(245,197,24,0.16);border-color:#f5c518}
+.ext-link[href*="imdb.com"]::before{mask-image:url(../ratings/imdb.svg);-webkit-mask-image:url(../ratings/imdb.svg)}
+.ext-link[href*="rottentomatoes.com"]{color:#fa320a;background:rgba(250,50,10,0.1);border-color:rgba(250,50,10,0.24)}
+.ext-link[href*="rottentomatoes.com"]:hover{background:rgba(250,50,10,0.16);border-color:#fa320a}
+.ext-link[href*="rottentomatoes.com"]::before{mask-image:url(../ratings/rottentomatoes.svg);-webkit-mask-image:url(../ratings/rottentomatoes.svg)}
+.ext-link[href*="trakt.tv"]{color:#ed1c24;background:rgba(237,28,36,0.1);border-color:rgba(237,28,36,0.24)}
+.ext-link[href*="trakt.tv"]:hover{background:rgba(237,28,36,0.16);border-color:#ed1c24}
+.ext-link[href*="trakt.tv"]::before{mask-image:url(../ratings/trakt.svg);-webkit-mask-image:url(../ratings/trakt.svg)}
 .trailer-section{margin-bottom:2.5rem}
 .trailer-section h2{font-size:1.1rem;font-weight:700;margin-bottom:0.85rem;color:var(--accent)}
 .trailer-wrap{position:relative;width:100%;aspect-ratio:16/9;background:#000;border-radius:14px;overflow:hidden;box-shadow:0 4px 25px rgba(0,0,0,0.5),0 0 0 1px rgba(34,211,238,0.1)}
@@ -145,7 +155,7 @@ tr.nearest-cinema-row td:first-child{border-left:3px solid var(--accent)}
     <div class="film-layout">
       <div class="poster"><img src="../posters/forgotten-island.jpg" alt="Poster for Forgotten Island" loading="lazy"></div>
       <div class="film-info">
-        <h1>Forgotten Island <span class="cert cert--PG" aria-label="Rated PG" title="Rated PG"></span></h1>
+        <h1>Forgotten Island <span class="cert cert--pg" aria-label="Rated PG" title="Rated PG"></span></h1>
         <div class="meta"><span class="cert cert--pg" title="PG"></span><span>1h 38min</span><span class="genres">Adventure, Animation, Comedy, Family, Fantasy</span></div>
         <div class="synopsis">Jo and Raissa find themselves stranded in the mystical world of the forgotten island of Nakali. They discover that their only way home might come at the expense of a lifetime of shared memories.</div>
         <div class="links">
@@ -188,7 +198,7 @@ tr.nearest-cinema-row td:first-child{border-left:3px solid var(--accent)}
         <span aria-hidden="true"> · </span>
         <a href="../">All premieres</a>
       </div>
-      <p class="footer-updated">Last updated: 2026-06-03 14:59 UTC</p>
+      <p class="footer-updated">Last updated: 2026-06-03 16:35 BST</p>
     </footer>
   </div>
 </body>

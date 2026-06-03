@@ -43,20 +43,11 @@ A single Python file scrapes all seven Merlin Cinemas in Cornwall and generates 
 git clone https://github.com/evenwebb/merlin-cinemas.git
 cd merlin-cinemas
 pip install -r requirements.txt
-python3 cinema_scraper.py
-```
-
-For TMDb enrichment (posters, ratings, cast, backdrops):
-
-```bash
 TMDB_API_KEY=your_key_here python3 cinema_scraper.py
 ```
 
-Runs offline from cache once populated:
+`TMDB_API_KEY` is required. The scraper always refreshes movie ratings and enrichment from TMDb before generating pages.
 
-```bash
-FORCE_REBUILD=1 python3 cinema_scraper.py
-```
 
 ---
 
@@ -74,7 +65,7 @@ FORCE_REBUILD=1 python3 cinema_scraper.py
 | Area | Details |
 |---|---|
 | **TMDb** | Posters (w500), large posters (w780), backdrops (w780), synopses, star ratings, genres, director, cast, trailers, IMDb IDs. Cached 30 days |
-| **Cache-only mode** | Runs without `TMDB_API_KEY` by loading existing cache from disk |
+| **TMDb required** | `TMDB_API_KEY` is mandatory so ratings always come from live TMDb-backed enrichment |
 | **Title cleaning** | Strips screening suffixes (Toddler Cinema, Double Bill, with Q&A, NT Live:, RBO prefix) before TMDb search |
 | **Progressive fallback** | Drops trailing words one at a time and re-searches TMDb for unknown suffix patterns |
 | **Non-film skip** | 80+ patterns to skip live events, tribute shows, comedy nights from TMDb enrichment |
@@ -139,7 +130,7 @@ FORCE_REBUILD=1 python3 cinema_scraper.py
 | `HTTP_RETRIES` | 3 | Retry attempts per request |
 | `CACHE_EXPIRY_DAYS` | 7 | Film detail cache TTL |
 | `TMDB_CACHE_DAYS` | 30 | TMDb cache TTL |
-| `TMDB_API_KEY` (env) | — | Enables live TMDb enrichment |
+| `TMDB_API_KEY` (env) | — | Required for live TMDb enrichment |
 | `CALENDAR_TIMEZONE` (env) | `Europe/London` | iCal timezone |
 | `HEALTH_MIN_FILMS` (env) | 1 | Minimum films before health check fails |
 | `HEALTH_MIN_CINEMAS` (env) | 1 | Minimum cinemas before health check fails |

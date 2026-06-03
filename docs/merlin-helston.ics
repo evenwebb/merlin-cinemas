@@ -10,7 +10,7 @@ X-WR-CALDESC:Upcoming movie premieres at Merlin Cinemas Flora Cinema
 X-WR-TIMEZONE:Europe/London
 BEGIN:VEVENT
 UID:f917ac02da63ae184cb2f802119365796f07bc01@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260603
 DTEND;VALUE=DATE:20260604
 SUMMARY:Bonnie & Clive with The Jive Aces @ Merlin Helston
@@ -26,7 +26,7 @@ URL:/film/bonnie-clive-with-the-jive-aces-double-bill
 END:VEVENT
 BEGIN:VEVENT
 UID:04eeeb83d47de6691fd546ef016af1ab9175ddf0@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260604
 DTEND;VALUE=DATE:20260605
 SUMMARY:The Amazing Digital Circus: The Last Act @ Merlin Helston
@@ -47,26 +47,21 @@ LOCATION:Merlin Cinemas Helston
 URL:/film/the-amazing-digital-circus-the-last-act
 END:VEVENT
 BEGIN:VEVENT
-UID:757dcc82e9d0b9ae13bd01e286d0333b32943e51@merlin-cinemas
-DTSTAMP:20260603T145957Z
+UID:b730c4f64db841f5c82ee6e1bbadf9c81c01b985@merlin-cinemas
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260607
 DTEND;VALUE=DATE:20260608
-SUMMARY:Zog & Zog And The Flying Doctors @ Merlin Helston
-DESCRIPTION:Zog & Zog And The Flying Doctors (25 min)\n★★★☆☆\nAnimation\, F
- amily\, TV Movie\, Fantasy\n\nPearl and Gadabout are now a flying doctor t
- rio\, caring for creatures including a mermaid\, a unicorn and a sneezy li
- on. However when bad weather forces them to land at the palace\, Pearl is 
- locked up by her uncle\, the king.\n\nStarring: Lenny Henry\, Patsy Ferran
- \, Daniel Ings\, Hugh Skinner\, Alexandra Roach\, Mark Bonnar\n\nFilm rele
- ase at Merlin Cinemas Helston\nBook tickets: /film/zog-zog-and-the-flying-
- doctors-toddler-cinema\n\nFilm details: https://evenwebb.github.io/merlin-
- cinemas/films/zog-zog-and-the-flying-doctors.html
+SUMMARY:Zog And The Flying Doctors @ Merlin Helston
+DESCRIPTION:Zog And The Flying Doctors\n\nFilm release at Merlin Cinemas He
+ lston\nBook tickets: /film/zog-zog-and-the-flying-doctors-toddler-cinema\n
+ \nFilm details: https://evenwebb.github.io/merlin-cinemas/films/zog-and-th
+ e-flying-doctors.html
 LOCATION:Merlin Cinemas Helston
 URL:/film/zog-zog-and-the-flying-doctors-toddler-cinema
 END:VEVENT
 BEGIN:VEVENT
 UID:ea9d0b64ec019619e4a569459e9e835d57be6346@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260618
 DTEND;VALUE=DATE:20260619
 SUMMARY:Toy Story 5 @ Merlin Helston
@@ -83,7 +78,7 @@ URL:/film/toy-story-5
 END:VEVENT
 BEGIN:VEVENT
 UID:22cbb835260e08b0cb29b1b09c692f811203cc32@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260625
 DTEND;VALUE=DATE:20260626
 SUMMARY:Supergirl @ Merlin Helston
@@ -100,7 +95,7 @@ URL:/film/supergirl
 END:VEVENT
 BEGIN:VEVENT
 UID:ac723212e167afde890626ecc571add532714967@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260626
 DTEND;VALUE=DATE:20260627
 SUMMARY:Jackass: Best And Last @ Merlin Helston
@@ -116,7 +111,7 @@ URL:/film/jackass-best-and-last
 END:VEVENT
 BEGIN:VEVENT
 UID:86990edf2908b32550612d441a9fa7f6a87e90ab@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260626
 DTEND;VALUE=DATE:20260627
 SUMMARY:500 Miles @ Merlin Helston
@@ -133,7 +128,7 @@ URL:/film/500-miles
 END:VEVENT
 BEGIN:VEVENT
 UID:e59f929760c7acb6963dc40a544d81881baf77bb@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260701
 DTEND;VALUE=DATE:20260702
 SUMMARY:Minions & Monsters @ Merlin Helston
@@ -151,7 +146,7 @@ URL:/film/minions-monsters
 END:VEVENT
 BEGIN:VEVENT
 UID:6eafc0e7df00fc2c7e03536ca76d90136f274234@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260710
 DTEND;VALUE=DATE:20260711
 SUMMARY:Evil Dead Burn @ Merlin Helston
@@ -168,7 +163,7 @@ URL:/film/evil-dead-burn
 END:VEVENT
 BEGIN:VEVENT
 UID:07f982072f210e4fed0a3f36c00d94fed48a51b9@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260710
 DTEND;VALUE=DATE:20260711
 SUMMARY:Moana @ Merlin Helston
@@ -184,7 +179,7 @@ URL:/film/moana
 END:VEVENT
 BEGIN:VEVENT
 UID:627fe335347df39da7013f63421cbbda64657a80@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260717
 DTEND;VALUE=DATE:20260718
 SUMMARY:The Odyssey @ Merlin Helston
@@ -202,7 +197,7 @@ URL:/film/the-odyssey
 END:VEVENT
 BEGIN:VEVENT
 UID:1e3a7f1cdeac198862a1bf88e51e32ab57cfb7c7@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260731
 DTEND;VALUE=DATE:20260801
 SUMMARY:Spider-Man: Brand New Day @ Merlin Helston
@@ -224,7 +219,7 @@ URL:/film/spiderman-brand-new-day
 END:VEVENT
 BEGIN:VEVENT
 UID:ee009b8d6b9d7481358ba66f52b42bd7c5fdbfc1@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260807
 DTEND;VALUE=DATE:20260808
 SUMMARY:PAW Patrol: The Dino Movie @ Merlin Helston
@@ -247,7 +242,7 @@ URL:/film/paw-patrol-the-dino-movie
 END:VEVENT
 BEGIN:VEVENT
 UID:8074e8105bbda3281c039ef32021703a1c1ec952@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260821
 DTEND;VALUE=DATE:20260822
 SUMMARY:Insidious: Out Of The Further @ Merlin Helston
@@ -264,7 +259,7 @@ URL:/film/insidious-out-of-the-further
 END:VEVENT
 BEGIN:VEVENT
 UID:a283252b57187ee2cc596dadc4214999badab003@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260826
 DTEND;VALUE=DATE:20260827
 SUMMARY:The Dog Stars @ Merlin Helston
@@ -282,7 +277,7 @@ URL:/film/the-dog-stars
 END:VEVENT
 BEGIN:VEVENT
 UID:b63af7b8df590f55024265a88faaea23d9049e23@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260909
 DTEND;VALUE=DATE:20260910
 SUMMARY:Pressure @ Merlin Helston
@@ -300,7 +295,7 @@ URL:/film/pressure
 END:VEVENT
 BEGIN:VEVENT
 UID:9ca5f9b48e2d69a01642b74db978fa0bfd26eb0f@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260911
 DTEND;VALUE=DATE:20260912
 SUMMARY:Practical Magic 2 @ Merlin Helston
@@ -315,7 +310,7 @@ URL:/film/practical-magic-2
 END:VEVENT
 BEGIN:VEVENT
 UID:490ccdf6362805061357132de37ba2df5fb55a46@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260918
 DTEND;VALUE=DATE:20260919
 SUMMARY:Resident Evil @ Merlin Helston
@@ -331,7 +326,7 @@ URL:/film/resident-evil
 END:VEVENT
 BEGIN:VEVENT
 UID:4c769da2de10eef926074a100bdb2b37d05bf846@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260918
 DTEND;VALUE=DATE:20260919
 SUMMARY:Shaun The Sheep: The Beast Of Mossy Bottom @ Merlin Helston
@@ -351,7 +346,7 @@ URL:/film/shaun-the-sheep-the-beast-of-mossy-bottom
 END:VEVENT
 BEGIN:VEVENT
 UID:5ad1f368b12f1e241b8f55f1b252c540559e92a4@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261003
 SUMMARY:Verity @ Merlin Helston
@@ -368,7 +363,7 @@ URL:/film/verity
 END:VEVENT
 BEGIN:VEVENT
 UID:2042eda39b60d7803cfc2f805516bb9cdcec870e@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:Street Fighter @ Merlin Helston
@@ -387,7 +382,7 @@ URL:/film/street-fighter
 END:VEVENT
 BEGIN:VEVENT
 UID:9091cd5d632afbca69be57e18d970df177c81b01@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:Forgotten Island @ Merlin Helston
@@ -404,7 +399,7 @@ URL:/film/forgotten-island
 END:VEVENT
 BEGIN:VEVENT
 UID:de10fea8931c746c7fdb17bd98d3fc0210c94ca9@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Clayface @ Merlin Helston
@@ -421,7 +416,7 @@ URL:/film/clayface
 END:VEVENT
 BEGIN:VEVENT
 UID:40e369e6820bee7756de545cb05aecccad3c71af@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:Wild Horse Nine @ Merlin Helston
@@ -440,7 +435,7 @@ URL:/film/wild-horse-nine
 END:VEVENT
 BEGIN:VEVENT
 UID:0df5dec001b2f2765225088639f1bd66d4a2fb1d@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:The Hunger Games: Sunrise On The Reaping @ Merlin Helston
@@ -457,7 +452,7 @@ URL:/film/the-hunger-games-sunrise-on-the-reaping
 END:VEVENT
 BEGIN:VEVENT
 UID:893c69b85257e2ea976052062237b7a6eb95c45d@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Focker-In-Law @ Merlin Helston
@@ -473,7 +468,7 @@ URL:/film/fockerinlaw
 END:VEVENT
 BEGIN:VEVENT
 UID:6edf4a55dd4c7a4493036c7714d07ae1a3991674@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
 SUMMARY:Dune: Part Three @ Merlin Helston
@@ -490,7 +485,7 @@ URL:/film/dune-part-three
 END:VEVENT
 BEGIN:VEVENT
 UID:c76be2ab2a57046c0c39546b436cf93c0a749faf@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
 SUMMARY:Avengers: Doomsday @ Merlin Helston
@@ -505,24 +500,22 @@ LOCATION:Merlin Cinemas Helston
 URL:/film/avengers-doomsday
 END:VEVENT
 BEGIN:VEVENT
-UID:93fd42a7d9e7d394fae7b71957b9f0fc4924095d@merlin-cinemas
-DTSTAMP:20260603T145957Z
+UID:379f77a61274d6e04f5ac00160d9aa057dbe1b64@merlin-cinemas
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
-SUMMARY:The Scarecrows' Wedding & The Smeds And The Smoos - @ Merlin Helsto
- n
-DESCRIPTION:The Scarecrows' Wedding & The Smeds And The Smoos - (26 min)\nA
- nimation\, Family\, Romance\, TV Movie\n\nDevoted scarecrows Betty O'Barle
- y and Harry O'Hay are planning a wedding to remember. When Harry insists o
- n leaving the farm to collect one last thing for their big day\, smooth-ta
- lking Reginald Rake swoops in with plans of his own. Chaos follows\, and s
- oon Betty's in danger and everything's at risk. Can Harry get back in time
-  and save the day?\n\nStarring: Sophie Okonedo\, Jessie Buckley\, Domhnall
-  Gleeson\, Rob Brydon\, Doon Mackichan\, Rasmus Hardiker\n\nFilm release a
- t Merlin Cinemas Helston\nBook tickets: /film/the-scarecrows-wedding-the-s
- meds-and-the-smoos-toddler-cinema\n\nFilm details: https://evenwebb.github
- .io/merlin-cinemas/films/the-scarecrows-wedding-the-smeds-and-the-smoos.ht
- ml
+SUMMARY:The Scarecrows' Wedding & The Smeds And The Smoos @ Merlin Helston
+DESCRIPTION:The Scarecrows' Wedding & The Smeds And The Smoos (26 min)\nAni
+ mation\, Family\, Romance\, TV Movie\n\nDevoted scarecrows Betty O'Barley 
+ and Harry O'Hay are planning a wedding to remember. When Harry insists on 
+ leaving the farm to collect one last thing for their big day\, smooth-talk
+ ing Reginald Rake swoops in with plans of his own. Chaos follows\, and soo
+ n Betty's in danger and everything's at risk. Can Harry get back in time a
+ nd save the day?\n\nStarring: Sophie Okonedo\, Jessie Buckley\, Domhnall G
+ leeson\, Rob Brydon\, Doon Mackichan\, Rasmus Hardiker\n\nFilm release at 
+ Merlin Cinemas Helston\nBook tickets: /film/the-scarecrows-wedding-the-sme
+ ds-and-the-smoos-toddler-cinema\n\nFilm details: https://evenwebb.github.i
+ o/merlin-cinemas/films/the-scarecrows-wedding-the-smeds-and-the-smoos.html
 LOCATION:Merlin Cinemas Helston
 URL:/film/the-scarecrows-wedding-the-smeds-and-the-smoos-toddler-cinema
 END:VEVENT

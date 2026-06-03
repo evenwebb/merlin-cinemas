@@ -10,7 +10,7 @@ X-WR-CALDESC:Upcoming movie premieres at Merlin Cinemas Phoenix Cinema
 X-WR-TIMEZONE:Europe/London
 BEGIN:VEVENT
 UID:b17bf1f726173fa7650d8aa56e4da09db099b668@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260603
 DTEND;VALUE=DATE:20260604
 SUMMARY:Bonnie & Clive with The Jive Aces @ Merlin Falmouth
@@ -25,26 +25,21 @@ LOCATION:Merlin Cinemas Falmouth
 URL:/film/bonnie-clive-with-the-jive-aces-double-bill
 END:VEVENT
 BEGIN:VEVENT
-UID:6f8e7f2501dc9c01af1bb27b83a0f5b0c903effa@merlin-cinemas
-DTSTAMP:20260603T145957Z
+UID:8a2de29d74c1ef424a2f5bffd955540c950e27d9@merlin-cinemas
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260607
 DTEND;VALUE=DATE:20260608
-SUMMARY:Zog & Zog And The Flying Doctors @ Merlin Falmouth
-DESCRIPTION:Zog & Zog And The Flying Doctors (25 min)\n★★★☆☆\nAnimation\, F
- amily\, TV Movie\, Fantasy\n\nPearl and Gadabout are now a flying doctor t
- rio\, caring for creatures including a mermaid\, a unicorn and a sneezy li
- on. However when bad weather forces them to land at the palace\, Pearl is 
- locked up by her uncle\, the king.\n\nStarring: Lenny Henry\, Patsy Ferran
- \, Daniel Ings\, Hugh Skinner\, Alexandra Roach\, Mark Bonnar\n\nFilm rele
- ase at Merlin Cinemas Falmouth\nBook tickets: /film/zog-zog-and-the-flying
- -doctors-toddler-cinema\n\nFilm details: https://evenwebb.github.io/merlin
- -cinemas/films/zog-zog-and-the-flying-doctors.html
+SUMMARY:Zog And The Flying Doctors @ Merlin Falmouth
+DESCRIPTION:Zog And The Flying Doctors\n\nFilm release at Merlin Cinemas Fa
+ lmouth\nBook tickets: /film/zog-zog-and-the-flying-doctors-toddler-cinema\
+ n\nFilm details: https://evenwebb.github.io/merlin-cinemas/films/zog-and-t
+ he-flying-doctors.html
 LOCATION:Merlin Cinemas Falmouth
 URL:/film/zog-zog-and-the-flying-doctors-toddler-cinema
 END:VEVENT
 BEGIN:VEVENT
 UID:4b57b7ea6b641c1b83ddfc67c6a3d501e6d2557c@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260618
 DTEND;VALUE=DATE:20260619
 SUMMARY:Toy Story 5 @ Merlin Falmouth
@@ -61,7 +56,7 @@ URL:/film/toy-story-5
 END:VEVENT
 BEGIN:VEVENT
 UID:cbe32642997f3901917fc9c52ae85ad2e0fab38f@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260625
 DTEND;VALUE=DATE:20260626
 SUMMARY:Supergirl @ Merlin Falmouth
@@ -78,7 +73,7 @@ URL:/film/supergirl
 END:VEVENT
 BEGIN:VEVENT
 UID:df6b9cdc6e1cbcb8d1f9fb370c78a7afab0a3a7f@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260626
 DTEND;VALUE=DATE:20260627
 SUMMARY:Jackass: Best And Last @ Merlin Falmouth
@@ -94,7 +89,7 @@ URL:/film/jackass-best-and-last
 END:VEVENT
 BEGIN:VEVENT
 UID:69fd303c688acecb79cb0c4380a6bba0299c519b@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260626
 DTEND;VALUE=DATE:20260627
 SUMMARY:500 Miles @ Merlin Falmouth
@@ -111,7 +106,7 @@ URL:/film/500-miles
 END:VEVENT
 BEGIN:VEVENT
 UID:1842633de7ea29d942ae686d110201728aa136ec@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260701
 DTEND;VALUE=DATE:20260702
 SUMMARY:Minions & Monsters @ Merlin Falmouth
@@ -129,7 +124,7 @@ URL:/film/minions-monsters
 END:VEVENT
 BEGIN:VEVENT
 UID:56754e91a4f786967384c74932f775887df34d95@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260710
 DTEND;VALUE=DATE:20260711
 SUMMARY:Evil Dead Burn @ Merlin Falmouth
@@ -146,7 +141,7 @@ URL:/film/evil-dead-burn
 END:VEVENT
 BEGIN:VEVENT
 UID:01f0351b6a3f1baa782f1122bdba723addafad1e@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260710
 DTEND;VALUE=DATE:20260711
 SUMMARY:Moana @ Merlin Falmouth
@@ -162,7 +157,7 @@ URL:/film/moana
 END:VEVENT
 BEGIN:VEVENT
 UID:3d9781a68ef8b0e1ce7e5e2ce5a6ca0db956ebbf@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260717
 DTEND;VALUE=DATE:20260718
 SUMMARY:The Odyssey @ Merlin Falmouth
@@ -180,7 +175,7 @@ URL:/film/the-odyssey
 END:VEVENT
 BEGIN:VEVENT
 UID:07389e6ca35bd76d8cac5f37c12b72a173015706@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260731
 DTEND;VALUE=DATE:20260801
 SUMMARY:Spider-Man: Brand New Day @ Merlin Falmouth
@@ -202,7 +197,7 @@ URL:/film/spiderman-brand-new-day
 END:VEVENT
 BEGIN:VEVENT
 UID:47ecc9d895d070f6fb8eefee1b697eefdaa85a24@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260807
 DTEND;VALUE=DATE:20260808
 SUMMARY:PAW Patrol: The Dino Movie @ Merlin Falmouth
@@ -225,7 +220,7 @@ URL:/film/paw-patrol-the-dino-movie
 END:VEVENT
 BEGIN:VEVENT
 UID:b1265c981e4e9ba6c2642e9f9532c8cf180b0229@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260821
 DTEND;VALUE=DATE:20260822
 SUMMARY:Insidious: Out Of The Further @ Merlin Falmouth
@@ -242,7 +237,7 @@ URL:/film/insidious-out-of-the-further
 END:VEVENT
 BEGIN:VEVENT
 UID:fe03772f148015f19479f48afb509e8dcd8f9995@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260826
 DTEND;VALUE=DATE:20260827
 SUMMARY:The Dog Stars @ Merlin Falmouth
@@ -260,7 +255,7 @@ URL:/film/the-dog-stars
 END:VEVENT
 BEGIN:VEVENT
 UID:5a1747354abca8542eddcc2e27ff6652b15d8fed@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260909
 DTEND;VALUE=DATE:20260910
 SUMMARY:Pressure @ Merlin Falmouth
@@ -278,7 +273,7 @@ URL:/film/pressure
 END:VEVENT
 BEGIN:VEVENT
 UID:fe3fba93ebabafebbb1844eb0b92905cb283d1e5@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260911
 DTEND;VALUE=DATE:20260912
 SUMMARY:Practical Magic 2 @ Merlin Falmouth
@@ -293,7 +288,7 @@ URL:/film/practical-magic-2
 END:VEVENT
 BEGIN:VEVENT
 UID:3089940f420b405c8f0b82719aafaf7ca2100848@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260918
 DTEND;VALUE=DATE:20260919
 SUMMARY:Resident Evil @ Merlin Falmouth
@@ -309,7 +304,7 @@ URL:/film/resident-evil
 END:VEVENT
 BEGIN:VEVENT
 UID:46ab4a1ec76a0285db1ba28c0967084d51bac950@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260918
 DTEND;VALUE=DATE:20260919
 SUMMARY:Shaun The Sheep: The Beast Of Mossy Bottom @ Merlin Falmouth
@@ -329,7 +324,7 @@ URL:/film/shaun-the-sheep-the-beast-of-mossy-bottom
 END:VEVENT
 BEGIN:VEVENT
 UID:f4752aac19b11168cb77b2229d5779a9315f9662@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261003
 SUMMARY:Verity @ Merlin Falmouth
@@ -346,7 +341,7 @@ URL:/film/verity
 END:VEVENT
 BEGIN:VEVENT
 UID:7865f92c5304dd2734899c940ea7ff887b493624@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:Street Fighter @ Merlin Falmouth
@@ -365,7 +360,7 @@ URL:/film/street-fighter
 END:VEVENT
 BEGIN:VEVENT
 UID:8daaedaaf7dc32752496aa0ab58d659f7eae500e@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:Forgotten Island @ Merlin Falmouth
@@ -382,7 +377,7 @@ URL:/film/forgotten-island
 END:VEVENT
 BEGIN:VEVENT
 UID:592508081cd1cdb3a212abffdb19d377a1315546@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Clayface @ Merlin Falmouth
@@ -399,7 +394,7 @@ URL:/film/clayface
 END:VEVENT
 BEGIN:VEVENT
 UID:5a1078c0749187a9850db224efea7ab181588252@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:Wild Horse Nine @ Merlin Falmouth
@@ -418,7 +413,7 @@ URL:/film/wild-horse-nine
 END:VEVENT
 BEGIN:VEVENT
 UID:8f69e1987c70055beceb39a7b5602b50222e47e8@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:The Hunger Games: Sunrise On The Reaping @ Merlin Falmouth
@@ -435,7 +430,7 @@ URL:/film/the-hunger-games-sunrise-on-the-reaping
 END:VEVENT
 BEGIN:VEVENT
 UID:7432c7574030f71668c0b8839f29f427bcdca8c6@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Focker-In-Law @ Merlin Falmouth
@@ -451,7 +446,7 @@ URL:/film/fockerinlaw
 END:VEVENT
 BEGIN:VEVENT
 UID:9394e6cb2da8a8565a6ce1bcd3fa88717d4893ff@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
 SUMMARY:Dune: Part Three @ Merlin Falmouth
@@ -468,7 +463,7 @@ URL:/film/dune-part-three
 END:VEVENT
 BEGIN:VEVENT
 UID:b4979aadd91cae791903e42899305d062336908f@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
 SUMMARY:Avengers: Doomsday @ Merlin Falmouth
@@ -483,24 +478,23 @@ LOCATION:Merlin Cinemas Falmouth
 URL:/film/avengers-doomsday
 END:VEVENT
 BEGIN:VEVENT
-UID:e3988516cf1930f1b0a6edf1c36d476dc3712e28@merlin-cinemas
-DTSTAMP:20260603T145957Z
+UID:6c6abd0f4317f4e6a43ef906dfee06ba17027afa@merlin-cinemas
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
-SUMMARY:The Scarecrows' Wedding & The Smeds And The Smoos - @ Merlin Falmou
- th
-DESCRIPTION:The Scarecrows' Wedding & The Smeds And The Smoos - (26 min)\nA
- nimation\, Family\, Romance\, TV Movie\n\nDevoted scarecrows Betty O'Barle
- y and Harry O'Hay are planning a wedding to remember. When Harry insists o
- n leaving the farm to collect one last thing for their big day\, smooth-ta
- lking Reginald Rake swoops in with plans of his own. Chaos follows\, and s
- oon Betty's in danger and everything's at risk. Can Harry get back in time
-  and save the day?\n\nStarring: Sophie Okonedo\, Jessie Buckley\, Domhnall
-  Gleeson\, Rob Brydon\, Doon Mackichan\, Rasmus Hardiker\n\nFilm release a
- t Merlin Cinemas Falmouth\nBook tickets: /film/the-scarecrows-wedding-the-
- smeds-and-the-smoos-toddler-cinema\n\nFilm details: https://evenwebb.githu
- b.io/merlin-cinemas/films/the-scarecrows-wedding-the-smeds-and-the-smoos.h
- tml
+SUMMARY:The Scarecrows' Wedding & The Smeds And The Smoos @ Merlin Falmouth
+DESCRIPTION:The Scarecrows' Wedding & The Smeds And The Smoos (26 min)\nAni
+ mation\, Family\, Romance\, TV Movie\n\nDevoted scarecrows Betty O'Barley 
+ and Harry O'Hay are planning a wedding to remember. When Harry insists on 
+ leaving the farm to collect one last thing for their big day\, smooth-talk
+ ing Reginald Rake swoops in with plans of his own. Chaos follows\, and soo
+ n Betty's in danger and everything's at risk. Can Harry get back in time a
+ nd save the day?\n\nStarring: Sophie Okonedo\, Jessie Buckley\, Domhnall G
+ leeson\, Rob Brydon\, Doon Mackichan\, Rasmus Hardiker\n\nFilm release at 
+ Merlin Cinemas Falmouth\nBook tickets: /film/the-scarecrows-wedding-the-sm
+ eds-and-the-smoos-toddler-cinema\n\nFilm details: https://evenwebb.github.
+ io/merlin-cinemas/films/the-scarecrows-wedding-the-smeds-and-the-smoos.htm
+ l
 LOCATION:Merlin Cinemas Falmouth
 URL:/film/the-scarecrows-wedding-the-smeds-and-the-smoos-toddler-cinema
 END:VEVENT

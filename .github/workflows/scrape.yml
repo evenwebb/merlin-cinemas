@@ -21,8 +21,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
       - name: Install dependencies
-        run: pip install --user -r requirements.txt
+        run: python -m pip install -r requirements.txt
 
       - name: Restore scraper caches
         uses: actions/cache@v4
@@ -80,8 +85,8 @@ jobs:
                 FOUND=$((FOUND + $(grep -c 'BEGIN:VEVENT' "$f" 2>/dev/null || echo 0)))
               fi
             done
-            PAGES=$(ls docs/films/*.html 2>/dev/null | wc -l)
-            CINEMAS=$(ls docs/*.html 2>/dev/null | grep -v index | wc -l)
+            PAGES=$(find docs/films -maxdepth 1 -name '*.html' | wc -l)
+            CINEMAS=$(find docs -maxdepth 1 -name '*.html' ! -name 'index.html' | wc -l)
             git commit -m "Update: ${FOUND} premieres, ${PAGES} film pages, ${CINEMAS} cinema pages — $(date -u +'%Y-%m-%d %H:%M UTC')"
             git push
           fi

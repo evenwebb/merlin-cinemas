@@ -3,14 +3,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Zog &amp; Zog And The Flying Doctors - Merlin Cinemas</title>
-  <meta name="description" content="Pearl and Gadabout are now a flying doctor trio, caring for creatures including a mermaid, a unicorn and a sneezy lion. However when bad weather forces them to ">
-  <meta property="og:title" content="Zog &amp; Zog And The Flying Doctors - Merlin Cinemas">
-  <meta property="og:description" content="Pearl and Gadabout are now a flying doctor trio, caring for creatures including a mermaid, a unicorn and a sneezy lion. However when bad weather forces them to land at the palace, Pearl is locked up b">
+  <title>Zog And The Flying Doctors - Merlin Cinemas</title>
+  <meta name="description" content="A special Toddler Cinema event at Merlin Cinemas. Check the showtimes below for dates and booking.">
+  <meta property="og:title" content="Zog And The Flying Doctors - Merlin Cinemas">
+  <meta property="og:description" content="A special Toddler Cinema event at Merlin Cinemas. Check the showtimes below for dates and booking.">
   <meta property="og:type" content="website">
-    <meta property="og:image" content="posters/zog-zog-and-the-flying-doctors.jpg">
-  <meta property="og:url" content="https://evenwebb.github.io/merlin-cinemas/films/zog-zog-and-the-flying-doctors.html">
-  <meta name="twitter:card" content="summary_large_image">
+    <meta property="og:url" content="https://evenwebb.github.io/merlin-cinemas/films/zog-and-the-flying-doctors.html">
+  <meta name="twitter:card" content="summary">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎬</text></svg>">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -55,9 +54,19 @@ body{position:relative}
 .film-info .crew p{font-size:0.88rem;color:var(--text-muted);padding:0.55rem 0;border-bottom:1px solid var(--border)}
 .film-info .crew p:last-child{border-bottom:none}
 .film-info .crew strong{color:var(--text);margin-right:0.5rem;font-weight:600}
-.links{display:flex;flex-wrap:wrap;gap:0.5rem;margin-bottom:1.5rem}
-.ext-link{display:inline-flex;align-items:center;padding:0.45rem 0.85rem;background:var(--surface);border:1px solid var(--border);border-radius:100px;color:var(--text-muted);text-decoration:none;font-size:0.82rem;font-weight:500;transition:all var(--transition)}
-.ext-link:hover{border-color:var(--accent);color:var(--accent);background:var(--accent-dim)}
+.links{display:flex;flex-wrap:wrap;gap:0.6rem;margin-bottom:1.5rem}
+.ext-link{display:inline-flex;align-items:center;gap:0.55rem;padding:0.45rem 0.85rem;background:var(--surface);border:1px solid var(--border);border-radius:100px;color:var(--text-muted);text-decoration:none;font-size:0.82rem;font-weight:500;transition:all var(--transition)}
+.ext-link:hover{transform:translateY(-1px);box-shadow:0 4px 15px rgba(0,0,0,0.18)}
+.ext-link::before{content:"";width:1rem;height:1rem;display:inline-block;flex-shrink:0;background:currentColor;mask-position:center;mask-repeat:no-repeat;mask-size:contain;-webkit-mask-position:center;-webkit-mask-repeat:no-repeat;-webkit-mask-size:contain}
+.ext-link[href*="imdb.com"]{color:#f5c518;background:rgba(245,197,24,0.1);border-color:rgba(245,197,24,0.24)}
+.ext-link[href*="imdb.com"]:hover{background:rgba(245,197,24,0.16);border-color:#f5c518}
+.ext-link[href*="imdb.com"]::before{mask-image:url(../ratings/imdb.svg);-webkit-mask-image:url(../ratings/imdb.svg)}
+.ext-link[href*="rottentomatoes.com"]{color:#fa320a;background:rgba(250,50,10,0.1);border-color:rgba(250,50,10,0.24)}
+.ext-link[href*="rottentomatoes.com"]:hover{background:rgba(250,50,10,0.16);border-color:#fa320a}
+.ext-link[href*="rottentomatoes.com"]::before{mask-image:url(../ratings/rottentomatoes.svg);-webkit-mask-image:url(../ratings/rottentomatoes.svg)}
+.ext-link[href*="trakt.tv"]{color:#ed1c24;background:rgba(237,28,36,0.1);border-color:rgba(237,28,36,0.24)}
+.ext-link[href*="trakt.tv"]:hover{background:rgba(237,28,36,0.16);border-color:#ed1c24}
+.ext-link[href*="trakt.tv"]::before{mask-image:url(../ratings/trakt.svg);-webkit-mask-image:url(../ratings/trakt.svg)}
 .trailer-section{margin-bottom:2.5rem}
 .trailer-section h2{font-size:1.1rem;font-weight:700;margin-bottom:0.85rem;color:var(--accent)}
 .trailer-wrap{position:relative;width:100%;aspect-ratio:16/9;background:#000;border-radius:14px;overflow:hidden;box-shadow:0 4px 25px rgba(0,0,0,0.5),0 0 0 1px rgba(34,211,238,0.1)}
@@ -137,32 +146,24 @@ tr.nearest-cinema-row td:first-child{border-left:3px solid var(--accent)}
 </head>
 <body>
   <div class="bg-mesh" aria-hidden="true"></div>
-<div class="backdrop-wrap">
-  <img src="https://image.tmdb.org/t/p/w780/3VeNFWlxgCJd7Oq8EvoSv50N5Jv.jpg" alt="" class="backdrop-img" loading="lazy" decoding="async">
-</div>
   <div class="page">
     <a href="../" class="back-btn">← Back to all premieres</a>
     <div class="film-layout">
-      <div class="poster"><img src="../posters/zog-zog-and-the-flying-doctors.jpg" alt="Poster for Zog &amp; Zog And The Flying Doctors" loading="lazy"></div>
+      <div class="poster"><div class="no-poster">No poster available</div></div>
       <div class="film-info">
-        <h1>Zog &amp; Zog And The Flying Doctors <span class="cert cert--U" aria-label="Rated U" title="Rated U"></span> <span class="screening-badge">Toddler Cinema</span></h1>
-        <div class="meta"><span class="cert cert--u" title="U"></span><span>25 min</span><span class="stars">★★★☆☆</span><span class="rating-pill">6.5/10</span><span class="genres">Animation, Family, Fantasy, TV Movie</span></div>
-        <div class="synopsis">Pearl and Gadabout are now a flying doctor trio, caring for creatures including a mermaid, a unicorn and a sneezy lion. However when bad weather forces them to land at the palace, Pearl is locked up by her uncle, the king.</div>
+        <h1>Zog And The Flying Doctors <span class="cert cert--u" aria-label="Rated U" title="Rated U"></span> <span class="screening-badge">Toddler Cinema</span></h1>
+        <div class="meta"><span class="cert cert--u" title="U"></span></div>
+        <div class="synopsis">A special Toddler Cinema event at Merlin Cinemas. Check the showtimes below for dates and booking.</div>
         <div class="links">
-          <a href="https://www.imdb.com/title/tt11301374/" class="ext-link" target="_blank" rel="noopener">IMDb</a>
-          <a href="https://www.rottentomatoes.com/search?search=Zog &amp; Zog And The Flying Doctors" class="ext-link" target="_blank" rel="noopener">Rotten Tomatoes</a>
-          <a href="https://trakt.tv/search?query=Zog &amp; Zog And The Flying Doctors" class="ext-link" target="_blank" rel="noopener">Trakt</a>
+          <a href="https://www.rottentomatoes.com/search?search=Zog And The Flying Doctors" class="ext-link" target="_blank" rel="noopener">Rotten Tomatoes</a>
+          <a href="https://trakt.tv/search?query=Zog And The Flying Doctors" class="ext-link" target="_blank" rel="noopener">Trakt</a>
         </div>
-    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Movie", "name": "Zog & Zog And The Flying Doctors", "description": "Pearl and Gadabout are now a flying doctor trio, caring for creatures including a mermaid, a unicorn and a sneezy lion. However when bad weather forces them to land at the palace, Pearl is locked up by her uncle, the king.", "image": "posters/zog-zog-and-the-flying-doctors.jpg", "director": {"@type": "Person", "name": "Sean Mullen"}, "aggregateRating": {"@type": "AggregateRating", "ratingValue": 6.5, "bestRating": 10}, "genre": ["Animation", "Family", "Fantasy", "TV Movie"]}</script>
-        <div class="crew">
-          <p><strong>Director:</strong> Sean Mullen</p>
-          <p><strong>Starring:</strong> Lenny Henry, Patsy Ferran, Daniel Ings, Hugh Skinner, Alexandra Roach, Mark Bonnar</p>
-        </div>
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Movie", "name": "Zog And The Flying Doctors", "description": "A special Toddler Cinema event at Merlin Cinemas. Check the showtimes below for dates and booking.", "image": null}</script>
     </div>
   </div>
     <div class="trailer-section">
       <h2>Trailer</h2>
-      <div class="trailer-wrap"><iframe src="https://www.youtube-nocookie.com/embed/oygOJ1giP98" title="Trailer for Zog &amp; Zog And The Flying Doctors" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
+      <div class="trailer-wrap"><div class="no-trailer">No trailer available</div></div>
     </div>
     <div class="cinema-section">
       <h2>Showtimes & Cinemas <button type="button" id="tag-key-btn" class="tag-key-btn" aria-label="Accessibility key" title="Accessibility key">ⓘ</button></h2>
@@ -179,12 +180,12 @@ tr.nearest-cinema-row td:first-child{border-left:3px solid var(--accent)}
         <table class="cinema-table">
           <thead><tr><th>Date</th><th>Time</th><th>Cinema</th><th></th></tr></thead>
           <tbody>
-<tr data-film-cinema="helston"><td class="date-cell">Sun 07 Jun</td><td class="time-cell">11:15</td><td class="cinema-cell">Merlin Helston <span class="screen-badge">Screen 1</span></td><td class="book-cell"><a href="https://merlinhelston.admit-one.eu/?p=tickets&amp;perfCode=34593" class="table-book-btn" target="_blank" rel="noopener">Book →</a></td></tr>
 <tr data-film-cinema="bodmin"><td class="date-cell">Sun 07 Jun</td><td class="time-cell">11:15</td><td class="cinema-cell">Merlin Bodmin <span class="screen-badge">Screen 1</span></td><td class="book-cell"><a href="https://merlinbodmin.admit-one.eu/?p=tickets&amp;perfCode=50952" class="table-book-btn" target="_blank" rel="noopener">Book →</a></td></tr>
 <tr data-film-cinema="falmouth"><td class="date-cell">Sun 07 Jun</td><td class="time-cell">11:15</td><td class="cinema-cell">Merlin Falmouth <span class="screen-badge">Screen 1</span></td><td class="book-cell"><a href="https://merlinfalmouth.admit-one.eu/?p=tickets&amp;perfCode=84693" class="table-book-btn" target="_blank" rel="noopener">Book →</a></td></tr>
-<tr data-film-cinema="st-ives"><td class="date-cell">Sun 07 Jun</td><td class="time-cell">11:15</td><td class="cinema-cell">Merlin St Ives <span class="screen-badge">Screen 1</span></td><td class="book-cell"><a href="https://merlinstives.admit-one.eu/?p=tickets&amp;perfCode=38156" class="table-book-btn" target="_blank" rel="noopener">Book →</a></td></tr>
-<tr data-film-cinema="redruth"><td class="date-cell">Sun 07 Jun</td><td class="time-cell">11:15</td><td class="cinema-cell">Merlin Redruth <span class="screen-badge">Screen 1</span></td><td class="book-cell"><a href="https://merlinredruth.admit-one.eu/?p=tickets&amp;perfCode=89148" class="table-book-btn" target="_blank" rel="noopener">Book →</a></td></tr>
+<tr data-film-cinema="helston"><td class="date-cell">Sun 07 Jun</td><td class="time-cell">11:15</td><td class="cinema-cell">Merlin Helston <span class="screen-badge">Screen 1</span></td><td class="book-cell"><a href="https://merlinhelston.admit-one.eu/?p=tickets&amp;perfCode=34593" class="table-book-btn" target="_blank" rel="noopener">Book →</a></td></tr>
 <tr data-film-cinema="penzance"><td class="date-cell">Sun 07 Jun</td><td class="time-cell">11:15</td><td class="cinema-cell">Merlin Penzance <span class="screen-badge">Screen 1</span></td><td class="book-cell"><a href="https://merlinpenzance.admit-one.eu/?p=tickets&amp;perfCode=59517" class="table-book-btn" target="_blank" rel="noopener">Book →</a></td></tr>
+<tr data-film-cinema="redruth"><td class="date-cell">Sun 07 Jun</td><td class="time-cell">11:15</td><td class="cinema-cell">Merlin Redruth <span class="screen-badge">Screen 1</span></td><td class="book-cell"><a href="https://merlinredruth.admit-one.eu/?p=tickets&amp;perfCode=89148" class="table-book-btn" target="_blank" rel="noopener">Book →</a></td></tr>
+<tr data-film-cinema="st-ives"><td class="date-cell">Sun 07 Jun</td><td class="time-cell">11:15</td><td class="cinema-cell">Merlin St Ives <span class="screen-badge">Screen 1</span></td><td class="book-cell"><a href="https://merlinstives.admit-one.eu/?p=tickets&amp;perfCode=38156" class="table-book-btn" target="_blank" rel="noopener">Book →</a></td></tr>
           </tbody>
         </table>
       </div>
@@ -264,7 +265,7 @@ table.parentNode.insertBefore(label,table);
         <span aria-hidden="true"> · </span>
         <a href="../">All premieres</a>
       </div>
-      <p class="footer-updated">Last updated: 2026-06-03 14:59 UTC</p>
+      <p class="footer-updated">Last updated: 2026-06-03 16:35 BST</p>
     </footer>
   </div>
 </body>

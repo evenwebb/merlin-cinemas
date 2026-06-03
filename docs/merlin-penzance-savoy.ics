@@ -10,7 +10,7 @@ X-WR-CALDESC:Upcoming movie premieres at Merlin Cinemas Savoy Cinema
 X-WR-TIMEZONE:Europe/London
 BEGIN:VEVENT
 UID:f129a57b330d7872597e73eb7cbf3e6c71ca4c6c@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260603
 DTEND;VALUE=DATE:20260604
 SUMMARY:Bonnie & Clive with The Jive Aces @ Merlin Penzance
@@ -25,26 +25,21 @@ LOCATION:Merlin Cinemas Penzance
 URL:/film/bonnie-clive-with-the-jive-aces-double-bill
 END:VEVENT
 BEGIN:VEVENT
-UID:31008e2a82f58ad6d61f32e51b5f6514b7baed7a@merlin-cinemas
-DTSTAMP:20260603T145957Z
+UID:0859f8d3473f9a934b22ad1a3a28a17eed7db479@merlin-cinemas
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260607
 DTEND;VALUE=DATE:20260608
-SUMMARY:Zog & Zog And The Flying Doctors @ Merlin Penzance
-DESCRIPTION:Zog & Zog And The Flying Doctors (25 min)\n★★★☆☆\nAnimation\, F
- amily\, TV Movie\, Fantasy\n\nPearl and Gadabout are now a flying doctor t
- rio\, caring for creatures including a mermaid\, a unicorn and a sneezy li
- on. However when bad weather forces them to land at the palace\, Pearl is 
- locked up by her uncle\, the king.\n\nStarring: Lenny Henry\, Patsy Ferran
- \, Daniel Ings\, Hugh Skinner\, Alexandra Roach\, Mark Bonnar\n\nFilm rele
- ase at Merlin Cinemas Penzance\nBook tickets: /film/zog-zog-and-the-flying
- -doctors-toddler-cinema\n\nFilm details: https://evenwebb.github.io/merlin
- -cinemas/films/zog-zog-and-the-flying-doctors.html
+SUMMARY:Zog And The Flying Doctors @ Merlin Penzance
+DESCRIPTION:Zog And The Flying Doctors\n\nFilm release at Merlin Cinemas Pe
+ nzance\nBook tickets: /film/zog-zog-and-the-flying-doctors-toddler-cinema\
+ n\nFilm details: https://evenwebb.github.io/merlin-cinemas/films/zog-and-t
+ he-flying-doctors.html
 LOCATION:Merlin Cinemas Penzance
 URL:/film/zog-zog-and-the-flying-doctors-toddler-cinema
 END:VEVENT
 BEGIN:VEVENT
 UID:97801e04d8daa0dde0b0ac17e091023084f05ea9@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260618
 DTEND;VALUE=DATE:20260619
 SUMMARY:Toy Story 5 @ Merlin Penzance
@@ -61,7 +56,7 @@ URL:/film/toy-story-5
 END:VEVENT
 BEGIN:VEVENT
 UID:65646ab9c23e7af3b79f9241765df30a064080ae@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260625
 DTEND;VALUE=DATE:20260626
 SUMMARY:Supergirl @ Merlin Penzance
@@ -78,7 +73,7 @@ URL:/film/supergirl
 END:VEVENT
 BEGIN:VEVENT
 UID:446bb26419889f3590614f98c618fd70e93cc95f@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260626
 DTEND;VALUE=DATE:20260627
 SUMMARY:Jackass: Best And Last @ Merlin Penzance
@@ -94,7 +89,7 @@ URL:/film/jackass-best-and-last
 END:VEVENT
 BEGIN:VEVENT
 UID:c7a527104a3c37e1f6873a9671d1eca0c5ff35f7@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260626
 DTEND;VALUE=DATE:20260627
 SUMMARY:500 Miles @ Merlin Penzance
@@ -111,7 +106,7 @@ URL:/film/500-miles
 END:VEVENT
 BEGIN:VEVENT
 UID:1d7752889226df4ebc456f6051381cfbfcdd3000@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260701
 DTEND;VALUE=DATE:20260702
 SUMMARY:Minions & Monsters @ Merlin Penzance
@@ -129,7 +124,7 @@ URL:/film/minions-monsters
 END:VEVENT
 BEGIN:VEVENT
 UID:749945302c7905e37a18dcad7fece66eaf0398fe@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260710
 DTEND;VALUE=DATE:20260711
 SUMMARY:Evil Dead Burn @ Merlin Penzance
@@ -146,7 +141,7 @@ URL:/film/evil-dead-burn
 END:VEVENT
 BEGIN:VEVENT
 UID:5f014647f1ae0c2b8bdce720e4adf95edf142346@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260710
 DTEND;VALUE=DATE:20260711
 SUMMARY:Moana @ Merlin Penzance
@@ -162,7 +157,7 @@ URL:/film/moana
 END:VEVENT
 BEGIN:VEVENT
 UID:989b96b409d08c5ff7f3bf41d37c42b2e50b3948@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260717
 DTEND;VALUE=DATE:20260718
 SUMMARY:The Odyssey @ Merlin Penzance
@@ -180,7 +175,7 @@ URL:/film/the-odyssey
 END:VEVENT
 BEGIN:VEVENT
 UID:82bc8026e2a8768286ccb2528df03e85ec1ca95f@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260731
 DTEND;VALUE=DATE:20260801
 SUMMARY:Spider-Man: Brand New Day @ Merlin Penzance
@@ -202,7 +197,7 @@ URL:/film/spiderman-brand-new-day
 END:VEVENT
 BEGIN:VEVENT
 UID:4cc85c01695a66e9742c98164fb2da91ba6834c3@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260807
 DTEND;VALUE=DATE:20260808
 SUMMARY:PAW Patrol: The Dino Movie @ Merlin Penzance
@@ -225,7 +220,7 @@ URL:/film/paw-patrol-the-dino-movie
 END:VEVENT
 BEGIN:VEVENT
 UID:af41e7bc72cef1540bc68abaf44e6ef0912bd009@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260821
 DTEND;VALUE=DATE:20260822
 SUMMARY:Insidious: Out Of The Further @ Merlin Penzance
@@ -242,7 +237,7 @@ URL:/film/insidious-out-of-the-further
 END:VEVENT
 BEGIN:VEVENT
 UID:7a3317ec07e781c53377fd0a12ceec5c3d63208c@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260826
 DTEND;VALUE=DATE:20260827
 SUMMARY:The Dog Stars @ Merlin Penzance
@@ -260,7 +255,7 @@ URL:/film/the-dog-stars
 END:VEVENT
 BEGIN:VEVENT
 UID:630ae20b6103cb8e2f667ba58d7d2c63cd7793d9@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260909
 DTEND;VALUE=DATE:20260910
 SUMMARY:Pressure @ Merlin Penzance
@@ -278,7 +273,7 @@ URL:/film/pressure
 END:VEVENT
 BEGIN:VEVENT
 UID:d2738f61244904a17e2feb94922b467726971bca@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260911
 DTEND;VALUE=DATE:20260912
 SUMMARY:Practical Magic 2 @ Merlin Penzance
@@ -293,7 +288,7 @@ URL:/film/practical-magic-2
 END:VEVENT
 BEGIN:VEVENT
 UID:17fa0e4b0c62e45fbc063877d8f56085cbb8a290@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260918
 DTEND;VALUE=DATE:20260919
 SUMMARY:Resident Evil @ Merlin Penzance
@@ -309,7 +304,7 @@ URL:/film/resident-evil
 END:VEVENT
 BEGIN:VEVENT
 UID:cb9ac7863a791499e8429c0b27d0bdafa3cb4ee9@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260918
 DTEND;VALUE=DATE:20260919
 SUMMARY:Shaun The Sheep: The Beast Of Mossy Bottom @ Merlin Penzance
@@ -329,7 +324,7 @@ URL:/film/shaun-the-sheep-the-beast-of-mossy-bottom
 END:VEVENT
 BEGIN:VEVENT
 UID:3e19a7db406588f7f21ecfd0bafaba02c3bce017@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261003
 SUMMARY:Verity @ Merlin Penzance
@@ -346,7 +341,7 @@ URL:/film/verity
 END:VEVENT
 BEGIN:VEVENT
 UID:d7584ca900c8832ffb2ecacf2d12199f881ec812@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:Street Fighter @ Merlin Penzance
@@ -365,7 +360,7 @@ URL:/film/street-fighter
 END:VEVENT
 BEGIN:VEVENT
 UID:2549430adf8ab65479b2dd3e34b65ea00660d500@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:Forgotten Island @ Merlin Penzance
@@ -382,7 +377,7 @@ URL:/film/forgotten-island
 END:VEVENT
 BEGIN:VEVENT
 UID:d6ca24ff7adc4dbfdb54b5ce248ef1c1b5a5d36b@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Clayface @ Merlin Penzance
@@ -399,7 +394,7 @@ URL:/film/clayface
 END:VEVENT
 BEGIN:VEVENT
 UID:ba3e11a9e0728920ef1ca4df949def086fdf6f0e@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:Wild Horse Nine @ Merlin Penzance
@@ -418,7 +413,7 @@ URL:/film/wild-horse-nine
 END:VEVENT
 BEGIN:VEVENT
 UID:3862cd142dc2544a72db54645aab88d043badb43@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:The Hunger Games: Sunrise On The Reaping @ Merlin Penzance
@@ -435,7 +430,7 @@ URL:/film/the-hunger-games-sunrise-on-the-reaping
 END:VEVENT
 BEGIN:VEVENT
 UID:f5983670fd0c58ffbebb895520192c91467b4864@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Focker-In-Law @ Merlin Penzance
@@ -451,7 +446,7 @@ URL:/film/fockerinlaw
 END:VEVENT
 BEGIN:VEVENT
 UID:8ffda1331ed8fe5acf4c3a517446e571cb5da7c2@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
 SUMMARY:Dune: Part Three @ Merlin Penzance
@@ -468,7 +463,7 @@ URL:/film/dune-part-three
 END:VEVENT
 BEGIN:VEVENT
 UID:99cb352bb6c730eca816e0c6f22d019bd5547a9c@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
 SUMMARY:Avengers: Doomsday @ Merlin Penzance
@@ -483,24 +478,23 @@ LOCATION:Merlin Cinemas Penzance
 URL:/film/avengers-doomsday
 END:VEVENT
 BEGIN:VEVENT
-UID:6554c50d6ce12c9c9034d19a13fb9646e56ecf0f@merlin-cinemas
-DTSTAMP:20260603T145957Z
+UID:0e6c2128dbc0d3b34ff60b3945c6c5e4c97d979d@merlin-cinemas
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
-SUMMARY:The Scarecrows' Wedding & The Smeds And The Smoos - @ Merlin Penzan
- ce
-DESCRIPTION:The Scarecrows' Wedding & The Smeds And The Smoos - (26 min)\nA
- nimation\, Family\, Romance\, TV Movie\n\nDevoted scarecrows Betty O'Barle
- y and Harry O'Hay are planning a wedding to remember. When Harry insists o
- n leaving the farm to collect one last thing for their big day\, smooth-ta
- lking Reginald Rake swoops in with plans of his own. Chaos follows\, and s
- oon Betty's in danger and everything's at risk. Can Harry get back in time
-  and save the day?\n\nStarring: Sophie Okonedo\, Jessie Buckley\, Domhnall
-  Gleeson\, Rob Brydon\, Doon Mackichan\, Rasmus Hardiker\n\nFilm release a
- t Merlin Cinemas Penzance\nBook tickets: /film/the-scarecrows-wedding-the-
- smeds-and-the-smoos-toddler-cinema\n\nFilm details: https://evenwebb.githu
- b.io/merlin-cinemas/films/the-scarecrows-wedding-the-smeds-and-the-smoos.h
- tml
+SUMMARY:The Scarecrows' Wedding & The Smeds And The Smoos @ Merlin Penzance
+DESCRIPTION:The Scarecrows' Wedding & The Smeds And The Smoos (26 min)\nAni
+ mation\, Family\, Romance\, TV Movie\n\nDevoted scarecrows Betty O'Barley 
+ and Harry O'Hay are planning a wedding to remember. When Harry insists on 
+ leaving the farm to collect one last thing for their big day\, smooth-talk
+ ing Reginald Rake swoops in with plans of his own. Chaos follows\, and soo
+ n Betty's in danger and everything's at risk. Can Harry get back in time a
+ nd save the day?\n\nStarring: Sophie Okonedo\, Jessie Buckley\, Domhnall G
+ leeson\, Rob Brydon\, Doon Mackichan\, Rasmus Hardiker\n\nFilm release at 
+ Merlin Cinemas Penzance\nBook tickets: /film/the-scarecrows-wedding-the-sm
+ eds-and-the-smoos-toddler-cinema\n\nFilm details: https://evenwebb.github.
+ io/merlin-cinemas/films/the-scarecrows-wedding-the-smeds-and-the-smoos.htm
+ l
 LOCATION:Merlin Cinemas Penzance
 URL:/film/the-scarecrows-wedding-the-smeds-and-the-smoos-toddler-cinema
 END:VEVENT

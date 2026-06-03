@@ -10,7 +10,7 @@ X-WR-CALDESC:Upcoming movie premieres at Merlin Cinemas Royal Cinema
 X-WR-TIMEZONE:Europe/London
 BEGIN:VEVENT
 UID:4f6350920dd87ee93a4ebd8c5285817b7c280745@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260603
 DTEND;VALUE=DATE:20260604
 SUMMARY:Bonnie & Clive with The Jive Aces @ Merlin St Ives
@@ -26,7 +26,7 @@ URL:/film/bonnie-clive-with-the-jive-aces-double-bill
 END:VEVENT
 BEGIN:VEVENT
 UID:48766bfc1424e17d09661cfb11964ebcad1d28b8@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260604
 DTEND;VALUE=DATE:20260605
 SUMMARY:The Amazing Digital Circus: The Last Act @ Merlin St Ives
@@ -47,26 +47,21 @@ LOCATION:Merlin Cinemas St Ives
 URL:/film/the-amazing-digital-circus-the-last-act
 END:VEVENT
 BEGIN:VEVENT
-UID:c69c596589b4d6f5a7524e1a3c5cc3e111e37c95@merlin-cinemas
-DTSTAMP:20260603T145957Z
+UID:b847fc3fc642651d5db5e236108c94db3aacd1b5@merlin-cinemas
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260607
 DTEND;VALUE=DATE:20260608
-SUMMARY:Zog & Zog And The Flying Doctors @ Merlin St Ives
-DESCRIPTION:Zog & Zog And The Flying Doctors (25 min)\n★★★☆☆\nAnimation\, F
- amily\, TV Movie\, Fantasy\n\nPearl and Gadabout are now a flying doctor t
- rio\, caring for creatures including a mermaid\, a unicorn and a sneezy li
- on. However when bad weather forces them to land at the palace\, Pearl is 
- locked up by her uncle\, the king.\n\nStarring: Lenny Henry\, Patsy Ferran
- \, Daniel Ings\, Hugh Skinner\, Alexandra Roach\, Mark Bonnar\n\nFilm rele
- ase at Merlin Cinemas St Ives\nBook tickets: /film/zog-zog-and-the-flying-
- doctors-toddler-cinema\n\nFilm details: https://evenwebb.github.io/merlin-
- cinemas/films/zog-zog-and-the-flying-doctors.html
+SUMMARY:Zog And The Flying Doctors @ Merlin St Ives
+DESCRIPTION:Zog And The Flying Doctors\n\nFilm release at Merlin Cinemas St
+  Ives\nBook tickets: /film/zog-zog-and-the-flying-doctors-toddler-cinema\n
+ \nFilm details: https://evenwebb.github.io/merlin-cinemas/films/zog-and-th
+ e-flying-doctors.html
 LOCATION:Merlin Cinemas St Ives
 URL:/film/zog-zog-and-the-flying-doctors-toddler-cinema
 END:VEVENT
 BEGIN:VEVENT
 UID:092e76f2f5b30d12c0eb945658c182a062869aaf@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260618
 DTEND;VALUE=DATE:20260619
 SUMMARY:Toy Story 5 @ Merlin St Ives
@@ -83,7 +78,7 @@ URL:/film/toy-story-5
 END:VEVENT
 BEGIN:VEVENT
 UID:61bd7677c9b41fdeb33bed379c9d6aaf61c4b7d2@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260625
 DTEND;VALUE=DATE:20260626
 SUMMARY:Supergirl @ Merlin St Ives
@@ -100,7 +95,7 @@ URL:/film/supergirl
 END:VEVENT
 BEGIN:VEVENT
 UID:d4288fd006f96c817e6b597c0d372f61378d46e8@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260626
 DTEND;VALUE=DATE:20260627
 SUMMARY:Jackass: Best And Last @ Merlin St Ives
@@ -116,7 +111,7 @@ URL:/film/jackass-best-and-last
 END:VEVENT
 BEGIN:VEVENT
 UID:26f845a4f8798a40f8fb926f89cffb7b692dde26@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260626
 DTEND;VALUE=DATE:20260627
 SUMMARY:500 Miles @ Merlin St Ives
@@ -133,7 +128,7 @@ URL:/film/500-miles
 END:VEVENT
 BEGIN:VEVENT
 UID:366cd478bc44fd7518ab5d06f2d694dfa4529be3@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260701
 DTEND;VALUE=DATE:20260702
 SUMMARY:Minions & Monsters @ Merlin St Ives
@@ -151,7 +146,7 @@ URL:/film/minions-monsters
 END:VEVENT
 BEGIN:VEVENT
 UID:9cc7c67a81a435b7f850ce6323b19a5e81a10598@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260710
 DTEND;VALUE=DATE:20260711
 SUMMARY:Evil Dead Burn @ Merlin St Ives
@@ -168,7 +163,7 @@ URL:/film/evil-dead-burn
 END:VEVENT
 BEGIN:VEVENT
 UID:aba3f9fc7c8e02733b7f681b646d68fa813c148c@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260710
 DTEND;VALUE=DATE:20260711
 SUMMARY:Moana @ Merlin St Ives
@@ -184,7 +179,7 @@ URL:/film/moana
 END:VEVENT
 BEGIN:VEVENT
 UID:58baa486976074c0b88f97e3d16dbe4cac60145f@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260717
 DTEND;VALUE=DATE:20260718
 SUMMARY:The Odyssey @ Merlin St Ives
@@ -202,7 +197,7 @@ URL:/film/the-odyssey
 END:VEVENT
 BEGIN:VEVENT
 UID:fa8f56c7c677437ef432c8b4715980b489942117@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260731
 DTEND;VALUE=DATE:20260801
 SUMMARY:Spider-Man: Brand New Day @ Merlin St Ives
@@ -224,7 +219,7 @@ URL:/film/spiderman-brand-new-day
 END:VEVENT
 BEGIN:VEVENT
 UID:e10d6522dd29a7835a911054f0c73f06d009372c@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260807
 DTEND;VALUE=DATE:20260808
 SUMMARY:PAW Patrol: The Dino Movie @ Merlin St Ives
@@ -247,7 +242,7 @@ URL:/film/paw-patrol-the-dino-movie
 END:VEVENT
 BEGIN:VEVENT
 UID:b339fc2ab6d9e1c1af003a945367785fce093083@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260821
 DTEND;VALUE=DATE:20260822
 SUMMARY:Insidious: Out Of The Further @ Merlin St Ives
@@ -264,7 +259,7 @@ URL:/film/insidious-out-of-the-further
 END:VEVENT
 BEGIN:VEVENT
 UID:461d8d1ccdb7494e050034370363be2a08edff0c@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260826
 DTEND;VALUE=DATE:20260827
 SUMMARY:The Dog Stars @ Merlin St Ives
@@ -282,7 +277,7 @@ URL:/film/the-dog-stars
 END:VEVENT
 BEGIN:VEVENT
 UID:dbea0129d3ba23b1f36df19cccd4ac270db0763b@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260909
 DTEND;VALUE=DATE:20260910
 SUMMARY:Pressure @ Merlin St Ives
@@ -300,7 +295,7 @@ URL:/film/pressure
 END:VEVENT
 BEGIN:VEVENT
 UID:26f81b80114540a35a9845a89f5d0bd5cdbae98d@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260911
 DTEND;VALUE=DATE:20260912
 SUMMARY:Practical Magic 2 @ Merlin St Ives
@@ -315,7 +310,7 @@ URL:/film/practical-magic-2
 END:VEVENT
 BEGIN:VEVENT
 UID:72c07305f45a6a328495341bad2210b170a1f2a3@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260918
 DTEND;VALUE=DATE:20260919
 SUMMARY:Resident Evil @ Merlin St Ives
@@ -331,7 +326,7 @@ URL:/film/resident-evil
 END:VEVENT
 BEGIN:VEVENT
 UID:776238eac069e8aa320a9e292dde7a996fa89c75@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260918
 DTEND;VALUE=DATE:20260919
 SUMMARY:Shaun The Sheep: The Beast Of Mossy Bottom @ Merlin St Ives
@@ -351,7 +346,7 @@ URL:/film/shaun-the-sheep-the-beast-of-mossy-bottom
 END:VEVENT
 BEGIN:VEVENT
 UID:d2b9be1fcf8bb747b1ca4162d29557c30e7060e5@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261003
 SUMMARY:Verity @ Merlin St Ives
@@ -368,7 +363,7 @@ URL:/film/verity
 END:VEVENT
 BEGIN:VEVENT
 UID:740d233a807976d94fbe454e3cb2a0aa84ba125e@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:Street Fighter @ Merlin St Ives
@@ -387,7 +382,7 @@ URL:/film/street-fighter
 END:VEVENT
 BEGIN:VEVENT
 UID:b7c725e465ff78326ffae0438ed79e9ee3232ebd@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:Forgotten Island @ Merlin St Ives
@@ -404,7 +399,7 @@ URL:/film/forgotten-island
 END:VEVENT
 BEGIN:VEVENT
 UID:c96d057a73e8b8f4e44ca5551f96dabb82328c14@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Clayface @ Merlin St Ives
@@ -421,7 +416,7 @@ URL:/film/clayface
 END:VEVENT
 BEGIN:VEVENT
 UID:da8349f20dfeea5b01c018215ac50d5874042b7e@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:Wild Horse Nine @ Merlin St Ives
@@ -440,7 +435,7 @@ URL:/film/wild-horse-nine
 END:VEVENT
 BEGIN:VEVENT
 UID:9a06e478a25e03b1b251027498bb908e3969c6a8@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:The Hunger Games: Sunrise On The Reaping @ Merlin St Ives
@@ -457,7 +452,7 @@ URL:/film/the-hunger-games-sunrise-on-the-reaping
 END:VEVENT
 BEGIN:VEVENT
 UID:1427e644bbf78e85e37f205315f7d431efdf3fdb@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Focker-In-Law @ Merlin St Ives
@@ -473,7 +468,7 @@ URL:/film/fockerinlaw
 END:VEVENT
 BEGIN:VEVENT
 UID:a8327aeeca3f86d35526ac2ae2c2839cfb7a9964@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
 SUMMARY:Dune: Part Three @ Merlin St Ives
@@ -490,7 +485,7 @@ URL:/film/dune-part-three
 END:VEVENT
 BEGIN:VEVENT
 UID:dc6dad048eea79aabbb2111be319f7f20520c20e@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
 SUMMARY:Avengers: Doomsday @ Merlin St Ives
@@ -505,24 +500,22 @@ LOCATION:Merlin Cinemas St Ives
 URL:/film/avengers-doomsday
 END:VEVENT
 BEGIN:VEVENT
-UID:cd331a32b6802540691f15c47f4ee752861bd4b7@merlin-cinemas
-DTSTAMP:20260603T145957Z
+UID:13b0a3395b38e441231b0e65674f6f41ec39fb49@merlin-cinemas
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
-SUMMARY:The Scarecrows' Wedding & The Smeds And The Smoos - @ Merlin St Ive
- s
-DESCRIPTION:The Scarecrows' Wedding & The Smeds And The Smoos - (26 min)\nA
- nimation\, Family\, Romance\, TV Movie\n\nDevoted scarecrows Betty O'Barle
- y and Harry O'Hay are planning a wedding to remember. When Harry insists o
- n leaving the farm to collect one last thing for their big day\, smooth-ta
- lking Reginald Rake swoops in with plans of his own. Chaos follows\, and s
- oon Betty's in danger and everything's at risk. Can Harry get back in time
-  and save the day?\n\nStarring: Sophie Okonedo\, Jessie Buckley\, Domhnall
-  Gleeson\, Rob Brydon\, Doon Mackichan\, Rasmus Hardiker\n\nFilm release a
- t Merlin Cinemas St Ives\nBook tickets: /film/the-scarecrows-wedding-the-s
- meds-and-the-smoos-toddler-cinema\n\nFilm details: https://evenwebb.github
- .io/merlin-cinemas/films/the-scarecrows-wedding-the-smeds-and-the-smoos.ht
- ml
+SUMMARY:The Scarecrows' Wedding & The Smeds And The Smoos @ Merlin St Ives
+DESCRIPTION:The Scarecrows' Wedding & The Smeds And The Smoos (26 min)\nAni
+ mation\, Family\, Romance\, TV Movie\n\nDevoted scarecrows Betty O'Barley 
+ and Harry O'Hay are planning a wedding to remember. When Harry insists on 
+ leaving the farm to collect one last thing for their big day\, smooth-talk
+ ing Reginald Rake swoops in with plans of his own. Chaos follows\, and soo
+ n Betty's in danger and everything's at risk. Can Harry get back in time a
+ nd save the day?\n\nStarring: Sophie Okonedo\, Jessie Buckley\, Domhnall G
+ leeson\, Rob Brydon\, Doon Mackichan\, Rasmus Hardiker\n\nFilm release at 
+ Merlin Cinemas St Ives\nBook tickets: /film/the-scarecrows-wedding-the-sme
+ ds-and-the-smoos-toddler-cinema\n\nFilm details: https://evenwebb.github.i
+ o/merlin-cinemas/films/the-scarecrows-wedding-the-smeds-and-the-smoos.html
 LOCATION:Merlin Cinemas St Ives
 URL:/film/the-scarecrows-wedding-the-smeds-and-the-smoos-toddler-cinema
 END:VEVENT

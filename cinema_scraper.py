@@ -21,6 +21,7 @@ from datetime import date, datetime, timedelta, timezone
 from itertools import groupby
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
+from zoneinfo import ZoneInfo, ZoneInfoNotFoundError
 
 warnings.filterwarnings("ignore", message=".*OpenSSL.*", category=UserWarning)
 
@@ -51,6 +52,7 @@ TMDB_CACHE_DAYS = 30
 TMDB_DELAY_SEC = 0.2
 POSTERS_DIR = "docs/posters"
 CERTS_DIR = "docs/certs"
+RATINGS_DIR = "docs/ratings"
 FINGERPRINT_FILE = ".scrape_fingerprint"
 MIN_SYNOPSIS_LENGTH = 50
 MAX_SYNOPSIS_LENGTH = 500
@@ -102,6 +104,22 @@ _SCREENING_LABEL_MAP = {
     "with Q&A": "Q&A", "with Q and A": "Q&A",
 }
 
+def _clean_display_title(title: str) -> str:
+    """Normalise display titles from Merlin/TMDb and trim dangling separators."""
+    cleaned = re.sub(r"\s+", " ", str(title or "")).strip()
+    cleaned = re.sub(r"^([^&]{2,40}?)\s*&\s*\1\b", r"\1", cleaned, flags=re.IGNORECASE)
+    cleaned = re.sub(r"\s*[-–:|/]+\s*$", "", cleaned).strip()
+    return cleaned
+
+
+def _preferred_display_title(raw_title: str, details: Optional[Dict[str, Any]] = None) -> str:
+    """Prefer canonical TMDb title when available, otherwise tidy the scraped title."""
+    canonical = ""
+    if details:
+        canonical = str(details.get("title") or "").strip()
+    return _clean_display_title(canonical or raw_title)
+
+
 def extract_screening_label(title: str):
     """Return (cleaned_title, screening_label) for a Merlin film title.
     Matches against MERLIN_TITLE_CLEAN patterns and returns the
@@ -109,13 +127,13 @@ def extract_screening_label(title: str):
     for pattern, _ in MERLIN_TITLE_CLEAN:
         m = pattern.search(title)
         if m:
-            cleaned = pattern.sub("", title).strip()
+            cleaned = _clean_display_title(pattern.sub("", title))
             # Derive label from the pattern name
             for key, label in _SCREENING_LABEL_MAP.items():
                 if key.lower() in m.group(0).lower():
                     return cleaned, label
             return cleaned, ""
-    return title, ""
+    return _clean_display_title(title), ""
 
 # Non-film events to skip TMDb enrichment entirely
 MERLIN_SKIP_TMDB = [
@@ -217,8 +235,35 @@ NOTIFICATIONS: Dict[str, Any] = {"enabled": False, "alarms": []}
 
 # BBFC age rating: extracted from film titles like "Film Name (15)" or "Film Name (12A)"
 BBFC_PATTERN = re.compile(r"\((\d{1,2}A?|U|PG|R18)\)", re.IGNORECASE)
-CERT_IMAGES = {"U": "cert-u.png", "PG": "cert-pg.png", "12A": "cert-12a.png", "15": "cert-15.png", "18": "cert-18.png"}
+CERT_IMAGES = {
+    "U": "cert-u.png",
+    "PG": "cert-pg.png",
+    "12": "cert-12.png",
+    "12A": "cert-12a.png",
+    "15": "cert-15.png",
+    "18": "cert-18.png",
+}
 CERT_BASE = ""  # Merlin: cert images served locally from docs/certs/
+RATING_LOGOS = {
+    "imdb": {
+        "filename": "imdb.svg",
+        "url": "https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/imdb.svg",
+        "color": "#f5c518",
+        "label": "IMDb",
+    },
+    "rottentomatoes": {
+        "filename": "rottentomatoes.svg",
+        "url": "https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/rottentomatoes.svg",
+        "color": "#fa320a",
+        "label": "Rotten Tomatoes",
+    },
+    "trakt": {
+        "filename": "trakt.svg",
+        "url": "https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/trakt.svg",
+        "color": "#ed1c24",
+        "label": "Trakt",
+    },
+}
 
 # Cinema addresses for map links
 CINEMA_ADDRESSES = {
@@ -269,6 +314,26 @@ err_handler = logging.FileHandler("cinema_log.txt")
 err_handler.setLevel(logging.WARNING)
 logger.addHandler(err_handler)
 
+try:
+    UK_TZ = ZoneInfo(CALENDAR_TIMEZONE)
+except ZoneInfoNotFoundError:
+    logger.warning("Unknown CALENDAR_TIMEZONE %r; falling back to Europe/London", CALENDAR_TIMEZONE)
+    UK_TZ = ZoneInfo("Europe/London")
+TMDB_FIELDS = (
+    "overview",
+    "genres",
+    "vote_average",
+    "director",
+    "cast",
+    "poster_url",
+    "poster_large_url",
+    "backdrop_url",
+    "runtime",
+    "trailer_url",
+    "imdb_id",
+    "title",
+)
+
 
 # ── HTTP ───────────────────────────────────────────────────────────────────────
 def _session() -> requests.Session:
@@ -307,7 +372,24 @@ def get_base_film_url(url: str) -> str:
 
 # ── Caches ─────────────────────────────────────────────────────────────────────
 def _cutoff(expiry_days: int) -> str:
-    return (datetime.now(timezone.utc) - timedelta(days=expiry_days)).isoformat()
+    return (_utc_now() - timedelta(days=expiry_days)).isoformat()
+
+
+def _utc_now() -> datetime:
+    return datetime.now(timezone.utc)
+
+
+def _utc_iso_now() -> str:
+    return _utc_now().isoformat()
+
+
+def _site_timestamp(dt: Optional[datetime] = None) -> str:
+    current = dt or _utc_now()
+    return current.astimezone(UK_TZ).strftime("%Y-%m-%d %H:%M %Z")
+
+
+def _cert_class_name(rating: str) -> str:
+    return rating.strip().lower()
 
 
 def _load_json_cache(path: str, ttl_days: int, label: str = "") -> Dict[str, dict]:
@@ -518,7 +600,7 @@ def fetch_film_details(
         )
 
         with _film_cache_lock:
-            cache[base_url] = {**details, "cached_at": datetime.now().isoformat()}
+            cache[base_url] = {**details, "cached_at": _utc_iso_now()}
 
     except requests.RequestException as e:
         logger.warning("Network error for %s: %s", film_url, e)
@@ -773,6 +855,7 @@ def enrich_film_tmdb(
             if va is not None and float(va) == 0.0:
                 va = None
             return {
+                "title": entry.get("title") or "",
                 "overview": entry.get("overview") or "",
                 "genres": entry.get("genres") or [],
                 "vote_average": va,
@@ -801,11 +884,12 @@ def enrich_film_tmdb(
             return resp.json()
         raise RuntimeError(f"TMDb request failed: {url}")
     empty_result = {
+        "title": "",
         "overview": "", "genres": [], "vote_average": None,
         "director": "", "cast": "",
         "poster_url": "", "poster_large_url": "", "backdrop_url": "",
         "runtime": "", "trailer_url": "", "imdb_id": "",
-        "cached_at": datetime.now().isoformat(),
+            "cached_at": _utc_iso_now(),
     }
 
     try:
@@ -900,6 +984,7 @@ def enrich_film_tmdb(
         imdb_id = movie.get("imdb_id") or ""
 
         result = {
+            "title": _clean_display_title(movie.get("title") or chosen.get("title") or search_title),
             "overview": overview,
             "genres": genres,
             "vote_average": vote_average if vote_count > 0 else None,
@@ -913,7 +998,7 @@ def enrich_film_tmdb(
             "imdb_id": imdb_id,
         }
         with _tmdb_cache_lock:
-            cache[key] = {**result, "cached_at": datetime.now().isoformat()}
+            cache[key] = {**result, "cached_at": _utc_iso_now()}
         return result
     except Exception as e:
         logger.warning("TMDb enrich failed for '%s': %s", search_title, e)
@@ -1031,7 +1116,7 @@ def make_ics_event(
     dtend = release_date + timedelta(days=1)
     uid_seed = f"{release_date.isoformat()}|{film_title}|{cinema_name}|{film_url or ''}"
     uid = f"{hashlib.sha1(uid_seed.encode()).hexdigest()}@merlin-cinemas"
-    dtstamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
+    dtstamp = _utc_now().strftime("%Y%m%dT%H%M%SZ")
     details = film_details or {}
 
     runtime_display = _format_runtime_display(details.get("runtime") or "")
@@ -1217,7 +1302,7 @@ CSS = _SHARED_CSS + """
 .film-card-full .fc-info h3 a:hover{color:var(--accent)}
 .new-badge{display:inline-block;font-size:0.62rem;font-weight:700;text-transform:uppercase;letter-spacing:0.06em;padding:0.15rem 0.45rem;border-radius:100px;background:linear-gradient(135deg,var(--amber),#f59e0b);color:#0a0a10;vertical-align:middle;margin-left:0.3rem}
 .screening-badge{display:inline-block;font-size:0.62rem;font-weight:600;text-transform:uppercase;letter-spacing:0.04em;padding:0.15rem 0.5rem;border-radius:100px;background:rgba(192,132,252,0.15);color:var(--purple);vertical-align:middle;margin-left:0.3rem}
-.fc-screening-banner{font-size:0.7rem;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;padding:0.35rem 1rem;margin:-1.25rem -1.25rem 0.75rem -1.25rem;border-radius:12px 12px 0 0;text-align:center}
+.fc-screening-banner{grid-column:1/-1;font-size:0.7rem;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;padding:0.35rem 1rem;margin:-1.25rem -1.25rem 0.75rem -1.25rem;border-radius:12px 12px 0 0;text-align:center}
 .fc-screening-banner.rbo{background:linear-gradient(135deg,rgba(248,113,113,0.2),rgba(248,113,113,0.06));color:#f87171;border-bottom:1px solid rgba(248,113,113,0.2)}
 .fc-screening-banner.nt-live{background:linear-gradient(135deg,rgba(34,211,238,0.15),rgba(34,211,238,0.04));color:var(--accent);border-bottom:1px solid rgba(34,211,238,0.2)}
 .fc-screening-banner.toddler-cinema{background:linear-gradient(135deg,rgba(251,191,36,0.18),rgba(251,191,36,0.05));color:var(--amber);border-bottom:1px solid rgba(251,191,36,0.2)}
@@ -1370,6 +1455,7 @@ def build_index_html(
     # ── Film card builder ────────────────────────────────────────────────────
     def _film_card(f: Dict[str, Any]) -> str:
         d = f["details"]
+        display_title = _preferred_display_title(f["title"], d)
         poster = d.get("poster_url") or ""
         runtime = _format_runtime_display(d.get("runtime") or "")
         rating = d.get("vote_average")
@@ -1389,7 +1475,7 @@ def build_index_html(
         stars = _stars_from_rating(rating) if rating is not None else ""
         meta_parts = []
         if bbfc:
-            meta_parts.append(f'<span class="cert cert--{bbfc.lower()}" title="{_esc(bbfc)}"></span>')
+            meta_parts.append(f'<span class="cert cert--{_cert_class_name(bbfc)}" title="{_esc(bbfc)}"></span>')
         if runtime:
             meta_parts.append(f"<span>{runtime}</span>")
         if stars:
@@ -1430,7 +1516,7 @@ def build_index_html(
             + scrn_banner +
             f'  <div class="fc-poster">{poster_html}</div>\n'
             f'  <div class="fc-info">\n'
-            f'    <h3><a href="films/{slug}.html">{_esc(f["title"])}{" <span class=\"new-badge\">New</span>" if new_slugs and slug in new_slugs else ""}{scrn_badge}</a></h3>\n'
+            f'    <h3><a href="films/{slug}.html">{_esc(display_title)}{" <span class=\"new-badge\">New</span>" if new_slugs and slug in new_slugs else ""}{scrn_badge}</a></h3>\n'
             f'    <div class="fc-meta">\n'
             + meta_html +
             f'    </div>\n'
@@ -1453,7 +1539,7 @@ def build_index_html(
         for se in special_events:
             poster = se.get("poster") or ""
             slug = se["slug"]
-            title = se["title"]
+            title = se.get("display_title") or _preferred_display_title(se["title"])
             screening = se.get("screening", "")
             banner_class = screening.lower().replace(" ", "-").replace("&", "")
             se_cards.append(
@@ -1478,7 +1564,7 @@ def build_index_html(
         for nf in now_showing_live[:60]:  # cap at 60 for performance
             poster = nf.get("poster") or ""
             slug = nf["slug"]
-            title = nf["title"]
+            title = nf.get("display_title") or _preferred_display_title(nf["title"])
             cinemas_str = ", ".join(nf.get("cinemas", [])[:3])
             poster_html = (
                 f'<img src="{_esc(poster)}" alt="{_esc(title)}" loading="lazy" decoding="async">'
@@ -1596,7 +1682,7 @@ def build_index_html(
             '    </a>\n\n'
         )
 
-    now_utc = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    site_updated = _site_timestamp()
 
     # ── Cinema filter JS ──────────────────────────────────────────────────────
     cinema_filter_js = (
@@ -1640,7 +1726,7 @@ def build_index_html(
         '      <h1>What\'s on at Merlin Cinemas</h1>\n'
         '      <p class="tagline">Browse and discover upcoming film premieres across all Merlin Cinemas. Ratings, trailers, and booking links - all in one place.</p>\n'
         f'      <span class="hero-stat">{len(all_films_list)} films across {len(enabled_cinemas)} cinemas</span>\n'
-        f'      <div class="hero-updated">Last updated {now_utc}</div>\n'
+        f'      <div class="hero-updated">Last updated {site_updated}</div>\n'
         '    </header>\n\n'
         + calendar_promo +
         (
@@ -1667,7 +1753,7 @@ def build_index_html(
         '        <span aria-hidden="true">·</span>\n'
         '        <a href="https://github.com/evenwebb/">evenwebb</a>\n'
         '      </div>\n'
-        f'      <p class="footer-updated">Last updated: {now_utc}</p>\n'
+        f'      <p class="footer-updated">Last updated: {site_updated}</p>\n'
         '    </footer>\n'
         '  </div>\n'
         + cinema_filter_js +
@@ -1813,7 +1899,7 @@ def build_cinema_page(
             continue
         poster = nf.get("poster") or ""
         slug = nf["slug"]
-        title = nf["title"]
+        title = nf.get("display_title") or _preferred_display_title(nf["title"])
         poster_html = (
             f'<img src="../posters/{slug}.jpg" alt="{_esc(title)}" loading="lazy" decoding="async">'
             if poster
@@ -1836,8 +1922,9 @@ def build_cinema_page(
     # Coming Soon simple list
     cs_items = []
     for f in coming_soon_films:
+        display_title = _preferred_display_title(f["title"], f.get("details"))
         cs_items.append(
-            f'<li><a href="films/{f["slug"]}.html">{_esc(f["title"])}</a>'
+            f'<li><a href="films/{f["slug"]}.html">{_esc(display_title)}</a>'
             f' - {f["release_date"].strftime("%a %d %b %Y")}</li>'
         )
 
@@ -1848,7 +1935,7 @@ def build_cinema_page(
         f'  </section>\n'
     ) if cs_items else ''
 
-    now_utc = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    site_updated = _site_timestamp()
 
     return (
         '<!DOCTYPE html>\n<html lang="en">\n<head>\n'
@@ -1887,7 +1974,7 @@ def build_cinema_page(
         + ns_grid + cs_section +
         f'    <footer style="text-align:center;padding:2rem 0;color:var(--text-muted);font-size:0.85rem;border-top:1px solid var(--border);margin-top:3rem">\n'
         f'      <p>An open source fan-made project. Not affiliated with Merlin Cinemas.</p>\n'
-        f'      <p class="footer-updated">Last updated: {now_utc}</p>\n'
+        f'      <p class="footer-updated">Last updated: {site_updated}</p>\n'
         f'    </footer>\n'
         '  </div>\n'
         '</body>\n</html>'
@@ -1914,12 +2001,16 @@ def _extract_bbfc(title: str) -> str:
 
 def _download_cert_images(session: Optional[requests.Session] = None) -> None:
     """Download BBFC cert images to docs/certs/ for local serving."""
+    certs_dir = Path(CERTS_DIR)
+    certs_dir.mkdir(parents=True, exist_ok=True)
     if not CERT_BASE:
-        return  # Merlin uses inline cert images, no remote download needed
+        missing = [filename for filename in CERT_IMAGES.values() if not (certs_dir / filename).exists()]
+        if missing:
+            logger.warning("Missing local BBFC cert assets: %s", ", ".join(sorted(missing)))
+        return
     s = session or _session()
-    Path(CERTS_DIR).mkdir(parents=True, exist_ok=True)
     for rating, filename in CERT_IMAGES.items():
-        path = Path(CERTS_DIR) / filename
+        path = certs_dir / filename
         if path.exists():
             continue
         try:
@@ -1928,6 +2019,23 @@ def _download_cert_images(session: Optional[requests.Session] = None) -> None:
             path.write_bytes(r.content)
         except Exception as e:
             logger.warning("Cert download failed %s: %s", filename, e)
+
+
+def _download_rating_logos(session: Optional[requests.Session] = None) -> None:
+    """Download external rating service logos to docs/ratings/ for local serving."""
+    s = session or _session()
+    ratings_dir = Path(RATINGS_DIR)
+    ratings_dir.mkdir(parents=True, exist_ok=True)
+    for logo in RATING_LOGOS.values():
+        path = ratings_dir / logo["filename"]
+        if path.exists():
+            continue
+        try:
+            r = s.get(logo["url"], timeout=10)
+            r.raise_for_status()
+            path.write_bytes(r.content)
+        except Exception as e:
+            logger.warning("Rating logo download failed %s: %s", logo["filename"], e)
 
 
 def _download_poster(url: str, slug: str, session: Optional[requests.Session] = None) -> str:
@@ -1991,7 +2099,18 @@ def _cert_span(rating: str) -> str:
     if not rating or rating.upper() not in CERT_IMAGES:
         return ""
     r = rating.upper()
-    return f'<span class="cert cert--{r}" aria-label="Rated {r}" title="Rated {r}"></span>'
+    return f'<span class="cert cert--{_cert_class_name(r)}" aria-label="Rated {r}" title="Rated {r}"></span>'
+
+
+def _rating_link(url: str, service: str) -> str:
+    """HTML anchor for a local-logo external rating/service link."""
+    meta = RATING_LOGOS[service]
+    return (
+        f'<a href="{_esc(url)}" class="ext-link ext-link--{service}" target="_blank" rel="noopener">'
+        f'<span class="ext-link-logo ext-link-logo--{service}" aria-hidden="true"></span>'
+        f'<span>{_esc(meta["label"])}</span>'
+        f'</a>'
+    )
 
 
 FILM_CSS = _SHARED_CSS + """
@@ -2020,9 +2139,23 @@ body{position:relative}
 .film-info .crew p{font-size:0.88rem;color:var(--text-muted);padding:0.55rem 0;border-bottom:1px solid var(--border)}
 .film-info .crew p:last-child{border-bottom:none}
 .film-info .crew strong{color:var(--text);margin-right:0.5rem;font-weight:600}
-.links{display:flex;flex-wrap:wrap;gap:0.5rem;margin-bottom:1.5rem}
-.ext-link{display:inline-flex;align-items:center;padding:0.45rem 0.85rem;background:var(--surface);border:1px solid var(--border);border-radius:100px;color:var(--text-muted);text-decoration:none;font-size:0.82rem;font-weight:500;transition:all var(--transition)}
-.ext-link:hover{border-color:var(--accent);color:var(--accent);background:var(--accent-dim)}
+.links{display:flex;flex-wrap:wrap;gap:0.6rem;margin-bottom:1.5rem}
+.ext-link{display:inline-flex;align-items:center;gap:0.55rem;padding:0.45rem 0.85rem;background:var(--surface);border:1px solid var(--border);border-radius:100px;color:var(--text-muted);text-decoration:none;font-size:0.82rem;font-weight:500;transition:all var(--transition)}
+.ext-link:hover{transform:translateY(-1px);box-shadow:0 4px 15px rgba(0,0,0,0.18)}
+.ext-link::before{content:"";width:1rem;height:1rem;display:inline-block;flex-shrink:0;background:currentColor;mask-position:center;mask-repeat:no-repeat;mask-size:contain;-webkit-mask-position:center;-webkit-mask-repeat:no-repeat;-webkit-mask-size:contain}
+.ext-link-logo{width:1rem;height:1rem;display:inline-block;flex-shrink:0;background:currentColor;mask-position:center;mask-repeat:no-repeat;mask-size:contain;-webkit-mask-position:center;-webkit-mask-repeat:no-repeat;-webkit-mask-size:contain}
+.ext-link--imdb,.ext-link[href*="imdb.com"]{color:#f5c518;background:rgba(245,197,24,0.1);border-color:rgba(245,197,24,0.24)}
+.ext-link--imdb:hover,.ext-link[href*="imdb.com"]:hover{background:rgba(245,197,24,0.16);border-color:#f5c518}
+.ext-link[href*="imdb.com"]::before{mask-image:url(../ratings/imdb.svg);-webkit-mask-image:url(../ratings/imdb.svg)}
+.ext-link-logo--imdb{mask-image:url(../ratings/imdb.svg);-webkit-mask-image:url(../ratings/imdb.svg)}
+.ext-link--rottentomatoes,.ext-link[href*="rottentomatoes.com"]{color:#fa320a;background:rgba(250,50,10,0.1);border-color:rgba(250,50,10,0.24)}
+.ext-link--rottentomatoes:hover,.ext-link[href*="rottentomatoes.com"]:hover{background:rgba(250,50,10,0.16);border-color:#fa320a}
+.ext-link[href*="rottentomatoes.com"]::before{mask-image:url(../ratings/rottentomatoes.svg);-webkit-mask-image:url(../ratings/rottentomatoes.svg)}
+.ext-link-logo--rottentomatoes{mask-image:url(../ratings/rottentomatoes.svg);-webkit-mask-image:url(../ratings/rottentomatoes.svg)}
+.ext-link--trakt,.ext-link[href*="trakt.tv"]{color:#ed1c24;background:rgba(237,28,36,0.1);border-color:rgba(237,28,36,0.24)}
+.ext-link--trakt:hover,.ext-link[href*="trakt.tv"]:hover{background:rgba(237,28,36,0.16);border-color:#ed1c24}
+.ext-link[href*="trakt.tv"]::before{mask-image:url(../ratings/trakt.svg);-webkit-mask-image:url(../ratings/trakt.svg)}
+.ext-link-logo--trakt{mask-image:url(../ratings/trakt.svg);-webkit-mask-image:url(../ratings/trakt.svg)}
 .trailer-section{margin-bottom:2.5rem}
 .trailer-section h2{font-size:1.1rem;font-weight:700;margin-bottom:0.85rem;color:var(--accent)}
 .trailer-wrap{position:relative;width:100%;aspect-ratio:16/9;background:#000;border-radius:14px;overflow:hidden;box-shadow:0 4px 25px rgba(0,0,0,0.5),0 0 0 1px rgba(34,211,238,0.1)}
@@ -2116,6 +2249,7 @@ def build_film_page(
     showtimes: Optional[List[Dict[str, Any]]] = None,
 ) -> str:
     """Generate a dedicated HTML page for a single film."""
+    display_title = _preferred_display_title(film_title, film_details)
     poster = film_details.get("poster_url") or ""
     poster_large = film_details.get("poster_large_url") or poster
     backdrop_url = film_details.get("backdrop_url") or ""
@@ -2154,7 +2288,7 @@ def build_film_page(
 
     meta_parts = []
     if bbfc:
-        meta_parts.append(f'<span class="cert cert--{bbfc.lower()}" title="{_esc(bbfc)}"></span>')
+            meta_parts.append(f'<span class="cert cert--{_cert_class_name(bbfc)}" title="{_esc(bbfc)}"></span>')
     if runtime:
         meta_parts.append(f"<span>{runtime}</span>")
     if stars:
@@ -2169,7 +2303,7 @@ def build_film_page(
     poster_large = film_details.get("poster_large_url") or poster
     poster_large_src = f"../{poster_large}" if poster_large.startswith("posters/") else poster_large
     poster_html = (
-        f'<img src="{_esc(poster_src)}" alt="Poster for {_esc(film_title)}" loading="lazy">'
+        f'<img src="{_esc(poster_src)}" alt="Poster for {_esc(display_title)}" loading="lazy">'
         if poster
         else f'<div class="no-poster">No poster available</div>'
     )
@@ -2183,7 +2317,7 @@ def build_film_page(
     ) if backdrop_url else ""
 
     trailer_html = (
-        f'<div class="trailer-wrap"><iframe src="{_esc(embed_url)}" title="Trailer for {_esc(film_title)}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>'
+        f'<div class="trailer-wrap"><iframe src="{_esc(embed_url)}" title="Trailer for {_esc(display_title)}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>'
         if embed_url
         else '<div class="trailer-wrap"><div class="no-trailer">No trailer available</div></div>'
     )
@@ -2245,13 +2379,13 @@ def build_film_page(
                     f'<td class="book-cell"><a href="{_esc(booking_url)}" class="table-book-btn" target="_blank" rel="noopener">Book →</a></td></tr>'
                 )
 
-    now_utc = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    site_updated = _site_timestamp()
 
     # Schema.org Movie structured data
     schema = {
         "@context": "https://schema.org",
         "@type": "Movie",
-        "name": film_title,
+        "name": display_title,
         "description": overview[:500],
         "image": poster or None,
     }
@@ -2399,9 +2533,9 @@ def build_film_page(
         '<!DOCTYPE html>\n<html lang="en">\n<head>\n'
         '  <meta charset="utf-8">\n'
         '  <meta name="viewport" content="width=device-width, initial-scale=1">\n'
-        f'  <title>{_esc(film_title)} - Merlin Cinemas</title>\n'
+        f'  <title>{_esc(display_title)} - Merlin Cinemas</title>\n'
         f'  <meta name="description" content="{_esc(overview[:160])}">\n'
-        f'  <meta property="og:title" content="{_esc(film_title)} - Merlin Cinemas">\n'
+        f'  <meta property="og:title" content="{_esc(display_title)} - Merlin Cinemas">\n'
         f'  <meta property="og:description" content="{_esc(overview[:200])}">\n'
         f'  <meta property="og:type" content="website">\n'
         f'  {og_image}'
@@ -2420,13 +2554,13 @@ def build_film_page(
         '    <div class="film-layout">\n'
         f'      <div class="poster">{poster_html}</div>\n'
         '      <div class="film-info">\n'
-        f'        <h1>{_esc(film_title)} {_cert_span(bbfc)}{scr_html}</h1>\n'
+        f'        <h1>{_esc(display_title)} {_cert_span(bbfc)}{scr_html}</h1>\n'
         f'        <div class="meta">{"".join(meta_parts)}</div>\n'
         f'        <div class="synopsis">{_esc(overview)}</div>\n'
         f'        <div class="links">\n'
-        + (f'          <a href="https://www.imdb.com/title/{imdb_id}/" class="ext-link" target="_blank" rel="noopener">IMDb</a>\n' if imdb_id else '')
-        + (f'          <a href="https://www.rottentomatoes.com/search?search={_esc(film_title)}" class="ext-link" target="_blank" rel="noopener">Rotten Tomatoes</a>\n')
-        + (f'          <a href="https://trakt.tv/search?query={_esc(film_title)}" class="ext-link" target="_blank" rel="noopener">Trakt</a>\n')
+        + (f'          {_rating_link(f"https://www.imdb.com/title/{imdb_id}/", "imdb")}\n' if imdb_id else '')
+        + (f'          {_rating_link(f"https://www.rottentomatoes.com/search?search={display_title}", "rottentomatoes")}\n')
+        + (f'          {_rating_link(f"https://trakt.tv/search?query={display_title}", "trakt")}\n')
         + f'        </div>\n'
         + schema_block + crew_html +
         f'    </div>\n'
@@ -2443,7 +2577,7 @@ def build_film_page(
         '        <span aria-hidden="true"> · </span>\n'
         '        <a href="../">All premieres</a>\n'
         '      </div>\n'
-        f'      <p class="footer-updated">Last updated: {now_utc}</p>\n'
+        f'      <p class="footer-updated">Last updated: {site_updated}</p>\n'
         '    </footer>\n'
         '  </div>\n'
         '</body>\n</html>'
@@ -2488,7 +2622,7 @@ def main() -> None:
         print("Error: No cinemas enabled.")
         sys.exit(1)
 
-    start_time = datetime.now(timezone.utc)
+    start_time = _utc_now()
     print(f"Scraping {len(enabled_cinemas)} cinema(s): "
           f"{', '.join(c['name'] for c in enabled_cinemas.values())}\n")
 
@@ -2557,19 +2691,19 @@ def main() -> None:
     # ── TMDb enrichment ───────────────────────────────────────────────────
     api_key = (os.environ.get("TMDB_API_KEY") or "").strip()
     tmdb_cache: Dict[str, dict] = load_tmdb_cache()
+    if not api_key:
+        raise RuntimeError(
+            "TMDB_API_KEY is required. Movie ratings must always come from TMDb, "
+            "so cache-only mode is disabled."
+        )
 
-    # Always enrich all_films from cache (covers runs without API key)
-    _CACHE_FIELDS = (
-        "overview", "genres", "vote_average", "director", "cast",
-        "poster_url", "poster_large_url", "backdrop_url", "runtime",
-        "trailer_url", "imdb_id",
-    )
+    # Preload cached TMDb fields before refreshing them from the live API.
     for i, (rd, title, cname, furl, fdetails, cid) in enumerate(all_films):
         k = _tmdb_cache_key(title)
         if k in tmdb_cache:
             tc = tmdb_cache[k]
             fdetails = dict(fdetails)
-            for field in _CACHE_FIELDS:
+            for field in TMDB_FIELDS:
                 val = tc.get(field)
                 if val and not fdetails.get(field):
                     if field == "vote_average" and float(val) == 0.0:
@@ -2577,73 +2711,64 @@ def main() -> None:
                     fdetails[field] = val
             all_films[i] = (rd, title, cname, furl, fdetails, cid)
 
-    if api_key:
-        sess = _session()
-        unique_by_key: Dict[str, Tuple[str, str, List[int]]] = {}
-        for i, (rd, title, cname, furl, fdetails, cid) in enumerate(all_films):
-            k = _tmdb_cache_key(title)
-            if k not in unique_by_key:
-                unique_by_key[k] = (title, furl, [i])
-            else:
-                unique_by_key[k][2].append(i)
+    sess = _session()
+    unique_by_key: Dict[str, Tuple[str, str, List[int]]] = {}
+    for i, (rd, title, cname, furl, fdetails, cid) in enumerate(all_films):
+        k = _tmdb_cache_key(title)
+        if k not in unique_by_key:
+            unique_by_key[k] = (title, furl, [i])
+        else:
+            unique_by_key[k][2].append(i)
 
-        # TMDb lookups in parallel for unique films
-        def _tmdb_enrich(key: str, title: str, url: str) -> Dict[str, Any]:
-            return enrich_film_tmdb(title, url, api_key, tmdb_cache, session=sess)
+    # TMDb lookups in parallel for unique films
+    def _tmdb_enrich(key: str, title: str, url: str) -> Dict[str, Any]:
+        return enrich_film_tmdb(title, url, api_key, tmdb_cache, session=sess)
 
-        enrich_futures: Dict[Any, str] = {}
+    enrich_futures: Dict[Any, str] = {}
+    with ThreadPoolExecutor(max_workers=min(8, MAX_WORKERS * 2)) as tex:
+        for k, (title, furl, indices) in unique_by_key.items():
+            enrich_futures[tex.submit(_tmdb_enrich, k, title, furl)] = k
+        for fut in as_completed(enrich_futures):
+            k = enrich_futures[fut]
+            try:
+                extra = fut.result()
+            except Exception:
+                extra = {}
+            if not extra:
+                continue
+            for i in unique_by_key[k][2]:
+                rd, t, cname, furl, fdetails, cid = all_films[i]
+                fdetails = dict(fdetails)
+                for field in TMDB_FIELDS:
+                    val = extra.get(field)
+                    if val or (field == "vote_average" and val is not None):
+                        fdetails[field] = val
+                all_films[i] = (rd, t, cname, furl, fdetails, cid)
+    # Also enrich unique whats-on films not already in unique_by_key
+    whats_on_unique: Dict[str, Tuple[str, str]] = {}
+    for norm_title, wf_list in whats_on_data.items():
+        for wf in wf_list:
+            k = _tmdb_cache_key(wf["title"])
+            if k not in unique_by_key and k not in whats_on_unique:
+                whats_on_unique[k] = (wf["title"], wf["film_url"])
+
+    if whats_on_unique:
+        wo_enrich_futures: Dict[Any, str] = {}
         with ThreadPoolExecutor(max_workers=min(8, MAX_WORKERS * 2)) as tex:
-            for k, (title, furl, indices) in unique_by_key.items():
-                enrich_futures[tex.submit(_tmdb_enrich, k, title, furl)] = k
-            for fut in as_completed(enrich_futures):
-                k = enrich_futures[fut]
+            for k, (title, furl) in whats_on_unique.items():
+                wo_enrich_futures[tex.submit(_tmdb_enrich, k, title, furl)] = k
+            for fut in as_completed(wo_enrich_futures):
+                k = wo_enrich_futures[fut]
                 try:
                     extra = fut.result()
                 except Exception:
                     extra = {}
-                if not extra:
-                    continue
-                _ENRICH_FIELDS = (
-                    "overview", "genres", "vote_average", "director", "cast",
-                    "poster_url", "poster_large_url", "backdrop_url", "runtime",
-                    "trailer_url", "imdb_id",
-                )
-                for i in unique_by_key[k][2]:
-                    rd, t, cname, furl, fdetails, cid = all_films[i]
-                    fdetails = dict(fdetails)
-                    for field in _ENRICH_FIELDS:
-                        val = extra.get(field)
-                        if val or (field == "vote_average" and val is not None):
-                            fdetails[field] = val
-                    all_films[i] = (rd, t, cname, furl, fdetails, cid)
-        # Also enrich unique whats-on films not already in unique_by_key
-        whats_on_unique: Dict[str, Tuple[str, str]] = {}
-        for norm_title, wf_list in whats_on_data.items():
-            for wf in wf_list:
-                k = _tmdb_cache_key(wf["title"])
-                if k not in unique_by_key and k not in whats_on_unique:
-                    whats_on_unique[k] = (wf["title"], wf["film_url"])
-
-        if whats_on_unique:
-            wo_enrich_futures: Dict[Any, str] = {}
-            with ThreadPoolExecutor(max_workers=min(8, MAX_WORKERS * 2)) as tex:
-                for k, (title, furl) in whats_on_unique.items():
-                    wo_enrich_futures[tex.submit(_tmdb_enrich, k, title, furl)] = k
-                for fut in as_completed(wo_enrich_futures):
-                    k = wo_enrich_futures[fut]
-                    try:
-                        extra = fut.result()
-                    except Exception:
-                        extra = {}
-                    if extra:
-                        tmdb_cache.setdefault(k, {}).update({**extra, "cached_at": datetime.now().isoformat()})
-        sess.close()
-        save_tmdb_cache(tmdb_cache)
-        logger.info("TMDb enrichment done: %d coming-soon + %d whats-on unique films",
-                     len(unique_by_key), len(whats_on_unique))
-    else:
-        logger.info("TMDB_API_KEY not set; Merlin-only data")
-
+                if extra:
+                    tmdb_cache.setdefault(k, {}).update({**extra, "cached_at": _utc_iso_now()})
+    sess.close()
+    save_tmdb_cache(tmdb_cache)
+    logger.info("TMDb enrichment done: %d coming-soon + %d whats-on unique films",
+                 len(unique_by_key), len(whats_on_unique))
     if not all_films:
         logger.warning("No films found across any cinema")
         print("\nWarning: No films found across any cinema")
@@ -2653,7 +2778,7 @@ def main() -> None:
     fp = _compute_fingerprint(all_films)
     prev_fp = _load_fingerprint()
     if fp == prev_fp and not os.environ.get("FORCE_REBUILD"):
-        elapsed = (datetime.now(timezone.utc) - start_time).total_seconds()
+        elapsed = (_utc_now() - start_time).total_seconds()
         print(f"\nFingerprint unchanged - nothing new. ({elapsed:.1f}s)")
         return
 
@@ -2760,6 +2885,7 @@ def main() -> None:
             poster = wf_list[0].get("poster_url", "") or ""
         now_showing_films.append({
             "title": wf_list[0]["title"],
+            "display_title": _clean_display_title((tmdb_cache.get(slug) or {}).get("title") or wf_list[0]["title"]),
             "slug": slug,
             "cinemas": cinemas_set,
             "showtimes": all_st,
@@ -2798,7 +2924,7 @@ def main() -> None:
         film_pages[slug]["cinemas"].append((cname, furl, rd, cid))
         # Merge details from entries with more data (operate on our copy)
         existing = film_pages[slug]["details"]
-        for key in ("overview", "poster_url", "poster_large_url", "backdrop_url", "trailer_url", "director", "cast", "runtime"):
+        for key in ("title", "overview", "poster_url", "poster_large_url", "backdrop_url", "trailer_url", "director", "cast", "runtime"):
             if not existing.get(key) and fdetails.get(key):
                 existing[key] = fdetails[key]
 
@@ -2839,9 +2965,7 @@ def main() -> None:
     for slug, page in film_pages.items():
         if slug in tmdb_cache and not page["details"].get("overview"):
             tc = tmdb_cache[slug]
-            for field in ("overview", "genres", "vote_average", "director", "cast",
-                          "poster_url", "poster_large_url", "backdrop_url", "runtime",
-                          "trailer_url", "imdb_id"):
+            for field in TMDB_FIELDS:
                 val = tc.get(field)
                 if val and not page["details"].get(field):
                     if field == "vote_average" and float(val) == 0.0:
@@ -2858,6 +2982,10 @@ def main() -> None:
             showtimes=film_showtimes or None
         )
         (films_dir / f"{slug}.html").write_text(page_html, encoding="utf-8")
+    current_film_slugs = set(film_pages.keys())
+    for stale_page in films_dir.glob("*.html"):
+        if stale_page.stem not in current_film_slugs:
+            stale_page.unlink()
     logger.info("Wrote %d film detail pages to %s/films/", len(film_pages), OUTPUT_DIR)
 
     # ── Poster downloads ─────────────────────────────────────────────────────
@@ -2894,6 +3022,7 @@ def main() -> None:
 
     # ── Cert images ──────────────────────────────────────────────────────────
     _download_cert_images()
+    _download_rating_logos()
 
     # ── Cinema pages ─────────────────────────────────────────────────────────
     # Build all_films_list for cinema pages (same as in build_index_html)
@@ -2929,7 +3058,7 @@ def main() -> None:
     # ── Save fingerprint ─────────────────────────────────────────────────────
     _save_fingerprint(fp)
 
-    elapsed = (datetime.now(timezone.utc) - start_time).total_seconds()
+    elapsed = (_utc_now() - start_time).total_seconds()
     print(f"\n✓ Created {OUTPUT_DIR}/ with {len(films_by_cinema)} calendar(s), {len(film_pages)} film page(s), {len(enabled_cinemas)} cinema page(s), sitemap.xml, and index page ({elapsed:.1f}s)\n")
 
     for d, group in groupby(all_films, key=lambda x: x[0]):

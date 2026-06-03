@@ -10,7 +10,7 @@ X-WR-CALDESC:Upcoming movie premieres at Merlin Cinemas Capitol Cinema
 X-WR-TIMEZONE:Europe/London
 BEGIN:VEVENT
 UID:4ac83765f7fb5c8d27aefc939ad800ba1dccd3b8@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260603
 DTEND;VALUE=DATE:20260604
 SUMMARY:Bonnie & Clive with The Jive Aces @ Merlin Bodmin
@@ -25,26 +25,21 @@ LOCATION:Merlin Cinemas Bodmin
 URL:/film/bonnie-clive-with-the-jive-aces-double-bill
 END:VEVENT
 BEGIN:VEVENT
-UID:22a3f133b9949424b4a3609ebd5d3fd9215b2ac0@merlin-cinemas
-DTSTAMP:20260603T145957Z
+UID:659499164e72975d76efe9de969d17f77af70748@merlin-cinemas
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260607
 DTEND;VALUE=DATE:20260608
-SUMMARY:Zog & Zog And The Flying Doctors @ Merlin Bodmin
-DESCRIPTION:Zog & Zog And The Flying Doctors (25 min)\n★★★☆☆\nAnimation\, F
- amily\, TV Movie\, Fantasy\n\nPearl and Gadabout are now a flying doctor t
- rio\, caring for creatures including a mermaid\, a unicorn and a sneezy li
- on. However when bad weather forces them to land at the palace\, Pearl is 
- locked up by her uncle\, the king.\n\nStarring: Lenny Henry\, Patsy Ferran
- \, Daniel Ings\, Hugh Skinner\, Alexandra Roach\, Mark Bonnar\n\nFilm rele
- ase at Merlin Cinemas Bodmin\nBook tickets: /film/zog-zog-and-the-flying-d
- octors-toddler-cinema\n\nFilm details: https://evenwebb.github.io/merlin-c
- inemas/films/zog-zog-and-the-flying-doctors.html
+SUMMARY:Zog And The Flying Doctors @ Merlin Bodmin
+DESCRIPTION:Zog And The Flying Doctors\n\nFilm release at Merlin Cinemas Bo
+ dmin\nBook tickets: /film/zog-zog-and-the-flying-doctors-toddler-cinema\n\
+ nFilm details: https://evenwebb.github.io/merlin-cinemas/films/zog-and-the
+ -flying-doctors.html
 LOCATION:Merlin Cinemas Bodmin
 URL:/film/zog-zog-and-the-flying-doctors-toddler-cinema
 END:VEVENT
 BEGIN:VEVENT
 UID:8b0c965f9c909d43c01c128a92620bb9e6314121@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260618
 DTEND;VALUE=DATE:20260619
 SUMMARY:Toy Story 5 @ Merlin Bodmin
@@ -61,7 +56,7 @@ URL:/film/toy-story-5
 END:VEVENT
 BEGIN:VEVENT
 UID:dd8c96aa97ebadb3338cd5a9cf30af0785edd22e@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260625
 DTEND;VALUE=DATE:20260626
 SUMMARY:Supergirl @ Merlin Bodmin
@@ -78,7 +73,7 @@ URL:/film/supergirl
 END:VEVENT
 BEGIN:VEVENT
 UID:4661ecf450bf0ff82121525b352b73fa9fa4cd97@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260626
 DTEND;VALUE=DATE:20260627
 SUMMARY:Jackass: Best And Last @ Merlin Bodmin
@@ -94,7 +89,7 @@ URL:/film/jackass-best-and-last
 END:VEVENT
 BEGIN:VEVENT
 UID:58c6d6a50a79e7b6c1dec979c773b5d718ff988e@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260626
 DTEND;VALUE=DATE:20260627
 SUMMARY:500 Miles @ Merlin Bodmin
@@ -111,7 +106,7 @@ URL:/film/500-miles
 END:VEVENT
 BEGIN:VEVENT
 UID:c93b1ce25698c6fdd1ebd6acc91a38dfc8139ed9@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260701
 DTEND;VALUE=DATE:20260702
 SUMMARY:Minions & Monsters @ Merlin Bodmin
@@ -129,7 +124,7 @@ URL:/film/minions-monsters
 END:VEVENT
 BEGIN:VEVENT
 UID:9b88d98dc7100a55d7b0c28725999f6d06130e8d@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260710
 DTEND;VALUE=DATE:20260711
 SUMMARY:Evil Dead Burn @ Merlin Bodmin
@@ -146,7 +141,7 @@ URL:/film/evil-dead-burn
 END:VEVENT
 BEGIN:VEVENT
 UID:08548ed7c6205df702a67bc0dea14fa7275f64b3@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260710
 DTEND;VALUE=DATE:20260711
 SUMMARY:Moana @ Merlin Bodmin
@@ -162,7 +157,7 @@ URL:/film/moana
 END:VEVENT
 BEGIN:VEVENT
 UID:4597536c07395823bdb1971fab193c7285fab7dd@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260717
 DTEND;VALUE=DATE:20260718
 SUMMARY:The Odyssey @ Merlin Bodmin
@@ -180,7 +175,7 @@ URL:/film/the-odyssey
 END:VEVENT
 BEGIN:VEVENT
 UID:d437f6d221304f9ca5489b599e80f70f014cf11b@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260731
 DTEND;VALUE=DATE:20260801
 SUMMARY:Spider-Man: Brand New Day @ Merlin Bodmin
@@ -202,7 +197,7 @@ URL:/film/spiderman-brand-new-day
 END:VEVENT
 BEGIN:VEVENT
 UID:3410ffcd80b1d06cd5119921a4e0d07b1c2d36b7@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260807
 DTEND;VALUE=DATE:20260808
 SUMMARY:PAW Patrol: The Dino Movie @ Merlin Bodmin
@@ -225,7 +220,7 @@ URL:/film/paw-patrol-the-dino-movie
 END:VEVENT
 BEGIN:VEVENT
 UID:b00a874f313ff19d4d78c1a9d4cbefa278e203ad@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260821
 DTEND;VALUE=DATE:20260822
 SUMMARY:Insidious: Out Of The Further @ Merlin Bodmin
@@ -242,7 +237,7 @@ URL:/film/insidious-out-of-the-further
 END:VEVENT
 BEGIN:VEVENT
 UID:7ff1311b6c03e8dbb7ad977929a8003606ee9d45@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260826
 DTEND;VALUE=DATE:20260827
 SUMMARY:The Dog Stars @ Merlin Bodmin
@@ -260,7 +255,7 @@ URL:/film/the-dog-stars
 END:VEVENT
 BEGIN:VEVENT
 UID:468acecff14ed7e28623fe1f79d35fcc90a0a76a@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260909
 DTEND;VALUE=DATE:20260910
 SUMMARY:Pressure @ Merlin Bodmin
@@ -278,7 +273,7 @@ URL:/film/pressure
 END:VEVENT
 BEGIN:VEVENT
 UID:485009580d961786b7f39321c0505b78ba76dc5c@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260911
 DTEND;VALUE=DATE:20260912
 SUMMARY:Practical Magic 2 @ Merlin Bodmin
@@ -293,7 +288,7 @@ URL:/film/practical-magic-2
 END:VEVENT
 BEGIN:VEVENT
 UID:010ffb3138eed2dd335a528c95be5fbe992b41b6@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260918
 DTEND;VALUE=DATE:20260919
 SUMMARY:Resident Evil @ Merlin Bodmin
@@ -309,7 +304,7 @@ URL:/film/resident-evil
 END:VEVENT
 BEGIN:VEVENT
 UID:a9038e18f8d8dfe3d4a4f7cc73b2623b34f56174@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20260918
 DTEND;VALUE=DATE:20260919
 SUMMARY:Shaun The Sheep: The Beast Of Mossy Bottom @ Merlin Bodmin
@@ -329,7 +324,7 @@ URL:/film/shaun-the-sheep-the-beast-of-mossy-bottom
 END:VEVENT
 BEGIN:VEVENT
 UID:4cd569b2e25033c403a6ca98971a4e1c2bf62379@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261003
 SUMMARY:Verity @ Merlin Bodmin
@@ -346,7 +341,7 @@ URL:/film/verity
 END:VEVENT
 BEGIN:VEVENT
 UID:85c6f0ea66bc128e184724f5399ede1c9b42f535@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:Street Fighter @ Merlin Bodmin
@@ -365,7 +360,7 @@ URL:/film/street-fighter
 END:VEVENT
 BEGIN:VEVENT
 UID:bbfd306cf0bbde67bc80c9fa469db8d55d6ed0bd@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:Forgotten Island @ Merlin Bodmin
@@ -382,7 +377,7 @@ URL:/film/forgotten-island
 END:VEVENT
 BEGIN:VEVENT
 UID:92c48ccdb4964ef828b1aade029cb19daec48869@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Clayface @ Merlin Bodmin
@@ -399,7 +394,7 @@ URL:/film/clayface
 END:VEVENT
 BEGIN:VEVENT
 UID:a85d01d8e431650a6a0f3ea0e2e98d4ee8c9c57c@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:Wild Horse Nine @ Merlin Bodmin
@@ -418,7 +413,7 @@ URL:/film/wild-horse-nine
 END:VEVENT
 BEGIN:VEVENT
 UID:f15fcddc1efa0096bf1d071473bd0f32eeca37a6@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:The Hunger Games: Sunrise On The Reaping @ Merlin Bodmin
@@ -435,7 +430,7 @@ URL:/film/the-hunger-games-sunrise-on-the-reaping
 END:VEVENT
 BEGIN:VEVENT
 UID:da34b562bd0d2389a12654e96757d26460aa7541@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Focker-In-Law @ Merlin Bodmin
@@ -451,7 +446,7 @@ URL:/film/fockerinlaw
 END:VEVENT
 BEGIN:VEVENT
 UID:7cab24704156d0c6f7db522a205fb30dc149a091@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
 SUMMARY:Dune: Part Three @ Merlin Bodmin
@@ -468,7 +463,7 @@ URL:/film/dune-part-three
 END:VEVENT
 BEGIN:VEVENT
 UID:b39c3d220a27585bf4cae1da0a4c141e192326ac@merlin-cinemas
-DTSTAMP:20260603T145957Z
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
 SUMMARY:Avengers: Doomsday @ Merlin Bodmin
@@ -483,23 +478,22 @@ LOCATION:Merlin Cinemas Bodmin
 URL:/film/avengers-doomsday
 END:VEVENT
 BEGIN:VEVENT
-UID:65ffe25d9179fee9427e6f01d488f95587f671fb@merlin-cinemas
-DTSTAMP:20260603T145957Z
+UID:061d777786b696e67f4bc816828fa8eb10de7de0@merlin-cinemas
+DTSTAMP:20260603T153543Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
-SUMMARY:The Scarecrows' Wedding & The Smeds And The Smoos - @ Merlin Bodmin
-DESCRIPTION:The Scarecrows' Wedding & The Smeds And The Smoos - (26 min)\nA
- nimation\, Family\, Romance\, TV Movie\n\nDevoted scarecrows Betty O'Barle
- y and Harry O'Hay are planning a wedding to remember. When Harry insists o
- n leaving the farm to collect one last thing for their big day\, smooth-ta
- lking Reginald Rake swoops in with plans of his own. Chaos follows\, and s
- oon Betty's in danger and everything's at risk. Can Harry get back in time
-  and save the day?\n\nStarring: Sophie Okonedo\, Jessie Buckley\, Domhnall
-  Gleeson\, Rob Brydon\, Doon Mackichan\, Rasmus Hardiker\n\nFilm release a
- t Merlin Cinemas Bodmin\nBook tickets: /film/the-scarecrows-wedding-the-sm
- eds-and-the-smoos-toddler-cinema\n\nFilm details: https://evenwebb.github.
- io/merlin-cinemas/films/the-scarecrows-wedding-the-smeds-and-the-smoos.htm
- l
+SUMMARY:The Scarecrows' Wedding & The Smeds And The Smoos @ Merlin Bodmin
+DESCRIPTION:The Scarecrows' Wedding & The Smeds And The Smoos (26 min)\nAni
+ mation\, Family\, Romance\, TV Movie\n\nDevoted scarecrows Betty O'Barley 
+ and Harry O'Hay are planning a wedding to remember. When Harry insists on 
+ leaving the farm to collect one last thing for their big day\, smooth-talk
+ ing Reginald Rake swoops in with plans of his own. Chaos follows\, and soo
+ n Betty's in danger and everything's at risk. Can Harry get back in time a
+ nd save the day?\n\nStarring: Sophie Okonedo\, Jessie Buckley\, Domhnall G
+ leeson\, Rob Brydon\, Doon Mackichan\, Rasmus Hardiker\n\nFilm release at 
+ Merlin Cinemas Bodmin\nBook tickets: /film/the-scarecrows-wedding-the-smed
+ s-and-the-smoos-toddler-cinema\n\nFilm details: https://evenwebb.github.io
+ /merlin-cinemas/films/the-scarecrows-wedding-the-smeds-and-the-smoos.html
 LOCATION:Merlin Cinemas Bodmin
 URL:/film/the-scarecrows-wedding-the-smeds-and-the-smoos-toddler-cinema
 END:VEVENT
