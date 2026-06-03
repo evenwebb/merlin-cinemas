@@ -67,7 +67,7 @@ jobs:
           GIT_COMMITTER_NAME: "github-actions[bot]"
           GIT_COMMITTER_EMAIL: "41898282+github-actions[bot]@users.noreply.github.com"
         run: |
-          if [ -d docs ]; then git add -f docs/; fi
+          if [ -d docs ]; then git add docs/; fi
           for f in .film_cache.json .tmdb_cache.json .release_history.json .scrape_fingerprint; do
             if [ -f "$f" ]; then git add "$f"; fi
           done

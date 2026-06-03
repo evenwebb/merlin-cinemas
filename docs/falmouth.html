@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>What's on at Merlin Falmouth</title>
+  <meta name="description" content="Now showing and coming soon at Merlin Cinemas Falmouth.">
+  <link rel="canonical" href="https://evenwebb.github.io/merlin-cinemas/">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎬</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+
+:root{--bg:#09090d;--surface:#13131c;--surface-2:#1a1a26;--border:rgba(192,132,252,0.18);--text:#e8edf2;--text-muted:#8b9db5;--cyan:#22d3ee;--purple:#c084fc;--accent:#22d3ee;--accent-dim:rgba(34,211,238,0.12);--accent-glow:rgba(34,211,238,0.2);--amber:#f59e0b;--radius:16px;--radius-sm:10px;--transition:0.2s ease}
+*,::before,::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:2rem}
+body{font-family:'Space Grotesk',system-ui,sans-serif;background:var(--bg);color:var(--text);line-height:1.7;min-height:100vh;-webkit-font-smoothing:antialiased}
+@keyframes pageIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+.page{animation:pageIn 0.4s ease-out}
+.bg-mesh{position:fixed;inset:0;overflow:hidden;background:radial-gradient(ellipse 80% 60% at 50% -20%,var(--accent-dim) 0%,transparent 50%),radial-gradient(ellipse 50% 40% at 80% 90%,rgba(192,132,252,0.06) 0%,transparent 50%);pointer-events:none;z-index:0}
+footer{text-align:center;padding:2.5rem 2rem;color:var(--text-muted);font-size:0.85rem;border-top:1px solid rgba(255,255,255,0.05);margin-top:4rem}
+footer a{color:var(--accent);text-decoration:none;font-weight:500}
+footer a:hover{color:var(--purple)}
+.footer-updated{font-size:0.75rem;opacity:0.4;margin-top:0.75rem}
+@media print{body{background:#fff!important;color:#111!important}.bg-mesh,.skip-link,.quick-nav,.map-link,.book-btn{display:none!important}.card,.stat-pill,.featured-film,.now-film,.cinema-table td{background:#fff!important;border:1px solid #ddd!important;box-shadow:none!important;break-inside:avoid}.hero h1{color:#111!important;-webkit-text-fill-color:#111!important;background:none!important}footer{border-top:1px solid #ddd!important}a{color:#111!important}}
+
+    .page{max-width:860px;margin:0 auto;padding:1.5rem 1rem 4rem}
+    .back-btn{display:inline-flex;align-items:center;gap:0.4rem;padding:0.5rem 1.1rem;background:var(--surface);border:1px solid var(--border);border-radius:100px;color:var(--text-muted);text-decoration:none;font-weight:500;font-size:0.85rem;margin-bottom:2rem;transition:all var(--transition)}
+    .back-btn:hover{color:var(--accent);border-color:var(--accent);background:var(--accent-dim)}
+    .cinema-hero{text-align:center;padding:2rem 0 3rem}
+    .cinema-hero h1{font-size:clamp(1.5rem,4vw,2rem);font-weight:800;background:linear-gradient(135deg,var(--cyan),var(--purple));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+    .cinema-hero p{color:var(--text-muted);font-size:0.95rem;margin-top:0.5rem}
+    .cinema-hero .map-link{display:inline-block;margin-top:0.75rem;padding:0.4rem 1rem;border-radius:100px;font-size:0.82rem;color:var(--accent);text-decoration:none;border:1px solid var(--border);transition:all var(--transition)}
+    .cinema-hero .map-link:hover{background:var(--accent-dim);border-color:var(--accent)}
+    .cs-list{list-style:none;padding:0;display:flex;flex-direction:column;gap:0.5rem}
+    .cs-list li{font-size:0.92rem;padding:0.75rem 1rem;background:var(--surface);border:1px solid var(--border);border-radius:10px}
+    .cs-list li a{color:var(--text);text-decoration:none;font-weight:600}
+    .cs-list li a:hover{color:var(--accent)}
+  </style>
+</head>
+<body>
+  <div class="bg-mesh" aria-hidden="true"></div>
+  <div class="page">
+    <a href="./" class="back-btn">← All</a>
+    <header class="cinema-hero">
+      <h1>Merlin Falmouth</h1>
+      <p>Subscribe: <a href="merlin-falmouth.ics" type="text/calendar" download>iCal feed</a></p>
+      <a href="https://www.google.com/maps/search/Phoenix+Cinema+Falmouth" class="map-link" target="_blank" rel="noopener">📍 View on map</a>
+    </header>
+  <section class="film-section" id="now-showing">
+    <div class="section-header"><h2>Now Showing</h2><span class="count">28 films</span></div>
+    <div class="ns-poster-grid">
+<a href="films/backrooms.html" class="ns-poster-card">
+  <div class="ns-poster-wrap"><img src="../posters/backrooms.jpg" alt="Backrooms" loading="lazy" decoding="async"></div>
+  <span class="ns-title">Backrooms</span>
+</a>
+<a href="films/bonnie-clive-with-the-jive-aces.html" class="ns-poster-card">
+  <div class="ns-poster-wrap"><img src="../posters/bonnie-clive-with-the-jive-aces.jpg" alt="Bonnie &amp; Clive with The Jive Aces" loading="lazy" decoding="async"></div>
+  <span class="ns-title">Bonnie &amp; Clive with The Jive Aces</span>
+</a>
+<a href="films/masters-of-the-universe.html" class="ns-poster-card">
+  <div class="ns-poster-wrap"><img src="../posters/masters-of-the-universe.jpg" alt="Masters Of The Universe" loading="lazy" decoding="async"></div>
+  <span class="ns-title">Masters Of The Universe</span>
+</a>
+<a href="films/michael.html" class="ns-poster-card">
+  <div class="ns-poster-wrap"><img src="../posters/michael.jpg" alt="Michael" loading="lazy" decoding="async"></div>
+  <span class="ns-title">Michael</span>
+</a>
+<a href="films/obsession.html" class="ns-poster-card">
+  <div class="ns-poster-wrap"><img src="../posters/obsession.jpg" alt="Obsession" loading="lazy" decoding="async"></div>
+  <span class="ns-title">Obsession</span>
+</a>
+<a href="films/power-ballad.html" class="ns-poster-card">
+  <div class="ns-poster-wrap"><img src="../posters/power-ballad.jpg" alt="Power Ballad" loading="lazy" decoding="async"></div>
+  <span class="ns-title">Power Ballad</span>
+</a>
+<a href="films/star-wars-the-mandalorian-and-grogu.html" class="ns-poster-card">
+  <div class="ns-poster-wrap"><img src="../posters/star-wars-the-mandalorian-and-grogu.jpg" alt="Star Wars: The Mandalorian And Grogu" loading="lazy" decoding="async"></div>
+  <span class="ns-title">Star Wars: The Mandalorian And Grogu</span>
+</a>
+<a href="films/the-devil-wears-prada-2.html" class="ns-poster-card">
+  <div class="ns-poster-wrap"><img src="../posters/the-devil-wears-prada-2.jpg" alt="The Devil Wears Prada 2" loading="lazy" decoding="async"></div>
+  <span class="ns-title">The Devil Wears Prada 2</span>
+</a>
+<a href="films/the-sheep-detectives.html" class="ns-poster-card">
+  <div class="ns-poster-wrap"><img src="../posters/the-sheep-detectives.jpg" alt="The Sheep Detectives" loading="lazy" decoding="async"></div>
+  <span class="ns-title">The Sheep Detectives</span>
+</a>
+<a href="films/the-amazing-digital-circus-the-last-act.html" class="ns-poster-card">
+  <div class="ns-poster-wrap"><img src="../posters/the-amazing-digital-circus-the-last-act.jpg" alt="The Amazing Digital Circus: The Last Act" loading="lazy" decoding="async"></div>
+  <span class="ns-title">The Amazing Digital Circus: The Last Act</span>
+</a>
+<a href="films/the-christophers.html" class="ns-poster-card">
+  <div class="ns-poster-wrap"><img src="../posters/the-christophers.jpg" alt="The Christophers" loading="lazy" decoding="async"></div>
+  <span class="ns-title">The Christophers</span>
+</a>
+<a href="films/scary-movie.html" class="ns-poster-card">
+  <div class="ns-poster-wrap"><img src="../posters/scary-movie.jpg" alt="Scary Movie" loading="lazy" decoding="async"></div>
+  <span class="ns-title">Scary Movie</span>
+</a>
+<a href="films/the-magic-faraway-tree.html" class="ns-poster-card">
+  <div class="ns-poster-wrap"><img src="../posters/the-magic-faraway-tree.jpg" alt="The Magic Faraway Tree" loading="lazy" decoding="async"></div>
+  <span class="ns-title">The Magic Faraway Tree</span>
+</a>
+<a href="films/the-super-mario-galaxy-movie.html" class="ns-poster-card">
+  <div class="ns-poster-wrap"><img src="../posters/the-super-mario-galaxy-movie.jpg" alt="The Super Mario Galaxy Movie" loading="lazy" decoding="async"></div>
+  <span class="ns-title">The Super Mario Galaxy Movie</span>
+</a>
+<a href="films/zog-zog-and-the-flying-doctors.html" class="ns-poster-card">
+  <div class="ns-poster-wrap"><img src="../posters/zog-zog-and-the-flying-doctors.jpg" alt="Zog &amp; Zog And The Flying Doctors" loading="lazy" decoding="async"></div>
+  <span class="ns-title">Zog &amp; Zog And The Flying Doctors</span>
+</a>
+<a href="films/disclosure-day.html" class="ns-poster-card">
+  <div class="ns-poster-wrap"><img src="../posters/disclosure-day.jpg" alt="Disclosure Day" loading="lazy" decoding="async"></div>
+  <span class="ns-title">Disclosure Day</span>
+</a>
+<a href="films/les-liaisons-dangereuses.html" class="ns-poster-card">
+  <div class="ns-poster-wrap"><img src="../posters/les-liaisons-dangereuses.jpg" alt="Les Liaisons Dangereuses" loading="lazy" decoding="async"></div>
+  <span class="ns-title">Les Liaisons Dangereuses</span>
+</a>
+<a href="films/met-opera-macbeth.html" class="ns-poster-card">
+  <div class="ns-poster-wrap"><img src="../posters/met-opera-macbeth.jpg" alt="MET Opera - Macbeth" loading="lazy" decoding="async"></div>
+  <span class="ns-title">MET Opera - Macbeth</span>
+</a>
+<a href="films/the-royal-ballet-manon.html" class="ns-poster-card">
+  <div class="ns-poster-wrap"><img src="../posters/the-royal-ballet-manon.jpg" alt="The Royal Ballet - Manon" loading="lazy" decoding="async"></div>
+  <span class="ns-title">The Royal Ballet - Manon</span>
+</a>
+<a href="films/the-royal-opera-carmen.html" class="ns-poster-card">
+  <div class="ns-poster-wrap"><img src="../posters/the-royal-opera-carmen.jpg" alt="The Royal Opera - Carmen" loading="lazy" decoding="async"></div>
+  <span class="ns-title">The Royal Opera - Carmen</span>
+</a>
+<a href="films/the-royal-ballet-the-nutcracker.html" class="ns-poster-card">
+  <div class="ns-poster-wrap"><img src="../posters/the-royal-ballet-the-nutcracker.jpg" alt="The Royal Ballet - The Nutcracker" loading="lazy" decoding="async"></div>
+  <span class="ns-title">The Royal Ballet - The Nutcracker</span>
+</a>
+<a href="films/met-opera-la-fanciulla-del-west.html" class="ns-poster-card">
+  <div class="ns-poster-wrap"><img src="../posters/met-opera-la-fanciulla-del-west.jpg" alt="MET Opera - La Fanciulla Del West" loading="lazy" decoding="async"></div>
+  <span class="ns-title">MET Opera - La Fanciulla Del West</span>
+</a>
+<a href="films/the-royal-opera-g-tterd-mmerung.html" class="ns-poster-card">
+  <div class="ns-poster-wrap"><img src="../posters/the-royal-opera-g-tterd-mmerung.jpg" alt="The Royal Opera - Götterdämmerung" loading="lazy" decoding="async"></div>
+  <span class="ns-title">The Royal Opera - Götterdämmerung</span>
+</a>
+<a href="films/the-royal-opera-cos-fan-tutte.html" class="ns-poster-card">
+  <div class="ns-poster-wrap"><img src="../posters/the-royal-opera-cos-fan-tutte.jpg" alt="The Royal Opera - Così Fan Tutte" loading="lazy" decoding="async"></div>
+  <span class="ns-title">The Royal Opera - Così Fan Tutte</span>
+</a>
+<a href="films/the-royal-ballet-alice-s-adventures-in-wonderland.html" class="ns-poster-card">
+  <div class="ns-poster-wrap"><img src="../posters/the-royal-ballet-alice-s-adventures-in-wonderland.jpg" alt="The Royal Ballet - Alice&#x27;s Adventures In Wonderland" loading="lazy" decoding="async"></div>
+  <span class="ns-title">The Royal Ballet - Alice&#x27;s Adventures In Wonderland</span>
+</a>
+<a href="films/the-royal-ballet-swan-lake.html" class="ns-poster-card">
+  <div class="ns-poster-wrap"><img src="../posters/the-royal-ballet-swan-lake.jpg" alt="The Royal Ballet - Swan Lake" loading="lazy" decoding="async"></div>
+  <span class="ns-title">The Royal Ballet - Swan Lake</span>
+</a>
+<a href="films/the-royal-opera-tosca.html" class="ns-poster-card">
+  <div class="ns-poster-wrap"><img src="../posters/the-royal-opera-tosca.jpg" alt="The Royal Opera - Tosca" loading="lazy" decoding="async"></div>
+  <span class="ns-title">The Royal Opera - Tosca</span>
+</a>
+<a href="films/the-royal-ballet-romeo-juliet.html" class="ns-poster-card">
+  <div class="ns-poster-wrap"><img src="../posters/the-royal-ballet-romeo-juliet.jpg" alt="The Royal Ballet - Romeo &amp; Juliet" loading="lazy" decoding="async"></div>
+  <span class="ns-title">The Royal Ballet - Romeo &amp; Juliet</span>
+</a>
+    </div>
+  </section>
+  <section class="film-section" id="coming-soon">
+    <div class="section-header"><h2>Coming Soon</h2><span class="count">28 films</span></div>
+    <ul class="cs-list">
+<li><a href="films/the-amazing-digital-circus-the-last-act.html">The Amazing Digital Circus: The Last Act</a> - Thu 04 Jun 2026</li>
+<li><a href="films/zog-zog-and-the-flying-doctors.html">Zog &amp; Zog And The Flying Doctors</a> - Sat 06 Jun 2026</li>
+<li><a href="films/toy-story-5.html">Toy Story 5</a> - Thu 18 Jun 2026</li>
+<li><a href="films/supergirl.html">Supergirl</a> - Thu 25 Jun 2026</li>
+<li><a href="films/jackass-best-and-last.html">Jackass: Best And Last</a> - Fri 26 Jun 2026</li>
+<li><a href="films/500-miles.html">500 Miles</a> - Fri 26 Jun 2026</li>
+<li><a href="films/minions-monsters.html">Minions &amp; Monsters</a> - Wed 01 Jul 2026</li>
+<li><a href="films/evil-dead-burn.html">Evil Dead Burn</a> - Fri 10 Jul 2026</li>
+<li><a href="films/moana.html">Moana</a> - Fri 10 Jul 2026</li>
+<li><a href="films/the-odyssey.html">The Odyssey</a> - Fri 17 Jul 2026</li>
+<li><a href="films/spider-man-brand-new-day.html">Spider-Man: Brand New Day</a> - Fri 31 Jul 2026</li>
+<li><a href="films/paw-patrol-the-dino-movie.html">PAW Patrol: The Dino Movie</a> - Fri 07 Aug 2026</li>
+<li><a href="films/insidious-out-of-the-further.html">Insidious: Out Of The Further</a> - Fri 21 Aug 2026</li>
+<li><a href="films/the-dog-stars.html">The Dog Stars</a> - Wed 26 Aug 2026</li>
+<li><a href="films/pressure.html">Pressure</a> - Wed 09 Sep 2026</li>
+<li><a href="films/practical-magic-2.html">Practical Magic 2</a> - Fri 11 Sep 2026</li>
+<li><a href="films/resident-evil.html">Resident Evil</a> - Fri 18 Sep 2026</li>
+<li><a href="films/shaun-the-sheep-the-beast-of-mossy-bottom.html">Shaun The Sheep: The Beast Of Mossy Bottom</a> - Fri 18 Sep 2026</li>
+<li><a href="films/verity.html">Verity</a> - Fri 02 Oct 2026</li>
+<li><a href="films/street-fighter.html">Street Fighter</a> - Fri 16 Oct 2026</li>
+<li><a href="films/forgotten-island.html">Forgotten Island</a> - Fri 16 Oct 2026</li>
+<li><a href="films/clayface.html">Clayface</a> - Fri 23 Oct 2026</li>
+<li><a href="films/wild-horse-nine.html">Wild Horse Nine</a> - Fri 06 Nov 2026</li>
+<li><a href="films/the-hunger-games-sunrise-on-the-reaping.html">The Hunger Games: Sunrise On The Reaping</a> - Fri 20 Nov 2026</li>
+<li><a href="films/focker-in-law.html">Focker-In-Law</a> - Wed 25 Nov 2026</li>
+<li><a href="films/dune-part-three.html">Dune: Part Three</a> - Fri 18 Dec 2026</li>
+<li><a href="films/avengers-doomsday.html">Avengers: Doomsday</a> - Fri 18 Dec 2026</li>
+<li><a href="films/the-scarecrows-wedding-the-smeds-and-the-smoos.html">The Scarecrows&#x27; Wedding &amp; The Smeds And The Smoos -</a> - Sun 28 Feb 2027</li>
+    </ul>
+  </section>
+    <footer style="text-align:center;padding:2rem 0;color:var(--text-muted);font-size:0.85rem;border-top:1px solid var(--border);margin-top:3rem">
+      <p>An open source fan-made project. Not affiliated with Merlin Cinemas.</p>
+      <p class="footer-updated">Last updated: 2026-06-03 14:59 UTC</p>
+    </footer>
+  </div>
+</body>
+</html>

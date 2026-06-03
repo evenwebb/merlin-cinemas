@@ -1,0 +1,529 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Merlin Cinemas//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+X-WR-CALNAME:Merlin Flora Cinema Movie Premieres
+X-WR-CALDESC:Upcoming movie premieres at Merlin Cinemas Flora Cinema
+X-WR-TIMEZONE:Europe/London
+BEGIN:VEVENT
+UID:f917ac02da63ae184cb2f802119365796f07bc01@merlin-cinemas
+DTSTAMP:20260603T145957Z
+DTSTART;VALUE=DATE:20260603
+DTEND;VALUE=DATE:20260604
+SUMMARY:Bonnie & Clive with The Jive Aces @ Merlin Helston
+DESCRIPTION:Bonnie & Clive with The Jive Aces (1h 20min)\nRomance\n\nThree 
+ lonely adventurers take a road trip from London to Lands' End during the C
+ OVID-19 pandemic.\n\nStarring: Eleanor May Blackburn\, Michael Kodi Farrow
+ \, James Jip\, Kevin Short\, Charles Baillie\n\nFilm release at Merlin Cin
+ emas Helston\nBook tickets: /film/bonnie-clive-with-the-jive-aces-double-b
+ ill\n\nFilm details: https://evenwebb.github.io/merlin-cinemas/films/bonni
+ e-clive-with-the-jive-aces.html
+LOCATION:Merlin Cinemas Helston
+URL:/film/bonnie-clive-with-the-jive-aces-double-bill
+END:VEVENT
+BEGIN:VEVENT
+UID:04eeeb83d47de6691fd546ef016af1ab9175ddf0@merlin-cinemas
+DTSTAMP:20260603T145957Z
+DTSTART;VALUE=DATE:20260604
+DTEND;VALUE=DATE:20260605
+SUMMARY:The Amazing Digital Circus: The Last Act @ Merlin Helston
+DESCRIPTION:The Amazing Digital Circus: The Last Act (1h 33min)\nAnimation\
+ , Drama\, Science Fiction\, Thriller\n\nWith Caine gone and the circus dar
+ k\, the cast are left with only the mistakes and traumas of their pasts to
+  keep them company. As the prospect of eternity closes in around them\, th
+ ey discover the truth about the Digital Circus and its history. Will they 
+ come to terms with what they uncover\, or will they make… the other choice
+ ? Also\, presumably at some point someone says something funny\, because t
+ his ending can’t be THAT depressing\, can it? A theatrical screening of ep
+ isode 8 and the all new\, hour-long episode 9.\n\nStarring: Lizzie Freeman
+ \, Michael Kovach\, Amanda Hufford\, Marissa Lenti\, Sean Chiplock\, Ashle
+ y Nichols\n\nFilm release at Merlin Cinemas Helston\nBook tickets: /film/t
+ he-amazing-digital-circus-the-last-act\n\nFilm details: https://evenwebb.g
+ ithub.io/merlin-cinemas/films/the-amazing-digital-circus-the-last-act.html
+LOCATION:Merlin Cinemas Helston
+URL:/film/the-amazing-digital-circus-the-last-act
+END:VEVENT
+BEGIN:VEVENT
+UID:757dcc82e9d0b9ae13bd01e286d0333b32943e51@merlin-cinemas
+DTSTAMP:20260603T145957Z
+DTSTART;VALUE=DATE:20260607
+DTEND;VALUE=DATE:20260608
+SUMMARY:Zog & Zog And The Flying Doctors @ Merlin Helston
+DESCRIPTION:Zog & Zog And The Flying Doctors (25 min)\n★★★☆☆\nAnimation\, F
+ amily\, TV Movie\, Fantasy\n\nPearl and Gadabout are now a flying doctor t
+ rio\, caring for creatures including a mermaid\, a unicorn and a sneezy li
+ on. However when bad weather forces them to land at the palace\, Pearl is 
+ locked up by her uncle\, the king.\n\nStarring: Lenny Henry\, Patsy Ferran
+ \, Daniel Ings\, Hugh Skinner\, Alexandra Roach\, Mark Bonnar\n\nFilm rele
+ ase at Merlin Cinemas Helston\nBook tickets: /film/zog-zog-and-the-flying-
+ doctors-toddler-cinema\n\nFilm details: https://evenwebb.github.io/merlin-
+ cinemas/films/zog-zog-and-the-flying-doctors.html
+LOCATION:Merlin Cinemas Helston
+URL:/film/zog-zog-and-the-flying-doctors-toddler-cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:ea9d0b64ec019619e4a569459e9e835d57be6346@merlin-cinemas
+DTSTAMP:20260603T145957Z
+DTSTART;VALUE=DATE:20260618
+DTEND;VALUE=DATE:20260619
+SUMMARY:Toy Story 5 @ Merlin Helston
+DESCRIPTION:Toy Story 5\nAnimation\, Family\, Comedy\, Adventure\n\nWhen Bo
+ nnie receives a Lilypad tablet as a gift and becomes obsessed\, Buzz\, Woo
+ dy\, Jessie and the rest of the gang's jobs become exponentially harder wh
+ en they have to go head to head with the all-new threat to playtime.\n\nSt
+ arring: Tom Hanks\, Tim Allen\, Joan Cusack\, Greta Lee\, Conan O'Brien\, 
+ Craig Robinson\n\nFilm release at Merlin Cinemas Helston\nBook tickets: /f
+ ilm/toy-story-5\n\nFilm details: https://evenwebb.github.io/merlin-cinemas
+ /films/toy-story-5.html
+LOCATION:Merlin Cinemas Helston
+URL:/film/toy-story-5
+END:VEVENT
+BEGIN:VEVENT
+UID:22cbb835260e08b0cb29b1b09c692f811203cc32@merlin-cinemas
+DTSTAMP:20260603T145957Z
+DTSTART;VALUE=DATE:20260625
+DTEND;VALUE=DATE:20260626
+SUMMARY:Supergirl @ Merlin Helston
+DESCRIPTION:Supergirl (1h 48min)\nAction\, Adventure\, Science Fiction\n\nW
+ hen an unexpected and ruthless adversary strikes too close to home\, Kara 
+ Zor-El\, aka Supergirl\, reluctantly joins forces with an unlikely compani
+ on on an epic\, interstellar journey of vengeance and justice.\n\nStarring
+ : Milly Alcock\, Matthias Schoenaerts\, Eve Ridley\, David Krumholtz\, Emi
+ ly Beecham\, Jason Momoa\n\nFilm release at Merlin Cinemas Helston\nBook t
+ ickets: /film/supergirl\n\nFilm details: https://evenwebb.github.io/merlin
+ -cinemas/films/supergirl.html
+LOCATION:Merlin Cinemas Helston
+URL:/film/supergirl
+END:VEVENT
+BEGIN:VEVENT
+UID:ac723212e167afde890626ecc571add532714967@merlin-cinemas
+DTSTAMP:20260603T145957Z
+DTSTART;VALUE=DATE:20260626
+DTEND;VALUE=DATE:20260627
+SUMMARY:Jackass: Best And Last @ Merlin Helston
+DESCRIPTION:Jackass: Best And Last (1h 44min)\nAction\, Comedy\, Documentar
+ y\n\nThe 5th and final installment to Jackass franchise where the crew go 
+ on one last insane crusade.\n\nStarring: Johnny Knoxville\, Steve-O\, Chri
+ s Pontius\, Jason 'Wee Man' Acuña\, Dave England\, Preston Lacy\n\nFilm re
+ lease at Merlin Cinemas Helston\nBook tickets: /film/jackass-best-and-last
+ \n\nFilm details: https://evenwebb.github.io/merlin-cinemas/films/jackass-
+ best-and-last.html
+LOCATION:Merlin Cinemas Helston
+URL:/film/jackass-best-and-last
+END:VEVENT
+BEGIN:VEVENT
+UID:86990edf2908b32550612d441a9fa7f6a87e90ab@merlin-cinemas
+DTSTAMP:20260603T145957Z
+DTSTART;VALUE=DATE:20260626
+DTEND;VALUE=DATE:20260627
+SUMMARY:500 Miles @ Merlin Helston
+DESCRIPTION:500 Miles (1h 42min)\nDrama\n\nA broken family is forced to com
+ e together when 16-year-old Finn and his livewire younger brother Charlie 
+ run away from trouble at home in England to reach their estranged grandfat
+ her on Ireland’s stunning and wild west coast.\n\nStarring: Bill Nighy\, R
+ oman Griffin Davis\, Dexter Sol Ansell\, Clare Dunne\, Michael Socha\, Mai
+ sie Williams\n\nFilm release at Merlin Cinemas Helston\nBook tickets: /fil
+ m/500-miles\n\nFilm details: https://evenwebb.github.io/merlin-cinemas/fil
+ ms/500-miles.html
+LOCATION:Merlin Cinemas Helston
+URL:/film/500-miles
+END:VEVENT
+BEGIN:VEVENT
+UID:e59f929760c7acb6963dc40a544d81881baf77bb@merlin-cinemas
+DTSTAMP:20260603T145957Z
+DTSTART;VALUE=DATE:20260701
+DTEND;VALUE=DATE:20260702
+SUMMARY:Minions & Monsters @ Merlin Helston
+DESCRIPTION:Minions & Monsters (1h 30min)\nAdventure\, Animation\, Comedy\,
+  Family\, Fantasy\n\nThis is the rambunctious\, ridiculous and totally tru
+ e story of how the Minions conquered Hollywood\, became movie stars\, lost
+  everything\, unleashed monsters onto the world and then banded together t
+ o try and save the planet from the mayhem they had just created.\n\nStarri
+ ng: Pierre Coffin\, Trey Parker\, Allison Janney\, Christoph Waltz\, Jeff 
+ Bridges\, Jesse Eisenberg\n\nFilm release at Merlin Cinemas Helston\nBook 
+ tickets: /film/minions-monsters\n\nFilm details: https://evenwebb.github.i
+ o/merlin-cinemas/films/minions-monsters.html
+LOCATION:Merlin Cinemas Helston
+URL:/film/minions-monsters
+END:VEVENT
+BEGIN:VEVENT
+UID:6eafc0e7df00fc2c7e03536ca76d90136f274234@merlin-cinemas
+DTSTAMP:20260603T145957Z
+DTSTART;VALUE=DATE:20260710
+DTEND;VALUE=DATE:20260711
+SUMMARY:Evil Dead Burn @ Merlin Helston
+DESCRIPTION:Evil Dead Burn\nHorror\n\nAfter the loss of her husband\, a wom
+ an seeks solace with her in-laws in their secluded family home. As one by 
+ one they are transformed into Deadites—turning the gathering into a family
+  reunion from hell—she comes to discover that the vows she took in life...
+  live on even in death.\n\nStarring: Souheila Yacoub\, Tandi Wright\, Hunt
+ er Doohan\, Luciane Buchanan\, Erroll Shand\, Maude Davey\n\nFilm release 
+ at Merlin Cinemas Helston\nBook tickets: /film/evil-dead-burn\n\nFilm deta
+ ils: https://evenwebb.github.io/merlin-cinemas/films/evil-dead-burn.html
+LOCATION:Merlin Cinemas Helston
+URL:/film/evil-dead-burn
+END:VEVENT
+BEGIN:VEVENT
+UID:07f982072f210e4fed0a3f36c00d94fed48a51b9@merlin-cinemas
+DTSTAMP:20260603T145957Z
+DTSTART;VALUE=DATE:20260710
+DTEND;VALUE=DATE:20260711
+SUMMARY:Moana @ Merlin Helston
+DESCRIPTION:Moana\nFamily\, Fantasy\, Comedy\, Adventure\n\nMoana answers t
+ he Ocean's call and\, for the first time\, voyages beyond the reef of her 
+ island of Motunui with the infamous demigod Maui on an unforgettable journ
+ ey to restore prosperity to her people.\n\nStarring: Catherine Laga‘aia\, 
+ Dwayne Johnson\, Rena Owen\, John Tui\, Frankie Adams\n\nFilm release at M
+ erlin Cinemas Helston\nBook tickets: /film/moana\n\nFilm details: https://
+ evenwebb.github.io/merlin-cinemas/films/moana.html
+LOCATION:Merlin Cinemas Helston
+URL:/film/moana
+END:VEVENT
+BEGIN:VEVENT
+UID:627fe335347df39da7013f63421cbbda64657a80@merlin-cinemas
+DTSTAMP:20260603T145957Z
+DTSTART;VALUE=DATE:20260717
+DTEND;VALUE=DATE:20260718
+SUMMARY:The Odyssey @ Merlin Helston
+DESCRIPTION:The Odyssey\nAdventure\, Action\, Fantasy\n\nOdysseus\, the leg
+ endary King of Ithaca\, embarks on a long and perilous journey home follow
+ ing the Trojan War. Throughout his voyage\, he is forced to confront the w
+ hims of gods\, mythological monsters\, and trials that stretch both his cu
+ nning and his humanity to the breaking point.\n\nStarring: Matt Damon\, To
+ m Holland\, Anne Hathaway\, Robert Pattinson\, Lupita Nyong'o\, Charlize T
+ heron\n\nFilm release at Merlin Cinemas Helston\nBook tickets: /film/the-o
+ dyssey\n\nFilm details: https://evenwebb.github.io/merlin-cinemas/films/th
+ e-odyssey.html
+LOCATION:Merlin Cinemas Helston
+URL:/film/the-odyssey
+END:VEVENT
+BEGIN:VEVENT
+UID:1e3a7f1cdeac198862a1bf88e51e32ab57cfb7c7@merlin-cinemas
+DTSTAMP:20260603T145957Z
+DTSTART;VALUE=DATE:20260731
+DTEND;VALUE=DATE:20260801
+SUMMARY:Spider-Man: Brand New Day @ Merlin Helston
+DESCRIPTION:Spider-Man: Brand New Day\nScience Fiction\, Action\, Adventure
+ \n\nFour years have passed since the events of No Way Home\, and Peter is 
+ now an adult living entirely alone\, having voluntarily erased himself fro
+ m the lives and memories of those he loves. Crime-fighting in a New York t
+ hat no longer knows his name\, he's devoted himself entirely to protecting
+  his city — a full-time Spider-Man — but as the demands on him intensify\,
+  the pressure sparks a surprising physical evolution that threatens his ex
+ istence\, even as a strange new pattern of crimes gives rise to one of the
+  most powerful threats he has ever faced.\n\nStarring: Tom Holland\, Zenda
+ ya\, Sadie Sink\, Jacob Batalon\, Jon Bernthal\, Tramell Tillman\n\nFilm r
+ elease at Merlin Cinemas Helston\nBook tickets: /film/spiderman-brand-new-
+ day\n\nFilm details: https://evenwebb.github.io/merlin-cinemas/films/spide
+ r-man-brand-new-day.html
+LOCATION:Merlin Cinemas Helston
+URL:/film/spiderman-brand-new-day
+END:VEVENT
+BEGIN:VEVENT
+UID:ee009b8d6b9d7481358ba66f52b42bd7c5fdbfc1@merlin-cinemas
+DTSTAMP:20260603T145957Z
+DTSTART;VALUE=DATE:20260807
+DTEND;VALUE=DATE:20260808
+SUMMARY:PAW Patrol: The Dino Movie @ Merlin Helston
+DESCRIPTION:PAW Patrol: The Dino Movie (1h 28min)\nAdventure\, Animation\, 
+ Comedy\, Family\n\nThe PAW Patrol pups crash land on an uncharted tropical
+  island filled with dinosaurs after their ship gets caught in a mysterious
+  storm. They meet Rex\, a pup who has been stranded on the island for year
+ s and has become an expert in all things dino-related. When the Patrol’s a
+ rchrival\, Mayor Humdinger\, begins recklessly mining in hopes of exploiti
+ ng the island for its natural resources\, he inadvertently causes a huge\,
+  dormant volcano to erupt. The pups are thrown into a series of high-stake
+ s\, dino-sized rescues bigger than anything they’ve done before\, as they 
+ must stop Humdinger before everything on the island goes extinct.\n\nStarr
+ ing: Carter Young\, Hayden Chamberlen\, Mckenna Grace\, Rain Janjua\, Henr
+ y Bolan\, Lucien Duncan-Reid\n\nFilm release at Merlin Cinemas Helston\nBo
+ ok tickets: /film/paw-patrol-the-dino-movie\n\nFilm details: https://evenw
+ ebb.github.io/merlin-cinemas/films/paw-patrol-the-dino-movie.html
+LOCATION:Merlin Cinemas Helston
+URL:/film/paw-patrol-the-dino-movie
+END:VEVENT
+BEGIN:VEVENT
+UID:8074e8105bbda3281c039ef32021703a1c1ec952@merlin-cinemas
+DTSTAMP:20260603T145957Z
+DTSTART;VALUE=DATE:20260821
+DTEND;VALUE=DATE:20260822
+SUMMARY:Insidious: Out Of The Further @ Merlin Helston
+DESCRIPTION:Insidious: Out Of The Further\nHorror\, Thriller\n\nGemma\, a y
+ oung mother raising her daughter in the house she grew up in\, discovers s
+ he can travel into The Further\, where she possesses an ability to bring w
+ hat lives there back to the real world.\n\nStarring: Amelia Eve\, Brandon 
+ Perea\, Lin Shaye\, Maisie Richardson-Sellers\, Sam Spruell\, Island Austi
+ n\n\nFilm release at Merlin Cinemas Helston\nBook tickets: /film/insidious
+ -out-of-the-further\n\nFilm details: https://evenwebb.github.io/merlin-cin
+ emas/films/insidious-out-of-the-further.html
+LOCATION:Merlin Cinemas Helston
+URL:/film/insidious-out-of-the-further
+END:VEVENT
+BEGIN:VEVENT
+UID:a283252b57187ee2cc596dadc4214999badab003@merlin-cinemas
+DTSTAMP:20260603T145957Z
+DTSTART;VALUE=DATE:20260826
+DTEND;VALUE=DATE:20260827
+SUMMARY:The Dog Stars @ Merlin Helston
+DESCRIPTION:The Dog Stars\nAdventure\, Science Fiction\, Thriller\n\nAfter 
+ the world's population has been ravaged by a pandemic\, a man lives a lone
+ some existence in a Colorado airplane hangar with his dog and a dour gunma
+ n he has befriended. When a mysterious transmission comes through on the r
+ adio while he’s flying his old Cessna\, it sparks a hunt for the provenanc
+ e of the sound.\n\nStarring: Jacob Elordi\, Josh Brolin\, Margaret Qualley
+ \, Guy Pearce\, Allison Janney\, Benedict Wong\n\nFilm release at Merlin C
+ inemas Helston\nBook tickets: /film/the-dog-stars\n\nFilm details: https:/
+ /evenwebb.github.io/merlin-cinemas/films/the-dog-stars.html
+LOCATION:Merlin Cinemas Helston
+URL:/film/the-dog-stars
+END:VEVENT
+BEGIN:VEVENT
+UID:b63af7b8df590f55024265a88faaea23d9049e23@merlin-cinemas
+DTSTAMP:20260603T145957Z
+DTSTART;VALUE=DATE:20260909
+DTEND;VALUE=DATE:20260910
+SUMMARY:Pressure @ Merlin Helston
+DESCRIPTION:Pressure (1h 40min)\n★★★★☆\nThriller\, History\, War\n\nIn the 
+ tense 72 hours before D-Day\, and the fate of the free world hanging in th
+ e balance\, General Dwight D. Eisenhower and Captain James Stagg face an i
+ mpossible choice—launch the largest and most dangerous seaborne invasion i
+ n history or risk losing the war altogether.\n\nStarring: Andrew Scott\, B
+ rendan Fraser\, Kerry Condon\, Chris Messina\, Damian Lewis\, Con O'Neill\
+ n\nFilm release at Merlin Cinemas Helston\nBook tickets: /film/pressure\n\
+ nFilm details: https://evenwebb.github.io/merlin-cinemas/films/pressure.ht
+ ml
+LOCATION:Merlin Cinemas Helston
+URL:/film/pressure
+END:VEVENT
+BEGIN:VEVENT
+UID:9ca5f9b48e2d69a01642b74db978fa0bfd26eb0f@merlin-cinemas
+DTSTAMP:20260603T145957Z
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260912
+SUMMARY:Practical Magic 2 @ Merlin Helston
+DESCRIPTION:Practical Magic 2\nFantasy\, Drama\, Comedy\n\nThe Owens sister
+ s must confront the dark curse that threatens to unravel their family once
+  and for all.\n\nStarring: Sandra Bullock\, Nicole Kidman\, Lee Pace\, Dia
+ nne Wiest\, Stockard Channing\, Maisie Williams\n\nFilm release at Merlin 
+ Cinemas Helston\nBook tickets: /film/practical-magic-2\n\nFilm details: ht
+ tps://evenwebb.github.io/merlin-cinemas/films/practical-magic-2.html
+LOCATION:Merlin Cinemas Helston
+URL:/film/practical-magic-2
+END:VEVENT
+BEGIN:VEVENT
+UID:490ccdf6362805061357132de37ba2df5fb55a46@merlin-cinemas
+DTSTAMP:20260603T145957Z
+DTSTART;VALUE=DATE:20260918
+DTEND;VALUE=DATE:20260919
+SUMMARY:Resident Evil @ Merlin Helston
+DESCRIPTION:Resident Evil\nHorror\, Science Fiction\, Action\n\nBryan\, a m
+ edical courier\, is in the process of making a delivery when a sudden outb
+ reak occurs\, forcing him to fight for survival.\n\nStarring: Austin Abram
+ s\, Zach Cherry\, Kali Reis\, Paul Walter Hauser\, Johnno Wilson\n\nFilm r
+ elease at Merlin Cinemas Helston\nBook tickets: /film/resident-evil\n\nFil
+ m details: https://evenwebb.github.io/merlin-cinemas/films/resident-evil.h
+ tml
+LOCATION:Merlin Cinemas Helston
+URL:/film/resident-evil
+END:VEVENT
+BEGIN:VEVENT
+UID:4c769da2de10eef926074a100bdb2b37d05bf846@merlin-cinemas
+DTSTAMP:20260603T145957Z
+DTSTART;VALUE=DATE:20260918
+DTEND;VALUE=DATE:20260919
+SUMMARY:Shaun The Sheep: The Beast Of Mossy Bottom @ Merlin Helston
+DESCRIPTION:Shaun The Sheep: The Beast Of Mossy Bottom\nFamily\, Comedy\, A
+ dventure\, Animation\n\nThe residents of Mossy Bottom Farm looking forward
+  to Halloween – until the clumsy Farmer trashes the flock’s beloved pumpki
+ n patch! When Shaun turns mad scientist to fix the problem\, things rapidl
+ y spiral out of control. With the Farmer missing and a wild beast roaming 
+ the woods of Mossingham\, all the ingredients are in place for a monstrous
+ ly fun family adventure.\n\nStarring: Justin Fletcher\, John Sparkes\, Kat
+ e Harbour\n\nFilm release at Merlin Cinemas Helston\nBook tickets: /film/s
+ haun-the-sheep-the-beast-of-mossy-bottom\n\nFilm details: https://evenwebb
+ .github.io/merlin-cinemas/films/shaun-the-sheep-the-beast-of-mossy-bottom.
+ html
+LOCATION:Merlin Cinemas Helston
+URL:/film/shaun-the-sheep-the-beast-of-mossy-bottom
+END:VEVENT
+BEGIN:VEVENT
+UID:5ad1f368b12f1e241b8f55f1b252c540559e92a4@merlin-cinemas
+DTSTAMP:20260603T145957Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+SUMMARY:Verity @ Merlin Helston
+DESCRIPTION:Verity\nMystery\, Thriller\n\nLowen Ashleigh gets hired by Jere
+ my Crawford to ghostwrite novels for his bestselling author wife Verity\, 
+ who's unable to finish after an accident. Lowen uncovers Verity's disturbi
+ ng truths while residing at the Crawfords' home to work.\n\nStarring: Dako
+ ta Johnson\, Anne Hathaway\, Josh Hartnett\, Ismael Cruz Cordova\, Brady W
+ agner\, Irina Dvorovenko\n\nFilm release at Merlin Cinemas Helston\nBook t
+ ickets: /film/verity\n\nFilm details: https://evenwebb.github.io/merlin-ci
+ nemas/films/verity.html
+LOCATION:Merlin Cinemas Helston
+URL:/film/verity
+END:VEVENT
+BEGIN:VEVENT
+UID:2042eda39b60d7803cfc2f805516bb9cdcec870e@merlin-cinemas
+DTSTAMP:20260603T145957Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+SUMMARY:Street Fighter @ Merlin Helston
+DESCRIPTION:Street Fighter\nAction\, Comedy\, Fantasy\n\nIn 1993\, estrange
+ d Street Fighters Ryu and Ken Masters are thrown back into combat when the
+  mysterious Chun-Li recruits them for the next World Warrior Tournament: a
+  brutal clash of fists\, fate\, and fury. But behind this battle royale li
+ es a deadly conspiracy that forces them to face off against each other and
+  the demons of their past. And if they don't\, it's GAME OVER!\n\nStarring
+ : Noah Centineo\, Andrew Koji\, Callina Liang\, Joe Anoa'i\, David Dastmal
+ chian\, Cody Rhodes\n\nFilm release at Merlin Cinemas Helston\nBook ticket
+ s: /film/street-fighter\n\nFilm details: https://evenwebb.github.io/merlin
+ -cinemas/films/street-fighter.html
+LOCATION:Merlin Cinemas Helston
+URL:/film/street-fighter
+END:VEVENT
+BEGIN:VEVENT
+UID:9091cd5d632afbca69be57e18d970df177c81b01@merlin-cinemas
+DTSTAMP:20260603T145957Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+SUMMARY:Forgotten Island @ Merlin Helston
+DESCRIPTION:Forgotten Island (1h 38min)\nAdventure\, Animation\, Comedy\, F
+ amily\, Fantasy\n\nJo and Raissa find themselves stranded in the mystical 
+ world of the forgotten island of Nakali. They discover that their only way
+  home might come at the expense of a lifetime of shared memories.\n\nStarr
+ ing: H.E.R.\, Liza Soberano\, Dave Franco\, Jenny Slate\, Manny Jacinto\, 
+ Dolly de Leon\n\nFilm release at Merlin Cinemas Helston\nBook tickets: /fi
+ lm/forgotten-island\n\nFilm details: https://evenwebb.github.io/merlin-cin
+ emas/films/forgotten-island.html
+LOCATION:Merlin Cinemas Helston
+URL:/film/forgotten-island
+END:VEVENT
+BEGIN:VEVENT
+UID:de10fea8931c746c7fdb17bd98d3fc0210c94ca9@merlin-cinemas
+DTSTAMP:20260603T145957Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:Clayface @ Merlin Helston
+DESCRIPTION:Clayface\nHorror\, Thriller\, Science Fiction\n\nFollow the ter
+ rifying descent into hell of a promising Hollywood actor who has become a 
+ monster driven by revenge\, exploring the loss of identity and humanity\, 
+ the ravages of toxic love and the dark side of scientific ambition.\n\nSta
+ rring: Tom Rhys Harries\, Naomi Ackie\, David Dencik\, Max Minghella\, Edd
+ ie Marsan\, Nancy Carroll\n\nFilm release at Merlin Cinemas Helston\nBook 
+ tickets: /film/clayface\n\nFilm details: https://evenwebb.github.io/merlin
+ -cinemas/films/clayface.html
+LOCATION:Merlin Cinemas Helston
+URL:/film/clayface
+END:VEVENT
+BEGIN:VEVENT
+UID:40e369e6820bee7756de545cb05aecccad3c71af@merlin-cinemas
+DTSTAMP:20260603T145957Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:Wild Horse Nine @ Merlin Helston
+DESCRIPTION:Wild Horse Nine\nComedy\, Crime\, Thriller\n\nShortly before th
+ e 1973 Chilean coup\, CIA agents Chris and Lee are dispatched from Santiag
+ o to Easter Island by their bureau chief\, MJ. Amongst the Island's iconic
+  statues\, and as the longtime partners wrestle with their dark pasts and 
+ present conspiracies\, Chris's newfound bond with a pair of rebellious stu
+ dents threatens to send everyone’s trip to this remote paradise sideways.\
+ n\nStarring: John Malkovich\, Sam Rockwell\, Steve Buscemi\, Parker Posey\
+ , Tom Waits\, Mariana Di Girolamo\n\nFilm release at Merlin Cinemas Helsto
+ n\nBook tickets: /film/wild-horse-nine\n\nFilm details: https://evenwebb.g
+ ithub.io/merlin-cinemas/films/wild-horse-nine.html
+LOCATION:Merlin Cinemas Helston
+URL:/film/wild-horse-nine
+END:VEVENT
+BEGIN:VEVENT
+UID:0df5dec001b2f2765225088639f1bd66d4a2fb1d@merlin-cinemas
+DTSTAMP:20260603T145957Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:The Hunger Games: Sunrise On The Reaping @ Merlin Helston
+DESCRIPTION:The Hunger Games: Sunrise On The Reaping\nScience Fiction\, Act
+ ion\, Adventure\n\nReturn to the world of Panem 24 years before the events
+  of The Hunger Games\, starting on the morning of the reaping of the 50th 
+ Hunger Games\, also known as the Second Quarter Quell.\n\nStarring: Joseph
+  Zada\, Mckenna Grace\, Jesse Plemons\, Elle Fanning\, Ralph Fiennes\, May
+ a Hawke\n\nFilm release at Merlin Cinemas Helston\nBook tickets: /film/the
+ -hunger-games-sunrise-on-the-reaping\n\nFilm details: https://evenwebb.git
+ hub.io/merlin-cinemas/films/the-hunger-games-sunrise-on-the-reaping.html
+LOCATION:Merlin Cinemas Helston
+URL:/film/the-hunger-games-sunrise-on-the-reaping
+END:VEVENT
+BEGIN:VEVENT
+UID:893c69b85257e2ea976052062237b7a6eb95c45d@merlin-cinemas
+DTSTAMP:20260603T145957Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:Focker-In-Law @ Merlin Helston
+DESCRIPTION:Focker-In-Law\nComedy\, Romance\n\nHenry\, son of Greg and Pam 
+ Focker\, faces family chaos when he decides to marry a strong-willed woman
+  who appears to be his complete mismatch.\n\nStarring: Robert De Niro\, Be
+ n Stiller\, Ariana Grande\, Owen Wilson\, Blythe Danner\, Teri Polo\n\nFil
+ m release at Merlin Cinemas Helston\nBook tickets: /film/fockerinlaw\n\nFi
+ lm details: https://evenwebb.github.io/merlin-cinemas/films/focker-in-law.
+ html
+LOCATION:Merlin Cinemas Helston
+URL:/film/fockerinlaw
+END:VEVENT
+BEGIN:VEVENT
+UID:6edf4a55dd4c7a4493036c7714d07ae1a3991674@merlin-cinemas
+DTSTAMP:20260603T145957Z
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261219
+SUMMARY:Dune: Part Three @ Merlin Helston
+DESCRIPTION:Dune: Part Three\nAction\, Adventure\, Science Fiction\n\nAs Em
+ peror\, Paul Atreides grapples with the consequences of his rise to power 
+ as political conspiracies and a galaxy-spanning holy war threaten the futu
+ re he alone can foresee.\n\nStarring: Timothée Chalamet\, Zendaya\, Jason 
+ Momoa\, Florence Pugh\, Rebecca Ferguson\, Isaach de Bankolé\n\nFilm relea
+ se at Merlin Cinemas Helston\nBook tickets: /film/dune-part-three\n\nFilm 
+ details: https://evenwebb.github.io/merlin-cinemas/films/dune-part-three.h
+ tml
+LOCATION:Merlin Cinemas Helston
+URL:/film/dune-part-three
+END:VEVENT
+BEGIN:VEVENT
+UID:c76be2ab2a57046c0c39546b436cf93c0a749faf@merlin-cinemas
+DTSTAMP:20260603T145957Z
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261219
+SUMMARY:Avengers: Doomsday @ Merlin Helston
+DESCRIPTION:Avengers: Doomsday\nScience Fiction\, Action\, Adventure\n\nBel
+ oved heroes from three distinct universes are set on a deadly collision co
+ urse and face an existential threat unlike anything they've ever encounter
+ ed.\n\nStarring: Robert Downey Jr.\, Chris Evans\, Chris Hemsworth\, Pedro
+  Pascal\, Paul Rudd\, Anthony Mackie\n\nFilm release at Merlin Cinemas Hel
+ ston\nBook tickets: /film/avengers-doomsday\n\nFilm details: https://evenw
+ ebb.github.io/merlin-cinemas/films/avengers-doomsday.html
+LOCATION:Merlin Cinemas Helston
+URL:/film/avengers-doomsday
+END:VEVENT
+BEGIN:VEVENT
+UID:93fd42a7d9e7d394fae7b71957b9f0fc4924095d@merlin-cinemas
+DTSTAMP:20260603T145957Z
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+SUMMARY:The Scarecrows' Wedding & The Smeds And The Smoos - @ Merlin Helsto
+ n
+DESCRIPTION:The Scarecrows' Wedding & The Smeds And The Smoos - (26 min)\nA
+ nimation\, Family\, Romance\, TV Movie\n\nDevoted scarecrows Betty O'Barle
+ y and Harry O'Hay are planning a wedding to remember. When Harry insists o
+ n leaving the farm to collect one last thing for their big day\, smooth-ta
+ lking Reginald Rake swoops in with plans of his own. Chaos follows\, and s
+ oon Betty's in danger and everything's at risk. Can Harry get back in time
+  and save the day?\n\nStarring: Sophie Okonedo\, Jessie Buckley\, Domhnall
+  Gleeson\, Rob Brydon\, Doon Mackichan\, Rasmus Hardiker\n\nFilm release a
+ t Merlin Cinemas Helston\nBook tickets: /film/the-scarecrows-wedding-the-s
+ meds-and-the-smoos-toddler-cinema\n\nFilm details: https://evenwebb.github
+ .io/merlin-cinemas/films/the-scarecrows-wedding-the-smeds-and-the-smoos.ht
+ ml
+LOCATION:Merlin Cinemas Helston
+URL:/film/the-scarecrows-wedding-the-smeds-and-the-smoos-toddler-cinema
+END:VEVENT
+END:VCALENDAR

@@ -18,11 +18,3 @@ env/
 cinema_log.txt
 *.log
 
-# Runtime caches (committed by CI, not locally)
-.film_cache.json
-.tmdb_cache.json
-.release_history.json
-.scrape_fingerprint
-
-# Generated output (committed by CI)
-docs/
