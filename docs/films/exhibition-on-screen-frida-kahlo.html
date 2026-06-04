@@ -3,13 +3,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>RBO 2026-27: The Royal Ballet - Manon - Merlin Cinemas</title>
-  <meta name="description" content="Torn between her desire of a life of splendour and riches and her devotion to her true love Des Grieux, the feckless and capricious Manon pays the ultimate pric">
-  <meta property="og:title" content="RBO 2026-27: The Royal Ballet - Manon - Merlin Cinemas">
-  <meta property="og:description" content="Torn between her desire of a life of splendour and riches and her devotion to her true love Des Grieux, the feckless and capricious Manon pays the ultimate price.">
+  <title>Frida Kahlo - Merlin Cinemas</title>
+  <meta name="description" content="She was a prolific self-portraitist, using the canvas as a mirror through all stages of her turbulent and, at times, tragic life. This highly engaging film take">
+  <meta property="og:title" content="Frida Kahlo - Merlin Cinemas">
+  <meta property="og:description" content="She was a prolific self-portraitist, using the canvas as a mirror through all stages of her turbulent and, at times, tragic life. This highly engaging film takes us on a journey through the life of on">
   <meta property="og:type" content="website">
-    <meta property="og:image" content="posters/rbo-2026-27-the-royal-ballet-manon.jpg">
-  <meta property="og:url" content="https://evenwebb.github.io/merlin-cinemas/films/rbo-2026-27-the-royal-ballet-manon.html">
+    <meta property="og:image" content="posters/exhibition-on-screen-frida-kahlo.jpg">
+  <meta property="og:url" content="https://evenwebb.github.io/merlin-cinemas/films/exhibition-on-screen-frida-kahlo.html">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎬</text></svg>">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -59,15 +59,19 @@ body{position:relative}
 .ext-link{display:inline-flex;align-items:center;gap:0.55rem;padding:0.45rem 0.85rem;background:var(--surface);border:1px solid var(--border);border-radius:100px;color:var(--text-muted);text-decoration:none;font-size:0.82rem;font-weight:500;transition:all var(--transition)}
 .ext-link:hover{transform:translateY(-1px);box-shadow:0 4px 15px rgba(0,0,0,0.18)}
 .ext-link::before{content:"";width:1rem;height:1rem;display:inline-block;flex-shrink:0;background:currentColor;mask-position:center;mask-repeat:no-repeat;mask-size:contain;-webkit-mask-position:center;-webkit-mask-repeat:no-repeat;-webkit-mask-size:contain}
-.ext-link[href*="imdb.com"]{color:#f5c518;background:rgba(245,197,24,0.1);border-color:rgba(245,197,24,0.24)}
-.ext-link[href*="imdb.com"]:hover{background:rgba(245,197,24,0.16);border-color:#f5c518}
+.ext-link-logo{width:1rem;height:1rem;display:inline-block;flex-shrink:0;background:currentColor;mask-position:center;mask-repeat:no-repeat;mask-size:contain;-webkit-mask-position:center;-webkit-mask-repeat:no-repeat;-webkit-mask-size:contain}
+.ext-link--imdb,.ext-link[href*="imdb.com"]{color:#f5c518;background:rgba(245,197,24,0.1);border-color:rgba(245,197,24,0.24)}
+.ext-link--imdb:hover,.ext-link[href*="imdb.com"]:hover{background:rgba(245,197,24,0.16);border-color:#f5c518}
 .ext-link[href*="imdb.com"]::before{mask-image:url(../ratings/imdb.svg);-webkit-mask-image:url(../ratings/imdb.svg)}
-.ext-link[href*="rottentomatoes.com"]{color:#fa320a;background:rgba(250,50,10,0.1);border-color:rgba(250,50,10,0.24)}
-.ext-link[href*="rottentomatoes.com"]:hover{background:rgba(250,50,10,0.16);border-color:#fa320a}
+.ext-link-logo--imdb{mask-image:url(../ratings/imdb.svg);-webkit-mask-image:url(../ratings/imdb.svg)}
+.ext-link--rottentomatoes,.ext-link[href*="rottentomatoes.com"]{color:#fa320a;background:rgba(250,50,10,0.1);border-color:rgba(250,50,10,0.24)}
+.ext-link--rottentomatoes:hover,.ext-link[href*="rottentomatoes.com"]:hover{background:rgba(250,50,10,0.16);border-color:#fa320a}
 .ext-link[href*="rottentomatoes.com"]::before{mask-image:url(../ratings/rottentomatoes.svg);-webkit-mask-image:url(../ratings/rottentomatoes.svg)}
-.ext-link[href*="trakt.tv"]{color:#ed1c24;background:rgba(237,28,36,0.1);border-color:rgba(237,28,36,0.24)}
-.ext-link[href*="trakt.tv"]:hover{background:rgba(237,28,36,0.16);border-color:#ed1c24}
+.ext-link-logo--rottentomatoes{mask-image:url(../ratings/rottentomatoes.svg);-webkit-mask-image:url(../ratings/rottentomatoes.svg)}
+.ext-link--trakt,.ext-link[href*="trakt.tv"]{color:#ed1c24;background:rgba(237,28,36,0.1);border-color:rgba(237,28,36,0.24)}
+.ext-link--trakt:hover,.ext-link[href*="trakt.tv"]:hover{background:rgba(237,28,36,0.16);border-color:#ed1c24}
 .ext-link[href*="trakt.tv"]::before{mask-image:url(../ratings/trakt.svg);-webkit-mask-image:url(../ratings/trakt.svg)}
+.ext-link-logo--trakt{mask-image:url(../ratings/trakt.svg);-webkit-mask-image:url(../ratings/trakt.svg)}
 .trailer-section{margin-bottom:2.5rem}
 .trailer-section h2{font-size:1.1rem;font-weight:700;margin-bottom:0.85rem;color:var(--accent)}
 .trailer-wrap{position:relative;width:100%;aspect-ratio:16/9;background:#000;border-radius:14px;overflow:hidden;box-shadow:0 4px 25px rgba(0,0,0,0.5),0 0 0 1px rgba(34,211,238,0.1)}
@@ -134,6 +138,10 @@ tr.nearest-cinema-row td:first-child{border-left:3px solid var(--accent)}
 .cert--12{background-image:url(../certs/cert-12.png)}
 .cert--15{background-image:url(../certs/cert-15.png)}
 .cert--18{background-image:url(../certs/cert-18.png)}
+.backdrop-wrap{position:absolute;top:0;left:0;width:100%;height:100%;z-index:0;overflow:hidden;opacity:0.15;pointer-events:none}
+.backdrop-wrap::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,10,16,0.7) 0%,rgba(10,10,16,0.9) 100%)}
+.backdrop-img{width:100%;height:100%;object-fit:cover}
+@media(max-width:680px){.backdrop-wrap{position:relative;height:200px;opacity:0.2}}
 .backdrop-wrap{position:absolute;top:0;left:0;width:100%;height:100%;z-index:0;overflow:hidden}
 .backdrop-wrap::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,10,16,0.65) 0%,rgba(10,10,16,0.85) 100%)}
 .backdrop-img{width:100%;height:100%;object-fit:cover}
@@ -143,42 +151,46 @@ tr.nearest-cinema-row td:first-child{border-left:3px solid var(--accent)}
 </head>
 <body>
   <div class="bg-mesh" aria-hidden="true"></div>
+<div class="backdrop-wrap">
+  <img src="https://image.tmdb.org/t/p/w780/YHW4wQaUdtHjnvhZH4uQtsjfqt.jpg" alt="" class="backdrop-img" loading="lazy" decoding="async">
+</div>
   <div class="page">
     <a href="../" class="back-btn">← Back to all premieres</a>
     <div class="film-layout">
-      <div class="poster"><img src="../posters/rbo-2026-27-the-royal-ballet-manon.jpg" alt="Poster for RBO 2026-27: The Royal Ballet - Manon" loading="lazy"></div>
+      <div class="poster"><img src="../posters/exhibition-on-screen-frida-kahlo.jpg" alt="Poster for Frida Kahlo" loading="lazy"></div>
       <div class="film-info">
-        <h1>RBO 2026-27: The Royal Ballet - Manon  <span class="screening-badge">RBO</span></h1>
-        <div class="meta"><span>2h 45min</span><span class="genres">Music</span></div>
-        <div class="synopsis">Torn between her desire of a life of splendour and riches and her devotion to her true love Des Grieux, the feckless and capricious Manon pays the ultimate price.</div>
+        <h1>Frida Kahlo </h1>
+        <div class="meta"><span>1h 30min</span><span class="stars">★★★★☆</span><span class="rating-pill">7.2/10</span><span class="genres">Documentary</span></div>
+        <div class="synopsis">She was a prolific self-portraitist, using the canvas as a mirror through all stages of her turbulent and, at times, tragic life. This highly engaging film takes us on a journey through the life of one of the most prevalent female icons: Frida Kahlo. Displaying a treasure trove of colour and a feast of vibrancy on screen, this personal and intimate film offers privileged access to her works and highlights the source of her feverish creativity, her resilience and her unmatched lust for life, men, women, politics and her cultural heritage.</div>
         <div class="links">
-          <a href="https://www.rottentomatoes.com/search?search=RBO 2026-27: The Royal Ballet - Manon" class="ext-link" target="_blank" rel="noopener">Rotten Tomatoes</a>
-          <a href="https://trakt.tv/search?query=RBO 2026-27: The Royal Ballet - Manon" class="ext-link" target="_blank" rel="noopener">Trakt</a>
+          <a href="https://www.imdb.com/title/tt13011980/" class="ext-link ext-link--imdb" target="_blank" rel="noopener"><span class="ext-link-logo ext-link-logo--imdb" aria-hidden="true"></span><span>IMDb</span></a>
+          <a href="https://www.rottentomatoes.com/search?search=Frida Kahlo" class="ext-link ext-link--rottentomatoes" target="_blank" rel="noopener"><span class="ext-link-logo ext-link-logo--rottentomatoes" aria-hidden="true"></span><span>Rotten Tomatoes</span></a>
+          <a href="https://trakt.tv/search?query=Frida Kahlo" class="ext-link ext-link--trakt" target="_blank" rel="noopener"><span class="ext-link-logo ext-link-logo--trakt" aria-hidden="true"></span><span>Trakt</span></a>
         </div>
-    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Movie", "name": "RBO 2026-27: The Royal Ballet - Manon", "description": "Torn between her desire of a life of splendour and riches and her devotion to her true love Des Grieux, the feckless and capricious Manon pays the ultimate price.", "image": "posters/rbo-2026-27-the-royal-ballet-manon.jpg", "genre": ["Music"]}</script>
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Movie", "name": "Frida Kahlo", "description": "She was a prolific self-portraitist, using the canvas as a mirror through all stages of her turbulent and, at times, tragic life. This highly engaging film takes us on a journey through the life of one of the most prevalent female icons: Frida Kahlo. Displaying a treasure trove of colour and a feast of vibrancy on screen, this personal and intimate film offers privileged access to her works and highlights the source of her feverish creativity, her resilience and her unmatched lust for life, men,", "image": "posters/exhibition-on-screen-frida-kahlo.jpg", "director": {"@type": "Person", "name": "Ali Ray"}, "aggregateRating": {"@type": "AggregateRating", "ratingValue": 7.2, "bestRating": 10}, "genre": ["Documentary"]}</script>
+        <div class="crew">
+          <p><strong>Director:</strong> Ali Ray</p>
+          <p><strong>Starring:</strong> Frida Kahlo</p>
+        </div>
     </div>
   </div>
     <div class="trailer-section">
       <h2>Trailer</h2>
-      <div class="trailer-wrap"><div class="no-trailer">No trailer available</div></div>
+      <div class="trailer-wrap"><iframe src="https://www.youtube-nocookie.com/embed/D76y2YhjV8A" title="Trailer for Frida Kahlo" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
     </div>
     <div class="cinema-section">
       <h2>Showtimes & Cinemas <button type="button" id="tag-key-btn" class="tag-key-btn" aria-label="Accessibility key" title="Accessibility key">ⓘ</button></h2>
       <div class="st-filter" role="group" aria-label="Filter by cinema">
         <button type="button" class="st-filter-btn active" data-st-cinema="all">All</button>
-          <button type="button" class="st-filter-btn" data-st-cinema="bodmin">Bodmin</button>
           <button type="button" class="st-filter-btn" data-st-cinema="falmouth">Falmouth</button>
           <button type="button" class="st-filter-btn" data-st-cinema="penzance">Penzance</button>
-          <button type="button" class="st-filter-btn" data-st-cinema="redruth">Redruth</button>
       </div>
       <div class="cinema-table-wrap">
         <table class="cinema-table">
           <thead><tr><th>Date</th><th>Time</th><th>Cinema</th><th></th></tr></thead>
           <tbody>
-<tr data-film-cinema="bodmin"><td class="date-cell">Tue 27 Oct</td><td class="time-cell">19:15</td><td class="cinema-cell">Merlin Bodmin <span class="screen-badge">Screen 1</span></td><td class="book-cell"><a href="https://merlinbodmin.admit-one.eu/?p=tickets&amp;perfCode=51010" class="table-book-btn" target="_blank" rel="noopener">Book →</a></td></tr>
-<tr data-film-cinema="falmouth"><td class="date-cell">Tue 27 Oct</td><td class="time-cell">19:15</td><td class="cinema-cell">Merlin Falmouth <span class="screen-badge">Screen 1</span></td><td class="book-cell"><a href="https://merlinfalmouth.admit-one.eu/?p=tickets&amp;perfCode=84801" class="table-book-btn" target="_blank" rel="noopener">Book →</a></td></tr>
-<tr data-film-cinema="redruth"><td class="date-cell">Tue 27 Oct</td><td class="time-cell">19:15</td><td class="cinema-cell">Merlin Redruth <span class="screen-badge">Screen 1</span></td><td class="book-cell"><a href="https://merlinredruth.admit-one.eu/?p=tickets&amp;perfCode=89184" class="table-book-btn" target="_blank" rel="noopener">Book →</a></td></tr>
-<tr data-film-cinema="penzance"><td class="date-cell">Tue 27 Oct</td><td class="time-cell">19:15</td><td class="cinema-cell">Merlin Penzance <span class="screen-badge">Screen 1</span></td><td class="book-cell"><a href="https://merlinpenzance.admit-one.eu/?p=tickets&amp;perfCode=59606" class="table-book-btn" target="_blank" rel="noopener">Book →</a></td></tr>
+<tr data-film-cinema="falmouth"><td class="date-cell">Mon 06 Jul</td><td class="time-cell">18:00</td><td class="cinema-cell">Merlin Falmouth <span class="screen-badge">Screen 1</span></td><td class="book-cell"><a href="https://merlinfalmouth.admit-one.eu/?p=tickets&amp;perfCode=84932" class="table-book-btn" target="_blank" rel="noopener">Book →</a></td></tr>
+<tr data-film-cinema="penzance"><td class="date-cell">Mon 06 Jul</td><td class="time-cell">18:00</td><td class="cinema-cell">Merlin Penzance <span class="screen-badge">Screen 1</span></td><td class="book-cell"><a href="https://merlinpenzance.admit-one.eu/?p=tickets&amp;perfCode=59706" class="table-book-btn" target="_blank" rel="noopener">Book →</a></td></tr>
           </tbody>
         </table>
       </div>
@@ -258,7 +270,7 @@ table.parentNode.insertBefore(label,table);
         <span aria-hidden="true"> · </span>
         <a href="../">All premieres</a>
       </div>
-      <p class="footer-updated">Last updated: 2026-06-02 16:44 BST</p>
+      <p class="footer-updated">Last updated: 2026-06-04 13:02 BST</p>
     </footer>
   </div>
 </body>

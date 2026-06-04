@@ -59,15 +59,19 @@ body{position:relative}
 .ext-link{display:inline-flex;align-items:center;gap:0.55rem;padding:0.45rem 0.85rem;background:var(--surface);border:1px solid var(--border);border-radius:100px;color:var(--text-muted);text-decoration:none;font-size:0.82rem;font-weight:500;transition:all var(--transition)}
 .ext-link:hover{transform:translateY(-1px);box-shadow:0 4px 15px rgba(0,0,0,0.18)}
 .ext-link::before{content:"";width:1rem;height:1rem;display:inline-block;flex-shrink:0;background:currentColor;mask-position:center;mask-repeat:no-repeat;mask-size:contain;-webkit-mask-position:center;-webkit-mask-repeat:no-repeat;-webkit-mask-size:contain}
-.ext-link[href*="imdb.com"]{color:#f5c518;background:rgba(245,197,24,0.1);border-color:rgba(245,197,24,0.24)}
-.ext-link[href*="imdb.com"]:hover{background:rgba(245,197,24,0.16);border-color:#f5c518}
+.ext-link-logo{width:1rem;height:1rem;display:inline-block;flex-shrink:0;background:currentColor;mask-position:center;mask-repeat:no-repeat;mask-size:contain;-webkit-mask-position:center;-webkit-mask-repeat:no-repeat;-webkit-mask-size:contain}
+.ext-link--imdb,.ext-link[href*="imdb.com"]{color:#f5c518;background:rgba(245,197,24,0.1);border-color:rgba(245,197,24,0.24)}
+.ext-link--imdb:hover,.ext-link[href*="imdb.com"]:hover{background:rgba(245,197,24,0.16);border-color:#f5c518}
 .ext-link[href*="imdb.com"]::before{mask-image:url(../ratings/imdb.svg);-webkit-mask-image:url(../ratings/imdb.svg)}
-.ext-link[href*="rottentomatoes.com"]{color:#fa320a;background:rgba(250,50,10,0.1);border-color:rgba(250,50,10,0.24)}
-.ext-link[href*="rottentomatoes.com"]:hover{background:rgba(250,50,10,0.16);border-color:#fa320a}
+.ext-link-logo--imdb{mask-image:url(../ratings/imdb.svg);-webkit-mask-image:url(../ratings/imdb.svg)}
+.ext-link--rottentomatoes,.ext-link[href*="rottentomatoes.com"]{color:#fa320a;background:rgba(250,50,10,0.1);border-color:rgba(250,50,10,0.24)}
+.ext-link--rottentomatoes:hover,.ext-link[href*="rottentomatoes.com"]:hover{background:rgba(250,50,10,0.16);border-color:#fa320a}
 .ext-link[href*="rottentomatoes.com"]::before{mask-image:url(../ratings/rottentomatoes.svg);-webkit-mask-image:url(../ratings/rottentomatoes.svg)}
-.ext-link[href*="trakt.tv"]{color:#ed1c24;background:rgba(237,28,36,0.1);border-color:rgba(237,28,36,0.24)}
-.ext-link[href*="trakt.tv"]:hover{background:rgba(237,28,36,0.16);border-color:#ed1c24}
+.ext-link-logo--rottentomatoes{mask-image:url(../ratings/rottentomatoes.svg);-webkit-mask-image:url(../ratings/rottentomatoes.svg)}
+.ext-link--trakt,.ext-link[href*="trakt.tv"]{color:#ed1c24;background:rgba(237,28,36,0.1);border-color:rgba(237,28,36,0.24)}
+.ext-link--trakt:hover,.ext-link[href*="trakt.tv"]:hover{background:rgba(237,28,36,0.16);border-color:#ed1c24}
 .ext-link[href*="trakt.tv"]::before{mask-image:url(../ratings/trakt.svg);-webkit-mask-image:url(../ratings/trakt.svg)}
+.ext-link-logo--trakt{mask-image:url(../ratings/trakt.svg);-webkit-mask-image:url(../ratings/trakt.svg)}
 .trailer-section{margin-bottom:2.5rem}
 .trailer-section h2{font-size:1.1rem;font-weight:700;margin-bottom:0.85rem;color:var(--accent)}
 .trailer-wrap{position:relative;width:100%;aspect-ratio:16/9;background:#000;border-radius:14px;overflow:hidden;box-shadow:0 4px 25px rgba(0,0,0,0.5),0 0 0 1px rgba(34,211,238,0.1)}
@@ -159,9 +163,9 @@ tr.nearest-cinema-row td:first-child{border-left:3px solid var(--accent)}
         <div class="meta"><span>1h 48min</span><span class="stars">★★★★☆</span><span class="rating-pill">7.9/10</span><span class="genres">Horror</span></div>
         <div class="synopsis">After breaking the mysterious &quot;One Wish Willow&quot; to win his crush&#x27;s heart, a hopeless romantic finds himself getting exactly what he asked for but soon discovers that some desires come at a dark, sinister price.</div>
         <div class="links">
-          <a href="https://www.imdb.com/title/tt37287335/" class="ext-link" target="_blank" rel="noopener">IMDb</a>
-          <a href="https://www.rottentomatoes.com/search?search=Obsession" class="ext-link" target="_blank" rel="noopener">Rotten Tomatoes</a>
-          <a href="https://trakt.tv/search?query=Obsession" class="ext-link" target="_blank" rel="noopener">Trakt</a>
+          <a href="https://www.imdb.com/title/tt37287335/" class="ext-link ext-link--imdb" target="_blank" rel="noopener"><span class="ext-link-logo ext-link-logo--imdb" aria-hidden="true"></span><span>IMDb</span></a>
+          <a href="https://www.rottentomatoes.com/search?search=Obsession" class="ext-link ext-link--rottentomatoes" target="_blank" rel="noopener"><span class="ext-link-logo ext-link-logo--rottentomatoes" aria-hidden="true"></span><span>Rotten Tomatoes</span></a>
+          <a href="https://trakt.tv/search?query=Obsession" class="ext-link ext-link--trakt" target="_blank" rel="noopener"><span class="ext-link-logo ext-link-logo--trakt" aria-hidden="true"></span><span>Trakt</span></a>
         </div>
     <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Movie", "name": "Obsession", "description": "After breaking the mysterious \"One Wish Willow\" to win his crush's heart, a hopeless romantic finds himself getting exactly what he asked for but soon discovers that some desires come at a dark, sinister price.", "image": "posters/obsession.jpg", "director": {"@type": "Person", "name": "Curry Barker"}, "aggregateRating": {"@type": "AggregateRating", "ratingValue": 7.922, "bestRating": 10}, "genre": ["Horror"]}</script>
         <div class="crew">
@@ -189,26 +193,22 @@ tr.nearest-cinema-row td:first-child{border-left:3px solid var(--accent)}
         <table class="cinema-table">
           <thead><tr><th>Date</th><th>Time</th><th>Cinema</th><th></th></tr></thead>
           <tbody>
-<tr data-film-cinema="helston"><td class="date-cell">Wed 03 Jun</td><td class="time-cell">17:30</td><td class="cinema-cell">Merlin Helston <span class="screen-badge">Screen 1</span></td><td class="book-cell"><a href="https://merlinhelston.admit-one.eu/?p=tickets&amp;perfCode=34635" class="table-book-btn" target="_blank" rel="noopener">Book →</a></td></tr>
 <tr data-film-cinema="helston"><td class="date-cell">Thu 04 Jun</td><td class="time-cell">17:05</td><td class="cinema-cell">Merlin Helston <span class="screen-badge">Screen 1</span></td><td class="book-cell"><a href="https://merlinhelston.admit-one.eu/?p=tickets&amp;perfCode=34636" class="table-book-btn" target="_blank" rel="noopener">Book →</a></td></tr>
 <tr data-film-cinema="helston"><td class="date-cell">Sat 06 Jun</td><td class="time-cell">17:15</td><td class="cinema-cell">Merlin Helston <span class="screen-badge">Screen 1</span></td><td class="book-cell"><a href="https://merlinhelston.admit-one.eu/?p=tickets&amp;perfCode=34676" class="table-book-btn" target="_blank" rel="noopener">Book →</a></td></tr>
 <tr data-film-cinema="bodmin"><td class="date-cell">Sat 06 Jun</td><td class="time-cell">17:15</td><td class="cinema-cell">Merlin Bodmin <span class="screen-badge">Screen 1</span></td><td class="book-cell"><a href="https://merlinbodmin.admit-one.eu/?p=tickets&amp;perfCode=51112" class="table-book-btn" target="_blank" rel="noopener">Book →</a></td></tr>
-<tr data-film-cinema="falmouth"><td class="date-cell">Wed 03 Jun</td><td class="time-cell">17:50</td><td class="cinema-cell">Merlin Falmouth <span class="screen-badge">Screen 1</span></td><td class="book-cell"><a href="https://merlinfalmouth.admit-one.eu/?p=tickets&amp;perfCode=84728" class="table-book-btn" target="_blank" rel="noopener">Book →</a></td></tr>
 <tr data-film-cinema="falmouth"><td class="date-cell">Thu 04 Jun</td><td class="time-cell">20:20</td><td class="cinema-cell">Merlin Falmouth <span class="screen-badge">Screen 1</span></td><td class="book-cell"><a href="https://merlinfalmouth.admit-one.eu/?p=tickets&amp;perfCode=84737" class="table-book-btn" target="_blank" rel="noopener">Book →</a></td></tr>
 <tr data-film-cinema="falmouth"><td class="date-cell">Sat 06 Jun</td><td class="time-cell">20:20</td><td class="cinema-cell">Merlin Falmouth <span class="screen-badge">Screen 1</span></td><td class="book-cell"><a href="https://merlinfalmouth.admit-one.eu/?p=tickets&amp;perfCode=84874" class="table-book-btn" target="_blank" rel="noopener">Book →</a></td></tr>
 <tr data-film-cinema="falmouth"><td class="date-cell">Sun 07 Jun</td><td class="time-cell">20:20</td><td class="cinema-cell">Merlin Falmouth <span class="screen-badge">Screen 1</span></td><td class="book-cell"><a href="https://merlinfalmouth.admit-one.eu/?p=tickets&amp;perfCode=84873" class="table-book-btn" target="_blank" rel="noopener">Book →</a></td></tr>
 <tr data-film-cinema="falmouth"><td class="date-cell">Mon 08 Jun</td><td class="time-cell">20:20</td><td class="cinema-cell">Merlin Falmouth <span class="screen-badge">Screen 1</span></td><td class="book-cell"><a href="https://merlinfalmouth.admit-one.eu/?p=tickets&amp;perfCode=84881" class="table-book-btn" target="_blank" rel="noopener">Book →</a></td></tr>
 <tr data-film-cinema="falmouth"><td class="date-cell">Tue 09 Jun</td><td class="time-cell">20:20</td><td class="cinema-cell">Merlin Falmouth <span class="screen-badge">Screen 1</span></td><td class="book-cell"><a href="https://merlinfalmouth.admit-one.eu/?p=tickets&amp;perfCode=84890" class="table-book-btn" target="_blank" rel="noopener">Book →</a></td></tr>
-<tr data-film-cinema="st-ives"><td class="date-cell">Wed 03 Jun</td><td class="time-cell">17:05</td><td class="cinema-cell">Merlin St Ives <span class="screen-badge">Screen 1</span></td><td class="book-cell"><a href="https://merlinstives.admit-one.eu/?p=tickets&amp;perfCode=38198" class="table-book-btn" target="_blank" rel="noopener">Book →</a></td></tr>
-<tr data-film-cinema="st-ives"><td class="date-cell">Thu 04 Jun</td><td class="time-cell">20:00</td><td class="cinema-cell">Merlin St Ives <span class="screen-badge">Screen 1</span></td><td class="book-cell"><a href="https://merlinstives.admit-one.eu/?p=tickets&amp;perfCode=38199" class="table-book-btn" target="_blank" rel="noopener">Book →</a></td></tr>
-<tr data-film-cinema="st-ives"><td class="date-cell">Sat 06 Jun</td><td class="time-cell">17:20</td><td class="cinema-cell">Merlin St Ives <span class="screen-badge">Screen 1</span></td><td class="book-cell"><a href="https://merlinstives.admit-one.eu/?p=tickets&amp;perfCode=38234" class="table-book-btn" target="_blank" rel="noopener">Book →</a></td></tr>
-<tr data-film-cinema="redruth"><td class="date-cell">Wed 03 Jun</td><td class="time-cell">20:15</td><td class="cinema-cell">Merlin Redruth <span class="screen-badge">Screen 1</span></td><td class="book-cell"><a href="https://merlinredruth.admit-one.eu/?p=tickets&amp;perfCode=89263" class="table-book-btn" target="_blank" rel="noopener">Book →</a></td></tr>
 <tr data-film-cinema="redruth"><td class="date-cell">Thu 04 Jun</td><td class="time-cell">20:15</td><td class="cinema-cell">Merlin Redruth <span class="screen-badge">Screen 1</span></td><td class="book-cell"><a href="https://merlinredruth.admit-one.eu/?p=tickets&amp;perfCode=89280" class="table-book-btn" target="_blank" rel="noopener">Book →</a></td></tr>
 <tr data-film-cinema="redruth"><td class="date-cell">Fri 05 Jun</td><td class="time-cell">20:20</td><td class="cinema-cell">Merlin Redruth <span class="screen-badge">Screen 1</span></td><td class="book-cell"><a href="https://merlinredruth.admit-one.eu/?p=tickets&amp;perfCode=89310" class="table-book-btn" target="_blank" rel="noopener">Book →</a></td></tr>
 <tr data-film-cinema="redruth"><td class="date-cell">Sat 06 Jun</td><td class="time-cell">20:20</td><td class="cinema-cell">Merlin Redruth <span class="screen-badge">Screen 1</span></td><td class="book-cell"><a href="https://merlinredruth.admit-one.eu/?p=tickets&amp;perfCode=89292" class="table-book-btn" target="_blank" rel="noopener">Book →</a></td></tr>
 <tr data-film-cinema="redruth"><td class="date-cell">Sun 07 Jun</td><td class="time-cell">20:20</td><td class="cinema-cell">Merlin Redruth <span class="screen-badge">Screen 1</span></td><td class="book-cell"><a href="https://merlinredruth.admit-one.eu/?p=tickets&amp;perfCode=89323" class="table-book-btn" target="_blank" rel="noopener">Book →</a></td></tr>
 <tr data-film-cinema="redruth"><td class="date-cell">Mon 08 Jun</td><td class="time-cell">20:20</td><td class="cinema-cell">Merlin Redruth <span class="screen-badge">Screen 1</span></td><td class="book-cell"><a href="https://merlinredruth.admit-one.eu/?p=tickets&amp;perfCode=89341" class="table-book-btn" target="_blank" rel="noopener">Book →</a></td></tr>
 <tr data-film-cinema="redruth"><td class="date-cell">Tue 09 Jun</td><td class="time-cell">20:20</td><td class="cinema-cell">Merlin Redruth <span class="screen-badge">Screen 1</span></td><td class="book-cell"><a href="https://merlinredruth.admit-one.eu/?p=tickets&amp;perfCode=89353" class="table-book-btn" target="_blank" rel="noopener">Book →</a></td></tr>
+<tr data-film-cinema="st-ives"><td class="date-cell">Thu 04 Jun</td><td class="time-cell">20:00</td><td class="cinema-cell">Merlin St Ives <span class="screen-badge">Screen 1</span></td><td class="book-cell"><a href="https://merlinstives.admit-one.eu/?p=tickets&amp;perfCode=38199" class="table-book-btn" target="_blank" rel="noopener">Book →</a></td></tr>
+<tr data-film-cinema="st-ives"><td class="date-cell">Sat 06 Jun</td><td class="time-cell">17:20</td><td class="cinema-cell">Merlin St Ives <span class="screen-badge">Screen 1</span></td><td class="book-cell"><a href="https://merlinstives.admit-one.eu/?p=tickets&amp;perfCode=38234" class="table-book-btn" target="_blank" rel="noopener">Book →</a></td></tr>
 <tr data-film-cinema="penzance"><td class="date-cell">Sat 06 Jun</td><td class="time-cell">17:15</td><td class="cinema-cell">Merlin Penzance <span class="screen-badge">Screen 1</span></td><td class="book-cell"><a href="https://merlinpenzance.admit-one.eu/?p=tickets&amp;perfCode=59696" class="table-book-btn" target="_blank" rel="noopener">Book →</a></td></tr>
           </tbody>
         </table>
@@ -289,7 +289,7 @@ table.parentNode.insertBefore(label,table);
         <span aria-hidden="true"> · </span>
         <a href="../">All premieres</a>
       </div>
-      <p class="footer-updated">Last updated: 2026-06-03 16:35 BST</p>
+      <p class="footer-updated">Last updated: 2026-06-04 13:02 BST</p>
     </footer>
   </div>
 </body>

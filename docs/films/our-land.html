@@ -3,13 +3,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Albi &amp; The Wolves - Merlin Cinemas</title>
-  <meta name="description" content="A live event at Merlin Cinemas. Check the showtimes below for dates, times, and booking.">
-  <meta property="og:title" content="Albi &amp; The Wolves - Merlin Cinemas">
-  <meta property="og:description" content="A live event at Merlin Cinemas. Check the showtimes below for dates, times, and booking.">
+  <title>Our Land - Merlin Cinemas</title>
+  <meta name="description" content="Through organised &#x27;mass trespass&#x27; events, the Right to Roam movement sets out to increase public access to nature, but finds itself in conflict with England&#x27;s l">
+  <meta property="og:title" content="Our Land - Merlin Cinemas">
+  <meta property="og:description" content="Through organised &#x27;mass trespass&#x27; events, the Right to Roam movement sets out to increase public access to nature, but finds itself in conflict with England&#x27;s landowners.">
   <meta property="og:type" content="website">
-    <meta property="og:image" content="posters/albi-the-wolves.jpg">
-  <meta property="og:url" content="https://evenwebb.github.io/merlin-cinemas/films/albi-the-wolves.html">
+    <meta property="og:image" content="posters/our-land.jpg">
+  <meta property="og:url" content="https://evenwebb.github.io/merlin-cinemas/films/our-land.html">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎬</text></svg>">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -59,15 +59,19 @@ body{position:relative}
 .ext-link{display:inline-flex;align-items:center;gap:0.55rem;padding:0.45rem 0.85rem;background:var(--surface);border:1px solid var(--border);border-radius:100px;color:var(--text-muted);text-decoration:none;font-size:0.82rem;font-weight:500;transition:all var(--transition)}
 .ext-link:hover{transform:translateY(-1px);box-shadow:0 4px 15px rgba(0,0,0,0.18)}
 .ext-link::before{content:"";width:1rem;height:1rem;display:inline-block;flex-shrink:0;background:currentColor;mask-position:center;mask-repeat:no-repeat;mask-size:contain;-webkit-mask-position:center;-webkit-mask-repeat:no-repeat;-webkit-mask-size:contain}
-.ext-link[href*="imdb.com"]{color:#f5c518;background:rgba(245,197,24,0.1);border-color:rgba(245,197,24,0.24)}
-.ext-link[href*="imdb.com"]:hover{background:rgba(245,197,24,0.16);border-color:#f5c518}
+.ext-link-logo{width:1rem;height:1rem;display:inline-block;flex-shrink:0;background:currentColor;mask-position:center;mask-repeat:no-repeat;mask-size:contain;-webkit-mask-position:center;-webkit-mask-repeat:no-repeat;-webkit-mask-size:contain}
+.ext-link--imdb,.ext-link[href*="imdb.com"]{color:#f5c518;background:rgba(245,197,24,0.1);border-color:rgba(245,197,24,0.24)}
+.ext-link--imdb:hover,.ext-link[href*="imdb.com"]:hover{background:rgba(245,197,24,0.16);border-color:#f5c518}
 .ext-link[href*="imdb.com"]::before{mask-image:url(../ratings/imdb.svg);-webkit-mask-image:url(../ratings/imdb.svg)}
-.ext-link[href*="rottentomatoes.com"]{color:#fa320a;background:rgba(250,50,10,0.1);border-color:rgba(250,50,10,0.24)}
-.ext-link[href*="rottentomatoes.com"]:hover{background:rgba(250,50,10,0.16);border-color:#fa320a}
+.ext-link-logo--imdb{mask-image:url(../ratings/imdb.svg);-webkit-mask-image:url(../ratings/imdb.svg)}
+.ext-link--rottentomatoes,.ext-link[href*="rottentomatoes.com"]{color:#fa320a;background:rgba(250,50,10,0.1);border-color:rgba(250,50,10,0.24)}
+.ext-link--rottentomatoes:hover,.ext-link[href*="rottentomatoes.com"]:hover{background:rgba(250,50,10,0.16);border-color:#fa320a}
 .ext-link[href*="rottentomatoes.com"]::before{mask-image:url(../ratings/rottentomatoes.svg);-webkit-mask-image:url(../ratings/rottentomatoes.svg)}
-.ext-link[href*="trakt.tv"]{color:#ed1c24;background:rgba(237,28,36,0.1);border-color:rgba(237,28,36,0.24)}
-.ext-link[href*="trakt.tv"]:hover{background:rgba(237,28,36,0.16);border-color:#ed1c24}
+.ext-link-logo--rottentomatoes{mask-image:url(../ratings/rottentomatoes.svg);-webkit-mask-image:url(../ratings/rottentomatoes.svg)}
+.ext-link--trakt,.ext-link[href*="trakt.tv"]{color:#ed1c24;background:rgba(237,28,36,0.1);border-color:rgba(237,28,36,0.24)}
+.ext-link--trakt:hover,.ext-link[href*="trakt.tv"]:hover{background:rgba(237,28,36,0.16);border-color:#ed1c24}
 .ext-link[href*="trakt.tv"]::before{mask-image:url(../ratings/trakt.svg);-webkit-mask-image:url(../ratings/trakt.svg)}
+.ext-link-logo--trakt{mask-image:url(../ratings/trakt.svg);-webkit-mask-image:url(../ratings/trakt.svg)}
 .trailer-section{margin-bottom:2.5rem}
 .trailer-section h2{font-size:1.1rem;font-weight:700;margin-bottom:0.85rem;color:var(--accent)}
 .trailer-wrap{position:relative;width:100%;aspect-ratio:16/9;background:#000;border-radius:14px;overflow:hidden;box-shadow:0 4px 25px rgba(0,0,0,0.5),0 0 0 1px rgba(34,211,238,0.1)}
@@ -147,35 +151,54 @@ tr.nearest-cinema-row td:first-child{border-left:3px solid var(--accent)}
 </head>
 <body>
   <div class="bg-mesh" aria-hidden="true"></div>
+<div class="backdrop-wrap">
+  <img src="https://image.tmdb.org/t/p/w780/wy9mQmMDnkVosz5nhV6w1BPKyqB.jpg" alt="" class="backdrop-img" loading="lazy" decoding="async">
+</div>
   <div class="page">
     <a href="../" class="back-btn">← Back to all premieres</a>
     <div class="film-layout">
-      <div class="poster"><img src="../posters/albi-the-wolves.jpg" alt="Poster for Albi &amp; The Wolves" loading="lazy"></div>
+      <div class="poster"><img src="../posters/our-land.jpg" alt="Poster for Our Land" loading="lazy"></div>
       <div class="film-info">
-        <h1>Albi &amp; The Wolves </h1>
-        <div class="meta"></div>
-        <div class="synopsis">A live event at Merlin Cinemas. Check the showtimes below for dates, times, and booking.</div>
+        <h1>Our Land  <span class="screening-badge">Q&amp;A</span></h1>
+        <div class="meta"><span>1h 31min</span><span class="genres">Documentary</span></div>
+        <div class="synopsis">Through organised &#x27;mass trespass&#x27; events, the Right to Roam movement sets out to increase public access to nature, but finds itself in conflict with England&#x27;s landowners.</div>
         <div class="links">
-          <a href="https://www.rottentomatoes.com/search?search=Albi &amp; The Wolves" class="ext-link" target="_blank" rel="noopener">Rotten Tomatoes</a>
-          <a href="https://trakt.tv/search?query=Albi &amp; The Wolves" class="ext-link" target="_blank" rel="noopener">Trakt</a>
+          <a href="https://www.imdb.com/title/tt37846982/" class="ext-link ext-link--imdb" target="_blank" rel="noopener"><span class="ext-link-logo ext-link-logo--imdb" aria-hidden="true"></span><span>IMDb</span></a>
+          <a href="https://www.rottentomatoes.com/search?search=Our Land" class="ext-link ext-link--rottentomatoes" target="_blank" rel="noopener"><span class="ext-link-logo ext-link-logo--rottentomatoes" aria-hidden="true"></span><span>Rotten Tomatoes</span></a>
+          <a href="https://trakt.tv/search?query=Our Land" class="ext-link ext-link--trakt" target="_blank" rel="noopener"><span class="ext-link-logo ext-link-logo--trakt" aria-hidden="true"></span><span>Trakt</span></a>
         </div>
-    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Movie", "name": "Albi & The Wolves", "description": "A live event at Merlin Cinemas. Check the showtimes below for dates, times, and booking.", "image": "posters/albi-the-wolves.jpg"}</script>
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Movie", "name": "Our Land", "description": "Through organised 'mass trespass' events, the Right to Roam movement sets out to increase public access to nature, but finds itself in conflict with England's landowners.", "image": "posters/our-land.jpg", "director": {"@type": "Person", "name": "Orban Wallace"}, "genre": ["Documentary"]}</script>
+        <div class="crew">
+          <p><strong>Director:</strong> Orban Wallace</p>
+          <p><strong>Starring:</strong> Nadia Sheikh, Nick Hayes, Guy Shrubsole, Francis Fulford, Hugh Inge-Innes-Lillingston</p>
+        </div>
     </div>
   </div>
     <div class="trailer-section">
       <h2>Trailer</h2>
-      <div class="trailer-wrap"><div class="no-trailer">No trailer available</div></div>
+      <div class="trailer-wrap"><iframe src="https://www.youtube-nocookie.com/embed/est-ISGu9D0" title="Trailer for Our Land" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
     </div>
     <div class="cinema-section">
       <h2>Showtimes & Cinemas <button type="button" id="tag-key-btn" class="tag-key-btn" aria-label="Accessibility key" title="Accessibility key">ⓘ</button></h2>
+      <div class="st-filter" role="group" aria-label="Filter by cinema">
+        <button type="button" class="st-filter-btn active" data-st-cinema="all">All</button>
+          <button type="button" class="st-filter-btn" data-st-cinema="falmouth">Falmouth</button>
+          <button type="button" class="st-filter-btn" data-st-cinema="penzance">Penzance</button>
+          <button type="button" class="st-filter-btn" data-st-cinema="redruth">Redruth</button>
+      </div>
       <div class="cinema-table-wrap">
         <table class="cinema-table">
           <thead><tr><th>Date</th><th>Time</th><th>Cinema</th><th></th></tr></thead>
           <tbody>
-<tr data-film-cinema="penzance"><td class="date-cell">Thu 02 Jul</td><td class="time-cell">20:00</td><td class="cinema-cell">Merlin Penzance <span class="screen-badge">Screen 1</span></td><td class="book-cell"><a href="https://merlinritz.admit-one.eu/?p=tickets&amp;perfCode=226" class="table-book-btn" target="_blank" rel="noopener">Book →</a></td></tr>
+<tr data-film-cinema="falmouth"><td class="date-cell">Wed 24 Jun</td><td class="time-cell">19:30</td><td class="cinema-cell">Merlin Falmouth <span class="screen-badge">Screen 1</span></td><td class="book-cell"><a href="https://merlinfalmouth.admit-one.eu/?p=tickets&amp;perfCode=84931" class="table-book-btn" target="_blank" rel="noopener">Book →</a></td></tr>
+<tr data-film-cinema="redruth"><td class="date-cell">Wed 24 Jun</td><td class="time-cell">19:30</td><td class="cinema-cell">Merlin Redruth <span class="screen-badge">Screen 1</span></td><td class="book-cell"><a href="https://merlinredruth.admit-one.eu/?p=tickets&amp;perfCode=89397" class="table-book-btn" target="_blank" rel="noopener">Book →</a></td></tr>
+<tr data-film-cinema="penzance"><td class="date-cell">Wed 24 Jun</td><td class="time-cell">19:30</td><td class="cinema-cell">Merlin Penzance <span class="screen-badge">Screen 1</span></td><td class="book-cell"><a href="https://merlinpenzance.admit-one.eu/?p=tickets&amp;perfCode=59705" class="table-book-btn" target="_blank" rel="noopener">Book →</a></td></tr>
           </tbody>
         </table>
       </div>
+<script>
+document.querySelectorAll(".st-filter-btn").forEach(function(btn){btn.addEventListener("click",function(){document.querySelectorAll(".st-filter-btn").forEach(function(b){b.classList.remove("active")});this.classList.add("active");var cinema=this.getAttribute("data-st-cinema");document.querySelectorAll("tr[data-film-cinema]").forEach(function(row){row.style.display=(cinema==="all"||row.getAttribute("data-film-cinema")===cinema)?"":"none"})})});
+</script>
 <div class="tag-key-popup" id="tag-key-popup" hidden>
   <div class="tag-key-overlay"></div>
   <div class="tag-key-dialog" role="dialog" aria-label="Accessibility key">
@@ -249,7 +272,7 @@ table.parentNode.insertBefore(label,table);
         <span aria-hidden="true"> · </span>
         <a href="../">All premieres</a>
       </div>
-      <p class="footer-updated">Last updated: 2026-06-02 18:31 BST</p>
+      <p class="footer-updated">Last updated: 2026-06-04 13:02 BST</p>
     </footer>
   </div>
 </body>

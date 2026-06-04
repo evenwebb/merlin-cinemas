@@ -59,15 +59,19 @@ body{position:relative}
 .ext-link{display:inline-flex;align-items:center;gap:0.55rem;padding:0.45rem 0.85rem;background:var(--surface);border:1px solid var(--border);border-radius:100px;color:var(--text-muted);text-decoration:none;font-size:0.82rem;font-weight:500;transition:all var(--transition)}
 .ext-link:hover{transform:translateY(-1px);box-shadow:0 4px 15px rgba(0,0,0,0.18)}
 .ext-link::before{content:"";width:1rem;height:1rem;display:inline-block;flex-shrink:0;background:currentColor;mask-position:center;mask-repeat:no-repeat;mask-size:contain;-webkit-mask-position:center;-webkit-mask-repeat:no-repeat;-webkit-mask-size:contain}
-.ext-link[href*="imdb.com"]{color:#f5c518;background:rgba(245,197,24,0.1);border-color:rgba(245,197,24,0.24)}
-.ext-link[href*="imdb.com"]:hover{background:rgba(245,197,24,0.16);border-color:#f5c518}
+.ext-link-logo{width:1rem;height:1rem;display:inline-block;flex-shrink:0;background:currentColor;mask-position:center;mask-repeat:no-repeat;mask-size:contain;-webkit-mask-position:center;-webkit-mask-repeat:no-repeat;-webkit-mask-size:contain}
+.ext-link--imdb,.ext-link[href*="imdb.com"]{color:#f5c518;background:rgba(245,197,24,0.1);border-color:rgba(245,197,24,0.24)}
+.ext-link--imdb:hover,.ext-link[href*="imdb.com"]:hover{background:rgba(245,197,24,0.16);border-color:#f5c518}
 .ext-link[href*="imdb.com"]::before{mask-image:url(../ratings/imdb.svg);-webkit-mask-image:url(../ratings/imdb.svg)}
-.ext-link[href*="rottentomatoes.com"]{color:#fa320a;background:rgba(250,50,10,0.1);border-color:rgba(250,50,10,0.24)}
-.ext-link[href*="rottentomatoes.com"]:hover{background:rgba(250,50,10,0.16);border-color:#fa320a}
+.ext-link-logo--imdb{mask-image:url(../ratings/imdb.svg);-webkit-mask-image:url(../ratings/imdb.svg)}
+.ext-link--rottentomatoes,.ext-link[href*="rottentomatoes.com"]{color:#fa320a;background:rgba(250,50,10,0.1);border-color:rgba(250,50,10,0.24)}
+.ext-link--rottentomatoes:hover,.ext-link[href*="rottentomatoes.com"]:hover{background:rgba(250,50,10,0.16);border-color:#fa320a}
 .ext-link[href*="rottentomatoes.com"]::before{mask-image:url(../ratings/rottentomatoes.svg);-webkit-mask-image:url(../ratings/rottentomatoes.svg)}
-.ext-link[href*="trakt.tv"]{color:#ed1c24;background:rgba(237,28,36,0.1);border-color:rgba(237,28,36,0.24)}
-.ext-link[href*="trakt.tv"]:hover{background:rgba(237,28,36,0.16);border-color:#ed1c24}
+.ext-link-logo--rottentomatoes{mask-image:url(../ratings/rottentomatoes.svg);-webkit-mask-image:url(../ratings/rottentomatoes.svg)}
+.ext-link--trakt,.ext-link[href*="trakt.tv"]{color:#ed1c24;background:rgba(237,28,36,0.1);border-color:rgba(237,28,36,0.24)}
+.ext-link--trakt:hover,.ext-link[href*="trakt.tv"]:hover{background:rgba(237,28,36,0.16);border-color:#ed1c24}
 .ext-link[href*="trakt.tv"]::before{mask-image:url(../ratings/trakt.svg);-webkit-mask-image:url(../ratings/trakt.svg)}
+.ext-link-logo--trakt{mask-image:url(../ratings/trakt.svg);-webkit-mask-image:url(../ratings/trakt.svg)}
 .trailer-section{margin-bottom:2.5rem}
 .trailer-section h2{font-size:1.1rem;font-weight:700;margin-bottom:0.85rem;color:var(--accent)}
 .trailer-wrap{position:relative;width:100%;aspect-ratio:16/9;background:#000;border-radius:14px;overflow:hidden;box-shadow:0 4px 25px rgba(0,0,0,0.5),0 0 0 1px rgba(34,211,238,0.1)}
@@ -156,8 +160,8 @@ tr.nearest-cinema-row td:first-child{border-left:3px solid var(--accent)}
         <div class="meta"></div>
         <div class="synopsis">A live event at Merlin Cinemas. Check the showtimes below for dates, times, and booking.</div>
         <div class="links">
-          <a href="https://www.rottentomatoes.com/search?search=Ritz On Screen: The Rocky Horror Picture Show (1975) With After Party!" class="ext-link" target="_blank" rel="noopener">Rotten Tomatoes</a>
-          <a href="https://trakt.tv/search?query=Ritz On Screen: The Rocky Horror Picture Show (1975) With After Party!" class="ext-link" target="_blank" rel="noopener">Trakt</a>
+          <a href="https://www.rottentomatoes.com/search?search=Ritz On Screen: The Rocky Horror Picture Show (1975) With After Party!" class="ext-link ext-link--rottentomatoes" target="_blank" rel="noopener"><span class="ext-link-logo ext-link-logo--rottentomatoes" aria-hidden="true"></span><span>Rotten Tomatoes</span></a>
+          <a href="https://trakt.tv/search?query=Ritz On Screen: The Rocky Horror Picture Show (1975) With After Party!" class="ext-link ext-link--trakt" target="_blank" rel="noopener"><span class="ext-link-logo ext-link-logo--trakt" aria-hidden="true"></span><span>Trakt</span></a>
         </div>
     <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Movie", "name": "Ritz On Screen: The Rocky Horror Picture Show (1975) With After Party!", "description": "A live event at Merlin Cinemas. Check the showtimes below for dates, times, and booking.", "image": "posters/ritz-on-screen-the-rocky-horror-picture-show-1975-with-after-party.jpg"}</script>
     </div>
@@ -249,7 +253,7 @@ table.parentNode.insertBefore(label,table);
         <span aria-hidden="true"> · </span>
         <a href="../">All premieres</a>
       </div>
-      <p class="footer-updated">Last updated: 2026-06-03 16:35 BST</p>
+      <p class="footer-updated">Last updated: 2026-06-04 13:02 BST</p>
     </footer>
   </div>
 </body>

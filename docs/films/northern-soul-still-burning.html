@@ -3,13 +3,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>RBO 2026-27: The Royal Opera - Götterdämmerung - Merlin Cinemas</title>
-  <meta name="description" content="Royal Ballet &amp; Opera broadcast - a world-class production from the Royal Opera House, Covent Garden, screened live at this cinema.">
-  <meta property="og:title" content="RBO 2026-27: The Royal Opera - Götterdämmerung - Merlin Cinemas">
-  <meta property="og:description" content="Royal Ballet &amp; Opera broadcast - a world-class production from the Royal Opera House, Covent Garden, screened live at this cinema.">
+  <title>Northern Soul: Still Burning - Merlin Cinemas</title>
+  <meta name="description" content="An exploration of the cultural phenomenon that is Northern Soul, charting how this movement has weaved and transformed itself musically and culturally through t">
+  <meta property="og:title" content="Northern Soul: Still Burning - Merlin Cinemas">
+  <meta property="og:description" content="An exploration of the cultural phenomenon that is Northern Soul, charting how this movement has weaved and transformed itself musically and culturally through the decades. Northern Soul continues to r">
   <meta property="og:type" content="website">
-    <meta property="og:image" content="posters/rbo-2026-27-the-royal-opera-g-tterd-mmerung.jpg">
-  <meta property="og:url" content="https://evenwebb.github.io/merlin-cinemas/films/rbo-2026-27-the-royal-opera-g-tterd-mmerung.html">
+    <meta property="og:image" content="posters/northern-soul-still-burning.jpg">
+  <meta property="og:url" content="https://evenwebb.github.io/merlin-cinemas/films/northern-soul-still-burning.html">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎬</text></svg>">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -59,15 +59,19 @@ body{position:relative}
 .ext-link{display:inline-flex;align-items:center;gap:0.55rem;padding:0.45rem 0.85rem;background:var(--surface);border:1px solid var(--border);border-radius:100px;color:var(--text-muted);text-decoration:none;font-size:0.82rem;font-weight:500;transition:all var(--transition)}
 .ext-link:hover{transform:translateY(-1px);box-shadow:0 4px 15px rgba(0,0,0,0.18)}
 .ext-link::before{content:"";width:1rem;height:1rem;display:inline-block;flex-shrink:0;background:currentColor;mask-position:center;mask-repeat:no-repeat;mask-size:contain;-webkit-mask-position:center;-webkit-mask-repeat:no-repeat;-webkit-mask-size:contain}
-.ext-link[href*="imdb.com"]{color:#f5c518;background:rgba(245,197,24,0.1);border-color:rgba(245,197,24,0.24)}
-.ext-link[href*="imdb.com"]:hover{background:rgba(245,197,24,0.16);border-color:#f5c518}
+.ext-link-logo{width:1rem;height:1rem;display:inline-block;flex-shrink:0;background:currentColor;mask-position:center;mask-repeat:no-repeat;mask-size:contain;-webkit-mask-position:center;-webkit-mask-repeat:no-repeat;-webkit-mask-size:contain}
+.ext-link--imdb,.ext-link[href*="imdb.com"]{color:#f5c518;background:rgba(245,197,24,0.1);border-color:rgba(245,197,24,0.24)}
+.ext-link--imdb:hover,.ext-link[href*="imdb.com"]:hover{background:rgba(245,197,24,0.16);border-color:#f5c518}
 .ext-link[href*="imdb.com"]::before{mask-image:url(../ratings/imdb.svg);-webkit-mask-image:url(../ratings/imdb.svg)}
-.ext-link[href*="rottentomatoes.com"]{color:#fa320a;background:rgba(250,50,10,0.1);border-color:rgba(250,50,10,0.24)}
-.ext-link[href*="rottentomatoes.com"]:hover{background:rgba(250,50,10,0.16);border-color:#fa320a}
+.ext-link-logo--imdb{mask-image:url(../ratings/imdb.svg);-webkit-mask-image:url(../ratings/imdb.svg)}
+.ext-link--rottentomatoes,.ext-link[href*="rottentomatoes.com"]{color:#fa320a;background:rgba(250,50,10,0.1);border-color:rgba(250,50,10,0.24)}
+.ext-link--rottentomatoes:hover,.ext-link[href*="rottentomatoes.com"]:hover{background:rgba(250,50,10,0.16);border-color:#fa320a}
 .ext-link[href*="rottentomatoes.com"]::before{mask-image:url(../ratings/rottentomatoes.svg);-webkit-mask-image:url(../ratings/rottentomatoes.svg)}
-.ext-link[href*="trakt.tv"]{color:#ed1c24;background:rgba(237,28,36,0.1);border-color:rgba(237,28,36,0.24)}
-.ext-link[href*="trakt.tv"]:hover{background:rgba(237,28,36,0.16);border-color:#ed1c24}
+.ext-link-logo--rottentomatoes{mask-image:url(../ratings/rottentomatoes.svg);-webkit-mask-image:url(../ratings/rottentomatoes.svg)}
+.ext-link--trakt,.ext-link[href*="trakt.tv"]{color:#ed1c24;background:rgba(237,28,36,0.1);border-color:rgba(237,28,36,0.24)}
+.ext-link--trakt:hover,.ext-link[href*="trakt.tv"]:hover{background:rgba(237,28,36,0.16);border-color:#ed1c24}
 .ext-link[href*="trakt.tv"]::before{mask-image:url(../ratings/trakt.svg);-webkit-mask-image:url(../ratings/trakt.svg)}
+.ext-link-logo--trakt{mask-image:url(../ratings/trakt.svg);-webkit-mask-image:url(../ratings/trakt.svg)}
 .trailer-section{margin-bottom:2.5rem}
 .trailer-section h2{font-size:1.1rem;font-weight:700;margin-bottom:0.85rem;color:var(--accent)}
 .trailer-wrap{position:relative;width:100%;aspect-ratio:16/9;background:#000;border-radius:14px;overflow:hidden;box-shadow:0 4px 25px rgba(0,0,0,0.5),0 0 0 1px rgba(34,211,238,0.1)}
@@ -134,6 +138,10 @@ tr.nearest-cinema-row td:first-child{border-left:3px solid var(--accent)}
 .cert--12{background-image:url(../certs/cert-12.png)}
 .cert--15{background-image:url(../certs/cert-15.png)}
 .cert--18{background-image:url(../certs/cert-18.png)}
+.backdrop-wrap{position:absolute;top:0;left:0;width:100%;height:100%;z-index:0;overflow:hidden;opacity:0.15;pointer-events:none}
+.backdrop-wrap::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,10,16,0.7) 0%,rgba(10,10,16,0.9) 100%)}
+.backdrop-img{width:100%;height:100%;object-fit:cover}
+@media(max-width:680px){.backdrop-wrap{position:relative;height:200px;opacity:0.2}}
 .backdrop-wrap{position:absolute;top:0;left:0;width:100%;height:100%;z-index:0;overflow:hidden}
 .backdrop-wrap::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,10,16,0.65) 0%,rgba(10,10,16,0.85) 100%)}
 .backdrop-img{width:100%;height:100%;object-fit:cover}
@@ -144,113 +152,48 @@ tr.nearest-cinema-row td:first-child{border-left:3px solid var(--accent)}
 <body>
   <div class="bg-mesh" aria-hidden="true"></div>
 <div class="backdrop-wrap">
-  <img src="https://image.tmdb.org/t/p/w780/afsCb69k3k66W3jt4tZc3gSYPJQ.jpg" alt="" class="backdrop-img" loading="lazy" decoding="async">
+  <img src="https://image.tmdb.org/t/p/w780/zW0vt5ck2DYMePwH2Y2GUQoF08V.jpg" alt="" class="backdrop-img" loading="lazy" decoding="async">
 </div>
   <div class="page">
     <a href="../" class="back-btn">← Back to all premieres</a>
     <div class="film-layout">
-      <div class="poster"><img src="../posters/rbo-2026-27-the-royal-opera-g-tterd-mmerung.jpg" alt="Poster for RBO 2026-27: The Royal Opera - Götterdämmerung" loading="lazy"></div>
+      <div class="poster"><img src="../posters/northern-soul-still-burning.jpg" alt="Poster for Northern Soul: Still Burning" loading="lazy"></div>
       <div class="film-info">
-        <h1>RBO 2026-27: The Royal Opera - Götterdämmerung  <span class="screening-badge">RBO</span></h1>
-        <div class="meta"></div>
-        <div class="synopsis">Royal Ballet &amp; Opera broadcast - a world-class production from the Royal Opera House, Covent Garden, screened live at this cinema.</div>
+        <h1>Northern Soul: Still Burning <span class="cert cert--15" aria-label="Rated 15" title="Rated 15"></span></h1>
+        <div class="meta"><span class="cert cert--15" title="15"></span><span>1h 35min</span><span class="stars">★★★☆☆</span><span class="rating-pill">6.0/10</span><span class="genres">Documentary</span></div>
+        <div class="synopsis">An exploration of the cultural phenomenon that is Northern Soul, charting how this movement has weaved and transformed itself musically and culturally through the decades. Northern Soul continues to re-invent itself more than any other music genre, remaining as vibrant and relevant today as when it first evolved.  Features exclusive interviews with Richard Searling, Paul Mason, Elaine Constantine, Kev Roberts, Russ Winstanley, David Nathan, Wayne Hemingway, Dave Evison, Keith Gildart, Levanna McLean, Tony Blackburn and many, many more.</div>
         <div class="links">
-          <a href="https://www.rottentomatoes.com/search?search=RBO 2026-27: The Royal Opera - Götterdämmerung" class="ext-link" target="_blank" rel="noopener">Rotten Tomatoes</a>
-          <a href="https://trakt.tv/search?query=RBO 2026-27: The Royal Opera - Götterdämmerung" class="ext-link" target="_blank" rel="noopener">Trakt</a>
+          <a href="https://www.imdb.com/title/tt21856850/" class="ext-link ext-link--imdb" target="_blank" rel="noopener"><span class="ext-link-logo ext-link-logo--imdb" aria-hidden="true"></span><span>IMDb</span></a>
+          <a href="https://www.rottentomatoes.com/search?search=Northern Soul: Still Burning" class="ext-link ext-link--rottentomatoes" target="_blank" rel="noopener"><span class="ext-link-logo ext-link-logo--rottentomatoes" aria-hidden="true"></span><span>Rotten Tomatoes</span></a>
+          <a href="https://trakt.tv/search?query=Northern Soul: Still Burning" class="ext-link ext-link--trakt" target="_blank" rel="noopener"><span class="ext-link-logo ext-link-logo--trakt" aria-hidden="true"></span><span>Trakt</span></a>
         </div>
-    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Movie", "name": "RBO 2026-27: The Royal Opera - Götterdämmerung", "description": "Royal Ballet & Opera broadcast - a world-class production from the Royal Opera House, Covent Garden, screened live at this cinema.", "image": "posters/rbo-2026-27-the-royal-opera-g-tterd-mmerung.jpg"}</script>
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Movie", "name": "Northern Soul: Still Burning", "description": "An exploration of the cultural phenomenon that is Northern Soul, charting how this movement has weaved and transformed itself musically and culturally through the decades. Northern Soul continues to re-invent itself more than any other music genre, remaining as vibrant and relevant today as when it first evolved.  Features exclusive interviews with Richard Searling, Paul Mason, Elaine Constantine, Kev Roberts, Russ Winstanley, David Nathan, Wayne Hemingway, Dave Evison, Keith Gildart, Levanna Mc", "image": "posters/northern-soul-still-burning.jpg", "director": {"@type": "Person", "name": "Alan Byron"}, "aggregateRating": {"@type": "AggregateRating", "ratingValue": 6.0, "bestRating": 10}, "genre": ["Documentary"]}</script>
+        <div class="crew">
+          <p><strong>Director:</strong> Alan Byron</p>
+          <p><strong>Starring:</strong> Elaine Constantine, Tony Blackburn, Richard Searling, Paul Mason, Dave Evison</p>
+        </div>
     </div>
   </div>
     <div class="trailer-section">
       <h2>Trailer</h2>
-      <div class="trailer-wrap"><div class="no-trailer">No trailer available</div></div>
+      <div class="trailer-wrap"><iframe src="https://www.youtube-nocookie.com/embed/Ceb4rO0Uzio" title="Trailer for Northern Soul: Still Burning" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
     </div>
     <div class="cinema-section">
       <h2>Showtimes & Cinemas <button type="button" id="tag-key-btn" class="tag-key-btn" aria-label="Accessibility key" title="Accessibility key">ⓘ</button></h2>
-      <div class="st-filter" role="group" aria-label="Filter by cinema">
-        <button type="button" class="st-filter-btn active" data-st-cinema="all">All</button>
-          <button type="button" class="st-filter-btn" data-st-cinema="bodmin">Bodmin</button>
-          <button type="button" class="st-filter-btn" data-st-cinema="falmouth">Falmouth</button>
-          <button type="button" class="st-filter-btn" data-st-cinema="redruth">Redruth</button>
-      </div>
       <div class="cinema-table-wrap">
         <table class="cinema-table">
-          <thead><tr><th>Date</th><th>Time</th><th>Cinema</th><th></th></tr></thead>
+          <thead><tr><th>Date</th><th>Cinema</th><th></th></tr></thead>
           <tbody>
-<tr data-film-cinema="bodmin"><td class="date-cell">Wed 03 Feb</td><td class="time-cell">16:45</td><td class="cinema-cell">Merlin Bodmin <span class="screen-badge">Screen 1</span></td><td class="book-cell"><a href="https://merlinbodmin.admit-one.eu/?p=tickets&amp;perfCode=51014" class="table-book-btn" target="_blank" rel="noopener">Book →</a></td></tr>
-<tr data-film-cinema="falmouth"><td class="date-cell">Wed 03 Feb</td><td class="time-cell">16:45</td><td class="cinema-cell">Merlin Falmouth <span class="screen-badge">Screen 1</span></td><td class="book-cell"><a href="https://merlinfalmouth.admit-one.eu/?p=tickets&amp;perfCode=84805" class="table-book-btn" target="_blank" rel="noopener">Book →</a></td></tr>
-<tr data-film-cinema="redruth"><td class="date-cell">Wed 03 Feb</td><td class="time-cell">16:45</td><td class="cinema-cell">Merlin Redruth <span class="screen-badge">Screen 1</span></td><td class="book-cell"><a href="https://merlinredruth.admit-one.eu/?p=tickets&amp;perfCode=89188" class="table-book-btn" target="_blank" rel="noopener">Book →</a></td></tr>
+<tr><td class="date-cell">Sat 15 May</td><td class="cinema-cell">Merlin Bodmin</td><td class="book-cell"><a href="https://bodmin.merlincinemas.co.uk/film/northern-soul-still-burning" class="table-book-btn" target="_blank" rel="noopener">Book →</a></td></tr>
+<tr><td class="date-cell">Sat 15 May</td><td class="cinema-cell">Merlin Falmouth</td><td class="book-cell"><a href="https://falmouth.merlincinemas.co.uk/film/northern-soul-still-burning" class="table-book-btn" target="_blank" rel="noopener">Book →</a></td></tr>
+<tr><td class="date-cell">Sat 15 May</td><td class="cinema-cell">Merlin Helston</td><td class="book-cell"><a href="https://helston.merlincinemas.co.uk/film/northern-soul-still-burning" class="table-book-btn" target="_blank" rel="noopener">Book →</a></td></tr>
+<tr><td class="date-cell">Sat 15 May</td><td class="cinema-cell">Merlin Penzance</td><td class="book-cell"><a href="https://ritz.merlincinemas.co.uk/film/northern-soul-still-burning" class="table-book-btn" target="_blank" rel="noopener">Book →</a></td></tr>
+<tr><td class="date-cell">Sat 15 May</td><td class="cinema-cell">Merlin Penzance</td><td class="book-cell"><a href="https://penzance.merlincinemas.co.uk/film/northern-soul-still-burning" class="table-book-btn" target="_blank" rel="noopener">Book →</a></td></tr>
+<tr><td class="date-cell">Sat 15 May</td><td class="cinema-cell">Merlin Redruth</td><td class="book-cell"><a href="https://redruth.merlincinemas.co.uk/film/northern-soul-still-burning" class="table-book-btn" target="_blank" rel="noopener">Book →</a></td></tr>
+<tr><td class="date-cell">Sat 15 May</td><td class="cinema-cell">Merlin St Ives</td><td class="book-cell"><a href="https://st-ives.merlincinemas.co.uk/film/northern-soul-still-burning" class="table-book-btn" target="_blank" rel="noopener">Book →</a></td></tr>
           </tbody>
         </table>
       </div>
-<script>
-document.querySelectorAll(".st-filter-btn").forEach(function(btn){btn.addEventListener("click",function(){document.querySelectorAll(".st-filter-btn").forEach(function(b){b.classList.remove("active")});this.classList.add("active");var cinema=this.getAttribute("data-st-cinema");document.querySelectorAll("tr[data-film-cinema]").forEach(function(row){row.style.display=(cinema==="all"||row.getAttribute("data-film-cinema")===cinema)?"":"none"})})});
-</script>
-<div class="tag-key-popup" id="tag-key-popup" hidden>
-  <div class="tag-key-overlay"></div>
-  <div class="tag-key-dialog" role="dialog" aria-label="Accessibility key">
-    <button type="button" class="tag-key-close" aria-label="Close">&times;</button>
-    <h3>Accessibility Key</h3>
-    <dl>
-      <dt><span class="tag-badge" style="color:#22d3ee;background:rgba(34,211,238,0.12)">AD</span></dt><dd>Audio Description</dd>
-      <dt><span class="tag-badge" style="color:#facc15;background:rgba(250,204,21,0.12)">CC</span></dt><dd>Subtitles / Closed Captions</dd>
-      <dt><span class="tag-badge" style="color:#4ade80;background:rgba(74,222,128,0.12)">WA</span></dt><dd>Wheelchair Accessible</dd>
-      <dt><span class="tag-badge" style="color:#fb923c;background:rgba(251,146,60,0.12)">SL</span></dt><dd>Strobe Lighting warning</dd>
-      <dt><span class="tag-badge" style="color:#c084fc;background:rgba(192,132,252,0.12)">AF</span></dt><dd>Autism Friendly screening</dd>
-      <dt><span class="tag-badge" style="color:#f472b6;background:rgba(244,114,182,0.12)">PB</span></dt><dd>Parent &amp; Baby screening</dd>
-      <dt><span class="tag-badge" style="color:#fbbf24;background:rgba(251,191,36,0.12)">KC</span></dt><dd>Kids Club</dd>
-      <dt><span class="tag-badge" style="color:#94a3b8;background:rgba(148,163,184,0.12)">SS</span></dt><dd>Silver Screen (over 60s)</dd>
-      <dt><span class="tag-badge" style="color:#f87171;background:rgba(248,113,113,0.12)">EV</span></dt><dd>Event Cinema</dd>
-    </dl>
-  </div>
-</div>
-<script>
-var tagPopup=document.getElementById("tag-key-popup");
-var tagBtn=document.getElementById("tag-key-btn");
-var tagClose=tagPopup.querySelector(".tag-key-close");
-var tagOverlay=tagPopup.querySelector(".tag-key-overlay");
-tagBtn.addEventListener("click",function(){tagPopup.hidden=false});
-tagClose.addEventListener("click",function(){tagPopup.hidden=true});
-tagOverlay.addEventListener("click",function(){tagPopup.hidden=true});
-document.addEventListener("keydown",function(e){if(e.key==="Escape")tagPopup.hidden=true});
-</script>
-<script>
-// Nearest cinema highlight - reorder showtime rows
-(function(){
-var coords={"bodmin":{lat:50.466,lng:-4.718},"helston":{lat:50.102,lng:-5.274},"falmouth":{lat:50.155,lng:-5.067},"redruth":{lat:50.233,lng:-5.226},"st-ives":{lat:50.21,lng:-5.49},"penzance-savoy":{lat:50.118,lng:-5.538},"penzance-ritz":{lat:50.118,lng:-5.536}};
-if(!navigator.geolocation)return;
-navigator.geolocation.getCurrentPosition(function(pos){
-var best=null,bestDist=Infinity;
-for(var cn in coords){
-var c=coords[cn];
-var d=Math.sqrt(Math.pow(c.lat-pos.coords.latitude,2)+Math.pow(c.lng-pos.coords.longitude,2));
-if(d<bestDist){bestDist=d;best=cn;}
-}
-if(!best)return;
-var tbody=document.querySelector(".cinema-table tbody");
-var rows=document.querySelectorAll("tr[data-film-cinema]");
-var topRows=[],otherRows=[];
-for(var i=0;i<rows.length;i++){
-var r=rows[i];
-if(r.getAttribute("data-film-cinema")===best){
-r.classList.add("nearest-cinema-row");
-topRows.push(r);
-}else{otherRows.push(r);}
-}
-if(topRows.length){
-var frag=document.createDocumentFragment();
-for(var j=0;j<topRows.length;j++)frag.appendChild(topRows[j]);
-for(var k=0;k<otherRows.length;k++)frag.appendChild(otherRows[k]);
-tbody.appendChild(frag);
-var label=document.createElement("div");
-label.className="nearest-cinema-label";
-label.textContent="★ Nearest cinema: "+(best.charAt(0).toUpperCase()+best.slice(1).replace(/-/g," "));
-var table=document.querySelector(".cinema-table-wrap");
-table.parentNode.insertBefore(label,table);
-}
-},function(){},{timeout:5000,maximumAge:3600000});
-})();
-</script>
     </div>
     <footer>
       <p>An open source fan-made project. Not affiliated with Merlin Cinemas.</p>
@@ -259,7 +202,7 @@ table.parentNode.insertBefore(label,table);
         <span aria-hidden="true"> · </span>
         <a href="../">All premieres</a>
       </div>
-      <p class="footer-updated">Last updated: 2026-06-02 16:44 BST</p>
+      <p class="footer-updated">Last updated: 2026-06-04 13:02 BST</p>
     </footer>
   </div>
 </body>
