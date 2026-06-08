@@ -9,26 +9,8 @@ X-WR-CALNAME:Merlin Regal Cinema & Theatre Movie Premieres
 X-WR-CALDESC:Upcoming movie premieres at Merlin Cinemas Regal Cinema & Theatre
 X-WR-TIMEZONE:Europe/London
 BEGIN:VEVENT
-UID:906b103624aaf4d8afcf257eb62bcb816ed64199@merlin-cinemas
-DTSTAMP:20260607T111145Z
-DTSTART;VALUE=DATE:20260607
-DTEND;VALUE=DATE:20260608
-SUMMARY:Zog And The Flying Doctors @ Merlin Redruth
-DESCRIPTION:Zog And The Flying Doctors (25 min)\n★★★☆☆\nAnimation\, Family\
- , TV Movie\, Fantasy\n\nPearl and Gadabout are now a flying doctor trio\, 
- caring for creatures including a mermaid\, a unicorn and a sneezy lion. Ho
- wever when bad weather forces them to land at the palace\, Pearl is locked
-  up by her uncle\, the king.\n\nStarring: Lenny Henry\, Patsy Ferran\, Dan
- iel Ings\, Hugh Skinner\, Alexandra Roach\, Mark Bonnar\n\nFilm release at
-  Merlin Cinemas Redruth\nBook tickets: /film/zog-zog-and-the-flying-doctor
- s-toddler-cinema\n\nFilm details: https://evenwebb.github.io/merlin-cinema
- s/films/zog-and-the-flying-doctors.html
-LOCATION:Merlin Cinemas Redruth
-URL:/film/zog-zog-and-the-flying-doctors-toddler-cinema
-END:VEVENT
-BEGIN:VEVENT
 UID:894ce3fa0b1e4eabbccbbd02b9d0bb47f9926c05@merlin-cinemas
-DTSTAMP:20260607T111145Z
+DTSTAMP:20260608T131122Z
 DTSTART;VALUE=DATE:20260618
 DTEND;VALUE=DATE:20260619
 SUMMARY:Toy Story 5 @ Merlin Redruth
@@ -45,7 +27,7 @@ URL:/film/toy-story-5
 END:VEVENT
 BEGIN:VEVENT
 UID:f4689c58b22ddc42a81726c6b3d1ab1e8a2c18b3@merlin-cinemas
-DTSTAMP:20260607T111145Z
+DTSTAMP:20260608T131122Z
 DTSTART;VALUE=DATE:20260625
 DTEND;VALUE=DATE:20260626
 SUMMARY:Supergirl @ Merlin Redruth
@@ -62,7 +44,7 @@ URL:/film/supergirl
 END:VEVENT
 BEGIN:VEVENT
 UID:3a8d0c6d0616f3514dd1c1f441542c5f943b8558@merlin-cinemas
-DTSTAMP:20260607T111145Z
+DTSTAMP:20260608T131122Z
 DTSTART;VALUE=DATE:20260626
 DTEND;VALUE=DATE:20260627
 SUMMARY:Jackass: Best And Last @ Merlin Redruth
@@ -78,7 +60,7 @@ URL:/film/jackass-best-and-last
 END:VEVENT
 BEGIN:VEVENT
 UID:c2bf0f3ccb062617326235f529762400b21d88c6@merlin-cinemas
-DTSTAMP:20260607T111145Z
+DTSTAMP:20260608T131122Z
 DTSTART;VALUE=DATE:20260626
 DTEND;VALUE=DATE:20260627
 SUMMARY:500 Miles @ Merlin Redruth
@@ -95,7 +77,7 @@ URL:/film/500-miles
 END:VEVENT
 BEGIN:VEVENT
 UID:2485aa7d1eeb76a7cfa81816057d4aab3d0874cb@merlin-cinemas
-DTSTAMP:20260607T111145Z
+DTSTAMP:20260608T131122Z
 DTSTART;VALUE=DATE:20260701
 DTEND;VALUE=DATE:20260702
 SUMMARY:Minions & Monsters @ Merlin Redruth
@@ -113,7 +95,7 @@ URL:/film/minions-monsters
 END:VEVENT
 BEGIN:VEVENT
 UID:dcfa47b03934d6bd5dc6800ad0fc5f7f7594686d@merlin-cinemas
-DTSTAMP:20260607T111145Z
+DTSTAMP:20260608T131122Z
 DTSTART;VALUE=DATE:20260710
 DTEND;VALUE=DATE:20260711
 SUMMARY:Evil Dead Burn @ Merlin Redruth
@@ -130,7 +112,7 @@ URL:/film/evil-dead-burn
 END:VEVENT
 BEGIN:VEVENT
 UID:910b8ada6369adb5eed7da7798fe6cdb1c121e62@merlin-cinemas
-DTSTAMP:20260607T111145Z
+DTSTAMP:20260608T131122Z
 DTSTART;VALUE=DATE:20260710
 DTEND;VALUE=DATE:20260711
 SUMMARY:Moana @ Merlin Redruth
@@ -146,7 +128,7 @@ URL:/film/moana
 END:VEVENT
 BEGIN:VEVENT
 UID:ba6feb93764f4b13920e3197fbe2c793eeba418b@merlin-cinemas
-DTSTAMP:20260607T111145Z
+DTSTAMP:20260608T131122Z
 DTSTART;VALUE=DATE:20260717
 DTEND;VALUE=DATE:20260718
 SUMMARY:The Odyssey @ Merlin Redruth
@@ -164,7 +146,7 @@ URL:/film/the-odyssey
 END:VEVENT
 BEGIN:VEVENT
 UID:023e754dd2638a4450413b067cadc408199adcc9@merlin-cinemas
-DTSTAMP:20260607T111145Z
+DTSTAMP:20260608T131122Z
 DTSTART;VALUE=DATE:20260731
 DTEND;VALUE=DATE:20260801
 SUMMARY:Spider-Man: Brand New Day @ Merlin Redruth
@@ -186,7 +168,7 @@ URL:/film/spiderman-brand-new-day
 END:VEVENT
 BEGIN:VEVENT
 UID:0eca2eb9e5d3c9c67dd5f118ac4c4b4d300204dd@merlin-cinemas
-DTSTAMP:20260607T111145Z
+DTSTAMP:20260608T131122Z
 DTSTART;VALUE=DATE:20260807
 DTEND;VALUE=DATE:20260808
 SUMMARY:PAW Patrol: The Dino Movie @ Merlin Redruth
@@ -208,8 +190,26 @@ LOCATION:Merlin Cinemas Redruth
 URL:/film/paw-patrol-the-dino-movie
 END:VEVENT
 BEGIN:VEVENT
+UID:c5357335269d87b22de18ec57b4f8198285c8a6a@merlin-cinemas
+DTSTAMP:20260608T131122Z
+DTSTART;VALUE=DATE:20260814
+DTEND;VALUE=DATE:20260815
+SUMMARY:The End Of Oak Street @ Merlin Redruth
+DESCRIPTION:The End Of Oak Street (1h 50min)\nScience Fiction\, Mystery\, T
+ hriller\n\nAfter a mysterious cosmic event rips Oak Street from suburbia a
+ nd transports their neighborhood to someplace unknown\, the Platt family s
+ oon discovers that their very survival depends on them sticking together a
+ s they navigate their now unrecognizable surroundings.\n\nStarring: Anne H
+ athaway\, Ewan McGregor\, Christian Convery\, Maisy Stella\, Jordan Alexa 
+ Davis\, P.J. Byrne\n\nFilm release at Merlin Cinemas Redruth\nBook tickets
+ : /film/the-end-of-oak-street\n\nFilm details: https://evenwebb.github.io/
+ merlin-cinemas/films/the-end-of-oak-street.html
+LOCATION:Merlin Cinemas Redruth
+URL:/film/the-end-of-oak-street
+END:VEVENT
+BEGIN:VEVENT
 UID:720b95e008150dd53bcfc01c03bc883035d53cd9@merlin-cinemas
-DTSTAMP:20260607T111145Z
+DTSTAMP:20260608T131122Z
 DTSTART;VALUE=DATE:20260821
 DTEND;VALUE=DATE:20260822
 SUMMARY:Insidious: Out Of The Further @ Merlin Redruth
@@ -226,7 +226,7 @@ URL:/film/insidious-out-of-the-further
 END:VEVENT
 BEGIN:VEVENT
 UID:ad5f4aa38b6967ed10edca227aebb8c2749cdbaf@merlin-cinemas
-DTSTAMP:20260607T111145Z
+DTSTAMP:20260608T131122Z
 DTSTART;VALUE=DATE:20260826
 DTEND;VALUE=DATE:20260827
 SUMMARY:The Dog Stars @ Merlin Redruth
@@ -243,8 +243,27 @@ LOCATION:Merlin Cinemas Redruth
 URL:/film/the-dog-stars
 END:VEVENT
 BEGIN:VEVENT
+UID:28a0f3993572658feae69413bea5953587e4e0fc@merlin-cinemas
+DTSTAMP:20260608T131122Z
+DTSTART;VALUE=DATE:20260904
+DTEND;VALUE=DATE:20260905
+SUMMARY:How To Rob A Bank @ Merlin Redruth
+DESCRIPTION:How To Rob A Bank\nCrime\, Thriller\n\nA crew of social media-s
+ avvy bank robbers broadcasts their daring heists\, unaware that their grow
+ ing viral fame has put them in the crosshairs of a veteran FBI agent and a
+  brilliant software engineer. Despite the unlikely duo closing in\, the cr
+ ime ring pushes past their limits\, putting everything on the line for the
+ ir most ambitious heist yet.\n\nStarring: Nicholas Hoult\, Zoë Kravitz\, A
+ nna Sawai\, Rhenzy Feliz\, Pete Davidson\, John C. Reilly\n\nFilm release 
+ at Merlin Cinemas Redruth\nBook tickets: /film/how-to-rob-a-bank\n\nFilm d
+ etails: https://evenwebb.github.io/merlin-cinemas/films/how-to-rob-a-bank.
+ html
+LOCATION:Merlin Cinemas Redruth
+URL:/film/how-to-rob-a-bank
+END:VEVENT
+BEGIN:VEVENT
 UID:f69ae9d9734f60ddfe9799a9c118846f9f2a6369@merlin-cinemas
-DTSTAMP:20260607T111145Z
+DTSTAMP:20260608T131122Z
 DTSTART;VALUE=DATE:20260909
 DTEND;VALUE=DATE:20260910
 SUMMARY:Pressure @ Merlin Redruth
@@ -262,7 +281,7 @@ URL:/film/pressure
 END:VEVENT
 BEGIN:VEVENT
 UID:aed69e30854bf300ec50ca5bce002f7280d433e8@merlin-cinemas
-DTSTAMP:20260607T111145Z
+DTSTAMP:20260608T131122Z
 DTSTART;VALUE=DATE:20260911
 DTEND;VALUE=DATE:20260912
 SUMMARY:Practical Magic 2 @ Merlin Redruth
@@ -277,7 +296,7 @@ URL:/film/practical-magic-2
 END:VEVENT
 BEGIN:VEVENT
 UID:b2dcb964557b3a88a3eb6345ff3ba668c8f7bc33@merlin-cinemas
-DTSTAMP:20260607T111145Z
+DTSTAMP:20260608T131122Z
 DTSTART;VALUE=DATE:20260918
 DTEND;VALUE=DATE:20260919
 SUMMARY:Resident Evil @ Merlin Redruth
@@ -293,7 +312,7 @@ URL:/film/resident-evil
 END:VEVENT
 BEGIN:VEVENT
 UID:84e4967d06676bf8e96edc637b4a083e0bcad27a@merlin-cinemas
-DTSTAMP:20260607T111145Z
+DTSTAMP:20260608T131122Z
 DTSTART;VALUE=DATE:20260918
 DTEND;VALUE=DATE:20260919
 SUMMARY:Shaun The Sheep: The Beast Of Mossy Bottom @ Merlin Redruth
@@ -313,7 +332,7 @@ URL:/film/shaun-the-sheep-the-beast-of-mossy-bottom
 END:VEVENT
 BEGIN:VEVENT
 UID:4737ebf54377086736aacde0b9e4863d1f34863f@merlin-cinemas
-DTSTAMP:20260607T111145Z
+DTSTAMP:20260608T131122Z
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261003
 SUMMARY:Verity @ Merlin Redruth
@@ -330,7 +349,7 @@ URL:/film/verity
 END:VEVENT
 BEGIN:VEVENT
 UID:e43d356f60eba2537d7ebfce9e3d3241788a4a44@merlin-cinemas
-DTSTAMP:20260607T111145Z
+DTSTAMP:20260608T131122Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:Street Fighter @ Merlin Redruth
@@ -349,7 +368,7 @@ URL:/film/street-fighter
 END:VEVENT
 BEGIN:VEVENT
 UID:0881cfedf44adac16071b60613c106b9aa576f4c@merlin-cinemas
-DTSTAMP:20260607T111145Z
+DTSTAMP:20260608T131122Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:Forgotten Island @ Merlin Redruth
@@ -366,7 +385,7 @@ URL:/film/forgotten-island
 END:VEVENT
 BEGIN:VEVENT
 UID:68a1869949d0f3913b83782076fa2bd85c625632@merlin-cinemas
-DTSTAMP:20260607T111145Z
+DTSTAMP:20260608T131122Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Clayface @ Merlin Redruth
@@ -383,7 +402,7 @@ URL:/film/clayface
 END:VEVENT
 BEGIN:VEVENT
 UID:3a55eac572b5edcf788650f85115cd7883347466@merlin-cinemas
-DTSTAMP:20260607T111145Z
+DTSTAMP:20260608T131122Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:Wild Horse Nine @ Merlin Redruth
@@ -402,7 +421,7 @@ URL:/film/wild-horse-nine
 END:VEVENT
 BEGIN:VEVENT
 UID:e8171b72204fffe3bfe46d13d3ef61fa930b093e@merlin-cinemas
-DTSTAMP:20260607T111145Z
+DTSTAMP:20260608T131122Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:The Hunger Games: Sunrise On The Reaping @ Merlin Redruth
@@ -419,7 +438,7 @@ URL:/film/the-hunger-games-sunrise-on-the-reaping
 END:VEVENT
 BEGIN:VEVENT
 UID:47bd6eec7199ffbf192cbc582393bc2a4fd19860@merlin-cinemas
-DTSTAMP:20260607T111145Z
+DTSTAMP:20260608T131122Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Focker-In-Law @ Merlin Redruth
@@ -435,7 +454,7 @@ URL:/film/fockerinlaw
 END:VEVENT
 BEGIN:VEVENT
 UID:8bf06520d229626916fc075d939586fab71a5d7f@merlin-cinemas
-DTSTAMP:20260607T111145Z
+DTSTAMP:20260608T131122Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
 SUMMARY:Dune: Part Three @ Merlin Redruth
@@ -452,7 +471,7 @@ URL:/film/dune-part-three
 END:VEVENT
 BEGIN:VEVENT
 UID:a5b3e7f5f99acc2f0b2cd15ae48099fbbda9f8e6@merlin-cinemas
-DTSTAMP:20260607T111145Z
+DTSTAMP:20260608T131122Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
 SUMMARY:Avengers: Doomsday @ Merlin Redruth
@@ -467,8 +486,25 @@ LOCATION:Merlin Cinemas Redruth
 URL:/film/avengers-doomsday
 END:VEVENT
 BEGIN:VEVENT
+UID:a1119d6c85dfbfea9fc1a5bb0dfb289993a1a981@merlin-cinemas
+DTSTAMP:20260608T131122Z
+DTSTART;VALUE=DATE:20270205
+DTEND;VALUE=DATE:20270206
+SUMMARY:Ice Age: Boiling Point @ Merlin Redruth
+DESCRIPTION:Ice Age: Boiling Point\nAdventure\, Animation\, Comedy\, Family
+ \n\nA madcap adventure filled with dinosaurs and lava that takes Manny\, S
+ id\, Diego\, Ellie\, Scrat and the herd through the uncharted regions of t
+ he dangerous Lost World.\n\nStarring: Ray Romano\, Denis Leary\, John Legu
+ izamo\, Simon Pegg\, Queen Latifah\, Seann William Scott\n\nFilm release a
+ t Merlin Cinemas Redruth\nBook tickets: /film/ice-age-boiling-point\n\nFil
+ m details: https://evenwebb.github.io/merlin-cinemas/films/ice-age-boiling
+ -point.html
+LOCATION:Merlin Cinemas Redruth
+URL:/film/ice-age-boiling-point
+END:VEVENT
+BEGIN:VEVENT
 UID:fdb0f062762bae6e779e0c744372f43a4cc15879@merlin-cinemas
-DTSTAMP:20260607T111145Z
+DTSTAMP:20260608T131122Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
 SUMMARY:The Scarecrows' Wedding & The Smeds And The Smoos @ Merlin Redruth
@@ -488,7 +524,7 @@ URL:/film/the-scarecrows-wedding-the-smeds-and-the-smoos-toddler-cinema
 END:VEVENT
 BEGIN:VEVENT
 UID:46069992e885ab3ae5f16e70b26d1ec396dd5409@merlin-cinemas
-DTSTAMP:20260607T111145Z
+DTSTAMP:20260608T131122Z
 DTSTART;VALUE=DATE:20270515
 DTEND;VALUE=DATE:20270516
 SUMMARY:Northern Soul: Still Burning @ Merlin Redruth
@@ -510,7 +546,7 @@ URL:/film/northern-soul-still-burning
 END:VEVENT
 BEGIN:VEVENT
 UID:b2fd57e30864ecf574b88556aef9ffdffd161f18@merlin-cinemas
-DTSTAMP:20260607T111145Z
+DTSTAMP:20260608T131122Z
 DTSTART;VALUE=DATE:20270603
 DTEND;VALUE=DATE:20270604
 SUMMARY:Bonnie & Clive with The Jive Aces @ Merlin Redruth
@@ -523,5 +559,23 @@ DESCRIPTION:Bonnie & Clive with The Jive Aces (1h 20min)\nRomance\n\nThree
  e-clive-with-the-jive-aces.html
 LOCATION:Merlin Cinemas Redruth
 URL:/film/bonnie-clive-with-the-jive-aces-double-bill
+END:VEVENT
+BEGIN:VEVENT
+UID:01f4245b7571faecb865cafd7d05b9fdf8dadc31@merlin-cinemas
+DTSTAMP:20260608T131122Z
+DTSTART;VALUE=DATE:20270606
+DTEND;VALUE=DATE:20270607
+SUMMARY:Zog And The Flying Doctors @ Merlin Redruth
+DESCRIPTION:Zog And The Flying Doctors (25 min)\n★★★☆☆\nAnimation\, Family\
+ , TV Movie\, Fantasy\n\nPearl and Gadabout are now a flying doctor trio\, 
+ caring for creatures including a mermaid\, a unicorn and a sneezy lion. Ho
+ wever when bad weather forces them to land at the palace\, Pearl is locked
+  up by her uncle\, the king.\n\nStarring: Lenny Henry\, Patsy Ferran\, Dan
+ iel Ings\, Hugh Skinner\, Alexandra Roach\, Mark Bonnar\n\nFilm release at
+  Merlin Cinemas Redruth\nBook tickets: /film/zog-zog-and-the-flying-doctor
+ s-toddler-cinema\n\nFilm details: https://evenwebb.github.io/merlin-cinema
+ s/films/zog-and-the-flying-doctors.html
+LOCATION:Merlin Cinemas Redruth
+URL:/film/zog-zog-and-the-flying-doctors-toddler-cinema
 END:VEVENT
 END:VCALENDAR
