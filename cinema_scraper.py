@@ -36,7 +36,7 @@ HTTP_RETRY_MULTIPLIER = 2
 USER_AGENT = (
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
     "AppleWebKit/537.36 (KHTML, like Gecko) "
-    "Chrome/119.0.0.0 Safari/537.36"
+    "Chrome/131.0.0.0 Safari/537.36"
 )
 ICAL_LINE_LENGTH = 75
 ICAL_NEWLINE = "\r\n"
@@ -84,11 +84,9 @@ MERLIN_TITLE_CLEAN = [
     (re.compile(r"\s+with Q&A$", re.IGNORECASE), ""),
     (re.compile(r"\s+with Q and A$", re.IGNORECASE), ""),
     (re.compile(r"\s*[-–]\s*with Q&A$", re.IGNORECASE), ""),
-    (re.compile(r"\s*[-–]\s*Silver Screen$", re.IGNORECASE), ""),
     (re.compile(r"\s+Silver Screen$", re.IGNORECASE), ""),
     (re.compile(r"\s*[-–]\s*Super Saver$", re.IGNORECASE), ""),
     (re.compile(r"\s+Super Saver$", re.IGNORECASE), ""),
-    (re.compile(r"\s*[-–]\s*Autism Friendly$", re.IGNORECASE), ""),
     (re.compile(r"^NT Live:\s*", re.IGNORECASE), ""),
     (re.compile(r"^RBO \d{4}-\d{2}:\s*", re.IGNORECASE), ""),
 ]
@@ -161,10 +159,10 @@ MERLIN_SKIP_TMDB = [
     "moments & movies", "cinema craft night", "baga chipz",
     "tom meighan", "revive 45", "swing into summer", "albi & the wolves",
     "met opera", "ritz on screen:",
-    "the hollies story", "ritz penzance", "movie magic card",
+    "the hollies story",
     "michael: starring", "dom joly", "penzance comedy", "penzance musical",
-    "marcus brigstocke", "russell kane", "mark steel", "biglove presents",
-    "forbidden nights", "a night to remember motown", "the abba reunion",
+    "mark steel", "biglove presents",
+    "a night to remember motown", "the abba reunion",
     "oh what a night at the",
     "a night to remember", "the cavern club", "the fm songbook",
     "frozen presented by", "we will rock you presented by",
@@ -183,49 +181,49 @@ CINEMAS: Dict[str, dict] = {
         "enabled": True, "name": "Capitol Cinema", "location": "Bodmin",
         "subdomain": "bodmin",
         "url": "https://bodmin.merlincinemas.co.uk/coming-soon",
-        "whats_on_url": "https://bodmin.merlincinemas.co.uk/film/power-ballad",
+        "whats_on_url": "https://bodmin.merlincinemas.co.uk/whats-on",
         "booking_domain": "merlinbodmin",
     },
     "helston": {
         "enabled": True, "name": "Flora Cinema", "location": "Helston",
         "subdomain": "helston",
         "url": "https://helston.merlincinemas.co.uk/coming-soon",
-        "whats_on_url": "https://helston.merlincinemas.co.uk/film/power-ballad",
+        "whats_on_url": "https://helston.merlincinemas.co.uk/whats-on",
         "booking_domain": "merlinhelston",
     },
     "falmouth": {
         "enabled": True, "name": "Phoenix Cinema", "location": "Falmouth",
         "subdomain": "falmouth",
         "url": "https://falmouth.merlincinemas.co.uk/coming-soon",
-        "whats_on_url": "https://falmouth.merlincinemas.co.uk/film/power-ballad",
+        "whats_on_url": "https://falmouth.merlincinemas.co.uk/whats-on",
         "booking_domain": "merlinfalmouth",
     },
     "redruth": {
         "enabled": True, "name": "Regal Cinema & Theatre", "location": "Redruth",
         "subdomain": "redruth",
         "url": "https://redruth.merlincinemas.co.uk/coming-soon",
-        "whats_on_url": "https://redruth.merlincinemas.co.uk/film/power-ballad",
+        "whats_on_url": "https://redruth.merlincinemas.co.uk/whats-on",
         "booking_domain": "merlinredruth",
     },
     "st-ives": {
         "enabled": True, "name": "Royal Cinema", "location": "St Ives",
         "subdomain": "st-ives",
         "url": "https://st-ives.merlincinemas.co.uk/coming-soon",
-        "whats_on_url": "https://st-ives.merlincinemas.co.uk/film/power-ballad",
+        "whats_on_url": "https://st-ives.merlincinemas.co.uk/whats-on",
         "booking_domain": "merlinstives",
     },
     "penzance-savoy": {
         "enabled": True, "name": "Savoy Cinema", "location": "Penzance",
         "subdomain": "penzance",
         "url": "https://penzance.merlincinemas.co.uk/coming-soon",
-        "whats_on_url": "https://penzance.merlincinemas.co.uk/film/power-ballad",
+        "whats_on_url": "https://penzance.merlincinemas.co.uk/whats-on",
         "booking_domain": "merlinpenzance",
     },
     "penzance-ritz": {
         "enabled": True, "name": "The Ritz", "location": "Penzance",
         "subdomain": "ritz",
         "url": "https://ritz.merlincinemas.co.uk/coming-soon",
-        "whats_on_url": "https://ritz.merlincinemas.co.uk/film/power-ballad",
+        "whats_on_url": "https://ritz.merlincinemas.co.uk/whats-on",
         "booking_domain": "merlinpenzance",
     },
 }
@@ -313,6 +311,10 @@ logger = logging.getLogger(__name__)
 err_handler = logging.FileHandler("cinema_log.txt")
 err_handler.setLevel(logging.WARNING)
 logger.addHandler(err_handler)
+import atexit as _atexit
+@_atexit.register
+def _close_log_handler():
+    err_handler.close()
 
 try:
     UK_TZ = ZoneInfo(CALENDAR_TIMEZONE)
@@ -409,8 +411,10 @@ def _load_json_cache(path: str, ttl_days: int, label: str = "") -> Dict[str, dic
 
 def _save_json_cache(path: str, cache: Dict[str, dict], label: str = "") -> None:
     try:
-        with open(path, "w", encoding="utf-8") as f:
+        tmp = path + ".tmp"
+        with open(tmp, "w", encoding="utf-8") as f:
             json.dump(cache, f, indent=2, ensure_ascii=False)
+        os.replace(tmp, path)
         logger.info("Saved %s: %d entries", label, len(cache))
     except OSError as e:
         logger.warning("%s save failed: %s", label, e)
@@ -1174,8 +1178,50 @@ def make_ics_event(
     if NOTIFICATIONS.get("enabled") and NOTIFICATIONS.get("alarms"):
         for alarm in NOTIFICATIONS["alarms"]:
             lines.append(_make_alarm(alarm, release_date).rstrip(ICAL_NEWLINE))
-    lines.extend(["END:VEVENT", ""])
-    return ICAL_NEWLINE.join(lines)
+    sequence = _get_ics_sequence(film_title, cinema_name, release_date, film_url)
+    lines.append(f"SEQUENCE:{sequence}")
+    lines.append("END:VEVENT")
+    return ICAL_NEWLINE.join(lines) + ICAL_NEWLINE
+
+
+# ── Dynamic SEQUENCE management (#3) ──────────────────────────────────────────
+_SEQ_STATE_FILE = ".ics_sequence.json"
+_seq_state_cache: Optional[Dict[str, dict]] = None
+
+
+def _load_sequence_state() -> Dict[str, dict]:
+    global _seq_state_cache
+    if _seq_state_cache is not None:
+        return _seq_state_cache
+    if os.path.exists(_SEQ_STATE_FILE):
+        try:
+            with open(_SEQ_STATE_FILE, "r") as f:
+                _seq_state_cache = json.load(f)
+            return _seq_state_cache
+        except (json.JSONDecodeError, OSError):
+            pass
+    _seq_state_cache = {}
+    return _seq_state_cache
+
+
+def _save_sequence_state() -> None:
+    if _seq_state_cache is not None:
+        Path(_SEQ_STATE_FILE).parent.mkdir(parents=True, exist_ok=True)
+        with open(_SEQ_STATE_FILE, "w") as f:
+            json.dump(_seq_state_cache, f, indent=2)
+
+
+def _get_ics_sequence(title: str, cinema: str, release_date: date, url: str = "") -> int:
+    fp = hashlib.sha256(f"{title}|{cinema}|{release_date}|{url}".encode()).hexdigest()[:16]
+    state = _load_sequence_state()
+    key = f"{title}|{cinema}"
+    prev = state.get(key)
+    if prev and prev.get("fp") == fp:
+        return prev.get("seq", 0)
+    seq = (prev.get("seq", 0) + 1) if prev else 0
+    state[key] = {"fp": fp, "seq": seq}
+    _seq_state_cache = state
+    return seq
 
 
 # ── Shared base CSS ─────────────────────────────────────────────────────────────
@@ -1453,6 +1499,8 @@ def build_index_html(
         filter_html += f'        <button type="button" data-cinema="{cid}">{info["location"]}</button>\n'
 
     # ── Film card builder ────────────────────────────────────────────────────
+    _loc_to_id = {v["location"]: k for k, v in enabled_cinemas.items()}
+    _loc_to_subdomain = {v["location"]: v["subdomain"] for k, v in enabled_cinemas.items()}
     def _film_card(f: Dict[str, Any]) -> str:
         d = f["details"]
         display_title = _preferred_display_title(f["title"], d)
@@ -1465,10 +1513,6 @@ def build_index_html(
         slug = f["slug"]
         cinemas_dict = f.get("cinemas", {})  # cname -> (furl, rd)
         cinema_names = sorted(cinemas_dict.keys())
-        # Map cinema display names to the IDs used in filter buttons
-        _name_to_id = {v["name"]: k for k, v in enabled_cinemas.items()}
-        _loc_to_id = {v["location"]: k for k, v in enabled_cinemas.items()}
-        _loc_to_subdomain = {v["location"]: v["subdomain"] for k, v in enabled_cinemas.items()}
         cinema_slugs = [_loc_to_id.get(cn, cn.lower().replace(" ", "-")) for cn in cinema_names]
         cinemas_data = ",".join(cinema_slugs)
 
@@ -2764,7 +2808,8 @@ def main() -> None:
                 except Exception:
                     extra = {}
                 if extra:
-                    tmdb_cache.setdefault(k, {}).update({**extra, "cached_at": _utc_iso_now()})
+                    with _tmdb_cache_lock:
+                        tmdb_cache.setdefault(k, {}).update({**extra, "cached_at": _utc_iso_now()})
     sess.close()
     save_tmdb_cache(tmdb_cache)
     logger.info("TMDb enrichment done: %d coming-soon + %d whats-on unique films",
@@ -2774,6 +2819,12 @@ def main() -> None:
         print("\nWarning: No films found across any cinema")
         sys.exit(1)
 
+    # ── Health check (run before fingerprint so broken scrapes are always caught) ─
+    if not _health_check(all_films, enabled_cinemas):
+        logger.error("Health check failed - exiting before generating output")
+        print("Error: Health check failed. Check cinema_log.txt for details.")
+        sys.exit(1)
+
     # ── Fingerprint check ────────────────────────────────────────────────────
     fp = _compute_fingerprint(all_films)
     prev_fp = _load_fingerprint()
@@ -2781,12 +2832,6 @@ def main() -> None:
         elapsed = (_utc_now() - start_time).total_seconds()
         print(f"\nFingerprint unchanged - nothing new. ({elapsed:.1f}s)")
         return
-
-    # ── Health check ─────────────────────────────────────────────────────────
-    if not _health_check(all_films, enabled_cinemas):
-        logger.error("Health check failed - exiting before generating output")
-        print("Error: Health check failed. Check cinema_log.txt for details.")
-        sys.exit(1)
 
     # Sort by date then cinema
     all_films.sort(key=lambda x: (x[0], x[2]))
@@ -2828,6 +2873,8 @@ def main() -> None:
         ics = ICAL_NEWLINE.join(header) + ICAL_NEWLINE + "".join(events) + f"END:VCALENDAR{ICAL_NEWLINE}"
         (out_dir / f"merlin-{cid}.ics").write_text(ics, encoding="utf-8")
         logger.info("Wrote %s (%d events)", f"merlin-{cid}.ics", len(events))
+
+    _save_sequence_state()
 
     # ── Release stats ─────────────────────────────────────────────────────
     today = date.today()
