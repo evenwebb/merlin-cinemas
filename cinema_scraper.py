@@ -28,6 +28,15 @@ warnings.filterwarnings("ignore", message=".*OpenSSL.*", category=UserWarning)
 import requests
 from bs4 import BeautifulSoup
 
+from html_templates import (
+    _SHARED_CSS, CSS, FILM_CSS,
+    _esc, _format_runtime_display, _stars_from_rating,
+    build_index_html, build_cinema_page, build_film_page,
+    _cert_span, _youtube_embed_url, _extract_bbfc,
+    _cert_class_name, _preferred_display_title,
+    write_style_css,
+)
+
 # ── Constants ──────────────────────────────────────────────────────────────────
 HTTP_TIMEOUT = 60
 HTTP_RETRIES = 3
@@ -1223,16 +1232,6 @@ def _get_ics_sequence(title: str, cinema: str, release_date: date, url: str = ""
     _seq_state_cache = state
     return seq
 
-
-# ── HTML templates and CSS ─────────────────────────────────────────────────────
-from html_templates import (
-    _SHARED_CSS, CSS, FILM_CSS,
-    _esc, _format_runtime_display, _stars_from_rating,
-    build_index_html, build_cinema_page, build_film_page,
-    _cert_span, _youtube_embed_url, _extract_bbfc,
-    _cert_class_name, _preferred_display_title,
-    write_style_css,
-)
 
 def validate_configuration() -> None:
     if NOTIFICATIONS.get("enabled") and NOTIFICATIONS.get("alarms"):
