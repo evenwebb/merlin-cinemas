@@ -120,12 +120,6 @@ def _clean_display_title(title: str) -> str:
     return cleaned
 
 
-def _preferred_display_title(raw_title: str, details: Optional[Dict[str, Any]] = None) -> str:
-    """Prefer canonical TMDb title when available, otherwise tidy the scraped title."""
-    canonical = ""
-    if details:
-        canonical = str(details.get("title") or "").strip()
-    return _clean_display_title(canonical or raw_title)
 
 
 def extract_screening_label(title: str):
@@ -399,8 +393,6 @@ def _site_timestamp(dt: Optional[datetime] = None) -> str:
     return current.astimezone(UK_TZ).strftime("%Y-%m-%d %H:%M %Z")
 
 
-def _cert_class_name(rating: str) -> str:
-    return rating.strip().lower()
 
 
 def _load_json_cache(path: str, ttl_days: int, label: str = "") -> Dict[str, dict]:
@@ -693,11 +685,56 @@ def scrape_cinema_whats_on(
     today_scrape = date.today()
 
     icon_map = {
-        "access": ("WA", "Wheelchair Access"), "licensed": ("LIC", "Licensed venue"),
-        "subtitled": ("CC", "Subtitled"), "saver": ("SAV", "Super Saver"),
-        "mm": ("MM", "Mini Movie Deal"), "minimer": ("MM", "Mini Movie Deal"),
-        "audio": ("AD", "Audio Description"), "autism": ("AF", "Autism Friendly"),
+        "access": ("wheelchair access", "WA", "Wheelchair Access"), "licensed": ("licensed", "LIC", "Licensed venue"),
+        "subtitled": ("subtitles", "CC", "Subtitles"), "saver": ("saver", "SAV", "Super Saver"),
+        "mm": ("mini movie deal", "MM", "Mini Movie Deal"), "minimer": ("mini movie deal", "MM", "Mini Movie Deal"),
+        "audio": ("audio description", "AD", "Audio Description"), "autism": ("autism friendly", "AF", "Autism Friendly"),
+        "fls": ("fls", "FLS", "FLS"), "event_cinema": ("event cinema", "EV", "Event Cinema"),
+        "advanced_screening": ("advanced screening", "AS", "Advanced Screening"), "baby": ("parent & baby", "PB", "Parent & Baby"),
     }
+
+    # Detect Event Cinema cards
+    for ec_card in soup.select(".filmCard.event_cinema, .filmCard[class*='event']"):
+        data_film = ec_card.get("data-film", "")
+        if not data_film:
+            continue
+        parts = data_film.split("-", 1)
+        film_slug = parts[1] if len(parts) > 1 else data_film
+        if film_slug in films:
+            films[film_slug]["categories"] = films[film_slug].get("categories", []) + ["Event Cinema"]
+
+    # Detect Booking Soon films (cards with no showtime listings)
+    for bs_card in soup.select(".filmCard"):
+        data_film = bs_card.get("data-film", "")
+        if not data_film:
+            continue
+        # Check for "booking soon" text anywhere in the card
+        card_text = bs_card.get_text(" ", strip=True).lower()
+        if "booking soon" in card_text or "coming soon" in card_text:
+            parts = data_film.split("-", 1)
+            film_slug = parts[1] if len(parts) > 1 else data_film
+            if film_slug not in films:
+                h2 = bs_card.find("h2")
+                title = TITLE_CLEAN_RE.sub("", h2.get_text(strip=True)) if h2 else "Unknown"
+                films[film_slug] = {
+                    "title": title, "film_url": f"/film/{film_slug}",
+                    "cinema_id": cinema_id, "cinema_name": cinema_name,
+                    "poster_url": "", "screening": "", "bbfc": "",
+                    "showtimes": [], "booking_soon": True,
+                }
+
+    # Detect SOLD OUT showtimes
+    sold_out_count = 0
+    for a_tag in soup.select("a.sold_out, a[class*='sold'], .btn--sold, a[href*='admit-one']:has(.sold_out)"):
+        sold_out_count += 1
+    # Also check buttons/links with sold-out text
+    for a_tag in soup.find_all("a", href=True):
+        text = a_tag.get_text(strip=True).lower()
+        href = a_tag.get("href", "")
+        if ("sold out" in text or "sold-out" in text) and "admit-one" in href:
+            sold_out_count += 1
+    if sold_out_count > 0:
+        logger.info("  %s has %d SOLD OUT screening(s)", cinema_name, sold_out_count)
 
     frames = soup.select(".films_on_day [data-frame]")
     if not frames:
@@ -748,6 +785,8 @@ def scrape_cinema_whats_on(
                     "screening": clean_screening,
                     "bbfc": cert_rating,
                     "showtimes": [],
+                    "categories": [],
+                    "booking_soon": False,
                 }
 
             listings = card.select_one(".listings")
@@ -765,21 +804,29 @@ def scrape_cinema_whats_on(
                     href = a_tag.get("href", "")
                     if "admit-one" not in href and "ticket" not in href.lower():
                         continue
-                    time_m = re.search(r"(\d{1,2}:\d{2})", a_tag.get_text(strip=True))
-                    if not time_m:
+                    link_text = a_tag.get_text(strip=True)
+                    time_m = re.search(r"(\d{1,2}:\d{2})", link_text)
+                    is_sold_out = "sold out" in link_text.lower() or "sold-out" in link_text.lower()
+                    sold_out_class = a_tag.get("class", [])
+                    if isinstance(sold_out_class, str):
+                        sold_out_class = [sold_out_class]
+                    is_sold_out = is_sold_out or any("sold" in c.lower() for c in sold_out_class)
+                    if not time_m and not is_sold_out:
                         continue
-                    time_str = time_m.group(1)
+                    time_str = time_m.group(1) if time_m else ""
 
                     tags = []
                     for icon in a_tag.select("img[data-key]"):
                         key = icon.get("data-key", "")
                         if key in icon_map:
                             tags.append(icon_map[key][0])
+                    if is_sold_out:
+                        tags.append("SOLD")
 
                     films[film_slug]["showtimes"].append({
                         "date": parsed_date, "time": time_str, "screen": 1,
-                        "booking_url": href, "tags": tags,
-                        "cinema_name": cinema_name,
+                        "booking_url": href if not is_sold_out else "", "tags": tags,
+                        "cinema_name": cinema_name, "sold_out": is_sold_out,
                     })
 
     # Deduplicate and sort

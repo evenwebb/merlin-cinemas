@@ -28,6 +28,54 @@ ICAL_NEWLINE = "\r\n"
 MERLIN_BASE_URL = "https://www.merlincinemas.co.uk"
 
 
+def _format_runtime_display(runtime_str: str) -> str:
+    """'119 min' -> '2h 1min'; '45 min' -> '45 min'; skip known placeholders."""
+    if not runtime_str or not isinstance(runtime_str, str):
+        return ""
+    m = re.search(r"(\d+)", runtime_str)
+    if not m:
+        return runtime_str.strip()
+    minutes = int(m.group(1))
+    if minutes <= 1:
+        return ""
+    if minutes >= 60:
+        h, mins = divmod(minutes, 60)
+        return f"{h}h {mins}min" if mins else f"{h}h"
+    return f"{minutes} min"
+
+
+def _stars_from_rating(vote_average: Any) -> str:
+    """Convert 0–10 TMDb rating to 5-star unicode string."""
+    if vote_average is None:
+        return ""
+    try:
+        v = float(vote_average)
+    except (TypeError, ValueError):
+        return ""
+    if v <= 0 or v > 10:
+        return ""
+    stars = round(v / 2)
+    return "★" * stars + "☆" * (5 - stars)
+
+
+def _clean_display_title(title: str) -> str:
+    """Normalise display titles and trim dangling separators."""
+    cleaned = re.sub(r"\s+", " ", str(title or "")).strip()
+    cleaned = re.sub(r"^([^&]{2,40}?)\s*&\s*\1\b", r"\1", cleaned, flags=re.IGNORECASE)
+    cleaned = re.sub(r"\s*[-–:|/]+\s*$", "", cleaned).strip()
+    return cleaned
+
+
+def _preferred_display_title(raw_title: str, details: Optional[Dict[str, Any]] = None) -> str:
+    """Prefer canonical TMDb title when available, otherwise tidy the scraped title."""
+    canonical = str(details.get("title") or "").strip() if details else ""
+    return _clean_display_title(canonical or raw_title)
+
+
+def _cert_class_name(rating: str) -> str:
+    return rating.strip().lower()
+
+
 def format_london_timestamp(dt=None):
     dt = dt or datetime.now(LONDON_TZ)
     return dt.astimezone(LONDON_TZ).strftime("%Y-%m-%d %H:%M %Z")
@@ -1226,18 +1274,33 @@ def build_film_page(
                 "kids club": ("KC", "Kids Club"),
                 "silver screen": ("SS", "Silver Screen"),
                 "event cinema": ("EV", "Event Cinema"),
+                "licensed": ("LIC", "Licensed venue"),
+                "saver": ("SAV", "Super Saver"),
+                "mini movie deal": ("MM", "Mini Movie Deal"),
+                "advanced screening": ("AS", "Advanced Screening"),
+                "fls": ("FLS", "FLS"),
             }
             tag_badges = ""
+            is_sold = st.get("sold_out") or "SOLD" in stags
             for t in stags:
+                if t == "SOLD":
+                    continue
                 tl = t.lower()
                 if tl in tag_map:
                     abbr, title = tag_map[tl]
                     tag_badges += f'<span class="tag-badge" title="{_esc(title)}">{abbr}</span> '
+            if is_sold:
+                tag_badges += '<span class="tag-badge sold-out-badge" title="Sold Out">SOLD</span> '
+            book_cell = ""
+            if is_sold:
+                book_cell = '<span class="sold-out-text">Sold Out</span>'
+            elif booking_url:
+                book_cell = f'<a href="{_esc(booking_url)}" class="table-book-btn" target="_blank" rel="noopener">Book &rarr;</a>'
             table_rows.append(
                 f'<tr data-film-cinema="{_esc(cinema_slug)}"><td class="date-cell">{rd_str}</td>'
                 f'<td class="time-cell">{_esc(time_str)}</td>'
                 f'<td class="cinema-cell">{_esc(cinema_label)}{screen_tag}{tag_badges}</td>'
-                f'<td class="book-cell">{f"<a href=\"{_esc(booking_url)}\" class=\"table-book-btn\" target=\"_blank\" rel=\"noopener\">Book →</a>" if booking_url else ""}</td></tr>'
+                f'<td class="book-cell">{book_cell}</td></tr>'
             )
     else:
         # Fall back to coming-soon release dates
@@ -1329,6 +1392,10 @@ def build_film_page(
             '      <dt><span class="tag-badge" style="color:#fbbf24;background:rgba(251,191,36,0.12)">KC</span></dt><dd>Kids Club</dd>\n'
             '      <dt><span class="tag-badge" style="color:#94a3b8;background:rgba(148,163,184,0.12)">SS</span></dt><dd>Silver Screen (over 60s)</dd>\n'
             '      <dt><span class="tag-badge" style="color:#f87171;background:rgba(248,113,113,0.12)">EV</span></dt><dd>Event Cinema</dd>\n'
+            '      <dt><span class="tag-badge" style="color:#22c55e;background:rgba(34,197,94,0.12)">SAV</span></dt><dd>Super Saver &pound;5</dd>\n'
+            '      <dt><span class="tag-badge" style="color:#a78bfa;background:rgba(167,139,250,0.12)">MM</span></dt><dd>Mini Movie Deal</dd>\n'
+            '      <dt><span class="tag-badge" style="color:#f97316;background:rgba(249,115,22,0.12)">AS</span></dt><dd>Advanced Screening</dd>\n'
+            '      <dt><span class="tag-badge" style="color:#e11d48;background:rgba(225,29,72,0.12)">SOLD</span></dt><dd>Sold Out</dd>\n'
             '    </dl>\n'
             '  </div>\n'
             '</div>\n'
