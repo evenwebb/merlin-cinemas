@@ -7,7 +7,6 @@ iCalendar feeds plus an index page for GitHub Pages.
 from __future__ import annotations
 
 import hashlib
-import html as html_mod
 import json
 import logging
 import os
@@ -22,6 +21,7 @@ from itertools import groupby
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
 from zoneinfo import ZoneInfo, ZoneInfoNotFoundError
+import atexit as _atexit
 
 warnings.filterwarnings("ignore", message=".*OpenSSL.*", category=UserWarning)
 
@@ -51,7 +51,6 @@ ICAL_LINE_LENGTH = 75
 ICAL_NEWLINE = "\r\n"
 CALENDAR_TIMEZONE = os.getenv("CALENDAR_TIMEZONE", "Europe/London")
 OUTPUT_DIR = "docs"
-MERLIN_BASE_URL = "https://www.merlincinemas.co.uk"
 RELEASE_HISTORY_PATH = ".release_history.json"
 RELEASE_HISTORY_MAX_DAYS = 730
 CACHE_FILE = ".film_cache.json"
@@ -320,7 +319,6 @@ logger = logging.getLogger(__name__)
 err_handler = logging.FileHandler("cinema_log.txt")
 err_handler.setLevel(logging.WARNING)
 logger.addHandler(err_handler)
-import atexit as _atexit
 @_atexit.register
 def _close_log_handler():
     err_handler.close()
