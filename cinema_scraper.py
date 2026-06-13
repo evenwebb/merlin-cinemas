@@ -34,6 +34,8 @@ from html_templates import (
     build_index_html, build_cinema_page, build_film_page,
     _cert_span, _youtube_embed_url, _extract_bbfc,
     _cert_class_name, _preferred_display_title,
+    _compute_fingerprint, _load_fingerprint, _save_fingerprint,
+    _download_cert_images, _download_rating_logos, _health_check,
     write_style_css,
 )
 
