@@ -53,6 +53,9 @@ TMDB_API_KEY=your_key_here python3 cinema_scraper.py
 
 ## Features
 
+- **Dark mode** with automatic OS preference detection and themed favicon
+- **Modular architecture**:  and  with 
+
 ### Scraping
 | Area | Details |
 |---|---|
