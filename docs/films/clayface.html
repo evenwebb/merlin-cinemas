@@ -16,33 +16,28 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="../style.css">
 </head>
 <body>
   <div class="bg-mesh" aria-hidden="true"></div>
-<div class="backdrop-wrap">
-  <img src="https://image.tmdb.org/t/p/w780/1A7s8zG4PF6YoJrncrTO6N4r0Sx.jpg" alt="" class="backdrop-img" loading="lazy" decoding="async">
-</div>
+<div class="film-backdrop"><img src="https://image.tmdb.org/t/p/w780/1A7s8zG4PF6YoJrncrTO6N4r0Sx.jpg" alt="" class="backdrop-bg" loading="lazy" decoding="async"></div>
+<div class="film-backdrop-overlay"></div>
+  <a href="../" class="back-btn">← Back to all premieres</a>
   <div class="page">
-    <a href="../" class="back-btn">← Back to all premieres</a>
     <div class="film-layout">
-      <div class="poster"><img src="../posters/clayface.jpg" alt="Poster for Clayface" loading="lazy"></div>
-      <div class="film-info">
-        <h1>Clayface <span class="cert cert--15" aria-label="Rated 15" title="Rated 15"></span></h1>
-        <div class="meta"><span class="cert cert--15" title="15"></span><span class="genres">Horror, Science Fiction, Thriller</span></div>
-        <div class="synopsis">Follow the terrifying descent into hell of a promising Hollywood actor who has become a monster driven by revenge, exploring the loss of identity and humanity, the ravages of toxic love and the dark side of scientific ambition.</div>
-        <div class="links">
-          <a href="https://www.imdb.com/title/tt34890576/" class="ext-link ext-link--imdb" target="_blank" rel="noopener"><span class="ext-link-logo ext-link-logo--imdb" aria-hidden="true"></span><span>IMDb</span></a>
-          <a href="https://www.rottentomatoes.com/search?search=Clayface" class="ext-link ext-link--rottentomatoes" target="_blank" rel="noopener"><span class="ext-link-logo ext-link-logo--rottentomatoes" aria-hidden="true"></span><span>Rotten Tomatoes</span></a>
-          <a href="https://trakt.tv/search?query=Clayface" class="ext-link ext-link--trakt" target="_blank" rel="noopener"><span class="ext-link-logo ext-link-logo--trakt" aria-hidden="true"></span><span>Trakt</span></a>
-        </div>
-    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Movie", "name": "Clayface", "description": "Follow the terrifying descent into hell of a promising Hollywood actor who has become a monster driven by revenge, exploring the loss of identity and humanity, the ravages of toxic love and the dark side of scientific ambition.", "image": "posters/clayface.jpg", "director": {"@type": "Person", "name": "James Watkins"}, "genre": ["Horror", "Science Fiction", "Thriller"]}</script>
-        <div class="crew">
+      <div class="film-poster"><img src="../posters/clayface.jpg" alt="Clayface" loading="lazy"></div>
+      <div class="film-details">
+  <h1>Clayface <span class="cert cert--15" aria-label="Rated 15" title="Rated 15"></span></h1>
+  <div class="meta"><span class="cert cert--15" title="15"></span><span class="genres">Horror, Science Fiction, Thriller</span></div>
+  <div class="action-row"><a href="https://calendar.google.com/calendar/render?action=TEMPLATE&amp;text=Clayface&amp;dates=20261023/20261023&amp;location=Merlin%20Cinemas%20Bodmin" class="act-btn act-cal" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Calendar</a><div class="action-right"><a href="https://www.imdb.com/title/tt34890576/" class="act-btn act-imdb" target="_blank" rel="noopener">IMDb</a><a href="https://www.rottentomatoes.com/search?search=Clayface" class="act-btn act-rt" target="_blank" rel="noopener">Rotten Tomatoes</a><a href="https://trakt.tv/search?query=Clayface" class="act-btn act-trakt" target="_blank" rel="noopener">Trakt</a></div></div>
+  <div class="synopsis">Follow the terrifying descent into hell of a promising Hollywood actor who has become a monster driven by revenge, exploring the loss of identity and humanity, the ravages of toxic love and the dark side of scientific ambition.</div>
+          <div class="crew">
           <p><strong>Director:</strong> James Watkins</p>
           <p><strong>Starring:</strong> Tom Rhys Harries, Naomi Ackie, Eddie Marsan, Max Minghella, David Dencik, Francesca Corney</p>
         </div>
+</div>
     </div>
-  </div>
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Movie", "name": "Clayface", "description": "Follow the terrifying descent into hell of a promising Hollywood actor who has become a monster driven by revenge, exploring the loss of identity and humanity, the ravages of toxic love and the dark side of scientific ambition.", "image": "posters/clayface.jpg", "director": {"@type": "Person", "name": "James Watkins"}, "genre": ["Horror", "Science Fiction", "Thriller"]}</script>
     <div class="trailer-section">
       <h2>Trailer</h2>
       <div class="trailer-wrap"><iframe src="https://www.youtube-nocookie.com/embed/OGO4Mqvo3jI" title="Trailer for Clayface" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
@@ -64,7 +59,6 @@
         </table>
       </div>
     </div>
-    <div style="text-align:center;margin:1.5rem 0"><a href="https://calendar.google.com/calendar/render?action=TEMPLATE&amp;text=Clayface&amp;dates=20261023/20261023&amp;location=Merlin%20Cinemas%20Bodmin" class="cta-btn google-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Calendar</a></div>
     <footer>
       <p>An open source fan-made project. Not affiliated with Merlin Cinemas.</p>
       <div style="margin-top:0.75rem">
@@ -72,7 +66,7 @@
         <span aria-hidden="true"> · </span>
         <a href="../">All premieres</a>
       </div>
-      <p class="footer-updated">Last updated: 2026-07-31 16:22 BST</p>
+      <p class="footer-updated">Last updated: 2026-07-31 23:06 BST</p>
     </footer>
   </div>
 </body>

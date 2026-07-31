@@ -1073,48 +1073,48 @@ def _rating_link(url: str, service: str) -> str:
 
 
 FILM_CSS = _SHARED_CSS + """
-body{position:relative}
-.page{position:relative;z-index:1;max-width:860px;margin:0 auto;padding:1.5rem 1rem 4rem}
+body{position:relative;background:var(--bg)}
+/* Backdrop — full-width, edge-to-edge at top */
+.film-backdrop{position:absolute;top:0;left:0;width:100%;height:420px;overflow:hidden;z-index:0}
+.film-backdrop .backdrop-bg{width:100%;height:100%;object-fit:cover;opacity:0.35}
+.film-backdrop-overlay{position:absolute;inset:0;background:linear-gradient(180deg,transparent 40%,var(--bg) 95%)}
+.page{position:relative;z-index:1;max-width:960px;margin:0 auto;padding:2rem 1rem 4rem}
 @media(min-width:640px){.page{padding:2.5rem 2rem 5rem}}
-.back-btn{display:inline-flex;align-items:center;gap:0.4rem;padding:0.5rem 1.1rem;background:var(--surface);border:1px solid var(--border);border-radius:100px;color:var(--text-muted);text-decoration:none;font-weight:500;font-size:0.85rem;margin-bottom:2rem;transition:all var(--transition)}
-.back-btn:hover{color:var(--accent);border-color:var(--accent);background:var(--accent-dim)}
-.film-layout{display:grid;grid-template-columns:1fr;gap:2rem;margin-bottom:2.5rem;position:relative;padding-top:42px}@media(min-width:600px){body{padding-top:48px}}
-@media(min-width:680px){.film-layout{grid-template-columns:280px 1fr;align-items:start}}
-.poster{width:100%;max-width:280px;margin:0 auto;position:relative;z-index:1}
-@media(min-width:680px){.poster{margin:0}}
-.poster img{width:100%;height:auto;border-radius:14px;box-shadow:0 8px 35px rgba(0,0,0,0.5);display:block}
-.poster .no-poster{width:100%;aspect-ratio:2/3;background:var(--surface);border-radius:14px;display:flex;align-items:center;justify-content:center;color:var(--text-muted);font-size:0.85rem;text-align:center;padding:2rem;border:1px dashed var(--border)}
-.film-info{position:relative;z-index:1}
-.film-info h1{font-size:clamp(1.5rem,4vw,2rem);font-weight:800;letter-spacing:-0.03em;line-height:1.15;margin-bottom:0.6rem;background:linear-gradient(135deg,var(--cyan),var(--purple));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
-.film-info .meta{display:flex;flex-wrap:wrap;align-items:center;gap:0.4rem 0.9rem;margin-bottom:1.25rem;font-size:0.88rem;color:var(--text-muted)}
-.film-info .stars{color:var(--amber);letter-spacing:0.05em;font-size:0.9rem}
-.film-info .genres{color:var(--purple);font-weight:500}
-.film-info .rating-pill{background:var(--accent-dim);color:var(--accent);padding:0.2rem 0.65rem;border-radius:100px;font-weight:600;font-size:0.82rem}
-.film-info .synopsis{font-size:0.95rem;line-height:1.75;color:var(--text-muted);margin-bottom:1.25rem;padding:1.25rem;background:var(--surface);border-radius:12px;border:1px solid var(--border)}
-.screening-info{background:linear-gradient(135deg,rgba(34,211,238,0.08),rgba(192,132,252,0.06));border:1px solid rgba(34,211,238,0.2);border-radius:12px;padding:1rem 1.25rem;margin-bottom:1.25rem}
-.screening-info-label{display:inline-block;font-size:0.7rem;font-weight:700;text-transform:uppercase;letter-spacing:0.1em;color:var(--accent);background:var(--accent-dim);padding:0.25rem 0.65rem;border-radius:100px;margin-bottom:0.6rem}
-.screening-info p{font-size:0.88rem;color:var(--text);margin:0;line-height:1.6}
-.film-info .crew{margin-bottom:1rem}
-.film-info .crew p{font-size:0.88rem;color:var(--text-muted);padding:0.55rem 0;border-bottom:1px solid var(--border)}
-.film-info .crew p:last-child{border-bottom:none}
-.film-info .crew strong{color:var(--text);margin-right:0.5rem;font-weight:600}
-.links{display:flex;flex-wrap:wrap;gap:0.6rem;margin-bottom:1.5rem}
-.ext-link{display:inline-flex;align-items:center;gap:0.55rem;padding:0.45rem 0.85rem;background:var(--surface);border:1px solid var(--border);border-radius:100px;color:var(--text-muted);text-decoration:none;font-size:0.82rem;font-weight:500;transition:all var(--transition)}
-.ext-link:hover{transform:translateY(-1px);box-shadow:0 4px 15px rgba(0,0,0,0.18)}
-.ext-link::before{content:"";width:1rem;height:1rem;display:inline-block;flex-shrink:0;background:currentColor;mask-position:center;mask-repeat:no-repeat;mask-size:contain;-webkit-mask-position:center;-webkit-mask-repeat:no-repeat;-webkit-mask-size:contain}
-.ext-link-logo{width:1rem;height:1rem;display:inline-block;flex-shrink:0;background:currentColor;mask-position:center;mask-repeat:no-repeat;mask-size:contain;-webkit-mask-position:center;-webkit-mask-repeat:no-repeat;-webkit-mask-size:contain}
-.ext-link--imdb,.ext-link[href*="imdb.com"]{color:#f5c518;background:rgba(245,197,24,0.1);border-color:rgba(245,197,24,0.24)}
-.ext-link--imdb:hover,.ext-link[href*="imdb.com"]:hover{background:rgba(245,197,24,0.16);border-color:#f5c518}
-.ext-link[href*="imdb.com"]::before{mask-image:url(../ratings/imdb.svg);-webkit-mask-image:url(../ratings/imdb.svg)}
-.ext-link-logo--imdb{mask-image:url(../ratings/imdb.svg);-webkit-mask-image:url(../ratings/imdb.svg)}
-.ext-link--rottentomatoes,.ext-link[href*="rottentomatoes.com"]{color:#fa320a;background:rgba(250,50,10,0.1);border-color:rgba(250,50,10,0.24)}
-.ext-link--rottentomatoes:hover,.ext-link[href*="rottentomatoes.com"]:hover{background:rgba(250,50,10,0.16);border-color:#fa320a}
-.ext-link[href*="rottentomatoes.com"]::before{mask-image:url(../ratings/rottentomatoes.svg);-webkit-mask-image:url(../ratings/rottentomatoes.svg)}
-.ext-link-logo--rottentomatoes{mask-image:url(../ratings/rottentomatoes.svg);-webkit-mask-image:url(../ratings/rottentomatoes.svg)}
-.ext-link--trakt,.ext-link[href*="trakt.tv"]{color:#ed1c24;background:rgba(237,28,36,0.1);border-color:rgba(237,28,36,0.24)}
-.ext-link--trakt:hover,.ext-link[href*="trakt.tv"]:hover{background:rgba(237,28,36,0.16);border-color:#ed1c24}
-.ext-link[href*="trakt.tv"]::before{mask-image:url(../ratings/trakt.svg);-webkit-mask-image:url(../ratings/trakt.svg)}
-.ext-link-logo--trakt{mask-image:url(../ratings/trakt.svg);-webkit-mask-image:url(../ratings/trakt.svg)}
+.back-btn{display:inline-flex;align-items:center;gap:0.4rem;padding:0.5rem 1.1rem;background:rgba(0,0,0,0.45);backdrop-filter:blur(8px);border:1px solid rgba(255,255,255,0.1);border-radius:100px;color:#fff;text-decoration:none;font-weight:500;font-size:0.85rem;position:absolute;top:1rem;left:1rem;z-index:10;transition:all var(--transition)}
+@media(min-width:640px){.back-btn{top:1.5rem;left:2rem}}
+.back-btn:hover{background:rgba(0,0,0,0.65);border-color:rgba(255,255,255,0.2);color:#fff}
+/* Film layout: poster left, details right */
+.film-layout{display:flex;gap:2rem;align-items:flex-start}
+@media(max-width:680px){.film-layout{flex-direction:column;align-items:center;text-align:center}}
+.film-poster{flex-shrink:0;width:250px;position:sticky;top:1.5rem}
+@media(max-width:680px){.film-poster{width:200px;position:static}}
+.film-poster img{width:100%;border-radius:14px;box-shadow:0 12px 45px rgba(0,0,0,0.6);display:block}
+.film-poster .no-poster{width:100%;aspect-ratio:2/3;background:var(--surface);border-radius:14px;display:flex;align-items:center;justify-content:center;color:var(--text-muted);font-size:0.85rem;border:1px dashed var(--border)}
+.film-details{flex:1;min-width:0}
+.film-details h1{font-size:clamp(1.4rem,4vw,1.9rem);font-weight:800;line-height:1.15;margin-bottom:0.6rem;color:var(--text)}
+.film-details .meta{display:flex;flex-wrap:wrap;align-items:center;gap:0.4rem 0.9rem;margin-bottom:1rem;font-size:0.88rem;color:var(--text-muted)}
+.film-details .stars{color:var(--amber);letter-spacing:0.05em;font-size:0.9rem}
+.film-details .genres{color:var(--purple);font-weight:500}
+.film-details .rating-pill{background:var(--accent-dim);color:var(--accent);padding:0.2rem 0.65rem;border-radius:100px;font-weight:600;font-size:0.82rem}
+/* Action buttons row */
+.action-row{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:0.5rem;margin-bottom:1.25rem;padding:0.65rem 0.9rem;background:var(--surface);border:1px solid var(--border);border-radius:10px}
+.action-right{display:flex;flex-wrap:wrap;gap:0.4rem}
+.act-btn{display:inline-flex;align-items:center;gap:0.3rem;padding:0.5rem 0.85rem;border-radius:100px;text-decoration:none;font-size:0.8rem;font-weight:600;transition:all var(--transition);white-space:nowrap}
+.act-btn:hover{transform:translateY(-1px)}
+.act-cal{background:linear-gradient(135deg,var(--accent),#0891b2);color:#fff;box-shadow:0 2px 10px rgba(34,211,238,0.2)}
+.act-cal:hover{box-shadow:0 4px 18px rgba(34,211,238,0.35);color:#fff}
+.act-imdb{background:#f5c518;color:#000}
+.act-imdb:hover{background:#e2b013}
+.act-rt{background:#fa320a;color:#fff}
+.act-rt:hover{background:#e02d09}
+.act-trakt{background:#6c3fd1;color:#fff}
+.act-trakt:hover{background:#5a34b0}
+/* Content sections */
+.synopsis{font-size:0.95rem;line-height:1.75;color:var(--text-muted);margin-bottom:1rem;padding:1rem;background:var(--surface);border-radius:10px;border:1px solid var(--border)}
+.crew{margin-bottom:1rem}
+.crew p{font-size:0.88rem;color:var(--text-muted);padding:0.5rem 0;border-bottom:1px solid var(--border)}
+.crew p:last-child{border-bottom:none}
+.crew strong{color:var(--text);margin-right:0.5rem;font-weight:600}
 .trailer-section{margin-bottom:2.5rem}
 .trailer-section h2{font-size:1.1rem;font-weight:700;margin-bottom:0.85rem;color:var(--accent)}
 .trailer-wrap{position:relative;width:100%;aspect-ratio:16/9;background:#000;border-radius:14px;overflow:hidden;box-shadow:0 4px 25px rgba(0,0,0,0.5),0 0 0 1px rgba(34,211,238,0.1)}
@@ -1257,22 +1257,15 @@ def build_film_page(
     if genres:
         meta_parts.append(f'<span class="genres">{", ".join(genres)}</span>')
 
-    poster_large_src = f"../{poster_large}" if poster_large.startswith("posters/") else poster_large
     poster_src = f"../{poster}" if poster.startswith("posters/") else poster
     poster_large = film_details.get("poster_large_url") or poster
     poster_large_src = f"../{poster_large}" if poster_large.startswith("posters/") else poster_large
-    poster_html = (
-        f'<img src="{_esc(poster_src)}" alt="Poster for {_esc(display_title)}" loading="lazy">'
-        if poster
-        else f'<div class="no-poster">No poster available</div>'
-    )
 
-    # Backdrop image - placed behind poster in film-layout
+    # Backdrop — full-width behind the page
     backdrop_url = film_details.get("backdrop_url") or ""
     backdrop_html = (
-        f'<div class="backdrop-wrap">\n'
-        f'  <img src="{_esc(backdrop_url)}" alt="" class="backdrop-img" loading="lazy" decoding="async">\n'
-        f'</div>\n'
+        f'<div class="film-backdrop"><img src="{_esc(backdrop_url)}" alt="" class="backdrop-bg" loading="lazy" decoding="async"></div>\n'
+        f'<div class="film-backdrop-overlay"></div>\n'
     ) if backdrop_url else ""
 
     trailer_html = (
@@ -1281,15 +1274,44 @@ def build_film_page(
         else '<div class="trailer-wrap"><div class="no-trailer">No trailer available</div></div>'
     )
 
-    # Google Calendar "Add to Calendar" link (#5)
-    from urllib.parse import quote as _url_quote
+    # Google Calendar "Add to Calendar" link
     first_rd = cinemas[0][2] if cinemas else date.today()
     gcal_dates = f"{first_rd.strftime('%Y%m%d')}/{first_rd.strftime('%Y%m%d')}"
     gcal_text = _url_quote(display_title)
     gcal_location = _url_quote(f"Merlin Cinemas {cinemas[0][0]}" if cinemas else "Merlin Cinemas")
     gcal_url = f"https://calendar.google.com/calendar/render?action=TEMPLATE&text={gcal_text}&dates={gcal_dates}&location={gcal_location}"
-    gcal_html = f'<a href="{_esc(gcal_url)}" class="cta-btn google-btn" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Calendar</a>'
+    gcal_html = f'<a href="{_esc(gcal_url)}" class="act-btn act-cal" target="_blank" rel="noopener" title="Add to Google Calendar">📅 Add to Calendar</a>'
+    imdb_btn = f'<a href="https://www.imdb.com/title/{imdb_id}/" class="act-btn act-imdb" target="_blank" rel="noopener">IMDb</a>' if imdb_id else ''
+    rt_btn = f'<a href="https://www.rottentomatoes.com/search?search={_esc(display_title)}" class="act-btn act-rt" target="_blank" rel="noopener">Rotten Tomatoes</a>'
+    trakt_btn = f'<a href="https://trakt.tv/search?query={_esc(display_title)}" class="act-btn act-trakt" target="_blank" rel="noopener">Trakt</a>'
+    ext_btns = f'<div class="action-right">{imdb_btn}{rt_btn}{trakt_btn}</div>'
+    action_row = f'<div class="action-row">{gcal_html}{ext_btns}</div>'
 
+    # Poster column
+    poster_col = (
+        f'<div class="film-poster"><img src="{_esc(poster_src)}" alt="{_esc(display_title)}" loading="lazy"></div>'
+        if poster
+        else f'<div class="film-poster"><div class="no-poster">No poster available</div></div>'
+    )
+
+    # Crew block
+    crew_html = (
+        f'        <div class="crew">\n'
+        + (f'          <p><strong>Director:</strong> {_esc(director)}</p>\n' if director else '')
+        + (f'          <p><strong>Starring:</strong> {_esc(cast)}</p>\n' if cast else '')
+        + f'        </div>\n'
+    ) if (director or cast) else ''
+
+    # Info column
+    info_col = (
+        f'<div class="film-details">\n'
+        f'  <h1>{_esc(display_title)} {_cert_span(bbfc)}{scr_html}</h1>\n'
+        f'  <div class="meta">{"".join(meta_parts)}</div>\n'
+        f'  {action_row}\n'
+        f'  <div class="synopsis">{_esc(overview)}</div>\n'
+        f'  {crew_html}'
+        f'</div>'
+    )
     # Build cinema showtime table - use whats-on showtimes if available, else coming-soon dates
     table_rows = []
     cinema_set: set = set()
@@ -1380,13 +1402,6 @@ def build_film_page(
         schema["genre"] = genres
     schema_json = json.dumps(schema, ensure_ascii=False)
     schema_block = f'    <script type="application/ld+json">{schema_json}</script>\n'
-
-    crew_html = (
-        f'        <div class="crew">\n'
-        + (f'          <p><strong>Director:</strong> {_esc(director)}</p>\n' if director else '')
-        + (f'          <p><strong>Starring:</strong> {_esc(cast)}</p>\n' if cast else '')
-        + f'        </div>\n'
-    ) if (director or cast) else ''
 
     table_header = '<thead><tr><th>Date</th><th>Time</th><th>Cinema</th><th></th></tr></thead>' if showtimes else '<thead><tr><th>Date</th><th>Cinema</th><th></th></tr></thead>'
     # Cinema filter pills for showtime table
@@ -1533,32 +1548,22 @@ def build_film_page(
         '  <link rel="preconnect" href="https://fonts.googleapis.com">\n'
         '  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>\n'
         '  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">\n'
-        '  <link rel="stylesheet" href="style.css">\n'
+        '  <link rel="stylesheet" href="../style.css">\n'
         '</head>\n<body>\n'
         '  <div class="bg-mesh" aria-hidden="true"></div>\n'
         + backdrop_html +
+        '  <a href="../" class="back-btn">← Back to all premieres</a>\n'
         '  <div class="page">\n'
-        '    <a href="../" class="back-btn">← Back to all premieres</a>\n'
-        '    <div class="film-layout">\n'
-        f'      <div class="poster">{poster_html}</div>\n'
-        '      <div class="film-info">\n'
-        f'        <h1>{_esc(display_title)} {_cert_span(bbfc)}{scr_html}</h1>\n'
-        f'        <div class="meta">{"".join(meta_parts)}</div>\n'
-        f'        <div class="synopsis">{_esc(overview)}</div>\n'
-        f'        <div class="links">\n'
-        + (f'          {_rating_link(f"https://www.imdb.com/title/{imdb_id}/", "imdb")}\n' if imdb_id else '')
-        + (f'          {_rating_link(f"https://www.rottentomatoes.com/search?search={display_title}", "rottentomatoes")}\n')
-        + (f'          {_rating_link(f"https://trakt.tv/search?query={display_title}", "trakt")}\n')
-        + f'        </div>\n'
-        + schema_block + crew_html +
+        f'    <div class="film-layout">\n'
+        f'      {poster_col}\n'
+        f'      {info_col}\n'
         f'    </div>\n'
-        f'  </div>\n'
+        + schema_block +
         f'    <div class="trailer-section">\n'
         f'      <h2>Trailer</h2>\n'
         f'      {trailer_html}\n'
         f'    </div>\n'
         + cinema_html +
-        f'    <div style="text-align:center;margin:1.5rem 0">{gcal_html}</div>\n'
         '    <footer>\n'
         '      <p>An open source fan-made project. Not affiliated with Merlin Cinemas.</p>\n'
         '      <div style="margin-top:0.75rem">\n'
