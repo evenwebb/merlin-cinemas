@@ -8,11 +8,55 @@ import hashlib
 import html as html_mod
 import json
 import re
-from datetime import date, datetime
+from datetime import date, datetime, timedelta
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
+import os as _os
+import re as _re
 from urllib.parse import quote as _url_quote
 from zoneinfo import ZoneInfo
+
+HEALTH_MIN_FILMS = int(_os.getenv("HEALTH_MIN_FILMS", "1"))
+HEALTH_MIN_CINEMAS = int(_os.getenv("HEALTH_MIN_CINEMAS", "1"))
+
+_TITLE_CLEAN_RE = _re.compile(r"\s*\([^)]*\)$")
+BBFC_PATTERN = _re.compile(r"\((\d{1,2}A?|U|PG|R18)\)", _re.IGNORECASE)
+CERT_IMAGES = {"U": "cert-u.png", "PG": "cert-pg.png", "12": "cert-12.png",
+               "12A": "cert-12a.png", "15": "cert-15.png", "18": "cert-18.png"}
+CERTS_DIR = "docs/certs"
+POSTERS_DIR = "docs/posters"
+FINGERPRINT_FILE = ".scrape_fingerprint"
+MERLIN_SKIP_TMDB = [
+    "live nation", "tribute", "comedy club", "pantomime", "panto",
+    "psychic", "candlelit", "on tour", "presented by", "choir", "orchestra",
+    "theatre company", "pride", "adults only",
+]
+WTW_BASE_URL = "https://www.merlincinemas.co.uk"
+CINEMAS = {}
+CERT_BASE = "https://www.merlincinemas.co.uk"
+RATINGS_DIR = "docs/ratings"
+RATING_LOGOS = {
+    "imdb": {"filename": "imdb.svg", "url": "https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/imdb.svg", "color": "#f5c518", "label": "IMDb"},
+    "rottentomatoes": {"filename": "rottentomatoes.svg", "url": "https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/rottentomatoes.svg", "color": "#fa320a", "label": "Rotten Tomatoes"},
+    "trakt": {"filename": "trakt.svg", "url": "https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/trakt.svg", "color": "#ed1c24", "label": "Trakt"},
+}
+CINEMA_ADDRESSES = {
+    "bodmin": "Capitol+Cinema+Bodmin", "helston": "Flora+Cinema+Helston",
+    "falmouth": "Phoenix+Cinema+Falmouth", "redruth": "Regal+Cinema+Redruth",
+    "st-ives": "Royal+Cinema+St+Ives", "penzance-savoy": "Savoy+Cinema+Penzance",
+    "penzance-ritz": "The+Ritz+Penzance",
+}
+import requests as _requests
+
+def _session():
+    s = _requests.Session()
+    s.headers.update({"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"})
+    return s
+
+def _tmdb_cache_key(film_title: str) -> str:
+    t = _TITLE_CLEAN_RE.sub("", film_title).strip()
+    t = _re.sub(r"[\s\-:]+", " ", t.lower()).strip()
+    return _re.sub(r"[^a-z0-9]+", "-", t).strip("-") or "unknown"
 
 __all__ = [
     "_SHARED_CSS", "CSS", "FILM_CSS",
@@ -20,7 +64,7 @@ __all__ = [
     "build_index_html", "build_cinema_page", "build_film_page",
     "_cert_span", "_youtube_embed_url", "_extract_bbfc",
     "_cert_class_name", "_preferred_display_title",
-    "write_style_css",
+    "write_style_css", "generate_sitemap",
 ]
 
 LONDON_TZ = ZoneInfo("Europe/London")
@@ -76,7 +120,7 @@ def _cert_class_name(rating: str) -> str:
     return rating.strip().lower()
 
 
-def format_london_timestamp(dt=None):
+def _site_timestamp(dt=None):
     dt = dt or datetime.now(LONDON_TZ)
     return dt.astimezone(LONDON_TZ).strftime("%Y-%m-%d %H:%M %Z")
 

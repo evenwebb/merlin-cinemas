@@ -35,8 +35,8 @@ from html_templates import (
     _cert_span, _youtube_embed_url, _extract_bbfc,
     _cert_class_name, _preferred_display_title,
     _compute_fingerprint, _load_fingerprint, _save_fingerprint,
-    _download_cert_images, _download_rating_logos, _health_check,
-    write_style_css,
+    _download_cert_images, _download_poster, _download_rating_logos, _health_check,
+    write_style_css, generate_sitemap,
 )
 
 # ── Constants ──────────────────────────────────────────────────────────────────
@@ -1387,12 +1387,9 @@ def main() -> None:
     api_key = (os.environ.get("TMDB_API_KEY") or "").strip()
     tmdb_cache: Dict[str, dict] = load_tmdb_cache()
     if not api_key:
-        raise RuntimeError(
-            "TMDB_API_KEY is required. Movie ratings must always come from TMDb, "
-            "so cache-only mode is disabled."
-        )
+        logger.info("TMDB_API_KEY not set; scraping without TMDb enrichment")
 
-    # Preload cached TMDb fields before refreshing them from the live API.
+    # Preload cached TMDb fields (works without API key)
     for i, (rd, title, cname, furl, fdetails, cid) in enumerate(all_films):
         k = _tmdb_cache_key(title)
         if k in tmdb_cache:
@@ -1406,65 +1403,66 @@ def main() -> None:
                     fdetails[field] = val
             all_films[i] = (rd, title, cname, furl, fdetails, cid)
 
-    sess = _session()
-    unique_by_key: Dict[str, Tuple[str, str, List[int]]] = {}
-    for i, (rd, title, cname, furl, fdetails, cid) in enumerate(all_films):
-        k = _tmdb_cache_key(title)
-        if k not in unique_by_key:
-            unique_by_key[k] = (title, furl, [i])
-        else:
-            unique_by_key[k][2].append(i)
+    if api_key:
+        sess = _session()
+        unique_by_key: Dict[str, Tuple[str, str, List[int]]] = {}
+        for i, (rd, title, cname, furl, fdetails, cid) in enumerate(all_films):
+            k = _tmdb_cache_key(title)
+            if k not in unique_by_key:
+                unique_by_key[k] = (title, furl, [i])
+            else:
+                unique_by_key[k][2].append(i)
 
-    # TMDb lookups in parallel for unique films
-    def _tmdb_enrich(key: str, title: str, url: str) -> Dict[str, Any]:
-        return enrich_film_tmdb(title, url, api_key, tmdb_cache, session=sess)
+        def _tmdb_enrich(key: str, title: str, url: str) -> Dict[str, Any]:
+            return enrich_film_tmdb(title, url, api_key, tmdb_cache, session=sess)
 
-    enrich_futures: Dict[Any, str] = {}
-    with ThreadPoolExecutor(max_workers=min(8, MAX_WORKERS * 2)) as tex:
-        for k, (title, furl, indices) in unique_by_key.items():
-            enrich_futures[tex.submit(_tmdb_enrich, k, title, furl)] = k
-        for fut in as_completed(enrich_futures):
-            k = enrich_futures[fut]
-            try:
-                extra = fut.result()
-            except Exception:
-                extra = {}
-            if not extra:
-                continue
-            for i in unique_by_key[k][2]:
-                rd, t, cname, furl, fdetails, cid = all_films[i]
-                fdetails = dict(fdetails)
-                for field in TMDB_FIELDS:
-                    val = extra.get(field)
-                    if val or (field == "vote_average" and val is not None):
-                        fdetails[field] = val
-                all_films[i] = (rd, t, cname, furl, fdetails, cid)
-    # Also enrich unique whats-on films not already in unique_by_key
-    whats_on_unique: Dict[str, Tuple[str, str]] = {}
-    for norm_title, wf_list in whats_on_data.items():
-        for wf in wf_list:
-            k = _tmdb_cache_key(wf["title"])
-            if k not in unique_by_key and k not in whats_on_unique:
-                whats_on_unique[k] = (wf["title"], wf["film_url"])
-
-    if whats_on_unique:
-        wo_enrich_futures: Dict[Any, str] = {}
+        enrich_futures: Dict[Any, str] = {}
         with ThreadPoolExecutor(max_workers=min(8, MAX_WORKERS * 2)) as tex:
-            for k, (title, furl) in whats_on_unique.items():
-                wo_enrich_futures[tex.submit(_tmdb_enrich, k, title, furl)] = k
-            for fut in as_completed(wo_enrich_futures):
-                k = wo_enrich_futures[fut]
+            for k, (title, furl, indices) in unique_by_key.items():
+                enrich_futures[tex.submit(_tmdb_enrich, k, title, furl)] = k
+            for fut in as_completed(enrich_futures):
+                k = enrich_futures[fut]
                 try:
                     extra = fut.result()
                 except Exception:
                     extra = {}
-                if extra:
-                    with _tmdb_cache_lock:
-                        tmdb_cache.setdefault(k, {}).update({**extra, "cached_at": _utc_iso_now()})
-    sess.close()
-    save_tmdb_cache(tmdb_cache)
-    logger.info("TMDb enrichment done: %d coming-soon + %d whats-on unique films",
-                 len(unique_by_key), len(whats_on_unique))
+                if not extra:
+                    continue
+                for i in unique_by_key[k][2]:
+                    rd, t, cname, furl, fdetails, cid = all_films[i]
+                    fdetails = dict(fdetails)
+                    for field in TMDB_FIELDS:
+                        val = extra.get(field)
+                        if val or (field == "vote_average" and val is not None):
+                            fdetails[field] = val
+                    all_films[i] = (rd, t, cname, furl, fdetails, cid)
+        whats_on_unique: Dict[str, Tuple[str, str]] = {}
+        for norm_title, wf_list in whats_on_data.items():
+            for wf in wf_list:
+                k = _tmdb_cache_key(wf["title"])
+                if k not in unique_by_key and k not in whats_on_unique:
+                    whats_on_unique[k] = (wf["title"], wf["film_url"])
+
+        if whats_on_unique:
+            wo_enrich_futures: Dict[Any, str] = {}
+            with ThreadPoolExecutor(max_workers=min(8, MAX_WORKERS * 2)) as tex:
+                for k, (title, furl) in whats_on_unique.items():
+                    wo_enrich_futures[tex.submit(_tmdb_enrich, k, title, furl)] = k
+                for fut in as_completed(wo_enrich_futures):
+                    k = wo_enrich_futures[fut]
+                    try:
+                        extra = fut.result()
+                    except Exception:
+                        extra = {}
+                    if extra:
+                        with _tmdb_cache_lock:
+                            tmdb_cache.setdefault(k, {}).update({**extra, "cached_at": _utc_iso_now()})
+        sess.close()
+        save_tmdb_cache(tmdb_cache)
+        logger.info("TMDb enrichment done: %d coming-soon + %d whats-on unique films",
+                     len(unique_by_key), len(whats_on_unique))
+    else:
+        save_tmdb_cache(tmdb_cache)
     if not all_films:
         logger.warning("No films found across any cinema")
         print("\nWarning: No films found across any cinema")
@@ -1598,6 +1596,9 @@ def main() -> None:
     # ── Special Events ─────────────────────────────────────────────────────
     special_events = [f for f in now_showing_films if f.get("screening")]
     special_events.sort(key=lambda f: (f.get("screening", ""), f["min_date"]))
+
+    # Share CINEMAS config with html_templates for URL construction
+    sys.modules["html_templates"].CINEMAS = CINEMAS
 
     # Write index.html
     html = build_index_html(enabled_cinemas, films_by_cinema, stats=stats,

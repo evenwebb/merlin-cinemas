@@ -11,232 +11,11 @@
   <link rel="canonical" href="https://evenwebb.github.io/merlin-cinemas/">
   <meta name="twitter:card" content="summary">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎬</text></svg>">
+  <link rel="icon" media="(prefers-color-scheme: dark)" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎥</text></svg>">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-  <style>
-
-:root{--bg:#09090d;--surface:#13131c;--surface-2:#1a1a26;--border:rgba(192,132,252,0.18);--text:#e8edf2;--text-muted:#8b9db5;--cyan:#22d3ee;--purple:#c084fc;--accent:#22d3ee;--accent-dim:rgba(34,211,238,0.12);--accent-glow:rgba(34,211,238,0.2);--amber:#f59e0b;--radius:16px;--radius-sm:10px;--transition:0.2s ease}
-*,::before,::after{box-sizing:border-box;margin:0;padding:0}
-html{scroll-behavior:smooth;scroll-padding-top:2rem}
-body{font-family:'Space Grotesk',system-ui,sans-serif;background:var(--bg);color:var(--text);line-height:1.7;min-height:100vh;-webkit-font-smoothing:antialiased}
-@keyframes pageIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
-.page{animation:pageIn 0.4s ease-out}
-.bg-mesh{position:fixed;inset:0;overflow:hidden;background:radial-gradient(ellipse 80% 60% at 50% -20%,var(--accent-dim) 0%,transparent 50%),radial-gradient(ellipse 50% 40% at 80% 90%,rgba(192,132,252,0.06) 0%,transparent 50%);pointer-events:none;z-index:0}
-footer{text-align:center;padding:2.5rem 2rem;color:var(--text-muted);font-size:0.85rem;border-top:1px solid rgba(255,255,255,0.05);margin-top:4rem}
-footer a{color:var(--accent);text-decoration:none;font-weight:500}
-footer a:hover{color:var(--purple)}
-.footer-updated{font-size:0.75rem;opacity:0.4;margin-top:0.75rem}
-@media print{body{background:#fff!important;color:#111!important}.bg-mesh,.skip-link,.quick-nav,.map-link,.book-btn{display:none!important}.card,.stat-pill,.featured-film,.now-film,.cinema-table td{background:#fff!important;border:1px solid #ddd!important;box-shadow:none!important;break-inside:avoid}.hero h1{color:#111!important;-webkit-text-fill-color:#111!important;background:none!important}footer{border-top:1px solid #ddd!important}a{color:#111!important}}
-
-.skip-link{position:absolute;top:-100px;left:1rem;z-index:100;background:var(--accent);color:var(--bg);padding:0.5rem 1.25rem;border-radius:100px;font-weight:600;text-decoration:none;font-size:0.9rem}
-.skip-link:focus{top:1.25rem}
-.page{position:relative;z-index:1;max-width:1100px;margin:0 auto;padding:2rem 1rem 4rem}
-@media(min-width:640px){.page{padding:3rem 2rem 5rem}}
-.quick-nav{display:flex;flex-wrap:wrap;gap:0.5rem;justify-content:center;margin-bottom:2.5rem;padding-bottom:2rem;border-bottom:1px solid var(--border)}
-.quick-nav a{padding:0.65rem 1.5rem;border-radius:100px;font-size:0.9rem;font-weight:600;text-decoration:none;color:var(--text);background:var(--surface);border:1px solid var(--border);transition:all var(--transition)}
-.quick-nav a:hover,.quick-nav a:focus{color:var(--accent);border-color:var(--accent);background:var(--accent-dim);transform:translateY(-1px);box-shadow:0 4px 12px var(--accent-glow)}
-.hero{text-align:center;padding:1.5rem 0 2rem}
-@media(min-width:640px){.hero{padding:3rem 0 3.5rem}}
-.hero .badge{display:inline-flex;align-items:center;gap:0.5rem;font-size:0.7rem;font-weight:600;letter-spacing:0.15em;text-transform:uppercase;color:var(--accent);background:var(--accent-dim);padding:0.35rem 0.85rem;border-radius:100px;margin-bottom:1rem}
-@media(min-width:640px){.hero .badge{font-size:0.75rem;padding:0.4rem 1rem;margin-bottom:1.5rem}}
-.hero .badge::before{content:'';width:7px;height:7px;background:var(--accent);border-radius:50%}
-@media(prefers-reduced-motion:no-preference){.hero .badge::before{animation:pulse 2s infinite}}
-@keyframes pulse{0%,100%{opacity:1}50%{opacity:0.4}}
-.hero h1{font-size:clamp(2rem,5.5vw,3.25rem);font-weight:800;letter-spacing:-0.03em;line-height:1.15;margin-bottom:1rem;background:linear-gradient(135deg,var(--cyan) 0%,var(--purple) 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
-.hero .tagline{font-size:1.05rem;color:var(--text-muted);max-width:38rem;margin:0 auto 1.5rem;line-height:1.65}
-.hero .hero-stat{display:inline-block;font-family:'JetBrains Mono',monospace;font-size:0.85rem;color:var(--accent);background:var(--accent-dim);padding:0.3rem 0.9rem;border-radius:100px}
-.hero-updated{font-size:0.7rem;color:var(--text-muted);margin-top:0.5rem}
-.section-label{font-size:0.75rem;font-weight:700;letter-spacing:0.15em;text-transform:uppercase;color:var(--text-muted);margin-bottom:1.25rem;display:flex;align-items:center;gap:0.75rem}
-.section-label::after{content:'';flex:1;height:1px;background:var(--border)}
-.cinemas{list-style:none;display:grid;grid-template-columns:repeat(2,1fr);gap:0.75rem;margin-bottom:4rem}
-@media(min-width:640px){.cinemas{gap:1rem}}
-@media(min-width:960px){.cinemas{grid-template-columns:repeat(4,1fr);gap:1.25rem}}
-.card{background:var(--surface);border:1px solid var(--border);border-radius:20px;padding:1.75rem;position:relative;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,0.3)}
-@media(prefers-reduced-motion:no-preference){.card{transition:transform var(--transition),border-color var(--transition),box-shadow var(--transition)}}
-.card:hover{border-color:rgba(34,211,238,0.35);transform:translateY(-3px);box-shadow:0 12px 30px rgba(0,0,0,0.5),0 0 0 1px rgba(34,211,238,0.08)}
-.card-icon{width:52px;height:52px;background:var(--accent-dim);border-radius:14px;display:flex;align-items:center;justify-content:center;margin:0 auto 1rem;font-size:1.5rem}
-.card h2{font-size:1.15rem;font-weight:700;margin-bottom:0.25rem;text-align:center}
-.card .meta{font-size:0.85rem;color:var(--text-muted);margin-bottom:1.25rem;text-align:center}
-.card .btn{display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;width:100%;padding:0.75rem 1.25rem;background:linear-gradient(135deg,var(--cyan),var(--purple));color:#0a0a10;font-weight:600;font-size:0.9rem;border-radius:12px;text-decoration:none}
-@media(prefers-reduced-motion:no-preference){.card .btn{transition:transform var(--transition),box-shadow var(--transition),opacity var(--transition)}}
-.card .btn:hover{transform:scale(1.02);box-shadow:0 6px 25px var(--accent-glow)}
-.card .btn:active{transform:scale(0.98)}
-@media(max-width:579px){.card .btn .btn-text-short{display:inline}.card .btn .btn-text-full{display:none}.card{padding:1.25rem}.card-icon{width:40px;height:40px;font-size:1.25rem;margin-bottom:0.75rem}.card h2{font-size:1rem}.card .meta{font-size:0.8rem;margin-bottom:1rem}.card .btn{padding:0.65rem 1rem;font-size:0.85rem}}
-@media(min-width:580px){.card .btn .btn-text-short{display:none}.card .btn .btn-text-full{display:inline}}
-.map-link{display:block;text-align:center;margin-top:0.6rem;font-size:0.78rem;color:var(--text-muted);text-decoration:none;transition:color var(--transition)}
-.map-link:hover{color:var(--accent)}
-.stats-section{margin-bottom:4rem}
-.stats-section h2{font-size:1.15rem;font-weight:700;margin-bottom:0.75rem}
-.stats-intro{font-size:0.9rem;color:var(--text-muted);margin-bottom:1.5rem;max-width:40rem}
-.stats-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:0.75rem}
-.stats-group-title{font-size:0.8rem;font-weight:700;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.08em;margin:1.75rem 0 0.75rem}
-.stat-pill{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:1.15rem;text-align:center}
-@media(prefers-reduced-motion:no-preference){.stat-pill{transition:border-color var(--transition),background var(--transition)}}
-.stat-pill:hover{border-color:rgba(34,211,238,0.25);background:var(--surface-2)}
-.stat-pill .value{font-size:1.75rem;font-weight:800;color:var(--accent);letter-spacing:-0.02em;line-height:1.2;font-family:'JetBrains Mono',monospace}
-.stat-pill .label{font-size:0.75rem;color:var(--text-muted);margin-top:0.4rem;display:block}
-.howto-section{margin-bottom:3rem}
-.howto-section h2{font-size:1.15rem;font-weight:700;margin-bottom:1rem}
-.accordion{border:1px solid var(--border);border-radius:14px;overflow:hidden}
-.accordion-item{border-bottom:1px solid var(--border)}
-.accordion-item:last-child{border-bottom:none}
-.accordion-trigger{width:100%;display:flex;align-items:center;justify-content:space-between;padding:1rem 1.25rem;background:var(--surface);border:none;color:var(--text);font-family:inherit;font-size:0.95rem;font-weight:600;cursor:pointer;text-align:left;-webkit-tap-highlight-color:transparent;min-height:48px}
-.accordion-trigger:hover{background:var(--surface-2)}
-.accordion-trigger:active{background:var(--accent-dim)}
-.accordion-trigger::after{content:'+';font-size:1.35rem;font-weight:300;color:var(--accent);line-height:1}
-@media(prefers-reduced-motion:no-preference){.accordion-trigger::after{transition:transform 0.25s ease}}
-.accordion-item.open .accordion-trigger::after{transform:rotate(45deg)}
-.accordion-panel{overflow:hidden;max-height:0}
-@media(prefers-reduced-motion:no-preference){.accordion-panel{transition:max-height 0.3s ease}}
-.accordion-content{padding:1rem 1.25rem 1.25rem;background:var(--surface);font-size:0.9rem;color:var(--text-muted);line-height:1.7}
-.now-showing{margin-bottom:3.5rem}
-.now-showing .section-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:1rem;flex-wrap:wrap;gap:0.5rem}
-.now-showing h2{font-size:1.15rem;font-weight:700;color:var(--accent)}
-.now-showing .new-badge{font-size:0.7rem;font-weight:700;text-transform:uppercase;letter-spacing:0.1em;background:var(--accent-dim);color:var(--accent);padding:0.25rem 0.65rem;border-radius:100px}
-.now-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:0.75rem}
-.now-film{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:0.9rem 1rem;transition:border-color var(--transition)}
-.now-film:hover{border-color:rgba(34,211,238,0.3)}
-.now-film .date{font-size:0.7rem;color:var(--accent);font-weight:600;margin-bottom:0.2rem;display:block;text-transform:uppercase;letter-spacing:0.05em}
-.now-film a{color:var(--text);text-decoration:none;font-weight:600;font-size:0.9rem;line-height:1.35}
-.now-film a:hover{color:var(--accent)}
-.film-section{margin-bottom:3.5rem}
-.film-section .section-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:1.25rem;flex-wrap:wrap;gap:0.75rem}
-.film-section .section-header h2{font-size:1.2rem;font-weight:700;color:var(--accent)}
-.film-section .section-header .count{font-size:0.85rem;color:var(--text-muted);background:var(--surface);padding:0.3rem 0.8rem;border-radius:100px;font-weight:500}
-.film-browse-grid{display:flex;flex-direction:column;gap:1.25rem}
-/* Now Showing poster grid */
-.ns-poster-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:0.75rem}
-@media(min-width:480px){.ns-poster-grid{grid-template-columns:repeat(3,1fr);gap:1rem}}
-@media(min-width:768px){.ns-poster-grid{grid-template-columns:repeat(4,1fr);gap:1.25rem}}
-@media(min-width:1024px){.ns-poster-grid{grid-template-columns:repeat(5,1fr);gap:1.5rem}}
-.ns-poster-card{display:block;text-decoration:none;border-radius:12px;overflow:hidden;transition:transform 0.2s,box-shadow 0.2s;background:var(--surface);border:1px solid var(--border)}
-.ns-poster-card:hover{transform:translateY(-4px);box-shadow:0 8px 25px rgba(0,0,0,0.4);border-color:var(--accent)}
-.ns-poster-wrap{position:relative;aspect-ratio:2/3;overflow:hidden;background:var(--surface-2)}
-.ns-poster-wrap img{width:100%;height:100%;object-fit:cover;display:block}
-.ns-poster-wrap .ns-no-poster{width:100%;height:100%;display:flex;align-items:center;justify-content:center;text-align:center;font-size:0.75rem;color:var(--text-muted);padding:0.5rem;background:linear-gradient(135deg,var(--accent-dim),rgba(192,132,252,0.06))}
-.ns-title{display:block;padding:0.5rem 0.6rem;font-size:0.78rem;font-weight:600;color:var(--text);line-height:1.3;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.ns-event-tag{display:block;font-size:0.62rem;font-weight:700;text-transform:uppercase;letter-spacing:0.06em;padding:0.1rem 0.6rem 0.4rem;text-align:center}
-.ns-event-tag.rbo{color:#f87171}.ns-event-tag.nt-live{color:var(--accent)}.ns-event-tag.toddler-cinema{color:var(--amber)}.ns-event-tag.double-bill{color:var(--purple)}.ns-event-tag.q-a{color:#fb923c}
-@media(max-width:479px){.ns-title{padding:0.4rem;font-size:0.72rem}}
-.film-card-full{display:grid;grid-template-columns:90px 1fr;gap:1rem;background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:1.25rem;transition:border-color var(--transition),transform var(--transition)}
-@media(min-width:480px){.film-card-full{grid-template-columns:130px 1fr;gap:1.5rem;padding:1.5rem}}
-@media(min-width:768px){.film-card-full{grid-template-columns:170px 1fr;gap:1.75rem;padding:1.75rem}}
-.film-card-full:hover{border-color:rgba(34,211,238,0.35);transform:translateY(-2px);box-shadow:0 8px 25px rgba(0,0,0,0.3)}
-.film-card-full .fc-poster{width:90px;height:135px;flex-shrink:0;border-radius:10px;overflow:hidden;background:var(--surface-2)}
-@media(min-width:480px){.film-card-full .fc-poster{width:130px;height:195px}}
-@media(min-width:768px){.film-card-full .fc-poster{width:170px;height:255px}}
-.film-card-full .fc-poster img{width:100%;height:100%;object-fit:cover;display:block}
-.film-card-full .fc-poster .no-poster-sm{width:100%;height:100%;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,var(--accent-dim),rgba(192,132,252,0.08));border-radius:10px;font-size:2.5rem}
-.film-card-full .fc-info{display:flex;flex-direction:column;gap:0.5rem;min-width:0}
-.film-card-full .fc-info h3{font-size:1.1rem;font-weight:700;line-height:1.3;margin:0;display:flex;align-items:center;gap:0.5rem;flex-wrap:wrap}
-@media(min-width:768px){.film-card-full .fc-info h3{font-size:1.2rem}}
-.film-card-full .fc-info h3 a{color:var(--text);text-decoration:none}
-.film-card-full .fc-info h3 a:hover{color:var(--accent)}
-.new-badge{display:inline-block;font-size:0.62rem;font-weight:700;text-transform:uppercase;letter-spacing:0.06em;padding:0.15rem 0.45rem;border-radius:100px;background:linear-gradient(135deg,var(--amber),#f59e0b);color:#0a0a10;vertical-align:middle;margin-left:0.3rem}
-.screening-badge{display:inline-block;font-size:0.62rem;font-weight:600;text-transform:uppercase;letter-spacing:0.04em;padding:0.15rem 0.5rem;border-radius:100px;background:rgba(192,132,252,0.15);color:var(--purple);vertical-align:middle;margin-left:0.3rem}
-.fc-screening-banner{grid-column:1/-1;font-size:0.7rem;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;padding:0.35rem 1rem;margin:-1.25rem -1.25rem 0.75rem -1.25rem;border-radius:12px 12px 0 0;text-align:center}
-.fc-screening-banner.rbo{background:linear-gradient(135deg,rgba(248,113,113,0.2),rgba(248,113,113,0.06));color:#f87171;border-bottom:1px solid rgba(248,113,113,0.2)}
-.fc-screening-banner.nt-live{background:linear-gradient(135deg,rgba(34,211,238,0.15),rgba(34,211,238,0.04));color:var(--accent);border-bottom:1px solid rgba(34,211,238,0.2)}
-.fc-screening-banner.toddler-cinema{background:linear-gradient(135deg,rgba(251,191,36,0.18),rgba(251,191,36,0.05));color:var(--amber);border-bottom:1px solid rgba(251,191,36,0.2)}
-.fc-screening-banner.double-bill{background:linear-gradient(135deg,rgba(192,132,252,0.18),rgba(192,132,252,0.05));color:var(--purple);border-bottom:1px solid rgba(192,132,252,0.2)}
-.fc-screening-banner.q-a{background:linear-gradient(135deg,rgba(251,146,60,0.2),rgba(251,146,60,0.06));color:#fb923c;border-bottom:1px solid rgba(251,146,60,0.2)}
-@media(min-width:480px){.fc-screening-banner{margin:-1.5rem -1.5rem 0.75rem -1.5rem}}
-@media(min-width:768px){.fc-screening-banner{margin:-1.75rem -1.75rem 0.75rem -1.75rem}}
-.film-card-full .fc-meta{display:flex;flex-wrap:wrap;gap:0.35rem 0.85rem;font-size:0.82rem;color:var(--text-muted);align-items:center}
-.film-card-full .fc-meta .stars{color:var(--amber);font-size:0.82rem;letter-spacing:0.05em}
-.film-card-full .fc-meta .genres{color:var(--purple);font-weight:500}
-.film-card-full .fc-meta .cert-badge{display:inline-block;font-size:0.7rem;font-weight:700;padding:0.1rem 0.4rem;border-radius:3px;background:rgba(34,211,238,0.12);color:var(--accent)}
-.film-card-full .fc-meta .showing-date{color:var(--accent);font-weight:600}
-.film-card-full .fc-synopsis{font-size:0.88rem;color:var(--text-muted);line-height:1.6;margin-top:0.25rem}
-@media(max-width:479px){.film-card-full .fc-synopsis{-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;display:-webkit-box}}
-.film-card-full .fc-synopsis a{color:var(--accent);text-decoration:none;font-weight:500;white-space:nowrap}
-.film-card-full .fc-showings{display:flex;flex-direction:column;gap:0.35rem;padding-top:0.6rem;border-top:1px solid var(--border);margin-top:0.25rem}
-@media(min-width:768px){.film-card-full .fc-showings{padding-top:0.75rem;margin-top:0.5rem}}
-.film-card-full .showing-row{display:flex;align-items:baseline;gap:0.6rem;flex-wrap:wrap}
-.film-card-full .showing-date{font-size:0.75rem;font-weight:700;color:var(--accent);white-space:nowrap;min-width:5.5rem;text-transform:uppercase;letter-spacing:0.04em}
-.film-card-full .showing-cinemas{display:flex;flex-wrap:wrap;gap:0.25rem 0.1rem}
-.film-card-full .showing-cinema-link{font-size:0.78rem;font-weight:500;color:var(--text-muted);text-decoration:none;padding:0.2rem 0.5rem;border-radius:6px;transition:all var(--transition)}
-.film-card-full .showing-cinema-link:hover{color:var(--accent);background:var(--accent-dim)}
-.film-card-full .showing-cinema-link::after{content:" ·";color:var(--border);margin-left:0.25rem}
-.film-card-full .showing-cinema-link:last-child::after{content:""}
-.cinema-filter{display:flex;flex-wrap:wrap;gap:0.4rem;justify-content:center;margin-bottom:2.5rem}
-.cinema-filter button{font-family:inherit;font-size:0.82rem;font-weight:500;padding:0.45rem 1rem;border-radius:100px;border:1px solid var(--border);background:var(--surface);color:var(--text-muted);cursor:pointer;transition:all var(--transition)}
-.cinema-filter button:hover{color:var(--accent);border-color:var(--accent)}
-.cinema-filter button.active{background:var(--accent-dim);color:var(--accent);border-color:var(--accent)}
-.cinema-filter button.nearest{border-color:var(--amber);color:var(--amber);background:rgba(251,191,36,0.1)}
-.cinema-filter button.nearest::after{content:" ★"}
-.view-toggle-btn{font-family:inherit;font-size:0.78rem;font-weight:500;padding:0.35rem 0.85rem;border-radius:100px;border:1px solid var(--border);background:var(--surface);color:var(--text-muted);cursor:pointer;transition:all var(--transition)}
-.view-toggle-btn:hover{color:var(--accent);border-color:var(--accent)}
-/* Now Showing card/list toggle */
-#now-showing-live.poster-view .ns-poster-grid{display:grid}
-#now-showing-live.poster-view .ns-list-grid{display:none}
-#now-showing-live:not(.poster-view) .ns-poster-grid{display:none}
-#now-showing-live:not(.poster-view) .ns-list-grid{display:flex;flex-direction:column;gap:0.5rem}
-.ns-list-card{display:flex;align-items:center;gap:0.75rem;flex-wrap:wrap;padding:0.85rem 1rem;background:var(--surface);border:1px solid var(--border);border-radius:12px;text-decoration:none;transition:border-color var(--transition)}
-.ns-list-card:hover{border-color:var(--accent)}
-.ns-list-title{font-weight:600;color:var(--text);font-size:0.92rem;flex:1;min-width:140px}
-.ns-list-cinemas{font-size:0.78rem;color:var(--text-muted)}
-.ns-list-next{font-size:0.78rem;color:var(--accent);font-weight:500;margin-left:auto}
-/* Coming Soon poster toggle */
-#coming-soon.poster-view .film-browse-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:0.75rem}
-@media(min-width:480px){#coming-soon.poster-view .film-browse-grid{grid-template-columns:repeat(3,1fr);gap:1rem}}
-@media(min-width:768px){#coming-soon.poster-view .film-browse-grid{grid-template-columns:repeat(4,1fr);gap:1.25rem}}
-#coming-soon.poster-view .film-card-full{display:block;padding:0;border:none;background:none}
-#coming-soon.poster-view .film-card-full:hover{transform:none;box-shadow:none}
-#coming-soon.poster-view .fc-poster{width:100%;height:auto;aspect-ratio:2/3;border-radius:12px}
-#coming-soon.poster-view .fc-info{display:none}
-#coming-soon.poster-view .fc-poster img{border-radius:12px}
-/* Calendar promo banner */
-.calendar-promo{display:flex;align-items:center;justify-content:center;gap:0.5rem;padding:0.55rem 1rem;background:linear-gradient(135deg,rgba(34,211,238,0.18),rgba(192,132,252,0.14));border-bottom:1px solid rgba(34,211,238,0.25);text-decoration:none;margin:0;position:fixed;top:0;left:0;right:0;z-index:50;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-radius:0}
-.calendar-promo:hover{border-bottom-color:var(--accent);box-shadow:0 2px 15px var(--accent-glow)}
-.promo-icon{font-size:1.2rem;flex-shrink:0}
-.promo-text{font-weight:500;color:var(--text);flex:1;text-align:center}
-.promo-text-full{font-size:0.88rem}
-.promo-text-short{font-size:0.82rem;display:none}
-.promo-cta{font-size:0.72rem;font-weight:600;color:#0a0a10;background:linear-gradient(135deg,var(--cyan),var(--purple));padding:0.35rem 0.85rem;border-radius:100px;white-space:nowrap;animation:bounce-down 1.5s infinite;flex-shrink:0}
-@keyframes bounce-down{0%,100%{transform:translateY(0)}50%{transform:translateY(3px)}}
-@media(max-width:600px){.calendar-promo{padding:0.45rem 0.75rem;gap:0.4rem}.promo-text-full{display:none}.promo-text-short{display:inline}.promo-cta{font-size:0.68rem;padding:0.3rem 0.7rem}}
-/* Calendar CTA section */
-.calendar-cta{background:linear-gradient(160deg,rgba(34,211,238,0.08) 0%,rgba(192,132,252,0.1) 50%,rgba(34,211,238,0.04) 100%);border:1px solid rgba(34,211,238,0.2);border-radius:18px;padding:1.5rem;text-align:center;margin:3rem 0 2rem;position:relative;overflow:hidden}
-.calendar-cta::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,transparent,var(--accent),var(--purple),var(--accent),transparent)}
-@media(min-width:640px){.calendar-cta{padding:2.5rem;margin:4rem 0 3rem}}
-.cta-header{display:flex;align-items:center;gap:1rem;margin-bottom:1.5rem;text-align:left;justify-content:center;flex-wrap:wrap}
-@media(min-width:640px){.cta-header{margin-bottom:2rem}}
-.cta-icon{font-size:2.5rem;flex-shrink:0}
-@media(min-width:640px){.cta-icon{font-size:3rem}}
-.calendar-cta h2{font-size:1.15rem;font-weight:800;margin:0 0 0.2rem;background:linear-gradient(135deg,var(--cyan),var(--purple));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
-@media(min-width:640px){.calendar-cta h2{font-size:1.35rem}}
-.calendar-cta .cta-header p{font-size:0.82rem;color:var(--text-muted);margin:0;line-height:1.5}
-@media(min-width:640px){.calendar-cta .cta-header p{font-size:0.88rem}}
-.calendar-cta .cta-buttons{display:grid;grid-template-columns:repeat(2,1fr);gap:0.75rem;max-width:640px;margin:0 auto}
-@media(max-width:600px){.calendar-cta .cta-buttons{grid-template-columns:1fr}}
-.calendar-cta .cta-cinema-row{display:flex;flex-direction:column;align-items:center;gap:0.5rem;padding:0.75rem;background:var(--surface);border:1px solid var(--border);border-radius:12px}
-.cta-cinema-name{font-size:0.85rem;font-weight:600;color:var(--text)}
-.cta-url{margin-top:0.25rem;width:100%}
-.cta-url-input{width:100%;box-sizing:border-box;padding:0.35rem 0.5rem;font-size:0.7rem;font-family:monospace;background:var(--bg);color:var(--text-muted);border:1px solid var(--border);border-radius:6px;text-align:center}
-.cta-url-input:focus{outline:none;border-color:var(--accent)}
-.calendar-cta .cta-btn-group{display:flex;gap:0;border-radius:8px;overflow:hidden;border:1px solid var(--border)}
-.calendar-cta .cta-btn-group .cta-btn,.calendar-cta .cta-btn-group .google-btn,.calendar-cta .cta-btn-group .ios-btn,.calendar-cta .cta-btn-group .copy-btn{display:inline-flex;align-items:center;justify-content:center;padding:0.45rem 0.75rem;font-weight:600;font-size:0.75rem;text-decoration:none;transition:filter 0.2s,background 0.2s;border:none;border-radius:0;cursor:pointer;font-family:inherit;min-width:48px}
-.calendar-cta .cta-btn-group .ios-btn{background:#1a1a2e;color:#fff}
-.calendar-cta .cta-btn-group .ios-btn:hover{background:#2a2a4e}
-.calendar-cta .cta-btn-group .google-btn{background:#1a1a2e;color:#fff}
-.calendar-cta .cta-btn-group .google-btn:hover{background:#2a2a4e}
-.calendar-cta .cta-btn-group .copy-btn{background:var(--surface);color:var(--text-muted)}
-.calendar-cta .cta-btn-group .copy-btn:hover{color:var(--accent);background:var(--accent-dim)}
-.calendar-cta .cta-btn-group .copy-btn.copied{color:#4ade80;background:rgba(74,222,128,0.12)}
-.calendar-cta .cta-btn-group .show-btn{background:var(--surface);color:var(--text-muted)}
-.calendar-cta .cta-btn-group .show-btn:hover{color:var(--accent);background:var(--accent-dim)}
-.cta-howto{margin-top:1.5rem;padding-top:1.25rem;border-top:1px solid var(--border);text-align:left;max-width:500px;margin-left:auto;margin-right:auto}
-.cta-howto-title{font-size:0.82rem;font-weight:600;color:var(--text-muted);padding:0.25rem 0;text-align:center}
-.cta-howto-content{display:flex;flex-direction:column;gap:0.6rem;padding:0.5rem 0 0}
-.cta-howto-item{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:0.6rem 0.85rem}
-.cta-howto-item p{font-size:0.78rem;color:var(--text-muted);margin:0.15rem 0 0;line-height:1.55}
-.cta-howto-item p strong{color:var(--text);font-weight:600}
-.footer-disclaimer{font-size:0.85rem;margin:0 auto 0.5rem;max-width:36rem;line-height:1.6}
-.footer-links{display:flex;flex-wrap:wrap;justify-content:center;gap:0.5rem 1.25rem;margin-bottom:0.75rem;align-items:center}
-
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <a href="#main-content" class="skip-link">Skip to content</a>
@@ -245,8 +24,8 @@ footer a:hover{color:var(--purple)}
     <header class="hero">
       <h1>What's on at Merlin Cinemas</h1>
       <p class="tagline">Browse and discover upcoming film premieres across all Merlin Cinemas. Ratings, trailers, and booking links - all in one place.</p>
-      <span class="hero-stat">32 films across 7 cinemas</span>
-      <div class="hero-updated">Last updated 2026-06-09 13:08 BST</div>
+      <span class="hero-stat">38 films across 7 cinemas</span>
+      <div class="hero-updated">Last updated 2026-07-31 16:22 BST</div>
     </header>
 
     <a href="#subscribe" class="calendar-promo">
@@ -274,87 +53,51 @@ footer a:hover{color:var(--purple)}
     </div>
 
     <section class="film-section poster-view" id="now-showing-live">
-      <div class="section-header"><h2>Now Showing</h2><div style="display:flex;align-items:center;gap:0.75rem"><span class="count">32 films</span><button type="button" id="ns-view-toggle" class="view-toggle-btn">☰ List</button></div></div>
+      <div class="section-header"><h2>Now Showing</h2><div style="display:flex;align-items:center;gap:0.75rem"><span class="count">23 films</span><button type="button" id="ns-view-toggle" class="view-toggle-btn">☰ List</button></div></div>
       <div class="ns-poster-grid">
-<a href="films/backrooms.html" class="ns-poster-card" title="Backrooms - Bodmin, Falmouth, Helston">
-  <div class="ns-poster-wrap"><img src="https://image.tmdb.org/t/p/w500/rhGx6E3qRNMgj3i5su2oukNHwIQ.jpg" alt="Backrooms" loading="lazy" decoding="async"></div>
-  <span class="ns-title">Backrooms</span>
+<a href="films/moana.html" class="ns-poster-card" title="Moana - Bodmin, Falmouth, Helston">
+  <div class="ns-poster-wrap"><img src="https://image.tmdb.org/t/p/w500/zKVgiv5qHCvCLT4A2ymJi5QeXDH.jpg" alt="Moana" loading="lazy" decoding="async"></div>
+  <span class="ns-title">Moana</span>
 </a>
-<a href="films/masters-of-the-universe.html" class="ns-poster-card" title="Masters Of The Universe - Bodmin, Falmouth, Helston">
-  <div class="ns-poster-wrap"><img src="https://image.tmdb.org/t/p/w500/3YMd9Ogae4rDKLWuAZFuse9xhc5.jpg" alt="Masters Of The Universe" loading="lazy" decoding="async"></div>
-  <span class="ns-title">Masters Of The Universe</span>
+<a href="films/spider-man-brand-new-day.html" class="ns-poster-card" title="Spider-Man: Brand New Day - Bodmin, Falmouth, Helston">
+  <div class="ns-poster-wrap"><img src="https://image.tmdb.org/t/p/w500/iPOn6DinuVyLY17YM9mKuPofV08.jpg" alt="Spider-Man: Brand New Day" loading="lazy" decoding="async"></div>
+  <span class="ns-title">Spider-Man: Brand New Day</span>
 </a>
-<a href="films/michael.html" class="ns-poster-card" title="Michael - Bodmin, Falmouth, Penzance">
-  <div class="ns-poster-wrap"><img src="https://image.tmdb.org/t/p/w500/3Qud19bBUrrJAzy0Ilm8gRJlJXP.jpg" alt="Michael" loading="lazy" decoding="async"></div>
-  <span class="ns-title">Michael</span>
+<a href="films/the-odyssey.html" class="ns-poster-card" title="The Odyssey - Bodmin, Falmouth, Helston">
+  <div class="ns-poster-wrap"><img src="https://image.tmdb.org/t/p/w500/5rhTDKUhPYvpdQIijFIs5VoWsON.jpg" alt="The Odyssey" loading="lazy" decoding="async"></div>
+  <span class="ns-title">The Odyssey</span>
 </a>
-<a href="films/obsession.html" class="ns-poster-card" title="Obsession - Bodmin, Falmouth, Penzance">
-  <div class="ns-poster-wrap"><img src="https://image.tmdb.org/t/p/w500/6X4qFYBsG3bpWDG2XIKqr04kFJa.jpg" alt="Obsession" loading="lazy" decoding="async"></div>
-  <span class="ns-title">Obsession</span>
+<a href="films/toy-story-5.html" class="ns-poster-card" title="Toy Story 5 - Bodmin, Falmouth, Helston">
+  <div class="ns-poster-wrap"><img src="https://image.tmdb.org/t/p/w500/sfQtVlIHljToOwYjhe21KPGzZWK.jpg" alt="Toy Story 5" loading="lazy" decoding="async"></div>
+  <span class="ns-title">Toy Story 5</span>
 </a>
-<a href="films/riverdance-25th-anniversary-show.html" class="ns-poster-card" title="Riverdance - 25th Anniversary Show - Bodmin, Penzance, Redruth">
-  <div class="ns-poster-wrap"><img src="https://image.tmdb.org/t/p/w500/i6TRDlVuuEXMyLSlIkDd8YhBN0r.jpg" alt="Riverdance - 25th Anniversary Show" loading="lazy" decoding="async"></div>
-  <span class="ns-title">Riverdance - 25th Anniversary Show</span>
+<a href="films/minions-monsters.html" class="ns-poster-card" title="Minions &amp; Monsters - Bodmin, Falmouth, Helston">
+  <div class="ns-poster-wrap"><img src="https://image.tmdb.org/t/p/w500/nz7i42yhLIJ4ve9JKgM6NthoLHO.jpg" alt="Minions &amp; Monsters" loading="lazy" decoding="async"></div>
+  <span class="ns-title">Minions &amp; Monsters</span>
 </a>
-<a href="films/rose-of-nevada.html" class="ns-poster-card" title="Rose Of Nevada - St Ives">
-  <div class="ns-poster-wrap"><img src="https://image.tmdb.org/t/p/w500/rqHgjvD5HV0ojj4CEV31ztertPK.jpg" alt="Rose Of Nevada" loading="lazy" decoding="async"></div>
-  <span class="ns-title">Rose Of Nevada</span>
+<a href="films/paw-patrol-the-dino-movie-preview-in-aid-of-medicinema.html" class="ns-poster-card" title="PAW Patrol: The Dino Movie - Bodmin, Falmouth, Penzance">
+  <div class="ns-poster-wrap"><img src="https://image.tmdb.org/t/p/w500/mVx2O7ikolw0lQC3XEIM4C2uYwd.jpg" alt="PAW Patrol: The Dino Movie" loading="lazy" decoding="async"></div>
+  <span class="ns-title">PAW Patrol: The Dino Movie</span>
 </a>
-<a href="films/scary-movie.html" class="ns-poster-card" title="Scary Movie - Bodmin, Falmouth, Helston">
-  <div class="ns-poster-wrap"><img src="https://image.tmdb.org/t/p/w500/2OHkZEqQL4OjYXIqWopJu0BijTD.jpg" alt="Scary Movie" loading="lazy" decoding="async"></div>
-  <span class="ns-title">Scary Movie</span>
-</a>
-<a href="films/star-wars-the-mandalorian-and-grogu.html" class="ns-poster-card" title="Star Wars: The Mandalorian And Grogu - Bodmin, Falmouth, Helston">
-  <div class="ns-poster-wrap"><img src="https://image.tmdb.org/t/p/w500/5Vi8dSauVwH1HOsiZceDMbRr1Ca.jpg" alt="Star Wars: The Mandalorian And Grogu" loading="lazy" decoding="async"></div>
-  <span class="ns-title">Star Wars: The Mandalorian And Grogu</span>
-</a>
-<a href="films/the-amazing-digital-circus-the-last-act.html" class="ns-poster-card" title="The Amazing Digital Circus: The Last Act - Bodmin, Falmouth, Penzance">
-  <div class="ns-poster-wrap"><img src="https://image.tmdb.org/t/p/w500/uoZeXWuUS2z2F7VaC1iS5RS5cnk.jpg" alt="The Amazing Digital Circus: The Last Act" loading="lazy" decoding="async"></div>
-  <span class="ns-title">The Amazing Digital Circus: The Last Act</span>
-</a>
-<a href="films/the-devil-wears-prada-2.html" class="ns-poster-card" title="The Devil Wears Prada 2 - Bodmin, Falmouth, Penzance">
-  <div class="ns-poster-wrap"><img src="https://image.tmdb.org/t/p/w500/xTI42pmsP5EDnvsNJPEDubwWBQO.jpg" alt="The Devil Wears Prada 2" loading="lazy" decoding="async"></div>
-  <span class="ns-title">The Devil Wears Prada 2</span>
-</a>
-<a href="films/disclosure-day.html" class="ns-poster-card" title="Disclosure Day - Bodmin, Falmouth, Helston">
-  <div class="ns-poster-wrap"><img src="https://image.tmdb.org/t/p/w500/3o5YPjDGDTcTDL5ftDA9NwN9dLd.jpg" alt="Disclosure Day" loading="lazy" decoding="async"></div>
-  <span class="ns-title">Disclosure Day</span>
-</a>
-<a href="films/the-sheep-detectives.html" class="ns-poster-card" title="The Sheep Detectives - Bodmin, Falmouth, Helston">
-  <div class="ns-poster-wrap"><img src="https://image.tmdb.org/t/p/w500/hTirV44jiLh6NqdiB6jtxPsDIoG.jpg" alt="The Sheep Detectives" loading="lazy" decoding="async"></div>
-  <span class="ns-title">The Sheep Detectives</span>
-</a>
-<a href="films/penzance-comedy-club-with-russell-kane.html" class="ns-poster-card" title="Penzance Comedy Club with Russell Kane - Penzance">
-  <div class="ns-poster-wrap"><img src="https://www.merlincinemas.co.uk/media/film_images/106013/fffc44cd2d4c8939b6813ea1fed2598d.jpg" alt="Penzance Comedy Club with Russell Kane" loading="lazy" decoding="async"></div>
-  <span class="ns-title">Penzance Comedy Club with Russell Kane</span>
-</a>
-<a href="films/redruth-comedy-club-with-russell-kane.html" class="ns-poster-card" title="Redruth Comedy Club with Russell Kane - Redruth">
-  <div class="ns-poster-wrap"><img src="https://www.merlincinemas.co.uk/media/film_images/106010/4fc7f0ada5bc3bfecf79739df96175a8.jpg" alt="Redruth Comedy Club with Russell Kane" loading="lazy" decoding="async"></div>
-  <span class="ns-title">Redruth Comedy Club with Russell Kane</span>
-</a>
-<a href="films/the-adventures-of-priscilla-queen-of-the-desert.html" class="ns-poster-card" title="The Adventures of Priscilla, Queen of the Desert - Redruth">
-  <div class="ns-poster-wrap"><img src="https://www.merlincinemas.co.uk/media/film_images/110934/78b2485368a5f9ba6c04a53a5f83f0df.jpg" alt="The Adventures of Priscilla, Queen of the Desert" loading="lazy" decoding="async"></div>
-  <span class="ns-title">The Adventures of Priscilla, Queen of the Desert</span>
-</a>
-<a href="films/biglove-presents-a-night-on-wax-funk-disco-soul-motown.html" class="ns-poster-card" title="BIGLOVE presents... A Night On Wax! Funk, Disco, Soul, Motown - Penzance">
-  <div class="ns-poster-wrap"><img src="https://www.merlincinemas.co.uk/media/film_images/107775/d406e30735399919b36c20935dd82b0d.jpg" alt="BIGLOVE presents... A Night On Wax! Funk, Disco, Soul, Motown" loading="lazy" decoding="async"></div>
-  <span class="ns-title">BIGLOVE presents... A Night On Wax! Funk, Disco, Soul, Motown</span>
-</a>
-<a href="films/the-magic-faraway-tree.html" class="ns-poster-card" title="The Magic Faraway Tree - Falmouth, Redruth">
-  <div class="ns-poster-wrap"><img src="https://image.tmdb.org/t/p/w500/udXvLxC5gAqN8SinemyFBEcHpTf.jpg" alt="The Magic Faraway Tree" loading="lazy" decoding="async"></div>
-  <span class="ns-title">The Magic Faraway Tree</span>
-</a>
-<a href="films/the-super-mario-galaxy-movie.html" class="ns-poster-card" title="The Super Mario Galaxy Movie - Falmouth, Redruth">
+<a href="films/the-super-mario-galaxy-movie.html" class="ns-poster-card" title="The Super Mario Galaxy Movie - Bodmin, Penzance, Redruth">
   <div class="ns-poster-wrap"><img src="https://image.tmdb.org/t/p/w500/eJGWx219ZcEMVQJhAgMiqo8tYY.jpg" alt="The Super Mario Galaxy Movie" loading="lazy" decoding="async"></div>
   <span class="ns-title">The Super Mario Galaxy Movie</span>
 </a>
-<a href="films/our-land.html" class="ns-poster-card" title="Our Land - Falmouth, Penzance, Redruth">
-  <div class="ns-poster-wrap"><img src="https://image.tmdb.org/t/p/w500/cZRLNNdUahZgs2NccHxfr3ZasrH.jpg" alt="Our Land" loading="lazy" decoding="async"></div>
-  <span class="ns-title">Our Land</span>
+<a href="films/kpop-live-the-theatre-show.html" class="ns-poster-card" title="KPOP Live the Theatre Show - Penzance">
+  <div class="ns-poster-wrap"><img src="https://www.merlincinemas.co.uk/media/film_images/106160/059aaa07fa011351c79a1ac3b3e657c5.jpg" alt="KPOP Live the Theatre Show" loading="lazy" decoding="async"></div>
+  <span class="ns-title">KPOP Live the Theatre Show</span>
 </a>
-<a href="films/les-liaisons-dangereuses.html" class="ns-poster-card" title="Les Liaisons Dangereuses - Bodmin, Falmouth, Helston">
-  <div class="ns-poster-wrap"><img src="https://image.tmdb.org/t/p/w500/lCMzzD5XZbp2IL2dY6tbtEuX3JB.jpg" alt="Les Liaisons Dangereuses" loading="lazy" decoding="async"></div>
-  <span class="ns-title">Les Liaisons Dangereuses</span>
+<a href="films/paw-patrol-the-dino-movie.html" class="ns-poster-card" title="PAW Patrol: The Dino Movie - Bodmin, Falmouth, Penzance">
+  <div class="ns-poster-wrap"><img src="https://image.tmdb.org/t/p/w500/mVx2O7ikolw0lQC3XEIM4C2uYwd.jpg" alt="PAW Patrol: The Dino Movie" loading="lazy" decoding="async"></div>
+  <span class="ns-title">PAW Patrol: The Dino Movie</span>
+</a>
+<a href="films/uk-premiere-of-before-the-last-octopus.html" class="ns-poster-card" title="Untold UK: Vinnie Jones - Penzance">
+  <div class="ns-poster-wrap"><img src="https://image.tmdb.org/t/p/w500/AilC78z0a3wg0mBpBpurqjWCTxZ.jpg" alt="Untold UK: Vinnie Jones" loading="lazy" decoding="async"></div>
+  <span class="ns-title">Untold UK: Vinnie Jones</span>
+</a>
+<a href="films/the-playboy-of-the-western-world.html" class="ns-poster-card" title="The Playboy of the Western World - Bodmin, Falmouth, Redruth">
+  <div class="ns-poster-wrap"><img src="https://www.merlincinemas.co.uk/media/film_images/105661/3683510d84425737ce112e4cb53ac186.jpg" alt="The Playboy of the Western World" loading="lazy" decoding="async"></div>
+  <span class="ns-title">The Playboy of the Western World</span>
 </a>
 <a href="films/the-misanthrope.html" class="ns-poster-card" title="The Misanthrope - Bodmin, Falmouth, Helston">
   <div class="ns-poster-wrap"><img src="https://image.tmdb.org/t/p/w500/ju8DRMBUnDOxpnIj47hsZasBSt1.jpg" alt="The Misanthrope" loading="lazy" decoding="async"></div>
@@ -364,147 +107,102 @@ footer a:hover{color:var(--purple)}
   <div class="ns-poster-wrap"><img src="https://www.merlincinemas.co.uk/media/film_images/110362/9e5a6294e7512c8b8d93a00e63084f8d.jpg" alt="MET Opera - Macbeth" loading="lazy" decoding="async"></div>
   <span class="ns-title">MET Opera - Macbeth</span>
 </a>
-<a href="films/the-royal-ballet-manon.html" class="ns-poster-card" title="The Royal Ballet - Manon - Bodmin, Falmouth, Penzance">
-  <div class="ns-poster-wrap"><img src="https://www.merlincinemas.co.uk/media/film_images/110363/cd21866cc48792a5e85996f7d7d5ccbd.jpg" alt="The Royal Ballet - Manon" loading="lazy" decoding="async"></div>
-  <span class="ns-title">The Royal Ballet - Manon</span>
+<a href="films/the-royal-ballet-manon.html" class="ns-poster-card" title="The Royal Ballet: Manon - Bodmin, Falmouth, Penzance">
+  <div class="ns-poster-wrap"><img src="https://www.merlincinemas.co.uk/media/film_images/110363/cd21866cc48792a5e85996f7d7d5ccbd.jpg" alt="The Royal Ballet: Manon" loading="lazy" decoding="async"></div>
+  <span class="ns-title">The Royal Ballet: Manon</span>
 </a>
-<a href="films/the-royal-opera-carmen.html" class="ns-poster-card" title="The Royal Opera - Carmen - Bodmin, Falmouth, Penzance">
-  <div class="ns-poster-wrap"><img src="https://image.tmdb.org/t/p/w500/UhXsQRwE0eqTW5E95DKHZZj3aZ.jpg" alt="The Royal Opera - Carmen" loading="lazy" decoding="async"></div>
-  <span class="ns-title">The Royal Opera - Carmen</span>
+<a href="films/the-royal-opera-carmen.html" class="ns-poster-card" title="Royal Ballet &amp; Opera 2026/27: Carmen - Bodmin, Falmouth, Penzance">
+  <div class="ns-poster-wrap"><img src="https://image.tmdb.org/t/p/w500/UhXsQRwE0eqTW5E95DKHZZj3aZ.jpg" alt="Royal Ballet &amp; Opera 2026/27: Carmen" loading="lazy" decoding="async"></div>
+  <span class="ns-title">Royal Ballet &amp; Opera 2026/27: Carmen</span>
 </a>
-<a href="films/the-royal-ballet-the-nutcracker.html" class="ns-poster-card" title="The Royal Ballet - The Nutcracker - Bodmin, Falmouth, Penzance">
-  <div class="ns-poster-wrap"><img src="https://image.tmdb.org/t/p/w500/5kY8I4KpfVGQrCxiBDxZIt0cVsz.jpg" alt="The Royal Ballet - The Nutcracker" loading="lazy" decoding="async"></div>
-  <span class="ns-title">The Royal Ballet - The Nutcracker</span>
+<a href="films/the-royal-ballet-the-nutcracker.html" class="ns-poster-card" title="The Royal Ballet: The Nutcracker - Bodmin, Falmouth, Penzance">
+  <div class="ns-poster-wrap"><img src="https://image.tmdb.org/t/p/w500/5kY8I4KpfVGQrCxiBDxZIt0cVsz.jpg" alt="The Royal Ballet: The Nutcracker" loading="lazy" decoding="async"></div>
+  <span class="ns-title">The Royal Ballet: The Nutcracker</span>
 </a>
 <a href="films/met-opera-la-fanciulla-del-west.html" class="ns-poster-card" title="MET Opera - La Fanciulla Del West - Bodmin, Falmouth, Penzance">
   <div class="ns-poster-wrap"><img src="https://www.merlincinemas.co.uk/media/film_images/110366/940792963691b25427778ddf66f39ee2.jpg" alt="MET Opera - La Fanciulla Del West" loading="lazy" decoding="async"></div>
   <span class="ns-title">MET Opera - La Fanciulla Del West</span>
 </a>
-<a href="films/the-royal-opera-g-tterd-mmerung.html" class="ns-poster-card" title="The Royal Opera - Götterdämmerung - Bodmin, Falmouth, Redruth">
-  <div class="ns-poster-wrap"><img src="https://image.tmdb.org/t/p/w500/eXARNiz2CtVPnPFQEv1hD42r4Hh.jpg" alt="The Royal Opera - Götterdämmerung" loading="lazy" decoding="async"></div>
-  <span class="ns-title">The Royal Opera - Götterdämmerung</span>
+<a href="films/the-royal-opera-g-tterd-mmerung.html" class="ns-poster-card" title="Royal Ballet &amp; Opera 2026/27: Götterdämmerung - Bodmin, Falmouth, Redruth">
+  <div class="ns-poster-wrap"><img src="https://image.tmdb.org/t/p/w500/eXARNiz2CtVPnPFQEv1hD42r4Hh.jpg" alt="Royal Ballet &amp; Opera 2026/27: Götterdämmerung" loading="lazy" decoding="async"></div>
+  <span class="ns-title">Royal Ballet &amp; Opera 2026/27: Götterdämmerung</span>
 </a>
-<a href="films/the-royal-opera-cos-fan-tutte.html" class="ns-poster-card" title="The Royal Opera - Così Fan Tutte - Bodmin, Falmouth, Penzance">
-  <div class="ns-poster-wrap"><img src="https://image.tmdb.org/t/p/w500/jll3LbWdct2yykgP9bxjb0vZ44w.jpg" alt="The Royal Opera - Così Fan Tutte" loading="lazy" decoding="async"></div>
-  <span class="ns-title">The Royal Opera - Così Fan Tutte</span>
+<a href="films/the-royal-opera-cos-fan-tutte.html" class="ns-poster-card" title="Royal Ballet &amp; Opera 2026/27: Così fan tutte - Bodmin, Falmouth, Penzance">
+  <div class="ns-poster-wrap"><img src="https://image.tmdb.org/t/p/w500/jll3LbWdct2yykgP9bxjb0vZ44w.jpg" alt="Royal Ballet &amp; Opera 2026/27: Così fan tutte" loading="lazy" decoding="async"></div>
+  <span class="ns-title">Royal Ballet &amp; Opera 2026/27: Così fan tutte</span>
 </a>
-<a href="films/the-royal-ballet-alice-s-adventures-in-wonderland.html" class="ns-poster-card" title="The Royal Ballet - Alice&#x27;s Adventures In Wonderland - Bodmin, Falmouth, Penzance">
-  <div class="ns-poster-wrap"><img src="https://image.tmdb.org/t/p/w500/5objvLeZTI5oBGHeu5D2hG0EksB.jpg" alt="The Royal Ballet - Alice&#x27;s Adventures In Wonderland" loading="lazy" decoding="async"></div>
-  <span class="ns-title">The Royal Ballet - Alice&#x27;s Adventures In Wonderland</span>
+<a href="films/the-royal-ballet-alice-s-adventures-in-wonderland.html" class="ns-poster-card" title="Royal Ballet &amp; Opera 2026/27: Alice&#x27;s Adventures in Wonderland - Bodmin, Falmouth, Penzance">
+  <div class="ns-poster-wrap"><img src="https://image.tmdb.org/t/p/w500/5objvLeZTI5oBGHeu5D2hG0EksB.jpg" alt="Royal Ballet &amp; Opera 2026/27: Alice&#x27;s Adventures in Wonderland" loading="lazy" decoding="async"></div>
+  <span class="ns-title">Royal Ballet &amp; Opera 2026/27: Alice&#x27;s Adventures in Wonderland</span>
 </a>
-<a href="films/the-royal-ballet-swan-lake.html" class="ns-poster-card" title="The Royal Ballet - Swan Lake - Bodmin, Falmouth, Penzance">
-  <div class="ns-poster-wrap"><img src="https://image.tmdb.org/t/p/w500/tvIvY8pAxET9ysTShX2lVnsBCL5.jpg" alt="The Royal Ballet - Swan Lake" loading="lazy" decoding="async"></div>
-  <span class="ns-title">The Royal Ballet - Swan Lake</span>
+<a href="films/the-royal-ballet-swan-lake.html" class="ns-poster-card" title="The Royal Ballet: Swan Lake - Bodmin, Falmouth, Penzance">
+  <div class="ns-poster-wrap"><img src="https://image.tmdb.org/t/p/w500/tvIvY8pAxET9ysTShX2lVnsBCL5.jpg" alt="The Royal Ballet: Swan Lake" loading="lazy" decoding="async"></div>
+  <span class="ns-title">The Royal Ballet: Swan Lake</span>
 </a>
-<a href="films/the-royal-opera-tosca.html" class="ns-poster-card" title="The Royal Opera - Tosca - Bodmin, Falmouth, Penzance">
-  <div class="ns-poster-wrap"><img src="https://image.tmdb.org/t/p/w500/2oGW2AfBeG9AArHLplp0Y7cTwj1.jpg" alt="The Royal Opera - Tosca" loading="lazy" decoding="async"></div>
-  <span class="ns-title">The Royal Opera - Tosca</span>
+<a href="films/the-royal-opera-tosca.html" class="ns-poster-card" title="Royal Ballet &amp; Opera 2025/26: Tosca - Bodmin, Falmouth, Penzance">
+  <div class="ns-poster-wrap"><img src="https://image.tmdb.org/t/p/w500/2oGW2AfBeG9AArHLplp0Y7cTwj1.jpg" alt="Royal Ballet &amp; Opera 2025/26: Tosca" loading="lazy" decoding="async"></div>
+  <span class="ns-title">Royal Ballet &amp; Opera 2025/26: Tosca</span>
 </a>
-<a href="films/the-royal-ballet-romeo-juliet.html" class="ns-poster-card" title="The Royal Ballet - Romeo &amp; Juliet - Bodmin, Falmouth, Penzance">
-  <div class="ns-poster-wrap"><img src="https://image.tmdb.org/t/p/w500/AqSVnFLayKhOqhLFwx3kRqX6Glu.jpg" alt="The Royal Ballet - Romeo &amp; Juliet" loading="lazy" decoding="async"></div>
-  <span class="ns-title">The Royal Ballet - Romeo &amp; Juliet</span>
+<a href="films/the-royal-ballet-romeo-juliet.html" class="ns-poster-card" title="The Royal Ballet: Romeo and Juliet - Bodmin, Falmouth, Penzance">
+  <div class="ns-poster-wrap"><img src="https://image.tmdb.org/t/p/w500/AqSVnFLayKhOqhLFwx3kRqX6Glu.jpg" alt="The Royal Ballet: Romeo and Juliet" loading="lazy" decoding="async"></div>
+  <span class="ns-title">The Royal Ballet: Romeo and Juliet</span>
 </a>
       </div>
       <div class="ns-list-grid" style="display:none">
-<a href="films/backrooms.html" class="ns-list-card">
-  <span class="ns-list-title">Backrooms</span>
+<a href="films/moana.html" class="ns-list-card">
+  <span class="ns-list-title">Moana</span>
   <span class="ns-list-cinemas">Bodmin, Falmouth, Helston</span>
-  <span class="ns-list-next">Tue 09 Jun 20:00</span>
+  <span class="ns-list-next">Fri 31 Jul 16:50</span>
 </a>
-<a href="films/masters-of-the-universe.html" class="ns-list-card">
-  <span class="ns-list-title">Masters Of The Universe</span>
+<a href="films/spider-man-brand-new-day.html" class="ns-list-card">
+  <span class="ns-list-title">Spider-Man: Brand New Day</span>
   <span class="ns-list-cinemas">Bodmin, Falmouth, Helston</span>
-  <span class="ns-list-next">Tue 09 Jun 16:30</span>
+  <span class="ns-list-next">Fri 31 Jul 16:30</span>
 </a>
-<a href="films/michael.html" class="ns-list-card">
-  <span class="ns-list-title">Michael</span>
+<a href="films/the-odyssey.html" class="ns-list-card">
+  <span class="ns-list-title">The Odyssey</span>
+  <span class="ns-list-cinemas">Bodmin, Falmouth, Helston</span>
+  <span class="ns-list-next">Fri 31 Jul 19:30</span>
+</a>
+<a href="films/toy-story-5.html" class="ns-list-card">
+  <span class="ns-list-title">Toy Story 5</span>
+  <span class="ns-list-cinemas">Bodmin, Falmouth, Helston</span>
+  <span class="ns-list-next">Sat 01 Aug 13:00</span>
+</a>
+<a href="films/minions-monsters.html" class="ns-list-card">
+  <span class="ns-list-title">Minions &amp; Monsters</span>
+  <span class="ns-list-cinemas">Bodmin, Falmouth, Helston</span>
+  <span class="ns-list-next">Sun 02 Aug 11:00</span>
+</a>
+<a href="films/paw-patrol-the-dino-movie-preview-in-aid-of-medicinema.html" class="ns-list-card">
+  <span class="ns-list-title">PAW Patrol: The Dino Movie</span>
   <span class="ns-list-cinemas">Bodmin, Falmouth, Penzance</span>
-  <span class="ns-list-next">Tue 09 Jun 17:00</span>
-</a>
-<a href="films/obsession.html" class="ns-list-card">
-  <span class="ns-list-title">Obsession</span>
-  <span class="ns-list-cinemas">Bodmin, Falmouth, Penzance</span>
-  <span class="ns-list-next">Fri 12 Jun 17:00</span>
-</a>
-<a href="films/riverdance-25th-anniversary-show.html" class="ns-list-card">
-  <span class="ns-list-title">Riverdance - 25th Anniversary Show</span>
-  <span class="ns-list-cinemas">Bodmin, Penzance, Redruth</span>
-  <span class="ns-list-next">Tue 09 Jun 19:00</span>
-</a>
-<a href="films/rose-of-nevada.html" class="ns-list-card">
-  <span class="ns-list-title">Rose Of Nevada</span>
-  <span class="ns-list-cinemas">St Ives</span>
-  <span class="ns-list-next">Tue 09 Jun 17:20</span>
-</a>
-<a href="films/scary-movie.html" class="ns-list-card">
-  <span class="ns-list-title">Scary Movie</span>
-  <span class="ns-list-cinemas">Bodmin, Falmouth, Helston</span>
-  <span class="ns-list-next">Fri 12 Jun 20:00</span>
-</a>
-<a href="films/star-wars-the-mandalorian-and-grogu.html" class="ns-list-card">
-  <span class="ns-list-title">Star Wars: The Mandalorian And Grogu</span>
-  <span class="ns-list-cinemas">Bodmin, Falmouth, Helston</span>
-  <span class="ns-list-next">Tue 09 Jun 17:00</span>
-</a>
-<a href="films/the-amazing-digital-circus-the-last-act.html" class="ns-list-card">
-  <span class="ns-list-title">The Amazing Digital Circus: The Last Act</span>
-  <span class="ns-list-cinemas">Bodmin, Falmouth, Penzance</span>
-  <span class="ns-list-next">Thu 11 Jun 17:15</span>
-</a>
-<a href="films/the-devil-wears-prada-2.html" class="ns-list-card">
-  <span class="ns-list-title">The Devil Wears Prada 2</span>
-  <span class="ns-list-cinemas">Bodmin, Falmouth, Penzance</span>
-  <span class="ns-list-next">Mon 15 Jun 17:15</span>
-</a>
-<a href="films/disclosure-day.html" class="ns-list-card">
-  <span class="ns-list-title">Disclosure Day</span>
-  <span class="ns-list-cinemas">Bodmin, Falmouth, Helston</span>
-  <span class="ns-list-next">Wed 10 Jun 16:40</span>
-</a>
-<a href="films/the-sheep-detectives.html" class="ns-list-card">
-  <span class="ns-list-title">The Sheep Detectives</span>
-  <span class="ns-list-cinemas">Bodmin, Falmouth, Helston</span>
-  <span class="ns-list-next">Sat 13 Jun 12:15</span>
-</a>
-<a href="films/penzance-comedy-club-with-russell-kane.html" class="ns-list-card">
-  <span class="ns-list-title">Penzance Comedy Club with Russell Kane</span>
-  <span class="ns-list-cinemas">Penzance</span>
-  <span class="ns-list-next">Thu 11 Jun 19:30</span>
-</a>
-<a href="films/redruth-comedy-club-with-russell-kane.html" class="ns-list-card">
-  <span class="ns-list-title">Redruth Comedy Club with Russell Kane</span>
-  <span class="ns-list-cinemas">Redruth</span>
-  <span class="ns-list-next">Thu 11 Jun 20:00</span>
-</a>
-<a href="films/the-adventures-of-priscilla-queen-of-the-desert.html" class="ns-list-card">
-  <span class="ns-list-title">The Adventures of Priscilla, Queen of the Desert</span>
-  <span class="ns-list-cinemas">Redruth</span>
-  <span class="ns-list-next">Fri 12 Jun 19:00</span>
-</a>
-<a href="films/biglove-presents-a-night-on-wax-funk-disco-soul-motown.html" class="ns-list-card">
-  <span class="ns-list-title">BIGLOVE presents... A Night On Wax! Funk, Disco, Soul, Motown</span>
-  <span class="ns-list-cinemas">Penzance</span>
-  <span class="ns-list-next">Sat 13 Jun 20:00</span>
-</a>
-<a href="films/the-magic-faraway-tree.html" class="ns-list-card">
-  <span class="ns-list-title">The Magic Faraway Tree</span>
-  <span class="ns-list-cinemas">Falmouth, Redruth</span>
-  <span class="ns-list-next">Sat 13 Jun 12:30</span>
+  <span class="ns-list-next">Sun 02 Aug 11:00</span>
 </a>
 <a href="films/the-super-mario-galaxy-movie.html" class="ns-list-card">
   <span class="ns-list-title">The Super Mario Galaxy Movie</span>
-  <span class="ns-list-cinemas">Falmouth, Redruth</span>
-  <span class="ns-list-next">Sat 13 Jun 12:45</span>
+  <span class="ns-list-cinemas">Bodmin, Penzance, Redruth</span>
+  <span class="ns-list-next">Sun 02 Aug 10:30</span>
 </a>
-<a href="films/our-land.html" class="ns-list-card">
-  <span class="ns-list-title">Our Land</span>
-  <span class="ns-list-cinemas">Falmouth, Penzance, Redruth</span>
-  <span class="ns-list-next">Wed 24 Jun 19:30</span>
+<a href="films/kpop-live-the-theatre-show.html" class="ns-list-card">
+  <span class="ns-list-title">KPOP Live the Theatre Show</span>
+  <span class="ns-list-cinemas">Penzance</span>
+  <span class="ns-list-next">Mon 03 Aug 18:00</span>
 </a>
-<a href="films/les-liaisons-dangereuses.html" class="ns-list-card">
-  <span class="ns-list-title">Les Liaisons Dangereuses</span>
-  <span class="ns-list-cinemas">Bodmin, Falmouth, Helston</span>
-  <span class="ns-list-next">Thu 25 Jun 19:00</span>
+<a href="films/paw-patrol-the-dino-movie.html" class="ns-list-card">
+  <span class="ns-list-title">PAW Patrol: The Dino Movie</span>
+  <span class="ns-list-cinemas">Bodmin, Falmouth, Penzance</span>
+  <span class="ns-list-next">Tue 04 Aug 10:45</span>
+</a>
+<a href="films/uk-premiere-of-before-the-last-octopus.html" class="ns-list-card">
+  <span class="ns-list-title">Untold UK: Vinnie Jones</span>
+  <span class="ns-list-cinemas">Penzance</span>
+  <span class="ns-list-next">Wed 12 Aug 20:00</span>
+</a>
+<a href="films/the-playboy-of-the-western-world.html" class="ns-list-card">
+  <span class="ns-list-title">The Playboy of the Western World</span>
+  <span class="ns-list-cinemas">Bodmin, Falmouth, Redruth</span>
+  <span class="ns-list-next">Thu 20 Aug 19:15</span>
 </a>
 <a href="films/the-misanthrope.html" class="ns-list-card">
   <span class="ns-list-title">The Misanthrope</span>
@@ -517,17 +215,17 @@ footer a:hover{color:var(--purple)}
   <span class="ns-list-next">Tue 20 Oct 18:00</span>
 </a>
 <a href="films/the-royal-ballet-manon.html" class="ns-list-card">
-  <span class="ns-list-title">The Royal Ballet - Manon</span>
+  <span class="ns-list-title">The Royal Ballet: Manon</span>
   <span class="ns-list-cinemas">Bodmin, Falmouth, Penzance</span>
   <span class="ns-list-next">Tue 27 Oct 19:15</span>
 </a>
 <a href="films/the-royal-opera-carmen.html" class="ns-list-card">
-  <span class="ns-list-title">The Royal Opera - Carmen</span>
+  <span class="ns-list-title">Royal Ballet &amp; Opera 2026/27: Carmen</span>
   <span class="ns-list-cinemas">Bodmin, Falmouth, Penzance</span>
   <span class="ns-list-next">Tue 10 Nov 19:00</span>
 </a>
 <a href="films/the-royal-ballet-the-nutcracker.html" class="ns-list-card">
-  <span class="ns-list-title">The Royal Ballet - The Nutcracker</span>
+  <span class="ns-list-title">The Royal Ballet: The Nutcracker</span>
   <span class="ns-list-cinemas">Bodmin, Falmouth, Penzance</span>
   <span class="ns-list-next">Tue 01 Dec 19:15</span>
 </a>
@@ -537,32 +235,32 @@ footer a:hover{color:var(--purple)}
   <span class="ns-list-next">Tue 26 Jan 18:00</span>
 </a>
 <a href="films/the-royal-opera-g-tterd-mmerung.html" class="ns-list-card">
-  <span class="ns-list-title">The Royal Opera - Götterdämmerung</span>
+  <span class="ns-list-title">Royal Ballet &amp; Opera 2026/27: Götterdämmerung</span>
   <span class="ns-list-cinemas">Bodmin, Falmouth, Redruth</span>
   <span class="ns-list-next">Wed 03 Feb 16:45</span>
 </a>
 <a href="films/the-royal-opera-cos-fan-tutte.html" class="ns-list-card">
-  <span class="ns-list-title">The Royal Opera - Così Fan Tutte</span>
+  <span class="ns-list-title">Royal Ballet &amp; Opera 2026/27: Così fan tutte</span>
   <span class="ns-list-cinemas">Bodmin, Falmouth, Penzance</span>
   <span class="ns-list-next">Tue 23 Feb 18:45</span>
 </a>
 <a href="films/the-royal-ballet-alice-s-adventures-in-wonderland.html" class="ns-list-card">
-  <span class="ns-list-title">The Royal Ballet - Alice&#x27;s Adventures In Wonderland</span>
+  <span class="ns-list-title">Royal Ballet &amp; Opera 2026/27: Alice&#x27;s Adventures in Wonderland</span>
   <span class="ns-list-cinemas">Bodmin, Falmouth, Penzance</span>
   <span class="ns-list-next">Tue 23 Mar 19:15</span>
 </a>
 <a href="films/the-royal-ballet-swan-lake.html" class="ns-list-card">
-  <span class="ns-list-title">The Royal Ballet - Swan Lake</span>
+  <span class="ns-list-title">The Royal Ballet: Swan Lake</span>
   <span class="ns-list-cinemas">Bodmin, Falmouth, Penzance</span>
   <span class="ns-list-next">Thu 22 Apr 19:15</span>
 </a>
 <a href="films/the-royal-opera-tosca.html" class="ns-list-card">
-  <span class="ns-list-title">The Royal Opera - Tosca</span>
+  <span class="ns-list-title">Royal Ballet &amp; Opera 2025/26: Tosca</span>
   <span class="ns-list-cinemas">Bodmin, Falmouth, Penzance</span>
   <span class="ns-list-next">Wed 05 May 19:00</span>
 </a>
 <a href="films/the-royal-ballet-romeo-juliet.html" class="ns-list-card">
-  <span class="ns-list-title">The Royal Ballet - Romeo &amp; Juliet</span>
+  <span class="ns-list-title">The Royal Ballet: Romeo and Juliet</span>
   <span class="ns-list-cinemas">Bodmin, Falmouth, Penzance</span>
   <span class="ns-list-next">Tue 25 May 19:15</span>
 </a>
@@ -572,9 +270,9 @@ footer a:hover{color:var(--purple)}
     <section class="film-section" id="special-events">
       <div class="section-header"><h2>Special Events</h2><span class="count">14 events</span></div>
       <div class="ns-poster-grid">
-<a href="films/les-liaisons-dangereuses.html" class="ns-poster-card">
-  <div class="ns-poster-wrap"><img src="https://image.tmdb.org/t/p/w500/lCMzzD5XZbp2IL2dY6tbtEuX3JB.jpg"></div>
-  <span class="ns-title">Les Liaisons Dangereuses</span>
+<a href="films/the-playboy-of-the-western-world.html" class="ns-poster-card">
+  <div class="ns-poster-wrap"><img src="https://www.merlincinemas.co.uk/media/film_images/105661/3683510d84425737ce112e4cb53ac186.jpg"></div>
+  <span class="ns-title">The Playboy of the Western World</span>
   <span class="ns-event-tag nt-live">NT Live</span>
 </a>
 <a href="films/the-misanthrope.html" class="ns-poster-card">
@@ -582,9 +280,9 @@ footer a:hover{color:var(--purple)}
   <span class="ns-title">The Misanthrope</span>
   <span class="ns-event-tag nt-live">NT Live</span>
 </a>
-<a href="films/our-land.html" class="ns-poster-card">
-  <div class="ns-poster-wrap"><img src="https://image.tmdb.org/t/p/w500/cZRLNNdUahZgs2NccHxfr3ZasrH.jpg"></div>
-  <span class="ns-title">Our Land</span>
+<a href="films/uk-premiere-of-before-the-last-octopus.html" class="ns-poster-card">
+  <div class="ns-poster-wrap"><img src="https://image.tmdb.org/t/p/w500/AilC78z0a3wg0mBpBpurqjWCTxZ.jpg"></div>
+  <span class="ns-title">Untold UK: Vinnie Jones</span>
   <span class="ns-event-tag qa">Q&amp;A</span>
 </a>
 <a href="films/met-opera-macbeth.html" class="ns-poster-card">
@@ -594,17 +292,17 @@ footer a:hover{color:var(--purple)}
 </a>
 <a href="films/the-royal-ballet-manon.html" class="ns-poster-card">
   <div class="ns-poster-wrap"><img src="https://www.merlincinemas.co.uk/media/film_images/110363/cd21866cc48792a5e85996f7d7d5ccbd.jpg"></div>
-  <span class="ns-title">The Royal Ballet - Manon</span>
+  <span class="ns-title">The Royal Ballet: Manon</span>
   <span class="ns-event-tag rbo">RBO</span>
 </a>
 <a href="films/the-royal-opera-carmen.html" class="ns-poster-card">
   <div class="ns-poster-wrap"><img src="https://image.tmdb.org/t/p/w500/UhXsQRwE0eqTW5E95DKHZZj3aZ.jpg"></div>
-  <span class="ns-title">The Royal Opera - Carmen</span>
+  <span class="ns-title">Royal Ballet &amp; Opera 2026/27: Carmen</span>
   <span class="ns-event-tag rbo">RBO</span>
 </a>
 <a href="films/the-royal-ballet-the-nutcracker.html" class="ns-poster-card">
   <div class="ns-poster-wrap"><img src="https://image.tmdb.org/t/p/w500/5kY8I4KpfVGQrCxiBDxZIt0cVsz.jpg"></div>
-  <span class="ns-title">The Royal Ballet - The Nutcracker</span>
+  <span class="ns-title">The Royal Ballet: The Nutcracker</span>
   <span class="ns-event-tag rbo">RBO</span>
 </a>
 <a href="films/met-opera-la-fanciulla-del-west.html" class="ns-poster-card">
@@ -614,169 +312,59 @@ footer a:hover{color:var(--purple)}
 </a>
 <a href="films/the-royal-opera-g-tterd-mmerung.html" class="ns-poster-card">
   <div class="ns-poster-wrap"><img src="https://image.tmdb.org/t/p/w500/eXARNiz2CtVPnPFQEv1hD42r4Hh.jpg"></div>
-  <span class="ns-title">The Royal Opera - Götterdämmerung</span>
+  <span class="ns-title">Royal Ballet &amp; Opera 2026/27: Götterdämmerung</span>
   <span class="ns-event-tag rbo">RBO</span>
 </a>
 <a href="films/the-royal-opera-cos-fan-tutte.html" class="ns-poster-card">
   <div class="ns-poster-wrap"><img src="https://image.tmdb.org/t/p/w500/jll3LbWdct2yykgP9bxjb0vZ44w.jpg"></div>
-  <span class="ns-title">The Royal Opera - Così Fan Tutte</span>
+  <span class="ns-title">Royal Ballet &amp; Opera 2026/27: Così fan tutte</span>
   <span class="ns-event-tag rbo">RBO</span>
 </a>
 <a href="films/the-royal-ballet-alice-s-adventures-in-wonderland.html" class="ns-poster-card">
   <div class="ns-poster-wrap"><img src="https://image.tmdb.org/t/p/w500/5objvLeZTI5oBGHeu5D2hG0EksB.jpg"></div>
-  <span class="ns-title">The Royal Ballet - Alice&#x27;s Adventures In Wonderland</span>
+  <span class="ns-title">Royal Ballet &amp; Opera 2026/27: Alice&#x27;s Adventures in Wonderland</span>
   <span class="ns-event-tag rbo">RBO</span>
 </a>
 <a href="films/the-royal-ballet-swan-lake.html" class="ns-poster-card">
   <div class="ns-poster-wrap"><img src="https://image.tmdb.org/t/p/w500/tvIvY8pAxET9ysTShX2lVnsBCL5.jpg"></div>
-  <span class="ns-title">The Royal Ballet - Swan Lake</span>
+  <span class="ns-title">The Royal Ballet: Swan Lake</span>
   <span class="ns-event-tag rbo">RBO</span>
 </a>
 <a href="films/the-royal-opera-tosca.html" class="ns-poster-card">
   <div class="ns-poster-wrap"><img src="https://image.tmdb.org/t/p/w500/2oGW2AfBeG9AArHLplp0Y7cTwj1.jpg"></div>
-  <span class="ns-title">The Royal Opera - Tosca</span>
+  <span class="ns-title">Royal Ballet &amp; Opera 2025/26: Tosca</span>
   <span class="ns-event-tag rbo">RBO</span>
 </a>
 <a href="films/the-royal-ballet-romeo-juliet.html" class="ns-poster-card">
   <div class="ns-poster-wrap"><img src="https://image.tmdb.org/t/p/w500/AqSVnFLayKhOqhLFwx3kRqX6Glu.jpg"></div>
-  <span class="ns-title">The Royal Ballet - Romeo &amp; Juliet</span>
+  <span class="ns-title">The Royal Ballet: Romeo and Juliet</span>
   <span class="ns-event-tag rbo">RBO</span>
 </a>
       </div>
     </section>
 
     <section class="film-section" id="coming-soon">
-      <div class="section-header"><h2>Coming Soon</h2><div style="display:flex;align-items:center;gap:0.75rem"><span class="count">32 films</span><button type="button" id="view-toggle" class="view-toggle-btn">▦ Posters</button></div></div>
+      <div class="section-header"><h2>Coming Soon</h2><div style="display:flex;align-items:center;gap:0.75rem"><span class="count">38 films</span><button type="button" id="view-toggle" class="view-toggle-btn">▦ Posters</button></div></div>
       <div class="film-browse-grid">
-<article class="film-card-full" data-date="2026-06-25" data-cinemas="bodmin,falmouth,helston,penzance-ritz,redruth,st-ives">
-  <div class="fc-poster"><a href="films/supergirl.html"><img src="https://image.tmdb.org/t/p/w500/niSvU02l2BONH9ivubV6K1a5QiK.jpg" alt="" loading="lazy" decoding="async"></a></div>
+<article class="film-card-full" data-date="2026-08-02" data-cinemas="bodmin,falmouth,helston,penzance-ritz,redruth,st-ives">
+  <div class="fc-poster"><a href="films/pip-and-posy-s-cinema-show-toddler-cinema-charity-screening-for-cornwall-s-rspca.html"><div class="no-poster-sm">🎬</div></a></div>
   <div class="fc-info">
-    <h3><a href="films/supergirl.html">Supergirl</a></h3>
-    <div class="fc-meta">
-      <span class="cert cert--12a" title="12A"></span>
-      <span>1h 48min</span>
-      <span class="genres">Action, Adventure, Science Fiction</span>
-    </div>
-    <p class="fc-synopsis">When an unexpected and ruthless adversary strikes too close to home, Kara Zor-El, aka Supergirl, reluctantly joins forces with an unlikely companion on an epic, interstellar journey of vengeance and justice. <a href="films/supergirl.html">More →</a></p>
-    <div class="fc-showings">
-      <div class="showing-row"><span class="showing-date">Thu 25 Jun</span><span class="showing-cinemas"><a href="https://bodmin.merlincinemas.co.uk/film/supergirl" class="showing-cinema-link" target="_blank" rel="noopener">Bodmin</a> <a href="https://falmouth.merlincinemas.co.uk/film/supergirl" class="showing-cinema-link" target="_blank" rel="noopener">Falmouth</a> <a href="https://helston.merlincinemas.co.uk/film/supergirl" class="showing-cinema-link" target="_blank" rel="noopener">Helston</a> <a href="https://ritz.merlincinemas.co.uk/film/supergirl" class="showing-cinema-link" target="_blank" rel="noopener">Penzance</a> <a href="https://redruth.merlincinemas.co.uk/film/supergirl" class="showing-cinema-link" target="_blank" rel="noopener">Redruth</a> <a href="https://st-ives.merlincinemas.co.uk/film/supergirl" class="showing-cinema-link" target="_blank" rel="noopener">St Ives</a></span></div>    </div>
-  </div>
-</article>
-<article class="film-card-full" data-date="2026-06-26" data-cinemas="bodmin,falmouth,helston,penzance-ritz,redruth,st-ives">
-  <div class="fc-poster"><a href="films/jackass-best-and-last.html"><img src="https://image.tmdb.org/t/p/w500/tfgccePxnswMqhmtxafliLlcCVR.jpg" alt="" loading="lazy" decoding="async"></a></div>
-  <div class="fc-info">
-    <h3><a href="films/jackass-best-and-last.html">Jackass: Best And Last</a></h3>
-    <div class="fc-meta">
-      <span class="cert cert--18" title="18"></span>
-      <span>1h 44min</span>
-      <span class="genres">Action, Comedy, Documentary</span>
-    </div>
-    <p class="fc-synopsis">The 5th and final installment to Jackass franchise where the crew go on one last insane crusade. <a href="films/jackass-best-and-last.html">More →</a></p>
-    <div class="fc-showings">
-      <div class="showing-row"><span class="showing-date">Fri 26 Jun</span><span class="showing-cinemas"><a href="https://bodmin.merlincinemas.co.uk/film/jackass-best-and-last" class="showing-cinema-link" target="_blank" rel="noopener">Bodmin</a> <a href="https://falmouth.merlincinemas.co.uk/film/jackass-best-and-last" class="showing-cinema-link" target="_blank" rel="noopener">Falmouth</a> <a href="https://helston.merlincinemas.co.uk/film/jackass-best-and-last" class="showing-cinema-link" target="_blank" rel="noopener">Helston</a> <a href="https://ritz.merlincinemas.co.uk/film/jackass-best-and-last" class="showing-cinema-link" target="_blank" rel="noopener">Penzance</a> <a href="https://redruth.merlincinemas.co.uk/film/jackass-best-and-last" class="showing-cinema-link" target="_blank" rel="noopener">Redruth</a> <a href="https://st-ives.merlincinemas.co.uk/film/jackass-best-and-last" class="showing-cinema-link" target="_blank" rel="noopener">St Ives</a></span></div>    </div>
-  </div>
-</article>
-<article class="film-card-full" data-date="2026-06-26" data-cinemas="bodmin,falmouth,helston,penzance-ritz,redruth,st-ives">
-  <div class="fc-poster"><a href="films/500-miles.html"><img src="https://image.tmdb.org/t/p/w500/FhRosui9MSdxdyD3h0skOFhqED.jpg" alt="" loading="lazy" decoding="async"></a></div>
-  <div class="fc-info">
-    <h3><a href="films/500-miles.html">500 Miles</a></h3>
-    <div class="fc-meta">
-      <span class="cert cert--12a" title="12A"></span>
-      <span>1h 42min</span>
-      <span class="genres">Drama</span>
-    </div>
-    <p class="fc-synopsis">A broken family is forced to come together when 16-year-old Finn and his livewire younger brother Charlie run away from trouble at home in England to reach their estranged grandfather on Ireland’s stunning and wild west coast. <a href="films/500-miles.html">More →</a></p>
-    <div class="fc-showings">
-      <div class="showing-row"><span class="showing-date">Fri 26 Jun</span><span class="showing-cinemas"><a href="https://bodmin.merlincinemas.co.uk/film/500-miles" class="showing-cinema-link" target="_blank" rel="noopener">Bodmin</a> <a href="https://falmouth.merlincinemas.co.uk/film/500-miles" class="showing-cinema-link" target="_blank" rel="noopener">Falmouth</a> <a href="https://helston.merlincinemas.co.uk/film/500-miles" class="showing-cinema-link" target="_blank" rel="noopener">Helston</a> <a href="https://ritz.merlincinemas.co.uk/film/500-miles" class="showing-cinema-link" target="_blank" rel="noopener">Penzance</a> <a href="https://redruth.merlincinemas.co.uk/film/500-miles" class="showing-cinema-link" target="_blank" rel="noopener">Redruth</a> <a href="https://st-ives.merlincinemas.co.uk/film/500-miles" class="showing-cinema-link" target="_blank" rel="noopener">St Ives</a></span></div>    </div>
-  </div>
-</article>
-<article class="film-card-full" data-date="2026-07-01" data-cinemas="bodmin,falmouth,helston,penzance-ritz,redruth,st-ives">
-  <div class="fc-poster"><a href="films/minions-monsters.html"><img src="https://image.tmdb.org/t/p/w500/nz7i42yhLIJ4ve9JKgM6NthoLHO.jpg" alt="" loading="lazy" decoding="async"></a></div>
-  <div class="fc-info">
-    <h3><a href="films/minions-monsters.html">Minions &amp; Monsters</a></h3>
+    <h3><a href="films/pip-and-posy-s-cinema-show-toddler-cinema-charity-screening-for-cornwall-s-rspca.html">Pip And Posy&#x27;s Cinema Show Toddler Cinema Charity Screening for Cornwall&#x27;s RSPCA</a></h3>
     <div class="fc-meta">
       <span class="cert cert--u" title="U"></span>
-      <span>1h 30min</span>
-      <span class="genres">Adventure, Animation, Comedy</span>
     </div>
-    <p class="fc-synopsis">This is the rambunctious, ridiculous and totally true story of how the Minions conquered Hollywood, became movie stars, lost everything, unleashed monsters onto the world and then banded together to try and save the planet from the mayhem they had just created. <a href="films/minions-monsters.html">More →</a></p>
     <div class="fc-showings">
-      <div class="showing-row"><span class="showing-date">Wed 01 Jul</span><span class="showing-cinemas"><a href="https://bodmin.merlincinemas.co.uk/film/minions-monsters" class="showing-cinema-link" target="_blank" rel="noopener">Bodmin</a> <a href="https://falmouth.merlincinemas.co.uk/film/minions-monsters" class="showing-cinema-link" target="_blank" rel="noopener">Falmouth</a> <a href="https://helston.merlincinemas.co.uk/film/minions-monsters" class="showing-cinema-link" target="_blank" rel="noopener">Helston</a> <a href="https://ritz.merlincinemas.co.uk/film/minions-monsters" class="showing-cinema-link" target="_blank" rel="noopener">Penzance</a> <a href="https://redruth.merlincinemas.co.uk/film/minions-monsters" class="showing-cinema-link" target="_blank" rel="noopener">Redruth</a> <a href="https://st-ives.merlincinemas.co.uk/film/minions-monsters" class="showing-cinema-link" target="_blank" rel="noopener">St Ives</a></span></div>    </div>
-  </div>
-</article>
-<article class="film-card-full" data-date="2026-07-10" data-cinemas="bodmin,falmouth,helston,penzance-ritz,redruth,st-ives">
-  <div class="fc-poster"><a href="films/evil-dead-burn.html"><img src="https://image.tmdb.org/t/p/w500/ztadKzIIR0ERYqpHteaPFtk7inP.jpg" alt="" loading="lazy" decoding="async"></a></div>
-  <div class="fc-info">
-    <h3><a href="films/evil-dead-burn.html">Evil Dead Burn</a></h3>
-    <div class="fc-meta">
-      <span class="cert cert--18" title="18"></span>
-      <span class="genres">Horror</span>
-    </div>
-    <p class="fc-synopsis">After the loss of her husband, a woman seeks solace with her in-laws in their secluded family home. As one by one they are transformed into Deadites—turning the gathering into a family reunion from hell—she comes to discover that the vows she took in life... live on even in death <a href="films/evil-dead-burn.html">More →</a></p>
-    <div class="fc-showings">
-      <div class="showing-row"><span class="showing-date">Fri 10 Jul</span><span class="showing-cinemas"><a href="https://bodmin.merlincinemas.co.uk/film/evil-dead-burn" class="showing-cinema-link" target="_blank" rel="noopener">Bodmin</a> <a href="https://falmouth.merlincinemas.co.uk/film/evil-dead-burn" class="showing-cinema-link" target="_blank" rel="noopener">Falmouth</a> <a href="https://helston.merlincinemas.co.uk/film/evil-dead-burn" class="showing-cinema-link" target="_blank" rel="noopener">Helston</a> <a href="https://ritz.merlincinemas.co.uk/film/evil-dead-burn" class="showing-cinema-link" target="_blank" rel="noopener">Penzance</a> <a href="https://redruth.merlincinemas.co.uk/film/evil-dead-burn" class="showing-cinema-link" target="_blank" rel="noopener">Redruth</a> <a href="https://st-ives.merlincinemas.co.uk/film/evil-dead-burn" class="showing-cinema-link" target="_blank" rel="noopener">St Ives</a></span></div>    </div>
-  </div>
-</article>
-<article class="film-card-full" data-date="2026-07-10" data-cinemas="bodmin,falmouth,helston,penzance-ritz,redruth,st-ives">
-  <div class="fc-poster"><a href="films/moana.html"><img src="https://image.tmdb.org/t/p/w500/zKVgiv5qHCvCLT4A2ymJi5QeXDH.jpg" alt="" loading="lazy" decoding="async"></a></div>
-  <div class="fc-info">
-    <h3><a href="films/moana.html">Moana</a></h3>
-    <div class="fc-meta">
-      <span class="cert cert--pg" title="PG"></span>
-      <span class="genres">Adventure, Comedy, Family</span>
-    </div>
-    <p class="fc-synopsis">Moana answers the Ocean&#x27;s call and, for the first time, voyages beyond the reef of her island of Motunui with the infamous demigod Maui on an unforgettable journey to restore prosperity to her people. <a href="films/moana.html">More →</a></p>
-    <div class="fc-showings">
-      <div class="showing-row"><span class="showing-date">Fri 10 Jul</span><span class="showing-cinemas"><a href="https://bodmin.merlincinemas.co.uk/film/moana" class="showing-cinema-link" target="_blank" rel="noopener">Bodmin</a> <a href="https://falmouth.merlincinemas.co.uk/film/moana" class="showing-cinema-link" target="_blank" rel="noopener">Falmouth</a> <a href="https://helston.merlincinemas.co.uk/film/moana" class="showing-cinema-link" target="_blank" rel="noopener">Helston</a> <a href="https://ritz.merlincinemas.co.uk/film/moana" class="showing-cinema-link" target="_blank" rel="noopener">Penzance</a> <a href="https://redruth.merlincinemas.co.uk/film/moana" class="showing-cinema-link" target="_blank" rel="noopener">Redruth</a> <a href="https://st-ives.merlincinemas.co.uk/film/moana" class="showing-cinema-link" target="_blank" rel="noopener">St Ives</a></span></div>    </div>
-  </div>
-</article>
-<article class="film-card-full" data-date="2026-07-17" data-cinemas="bodmin,falmouth,helston,penzance-ritz,redruth,st-ives">
-  <div class="fc-poster"><a href="films/the-odyssey.html"><img src="https://image.tmdb.org/t/p/w500/krVa7rKCQb4OBfsr2LTJv4rTz5q.jpg" alt="" loading="lazy" decoding="async"></a></div>
-  <div class="fc-info">
-    <h3><a href="films/the-odyssey.html">The Odyssey</a></h3>
-    <div class="fc-meta">
-      <span class="cert cert--15" title="15"></span>
-      <span class="genres">Action, Adventure, Fantasy</span>
-    </div>
-    <p class="fc-synopsis">Odysseus, the legendary King of Ithaca, embarks on a long and perilous journey home following the Trojan War. Throughout his voyage, he is forced to confront the whims of gods, mythological monsters, and trials that stretch both his cunning and his humanity to the breaking point. <a href="films/the-odyssey.html">More →</a></p>
-    <div class="fc-showings">
-      <div class="showing-row"><span class="showing-date">Fri 17 Jul</span><span class="showing-cinemas"><a href="https://bodmin.merlincinemas.co.uk/film/the-odyssey" class="showing-cinema-link" target="_blank" rel="noopener">Bodmin</a> <a href="https://falmouth.merlincinemas.co.uk/film/the-odyssey" class="showing-cinema-link" target="_blank" rel="noopener">Falmouth</a> <a href="https://helston.merlincinemas.co.uk/film/the-odyssey" class="showing-cinema-link" target="_blank" rel="noopener">Helston</a> <a href="https://ritz.merlincinemas.co.uk/film/the-odyssey" class="showing-cinema-link" target="_blank" rel="noopener">Penzance</a> <a href="https://redruth.merlincinemas.co.uk/film/the-odyssey" class="showing-cinema-link" target="_blank" rel="noopener">Redruth</a> <a href="https://st-ives.merlincinemas.co.uk/film/the-odyssey" class="showing-cinema-link" target="_blank" rel="noopener">St Ives</a></span></div>    </div>
-  </div>
-</article>
-<article class="film-card-full" data-date="2026-07-31" data-cinemas="bodmin,falmouth,helston,penzance-ritz,redruth,st-ives">
-  <div class="fc-poster"><a href="films/spider-man-brand-new-day.html"><img src="https://image.tmdb.org/t/p/w500/yyB2VJEW3an2xCdcYCPQhn9QERR.jpg" alt="" loading="lazy" decoding="async"></a></div>
-  <div class="fc-info">
-    <h3><a href="films/spider-man-brand-new-day.html">Spider-Man: Brand New Day</a></h3>
-    <div class="fc-meta">
-      <span class="cert cert--12a" title="12A"></span>
-      <span class="genres">Action, Adventure, Science Fiction</span>
-    </div>
-    <p class="fc-synopsis">Four years have passed since the events of No Way Home, and Peter is now an adult living entirely alone, having voluntarily erased himself from the lives and memories of those he loves. Crime-fighting in a New York that no longer knows his name, he&#x27;s devoted himself entirely to p <a href="films/spider-man-brand-new-day.html">More →</a></p>
-    <div class="fc-showings">
-      <div class="showing-row"><span class="showing-date">Fri 31 Jul</span><span class="showing-cinemas"><a href="https://bodmin.merlincinemas.co.uk/film/spiderman-brand-new-day" class="showing-cinema-link" target="_blank" rel="noopener">Bodmin</a> <a href="https://falmouth.merlincinemas.co.uk/film/spiderman-brand-new-day" class="showing-cinema-link" target="_blank" rel="noopener">Falmouth</a> <a href="https://helston.merlincinemas.co.uk/film/spiderman-brand-new-day" class="showing-cinema-link" target="_blank" rel="noopener">Helston</a> <a href="https://ritz.merlincinemas.co.uk/film/spiderman-brand-new-day" class="showing-cinema-link" target="_blank" rel="noopener">Penzance</a> <a href="https://redruth.merlincinemas.co.uk/film/spiderman-brand-new-day" class="showing-cinema-link" target="_blank" rel="noopener">Redruth</a> <a href="https://st-ives.merlincinemas.co.uk/film/spiderman-brand-new-day" class="showing-cinema-link" target="_blank" rel="noopener">St Ives</a></span></div>    </div>
-  </div>
-</article>
-<article class="film-card-full" data-date="2026-08-07" data-cinemas="bodmin,falmouth,helston,penzance-ritz,redruth,st-ives">
-  <div class="fc-poster"><a href="films/paw-patrol-the-dino-movie.html"><img src="https://image.tmdb.org/t/p/w500/3US9zyWBUbLTASwNwMSuZ0fO6hC.jpg" alt="" loading="lazy" decoding="async"></a></div>
-  <div class="fc-info">
-    <h3><a href="films/paw-patrol-the-dino-movie.html">PAW Patrol: The Dino Movie</a></h3>
-    <div class="fc-meta">
-      <span class="cert cert--pg" title="PG"></span>
-      <span>1h 28min</span>
-      <span class="genres">Adventure, Animation, Comedy</span>
-    </div>
-    <p class="fc-synopsis">The PAW Patrol pups crash land on an uncharted tropical island filled with dinosaurs after their ship gets caught in a mysterious storm. They meet Rex, a pup who has been stranded on the island for years and has become an expert in all things dino-related. When the Patrol’s archr <a href="films/paw-patrol-the-dino-movie.html">More →</a></p>
-    <div class="fc-showings">
-      <div class="showing-row"><span class="showing-date">Fri 07 Aug</span><span class="showing-cinemas"><a href="https://bodmin.merlincinemas.co.uk/film/paw-patrol-the-dino-movie" class="showing-cinema-link" target="_blank" rel="noopener">Bodmin</a> <a href="https://falmouth.merlincinemas.co.uk/film/paw-patrol-the-dino-movie" class="showing-cinema-link" target="_blank" rel="noopener">Falmouth</a> <a href="https://helston.merlincinemas.co.uk/film/paw-patrol-the-dino-movie" class="showing-cinema-link" target="_blank" rel="noopener">Helston</a> <a href="https://ritz.merlincinemas.co.uk/film/paw-patrol-the-dino-movie" class="showing-cinema-link" target="_blank" rel="noopener">Penzance</a> <a href="https://redruth.merlincinemas.co.uk/film/paw-patrol-the-dino-movie" class="showing-cinema-link" target="_blank" rel="noopener">Redruth</a> <a href="https://st-ives.merlincinemas.co.uk/film/paw-patrol-the-dino-movie" class="showing-cinema-link" target="_blank" rel="noopener">St Ives</a></span></div>    </div>
+      <div class="showing-row"><span class="showing-date">Sun 02 Aug</span><span class="showing-cinemas"><a href="https://ritz.merlincinemas.co.uk/film/pip-and-posys-cinema-show-toddler-cinema-charity-screening" class="showing-cinema-link" target="_blank" rel="noopener">Penzance</a></span></div>
+      <div class="showing-row"><span class="showing-date">Sun 09 Aug</span><span class="showing-cinemas"><a href="https://bodmin.merlincinemas.co.uk/film/pip-and-posys-cinema-show-toddler-cinema-charity-screening" class="showing-cinema-link" target="_blank" rel="noopener">Bodmin</a> <a href="https://falmouth.merlincinemas.co.uk/film/pip-and-posys-cinema-show-toddler-cinema-charity-screening" class="showing-cinema-link" target="_blank" rel="noopener">Falmouth</a> <a href="https://helston.merlincinemas.co.uk/film/pip-and-posys-cinema-show-toddler-cinema-charity-screening" class="showing-cinema-link" target="_blank" rel="noopener">Helston</a> <a href="https://redruth.merlincinemas.co.uk/film/pip-and-posys-cinema-show-toddler-cinema-charity-screening" class="showing-cinema-link" target="_blank" rel="noopener">Redruth</a> <a href="https://st-ives.merlincinemas.co.uk/film/pip-and-posys-cinema-show-toddler-cinema-charity-screening" class="showing-cinema-link" target="_blank" rel="noopener">St Ives</a></span></div>    </div>
   </div>
 </article>
 <article class="film-card-full" data-date="2026-08-14" data-cinemas="bodmin,falmouth,helston,penzance-ritz,redruth,st-ives">
-  <div class="fc-poster"><a href="films/the-end-of-oak-street.html"><img src="https://image.tmdb.org/t/p/w500/60bRdW7JTXTaSMFgLHjcoS1fXHh.jpg" alt="" loading="lazy" decoding="async"></a></div>
+  <div class="fc-poster"><a href="films/the-end-of-oak-street.html"><img src="https://image.tmdb.org/t/p/w500/3SifFCwwFzXdU1Ew0nA4Z92Bs15.jpg" alt="" loading="lazy" decoding="async"></a></div>
   <div class="fc-info">
     <h3><a href="films/the-end-of-oak-street.html">The End of Oak Street</a></h3>
     <div class="fc-meta">
-      <span class="cert cert--15" title="15"></span>
-      <span>1h 50min</span>
+      <span class="cert cert--12a" title="12A"></span>
+      <span>1h 40min</span>
       <span class="genres">Mystery, Science Fiction, Thriller</span>
     </div>
     <p class="fc-synopsis">After a mysterious cosmic event rips Oak Street from suburbia and transports their neighborhood to someplace unknown, the Platt family soon discovers that their very survival depends on them sticking together as they navigate their now unrecognizable surroundings. <a href="films/the-end-of-oak-street.html">More →</a></p>
@@ -787,9 +375,10 @@ footer a:hover{color:var(--purple)}
 <article class="film-card-full" data-date="2026-08-21" data-cinemas="bodmin,falmouth,helston,penzance-ritz,redruth,st-ives">
   <div class="fc-poster"><a href="films/insidious-out-of-the-further.html"><img src="https://image.tmdb.org/t/p/w500/4tTrW9dXCByS5wt2pXVWb58zNjz.jpg" alt="" loading="lazy" decoding="async"></a></div>
   <div class="fc-info">
-    <h3><a href="films/insidious-out-of-the-further.html">Insidious: Out Of The Further</a></h3>
+    <h3><a href="films/insidious-out-of-the-further.html">Insidious: Out of the Further</a></h3>
     <div class="fc-meta">
       <span class="cert cert--15" title="15"></span>
+      <span>1h 46min</span>
       <span class="genres">Horror, Thriller</span>
     </div>
     <p class="fc-synopsis">Gemma, a young mother raising her daughter in the house she grew up in, discovers she can travel into The Further, where she possesses an ability to bring what lives there back to the real world. <a href="films/insidious-out-of-the-further.html">More →</a></p>
@@ -798,11 +387,12 @@ footer a:hover{color:var(--purple)}
   </div>
 </article>
 <article class="film-card-full" data-date="2026-08-26" data-cinemas="bodmin,falmouth,helston,penzance-ritz,redruth,st-ives">
-  <div class="fc-poster"><a href="films/the-dog-stars.html"><img src="https://image.tmdb.org/t/p/w500/ePWFnyCQQr4fvBOD1lgKtcvfnCd.jpg" alt="" loading="lazy" decoding="async"></a></div>
+  <div class="fc-poster"><a href="films/the-dog-stars.html"><img src="https://image.tmdb.org/t/p/w500/A7i16oDi03qrKep5pBfuTWNUTb.jpg" alt="" loading="lazy" decoding="async"></a></div>
   <div class="fc-info">
     <h3><a href="films/the-dog-stars.html">The Dog Stars</a></h3>
     <div class="fc-meta">
-      <span class="cert cert--12a" title="12A"></span>
+      <span class="cert cert--15" title="15"></span>
+      <span>1h 40min</span>
       <span class="genres">Adventure, Science Fiction, Thriller</span>
     </div>
     <p class="fc-synopsis">After the world&#x27;s population has been ravaged by a pandemic, a man lives a lonesome existence in a Colorado airplane hangar with his dog and a dour gunman he has befriended. When a mysterious transmission comes through on the radio while he’s flying his old Cessna, it sparks a hu <a href="films/the-dog-stars.html">More →</a></p>
@@ -810,26 +400,13 @@ footer a:hover{color:var(--purple)}
       <div class="showing-row"><span class="showing-date">Wed 26 Aug</span><span class="showing-cinemas"><a href="https://bodmin.merlincinemas.co.uk/film/the-dog-stars" class="showing-cinema-link" target="_blank" rel="noopener">Bodmin</a> <a href="https://falmouth.merlincinemas.co.uk/film/the-dog-stars" class="showing-cinema-link" target="_blank" rel="noopener">Falmouth</a> <a href="https://helston.merlincinemas.co.uk/film/the-dog-stars" class="showing-cinema-link" target="_blank" rel="noopener">Helston</a> <a href="https://ritz.merlincinemas.co.uk/film/the-dog-stars" class="showing-cinema-link" target="_blank" rel="noopener">Penzance</a> <a href="https://redruth.merlincinemas.co.uk/film/the-dog-stars" class="showing-cinema-link" target="_blank" rel="noopener">Redruth</a> <a href="https://st-ives.merlincinemas.co.uk/film/the-dog-stars" class="showing-cinema-link" target="_blank" rel="noopener">St Ives</a></span></div>    </div>
   </div>
 </article>
-<article class="film-card-full" data-date="2026-09-04" data-cinemas="bodmin,falmouth,helston,penzance-ritz,redruth,st-ives">
-  <div class="fc-poster"><a href="films/how-to-rob-a-bank.html"><img src="https://image.tmdb.org/t/p/w500/oUt2f6qHRZDnprG16ELimRhDGDV.jpg" alt="" loading="lazy" decoding="async"></a></div>
-  <div class="fc-info">
-    <h3><a href="films/how-to-rob-a-bank.html">How to Rob a Bank</a></h3>
-    <div class="fc-meta">
-      <span class="cert cert--15" title="15"></span>
-      <span class="genres">Crime, Thriller</span>
-    </div>
-    <p class="fc-synopsis">A crew of social media-savvy bank robbers broadcasts their daring heists, unaware that their growing viral fame has put them in the crosshairs of a veteran FBI agent and a brilliant software engineer. Despite the unlikely duo closing in, the crime ring pushes past their limits, p <a href="films/how-to-rob-a-bank.html">More →</a></p>
-    <div class="fc-showings">
-      <div class="showing-row"><span class="showing-date">Fri 04 Sep</span><span class="showing-cinemas"><a href="https://bodmin.merlincinemas.co.uk/film/how-to-rob-a-bank" class="showing-cinema-link" target="_blank" rel="noopener">Bodmin</a> <a href="https://falmouth.merlincinemas.co.uk/film/how-to-rob-a-bank" class="showing-cinema-link" target="_blank" rel="noopener">Falmouth</a> <a href="https://helston.merlincinemas.co.uk/film/how-to-rob-a-bank" class="showing-cinema-link" target="_blank" rel="noopener">Helston</a> <a href="https://ritz.merlincinemas.co.uk/film/how-to-rob-a-bank" class="showing-cinema-link" target="_blank" rel="noopener">Penzance</a> <a href="https://redruth.merlincinemas.co.uk/film/how-to-rob-a-bank" class="showing-cinema-link" target="_blank" rel="noopener">Redruth</a> <a href="https://st-ives.merlincinemas.co.uk/film/how-to-rob-a-bank" class="showing-cinema-link" target="_blank" rel="noopener">St Ives</a></span></div>    </div>
-  </div>
-</article>
 <article class="film-card-full" data-date="2026-09-09" data-cinemas="bodmin,falmouth,helston,penzance-ritz,redruth,st-ives">
-  <div class="fc-poster"><a href="films/pressure.html"><img src="https://image.tmdb.org/t/p/w500/9RkDrI8V8QJBjhtyRX7y6Qow3aq.jpg" alt="" loading="lazy" decoding="async"></a></div>
+  <div class="fc-poster"><a href="films/pressure.html"><img src="https://image.tmdb.org/t/p/w500/gFjEggtrejCN79r6SXRjM269OtG.jpg" alt="" loading="lazy" decoding="async"></a></div>
   <div class="fc-info">
     <h3><a href="films/pressure.html">Pressure</a></h3>
     <div class="fc-meta">
-      <span class="cert cert--15" title="15"></span>
-      <span>1h 40min</span>
+      <span class="cert cert--12a" title="12A"></span>
+      <span>1h 41min</span>
       <span class="stars">★★★★☆</span>
       <span class="genres">History, Thriller, War</span>
     </div>
@@ -852,12 +429,12 @@ footer a:hover{color:var(--purple)}
   </div>
 </article>
 <article class="film-card-full" data-date="2026-09-18" data-cinemas="bodmin,falmouth,helston,penzance-ritz,redruth,st-ives">
-  <div class="fc-poster"><a href="films/resident-evil.html"><img src="https://image.tmdb.org/t/p/w500/guq5cJ43v0qcMtLqrYHe5P9fgFM.jpg" alt="" loading="lazy" decoding="async"></a></div>
+  <div class="fc-poster"><a href="films/resident-evil.html"><img src="https://image.tmdb.org/t/p/w500/qku2uWSoJ9amQV5MWo1Eek29iji.jpg" alt="" loading="lazy" decoding="async"></a></div>
   <div class="fc-info">
     <h3><a href="films/resident-evil.html">Resident Evil</a></h3>
     <div class="fc-meta">
       <span class="cert cert--18" title="18"></span>
-      <span class="genres">Action, Horror, Science Fiction</span>
+      <span class="genres">Horror, Science Fiction, Thriller</span>
     </div>
     <p class="fc-synopsis">Bryan, a medical courier, is in the process of making a delivery when a sudden outbreak occurs, forcing him to fight for survival. <a href="films/resident-evil.html">More →</a></p>
     <div class="fc-showings">
@@ -865,16 +442,59 @@ footer a:hover{color:var(--purple)}
   </div>
 </article>
 <article class="film-card-full" data-date="2026-09-18" data-cinemas="bodmin,falmouth,helston,penzance-ritz,redruth,st-ives">
-  <div class="fc-poster"><a href="films/shaun-the-sheep-the-beast-of-mossy-bottom.html"><img src="https://image.tmdb.org/t/p/w500/ev28R1iempBfLXIzaFDMxQQVfQv.jpg" alt="" loading="lazy" decoding="async"></a></div>
+  <div class="fc-poster"><a href="films/shaun-the-sheep-the-beast-of-mossy-bottom.html"><img src="https://image.tmdb.org/t/p/w500/mMOptSPBVGUA9GHgnpsC35GzZ7e.jpg" alt="" loading="lazy" decoding="async"></a></div>
   <div class="fc-info">
-    <h3><a href="films/shaun-the-sheep-the-beast-of-mossy-bottom.html">Shaun The Sheep: The Beast Of Mossy Bottom</a></h3>
+    <h3><a href="films/shaun-the-sheep-the-beast-of-mossy-bottom.html">Shaun the Sheep: The Beast of Mossy Bottom</a></h3>
     <div class="fc-meta">
       <span class="cert cert--pg" title="PG"></span>
       <span class="genres">Adventure, Animation, Comedy</span>
     </div>
-    <p class="fc-synopsis">The residents of Mossy Bottom Farm looking forward to Halloween – until the clumsy Farmer trashes the flock’s beloved pumpkin patch! When Shaun turns mad scientist to fix the problem, things rapidly spiral out of control. With the Farmer missing and a wild beast roaming the woods <a href="films/shaun-the-sheep-the-beast-of-mossy-bottom.html">More →</a></p>
+    <p class="fc-synopsis">On Halloween Eve at Mossy Bottom Farm, excitement turns to dismay when the clumsy Farmer ruins the pumpkin patch. Shaun tries fixing it with science experiments, but things go wrong when a wild beast appears in the woods. <a href="films/shaun-the-sheep-the-beast-of-mossy-bottom.html">More →</a></p>
     <div class="fc-showings">
       <div class="showing-row"><span class="showing-date">Fri 18 Sep</span><span class="showing-cinemas"><a href="https://bodmin.merlincinemas.co.uk/film/shaun-the-sheep-the-beast-of-mossy-bottom" class="showing-cinema-link" target="_blank" rel="noopener">Bodmin</a> <a href="https://falmouth.merlincinemas.co.uk/film/shaun-the-sheep-the-beast-of-mossy-bottom" class="showing-cinema-link" target="_blank" rel="noopener">Falmouth</a> <a href="https://helston.merlincinemas.co.uk/film/shaun-the-sheep-the-beast-of-mossy-bottom" class="showing-cinema-link" target="_blank" rel="noopener">Helston</a> <a href="https://ritz.merlincinemas.co.uk/film/shaun-the-sheep-the-beast-of-mossy-bottom" class="showing-cinema-link" target="_blank" rel="noopener">Penzance</a> <a href="https://redruth.merlincinemas.co.uk/film/shaun-the-sheep-the-beast-of-mossy-bottom" class="showing-cinema-link" target="_blank" rel="noopener">Redruth</a> <a href="https://st-ives.merlincinemas.co.uk/film/shaun-the-sheep-the-beast-of-mossy-bottom" class="showing-cinema-link" target="_blank" rel="noopener">St Ives</a></span></div>    </div>
+  </div>
+</article>
+<article class="film-card-full" data-date="2026-09-25" data-cinemas="bodmin,falmouth,helston,penzance-ritz,redruth,st-ives">
+  <div class="fc-poster"><a href="films/sense-and-sensibility.html"><img src="https://image.tmdb.org/t/p/w500/9YdQ73YmvInxpXZVNjEKePw9tRO.jpg" alt="" loading="lazy" decoding="async"></a></div>
+  <div class="fc-info">
+    <h3><a href="films/sense-and-sensibility.html">Sense and Sensibility</a></h3>
+    <div class="fc-meta">
+      <span class="cert cert--12a" title="12A"></span>
+      <span>2h 16min</span>
+      <span class="stars">★★★★☆</span>
+      <span class="genres">Drama, Romance</span>
+    </div>
+    <p class="fc-synopsis">The Dashwood sisters, sensible Elinor and passionate Marianne, learn that their prospects of marriage seem doomed by their family&#x27;s sudden loss of fortune. After Henry Dashwood dies unexpectedly, his estate must pass on by law to his son. These circumstances leave Mr. Dashwood&#x27;s  <a href="films/sense-and-sensibility.html">More →</a></p>
+    <div class="fc-showings">
+      <div class="showing-row"><span class="showing-date">Fri 25 Sep</span><span class="showing-cinemas"><a href="https://bodmin.merlincinemas.co.uk/film/sense-and-sensibility" class="showing-cinema-link" target="_blank" rel="noopener">Bodmin</a> <a href="https://falmouth.merlincinemas.co.uk/film/sense-and-sensibility" class="showing-cinema-link" target="_blank" rel="noopener">Falmouth</a> <a href="https://helston.merlincinemas.co.uk/film/sense-and-sensibility" class="showing-cinema-link" target="_blank" rel="noopener">Helston</a> <a href="https://ritz.merlincinemas.co.uk/film/sense-and-sensibility" class="showing-cinema-link" target="_blank" rel="noopener">Penzance</a> <a href="https://redruth.merlincinemas.co.uk/film/sense-and-sensibility" class="showing-cinema-link" target="_blank" rel="noopener">Redruth</a> <a href="https://st-ives.merlincinemas.co.uk/film/sense-and-sensibility" class="showing-cinema-link" target="_blank" rel="noopener">St Ives</a></span></div>    </div>
+  </div>
+</article>
+<article class="film-card-full" data-date="2026-09-25" data-cinemas="bodmin,falmouth,helston,penzance-ritz,redruth,st-ives">
+  <div class="fc-poster"><a href="films/heart-of-the-beast.html"><img src="https://image.tmdb.org/t/p/w500/1ApfSA8JTqeha3GTFEY8syV4auq.jpg" alt="" loading="lazy" decoding="async"></a></div>
+  <div class="fc-info">
+    <h3><a href="films/heart-of-the-beast.html">Heart of the Beast</a></h3>
+    <div class="fc-meta">
+      <span class="cert cert--12a" title="12A"></span>
+      <span>1h 41min</span>
+      <span class="genres">Action, Adventure, Drama</span>
+    </div>
+    <p class="fc-synopsis">After a harrowing plane crash, Special Forces officer James Belmont and his combat dog, Odin, find themselves stranded deep in the Alaskan wilderness. Together, they are forced into a brutal fight for survival against the elements. <a href="films/heart-of-the-beast.html">More →</a></p>
+    <div class="fc-showings">
+      <div class="showing-row"><span class="showing-date">Fri 25 Sep</span><span class="showing-cinemas"><a href="https://bodmin.merlincinemas.co.uk/film/heart-of-the-beast" class="showing-cinema-link" target="_blank" rel="noopener">Bodmin</a> <a href="https://falmouth.merlincinemas.co.uk/film/heart-of-the-beast" class="showing-cinema-link" target="_blank" rel="noopener">Falmouth</a> <a href="https://helston.merlincinemas.co.uk/film/heart-of-the-beast" class="showing-cinema-link" target="_blank" rel="noopener">Helston</a> <a href="https://ritz.merlincinemas.co.uk/film/heart-of-the-beast" class="showing-cinema-link" target="_blank" rel="noopener">Penzance</a> <a href="https://redruth.merlincinemas.co.uk/film/heart-of-the-beast" class="showing-cinema-link" target="_blank" rel="noopener">Redruth</a> <a href="https://st-ives.merlincinemas.co.uk/film/heart-of-the-beast" class="showing-cinema-link" target="_blank" rel="noopener">St Ives</a></span></div>    </div>
+  </div>
+</article>
+<article class="film-card-full" data-date="2026-10-02" data-cinemas="bodmin,falmouth,helston,penzance-ritz,redruth,st-ives">
+  <div class="fc-poster"><a href="films/digger.html"><img src="https://image.tmdb.org/t/p/w500/1ATXKrIPJyKNwnJ6lcG088Sa6zi.jpg" alt="" loading="lazy" decoding="async"></a></div>
+  <div class="fc-info">
+    <h3><a href="films/digger.html">Digger</a></h3>
+    <div class="fc-meta">
+      <span class="cert cert--15" title="15"></span>
+      <span>1h 46min</span>
+      <span class="genres">Comedy, Drama</span>
+    </div>
+    <p class="fc-synopsis">The most powerful man in the world embarks on a frantic mission to prove he is humanity&#x27;s savior before the disaster he&#x27;s unleashed destroys everything. <a href="films/digger.html">More →</a></p>
+    <div class="fc-showings">
+      <div class="showing-row"><span class="showing-date">Fri 02 Oct</span><span class="showing-cinemas"><a href="https://bodmin.merlincinemas.co.uk/film/digger" class="showing-cinema-link" target="_blank" rel="noopener">Bodmin</a> <a href="https://falmouth.merlincinemas.co.uk/film/digger" class="showing-cinema-link" target="_blank" rel="noopener">Falmouth</a> <a href="https://helston.merlincinemas.co.uk/film/digger" class="showing-cinema-link" target="_blank" rel="noopener">Helston</a> <a href="https://ritz.merlincinemas.co.uk/film/digger" class="showing-cinema-link" target="_blank" rel="noopener">Penzance</a> <a href="https://redruth.merlincinemas.co.uk/film/digger" class="showing-cinema-link" target="_blank" rel="noopener">Redruth</a> <a href="https://st-ives.merlincinemas.co.uk/film/digger" class="showing-cinema-link" target="_blank" rel="noopener">St Ives</a></span></div>    </div>
   </div>
 </article>
 <article class="film-card-full" data-date="2026-10-02" data-cinemas="bodmin,falmouth,helston,penzance-ritz,redruth,st-ives">
@@ -883,6 +503,7 @@ footer a:hover{color:var(--purple)}
     <h3><a href="films/verity.html">Verity</a></h3>
     <div class="fc-meta">
       <span class="cert cert--15" title="15"></span>
+      <span>1h 54min</span>
       <span class="genres">Mystery, Thriller</span>
     </div>
     <p class="fc-synopsis">Lowen Ashleigh gets hired by Jeremy Crawford to ghostwrite novels for his bestselling author wife Verity, who&#x27;s unable to finish after an accident. Lowen uncovers Verity&#x27;s disturbing truths while residing at the Crawfords&#x27; home to work. <a href="films/verity.html">More →</a></p>
@@ -890,13 +511,55 @@ footer a:hover{color:var(--purple)}
       <div class="showing-row"><span class="showing-date">Fri 02 Oct</span><span class="showing-cinemas"><a href="https://bodmin.merlincinemas.co.uk/film/verity" class="showing-cinema-link" target="_blank" rel="noopener">Bodmin</a> <a href="https://falmouth.merlincinemas.co.uk/film/verity" class="showing-cinema-link" target="_blank" rel="noopener">Falmouth</a> <a href="https://helston.merlincinemas.co.uk/film/verity" class="showing-cinema-link" target="_blank" rel="noopener">Helston</a> <a href="https://ritz.merlincinemas.co.uk/film/verity" class="showing-cinema-link" target="_blank" rel="noopener">Penzance</a> <a href="https://redruth.merlincinemas.co.uk/film/verity" class="showing-cinema-link" target="_blank" rel="noopener">Redruth</a> <a href="https://st-ives.merlincinemas.co.uk/film/verity" class="showing-cinema-link" target="_blank" rel="noopener">St Ives</a></span></div>    </div>
   </div>
 </article>
+<article class="film-card-full" data-date="2026-10-09" data-cinemas="bodmin,falmouth,helston,penzance-ritz,redruth,st-ives">
+  <div class="fc-poster"><a href="films/the-uprising.html"><img src="https://image.tmdb.org/t/p/w500/7TUl15TOsIvndKlgMWTtLgtEzZP.jpg" alt="" loading="lazy" decoding="async"></a></div>
+  <div class="fc-info">
+    <h3><a href="films/the-uprising.html">The Uprising</a></h3>
+    <div class="fc-meta">
+      <span class="cert cert--15" title="15"></span>
+      <span>2h 7min</span>
+      <span class="genres">Drama, History, War</span>
+    </div>
+    <p class="fc-synopsis">As war and plague devastate 14th-century England, humble peasant Wat Tyler ignites a rebellion, uniting an army of commoners to defy the king&#x27;s brutal rule in a desperate fight for freedom and survival. <a href="films/the-uprising.html">More →</a></p>
+    <div class="fc-showings">
+      <div class="showing-row"><span class="showing-date">Fri 09 Oct</span><span class="showing-cinemas"><a href="https://bodmin.merlincinemas.co.uk/film/the-uprising" class="showing-cinema-link" target="_blank" rel="noopener">Bodmin</a> <a href="https://falmouth.merlincinemas.co.uk/film/the-uprising" class="showing-cinema-link" target="_blank" rel="noopener">Falmouth</a> <a href="https://helston.merlincinemas.co.uk/film/the-uprising" class="showing-cinema-link" target="_blank" rel="noopener">Helston</a> <a href="https://ritz.merlincinemas.co.uk/film/the-uprising" class="showing-cinema-link" target="_blank" rel="noopener">Penzance</a> <a href="https://redruth.merlincinemas.co.uk/film/the-uprising" class="showing-cinema-link" target="_blank" rel="noopener">Redruth</a> <a href="https://st-ives.merlincinemas.co.uk/film/the-uprising" class="showing-cinema-link" target="_blank" rel="noopener">St Ives</a></span></div>    </div>
+  </div>
+</article>
+<article class="film-card-full" data-date="2026-10-09" data-cinemas="bodmin,falmouth,helston,penzance-ritz,redruth,st-ives">
+  <div class="fc-poster"><a href="films/the-social-reckoning.html"><img src="https://image.tmdb.org/t/p/w500/qZr5bxGXE1t2A9pNSikb9fQKzov.jpg" alt="" loading="lazy" decoding="async"></a></div>
+  <div class="fc-info">
+    <h3><a href="films/the-social-reckoning.html">The Social Reckoning</a></h3>
+    <div class="fc-meta">
+      <span class="cert cert--12a" title="12A"></span>
+      <span class="genres">Drama</span>
+    </div>
+    <p class="fc-synopsis">Frances Haugen, a young Facebook engineer, enlists the help of Jeff Horwitz, a Wall Street Journal reporter, to go on a dangerous journey that ends up blowing the whistle on the social network&#x27;s most guarded secrets. <a href="films/the-social-reckoning.html">More →</a></p>
+    <div class="fc-showings">
+      <div class="showing-row"><span class="showing-date">Fri 09 Oct</span><span class="showing-cinemas"><a href="https://bodmin.merlincinemas.co.uk/film/the-social-reckoning" class="showing-cinema-link" target="_blank" rel="noopener">Bodmin</a> <a href="https://falmouth.merlincinemas.co.uk/film/the-social-reckoning" class="showing-cinema-link" target="_blank" rel="noopener">Falmouth</a> <a href="https://helston.merlincinemas.co.uk/film/the-social-reckoning" class="showing-cinema-link" target="_blank" rel="noopener">Helston</a> <a href="https://ritz.merlincinemas.co.uk/film/the-social-reckoning" class="showing-cinema-link" target="_blank" rel="noopener">Penzance</a> <a href="https://redruth.merlincinemas.co.uk/film/the-social-reckoning" class="showing-cinema-link" target="_blank" rel="noopener">Redruth</a> <a href="https://st-ives.merlincinemas.co.uk/film/the-social-reckoning" class="showing-cinema-link" target="_blank" rel="noopener">St Ives</a></span></div>    </div>
+  </div>
+</article>
 <article class="film-card-full" data-date="2026-10-16" data-cinemas="bodmin,falmouth,helston,penzance-ritz,redruth,st-ives">
-  <div class="fc-poster"><a href="films/street-fighter.html"><img src="https://image.tmdb.org/t/p/w500/rOH0hMRFJZCMzf6zTUldrbjAmSO.jpg" alt="" loading="lazy" decoding="async"></a></div>
+  <div class="fc-poster"><a href="films/whalefall.html"><img src="https://image.tmdb.org/t/p/w500/wse4S4EuVHSNk9yzsjhdRLmipXk.jpg" alt="" loading="lazy" decoding="async"></a></div>
+  <div class="fc-info">
+    <h3><a href="films/whalefall.html">Whalefall</a></h3>
+    <div class="fc-meta">
+      <span class="cert cert--12a" title="12A"></span>
+      <span>1h 38min</span>
+      <span class="genres">Horror, Thriller</span>
+    </div>
+    <p class="fc-synopsis">Following the death of his father, Jay Gardiner goes diving off the central Coast of California in search of his remains, but is swallowed by a massive sperm whale. While trapped inside its belly with only one hour of oxygen left, Jay comes to realize that the hard-earned lessons <a href="films/whalefall.html">More →</a></p>
+    <div class="fc-showings">
+      <div class="showing-row"><span class="showing-date">Fri 16 Oct</span><span class="showing-cinemas"><a href="https://bodmin.merlincinemas.co.uk/film/whalefall" class="showing-cinema-link" target="_blank" rel="noopener">Bodmin</a> <a href="https://falmouth.merlincinemas.co.uk/film/whalefall" class="showing-cinema-link" target="_blank" rel="noopener">Falmouth</a> <a href="https://helston.merlincinemas.co.uk/film/whalefall" class="showing-cinema-link" target="_blank" rel="noopener">Helston</a> <a href="https://ritz.merlincinemas.co.uk/film/whalefall" class="showing-cinema-link" target="_blank" rel="noopener">Penzance</a> <a href="https://redruth.merlincinemas.co.uk/film/whalefall" class="showing-cinema-link" target="_blank" rel="noopener">Redruth</a> <a href="https://st-ives.merlincinemas.co.uk/film/whalefall" class="showing-cinema-link" target="_blank" rel="noopener">St Ives</a></span></div>    </div>
+  </div>
+</article>
+<article class="film-card-full" data-date="2026-10-16" data-cinemas="bodmin,falmouth,helston,penzance-ritz,redruth,st-ives">
+  <div class="fc-poster"><a href="films/street-fighter.html"><img src="https://image.tmdb.org/t/p/w500/wOnoOeDcsLSo72ON1UC6c1VHKk1.jpg" alt="" loading="lazy" decoding="async"></a></div>
   <div class="fc-info">
     <h3><a href="films/street-fighter.html">Street Fighter</a></h3>
     <div class="fc-meta">
       <span class="cert cert--15" title="15"></span>
-      <span class="genres">Action, Comedy, Fantasy</span>
+      <span>2h 5min</span>
+      <span class="genres">Action, Fantasy</span>
     </div>
     <p class="fc-synopsis">In 1993, estranged Street Fighters Ryu and Ken Masters are thrown back into combat when the mysterious Chun-Li recruits them for the next World Warrior Tournament: a brutal clash of fists, fate, and fury. But behind this battle royale lies a deadly conspiracy that forces them to  <a href="films/street-fighter.html">More →</a></p>
     <div class="fc-showings">
@@ -904,17 +567,43 @@ footer a:hover{color:var(--purple)}
   </div>
 </article>
 <article class="film-card-full" data-date="2026-10-16" data-cinemas="bodmin,falmouth,helston,penzance-ritz,redruth,st-ives">
-  <div class="fc-poster"><a href="films/forgotten-island.html"><img src="https://image.tmdb.org/t/p/w500/44RMjgvpZmHU3aGmX3IQAaHtEw9.jpg" alt="" loading="lazy" decoding="async"></a></div>
+  <div class="fc-poster"><a href="films/forgotten-island.html"><img src="https://image.tmdb.org/t/p/w500/kW1fH2jZZM5tVHwNaDdUOUXJvWU.jpg" alt="" loading="lazy" decoding="async"></a></div>
   <div class="fc-info">
     <h3><a href="films/forgotten-island.html">Forgotten Island</a></h3>
     <div class="fc-meta">
       <span class="cert cert--pg" title="PG"></span>
-      <span>1h 38min</span>
       <span class="genres">Adventure, Animation, Comedy</span>
     </div>
-    <p class="fc-synopsis">Jo and Raissa find themselves stranded in the mystical world of the forgotten island of Nakali. They discover that their only way home might come at the expense of a lifetime of shared memories. <a href="films/forgotten-island.html">More →</a></p>
+    <p class="fc-synopsis">While celebrating their last night together, high school graduates and best friends Jo and Raissa stumble upon a mysterious portal that transports them to the fantastical island of Nakali. When they discover that the memories of their entire friendship are the price for returning <a href="films/forgotten-island.html">More →</a></p>
     <div class="fc-showings">
       <div class="showing-row"><span class="showing-date">Fri 16 Oct</span><span class="showing-cinemas"><a href="https://bodmin.merlincinemas.co.uk/film/forgotten-island" class="showing-cinema-link" target="_blank" rel="noopener">Bodmin</a> <a href="https://falmouth.merlincinemas.co.uk/film/forgotten-island" class="showing-cinema-link" target="_blank" rel="noopener">Falmouth</a> <a href="https://helston.merlincinemas.co.uk/film/forgotten-island" class="showing-cinema-link" target="_blank" rel="noopener">Helston</a> <a href="https://ritz.merlincinemas.co.uk/film/forgotten-island" class="showing-cinema-link" target="_blank" rel="noopener">Penzance</a> <a href="https://redruth.merlincinemas.co.uk/film/forgotten-island" class="showing-cinema-link" target="_blank" rel="noopener">Redruth</a> <a href="https://st-ives.merlincinemas.co.uk/film/forgotten-island" class="showing-cinema-link" target="_blank" rel="noopener">St Ives</a></span></div>    </div>
+  </div>
+</article>
+<article class="film-card-full" data-date="2026-10-23" data-cinemas="bodmin,falmouth,helston,penzance-ritz,redruth,st-ives">
+  <div class="fc-poster"><a href="films/ghosts-the-possession-of-button-house.html"><img src="https://image.tmdb.org/t/p/w500/kjzYVTBZ5OxpdeJkeMkdHtWKqWB.jpg" alt="" loading="lazy" decoding="async"></a></div>
+  <div class="fc-info">
+    <h3><a href="films/ghosts-the-possession-of-button-house.html">Ghosts: The Possession of Button House</a></h3>
+    <div class="fc-meta">
+      <span class="cert cert--12a" title="12A"></span>
+      <span class="genres">Comedy, Fantasy</span>
+    </div>
+    <p class="fc-synopsis">It&#x27;s a matter of life and death for Alison, Mike, Mia and the Ghosts. <a href="films/ghosts-the-possession-of-button-house.html">More →</a></p>
+    <div class="fc-showings">
+      <div class="showing-row"><span class="showing-date">Fri 23 Oct</span><span class="showing-cinemas"><a href="https://bodmin.merlincinemas.co.uk/film/ghosts-the-possession-of-button-house" class="showing-cinema-link" target="_blank" rel="noopener">Bodmin</a> <a href="https://falmouth.merlincinemas.co.uk/film/ghosts-the-possession-of-button-house" class="showing-cinema-link" target="_blank" rel="noopener">Falmouth</a> <a href="https://helston.merlincinemas.co.uk/film/ghosts-the-possession-of-button-house" class="showing-cinema-link" target="_blank" rel="noopener">Helston</a> <a href="https://ritz.merlincinemas.co.uk/film/ghosts-the-possession-of-button-house" class="showing-cinema-link" target="_blank" rel="noopener">Penzance</a> <a href="https://redruth.merlincinemas.co.uk/film/ghosts-the-possession-of-button-house" class="showing-cinema-link" target="_blank" rel="noopener">Redruth</a> <a href="https://st-ives.merlincinemas.co.uk/film/ghosts-the-possession-of-button-house" class="showing-cinema-link" target="_blank" rel="noopener">St Ives</a></span></div>    </div>
+  </div>
+</article>
+<article class="film-card-full" data-date="2026-10-23" data-cinemas="bodmin,falmouth,helston,penzance-ritz,redruth,st-ives">
+  <div class="fc-poster"><a href="films/klara-and-the-sun.html"><img src="https://image.tmdb.org/t/p/w500/xqovj2p6HRsgHxN81qYAYF4StgM.jpg" alt="" loading="lazy" decoding="async"></a></div>
+  <div class="fc-info">
+    <h3><a href="films/klara-and-the-sun.html">Klara and the Sun</a></h3>
+    <div class="fc-meta">
+      <span class="cert cert--12a" title="12A"></span>
+      <span>1h 56min</span>
+      <span class="genres">Comedy, Drama, Science Fiction</span>
+    </div>
+    <p class="fc-synopsis">When Klara, an Artificial Friend who wants nothing more than to find the perfect home, meets Josie, each immediately senses a kindred spirit in the other. Josie has a fraught relationship with her mother and they&#x27;ve suffered great loss, but Klara&#x27;s innocent wonder and unwavering  <a href="films/klara-and-the-sun.html">More →</a></p>
+    <div class="fc-showings">
+      <div class="showing-row"><span class="showing-date">Fri 23 Oct</span><span class="showing-cinemas"><a href="https://bodmin.merlincinemas.co.uk/film/klara-and-the-sun" class="showing-cinema-link" target="_blank" rel="noopener">Bodmin</a> <a href="https://falmouth.merlincinemas.co.uk/film/klara-and-the-sun" class="showing-cinema-link" target="_blank" rel="noopener">Falmouth</a> <a href="https://helston.merlincinemas.co.uk/film/klara-and-the-sun" class="showing-cinema-link" target="_blank" rel="noopener">Helston</a> <a href="https://ritz.merlincinemas.co.uk/film/klara-and-the-sun" class="showing-cinema-link" target="_blank" rel="noopener">Penzance</a> <a href="https://redruth.merlincinemas.co.uk/film/klara-and-the-sun" class="showing-cinema-link" target="_blank" rel="noopener">Redruth</a> <a href="https://st-ives.merlincinemas.co.uk/film/klara-and-the-sun" class="showing-cinema-link" target="_blank" rel="noopener">St Ives</a></span></div>    </div>
   </div>
 </article>
 <article class="film-card-full" data-date="2026-10-23" data-cinemas="bodmin,falmouth,helston,penzance-ritz,redruth,st-ives">
@@ -931,11 +620,25 @@ footer a:hover{color:var(--purple)}
   </div>
 </article>
 <article class="film-card-full" data-date="2026-11-06" data-cinemas="bodmin,falmouth,helston,penzance-ritz,redruth,st-ives">
+  <div class="fc-poster"><a href="films/i-play-rocky.html"><img src="https://image.tmdb.org/t/p/w500/gYnp0VAzcScVfTn4wLGa8nlrgeb.jpg" alt="" loading="lazy" decoding="async"></a></div>
+  <div class="fc-info">
+    <h3><a href="films/i-play-rocky.html">I Play Rocky</a></h3>
+    <div class="fc-meta">
+      <span class="cert cert--12a" title="12A"></span>
+      <span class="genres">Drama, History</span>
+    </div>
+    <p class="fc-synopsis">The electrifying true story about an unknown actor with an unshakable belief that he wasn&#x27;t just meant to write Rocky—he was meant to be Rocky Balboa. Told &quot;no&quot; at every turn, Sylvester Stallone bets everything on himself, holding the line on playing the lead against seemingly im <a href="films/i-play-rocky.html">More →</a></p>
+    <div class="fc-showings">
+      <div class="showing-row"><span class="showing-date">Fri 06 Nov</span><span class="showing-cinemas"><a href="https://bodmin.merlincinemas.co.uk/film/i-play-rocky" class="showing-cinema-link" target="_blank" rel="noopener">Bodmin</a> <a href="https://falmouth.merlincinemas.co.uk/film/i-play-rocky" class="showing-cinema-link" target="_blank" rel="noopener">Falmouth</a> <a href="https://helston.merlincinemas.co.uk/film/i-play-rocky" class="showing-cinema-link" target="_blank" rel="noopener">Helston</a> <a href="https://ritz.merlincinemas.co.uk/film/i-play-rocky" class="showing-cinema-link" target="_blank" rel="noopener">Penzance</a> <a href="https://redruth.merlincinemas.co.uk/film/i-play-rocky" class="showing-cinema-link" target="_blank" rel="noopener">Redruth</a> <a href="https://st-ives.merlincinemas.co.uk/film/i-play-rocky" class="showing-cinema-link" target="_blank" rel="noopener">St Ives</a></span></div>    </div>
+  </div>
+</article>
+<article class="film-card-full" data-date="2026-11-06" data-cinemas="bodmin,falmouth,helston,penzance-ritz,redruth,st-ives">
   <div class="fc-poster"><a href="films/wild-horse-nine.html"><img src="https://image.tmdb.org/t/p/w500/dNJFRtVg3xLQ7dbNIQ55cmmIniD.jpg" alt="" loading="lazy" decoding="async"></a></div>
   <div class="fc-info">
     <h3><a href="films/wild-horse-nine.html">Wild Horse Nine</a></h3>
     <div class="fc-meta">
       <span class="cert cert--15" title="15"></span>
+      <span>1h 58min</span>
       <span class="genres">Comedy, Crime, Thriller</span>
     </div>
     <p class="fc-synopsis">Shortly before the 1973 Chilean coup, CIA agents Chris and Lee are dispatched from Santiago to Easter Island by their bureau chief, MJ. Amongst the Island&#x27;s iconic statues, and as the longtime partners wrestle with their dark pasts and present conspiracies, Chris&#x27;s newfound bond  <a href="films/wild-horse-nine.html">More →</a></p>
@@ -943,10 +646,36 @@ footer a:hover{color:var(--purple)}
       <div class="showing-row"><span class="showing-date">Fri 06 Nov</span><span class="showing-cinemas"><a href="https://bodmin.merlincinemas.co.uk/film/wild-horse-nine" class="showing-cinema-link" target="_blank" rel="noopener">Bodmin</a> <a href="https://falmouth.merlincinemas.co.uk/film/wild-horse-nine" class="showing-cinema-link" target="_blank" rel="noopener">Falmouth</a> <a href="https://helston.merlincinemas.co.uk/film/wild-horse-nine" class="showing-cinema-link" target="_blank" rel="noopener">Helston</a> <a href="https://ritz.merlincinemas.co.uk/film/wild-horse-nine" class="showing-cinema-link" target="_blank" rel="noopener">Penzance</a> <a href="https://redruth.merlincinemas.co.uk/film/wild-horse-nine" class="showing-cinema-link" target="_blank" rel="noopener">Redruth</a> <a href="https://st-ives.merlincinemas.co.uk/film/wild-horse-nine" class="showing-cinema-link" target="_blank" rel="noopener">St Ives</a></span></div>    </div>
   </div>
 </article>
+<article class="film-card-full" data-date="2026-11-13" data-cinemas="bodmin,falmouth,helston,penzance-ritz,redruth,st-ives">
+  <div class="fc-poster"><a href="films/ebenezer.html"><img src="https://image.tmdb.org/t/p/w500/wmuMZrelOQBAN2KlA30yOIeIUJl.jpg" alt="" loading="lazy" decoding="async"></a></div>
+  <div class="fc-info">
+    <h3><a href="films/ebenezer.html">Ebenezer</a></h3>
+    <div class="fc-meta">
+      <span class="cert cert--12a" title="12A"></span>
+      <span class="genres">Comedy, Drama, Fantasy</span>
+    </div>
+    <p class="fc-synopsis">Tale of an elderly miser who embarks on a supernatural journey after visits from the ghost of his former business partner and the Spirits of Christmas Past, Present, and Yet to Come force him to confront his past and fight for a second chance at happiness. <a href="films/ebenezer.html">More →</a></p>
+    <div class="fc-showings">
+      <div class="showing-row"><span class="showing-date">Fri 13 Nov</span><span class="showing-cinemas"><a href="https://bodmin.merlincinemas.co.uk/film/ebenezer" class="showing-cinema-link" target="_blank" rel="noopener">Bodmin</a> <a href="https://falmouth.merlincinemas.co.uk/film/ebenezer" class="showing-cinema-link" target="_blank" rel="noopener">Falmouth</a> <a href="https://helston.merlincinemas.co.uk/film/ebenezer" class="showing-cinema-link" target="_blank" rel="noopener">Helston</a> <a href="https://ritz.merlincinemas.co.uk/film/ebenezer" class="showing-cinema-link" target="_blank" rel="noopener">Penzance</a> <a href="https://redruth.merlincinemas.co.uk/film/ebenezer" class="showing-cinema-link" target="_blank" rel="noopener">Redruth</a> <a href="https://st-ives.merlincinemas.co.uk/film/ebenezer" class="showing-cinema-link" target="_blank" rel="noopener">St Ives</a></span></div>    </div>
+  </div>
+</article>
+<article class="film-card-full" data-date="2026-11-13" data-cinemas="bodmin,falmouth,helston,penzance-ritz,redruth,st-ives">
+  <div class="fc-poster"><a href="films/how-to-rob-a-bank.html"><img src="https://image.tmdb.org/t/p/w500/oUt2f6qHRZDnprG16ELimRhDGDV.jpg" alt="" loading="lazy" decoding="async"></a></div>
+  <div class="fc-info">
+    <h3><a href="films/how-to-rob-a-bank.html">How to Rob a Bank</a></h3>
+    <div class="fc-meta">
+      <span class="cert cert--15" title="15"></span>
+      <span class="genres">Crime, Thriller</span>
+    </div>
+    <p class="fc-synopsis">A crew of social media-savvy bank robbers broadcasts their daring heists, unaware that their growing viral fame has put them in the crosshairs of a veteran FBI agent and a brilliant software engineer. Despite the unlikely duo closing in, the crime ring pushes past their limits, p <a href="films/how-to-rob-a-bank.html">More →</a></p>
+    <div class="fc-showings">
+      <div class="showing-row"><span class="showing-date">Fri 13 Nov</span><span class="showing-cinemas"><a href="https://bodmin.merlincinemas.co.uk/film/how-to-rob-a-bank" class="showing-cinema-link" target="_blank" rel="noopener">Bodmin</a> <a href="https://falmouth.merlincinemas.co.uk/film/how-to-rob-a-bank" class="showing-cinema-link" target="_blank" rel="noopener">Falmouth</a> <a href="https://helston.merlincinemas.co.uk/film/how-to-rob-a-bank" class="showing-cinema-link" target="_blank" rel="noopener">Helston</a> <a href="https://ritz.merlincinemas.co.uk/film/how-to-rob-a-bank" class="showing-cinema-link" target="_blank" rel="noopener">Penzance</a> <a href="https://redruth.merlincinemas.co.uk/film/how-to-rob-a-bank" class="showing-cinema-link" target="_blank" rel="noopener">Redruth</a> <a href="https://st-ives.merlincinemas.co.uk/film/how-to-rob-a-bank" class="showing-cinema-link" target="_blank" rel="noopener">St Ives</a></span></div>    </div>
+  </div>
+</article>
 <article class="film-card-full" data-date="2026-11-20" data-cinemas="bodmin,falmouth,helston,penzance-ritz,redruth,st-ives">
   <div class="fc-poster"><a href="films/the-hunger-games-sunrise-on-the-reaping.html"><img src="https://image.tmdb.org/t/p/w500/ffJaYMtB6v1TrvkyhCOqwqCKm0o.jpg" alt="" loading="lazy" decoding="async"></a></div>
   <div class="fc-info">
-    <h3><a href="films/the-hunger-games-sunrise-on-the-reaping.html">The Hunger Games: Sunrise On The Reaping</a></h3>
+    <h3><a href="films/the-hunger-games-sunrise-on-the-reaping.html">The Hunger Games: Sunrise on the Reaping</a></h3>
     <div class="fc-meta">
       <span class="cert cert--12a" title="12A"></span>
       <span class="genres">Action, Adventure, Science Fiction</span>
@@ -957,7 +686,7 @@ footer a:hover{color:var(--purple)}
   </div>
 </article>
 <article class="film-card-full" data-date="2026-11-25" data-cinemas="bodmin,falmouth,helston,penzance-ritz,redruth,st-ives">
-  <div class="fc-poster"><a href="films/focker-in-law.html"><img src="https://image.tmdb.org/t/p/w500/gPdzdeehaoaYqxH2rA6yayEDSsS.jpg" alt="" loading="lazy" decoding="async"></a></div>
+  <div class="fc-poster"><a href="films/focker-in-law.html"><img src="https://image.tmdb.org/t/p/w500/bZhYdECsSuCrmbfYhKAc2bgsNz.jpg" alt="" loading="lazy" decoding="async"></a></div>
   <div class="fc-info">
     <h3><a href="films/focker-in-law.html">Focker-In-Law</a></h3>
     <div class="fc-meta">
@@ -969,25 +698,40 @@ footer a:hover{color:var(--purple)}
       <div class="showing-row"><span class="showing-date">Wed 25 Nov</span><span class="showing-cinemas"><a href="https://bodmin.merlincinemas.co.uk/film/fockerinlaw" class="showing-cinema-link" target="_blank" rel="noopener">Bodmin</a> <a href="https://falmouth.merlincinemas.co.uk/film/fockerinlaw" class="showing-cinema-link" target="_blank" rel="noopener">Falmouth</a> <a href="https://helston.merlincinemas.co.uk/film/fockerinlaw" class="showing-cinema-link" target="_blank" rel="noopener">Helston</a> <a href="https://ritz.merlincinemas.co.uk/film/fockerinlaw" class="showing-cinema-link" target="_blank" rel="noopener">Penzance</a> <a href="https://redruth.merlincinemas.co.uk/film/fockerinlaw" class="showing-cinema-link" target="_blank" rel="noopener">Redruth</a> <a href="https://st-ives.merlincinemas.co.uk/film/fockerinlaw" class="showing-cinema-link" target="_blank" rel="noopener">St Ives</a></span></div>    </div>
   </div>
 </article>
+<article class="film-card-full" data-date="2026-11-27" data-cinemas="bodmin,falmouth,helston,penzance-ritz,redruth,st-ives">
+  <div class="fc-poster"><a href="films/hexed.html"><img src="https://image.tmdb.org/t/p/w500/zO1r0TvdmnUSO1aAtFaVeT5h1KW.jpg" alt="" loading="lazy" decoding="async"></a></div>
+  <div class="fc-info">
+    <h3><a href="films/hexed.html">Hexed</a></h3>
+    <div class="fc-meta">
+      <span class="cert cert--pg" title="PG"></span>
+      <span class="genres">Adventure, Animation, Family</span>
+    </div>
+    <p class="fc-synopsis">An impulsive and unconventional teenage girl named Billie discovers secret magical abilities which, once unleashed, hurtle her into a spectacle-filled journey out of suburbia and into a vast witch realm called Hexe. Forced to team up with her cautious mother, Alice, they uncover  <a href="films/hexed.html">More →</a></p>
+    <div class="fc-showings">
+      <div class="showing-row"><span class="showing-date">Fri 27 Nov</span><span class="showing-cinemas"><a href="https://bodmin.merlincinemas.co.uk/film/hexed" class="showing-cinema-link" target="_blank" rel="noopener">Bodmin</a> <a href="https://falmouth.merlincinemas.co.uk/film/hexed" class="showing-cinema-link" target="_blank" rel="noopener">Falmouth</a> <a href="https://helston.merlincinemas.co.uk/film/hexed" class="showing-cinema-link" target="_blank" rel="noopener">Helston</a> <a href="https://ritz.merlincinemas.co.uk/film/hexed" class="showing-cinema-link" target="_blank" rel="noopener">Penzance</a> <a href="https://redruth.merlincinemas.co.uk/film/hexed" class="showing-cinema-link" target="_blank" rel="noopener">Redruth</a> <a href="https://st-ives.merlincinemas.co.uk/film/hexed" class="showing-cinema-link" target="_blank" rel="noopener">St Ives</a></span></div>    </div>
+  </div>
+</article>
 <article class="film-card-full" data-date="2026-12-18" data-cinemas="bodmin,falmouth,helston,penzance-ritz,redruth,st-ives">
-  <div class="fc-poster"><a href="films/dune-part-three.html"><img src="https://image.tmdb.org/t/p/w500/b4wekkUaxExzOeGe7hKXzhnyXHt.jpg" alt="" loading="lazy" decoding="async"></a></div>
+  <div class="fc-poster"><a href="films/dune-part-three.html"><img src="https://image.tmdb.org/t/p/w500/d43fvHQsIMa4kpyhKXw0haEJIvI.jpg" alt="" loading="lazy" decoding="async"></a></div>
   <div class="fc-info">
     <h3><a href="films/dune-part-three.html">Dune: Part Three</a></h3>
     <div class="fc-meta">
       <span class="cert cert--12a" title="12A"></span>
-      <span class="genres">Action, Adventure, Science Fiction</span>
+      <span>2h 20min</span>
+      <span class="genres">Adventure, Science Fiction</span>
     </div>
-    <p class="fc-synopsis">As Emperor, Paul Atreides grapples with the consequences of his rise to power as political conspiracies and a galaxy-spanning holy war threaten the future he alone can foresee. <a href="films/dune-part-three.html">More →</a></p>
+    <p class="fc-synopsis">Emperor Paul Atreides faces the fallout from his ascent to power as political plots and a galaxy-wide holy war endanger the future only he can see. <a href="films/dune-part-three.html">More →</a></p>
     <div class="fc-showings">
       <div class="showing-row"><span class="showing-date">Fri 18 Dec</span><span class="showing-cinemas"><a href="https://bodmin.merlincinemas.co.uk/film/dune-part-three" class="showing-cinema-link" target="_blank" rel="noopener">Bodmin</a> <a href="https://falmouth.merlincinemas.co.uk/film/dune-part-three" class="showing-cinema-link" target="_blank" rel="noopener">Falmouth</a> <a href="https://helston.merlincinemas.co.uk/film/dune-part-three" class="showing-cinema-link" target="_blank" rel="noopener">Helston</a> <a href="https://ritz.merlincinemas.co.uk/film/dune-part-three" class="showing-cinema-link" target="_blank" rel="noopener">Penzance</a> <a href="https://redruth.merlincinemas.co.uk/film/dune-part-three" class="showing-cinema-link" target="_blank" rel="noopener">Redruth</a> <a href="https://st-ives.merlincinemas.co.uk/film/dune-part-three" class="showing-cinema-link" target="_blank" rel="noopener">St Ives</a></span></div>    </div>
   </div>
 </article>
 <article class="film-card-full" data-date="2026-12-18" data-cinemas="bodmin,falmouth,helston,penzance-ritz,redruth,st-ives">
-  <div class="fc-poster"><a href="films/avengers-doomsday.html"><img src="https://image.tmdb.org/t/p/w500/8HkIe2i4ScpCkcX9SzZ9IPasqWV.jpg" alt="" loading="lazy" decoding="async"></a></div>
+  <div class="fc-poster"><a href="films/avengers-doomsday.html"><img src="https://image.tmdb.org/t/p/w500/cWXtJhrlruF8CeYuaBGE8vdj3Q9.jpg" alt="" loading="lazy" decoding="async"></a></div>
   <div class="fc-info">
     <h3><a href="films/avengers-doomsday.html">Avengers: Doomsday</a></h3>
     <div class="fc-meta">
       <span class="cert cert--12a" title="12A"></span>
+      <span>2h 45min</span>
       <span class="genres">Action, Adventure, Science Fiction</span>
     </div>
     <p class="fc-synopsis">Beloved heroes from three distinct universes are set on a deadly collision course and face an existential threat unlike anything they&#x27;ve ever encountered. <a href="films/avengers-doomsday.html">More →</a></p>
@@ -995,8 +739,48 @@ footer a:hover{color:var(--purple)}
       <div class="showing-row"><span class="showing-date">Fri 18 Dec</span><span class="showing-cinemas"><a href="https://bodmin.merlincinemas.co.uk/film/avengers-doomsday" class="showing-cinema-link" target="_blank" rel="noopener">Bodmin</a> <a href="https://falmouth.merlincinemas.co.uk/film/avengers-doomsday" class="showing-cinema-link" target="_blank" rel="noopener">Falmouth</a> <a href="https://helston.merlincinemas.co.uk/film/avengers-doomsday" class="showing-cinema-link" target="_blank" rel="noopener">Helston</a> <a href="https://ritz.merlincinemas.co.uk/film/avengers-doomsday" class="showing-cinema-link" target="_blank" rel="noopener">Penzance</a> <a href="https://redruth.merlincinemas.co.uk/film/avengers-doomsday" class="showing-cinema-link" target="_blank" rel="noopener">Redruth</a> <a href="https://st-ives.merlincinemas.co.uk/film/avengers-doomsday" class="showing-cinema-link" target="_blank" rel="noopener">St Ives</a></span></div>    </div>
   </div>
 </article>
+<article class="film-card-full" data-date="2026-12-25" data-cinemas="bodmin,falmouth,helston,penzance-ritz,redruth,st-ives">
+  <div class="fc-poster"><a href="films/jumanji-open-world.html"><img src="https://image.tmdb.org/t/p/w500/wlzAdBQw2XnmVW05YEJLNdAbizA.jpg" alt="" loading="lazy" decoding="async"></a></div>
+  <div class="fc-info">
+    <h3><a href="films/jumanji-open-world.html">Jumanji: Open World</a></h3>
+    <div class="fc-meta">
+      <span class="cert cert--12a" title="12A"></span>
+      <span class="genres">Adventure, Comedy, Fantasy</span>
+    </div>
+    <p class="fc-synopsis">Our heroes have escaped the ever-changing jungles of Jumanji before, but this time the game comes to us - as Jumanji breaks free of its console, unleashing its chaos into our world. <a href="films/jumanji-open-world.html">More →</a></p>
+    <div class="fc-showings">
+      <div class="showing-row"><span class="showing-date">Fri 25 Dec</span><span class="showing-cinemas"><a href="https://bodmin.merlincinemas.co.uk/film/jumanji-open-world" class="showing-cinema-link" target="_blank" rel="noopener">Bodmin</a> <a href="https://falmouth.merlincinemas.co.uk/film/jumanji-open-world" class="showing-cinema-link" target="_blank" rel="noopener">Falmouth</a> <a href="https://helston.merlincinemas.co.uk/film/jumanji-open-world" class="showing-cinema-link" target="_blank" rel="noopener">Helston</a> <a href="https://ritz.merlincinemas.co.uk/film/jumanji-open-world" class="showing-cinema-link" target="_blank" rel="noopener">Penzance</a> <a href="https://redruth.merlincinemas.co.uk/film/jumanji-open-world" class="showing-cinema-link" target="_blank" rel="noopener">Redruth</a> <a href="https://st-ives.merlincinemas.co.uk/film/jumanji-open-world" class="showing-cinema-link" target="_blank" rel="noopener">St Ives</a></span></div>    </div>
+  </div>
+</article>
+<article class="film-card-full" data-date="2026-12-25" data-cinemas="bodmin,falmouth,helston,penzance-ritz,redruth,st-ives">
+  <div class="fc-poster"><a href="films/the-angry-birds-movie-3.html"><img src="https://image.tmdb.org/t/p/w500/oxaW6X3xohnzdFSBKCrCjRDckMe.jpg" alt="" loading="lazy" decoding="async"></a></div>
+  <div class="fc-info">
+    <h3><a href="films/the-angry-birds-movie-3.html">The Angry Birds Movie 3</a></h3>
+    <div class="fc-meta">
+      <span class="cert cert--u" title="U"></span>
+      <span>1h 36min</span>
+      <span class="genres">Animation, Comedy, Family</span>
+    </div>
+    <p class="fc-synopsis">Red faces his greatest challenge yet… surviving fatherhood while saving the world. <a href="films/the-angry-birds-movie-3.html">More →</a></p>
+    <div class="fc-showings">
+      <div class="showing-row"><span class="showing-date">Fri 25 Dec</span><span class="showing-cinemas"><a href="https://bodmin.merlincinemas.co.uk/film/the-angry-birds-movie-3" class="showing-cinema-link" target="_blank" rel="noopener">Bodmin</a> <a href="https://falmouth.merlincinemas.co.uk/film/the-angry-birds-movie-3" class="showing-cinema-link" target="_blank" rel="noopener">Falmouth</a> <a href="https://helston.merlincinemas.co.uk/film/the-angry-birds-movie-3" class="showing-cinema-link" target="_blank" rel="noopener">Helston</a> <a href="https://ritz.merlincinemas.co.uk/film/the-angry-birds-movie-3" class="showing-cinema-link" target="_blank" rel="noopener">Penzance</a> <a href="https://redruth.merlincinemas.co.uk/film/the-angry-birds-movie-3" class="showing-cinema-link" target="_blank" rel="noopener">Redruth</a> <a href="https://st-ives.merlincinemas.co.uk/film/the-angry-birds-movie-3" class="showing-cinema-link" target="_blank" rel="noopener">St Ives</a></span></div>    </div>
+  </div>
+</article>
+<article class="film-card-full" data-date="2027-01-01" data-cinemas="bodmin,falmouth,helston,penzance-ritz,redruth,st-ives">
+  <div class="fc-poster"><a href="films/werwulf.html"><img src="https://image.tmdb.org/t/p/w500/imnkSt4PSQpxIuyiRpJCiLk3SZz.jpg" alt="" loading="lazy" decoding="async"></a></div>
+  <div class="fc-info">
+    <h3><a href="films/werwulf.html">Werwulf</a></h3>
+    <div class="fc-meta">
+      <span class="cert cert--15" title="15"></span>
+      <span class="genres">Horror</span>
+    </div>
+    <p class="fc-synopsis">A harrowing tale of devotion, damnation and the devil within. <a href="films/werwulf.html">More →</a></p>
+    <div class="fc-showings">
+      <div class="showing-row"><span class="showing-date">Fri 01 Jan</span><span class="showing-cinemas"><a href="https://bodmin.merlincinemas.co.uk/film/werwulf" class="showing-cinema-link" target="_blank" rel="noopener">Bodmin</a> <a href="https://falmouth.merlincinemas.co.uk/film/werwulf" class="showing-cinema-link" target="_blank" rel="noopener">Falmouth</a> <a href="https://helston.merlincinemas.co.uk/film/werwulf" class="showing-cinema-link" target="_blank" rel="noopener">Helston</a> <a href="https://ritz.merlincinemas.co.uk/film/werwulf" class="showing-cinema-link" target="_blank" rel="noopener">Penzance</a> <a href="https://redruth.merlincinemas.co.uk/film/werwulf" class="showing-cinema-link" target="_blank" rel="noopener">Redruth</a> <a href="https://st-ives.merlincinemas.co.uk/film/werwulf" class="showing-cinema-link" target="_blank" rel="noopener">St Ives</a></span></div>    </div>
+  </div>
+</article>
 <article class="film-card-full" data-date="2027-02-05" data-cinemas="bodmin,falmouth,helston,penzance-ritz,redruth,st-ives">
-  <div class="fc-poster"><a href="films/ice-age-boiling-point.html"><img src="https://image.tmdb.org/t/p/w500/hNfEXv5pKWw3raOghlspn8zFjm4.jpg" alt="" loading="lazy" decoding="async"></a></div>
+  <div class="fc-poster"><a href="films/ice-age-boiling-point.html"><img src="https://image.tmdb.org/t/p/w500/mPhAreyZLLcZ9pl4KRyEaqSu1Zv.jpg" alt="" loading="lazy" decoding="async"></a></div>
   <div class="fc-info">
     <h3><a href="films/ice-age-boiling-point.html">Ice Age: Boiling Point</a></h3>
     <div class="fc-meta">
@@ -1008,79 +792,73 @@ footer a:hover{color:var(--purple)}
       <div class="showing-row"><span class="showing-date">Fri 05 Feb</span><span class="showing-cinemas"><a href="https://bodmin.merlincinemas.co.uk/film/ice-age-boiling-point" class="showing-cinema-link" target="_blank" rel="noopener">Bodmin</a> <a href="https://falmouth.merlincinemas.co.uk/film/ice-age-boiling-point" class="showing-cinema-link" target="_blank" rel="noopener">Falmouth</a> <a href="https://helston.merlincinemas.co.uk/film/ice-age-boiling-point" class="showing-cinema-link" target="_blank" rel="noopener">Helston</a> <a href="https://ritz.merlincinemas.co.uk/film/ice-age-boiling-point" class="showing-cinema-link" target="_blank" rel="noopener">Penzance</a> <a href="https://redruth.merlincinemas.co.uk/film/ice-age-boiling-point" class="showing-cinema-link" target="_blank" rel="noopener">Redruth</a> <a href="https://st-ives.merlincinemas.co.uk/film/ice-age-boiling-point" class="showing-cinema-link" target="_blank" rel="noopener">St Ives</a></span></div>    </div>
   </div>
 </article>
-<article class="film-card-full" data-date="2027-02-28" data-cinemas="bodmin,falmouth,helston,penzance-ritz,redruth,st-ives">
-<div class="fc-screening-banner toddler-cinema">Toddler Cinema</div>
-  <div class="fc-poster"><a href="films/the-scarecrows-wedding-the-smeds-and-the-smoos.html"><img src="https://image.tmdb.org/t/p/w500/dlLlAINgInFzHC10JV44oOSw5gG.jpg" alt="" loading="lazy" decoding="async"></a></div>
+<article class="film-card-full" data-date="2027-03-26" data-cinemas="bodmin,falmouth,helston,penzance-ritz,redruth,st-ives">
+  <div class="fc-poster"><a href="films/not-alone.html"><img src="https://image.tmdb.org/t/p/w500/9HqA8Hxwd7KNs6ttYqRbXtYHLpv.jpg" alt="" loading="lazy" decoding="async"></a></div>
   <div class="fc-info">
-    <h3><a href="films/the-scarecrows-wedding-the-smeds-and-the-smoos.html">The Scarecrows&#x27; Wedding &amp; The Smeds And The Smoos <span class="screening-badge">Toddler Cinema</span></a></h3>
+    <h3><a href="films/not-alone.html">Not Alone</a></h3>
     <div class="fc-meta">
-      <span class="cert cert--u" title="U"></span>
-      <span>26 min</span>
-      <span class="genres">Animation, Family, Romance</span>
+      <span class="cert cert--pg" title="PG"></span>
+      <span class="genres">Animation, Comedy, Family</span>
     </div>
-    <p class="fc-synopsis">Devoted scarecrows Betty O&#x27;Barley and Harry O&#x27;Hay are planning a wedding to remember. When Harry insists on leaving the farm to collect one last thing for their big day, smooth-talking Reginald Rake swoops in with plans of his own. Chaos follows, and soon Betty&#x27;s in danger and ev <a href="films/the-scarecrows-wedding-the-smeds-and-the-smoos.html">More →</a></p>
+    <p class="fc-synopsis">While preparing for a revolutionary space launch, an introverted rocket mechanic and a brilliant astro-botanist spark an unexpected romance—only for three runaway aliens to crash-land in his home, looking for a ride back to the stars. <a href="films/not-alone.html">More →</a></p>
     <div class="fc-showings">
-      <div class="showing-row"><span class="showing-date">Sun 28 Feb</span><span class="showing-cinemas"><a href="https://bodmin.merlincinemas.co.uk/film/the-scarecrows-wedding-the-smeds-and-the-smoos-toddler-cinema" class="showing-cinema-link" target="_blank" rel="noopener">Bodmin</a> <a href="https://falmouth.merlincinemas.co.uk/film/the-scarecrows-wedding-the-smeds-and-the-smoos-toddler-cinema" class="showing-cinema-link" target="_blank" rel="noopener">Falmouth</a> <a href="https://helston.merlincinemas.co.uk/film/the-scarecrows-wedding-the-smeds-and-the-smoos-toddler-cinema" class="showing-cinema-link" target="_blank" rel="noopener">Helston</a> <a href="https://ritz.merlincinemas.co.uk/film/the-scarecrows-wedding-the-smeds-and-the-smoos-toddler-cinema" class="showing-cinema-link" target="_blank" rel="noopener">Penzance</a> <a href="https://redruth.merlincinemas.co.uk/film/the-scarecrows-wedding-the-smeds-and-the-smoos-toddler-cinema" class="showing-cinema-link" target="_blank" rel="noopener">Redruth</a> <a href="https://st-ives.merlincinemas.co.uk/film/the-scarecrows-wedding-the-smeds-and-the-smoos-toddler-cinema" class="showing-cinema-link" target="_blank" rel="noopener">St Ives</a></span></div>    </div>
+      <div class="showing-row"><span class="showing-date">Fri 26 Mar</span><span class="showing-cinemas"><a href="https://bodmin.merlincinemas.co.uk/film/not-alone" class="showing-cinema-link" target="_blank" rel="noopener">Bodmin</a> <a href="https://falmouth.merlincinemas.co.uk/film/not-alone" class="showing-cinema-link" target="_blank" rel="noopener">Falmouth</a> <a href="https://helston.merlincinemas.co.uk/film/not-alone" class="showing-cinema-link" target="_blank" rel="noopener">Helston</a> <a href="https://ritz.merlincinemas.co.uk/film/not-alone" class="showing-cinema-link" target="_blank" rel="noopener">Penzance</a> <a href="https://redruth.merlincinemas.co.uk/film/not-alone" class="showing-cinema-link" target="_blank" rel="noopener">Redruth</a> <a href="https://st-ives.merlincinemas.co.uk/film/not-alone" class="showing-cinema-link" target="_blank" rel="noopener">St Ives</a></span></div>    </div>
   </div>
 </article>
-<article class="film-card-full" data-date="2027-05-15" data-cinemas="bodmin,falmouth,helston,penzance-ritz,redruth,st-ives">
-  <div class="fc-poster"><a href="films/northern-soul-still-burning.html"><img src="https://image.tmdb.org/t/p/w500/7YgiKgejyfGJXYItzDP7hFicCPb.jpg" alt="" loading="lazy" decoding="async"></a></div>
+<article class="film-card-full" data-date="2027-07-10" data-cinemas="bodmin,falmouth,helston,penzance-ritz,redruth,st-ives">
+  <div class="fc-poster"><a href="films/life-support.html"><div class="no-poster-sm">🎬</div></a></div>
   <div class="fc-info">
-    <h3><a href="films/northern-soul-still-burning.html">Northern Soul: Still Burning</a></h3>
+    <h3><a href="films/life-support.html">Life Support</a></h3>
     <div class="fc-meta">
       <span class="cert cert--15" title="15"></span>
-      <span>1h 35min</span>
+      <span class="genres">Drama, Science Fiction</span>
+    </div>
+    <p class="fc-synopsis">Two people wake up in a strange room only to find out that only one of them can survive. As time runs out they must choose one person to live and sacrifice the other. <a href="films/life-support.html">More →</a></p>
+    <div class="fc-showings">
+      <div class="showing-row"><span class="showing-date">Sat 10 Jul</span><span class="showing-cinemas"><a href="https://bodmin.merlincinemas.co.uk/film/life-support" class="showing-cinema-link" target="_blank" rel="noopener">Bodmin</a> <a href="https://falmouth.merlincinemas.co.uk/film/life-support" class="showing-cinema-link" target="_blank" rel="noopener">Falmouth</a> <a href="https://helston.merlincinemas.co.uk/film/life-support" class="showing-cinema-link" target="_blank" rel="noopener">Helston</a> <a href="https://ritz.merlincinemas.co.uk/film/life-support" class="showing-cinema-link" target="_blank" rel="noopener">Penzance</a> <a href="https://redruth.merlincinemas.co.uk/film/life-support" class="showing-cinema-link" target="_blank" rel="noopener">Redruth</a> <a href="https://st-ives.merlincinemas.co.uk/film/life-support" class="showing-cinema-link" target="_blank" rel="noopener">St Ives</a></span></div>    </div>
+  </div>
+</article>
+<article class="film-card-full" data-date="2027-07-24" data-cinemas="bodmin,falmouth,helston,penzance-ritz,redruth,st-ives">
+  <div class="fc-poster"><a href="films/on-the-sea.html"><img src="https://image.tmdb.org/t/p/w500/hP4JpQe7F7rcs5lOH97fM7kaSFs.jpg" alt="" loading="lazy" decoding="async"></a></div>
+  <div class="fc-info">
+    <h3><a href="films/on-the-sea.html">On the Sea</a></h3>
+    <div class="fc-meta">
+      <span class="cert cert--15" title="15"></span>
+      <span>1h 55min</span>
       <span class="stars">★★★☆☆</span>
-      <span class="genres">Documentary</span>
+      <span class="genres">Drama, Romance</span>
     </div>
-    <p class="fc-synopsis">An exploration of the cultural phenomenon that is Northern Soul, charting how this movement has weaved and transformed itself musically and culturally through the decades. Northern Soul continues to re-invent itself more than any other music genre, remaining as vibrant and releva <a href="films/northern-soul-still-burning.html">More →</a></p>
+    <p class="fc-synopsis">Jack has been married to Maggie for over half his life. He works as a Hand Raker on the mussel beds in North Wales alongside his younger brother, Dyfan, and Dyfan’s three sons. Jack has always assumed that his own boy, Tom, will join the family business on leaving school but Tom’ <a href="films/on-the-sea.html">More →</a></p>
     <div class="fc-showings">
-      <div class="showing-row"><span class="showing-date">Sat 15 May</span><span class="showing-cinemas"><a href="https://bodmin.merlincinemas.co.uk/film/northern-soul-still-burning" class="showing-cinema-link" target="_blank" rel="noopener">Bodmin</a> <a href="https://falmouth.merlincinemas.co.uk/film/northern-soul-still-burning" class="showing-cinema-link" target="_blank" rel="noopener">Falmouth</a> <a href="https://helston.merlincinemas.co.uk/film/northern-soul-still-burning" class="showing-cinema-link" target="_blank" rel="noopener">Helston</a> <a href="https://ritz.merlincinemas.co.uk/film/northern-soul-still-burning" class="showing-cinema-link" target="_blank" rel="noopener">Penzance</a> <a href="https://redruth.merlincinemas.co.uk/film/northern-soul-still-burning" class="showing-cinema-link" target="_blank" rel="noopener">Redruth</a> <a href="https://st-ives.merlincinemas.co.uk/film/northern-soul-still-burning" class="showing-cinema-link" target="_blank" rel="noopener">St Ives</a></span></div>    </div>
+      <div class="showing-row"><span class="showing-date">Sat 24 Jul</span><span class="showing-cinemas"><a href="https://bodmin.merlincinemas.co.uk/film/on-the-sea" class="showing-cinema-link" target="_blank" rel="noopener">Bodmin</a> <a href="https://falmouth.merlincinemas.co.uk/film/on-the-sea" class="showing-cinema-link" target="_blank" rel="noopener">Falmouth</a> <a href="https://helston.merlincinemas.co.uk/film/on-the-sea" class="showing-cinema-link" target="_blank" rel="noopener">Helston</a> <a href="https://ritz.merlincinemas.co.uk/film/on-the-sea" class="showing-cinema-link" target="_blank" rel="noopener">Penzance</a> <a href="https://redruth.merlincinemas.co.uk/film/on-the-sea" class="showing-cinema-link" target="_blank" rel="noopener">Redruth</a> <a href="https://st-ives.merlincinemas.co.uk/film/on-the-sea" class="showing-cinema-link" target="_blank" rel="noopener">St Ives</a></span></div>    </div>
   </div>
 </article>
-<article class="film-card-full" data-date="2027-06-03" data-cinemas="bodmin,falmouth,helston,penzance-ritz,redruth,st-ives">
-<div class="fc-screening-banner double-bill">Double Bill</div>
-  <div class="fc-poster"><a href="films/bonnie-clive-with-the-jive-aces.html"><img src="https://image.tmdb.org/t/p/w500/rYpkfaQLdOg0d16MBRsz6XsP7SE.jpg" alt="" loading="lazy" decoding="async"></a></div>
+<article class="film-card-full" data-date="2027-07-29" data-cinemas="bodmin,falmouth,helston,penzance-ritz,redruth,st-ives">
+  <div class="fc-poster"><a href="films/spider-man-brand-new-day.html"><img src="https://image.tmdb.org/t/p/w500/iPOn6DinuVyLY17YM9mKuPofV08.jpg" alt="" loading="lazy" decoding="async"></a></div>
   <div class="fc-info">
-    <h3><a href="films/bonnie-clive-with-the-jive-aces.html">Bonnie &amp; Clive with The Jive Aces <span class="screening-badge">Double Bill</span></a></h3>
+    <h3><a href="films/spider-man-brand-new-day.html">Spider-Man: Brand New Day</a></h3>
     <div class="fc-meta">
       <span class="cert cert--12a" title="12A"></span>
-      <span>1h 20min</span>
-      <span class="genres">Romance</span>
+      <span>2h 25min</span>
+      <span class="stars">★★★★☆</span>
+      <span class="genres">Action, Adventure, Science Fiction</span>
     </div>
-    <p class="fc-synopsis">Three lonely adventurers take a road trip from London to Lands&#x27; End during the COVID-19 pandemic. <a href="films/bonnie-clive-with-the-jive-aces.html">More →</a></p>
+    <p class="fc-synopsis">Fighting crime full-time as Spider-Man in a world that doesn&#x27;t remember him—and the pressure of seeing his old friends move on without him—sparks a change in Peter Parker he may not have the power to control. But that transformation might also be the only thing that can stop a sh <a href="films/spider-man-brand-new-day.html">More →</a></p>
     <div class="fc-showings">
-      <div class="showing-row"><span class="showing-date">Thu 03 Jun</span><span class="showing-cinemas"><a href="https://bodmin.merlincinemas.co.uk/film/bonnie-clive-with-the-jive-aces-double-bill" class="showing-cinema-link" target="_blank" rel="noopener">Bodmin</a> <a href="https://falmouth.merlincinemas.co.uk/film/bonnie-clive-with-the-jive-aces-double-bill" class="showing-cinema-link" target="_blank" rel="noopener">Falmouth</a> <a href="https://helston.merlincinemas.co.uk/film/bonnie-clive-with-the-jive-aces-double-bill" class="showing-cinema-link" target="_blank" rel="noopener">Helston</a> <a href="https://ritz.merlincinemas.co.uk/film/bonnie-clive-with-the-jive-aces-double-bill" class="showing-cinema-link" target="_blank" rel="noopener">Penzance</a> <a href="https://redruth.merlincinemas.co.uk/film/bonnie-clive-with-the-jive-aces-double-bill" class="showing-cinema-link" target="_blank" rel="noopener">Redruth</a> <a href="https://st-ives.merlincinemas.co.uk/film/bonnie-clive-with-the-jive-aces-double-bill" class="showing-cinema-link" target="_blank" rel="noopener">St Ives</a></span></div>    </div>
+      <div class="showing-row"><span class="showing-date">Thu 29 Jul</span><span class="showing-cinemas"><a href="https://bodmin.merlincinemas.co.uk/film/spiderman-brand-new-day-3d" class="showing-cinema-link" target="_blank" rel="noopener">Bodmin</a> <a href="https://falmouth.merlincinemas.co.uk/film/spiderman-brand-new-day-3d" class="showing-cinema-link" target="_blank" rel="noopener">Falmouth</a> <a href="https://helston.merlincinemas.co.uk/film/spiderman-brand-new-day-3d" class="showing-cinema-link" target="_blank" rel="noopener">Helston</a> <a href="https://ritz.merlincinemas.co.uk/film/spiderman-brand-new-day-3d" class="showing-cinema-link" target="_blank" rel="noopener">Penzance</a> <a href="https://redruth.merlincinemas.co.uk/film/spiderman-brand-new-day-3d" class="showing-cinema-link" target="_blank" rel="noopener">Redruth</a> <a href="https://st-ives.merlincinemas.co.uk/film/spiderman-brand-new-day-3d" class="showing-cinema-link" target="_blank" rel="noopener">St Ives</a></span></div>    </div>
   </div>
 </article>
-<article class="film-card-full" data-date="2027-06-04" data-cinemas="helston,penzance-ritz,st-ives">
-  <div class="fc-poster"><a href="films/the-amazing-digital-circus-the-last-act.html"><img src="https://image.tmdb.org/t/p/w500/uoZeXWuUS2z2F7VaC1iS5RS5cnk.jpg" alt="" loading="lazy" decoding="async"></a></div>
+<article class="film-card-full" data-date="2027-07-30" data-cinemas="bodmin,falmouth,helston,penzance-ritz,redruth,st-ives">
+  <div class="fc-poster"><a href="films/shrek-5.html"><img src="https://image.tmdb.org/t/p/w500/zVGvsXptUWd1PgptipLNoIQYytW.jpg" alt="" loading="lazy" decoding="async"></a></div>
   <div class="fc-info">
-    <h3><a href="films/the-amazing-digital-circus-the-last-act.html">The Amazing Digital Circus: The Last Act</a></h3>
-    <div class="fc-meta">
-      <span class="cert cert--12a" title="12A"></span>
-      <span>1h 33min</span>
-      <span class="genres">Animation, Drama, Science Fiction</span>
-    </div>
-    <p class="fc-synopsis">With Caine gone and the circus dark, the cast are left with only the mistakes and traumas of their pasts to keep them company. As the prospect of eternity closes in around them, they discover the truth about the Digital Circus and its history. Will they come to terms with what th <a href="films/the-amazing-digital-circus-the-last-act.html">More →</a></p>
-    <div class="fc-showings">
-      <div class="showing-row"><span class="showing-date">Fri 04 Jun</span><span class="showing-cinemas"><a href="https://helston.merlincinemas.co.uk/film/the-amazing-digital-circus-the-last-act" class="showing-cinema-link" target="_blank" rel="noopener">Helston</a> <a href="https://ritz.merlincinemas.co.uk/film/the-amazing-digital-circus-the-last-act" class="showing-cinema-link" target="_blank" rel="noopener">Penzance</a> <a href="https://st-ives.merlincinemas.co.uk/film/the-amazing-digital-circus-the-last-act" class="showing-cinema-link" target="_blank" rel="noopener">St Ives</a></span></div>    </div>
-  </div>
-</article>
-<article class="film-card-full" data-date="2027-06-06" data-cinemas="bodmin,falmouth,helston,penzance-ritz,redruth,st-ives">
-<div class="fc-screening-banner toddler-cinema">Toddler Cinema</div>
-  <div class="fc-poster"><a href="films/zog-and-the-flying-doctors.html"><img src="https://image.tmdb.org/t/p/w500/aow2SrU1nKY1onSTjHhhLW8Ndd6.jpg" alt="" loading="lazy" decoding="async"></a></div>
-  <div class="fc-info">
-    <h3><a href="films/zog-and-the-flying-doctors.html">Zog and the Flying Doctors <span class="screening-badge">Toddler Cinema</span></a></h3>
+    <h3><a href="films/shrek-5.html">Shrek 5</a></h3>
     <div class="fc-meta">
       <span class="cert cert--u" title="U"></span>
-      <span>25 min</span>
-      <span class="stars">★★★☆☆</span>
-      <span class="genres">Animation, Family, Fantasy</span>
+      <span class="genres">Adventure, Animation, Comedy</span>
     </div>
-    <p class="fc-synopsis">Pearl and Gadabout are now a flying doctor trio, caring for creatures including a mermaid, a unicorn and a sneezy lion. However when bad weather forces them to land at the palace, Pearl is locked up by her uncle, the king. <a href="films/zog-and-the-flying-doctors.html">More →</a></p>
+    <p class="fc-synopsis">Shrek and Donkey team up for another whirlwind, big-city adventure. <a href="films/shrek-5.html">More →</a></p>
     <div class="fc-showings">
-      <div class="showing-row"><span class="showing-date">Sun 06 Jun</span><span class="showing-cinemas"><a href="https://bodmin.merlincinemas.co.uk/film/zog-zog-and-the-flying-doctors-toddler-cinema" class="showing-cinema-link" target="_blank" rel="noopener">Bodmin</a> <a href="https://falmouth.merlincinemas.co.uk/film/zog-zog-and-the-flying-doctors-toddler-cinema" class="showing-cinema-link" target="_blank" rel="noopener">Falmouth</a> <a href="https://helston.merlincinemas.co.uk/film/zog-zog-and-the-flying-doctors-toddler-cinema" class="showing-cinema-link" target="_blank" rel="noopener">Helston</a> <a href="https://ritz.merlincinemas.co.uk/film/zog-zog-and-the-flying-doctors-toddler-cinema" class="showing-cinema-link" target="_blank" rel="noopener">Penzance</a> <a href="https://redruth.merlincinemas.co.uk/film/zog-zog-and-the-flying-doctors-toddler-cinema" class="showing-cinema-link" target="_blank" rel="noopener">Redruth</a> <a href="https://st-ives.merlincinemas.co.uk/film/zog-zog-and-the-flying-doctors-toddler-cinema" class="showing-cinema-link" target="_blank" rel="noopener">St Ives</a></span></div>    </div>
+      <div class="showing-row"><span class="showing-date">Fri 30 Jul</span><span class="showing-cinemas"><a href="https://bodmin.merlincinemas.co.uk/film/shrek-5" class="showing-cinema-link" target="_blank" rel="noopener">Bodmin</a> <a href="https://falmouth.merlincinemas.co.uk/film/shrek-5" class="showing-cinema-link" target="_blank" rel="noopener">Falmouth</a> <a href="https://helston.merlincinemas.co.uk/film/shrek-5" class="showing-cinema-link" target="_blank" rel="noopener">Helston</a> <a href="https://ritz.merlincinemas.co.uk/film/shrek-5" class="showing-cinema-link" target="_blank" rel="noopener">Penzance</a> <a href="https://redruth.merlincinemas.co.uk/film/shrek-5" class="showing-cinema-link" target="_blank" rel="noopener">Redruth</a> <a href="https://st-ives.merlincinemas.co.uk/film/shrek-5" class="showing-cinema-link" target="_blank" rel="noopener">St Ives</a></span></div>    </div>
   </div>
 </article>
       </div>
@@ -1192,7 +970,7 @@ footer a:hover{color:var(--purple)}
         <span aria-hidden="true">·</span>
         <a href="https://github.com/evenwebb/">evenwebb</a>
       </div>
-      <p class="footer-updated">Last updated: 2026-06-09 13:08 BST</p>
+      <p class="footer-updated">Last updated: 2026-07-31 16:22 BST</p>
     </footer>
   </div>
 <script>

@@ -9,176 +9,28 @@ X-WR-CALNAME:Merlin Savoy Cinema Movie Premieres
 X-WR-CALDESC:Upcoming movie premieres at Merlin Cinemas Savoy Cinema
 X-WR-TIMEZONE:Europe/London
 BEGIN:VEVENT
-UID:65646ab9c23e7af3b79f9241765df30a064080ae@merlin-cinemas
-DTSTAMP:20260609T120823Z
-DTSTART;VALUE=DATE:20260625
-DTEND;VALUE=DATE:20260626
-SUMMARY:Supergirl @ Merlin Penzance
-DESCRIPTION:Supergirl (1h 48min)\nAction\, Adventure\, Science Fiction\n\nW
- hen an unexpected and ruthless adversary strikes too close to home\, Kara 
- Zor-El\, aka Supergirl\, reluctantly joins forces with an unlikely compani
- on on an epic\, interstellar journey of vengeance and justice.\n\nStarring
- : Milly Alcock\, Matthias Schoenaerts\, Eve Ridley\, David Krumholtz\, Emi
- ly Beecham\, Jason Momoa\n\nFilm release at Merlin Cinemas Penzance\nBook 
- tickets: /film/supergirl\n\nFilm details: https://evenwebb.github.io/merli
- n-cinemas/films/supergirl.html
+UID:74d782eedbe741d40329e839985b92555c2a06b1@merlin-cinemas
+DTSTAMP:20260731T152201Z
+DTSTART;VALUE=DATE:20260809
+DTEND;VALUE=DATE:20260810
+SUMMARY:Pip And Posy's Cinema Show Toddler Cinema Charity Screening for Cor
+ nwall's RSPCA @ Merlin Penzance
+DESCRIPTION:Pip And Posy's Cinema Show Toddler Cinema Charity Screening for
+  Cornwall's RSPCA\n\nFilm release at Merlin Cinemas Penzance\nBook tickets
+ : /film/pip-and-posys-cinema-show-toddler-cinema-charity-screening\n\nFilm
+  details: https://evenwebb.github.io/merlin-cinemas/films/pip-and-posy-s-c
+ inema-show-toddler-cinema-charity-screening-for-cornwall-s-rspca.html
 LOCATION:Merlin Cinemas Penzance
-URL:/film/supergirl
-END:VEVENT
-BEGIN:VEVENT
-UID:446bb26419889f3590614f98c618fd70e93cc95f@merlin-cinemas
-DTSTAMP:20260609T120823Z
-DTSTART;VALUE=DATE:20260626
-DTEND;VALUE=DATE:20260627
-SUMMARY:Jackass: Best And Last @ Merlin Penzance
-DESCRIPTION:Jackass: Best And Last (1h 44min)\nAction\, Comedy\, Documentar
- y\n\nThe 5th and final installment to Jackass franchise where the crew go 
- on one last insane crusade.\n\nStarring: Johnny Knoxville\, Steve-O\, Chri
- s Pontius\, Jason 'Wee Man' Acuña\, Dave England\, Preston Lacy\n\nFilm re
- lease at Merlin Cinemas Penzance\nBook tickets: /film/jackass-best-and-las
- t\n\nFilm details: https://evenwebb.github.io/merlin-cinemas/films/jackass
- -best-and-last.html
-LOCATION:Merlin Cinemas Penzance
-URL:/film/jackass-best-and-last
-END:VEVENT
-BEGIN:VEVENT
-UID:c7a527104a3c37e1f6873a9671d1eca0c5ff35f7@merlin-cinemas
-DTSTAMP:20260609T120823Z
-DTSTART;VALUE=DATE:20260626
-DTEND;VALUE=DATE:20260627
-SUMMARY:500 Miles @ Merlin Penzance
-DESCRIPTION:500 Miles (1h 42min)\nDrama\n\nA broken family is forced to com
- e together when 16-year-old Finn and his livewire younger brother Charlie 
- run away from trouble at home in England to reach their estranged grandfat
- her on Ireland’s stunning and wild west coast.\n\nStarring: Bill Nighy\, R
- oman Griffin Davis\, Dexter Sol Ansell\, Clare Dunne\, Michael Socha\, Mai
- sie Williams\n\nFilm release at Merlin Cinemas Penzance\nBook tickets: /fi
- lm/500-miles\n\nFilm details: https://evenwebb.github.io/merlin-cinemas/fi
- lms/500-miles.html
-LOCATION:Merlin Cinemas Penzance
-URL:/film/500-miles
-END:VEVENT
-BEGIN:VEVENT
-UID:1d7752889226df4ebc456f6051381cfbfcdd3000@merlin-cinemas
-DTSTAMP:20260609T120823Z
-DTSTART;VALUE=DATE:20260701
-DTEND;VALUE=DATE:20260702
-SUMMARY:Minions & Monsters @ Merlin Penzance
-DESCRIPTION:Minions & Monsters (1h 30min)\nAdventure\, Animation\, Comedy\,
-  Family\, Fantasy\n\nThis is the rambunctious\, ridiculous and totally tru
- e story of how the Minions conquered Hollywood\, became movie stars\, lost
-  everything\, unleashed monsters onto the world and then banded together t
- o try and save the planet from the mayhem they had just created.\n\nStarri
- ng: Pierre Coffin\, Trey Parker\, Allison Janney\, Christoph Waltz\, Jeff 
- Bridges\, Jesse Eisenberg\n\nFilm release at Merlin Cinemas Penzance\nBook
-  tickets: /film/minions-monsters\n\nFilm details: https://evenwebb.github.
- io/merlin-cinemas/films/minions-monsters.html
-LOCATION:Merlin Cinemas Penzance
-URL:/film/minions-monsters
-END:VEVENT
-BEGIN:VEVENT
-UID:749945302c7905e37a18dcad7fece66eaf0398fe@merlin-cinemas
-DTSTAMP:20260609T120823Z
-DTSTART;VALUE=DATE:20260710
-DTEND;VALUE=DATE:20260711
-SUMMARY:Evil Dead Burn @ Merlin Penzance
-DESCRIPTION:Evil Dead Burn\nHorror\n\nAfter the loss of her husband\, a wom
- an seeks solace with her in-laws in their secluded family home. As one by 
- one they are transformed into Deadites—turning the gathering into a family
-  reunion from hell—she comes to discover that the vows she took in life...
-  live on even in death.\n\nStarring: Souheila Yacoub\, Tandi Wright\, Hunt
- er Doohan\, Luciane Buchanan\, Erroll Shand\, Maude Davey\n\nFilm release 
- at Merlin Cinemas Penzance\nBook tickets: /film/evil-dead-burn\n\nFilm det
- ails: https://evenwebb.github.io/merlin-cinemas/films/evil-dead-burn.html
-LOCATION:Merlin Cinemas Penzance
-URL:/film/evil-dead-burn
-END:VEVENT
-BEGIN:VEVENT
-UID:5f014647f1ae0c2b8bdce720e4adf95edf142346@merlin-cinemas
-DTSTAMP:20260609T120823Z
-DTSTART;VALUE=DATE:20260710
-DTEND;VALUE=DATE:20260711
-SUMMARY:Moana @ Merlin Penzance
-DESCRIPTION:Moana\nFamily\, Fantasy\, Comedy\, Adventure\n\nMoana answers t
- he Ocean's call and\, for the first time\, voyages beyond the reef of her 
- island of Motunui with the infamous demigod Maui on an unforgettable journ
- ey to restore prosperity to her people.\n\nStarring: Catherine Laga‘aia\, 
- Dwayne Johnson\, Rena Owen\, John Tui\, Frankie Adams\n\nFilm release at M
- erlin Cinemas Penzance\nBook tickets: /film/moana\n\nFilm details: https:/
- /evenwebb.github.io/merlin-cinemas/films/moana.html
-LOCATION:Merlin Cinemas Penzance
-URL:/film/moana
-END:VEVENT
-BEGIN:VEVENT
-UID:989b96b409d08c5ff7f3bf41d37c42b2e50b3948@merlin-cinemas
-DTSTAMP:20260609T120823Z
-DTSTART;VALUE=DATE:20260717
-DTEND;VALUE=DATE:20260718
-SUMMARY:The Odyssey @ Merlin Penzance
-DESCRIPTION:The Odyssey\nAdventure\, Action\, Fantasy\n\nOdysseus\, the leg
- endary King of Ithaca\, embarks on a long and perilous journey home follow
- ing the Trojan War. Throughout his voyage\, he is forced to confront the w
- hims of gods\, mythological monsters\, and trials that stretch both his cu
- nning and his humanity to the breaking point.\n\nStarring: Matt Damon\, To
- m Holland\, Anne Hathaway\, Robert Pattinson\, Lupita Nyong'o\, Charlize T
- heron\n\nFilm release at Merlin Cinemas Penzance\nBook tickets: /film/the-
- odyssey\n\nFilm details: https://evenwebb.github.io/merlin-cinemas/films/t
- he-odyssey.html
-LOCATION:Merlin Cinemas Penzance
-URL:/film/the-odyssey
-END:VEVENT
-BEGIN:VEVENT
-UID:82bc8026e2a8768286ccb2528df03e85ec1ca95f@merlin-cinemas
-DTSTAMP:20260609T120823Z
-DTSTART;VALUE=DATE:20260731
-DTEND;VALUE=DATE:20260801
-SUMMARY:Spider-Man: Brand New Day @ Merlin Penzance
-DESCRIPTION:Spider-Man: Brand New Day\nScience Fiction\, Action\, Adventure
- \n\nFour years have passed since the events of No Way Home\, and Peter is 
- now an adult living entirely alone\, having voluntarily erased himself fro
- m the lives and memories of those he loves. Crime-fighting in a New York t
- hat no longer knows his name\, he's devoted himself entirely to protecting
-  his city — a full-time Spider-Man — but as the demands on him intensify\,
-  the pressure sparks a surprising physical evolution that threatens his ex
- istence\, even as a strange new pattern of crimes gives rise to one of the
-  most powerful threats he has ever faced.\n\nStarring: Tom Holland\, Zenda
- ya\, Sadie Sink\, Jacob Batalon\, Jon Bernthal\, Tramell Tillman\n\nFilm r
- elease at Merlin Cinemas Penzance\nBook tickets: /film/spiderman-brand-new
- -day\n\nFilm details: https://evenwebb.github.io/merlin-cinemas/films/spid
- er-man-brand-new-day.html
-LOCATION:Merlin Cinemas Penzance
-URL:/film/spiderman-brand-new-day
-END:VEVENT
-BEGIN:VEVENT
-UID:4cc85c01695a66e9742c98164fb2da91ba6834c3@merlin-cinemas
-DTSTAMP:20260609T120823Z
-DTSTART;VALUE=DATE:20260807
-DTEND;VALUE=DATE:20260808
-SUMMARY:PAW Patrol: The Dino Movie @ Merlin Penzance
-DESCRIPTION:PAW Patrol: The Dino Movie (1h 28min)\nAdventure\, Animation\, 
- Comedy\, Family\n\nThe PAW Patrol pups crash land on an uncharted tropical
-  island filled with dinosaurs after their ship gets caught in a mysterious
-  storm. They meet Rex\, a pup who has been stranded on the island for year
- s and has become an expert in all things dino-related. When the Patrol’s a
- rchrival\, Mayor Humdinger\, begins recklessly mining in hopes of exploiti
- ng the island for its natural resources\, he inadvertently causes a huge\,
-  dormant volcano to erupt. The pups are thrown into a series of high-stake
- s\, dino-sized rescues bigger than anything they’ve done before\, as they 
- must stop Humdinger before everything on the island goes extinct.\n\nStarr
- ing: Carter Young\, Hayden Chamberlen\, Mckenna Grace\, Rain Janjua\, Henr
- y Bolan\, Lucien Duncan-Reid\n\nFilm release at Merlin Cinemas Penzance\nB
- ook tickets: /film/paw-patrol-the-dino-movie\n\nFilm details: https://even
- webb.github.io/merlin-cinemas/films/paw-patrol-the-dino-movie.html
-LOCATION:Merlin Cinemas Penzance
-URL:/film/paw-patrol-the-dino-movie
+URL:/film/pip-and-posys-cinema-show-toddler-cinema-charity-screening
+SEQUENCE:24
 END:VEVENT
 BEGIN:VEVENT
 UID:b1fee501b3faf50dbf40b8cc35b8fc00ee9b6082@merlin-cinemas
-DTSTAMP:20260609T120823Z
+DTSTAMP:20260731T152201Z
 DTSTART;VALUE=DATE:20260814
 DTEND;VALUE=DATE:20260815
 SUMMARY:The End Of Oak Street @ Merlin Penzance
-DESCRIPTION:The End Of Oak Street (1h 50min)\nScience Fiction\, Mystery\, T
+DESCRIPTION:The End Of Oak Street (1h 40min)\nScience Fiction\, Mystery\, T
  hriller\n\nAfter a mysterious cosmic event rips Oak Street from suburbia a
  nd transports their neighborhood to someplace unknown\, the Platt family s
  oon discovers that their very survival depends on them sticking together a
@@ -189,47 +41,404 @@ DESCRIPTION:The End Of Oak Street (1h 50min)\nScience Fiction\, Mystery\, T
  /merlin-cinemas/films/the-end-of-oak-street.html
 LOCATION:Merlin Cinemas Penzance
 URL:/film/the-end-of-oak-street
+SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:af41e7bc72cef1540bc68abaf44e6ef0912bd009@merlin-cinemas
-DTSTAMP:20260609T120823Z
+DTSTAMP:20260731T152201Z
 DTSTART;VALUE=DATE:20260821
 DTEND;VALUE=DATE:20260822
 SUMMARY:Insidious: Out Of The Further @ Merlin Penzance
-DESCRIPTION:Insidious: Out Of The Further\nHorror\, Thriller\n\nGemma\, a y
- oung mother raising her daughter in the house she grew up in\, discovers s
- he can travel into The Further\, where she possesses an ability to bring w
- hat lives there back to the real world.\n\nStarring: Amelia Eve\, Brandon 
- Perea\, Lin Shaye\, Maisie Richardson-Sellers\, Sam Spruell\, Island Austi
- n\n\nFilm release at Merlin Cinemas Penzance\nBook tickets: /film/insidiou
- s-out-of-the-further\n\nFilm details: https://evenwebb.github.io/merlin-ci
- nemas/films/insidious-out-of-the-further.html
+DESCRIPTION:Insidious: Out Of The Further (1h 46min)\nHorror\, Thriller\n\n
+ Gemma\, a young mother raising her daughter in the house she grew up in\, 
+ discovers she can travel into The Further\, where she possesses an ability
+  to bring what lives there back to the real world.\n\nStarring: Amelia Eve
+ \, Island Austin\, Lin Shaye\, Sam Spruell\, Brandon Perea\, Maisie Richar
+ dson-Sellers\n\nFilm release at Merlin Cinemas Penzance\nBook tickets: /fi
+ lm/insidious-out-of-the-further\n\nFilm details: https://evenwebb.github.i
+ o/merlin-cinemas/films/insidious-out-of-the-further.html
 LOCATION:Merlin Cinemas Penzance
 URL:/film/insidious-out-of-the-further
+SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:7a3317ec07e781c53377fd0a12ceec5c3d63208c@merlin-cinemas
-DTSTAMP:20260609T120823Z
+DTSTAMP:20260731T152201Z
 DTSTART;VALUE=DATE:20260826
 DTEND;VALUE=DATE:20260827
 SUMMARY:The Dog Stars @ Merlin Penzance
-DESCRIPTION:The Dog Stars\nAdventure\, Science Fiction\, Thriller\n\nAfter 
- the world's population has been ravaged by a pandemic\, a man lives a lone
- some existence in a Colorado airplane hangar with his dog and a dour gunma
- n he has befriended. When a mysterious transmission comes through on the r
- adio while he’s flying his old Cessna\, it sparks a hunt for the provenanc
- e of the sound.\n\nStarring: Jacob Elordi\, Josh Brolin\, Margaret Qualley
- \, Guy Pearce\, Allison Janney\, Benedict Wong\n\nFilm release at Merlin C
- inemas Penzance\nBook tickets: /film/the-dog-stars\n\nFilm details: https:
- //evenwebb.github.io/merlin-cinemas/films/the-dog-stars.html
+DESCRIPTION:The Dog Stars (1h 40min)\nAdventure\, Science Fiction\, Thrille
+ r\n\nAfter the world's population has been ravaged by a pandemic\, a man l
+ ives a lonesome existence in a Colorado airplane hangar with his dog and a
+  dour gunman he has befriended. When a mysterious transmission comes throu
+ gh on the radio while he’s flying his old Cessna\, it sparks a hunt for th
+ e provenance of the sound.\n\nStarring: Jacob Elordi\, Josh Brolin\, Marga
+ ret Qualley\, Guy Pearce\, Allison Janney\, Benedict Wong\n\nFilm release 
+ at Merlin Cinemas Penzance\nBook tickets: /film/the-dog-stars\n\nFilm deta
+ ils: https://evenwebb.github.io/merlin-cinemas/films/the-dog-stars.html
 LOCATION:Merlin Cinemas Penzance
 URL:/film/the-dog-stars
+SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:290edc216fd5b75f10c4b134f80d57652b5d20c7@merlin-cinemas
-DTSTAMP:20260609T120823Z
-DTSTART;VALUE=DATE:20260904
-DTEND;VALUE=DATE:20260905
+UID:630ae20b6103cb8e2f667ba58d7d2c63cd7793d9@merlin-cinemas
+DTSTAMP:20260731T152201Z
+DTSTART;VALUE=DATE:20260909
+DTEND;VALUE=DATE:20260910
+SUMMARY:Pressure @ Merlin Penzance
+DESCRIPTION:Pressure (1h 41min)\n★★★★☆\nThriller\, History\, War\n\nIn the 
+ tense 72 hours before D-Day\, and the fate of the free world hanging in th
+ e balance\, General Dwight D. Eisenhower and Captain James Stagg face an i
+ mpossible choice—launch the largest and most dangerous seaborne invasion i
+ n history or risk losing the war altogether.\n\nStarring: Andrew Scott\, B
+ rendan Fraser\, Kerry Condon\, Chris Messina\, Damian Lewis\, Tamsin Topol
+ ski\n\nFilm release at Merlin Cinemas Penzance\nBook tickets: /film/pressu
+ re\n\nFilm details: https://evenwebb.github.io/merlin-cinemas/films/pressu
+ re.html
+LOCATION:Merlin Cinemas Penzance
+URL:/film/pressure
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:d2738f61244904a17e2feb94922b467726971bca@merlin-cinemas
+DTSTAMP:20260731T152201Z
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260912
+SUMMARY:Practical Magic 2 @ Merlin Penzance
+DESCRIPTION:Practical Magic 2\nFantasy\, Drama\, Comedy\n\nThe Owens sister
+ s must confront the dark curse that threatens to unravel their family once
+  and for all.\n\nStarring: Sandra Bullock\, Nicole Kidman\, Joey King\, Ma
+ isie Williams\, Xolo Maridueña\, Lee Pace\n\nFilm release at Merlin Cinema
+ s Penzance\nBook tickets: /film/practical-magic-2\n\nFilm details: https:/
+ /evenwebb.github.io/merlin-cinemas/films/practical-magic-2.html
+LOCATION:Merlin Cinemas Penzance
+URL:/film/practical-magic-2
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:17fa0e4b0c62e45fbc063877d8f56085cbb8a290@merlin-cinemas
+DTSTAMP:20260731T152201Z
+DTSTART;VALUE=DATE:20260918
+DTEND;VALUE=DATE:20260919
+SUMMARY:Resident Evil @ Merlin Penzance
+DESCRIPTION:Resident Evil\nHorror\, Science Fiction\, Thriller\n\nBryan\, a
+  medical courier\, is in the process of making a delivery when a sudden ou
+ tbreak occurs\, forcing him to fight for survival.\n\nStarring: Austin Abr
+ ams\, Zach Cherry\, Kali Reis\, Paul Walter Hauser\, Johnno Wilson\n\nFilm
+  release at Merlin Cinemas Penzance\nBook tickets: /film/resident-evil\n\n
+ Film details: https://evenwebb.github.io/merlin-cinemas/films/resident-evi
+ l.html
+LOCATION:Merlin Cinemas Penzance
+URL:/film/resident-evil
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:cb9ac7863a791499e8429c0b27d0bdafa3cb4ee9@merlin-cinemas
+DTSTAMP:20260731T152201Z
+DTSTART;VALUE=DATE:20260918
+DTEND;VALUE=DATE:20260919
+SUMMARY:Shaun The Sheep: The Beast Of Mossy Bottom @ Merlin Penzance
+DESCRIPTION:Shaun The Sheep: The Beast Of Mossy Bottom\nAnimation\, Comedy\
+ , Adventure\, Science Fiction\, Family\n\nOn Halloween Eve at Mossy Bottom
+  Farm\, excitement turns to dismay when the clumsy Farmer ruins the pumpki
+ n patch. Shaun tries fixing it with science experiments\, but things go wr
+ ong when a wild beast appears in the woods.\n\nStarring: Justin Fletcher\,
+  John Sparkes\, Kate Harbour\n\nFilm release at Merlin Cinemas Penzance\nB
+ ook tickets: /film/shaun-the-sheep-the-beast-of-mossy-bottom\n\nFilm detai
+ ls: https://evenwebb.github.io/merlin-cinemas/films/shaun-the-sheep-the-be
+ ast-of-mossy-bottom.html
+LOCATION:Merlin Cinemas Penzance
+URL:/film/shaun-the-sheep-the-beast-of-mossy-bottom
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:8a765aae4a098845392dc997f92dbb0998bcdc7f@merlin-cinemas
+DTSTAMP:20260731T152201Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+SUMMARY:Sense And Sensibility @ Merlin Penzance
+DESCRIPTION:Sense And Sensibility (2h 16min)\n★★★★☆\nDrama\, Romance\n\nThe
+  Dashwood sisters\, sensible Elinor and passionate Marianne\, learn that t
+ heir prospects of marriage seem doomed by their family's sudden loss of fo
+ rtune. After Henry Dashwood dies unexpectedly\, his estate must pass on by
+  law to his son. These circumstances leave Mr. Dashwood's wife and daughte
+ rs without a home and with barely enough money to live on. As Elinor and M
+ arianne struggle to find romantic fulfillment in a society obsessed with f
+ inancial and social status\, they must learn to mix sense with sensibility
+  in their dealings with both money and men.\n\nStarring: Emma Thompson\, K
+ ate Winslet\, Alan Rickman\, Hugh Grant\, Gemma Jones\, Greg Wise\n\nFilm 
+ release at Merlin Cinemas Penzance\nBook tickets: /film/sense-and-sensibil
+ ity\n\nFilm details: https://evenwebb.github.io/merlin-cinemas/films/sense
+ -and-sensibility.html
+LOCATION:Merlin Cinemas Penzance
+URL:/film/sense-and-sensibility
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:4d43935527bdca205c2d3c8acd77cc69f9f0d12f@merlin-cinemas
+DTSTAMP:20260731T152201Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+SUMMARY:Heart Of The Beast @ Merlin Penzance
+DESCRIPTION:Heart Of The Beast (1h 41min)\nAction\, Adventure\, Drama\, Thr
+ iller\n\nAfter a harrowing plane crash\, Special Forces officer James Belm
+ ont and his combat dog\, Odin\, find themselves stranded deep in the Alask
+ an wilderness. Together\, they are forced into a brutal fight for survival
+  against the elements.\n\nStarring: Brad Pitt\, J.K. Simmons\, Anna Lambe\
+ n\nFilm release at Merlin Cinemas Penzance\nBook tickets: /film/heart-of-t
+ he-beast\n\nFilm details: https://evenwebb.github.io/merlin-cinemas/films/
+ heart-of-the-beast.html
+LOCATION:Merlin Cinemas Penzance
+URL:/film/heart-of-the-beast
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:ec9dcb1add4fa655028bef9b9417e5509e636702@merlin-cinemas
+DTSTAMP:20260731T152201Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+SUMMARY:Digger @ Merlin Penzance
+DESCRIPTION:Digger (1h 46min)\nDrama\, Comedy\n\nThe most powerful man in t
+ he world embarks on a frantic mission to prove he is humanity's savior bef
+ ore the disaster he's unleashed destroys everything.\n\nStarring: Tom Crui
+ se\, Riz Ahmed\, John Goodman\, Sandra Hüller\, Michael Stuhlbarg\, Jesse 
+ Plemons\n\nFilm release at Merlin Cinemas Penzance\nBook tickets: /film/di
+ gger\n\nFilm details: https://evenwebb.github.io/merlin-cinemas/films/digg
+ er.html
+LOCATION:Merlin Cinemas Penzance
+URL:/film/digger
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:3e19a7db406588f7f21ecfd0bafaba02c3bce017@merlin-cinemas
+DTSTAMP:20260731T152201Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+SUMMARY:Verity @ Merlin Penzance
+DESCRIPTION:Verity (1h 54min)\nMystery\, Thriller\n\nLowen Ashleigh gets hi
+ red by Jeremy Crawford to ghostwrite novels for his bestselling author wif
+ e Verity\, who's unable to finish after an accident. Lowen uncovers Verity
+ 's disturbing truths while residing at the Crawfords' home to work.\n\nSta
+ rring: Dakota Johnson\, Anne Hathaway\, Josh Hartnett\, Ismael Cruz Cordov
+ a\, Brady Wagner\, Irina Dvorovenko\n\nFilm release at Merlin Cinemas Penz
+ ance\nBook tickets: /film/verity\n\nFilm details: https://evenwebb.github.
+ io/merlin-cinemas/films/verity.html
+LOCATION:Merlin Cinemas Penzance
+URL:/film/verity
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:d610dcb748d266c20d90e268ecbf055070dafaa5@merlin-cinemas
+DTSTAMP:20260731T152201Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261010
+SUMMARY:The Uprising @ Merlin Penzance
+DESCRIPTION:The Uprising (2h 7min)\nDrama\, History\, War\n\nAs war and pla
+ gue devastate 14th-century England\, humble peasant Wat Tyler ignites a re
+ bellion\, uniting an army of commoners to defy the king's brutal rule in a
+  desperate fight for freedom and survival.\n\nStarring: Andrew Garfield\, 
+ Jamie Bell\, Stephen Dillane\, Tom Hollander\, Cosmo Jarvis\, Thomasin McK
+ enzie\n\nFilm release at Merlin Cinemas Penzance\nBook tickets: /film/the-
+ uprising\n\nFilm details: https://evenwebb.github.io/merlin-cinemas/films/
+ the-uprising.html
+LOCATION:Merlin Cinemas Penzance
+URL:/film/the-uprising
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:5c04ae63d7ebb08be8b871ce49666a1beae3c79e@merlin-cinemas
+DTSTAMP:20260731T152201Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261010
+SUMMARY:The Social Reckoning @ Merlin Penzance
+DESCRIPTION:The Social Reckoning\nDrama\n\nFrances Haugen\, a young Faceboo
+ k engineer\, enlists the help of Jeff Horwitz\, a Wall Street Journal repo
+ rter\, to go on a dangerous journey that ends up blowing the whistle on th
+ e social network's most guarded secrets.\n\nStarring: Mikey Madison\, Jere
+ my Allen White\, Jeremy Strong\, Wunmi Mosaku\, Betty Gilpin\, Billy Magnu
+ ssen\n\nFilm release at Merlin Cinemas Penzance\nBook tickets: /film/the-s
+ ocial-reckoning\n\nFilm details: https://evenwebb.github.io/merlin-cinemas
+ /films/the-social-reckoning.html
+LOCATION:Merlin Cinemas Penzance
+URL:/film/the-social-reckoning
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:13882baefc8e1a465c0985f8ce19baa61aea1db7@merlin-cinemas
+DTSTAMP:20260731T152201Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+SUMMARY:Whalefall @ Merlin Penzance
+DESCRIPTION:Whalefall (1h 38min)\nThriller\, Horror\n\nFollowing the death 
+ of his father\, Jay Gardiner goes diving off the central Coast of Californ
+ ia in search of his remains\, but is swallowed by a massive sperm whale. W
+ hile trapped inside its belly with only one hour of oxygen left\, Jay come
+ s to realize that the hard-earned lessons his father imparted may be the k
+ ey to his escape.\n\nStarring: Austin Abrams\, Josh Brolin\, Elisabeth Shu
+ e\, John Ortiz\, Jane Levy\, Emily Rudd\n\nFilm release at Merlin Cinemas 
+ Penzance\nBook tickets: /film/whalefall\n\nFilm details: https://evenwebb.
+ github.io/merlin-cinemas/films/whalefall.html
+LOCATION:Merlin Cinemas Penzance
+URL:/film/whalefall
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:d7584ca900c8832ffb2ecacf2d12199f881ec812@merlin-cinemas
+DTSTAMP:20260731T152201Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+SUMMARY:Street Fighter @ Merlin Penzance
+DESCRIPTION:Street Fighter (2h 5min)\nAction\, Fantasy\n\nIn 1993\, estrang
+ ed Street Fighters Ryu and Ken Masters are thrown back into combat when th
+ e mysterious Chun-Li recruits them for the next World Warrior Tournament: 
+ a brutal clash of fists\, fate\, and fury. But behind this battle royale l
+ ies a deadly conspiracy that forces them to face off against each other an
+ d the demons of their past. And if they don't\, it's GAME OVER!\n\nStarrin
+ g: Noah Centineo\, Andrew Koji\, Callina Liang\, Joe Anoa'i\, David Dastma
+ lchian\, Cody Rhodes\n\nFilm release at Merlin Cinemas Penzance\nBook tick
+ ets: /film/street-fighter\n\nFilm details: https://evenwebb.github.io/merl
+ in-cinemas/films/street-fighter.html
+LOCATION:Merlin Cinemas Penzance
+URL:/film/street-fighter
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:2549430adf8ab65479b2dd3e34b65ea00660d500@merlin-cinemas
+DTSTAMP:20260731T152201Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+SUMMARY:Forgotten Island @ Merlin Penzance
+DESCRIPTION:Forgotten Island\nAdventure\, Animation\, Comedy\, Family\, Fan
+ tasy\n\nWhile celebrating their last night together\, high school graduate
+ s and best friends Jo and Raissa stumble upon a mysterious portal that tra
+ nsports them to the fantastical island of Nakali. When they discover that 
+ the memories of their entire friendship are the price for returning home\,
+  Jo and Raissa will race to find a way to leave the island before they for
+ get each other forever.\n\nStarring: H.E.R.\, Liza Soberano\, Dave Franco\
+ , Lea Salonga\, Manny Jacinto\, Jenny Slate\n\nFilm release at Merlin Cine
+ mas Penzance\nBook tickets: /film/forgotten-island\n\nFilm details: https:
+ //evenwebb.github.io/merlin-cinemas/films/forgotten-island.html
+LOCATION:Merlin Cinemas Penzance
+URL:/film/forgotten-island
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:71949fdd0da28c783302315334b0b9897b98a738@merlin-cinemas
+DTSTAMP:20260731T152201Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:Ghosts: The Possession Of Button House @ Merlin Penzance
+DESCRIPTION:Ghosts: The Possession Of Button House\nFantasy\, Comedy\n\nIt'
+ s a matter of life and death for Alison\, Mike\, Mia and the Ghosts.\n\nSt
+ arring: Charlotte Ritchie\, Kiell Smith-Bynoe\, Mathew Baynton\, Lolly Ade
+ fope\, Ben Willbond\, Jim Howick\n\nFilm release at Merlin Cinemas Penzanc
+ e\nBook tickets: /film/ghosts-the-possession-of-button-house\n\nFilm detai
+ ls: https://evenwebb.github.io/merlin-cinemas/films/ghosts-the-possession-
+ of-button-house.html
+LOCATION:Merlin Cinemas Penzance
+URL:/film/ghosts-the-possession-of-button-house
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:62502d08ff7ce9d0fa27a082f6a6e242afc3f849@merlin-cinemas
+DTSTAMP:20260731T152201Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:Klara And The Sun @ Merlin Penzance
+DESCRIPTION:Klara And The Sun (1h 56min)\nScience Fiction\, Drama\, Comedy\
+ n\nWhen Klara\, an Artificial Friend who wants nothing more than to find t
+ he perfect home\, meets Josie\, each immediately senses a kindred spirit i
+ n the other. Josie has a fraught relationship with her mother and they've 
+ suffered great loss\, but Klara's innocent wonder and unwavering loyalty b
+ egin to heal the family and bring light to Josie's complicated world.\n\nS
+ tarring: Jenna Ortega\, Mia Tharia\, Amy Adams\, Natasha Lyonne\, Aran Mur
+ phy\, Rachel House\n\nFilm release at Merlin Cinemas Penzance\nBook ticket
+ s: /film/klara-and-the-sun\n\nFilm details: https://evenwebb.github.io/mer
+ lin-cinemas/films/klara-and-the-sun.html
+LOCATION:Merlin Cinemas Penzance
+URL:/film/klara-and-the-sun
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:d6ca24ff7adc4dbfdb54b5ce248ef1c1b5a5d36b@merlin-cinemas
+DTSTAMP:20260731T152201Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:Clayface @ Merlin Penzance
+DESCRIPTION:Clayface\nHorror\, Thriller\, Science Fiction\n\nFollow the ter
+ rifying descent into hell of a promising Hollywood actor who has become a 
+ monster driven by revenge\, exploring the loss of identity and humanity\, 
+ the ravages of toxic love and the dark side of scientific ambition.\n\nSta
+ rring: Tom Rhys Harries\, Naomi Ackie\, Eddie Marsan\, Max Minghella\, Dav
+ id Dencik\, Francesca Corney\n\nFilm release at Merlin Cinemas Penzance\nB
+ ook tickets: /film/clayface\n\nFilm details: https://evenwebb.github.io/me
+ rlin-cinemas/films/clayface.html
+LOCATION:Merlin Cinemas Penzance
+URL:/film/clayface
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:9338b763a0aae6d0f762864237caae09e53aa1d0@merlin-cinemas
+DTSTAMP:20260731T152201Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:I Play Rocky @ Merlin Penzance
+DESCRIPTION:I Play Rocky\nDrama\, History\n\nThe electrifying true story ab
+ out an unknown actor with an unshakable belief that he wasn't just meant t
+ o write Rocky—he was meant to be Rocky Balboa. Told "no" at every turn\, S
+ ylvester Stallone bets everything on himself\, holding the line on playing
+  the lead against seemingly impossible odds.\n\nStarring: Anthony Ippolito
+ \, Stephan James\, Matt Dillon\, AnnaSophia Robb\, P.J. Byrne\, Jay Duplas
+ s\n\nFilm release at Merlin Cinemas Penzance\nBook tickets: /film/i-play-r
+ ocky\n\nFilm details: https://evenwebb.github.io/merlin-cinemas/films/i-pl
+ ay-rocky.html
+LOCATION:Merlin Cinemas Penzance
+URL:/film/i-play-rocky
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:ba3e11a9e0728920ef1ca4df949def086fdf6f0e@merlin-cinemas
+DTSTAMP:20260731T152201Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:Wild Horse Nine @ Merlin Penzance
+DESCRIPTION:Wild Horse Nine (1h 58min)\nComedy\, Crime\, Thriller\n\nShortl
+ y before the 1973 Chilean coup\, CIA agents Chris and Lee are dispatched f
+ rom Santiago to Easter Island by their bureau chief\, MJ. Amongst the Isla
+ nd's iconic statues\, and as the longtime partners wrestle with their dark
+  pasts and present conspiracies\, Chris's newfound bond with a pair of reb
+ ellious students threatens to send everyone’s trip to this remote paradise
+  sideways.\n\nStarring: John Malkovich\, Sam Rockwell\, Steve Buscemi\, Pa
+ rker Posey\, Tom Waits\, Mariana di Girolamo\n\nFilm release at Merlin Cin
+ emas Penzance\nBook tickets: /film/wild-horse-nine\n\nFilm details: https:
+ //evenwebb.github.io/merlin-cinemas/films/wild-horse-nine.html
+LOCATION:Merlin Cinemas Penzance
+URL:/film/wild-horse-nine
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:98a632633afdb8e9c237795bf4cda6c77f9759ad@merlin-cinemas
+DTSTAMP:20260731T152201Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Ebenezer @ Merlin Penzance
+DESCRIPTION:Ebenezer\nDrama\, Fantasy\, Comedy\n\nTale of an elderly miser 
+ who embarks on a supernatural journey after visits from the ghost of his f
+ ormer business partner and the Spirits of Christmas Past\, Present\, and Y
+ et to Come force him to confront his past and fight for a second chance at
+  happiness.\n\nStarring: Johnny Depp\, Rupert Grint\, Andrea Riseborough\,
+  Tramell Tillman\, Ian McKellen\, Daisy Ridley\n\nFilm release at Merlin C
+ inemas Penzance\nBook tickets: /film/ebenezer\n\nFilm details: https://eve
+ nwebb.github.io/merlin-cinemas/films/ebenezer.html
+LOCATION:Merlin Cinemas Penzance
+URL:/film/ebenezer
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:07e49ce0b6c859e2b58cbfe8276a2ea7df835374@merlin-cinemas
+DTSTAMP:20260731T152201Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
 SUMMARY:How To Rob A Bank @ Merlin Penzance
 DESCRIPTION:How To Rob A Bank\nCrime\, Thriller\n\nA crew of social media-s
  avvy bank robbers broadcasts their daring heists\, unaware that their grow
@@ -243,168 +452,11 @@ DESCRIPTION:How To Rob A Bank\nCrime\, Thriller\n\nA crew of social media-s
  .html
 LOCATION:Merlin Cinemas Penzance
 URL:/film/how-to-rob-a-bank
-END:VEVENT
-BEGIN:VEVENT
-UID:630ae20b6103cb8e2f667ba58d7d2c63cd7793d9@merlin-cinemas
-DTSTAMP:20260609T120823Z
-DTSTART;VALUE=DATE:20260909
-DTEND;VALUE=DATE:20260910
-SUMMARY:Pressure @ Merlin Penzance
-DESCRIPTION:Pressure (1h 40min)\n★★★★☆\nThriller\, History\, War\n\nIn the 
- tense 72 hours before D-Day\, and the fate of the free world hanging in th
- e balance\, General Dwight D. Eisenhower and Captain James Stagg face an i
- mpossible choice—launch the largest and most dangerous seaborne invasion i
- n history or risk losing the war altogether.\n\nStarring: Andrew Scott\, B
- rendan Fraser\, Kerry Condon\, Chris Messina\, Damian Lewis\, Con O'Neill\
- n\nFilm release at Merlin Cinemas Penzance\nBook tickets: /film/pressure\n
- \nFilm details: https://evenwebb.github.io/merlin-cinemas/films/pressure.h
- tml
-LOCATION:Merlin Cinemas Penzance
-URL:/film/pressure
-END:VEVENT
-BEGIN:VEVENT
-UID:d2738f61244904a17e2feb94922b467726971bca@merlin-cinemas
-DTSTAMP:20260609T120823Z
-DTSTART;VALUE=DATE:20260911
-DTEND;VALUE=DATE:20260912
-SUMMARY:Practical Magic 2 @ Merlin Penzance
-DESCRIPTION:Practical Magic 2\nFantasy\, Drama\, Comedy\n\nThe Owens sister
- s must confront the dark curse that threatens to unravel their family once
-  and for all.\n\nStarring: Sandra Bullock\, Nicole Kidman\, Lee Pace\, Dia
- nne Wiest\, Stockard Channing\, Maisie Williams\n\nFilm release at Merlin 
- Cinemas Penzance\nBook tickets: /film/practical-magic-2\n\nFilm details: h
- ttps://evenwebb.github.io/merlin-cinemas/films/practical-magic-2.html
-LOCATION:Merlin Cinemas Penzance
-URL:/film/practical-magic-2
-END:VEVENT
-BEGIN:VEVENT
-UID:17fa0e4b0c62e45fbc063877d8f56085cbb8a290@merlin-cinemas
-DTSTAMP:20260609T120823Z
-DTSTART;VALUE=DATE:20260918
-DTEND;VALUE=DATE:20260919
-SUMMARY:Resident Evil @ Merlin Penzance
-DESCRIPTION:Resident Evil\nHorror\, Science Fiction\, Action\n\nBryan\, a m
- edical courier\, is in the process of making a delivery when a sudden outb
- reak occurs\, forcing him to fight for survival.\n\nStarring: Austin Abram
- s\, Zach Cherry\, Kali Reis\, Paul Walter Hauser\, Johnno Wilson\n\nFilm r
- elease at Merlin Cinemas Penzance\nBook tickets: /film/resident-evil\n\nFi
- lm details: https://evenwebb.github.io/merlin-cinemas/films/resident-evil.
- html
-LOCATION:Merlin Cinemas Penzance
-URL:/film/resident-evil
-END:VEVENT
-BEGIN:VEVENT
-UID:cb9ac7863a791499e8429c0b27d0bdafa3cb4ee9@merlin-cinemas
-DTSTAMP:20260609T120823Z
-DTSTART;VALUE=DATE:20260918
-DTEND;VALUE=DATE:20260919
-SUMMARY:Shaun The Sheep: The Beast Of Mossy Bottom @ Merlin Penzance
-DESCRIPTION:Shaun The Sheep: The Beast Of Mossy Bottom\nFamily\, Comedy\, A
- dventure\, Animation\n\nThe residents of Mossy Bottom Farm looking forward
-  to Halloween – until the clumsy Farmer trashes the flock’s beloved pumpki
- n patch! When Shaun turns mad scientist to fix the problem\, things rapidl
- y spiral out of control. With the Farmer missing and a wild beast roaming 
- the woods of Mossingham\, all the ingredients are in place for a monstrous
- ly fun family adventure.\n\nStarring: Justin Fletcher\, John Sparkes\, Kat
- e Harbour\n\nFilm release at Merlin Cinemas Penzance\nBook tickets: /film/
- shaun-the-sheep-the-beast-of-mossy-bottom\n\nFilm details: https://evenweb
- b.github.io/merlin-cinemas/films/shaun-the-sheep-the-beast-of-mossy-bottom
- .html
-LOCATION:Merlin Cinemas Penzance
-URL:/film/shaun-the-sheep-the-beast-of-mossy-bottom
-END:VEVENT
-BEGIN:VEVENT
-UID:3e19a7db406588f7f21ecfd0bafaba02c3bce017@merlin-cinemas
-DTSTAMP:20260609T120823Z
-DTSTART;VALUE=DATE:20261002
-DTEND;VALUE=DATE:20261003
-SUMMARY:Verity @ Merlin Penzance
-DESCRIPTION:Verity\nMystery\, Thriller\n\nLowen Ashleigh gets hired by Jere
- my Crawford to ghostwrite novels for his bestselling author wife Verity\, 
- who's unable to finish after an accident. Lowen uncovers Verity's disturbi
- ng truths while residing at the Crawfords' home to work.\n\nStarring: Dako
- ta Johnson\, Anne Hathaway\, Josh Hartnett\, Ismael Cruz Cordova\, Brady W
- agner\, Irina Dvorovenko\n\nFilm release at Merlin Cinemas Penzance\nBook 
- tickets: /film/verity\n\nFilm details: https://evenwebb.github.io/merlin-c
- inemas/films/verity.html
-LOCATION:Merlin Cinemas Penzance
-URL:/film/verity
-END:VEVENT
-BEGIN:VEVENT
-UID:d7584ca900c8832ffb2ecacf2d12199f881ec812@merlin-cinemas
-DTSTAMP:20260609T120823Z
-DTSTART;VALUE=DATE:20261016
-DTEND;VALUE=DATE:20261017
-SUMMARY:Street Fighter @ Merlin Penzance
-DESCRIPTION:Street Fighter\nAction\, Comedy\, Fantasy\n\nIn 1993\, estrange
- d Street Fighters Ryu and Ken Masters are thrown back into combat when the
-  mysterious Chun-Li recruits them for the next World Warrior Tournament: a
-  brutal clash of fists\, fate\, and fury. But behind this battle royale li
- es a deadly conspiracy that forces them to face off against each other and
-  the demons of their past. And if they don't\, it's GAME OVER!\n\nStarring
- : Noah Centineo\, Andrew Koji\, Callina Liang\, Joe Anoa'i\, David Dastmal
- chian\, Cody Rhodes\n\nFilm release at Merlin Cinemas Penzance\nBook ticke
- ts: /film/street-fighter\n\nFilm details: https://evenwebb.github.io/merli
- n-cinemas/films/street-fighter.html
-LOCATION:Merlin Cinemas Penzance
-URL:/film/street-fighter
-END:VEVENT
-BEGIN:VEVENT
-UID:2549430adf8ab65479b2dd3e34b65ea00660d500@merlin-cinemas
-DTSTAMP:20260609T120823Z
-DTSTART;VALUE=DATE:20261016
-DTEND;VALUE=DATE:20261017
-SUMMARY:Forgotten Island @ Merlin Penzance
-DESCRIPTION:Forgotten Island (1h 38min)\nAdventure\, Animation\, Comedy\, F
- amily\, Fantasy\n\nJo and Raissa find themselves stranded in the mystical 
- world of the forgotten island of Nakali. They discover that their only way
-  home might come at the expense of a lifetime of shared memories.\n\nStarr
- ing: H.E.R.\, Liza Soberano\, Dave Franco\, Jenny Slate\, Manny Jacinto\, 
- Dolly de Leon\n\nFilm release at Merlin Cinemas Penzance\nBook tickets: /f
- ilm/forgotten-island\n\nFilm details: https://evenwebb.github.io/merlin-ci
- nemas/films/forgotten-island.html
-LOCATION:Merlin Cinemas Penzance
-URL:/film/forgotten-island
-END:VEVENT
-BEGIN:VEVENT
-UID:d6ca24ff7adc4dbfdb54b5ce248ef1c1b5a5d36b@merlin-cinemas
-DTSTAMP:20260609T120823Z
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
-SUMMARY:Clayface @ Merlin Penzance
-DESCRIPTION:Clayface\nHorror\, Thriller\, Science Fiction\n\nFollow the ter
- rifying descent into hell of a promising Hollywood actor who has become a 
- monster driven by revenge\, exploring the loss of identity and humanity\, 
- the ravages of toxic love and the dark side of scientific ambition.\n\nSta
- rring: Tom Rhys Harries\, Naomi Ackie\, David Dencik\, Max Minghella\, Edd
- ie Marsan\, Nancy Carroll\n\nFilm release at Merlin Cinemas Penzance\nBook
-  tickets: /film/clayface\n\nFilm details: https://evenwebb.github.io/merli
- n-cinemas/films/clayface.html
-LOCATION:Merlin Cinemas Penzance
-URL:/film/clayface
-END:VEVENT
-BEGIN:VEVENT
-UID:ba3e11a9e0728920ef1ca4df949def086fdf6f0e@merlin-cinemas
-DTSTAMP:20260609T120823Z
-DTSTART;VALUE=DATE:20261106
-DTEND;VALUE=DATE:20261107
-SUMMARY:Wild Horse Nine @ Merlin Penzance
-DESCRIPTION:Wild Horse Nine\nComedy\, Crime\, Thriller\n\nShortly before th
- e 1973 Chilean coup\, CIA agents Chris and Lee are dispatched from Santiag
- o to Easter Island by their bureau chief\, MJ. Amongst the Island's iconic
-  statues\, and as the longtime partners wrestle with their dark pasts and 
- present conspiracies\, Chris's newfound bond with a pair of rebellious stu
- dents threatens to send everyone’s trip to this remote paradise sideways.\
- n\nStarring: John Malkovich\, Sam Rockwell\, Steve Buscemi\, Parker Posey\
- , Tom Waits\, Mariana Di Girolamo\n\nFilm release at Merlin Cinemas Penzan
- ce\nBook tickets: /film/wild-horse-nine\n\nFilm details: https://evenwebb.
- github.io/merlin-cinemas/films/wild-horse-nine.html
-LOCATION:Merlin Cinemas Penzance
-URL:/film/wild-horse-nine
+SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:3862cd142dc2544a72db54645aab88d043badb43@merlin-cinemas
-DTSTAMP:20260609T120823Z
+DTSTAMP:20260731T152201Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:The Hunger Games: Sunrise On The Reaping @ Merlin Penzance
@@ -418,59 +470,129 @@ DESCRIPTION:The Hunger Games: Sunrise On The Reaping\nScience Fiction\, Act
  thub.io/merlin-cinemas/films/the-hunger-games-sunrise-on-the-reaping.html
 LOCATION:Merlin Cinemas Penzance
 URL:/film/the-hunger-games-sunrise-on-the-reaping
+SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:f5983670fd0c58ffbebb895520192c91467b4864@merlin-cinemas
-DTSTAMP:20260609T120823Z
+DTSTAMP:20260731T152201Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Focker-In-Law @ Merlin Penzance
 DESCRIPTION:Focker-In-Law\nComedy\, Romance\n\nHenry\, son of Greg and Pam 
  Focker\, faces family chaos when he decides to marry a strong-willed woman
-  who appears to be his complete mismatch.\n\nStarring: Robert De Niro\, Be
- n Stiller\, Ariana Grande\, Owen Wilson\, Blythe Danner\, Teri Polo\n\nFil
- m release at Merlin Cinemas Penzance\nBook tickets: /film/fockerinlaw\n\nF
- ilm details: https://evenwebb.github.io/merlin-cinemas/films/focker-in-law
- .html
+  who appears to be his complete mismatch.\n\nStarring: Ben Stiller\, Rober
+ t De Niro\, Ariana Grande\, Skyler Gisondo\, Owen Wilson\, Blythe Danner\n
+ \nFilm release at Merlin Cinemas Penzance\nBook tickets: /film/fockerinlaw
+ \n\nFilm details: https://evenwebb.github.io/merlin-cinemas/films/focker-i
+ n-law.html
 LOCATION:Merlin Cinemas Penzance
 URL:/film/fockerinlaw
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:6656840ad30c6c4a139b29f7d375676d31f5bee9@merlin-cinemas
+DTSTAMP:20260731T152201Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Hexed @ Merlin Penzance
+DESCRIPTION:Hexed\nAdventure\, Animation\, Family\, Fantasy\n\nAn impulsive
+  and unconventional teenage girl named Billie discovers secret magical abi
+ lities which\, once unleashed\, hurtle her into a spectacle-filled journey
+  out of suburbia and into a vast witch realm called Hexe. Forced to team u
+ p with her cautious mother\, Alice\, they uncover family mysteries that co
+ uld change the world of witches forever.\n\nStarring: Hailee Steinfeld\, R
+ ashida Jones\, Tracey Ullman\, Stephen Fry\n\nFilm release at Merlin Cinem
+ as Penzance\nBook tickets: /film/hexed\n\nFilm details: https://evenwebb.g
+ ithub.io/merlin-cinemas/films/hexed.html
+LOCATION:Merlin Cinemas Penzance
+URL:/film/hexed
+SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:8ffda1331ed8fe5acf4c3a517446e571cb5da7c2@merlin-cinemas
-DTSTAMP:20260609T120823Z
+DTSTAMP:20260731T152201Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
 SUMMARY:Dune: Part Three @ Merlin Penzance
-DESCRIPTION:Dune: Part Three\nAction\, Adventure\, Science Fiction\n\nAs Em
- peror\, Paul Atreides grapples with the consequences of his rise to power 
- as political conspiracies and a galaxy-spanning holy war threaten the futu
- re he alone can foresee.\n\nStarring: Timothée Chalamet\, Zendaya\, Jason 
- Momoa\, Florence Pugh\, Rebecca Ferguson\, Isaach de Bankolé\n\nFilm relea
- se at Merlin Cinemas Penzance\nBook tickets: /film/dune-part-three\n\nFilm
-  details: https://evenwebb.github.io/merlin-cinemas/films/dune-part-three.
- html
+DESCRIPTION:Dune: Part Three (2h 20min)\nScience Fiction\, Adventure\n\nEmp
+ eror Paul Atreides faces the fallout from his ascent to power as political
+  plots and a galaxy-wide holy war endanger the future only he can see.\n\n
+ Starring: Timothée Chalamet\, Zendaya\, Jason Momoa\, Florence Pugh\, Rebe
+ cca Ferguson\, Isaach de Bankolé\n\nFilm release at Merlin Cinemas Penzanc
+ e\nBook tickets: /film/dune-part-three\n\nFilm details: https://evenwebb.g
+ ithub.io/merlin-cinemas/films/dune-part-three.html
 LOCATION:Merlin Cinemas Penzance
 URL:/film/dune-part-three
+SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:99cb352bb6c730eca816e0c6f22d019bd5547a9c@merlin-cinemas
-DTSTAMP:20260609T120823Z
+DTSTAMP:20260731T152201Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
 SUMMARY:Avengers: Doomsday @ Merlin Penzance
-DESCRIPTION:Avengers: Doomsday\nScience Fiction\, Action\, Adventure\n\nBel
- oved heroes from three distinct universes are set on a deadly collision co
- urse and face an existential threat unlike anything they've ever encounter
- ed.\n\nStarring: Robert Downey Jr.\, Chris Evans\, Chris Hemsworth\, Pedro
-  Pascal\, Paul Rudd\, Anthony Mackie\n\nFilm release at Merlin Cinemas Pen
- zance\nBook tickets: /film/avengers-doomsday\n\nFilm details: https://even
- webb.github.io/merlin-cinemas/films/avengers-doomsday.html
+DESCRIPTION:Avengers: Doomsday (2h 45min)\nScience Fiction\, Action\, Adven
+ ture\n\nBeloved heroes from three distinct universes are set on a deadly c
+ ollision course and face an existential threat unlike anything they've eve
+ r encountered.\n\nStarring: Robert Downey Jr.\, Chris Evans\, Chris Hemswo
+ rth\, Pedro Pascal\, Paul Rudd\, Anthony Mackie\n\nFilm release at Merlin 
+ Cinemas Penzance\nBook tickets: /film/avengers-doomsday\n\nFilm details: h
+ ttps://evenwebb.github.io/merlin-cinemas/films/avengers-doomsday.html
 LOCATION:Merlin Cinemas Penzance
 URL:/film/avengers-doomsday
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:ebd90ea6ae3e4cdf30817f37eb16e2a1daadcfa1@merlin-cinemas
+DTSTAMP:20260731T152201Z
+DTSTART;VALUE=DATE:20261225
+DTEND;VALUE=DATE:20261226
+SUMMARY:Jumanji: Open World @ Merlin Penzance
+DESCRIPTION:Jumanji: Open World\nFantasy\, Adventure\, Comedy\n\nOur heroes
+  have escaped the ever-changing jungles of Jumanji before\, but this time 
+ the game comes to us - as Jumanji breaks free of its console\, unleashing 
+ its chaos into our world.\n\nStarring: Dwayne Johnson\, Kevin Hart\, Jack 
+ Black\, Karen Gillan\, Awkwafina\, Alex Wolff\n\nFilm release at Merlin Ci
+ nemas Penzance\nBook tickets: /film/jumanji-open-world\n\nFilm details: ht
+ tps://evenwebb.github.io/merlin-cinemas/films/jumanji-open-world.html
+LOCATION:Merlin Cinemas Penzance
+URL:/film/jumanji-open-world
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:ba91f7ea4f8edf53e89146ec59dfab2e4968c81d@merlin-cinemas
+DTSTAMP:20260731T152201Z
+DTSTART;VALUE=DATE:20261225
+DTEND;VALUE=DATE:20261226
+SUMMARY:The Angry Birds Movie 3 @ Merlin Penzance
+DESCRIPTION:The Angry Birds Movie 3 (1h 36min)\nAnimation\, Comedy\, Family
+ \n\nRed faces his greatest challenge yet… surviving fatherhood while savin
+ g the world.\n\nStarring: Jason Sudeikis\, Josh Gad\, Rachel Bloom\, Danny
+  McBride\, Emma Myers\, Lily James\n\nFilm release at Merlin Cinemas Penza
+ nce\nBook tickets: /film/the-angry-birds-movie-3\n\nFilm details: https://
+ evenwebb.github.io/merlin-cinemas/films/the-angry-birds-movie-3.html
+LOCATION:Merlin Cinemas Penzance
+URL:/film/the-angry-birds-movie-3
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:ef6574209b4817cc39747d3ee5d905c3bdecb307@merlin-cinemas
+DTSTAMP:20260731T152201Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:Werwulf @ Merlin Penzance
+DESCRIPTION:Werwulf\nHorror\n\nA harrowing tale of devotion\, damnation and
+  the devil within.\n\nStarring: Aaron Taylor-Johnson\, Lily-Rose Depp\, Wi
+ llem Dafoe\, Bodhi Rae Breathnach\, Ralph Ineson\, Vidal Arzoni\n\nFilm re
+ lease at Merlin Cinemas Penzance\nBook tickets: /film/werwulf\n\nFilm deta
+ ils: https://evenwebb.github.io/merlin-cinemas/films/werwulf.html
+LOCATION:Merlin Cinemas Penzance
+URL:/film/werwulf
+SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:b884d5b93f2890f7919e979924f541508562bb80@merlin-cinemas
-DTSTAMP:20260609T120823Z
+DTSTAMP:20260731T152201Z
 DTSTART;VALUE=DATE:20270205
 DTEND;VALUE=DATE:20270206
 SUMMARY:Ice Age: Boiling Point @ Merlin Penzance
@@ -484,82 +606,101 @@ DESCRIPTION:Ice Age: Boiling Point\nAdventure\, Animation\, Comedy\, Family
  g-point.html
 LOCATION:Merlin Cinemas Penzance
 URL:/film/ice-age-boiling-point
+SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:0e6c2128dbc0d3b34ff60b3945c6c5e4c97d979d@merlin-cinemas
-DTSTAMP:20260609T120823Z
-DTSTART;VALUE=DATE:20270228
-DTEND;VALUE=DATE:20270301
-SUMMARY:The Scarecrows' Wedding & The Smeds And The Smoos @ Merlin Penzance
-DESCRIPTION:The Scarecrows' Wedding & The Smeds And The Smoos (26 min)\nAni
- mation\, Family\, Romance\, TV Movie\n\nDevoted scarecrows Betty O'Barley 
- and Harry O'Hay are planning a wedding to remember. When Harry insists on 
- leaving the farm to collect one last thing for their big day\, smooth-talk
- ing Reginald Rake swoops in with plans of his own. Chaos follows\, and soo
- n Betty's in danger and everything's at risk. Can Harry get back in time a
- nd save the day?\n\nStarring: Sophie Okonedo\, Jessie Buckley\, Domhnall G
- leeson\, Rob Brydon\, Doon Mackichan\, Rasmus Hardiker\n\nFilm release at 
- Merlin Cinemas Penzance\nBook tickets: /film/the-scarecrows-wedding-the-sm
- eds-and-the-smoos-toddler-cinema\n\nFilm details: https://evenwebb.github.
- io/merlin-cinemas/films/the-scarecrows-wedding-the-smeds-and-the-smoos.htm
- l
+UID:45adcdba701cc73dd7001b04e660fc93f7390b3f@merlin-cinemas
+DTSTAMP:20260731T152201Z
+DTSTART;VALUE=DATE:20270326
+DTEND;VALUE=DATE:20270327
+SUMMARY:Not Alone @ Merlin Penzance
+DESCRIPTION:Not Alone\nAnimation\, Comedy\, Family\, Romance\, Science Fict
+ ion\n\nWhile preparing for a revolutionary space launch\, an introverted r
+ ocket mechanic and a brilliant astro-botanist spark an unexpected romance—
+ only for three runaway aliens to crash-land in his home\, looking for a ri
+ de back to the stars.\n\nStarring: Timothée Chalamet\, Selena Gomez\, Rob 
+ Brydon\, Diane Morgan\, Jamie Demetriou\, Brett Goldstein\n\nFilm release 
+ at Merlin Cinemas Penzance\nBook tickets: /film/not-alone\n\nFilm details:
+  https://evenwebb.github.io/merlin-cinemas/films/not-alone.html
 LOCATION:Merlin Cinemas Penzance
-URL:/film/the-scarecrows-wedding-the-smeds-and-the-smoos-toddler-cinema
+URL:/film/not-alone
+SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:d02eae98ab43cf5344e238b20aee18c6a8e1b240@merlin-cinemas
-DTSTAMP:20260609T120823Z
-DTSTART;VALUE=DATE:20270515
-DTEND;VALUE=DATE:20270516
-SUMMARY:Northern Soul: Still Burning @ Merlin Penzance
-DESCRIPTION:Northern Soul: Still Burning (1h 35min)\n★★★☆☆\nDocumentary\n\n
- An exploration of the cultural phenomenon that is Northern Soul\, charting
-  how this movement has weaved and transformed itself musically and cultura
- lly through the decades. Northern Soul continues to re-invent itself more 
- than any other music genre\, remaining as vibrant and relevant today as wh
- en it first evolved.  Features exclusive interviews with Richard Searling\
- , Paul Mason\, Elaine Constantine\, Kev Roberts\, Russ Winstanley\, David 
- Nathan\, Wayne Hemingway\, Dave Evison\, Keith Gildart\, Levanna McLean\, 
- Tony Blackburn and many\, many more.\n\nStarring: Elaine Constantine\, Ton
- y Blackburn\, Richard Searling\, Paul Mason\, Dave Evison\n\nFilm release 
- at Merlin Cinemas Penzance\nBook tickets: /film/northern-soul-still-burnin
- g\n\nFilm details: https://evenwebb.github.io/merlin-cinemas/films/norther
- n-soul-still-burning.html
+UID:78b1dd13485ba73d600abfa540732d43b65f1700@merlin-cinemas
+DTSTAMP:20260731T152201Z
+DTSTART;VALUE=DATE:20270710
+DTEND;VALUE=DATE:20270711
+SUMMARY:Life Support @ Merlin Penzance
+DESCRIPTION:Life Support\nScience Fiction\, Drama\n\nTwo people wake up in 
+ a strange room only to find out that only one of them can survive. As time
+  runs out they must choose one person to live and sacrifice the other.\n\n
+ Starring: Tamara Lee Bailey\, Josie Woods\n\nFilm release at Merlin Cinema
+ s Penzance\nBook tickets: /film/life-support\n\nFilm details: https://even
+ webb.github.io/merlin-cinemas/films/life-support.html
 LOCATION:Merlin Cinemas Penzance
-URL:/film/northern-soul-still-burning
+URL:/film/life-support
+SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:5ab69cb01b8f98daa71cd2a914435fe061af164d@merlin-cinemas
-DTSTAMP:20260609T120823Z
-DTSTART;VALUE=DATE:20270603
-DTEND;VALUE=DATE:20270604
-SUMMARY:Bonnie & Clive with The Jive Aces @ Merlin Penzance
-DESCRIPTION:Bonnie & Clive with The Jive Aces (1h 20min)\nRomance\n\nThree 
- lonely adventurers take a road trip from London to Lands' End during the C
- OVID-19 pandemic.\n\nStarring: Eleanor May Blackburn\, Michael Kodi Farrow
- \, James Jip\, Kevin Short\, Charles Baillie\n\nFilm release at Merlin Cin
- emas Penzance\nBook tickets: /film/bonnie-clive-with-the-jive-aces-double-
- bill\n\nFilm details: https://evenwebb.github.io/merlin-cinemas/films/bonn
- ie-clive-with-the-jive-aces.html
+UID:e3a325ee50d6e19e5b35c6e4499756c39ac9ba10@merlin-cinemas
+DTSTAMP:20260731T152201Z
+DTSTART;VALUE=DATE:20270724
+DTEND;VALUE=DATE:20270725
+SUMMARY:On The Sea @ Merlin Penzance
+DESCRIPTION:On The Sea (1h 55min)\n★★★☆☆\nDrama\, Romance\n\nJack has been 
+ married to Maggie for over half his life. He works as a Hand Raker on the 
+ mussel beds in North Wales alongside his younger brother\, Dyfan\, and Dyf
+ an’s three sons. Jack has always assumed that his own boy\, Tom\, will joi
+ n the family business on leaving school but Tom’s resistance to follow in 
+ his footsteps creates familial tension. Tensions are further inflamed by t
+ he arrival of an itinerant deckhand\, Daniel\, who makes known his feeling
+ s for Jack. In this remote\, rural community where life revolves around Ch
+ urch and fishery\, Jack is faced with an impossible dilemma. On The Sea is
+  a beautiful\, sensual and at times\, tragic exploration of masculinity\, 
+ place and desire.\n\nStarring: Barry Ward\, Lorne MacFadyen\, Liz White\, 
+ Henry Lawfull\, Celyn Jones\, Leisa Gwenllian\n\nFilm release at Merlin Ci
+ nemas Penzance\nBook tickets: /film/on-the-sea\n\nFilm details: https://ev
+ enwebb.github.io/merlin-cinemas/films/on-the-sea.html
 LOCATION:Merlin Cinemas Penzance
-URL:/film/bonnie-clive-with-the-jive-aces-double-bill
+URL:/film/on-the-sea
+SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:4a20ce9dfae9d144df00609b46f2d70b0111dec6@merlin-cinemas
-DTSTAMP:20260609T120823Z
-DTSTART;VALUE=DATE:20270606
-DTEND;VALUE=DATE:20270607
-SUMMARY:Zog And The Flying Doctors @ Merlin Penzance
-DESCRIPTION:Zog And The Flying Doctors (25 min)\n★★★☆☆\nAnimation\, Family\
- , TV Movie\, Fantasy\n\nPearl and Gadabout are now a flying doctor trio\, 
- caring for creatures including a mermaid\, a unicorn and a sneezy lion. Ho
- wever when bad weather forces them to land at the palace\, Pearl is locked
-  up by her uncle\, the king.\n\nStarring: Lenny Henry\, Patsy Ferran\, Dan
- iel Ings\, Hugh Skinner\, Alexandra Roach\, Mark Bonnar\n\nFilm release at
-  Merlin Cinemas Penzance\nBook tickets: /film/zog-zog-and-the-flying-docto
- rs-toddler-cinema\n\nFilm details: https://evenwebb.github.io/merlin-cinem
- as/films/zog-and-the-flying-doctors.html
+UID:5a7c65100c01ac9ce576ef248ff0b8317dacfcaa@merlin-cinemas
+DTSTAMP:20260731T152201Z
+DTSTART;VALUE=DATE:20270729
+DTEND;VALUE=DATE:20270730
+SUMMARY:Spider-Man: Brand New Day @ Merlin Penzance
+DESCRIPTION:Spider-Man: Brand New Day (2h 25min)\n★★★★☆\nScience Fiction\, 
+ Action\, Adventure\n\nFighting crime full-time as Spider-Man in a world th
+ at doesn't remember him—and the pressure of seeing his old friends move on
+  without him—sparks a change in Peter Parker he may not have the power to 
+ control. But that transformation might also be the only thing that can sto
+ p a shocking new threat to the city and those he loves - a powerful villai
+ n no one can even see.\n\nStarring: Tom Holland\, Zendaya\, Sadie Sink\, J
+ acob Batalon\, Jon Bernthal\, Tramell Tillman\n\nFilm release at Merlin Ci
+ nemas Penzance\nBook tickets: /film/spiderman-brand-new-day-3d\n\nFilm det
+ ails: https://evenwebb.github.io/merlin-cinemas/films/spider-man-brand-new
+ -day.html
 LOCATION:Merlin Cinemas Penzance
-URL:/film/zog-zog-and-the-flying-doctors-toddler-cinema
+URL:/film/spiderman-brand-new-day-3d
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:c9d4ce2439104462945c7d3814eb615bd60fe5f7@merlin-cinemas
+DTSTAMP:20260731T152201Z
+DTSTART;VALUE=DATE:20270730
+DTEND;VALUE=DATE:20270731
+SUMMARY:Shrek 5 @ Merlin Penzance
+DESCRIPTION:Shrek 5\nAnimation\, Comedy\, Fantasy\, Adventure\, Family\n\nS
+ hrek and Donkey team up for another whirlwind\, big-city adventure.\n\nSta
+ rring: Mike Myers\, Eddie Murphy\, Cameron Diaz\, Zendaya\, Marcello Herná
+ ndez\, Skyler Gisondo\n\nFilm release at Merlin Cinemas Penzance\nBook tic
+ kets: /film/shrek-5\n\nFilm details: https://evenwebb.github.io/merlin-cin
+ emas/films/shrek-5.html
+LOCATION:Merlin Cinemas Penzance
+URL:/film/shrek-5
+SEQUENCE:0
 END:VEVENT
 END:VCALENDAR
