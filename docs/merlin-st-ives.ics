@@ -10,26 +10,27 @@ X-WR-CALDESC:Upcoming movie premieres at Merlin Cinemas Royal Cinema
 X-WR-TIMEZONE:Europe/London
 BEGIN:VEVENT
 UID:461d8d1ccdb7494e050034370363be2a08edff0c@merlin-cinemas
-DTSTAMP:20260821T103446Z
+DTSTAMP:20260822T102802Z
 DTSTART;VALUE=DATE:20260826
 DTEND;VALUE=DATE:20260827
 SUMMARY:The Dog Stars @ Merlin St Ives
-DESCRIPTION:The Dog Stars (1h 59min)\nScience Fiction\, Adventure\, Thrille
- r\n\nAfter the world's population has been ravaged by a pandemic\, a man l
- ives a lonesome existence in a Colorado airplane hangar with his dog and a
-  dour gunman he has befriended. When a mysterious transmission comes throu
- gh on the radio while he’s flying his old Cessna\, it sparks a hunt for th
- e provenance of the sound.\n\nStarring: Jacob Elordi\, Margaret Qualley\, 
- Josh Brolin\, Guy Pearce\, Allison Janney\, Benedict Wong\n\nFilm release 
- at Merlin Cinemas St Ives\nBook tickets: /film/the-dog-stars\n\nFilm detai
- ls: https://evenwebb.github.io/merlin-cinemas/films/the-dog-stars.html
+DESCRIPTION:The Dog Stars (1h 59min)\n★★★★☆\nScience Fiction\, Adventure\, 
+ Thriller\n\nAfter the world's population has been ravaged by a pandemic\, 
+ a man lives a lonesome existence in a Colorado airplane hangar with his do
+ g and a dour gunman he has befriended. When a mysterious transmission come
+ s through on the radio while he’s flying his old Cessna\, it sparks a hunt
+  for the provenance of the sound.\n\nStarring: Jacob Elordi\, Margaret Qua
+ lley\, Josh Brolin\, Guy Pearce\, Allison Janney\, Benedict Wong\n\nFilm r
+ elease at Merlin Cinemas St Ives\nBook tickets: /film/the-dog-stars\n\nFil
+ m details: https://evenwebb.github.io/merlin-cinemas/films/the-dog-stars.h
+ tml
 LOCATION:Merlin Cinemas St Ives
 URL:/film/the-dog-stars
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:dbea0129d3ba23b1f36df19cccd4ac270db0763b@merlin-cinemas
-DTSTAMP:20260821T103446Z
+DTSTAMP:20260822T102802Z
 DTSTART;VALUE=DATE:20260909
 DTEND;VALUE=DATE:20260910
 SUMMARY:Pressure @ Merlin St Ives
@@ -48,7 +49,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:50e9df3b8c500c2a3d5e757cf9150419a6148c81@merlin-cinemas
-DTSTAMP:20260821T103446Z
+DTSTAMP:20260822T102802Z
 DTSTART;VALUE=DATE:20260911
 DTEND;VALUE=DATE:20260912
 SUMMARY:Raiders Of The Lost Ark 45th Anniversary @ Merlin St Ives
@@ -67,11 +68,11 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:26f81b80114540a35a9845a89f5d0bd5cdbae98d@merlin-cinemas
-DTSTAMP:20260821T103446Z
+DTSTAMP:20260822T102802Z
 DTSTART;VALUE=DATE:20260911
 DTEND;VALUE=DATE:20260912
 SUMMARY:Practical Magic 2 @ Merlin St Ives
-DESCRIPTION:Practical Magic 2 (2h 10min)\nRomance\, Fantasy\, Comedy\, Dram
+DESCRIPTION:Practical Magic 2 (1h 50min)\nRomance\, Fantasy\, Comedy\, Dram
  a\n\nThe Owens sisters must confront the dark curse that threatens to unra
  vel their family once and for all.\n\nStarring: Sandra Bullock\, Nicole Ki
  dman\, Joey King\, Maisie Williams\, Xolo Maridueña\, Lee Pace\n\nFilm rel
@@ -84,7 +85,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:838c93f8b7d844ab79a637d387b4744991ffd5ba@merlin-cinemas
-DTSTAMP:20260821T103446Z
+DTSTAMP:20260822T102802Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:All Rivers Spill Their Stories To The Sea @ Merlin St Ives
@@ -104,7 +105,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:65767b8e4a5aeb97829b0a1499eb5f52bbef8c98@merlin-cinemas
-DTSTAMP:20260821T103446Z
+DTSTAMP:20260822T102802Z
 DTSTART;VALUE=DATE:20260918
 DTEND;VALUE=DATE:20260919
 SUMMARY:The Fastest Bicycle @ Merlin St Ives
@@ -126,11 +127,11 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:72c07305f45a6a328495341bad2210b170a1f2a3@merlin-cinemas
-DTSTAMP:20260821T103446Z
+DTSTAMP:20260822T102802Z
 DTSTART;VALUE=DATE:20260918
 DTEND;VALUE=DATE:20260919
 SUMMARY:Resident Evil @ Merlin St Ives
-DESCRIPTION:Resident Evil (1h 30min)\nHorror\, Science Fiction\n\nBryan\, a
+DESCRIPTION:Resident Evil (1h 35min)\nHorror\, Science Fiction\n\nBryan\, a
   medical courier\, unwittingly finds himself fighting for survival as one 
  fateful\, horrifying night collapses around him in chaos.\n\nStarring: Aus
  tin Abrams\, Zach Cherry\, Kali Reis\, Paul Walter Hauser\, Johnno Wilson\
@@ -143,7 +144,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:776238eac069e8aa320a9e292dde7a996fa89c75@merlin-cinemas
-DTSTAMP:20260821T103446Z
+DTSTAMP:20260822T102802Z
 DTSTART;VALUE=DATE:20260918
 DTEND;VALUE=DATE:20260919
 SUMMARY:Shaun The Sheep: The Beast Of Mossy Bottom @ Merlin St Ives
@@ -162,7 +163,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:46c6dc52db8e565e73ee5a538fed23c0c17878b8@merlin-cinemas
-DTSTAMP:20260821T103446Z
+DTSTAMP:20260822T102802Z
 DTSTART;VALUE=DATE:20260923
 DTEND;VALUE=DATE:20260924
 SUMMARY:Heart Of The Beast @ Merlin St Ives
@@ -180,7 +181,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:517f956bd6bcff73c4c35ef2ee4e211278c06611@merlin-cinemas
-DTSTAMP:20260821T103446Z
+DTSTAMP:20260822T102802Z
 DTSTART;VALUE=DATE:20260925
 DTEND;VALUE=DATE:20260926
 SUMMARY:Sense And Sensibility @ Merlin St Ives
@@ -203,7 +204,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:4e414ebb45469d3e90818493f0fc48d28574a300@merlin-cinemas
-DTSTAMP:20260821T103446Z
+DTSTAMP:20260822T102802Z
 DTSTART;VALUE=DATE:20260927
 DTEND;VALUE=DATE:20260928
 SUMMARY:Steel On Film @ Merlin St Ives
@@ -222,23 +223,23 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:139c40463b928b215f443579751e6e213af2e9b1@merlin-cinemas
-DTSTAMP:20260821T103446Z
+DTSTAMP:20260822T102802Z
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261003
 SUMMARY:Digger @ Merlin St Ives
-DESCRIPTION:Digger (2h 9min)\nComedy\n\nThe most powerful man in the world 
- embarks on a frantic mission to prove he is humanity's savior before the d
- isaster he's unleashed destroys everything.\n\nStarring: Tom Cruise\, Riz 
- Ahmed\, John Goodman\, Sandra Hüller\, Michael Stuhlbarg\, Jesse Plemons\n
- \nFilm release at Merlin Cinemas St Ives\nBook tickets: /film/digger\n\nFi
- lm details: https://evenwebb.github.io/merlin-cinemas/films/digger.html
+DESCRIPTION:Digger\nComedy\n\nThe most powerful man in the world embarks on
+  a frantic mission to prove he is humanity's savior before the disaster he
+ 's unleashed destroys everything.\n\nStarring: Tom Cruise\, Riz Ahmed\, Jo
+ hn Goodman\, Sandra Hüller\, Michael Stuhlbarg\, Jesse Plemons\n\nFilm rel
+ ease at Merlin Cinemas St Ives\nBook tickets: /film/digger\n\nFilm details
+ : https://evenwebb.github.io/merlin-cinemas/films/digger.html
 LOCATION:Merlin Cinemas St Ives
 URL:/film/digger
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:d2b9be1fcf8bb747b1ca4162d29557c30e7060e5@merlin-cinemas
-DTSTAMP:20260821T103446Z
+DTSTAMP:20260822T102802Z
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261003
 SUMMARY:Verity @ Merlin St Ives
@@ -256,25 +257,26 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:972bc225d2e8b02a7b4cc728a1e8f7dbb91c2751@merlin-cinemas
-DTSTAMP:20260821T103446Z
+DTSTAMP:20260822T102802Z
 DTSTART;VALUE=DATE:20261009
 DTEND;VALUE=DATE:20261010
 SUMMARY:The Uprising @ Merlin St Ives
-DESCRIPTION:The Uprising (2h 7min)\nDrama\, History\, War\n\nAs war and pla
- gue devastate 14th-century England\, a humble peasant ignites a rebellion\
- , uniting an army of commoners to defy the king's brutal rule in a despera
- te fight for justice and survival.\n\nStarring: Andrew Garfield\, Jamie Be
- ll\, Stephen Dillane\, Tom Hollander\, Cosmo Jarvis\, Thomasin McKenzie\n\
- nFilm release at Merlin Cinemas St Ives\nBook tickets: /film/the-uprising\
- n\nFilm details: https://evenwebb.github.io/merlin-cinemas/films/the-upris
- ing.html
+DESCRIPTION:The Uprising (2h 7min)\nDrama\, History\, War\n\nAndrew Garfiel
+ d stars as the leader of a ferocious rebellion against the tyranny of King
+  Richard II. Set against the true events of the Uprising that helped inspi
+ re the legend of Robin Hood\, he forms an army of the people to face the K
+ ing’s might in a fight for justice.\n\nStarring: Andrew Garfield\, Jamie B
+ ell\, Stephen Dillane\, Tom Hollander\, Cosmo Jarvis\, Thomasin McKenzie\n
+ \nFilm release at Merlin Cinemas St Ives\nBook tickets: /film/the-uprising
+ \n\nFilm details: https://evenwebb.github.io/merlin-cinemas/films/the-upri
+ sing.html
 LOCATION:Merlin Cinemas St Ives
 URL:/film/the-uprising
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:4b6b9f89dec26d80c16b974096235840fe7c08d3@merlin-cinemas
-DTSTAMP:20260821T103446Z
+DTSTAMP:20260822T102802Z
 DTSTART;VALUE=DATE:20261009
 DTEND;VALUE=DATE:20261010
 SUMMARY:The Social Reckoning @ Merlin St Ives
@@ -292,46 +294,43 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:a9aa7496d62b58bed40779fff6c18047482d5dd2@merlin-cinemas
-DTSTAMP:20260821T103446Z
+DTSTAMP:20260822T102802Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:Whalefall @ Merlin St Ives
-DESCRIPTION:Whalefall (1h 38min)\nThriller\, Horror\n\nFollowing the death 
- of his father\, Jay Gardiner goes diving off the central Coast of Californ
- ia in search of his remains\, but is swallowed by a massive sperm whale. W
- hile trapped inside its belly with only one hour of oxygen left\, Jay come
- s to realize that the hard-earned lessons his father imparted may be the k
- ey to his escape.\n\nStarring: Austin Abrams\, Josh Brolin\, Elisabeth Shu
- e\, John Ortiz\, Jane Levy\, Emily Rudd\n\nFilm release at Merlin Cinemas 
- St Ives\nBook tickets: /film/whalefall\n\nFilm details: https://evenwebb.g
- ithub.io/merlin-cinemas/films/whalefall.html
+DESCRIPTION:Whalefall (1h 38min)\nThriller\n\nFollowing the death of his fa
+ ther\, Jay Gardiner goes diving off the central Coast of California in sea
+ rch of his remains\, but is swallowed by a massive sperm whale. While trap
+ ped inside its belly with only one hour of oxygen left\, Jay comes to real
+ ize that the hard-earned lessons his father imparted may be the key to his
+  escape.\n\nStarring: Austin Abrams\, Josh Brolin\, Elisabeth Shue\, John 
+ Ortiz\, Jane Levy\, Emily Rudd\n\nFilm release at Merlin Cinemas St Ives\n
+ Book tickets: /film/whalefall\n\nFilm details: https://evenwebb.github.io/
+ merlin-cinemas/films/whalefall.html
 LOCATION:Merlin Cinemas St Ives
 URL:/film/whalefall
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:740d233a807976d94fbe454e3cb2a0aa84ba125e@merlin-cinemas
-DTSTAMP:20260821T103446Z
+DTSTAMP:20260822T102802Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:Street Fighter @ Merlin St Ives
-DESCRIPTION:Street Fighter (2h 5min)\nAction\, Fantasy\n\nIn 1993\, estrang
- ed Street Fighters Ryu and Ken Masters are thrown back into combat when th
- e mysterious Chun-Li recruits them for the next World Warrior Tournament: 
- a brutal clash of fists\, fate\, and fury. But behind this battle royale l
- ies a deadly conspiracy that forces them to face off against each other an
- d the demons of their past. And if they don't\, it's GAME OVER!\n\nStarrin
- g: Andrew Koji\, Noah Centineo\, Callina Liang\, Joe Anoa'i\, David Dastma
- lchian\, Cody Rhodes\n\nFilm release at Merlin Cinemas St Ives\nBook ticke
- ts: /film/street-fighter\n\nFilm details: https://evenwebb.github.io/merli
- n-cinemas/films/street-fighter.html
+DESCRIPTION:Street Fighter (1h 42min)\n★★☆☆☆\nAction\, Comedy\, Fantasy\n\n
+ Colonel Guile and various other martial arts heroes fight against the tyra
+ nny of dictator M. Bison and his cohorts.\n\nStarring: Jean-Claude Van Dam
+ me\, Raúl Juliá\, Kylie Minogue\, Byron Mann\, Damian Chapa\, Ming-Na Wen\
+ n\nFilm release at Merlin Cinemas St Ives\nBook tickets: /film/street-figh
+ ter\n\nFilm details: https://evenwebb.github.io/merlin-cinemas/films/stree
+ t-fighter.html
 LOCATION:Merlin Cinemas St Ives
 URL:/film/street-fighter
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:b7c725e465ff78326ffae0438ed79e9ee3232ebd@merlin-cinemas
-DTSTAMP:20260821T103446Z
+DTSTAMP:20260822T102802Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:Forgotten Island @ Merlin St Ives
@@ -351,26 +350,27 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:3531ea2cbcb68c797b1468a8fea0a9a327f8ecf5@merlin-cinemas
-DTSTAMP:20260821T103446Z
+DTSTAMP:20260822T102802Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Wildwood @ Merlin St Ives
-DESCRIPTION:Wildwood (2h 19min)\nAdventure\, Animation\, Fantasy\n\nPrue an
- d her classmate Curtis are drawn into a forbidden magical forest filled wi
- th enchanted creatures\, loyal allies\, and formidable adversaries as they
-  embark on a desperate quest to save Prue’s kidnapped baby brother\, Mac\,
-  from the crows led by a mysterious woman named Alexandra.\n\nStarring: Pe
- yton Elizabeth Lee\, Jacob Tremblay\, Carey Mulligan\, Arthur Knight\, Mah
- ershala Ali\, Awkwafina\n\nFilm release at Merlin Cinemas St Ives\nBook ti
- ckets: /film/wildwood\n\nFilm details: https://evenwebb.github.io/merlin-c
- inemas/films/wildwood.html
+DESCRIPTION:Wildwood (2h 20min)\nAnimation\, Adventure\, Fantasy\n\nAfter h
+ er baby brother is abducted by a murder of crows\, headstrong teenager Pru
+ e McKeel launches a desperate rescue mission into an enchanted forest hidd
+ en just beyond Portland. Joined by hapless but loyal classmate Curtis\, Pr
+ ue risks it all as she navigates a world of bandits\, talking animals and 
+ powerful figures driven by grief and ambition.\n\nStarring: Peyton Elizabe
+ th Lee\, Jacob Tremblay\, Carey Mulligan\, Arthur Knight\, Mahershala Ali\
+ , Awkwafina\n\nFilm release at Merlin Cinemas St Ives\nBook tickets: /film
+ /wildwood\n\nFilm details: https://evenwebb.github.io/merlin-cinemas/films
+ /wildwood.html
 LOCATION:Merlin Cinemas St Ives
 URL:/film/wildwood
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:4cb260c7a73cea1464a1569bf340bcdd9e38f84d@merlin-cinemas
-DTSTAMP:20260821T103446Z
+DTSTAMP:20260822T102802Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Ghosts: The Possession Of Button House @ Merlin St Ives
@@ -387,7 +387,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:e09d2e9e942a32e9cd0109caecb07485dbcd3e0f@merlin-cinemas
-DTSTAMP:20260821T103446Z
+DTSTAMP:20260822T102802Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Klara And The Sun @ Merlin St Ives
@@ -407,7 +407,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:c96d057a73e8b8f4e44ca5551f96dabb82328c14@merlin-cinemas
-DTSTAMP:20260821T103446Z
+DTSTAMP:20260822T102802Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Clayface @ Merlin St Ives
@@ -425,7 +425,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:1dbce65feb5e6009d1373532cd3084c9806995da@merlin-cinemas
-DTSTAMP:20260821T103446Z
+DTSTAMP:20260822T102802Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:I Play Rocky @ Merlin St Ives
@@ -444,7 +444,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:da8349f20dfeea5b01c018215ac50d5874042b7e@merlin-cinemas
-DTSTAMP:20260821T103446Z
+DTSTAMP:20260822T102802Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:Wild Horse Nine @ Merlin St Ives
@@ -464,7 +464,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:bce1a02564674c3cac498f98df42f2ad2fe820de@merlin-cinemas
-DTSTAMP:20260821T103446Z
+DTSTAMP:20260822T102802Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:Ebenezer @ Merlin St Ives
@@ -482,7 +482,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:73ec1157b00175b4b50a343db1c8c1e494cfe1d4@merlin-cinemas
-DTSTAMP:20260821T103446Z
+DTSTAMP:20260822T102802Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:How To Rob A Bank @ Merlin St Ives
@@ -502,7 +502,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:9a06e478a25e03b1b251027498bb908e3969c6a8@merlin-cinemas
-DTSTAMP:20260821T103446Z
+DTSTAMP:20260822T102802Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:The Hunger Games: Sunrise On The Reaping @ Merlin St Ives
@@ -520,7 +520,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:1427e644bbf78e85e37f205315f7d431efdf3fdb@merlin-cinemas
-DTSTAMP:20260821T103446Z
+DTSTAMP:20260822T102802Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Focker-In-Law @ Merlin St Ives
@@ -537,7 +537,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:4f1e33d6013e4f1f4d896bcb43a6266cba7c3a23@merlin-cinemas
-DTSTAMP:20260821T103446Z
+DTSTAMP:20260822T102802Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Hexed @ Merlin St Ives
@@ -556,7 +556,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:c32ff142370cb94ea24d08a67def6d55e5347e7f@merlin-cinemas
-DTSTAMP:20260821T103446Z
+DTSTAMP:20260822T102802Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Violent Night 2 @ Merlin St Ives
@@ -577,7 +577,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:a8327aeeca3f86d35526ac2ae2c2839cfb7a9964@merlin-cinemas
-DTSTAMP:20260821T103446Z
+DTSTAMP:20260822T102802Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
 SUMMARY:Dune: Part Three @ Merlin St Ives
@@ -594,7 +594,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:dc6dad048eea79aabbb2111be319f7f20520c20e@merlin-cinemas
-DTSTAMP:20260821T103446Z
+DTSTAMP:20260822T102802Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
 SUMMARY:Avengers: Doomsday @ Merlin St Ives
@@ -611,7 +611,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:450dbc36c40d10940f65ab93325c567a04509de6@merlin-cinemas
-DTSTAMP:20260821T103446Z
+DTSTAMP:20260822T102802Z
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20261226
 SUMMARY:Jumanji: Open World @ Merlin St Ives
@@ -628,7 +628,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:3a6030ec0e93a2ae403dcf2f7ee79610336c700d@merlin-cinemas
-DTSTAMP:20260821T103446Z
+DTSTAMP:20260822T102802Z
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20261226
 SUMMARY:The Angry Birds Movie 3 @ Merlin St Ives
@@ -644,7 +644,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:d4bfe33cacaf4f83a47a31e1ffcc9165df791729@merlin-cinemas
-DTSTAMP:20260821T103446Z
+DTSTAMP:20260822T102802Z
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270102
 SUMMARY:Werwulf @ Merlin St Ives
@@ -659,7 +659,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:0323aa856284e917102e1b80162e1264280ee124@merlin-cinemas
-DTSTAMP:20260821T103446Z
+DTSTAMP:20260822T102802Z
 DTSTART;VALUE=DATE:20270205
 DTEND;VALUE=DATE:20270206
 SUMMARY:Ice Age: Boiling Point @ Merlin St Ives
@@ -677,7 +677,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:db86d5d3b895010f1967339d96e6a941cc66f4fd@merlin-cinemas
-DTSTAMP:20260821T103446Z
+DTSTAMP:20260822T102802Z
 DTSTART;VALUE=DATE:20270212
 DTEND;VALUE=DATE:20270213
 SUMMARY:CoComelon: The Movie @ Merlin St Ives
@@ -697,7 +697,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:fce9d668a9b864aa499384c197fced5c04199a9f@merlin-cinemas
-DTSTAMP:20260821T103446Z
+DTSTAMP:20260822T102802Z
 DTSTART;VALUE=DATE:20270326
 DTEND;VALUE=DATE:20270327
 SUMMARY:Not Alone @ Merlin St Ives
@@ -715,7 +715,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:78d8b863ea87ce533ee40361e93b1898817cf60f@merlin-cinemas
-DTSTAMP:20260821T103446Z
+DTSTAMP:20260822T102802Z
 DTSTART;VALUE=DATE:20270710
 DTEND;VALUE=DATE:20270711
 SUMMARY:Life Support @ Merlin St Ives
@@ -731,7 +731,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:b39092563724eebcbfb05e01b6497228f51e3131@merlin-cinemas
-DTSTAMP:20260821T103446Z
+DTSTAMP:20260822T102802Z
 DTSTART;VALUE=DATE:20270724
 DTEND;VALUE=DATE:20270725
 SUMMARY:On The Sea @ Merlin St Ives
@@ -755,7 +755,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:0d0e2d020fa325603d4812510759ff44ec06ae98@merlin-cinemas
-DTSTAMP:20260821T103446Z
+DTSTAMP:20260822T102802Z
 DTSTART;VALUE=DATE:20270729
 DTEND;VALUE=DATE:20270730
 SUMMARY:Spider-Man: Brand New Day @ Merlin St Ives
@@ -776,7 +776,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:6fe743caa88efd15ba5612b7b55d39f3595b3c33@merlin-cinemas
-DTSTAMP:20260821T103446Z
+DTSTAMP:20260822T102802Z
 DTSTART;VALUE=DATE:20270730
 DTEND;VALUE=DATE:20270731
 SUMMARY:Shrek 5 @ Merlin St Ives
@@ -793,7 +793,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:f03616a20390624658901dea069c7345f94e1dea@merlin-cinemas
-DTSTAMP:20260821T103446Z
+DTSTAMP:20260822T102802Z
 DTSTART;VALUE=DATE:20270802
 DTEND;VALUE=DATE:20270803
 SUMMARY:Pip And Posy's Cinema Show Toddler Cinema Charity Screening for Cor
@@ -809,7 +809,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:f9f8f3d3abbdd19e23138e3ccafa98340d2bb660@merlin-cinemas
-DTSTAMP:20260821T103446Z
+DTSTAMP:20260822T102802Z
 DTSTART;VALUE=DATE:20270814
 DTEND;VALUE=DATE:20270815
 SUMMARY:Mermaid Beach @ Merlin St Ives
