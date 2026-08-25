@@ -478,12 +478,22 @@ def _tmdb_cache_key(film_title: str) -> str:
 
 # ── Date parsing ───────────────────────────────────────────────────────────────
 def parse_date(text: str) -> Optional[date]:
-    """Parse Merlin release date: 'Released 3rd Jun' or 'Showing on 4th Jun'."""
-    m = DATE_PATTERN.search(text)
+    """Parse Merlin release date: 'Released 3rd Jun' or 'Released 1st Jan 2027'.
+
+    The site omits the year for current-year releases (including already-released
+    films still showing, e.g. 'Released 10th Jul') and only adds an explicit year
+    for dates in a future calendar year. A bare day/month is therefore always the
+    current year and must never be rolled forward.
+    """
+    m = re.search(r"(\d{1,2})(?:st|nd|rd|th)?\s+([A-Za-z]+)\s+(\d{4})", text)
     if m:
-        day, month_str = int(m.group(1)), m.group(2)
+        day, month_str, year = int(m.group(1)), m.group(2), int(m.group(3))
     else:
-        return None
+        m = DATE_PATTERN.search(text) or ALT_DATE_PATTERN.search(text)
+        if not m:
+            return None
+        day, month_str = int(m.group(1)), m.group(2)
+        year = date.today().year
 
     for fmt in ("%B", "%b"):
         try:
@@ -494,18 +504,10 @@ def parse_date(text: str) -> Optional[date]:
     else:
         return None
 
-    year = date.today().year
     try:
-        parsed = date(year, month, day)
+        return date(year, month, day)
     except ValueError:
         return None
-
-    if parsed < date.today():
-        try:
-            parsed = date(year + 1, month, day)
-        except ValueError:
-            pass
-    return parsed
 
 
 def parse_uk_date(text: str, scrape_date: date) -> Optional[date]:
