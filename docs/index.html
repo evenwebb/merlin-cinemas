@@ -20,7 +20,7 @@
 <body>
   <a href="#main-content" class="skip-link">Skip to content</a>
   <div class="bg-mesh" aria-hidden="true"></div>
-  <div class="page" id="main-content">
+  <div class="page page-index" id="main-content">
     <header class="hero">
       <h1>What's on at Merlin Cinemas</h1>
       <p class="tagline">Browse and discover upcoming film premieres across all Merlin Cinemas. Ratings, trailers, and booking links - all in one place.</p>
@@ -184,7 +184,7 @@
   <span class="ns-title">The Royal Ballet: Romeo and Juliet</span>
 </a>
       </div>
-      <div class="ns-list-grid" style="display:none">
+      <div class="ns-list-grid">
 <a href="films/coyote-vs-acme.html" class="ns-list-card">
   <span class="ns-list-title">Coyote vs. Acme</span>
   <span class="ns-list-cinemas">Redruth</span>
@@ -1238,15 +1238,19 @@ document.querySelectorAll(".show-btn").forEach(function(btn){btn.addEventListene
     var section=document.getElementById(sectionId);
     if(!toggle||!section)return;
     var storageKey="merlin-view-"+sectionId;
-    var isPoster=section.classList.contains("poster-view");
-    if(localStorage.getItem(storageKey)==="cards"){
-      section.classList.remove("poster-view");
-      toggle.textContent=defaultPoster?"▦ Posters":"☰ Cards";
+    var listLabel=defaultPoster?"☰ List":"☰ Cards";
+    var posterLabel="▦ Posters";
+    function apply(poster){
+      if(poster){section.classList.add("poster-view");}else{section.classList.remove("poster-view");}
+      toggle.textContent=poster?listLabel:posterLabel;
     }
+    var saved=localStorage.getItem(storageKey);
+    var poster=saved===null?defaultPoster:(saved==="posters");
+    apply(poster);
     toggle.addEventListener("click",function(){
-      var nowPoster=section.classList.toggle("poster-view");
-      toggle.textContent=nowPoster?(defaultPoster?"☰ List":"☰ Cards"):(defaultPoster?"▦ Posters":"▦ Posters");
-      localStorage.setItem(storageKey,nowPoster?"posters":"cards");
+      poster=!poster;
+      apply(poster);
+      localStorage.setItem(storageKey,poster?"posters":"cards");
     });
   }
   setupViewToggle("ns-view-toggle","now-showing-live",true);
