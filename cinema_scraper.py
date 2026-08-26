@@ -678,10 +678,13 @@ def extract_films(
             if cert_rating.upper() == "TBC":
                 cert_rating = ""
 
+        img_div = card.select_one(".img.lazy, .img")
+        poster_url = img_div.get("data-src", "") if img_div else ""
+
         if release_date and clean_title:
             key = (release_date, clean_title, cinema_name, film_url)
             if key not in seen:
-                details = {"runtime": "", "cast": "", "synopsis": "", "director": "", "screening": screening, "bbfc": cert_rating}
+                details = {"runtime": "", "cast": "", "synopsis": "", "director": "", "screening": screening, "bbfc": cert_rating, "poster_url": poster_url}
                 films.append((release_date, clean_title, cinema_name, film_url, details))
                 seen.add(key)
                 logger.info("  %s - %s (%s)", clean_title, release_date, cinema_name)
