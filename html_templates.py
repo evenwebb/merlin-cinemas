@@ -509,7 +509,7 @@ def build_index_html(
             poster = se.get("poster") or ""
             slug = se["slug"]
             title = se.get("display_title") or _preferred_display_title(se["title"])
-            screening = se.get("screening", "")
+            screening = se.get("screening", "") or "Event Cinema"
             banner_class = screening.lower().replace(" ", "-").replace("&", "")
             se_cards.append(
                 f'<a href="films/{slug}.html" class="ns-poster-card">\n'
@@ -530,9 +530,13 @@ def build_index_html(
         poster_cards = []
         list_cards = []
         seen_slugs = set(f["slug"] for f in (special_events or []))
+        shown_count = 0
         for nf in now_showing_live[:60]:  # cap at 60 for performance
-            poster = nf.get("poster") or ""
             slug = nf["slug"]
+            if slug in seen_slugs:
+                continue  # already rendered in the Special Events section
+            shown_count += 1
+            poster = nf.get("poster") or ""
             title = nf.get("display_title") or _preferred_display_title(nf["title"])
             cinemas_str = ", ".join(nf.get("cinemas", [])[:3])
             poster_html = (
@@ -564,7 +568,7 @@ def build_index_html(
             )
         now_showing_grid = (
             f'    <section class="film-section poster-view" id="now-showing-live">\n'
-            f'      <div class="section-header"><h2>Now Showing</h2><div style="display:flex;align-items:center;gap:0.75rem"><span class="count">{len(now_showing_live)} films</span><button type="button" id="ns-view-toggle" class="view-toggle-btn">☰ List</button></div></div>\n'
+            f'      <div class="section-header"><h2>Now Showing</h2><div style="display:flex;align-items:center;gap:0.75rem"><span class="count">{shown_count} films</span><button type="button" id="ns-view-toggle" class="view-toggle-btn">☰ List</button></div></div>\n'
             f'      <div class="ns-poster-grid">\n' + "\n".join(poster_cards) + f'\n      </div>\n'
             f'      <div class="ns-list-grid">\n' + "\n".join(list_cards) + f'\n      </div>\n'
             f'    </section>\n\n'
@@ -695,6 +699,7 @@ def build_index_html(
         (
             f'    <nav class="quick-nav" aria-label="Jump to section">\n'
             f'      <a href="#now-showing-live">Now Showing</a>\n'
+            f'      <a href="#special-events">Special Events</a>\n'
             f'      <a href="#coming-soon">Coming Soon</a>\n'
             f'      <a href="#subscribe">Subscribe</a>\n'
             f'    </nav>\n\n'
@@ -1144,6 +1149,9 @@ body{position:relative;background:var(--bg)}
 .cinema-table tbody td{padding:0.5rem 0.5rem;border-bottom:1px solid var(--border);vertical-align:middle}
 @media(min-width:600px){.cinema-table tbody td{padding:0.6rem 0.75rem}}
 .cinema-table tbody tr:hover{background:var(--accent-dim)}
+.cinema-table tr.day-separator>td{border:none;padding:0;height:8px;background:transparent}
+.cinema-table tr.day-separator:hover{background:transparent}
+.cinema-table tr.day-separator>td::before{content:"";display:block;height:1px;margin:0 0.5rem;background:linear-gradient(90deg,transparent,var(--border),transparent)}
 tr.nearest-cinema-row{background:rgba(34,211,238,0.06)}
 tr.nearest-cinema-row:first-child{border-top:2px solid var(--accent)}
 tr.nearest-cinema-row:last-of-type{border-bottom:2px solid var(--accent)}
@@ -1267,7 +1275,7 @@ def build_film_page(
     trailer_html = (
         f'<div class="trailer-wrap"><iframe src="{_esc(embed_url)}" title="Trailer for {_esc(display_title)}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>'
         if embed_url
-        else '<div class="trailer-wrap"><div class="no-trailer">No trailer available</div></div>'
+        else ""
     )
 
     # Google Calendar "Add to Calendar" link
@@ -1313,8 +1321,12 @@ def build_film_page(
     cinema_set: set = set()
     if showtimes:
         # Use full showtime data from whats-on pages
+        prev_rd = None
         for st in showtimes:
             rd = st["date"]
+            if prev_rd is not None and rd != prev_rd:
+                table_rows.append('<tr class="day-separator" aria-hidden="true"><td colspan="4"></td></tr>')
+            prev_rd = rd
             rd_str = rd.strftime("%a %d %b")
             cinema_name = st['cinema_name']
             cinema_slug = cinema_name.lower().replace(" ", "-")
@@ -1369,7 +1381,11 @@ def build_film_page(
         showings_by_date: Dict[date, List[Tuple[str, str, str]]] = {}
         for cname, furl, rdate, cid in sorted(cinemas, key=lambda x: x[2]):
             showings_by_date.setdefault(rdate, []).append((cname, furl, cid))
+        first_date = True
         for rd in sorted(showings_by_date.keys()):
+            if not first_date:
+                table_rows.append('<tr class="day-separator" aria-hidden="true"><td colspan="3"></td></tr>')
+            first_date = False
             cinemas_on_date = sorted(showings_by_date[rd])
             rd_short = rd.strftime("%a %d %b")
             for cname, furl, cid in cinemas_on_date:
@@ -1555,10 +1571,11 @@ def build_film_page(
         f'      {info_col}\n'
         f'    </div>\n'
         + schema_block +
-        f'    <div class="trailer-section">\n'
+        (f'    <div class="trailer-section">\n'
         f'      <h2>Trailer</h2>\n'
         f'      {trailer_html}\n'
         f'    </div>\n'
+        if trailer_html else '')
         + cinema_html +
         '    <footer>\n'
         '      <p>An open source fan-made project. Not affiliated with Merlin Cinemas.</p>\n'

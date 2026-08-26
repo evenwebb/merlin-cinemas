@@ -137,6 +137,35 @@ def extract_screening_label(title: str):
             return cleaned, ""
     return _clean_display_title(title), ""
 
+
+# Screening labels that denote alternative/event content — the film *is* the
+# event (opera, ballet, theatre, concert, Q&A) as opposed to a Hollywood film
+# shown in a special format (Toddler Cinema, Silver Screen, Double Bill, etc.).
+EVENT_CINEMA_SCREENINGS = {"NT Live", "RBO", "Event Cinema", "Q&A"}
+
+# Extra title hints for alternative content that carries no screening label,
+# e.g. concert films ("André Rieu's Summer Concert").
+EVENT_CINEMA_TITLE_HINTS = (
+    "concert", "met opera", "royal opera", "royal ballet", "bolshoi",
+    "glyndebourne", "encore", "rieu",
+)
+
+
+def _is_event_cinema(title: str, screening: str = "", categories=None) -> bool:
+    """Classify a now-showing film as event cinema / special content vs a
+    regular Hollywood release. Uses Merlin's own screening label and
+    Event Cinema category first, then falls back to title hints.
+    (TMDb genre "Music" is deliberately ignored: it also covers Hollywood
+    musicals like La La Land, which should stay under Now Showing.)"""
+    if screening in EVENT_CINEMA_SCREENINGS:
+        return True
+    if "Event Cinema" in (categories or []):
+        return True
+    tl = (title or "").lower()
+    if any(hint in tl for hint in EVENT_CINEMA_TITLE_HINTS):
+        return True
+    return False
+
 # Non-film events to skip TMDb enrichment entirely
 MERLIN_SKIP_TMDB = [
     "live nation", "tribute", "comedy club", "showcase", "panto",
@@ -1583,6 +1612,9 @@ def main() -> None:
         # Fallback to Merlin poster from whats-on data
         if not poster:
             poster = wf_list[0].get("poster_url", "") or ""
+        screening = wf_list[0].get("screening", "")
+        categories = wf_list[0].get("categories", []) or []
+        is_event = _is_event_cinema(wf_list[0]["title"], screening, categories)
         now_showing_films.append({
             "title": wf_list[0]["title"],
             "display_title": _clean_display_title((tmdb_cache.get(slug) or {}).get("title") or wf_list[0]["title"]),
@@ -1591,20 +1623,22 @@ def main() -> None:
             "showtimes": all_st,
             "min_date": min_date,
             "poster": poster,
-            "screening": wf_list[0].get("screening", ""),
+            "screening": screening,
+            "is_event": is_event,
         })
     now_showing_films.sort(key=lambda f: (f["min_date"], f["title"]))
 
-    # ── Special Events ─────────────────────────────────────────────────────
-    special_events = [f for f in now_showing_films if f.get("screening")]
+    # ── Special Events / Hollywood split ─────────────────────────────────────
+    special_events = [f for f in now_showing_films if f.get("is_event")]
     special_events.sort(key=lambda f: (f.get("screening", ""), f["min_date"]))
+    now_showing_hollywood = [f for f in now_showing_films if not f.get("is_event")]
 
     # Share CINEMAS config with html_templates for URL construction
     sys.modules["html_templates"].CINEMAS = CINEMAS
 
     # Write index.html
     html = build_index_html(enabled_cinemas, films_by_cinema, stats=stats,
-                            now_showing_live=now_showing_films,
+                            now_showing_live=now_showing_hollywood,
                             special_events=special_events,
                             new_slugs=new_slugs)
     (out_dir / "index.html").write_text(html, encoding="utf-8")
