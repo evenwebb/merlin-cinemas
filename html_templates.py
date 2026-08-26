@@ -436,7 +436,9 @@ def build_index_html(
     all_films_list = sorted(film_entries.values(), key=lambda f: f["release_date"])
 
     today = date.today()
-    coming_soon = [f for f in all_films_list if f["release_date"] > today]
+    # Event cinema films render under Special Showings only
+    se_slugs = set(f["slug"] for f in (special_events or []))
+    coming_soon = [f for f in all_films_list if f["release_date"] > today and f["slug"] not in se_slugs]
 
     cinema_slugs = list(enabled_cinemas.keys())
     cinema_names = list(enabled_cinemas.values())
