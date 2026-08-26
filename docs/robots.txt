@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://evenwebb.github.io/merlin-cinemas/sitemap.xml
