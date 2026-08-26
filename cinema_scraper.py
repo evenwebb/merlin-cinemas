@@ -315,17 +315,6 @@ CINEMA_LOCATION_MAP = {
     "Royal Cinema": "St Ives", "Savoy Cinema": "Penzance", "The Ritz": "Penzance",
 }
 
-# Cinema coordinates for geolocation
-CINEMA_COORDS = {
-    "bodmin": (50.466, -4.718),
-    "helston": (50.102, -5.274),
-    "falmouth": (50.155, -5.067),
-    "redruth": (50.233, -5.226),
-    "st-ives": (50.210, -5.490),
-    "penzance-savoy": (50.118, -5.538),
-    "penzance-ritz": (50.118, -5.536),
-}
-
 # Health check minimums (env-configurable)
 HEALTH_MIN_FILMS = int(os.getenv("HEALTH_MIN_FILMS", "1"))
 HEALTH_MIN_CINEMAS = int(os.getenv("HEALTH_MIN_CINEMAS", "1"))
