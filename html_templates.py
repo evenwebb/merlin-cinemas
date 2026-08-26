@@ -537,7 +537,7 @@ def build_index_html(
             )
         special_events_html = (
             f'    <section class="film-section" id="special-events">\n'
-            f'      <div class="section-header"><h2>Special Events</h2><span class="count">{len(se_cards)} events</span></div>\n'
+            f'      <div class="section-header"><h2>Coming Soon — Special Showings</h2><span class="count">{len(se_cards)} events</span></div>\n'
             f'      <div class="ns-poster-grid">\n' + "\n".join(se_cards) + f'\n      </div>\n'
             f'    </section>\n\n'
         )
@@ -593,7 +593,7 @@ def build_index_html(
 
     coming_html = (
         f'    <section class="film-section" id="coming-soon">\n'
-        f'      <div class="section-header"><h2>Coming Soon</h2><div style="display:flex;align-items:center;gap:0.75rem"><span class="count">{len(coming_soon)} films</span><button type="button" id="view-toggle" class="view-toggle-btn">▦ Posters</button></div></div>\n'
+        f'      <div class="section-header"><h2>Coming Soon — Hollywood Movies</h2><div style="display:flex;align-items:center;gap:0.75rem"><span class="count">{len(coming_soon)} films</span><button type="button" id="view-toggle" class="view-toggle-btn">▦ Posters</button></div></div>\n'
         f'      <div class="film-browse-grid">\n{coming_cards}\n      </div>\n'
         f'    </section>\n\n'
     ) if coming_soon else ""
@@ -716,8 +716,8 @@ def build_index_html(
         (
             f'    <nav class="quick-nav" aria-label="Jump to section">\n'
             f'      <a href="#now-showing-live">Now Showing</a>\n'
-            f'      <a href="#special-events">Special Events</a>\n'
-            f'      <a href="#coming-soon">Coming Soon</a>\n'
+            f'      <a href="#coming-soon">Coming Soon — Hollywood</a>\n'
+            f'      <a href="#special-events">Coming Soon — Special Showings</a>\n'
             f'      <a href="#subscribe">Subscribe</a>\n'
             f'    </nav>\n\n'
         ) +
@@ -725,8 +725,8 @@ def build_index_html(
         f'        {filter_html}'
         '    </div>\n\n'
         + now_showing_grid
-        + special_events_html
         + coming_html
+        + special_events_html
         + empty_html
         + calendar_cta +
         '    <footer role="contentinfo">\n'
