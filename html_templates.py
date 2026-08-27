@@ -892,7 +892,7 @@ def build_cinema_page(
         title = nf.get("display_title") or _preferred_display_title(nf["title"])
         poster_html = (
             f'<img src="../posters/{slug}.jpg" alt="{_esc(title)}" loading="lazy" decoding="async">'
-            if poster
+            if poster and (Path(POSTERS_DIR) / f"{slug}.jpg").is_file()
             else f'<div class="ns-no-poster">{_esc(title)[:30]}</div>'
         )
         ns_cards.append(
