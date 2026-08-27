@@ -1634,6 +1634,9 @@ def main() -> None:
         # Fallback to Merlin poster from whats-on data
         if not poster:
             poster = wf_list[0].get("poster_url", "") or ""
+        # Site banners are landscape promo art; unusable in portrait frames
+        if "image.tmdb.org" not in poster:
+            poster = ""
         screening = wf_list[0].get("screening", "")
         categories = wf_list[0].get("categories", []) or []
         is_event = _is_event_cinema(wf_list[0]["title"], screening, categories)
