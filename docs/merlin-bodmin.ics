@@ -10,7 +10,7 @@ X-WR-CALDESC:Upcoming movie premieres at Merlin Cinemas Capitol Cinema
 X-WR-TIMEZONE:Europe/London
 BEGIN:VEVENT
 UID:9d935a76dc3ac0014fce56de0b7079b75e4b09ea@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20260710
 DTEND;VALUE=DATE:20260711
 SUMMARY:Life Support @ Merlin Bodmin
@@ -26,31 +26,26 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:3aa5b1f502ab36efa1548acec55e97a06c8c31a8@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20260724
 DTEND;VALUE=DATE:20260725
 SUMMARY:On The Sea @ Merlin Bodmin
-DESCRIPTION:On The Sea (1h 55min)\nDrama\, Romance\n\nJack has been married
-  to Maggie for over half his life. He works as a Hand Raker on the mussel 
- beds in North Wales alongside his younger brother\, Dyfan\, and Dyfan’s th
- ree sons. Jack has always assumed that his own boy\, Tom\, will join the f
- amily business on leaving school but Tom’s resistance to follow in his foo
- tsteps creates familial tension. Tensions are further inflamed by the arri
- val of an itinerant deckhand\, Daniel\, who makes known his feelings for J
- ack. In this remote\, rural community where life revolves around Church an
- d fishery\, Jack is faced with an impossible dilemma. On The Sea is a beau
- tiful\, sensual and at times\, tragic exploration of masculinity\, place a
- nd desire.\n\nStarring: Barry Ward\, Lorne MacFadyen\, Liz White\, Henry L
- awfull\, Celyn Jones\, Leisa Gwenllian\n\nFilm release at Merlin Cinemas B
- odmin\nBook tickets: /film/on-the-sea\n\nFilm details: https://evenwebb.gi
- thub.io/merlin-cinemas/films/on-the-sea.html
+DESCRIPTION:On The Sea (1h 55min)\nDrama\, Romance\n\nIn a rural town in No
+ rth Wales\, mussel harvester Jack has been married to his wife Maggie for 
+ over half of his life. He is troubled by his son Tom\, who has little inte
+ rest in the family trade. When Jack crosses paths with Daniel\, an itinera
+ nt deckhand\, their attraction poses an impossible dilemma.\n\nStarring: B
+ arry Ward\, Lorne MacFadyen\, Liz White\, Henry Lawfull\, Celyn Jones\, Le
+ isa Gwenllian\n\nFilm release at Merlin Cinemas Bodmin\nBook tickets: /fil
+ m/on-the-sea\n\nFilm details: https://evenwebb.github.io/merlin-cinemas/fi
+ lms/on-the-sea.html
 LOCATION:Merlin Cinemas Bodmin
 URL:/film/on-the-sea
 SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:8ba055a73b77920491ac0f96f5642ed51290e3ba@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20260729
 DTEND;VALUE=DATE:20260730
 SUMMARY:Spider-Man: Brand New Day @ Merlin Bodmin
@@ -71,7 +66,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:f6196288e487874045bd70c78dc5d03da5bcf55a@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20260802
 DTEND;VALUE=DATE:20260803
 SUMMARY:Pip And Posy's Cinema Show Toddler Cinema Charity Screening for Cor
@@ -87,7 +82,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:e940ab08c1280b2ec3a9daa8792c7d51c5b435e1@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20260814
 DTEND;VALUE=DATE:20260815
 SUMMARY:Mermaid Beach @ Merlin Bodmin
@@ -104,7 +99,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:73514f9f620545fd25a11c7c2a2392ead444160d@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20260904
 DTEND;VALUE=DATE:20260905
 SUMMARY:The Incomer @ Merlin Bodmin
@@ -121,7 +116,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:ca22ec198cf3189398d4760c40209fdd8efe8990@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20260904
 DTEND;VALUE=DATE:20260905
 SUMMARY:The Incomer @ Merlin Bodmin
@@ -139,7 +134,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:8eaf387b2a39c5dfc3c1af71763b7c3570e66157@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:All Rivers Spill Their Stories To The Sea @ Merlin Bodmin
@@ -158,7 +153,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:8d869982a723620ee189874b7ad973e061e8a035@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20260916
 DTEND;VALUE=DATE:20260917
 SUMMARY:St Ives Stories Launch Screening @ Merlin Bodmin
@@ -179,7 +174,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:7d74c2fc5170b90186ee2f87798348b1b2dfc1b6@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20260918
 DTEND;VALUE=DATE:20260919
 SUMMARY:The Fastest Bicycle @ Merlin Bodmin
@@ -201,7 +196,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:010ffb3138eed2dd335a528c95be5fbe992b41b6@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20260918
 DTEND;VALUE=DATE:20260919
 SUMMARY:Resident Evil @ Merlin Bodmin
@@ -218,7 +213,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:87f71bbbb5c3692efc3596aab2aba316df76e70d@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20260920
 DTEND;VALUE=DATE:20260921
 SUMMARY:Glastonbury: The Movie 30th Anniversary Cut @ Merlin Bodmin
@@ -235,7 +230,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:8dbe1260b44a9831b88f8c3dea8ae253a022d02b@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20260923
 DTEND;VALUE=DATE:20260924
 SUMMARY:Heart Of The Beast @ Merlin Bodmin
@@ -243,17 +238,17 @@ DESCRIPTION:Heart Of The Beast (1h 41min)\nAdventure\, Thriller\n\nAfter a
  harrowing plane crash\, Special Forces officer James Belmont and his comba
  t dog\, Odin\, find themselves stranded deep in the Alaskan wilderness. To
  gether\, they are forced into a brutal fight for survival against the elem
- ents.\n\nStarring: Brad Pitt\, J.K. Simmons\, Anna Lambe\n\nFilm release a
- t Merlin Cinemas Bodmin\nBook tickets: /film/heart-of-the-beast\n\nFilm de
- tails: https://evenwebb.github.io/merlin-cinemas/films/heart-of-the-beast.
- html
+ ents.\n\nStarring: Brad Pitt\, J.K. Simmons\, Anna Lambe\, Uber\n\nFilm re
+ lease at Merlin Cinemas Bodmin\nBook tickets: /film/heart-of-the-beast\n\n
+ Film details: https://evenwebb.github.io/merlin-cinemas/films/heart-of-the
+ -beast.html
 LOCATION:Merlin Cinemas Bodmin
 URL:/film/heart-of-the-beast
 SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:7766745cd6ad36b546ff112bd6ef1301482629b9@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20260925
 DTEND;VALUE=DATE:20260926
 SUMMARY:Avengers: Endgame Encore @ Merlin Bodmin
@@ -273,7 +268,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:a8d307dac397050f476594d3fe9b603a2d143e35@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20260925
 DTEND;VALUE=DATE:20260926
 SUMMARY:Sense And Sensibility @ Merlin Bodmin
@@ -296,7 +291,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:a46c988be10043d1ebb8cc0b89533d6ad3c63434@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20260927
 DTEND;VALUE=DATE:20260928
 SUMMARY:Steel On Film @ Merlin Bodmin
@@ -315,7 +310,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:85054e12f51353149d7bea850e31b62412baa0a0@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261003
 SUMMARY:Digger @ Merlin Bodmin
@@ -331,25 +326,25 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:4cd569b2e25033c403a6ca98971a4e1c2bf62379@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261003
 SUMMARY:Verity @ Merlin Bodmin
-DESCRIPTION:Verity (1h 54min)\nMystery\, Thriller\n\nLowen Ashleigh gets hi
- red by Jeremy Crawford to ghostwrite novels for his bestselling author wif
- e Verity\, who's unable to finish after an accident. Lowen uncovers Verity
- 's disturbing truths while residing at the Crawfords' home to work.\n\nSta
- rring: Dakota Johnson\, Anne Hathaway\, Josh Hartnett\, Ismael Cruz Cordov
- a\, Brady Wagner\, Irina Dvorovenko\n\nFilm release at Merlin Cinemas Bodm
- in\nBook tickets: /film/verity\n\nFilm details: https://evenwebb.github.io
- /merlin-cinemas/films/verity.html
+DESCRIPTION:Verity (1h 57min)\nMystery\, Thriller\n\nLowen Ashleigh is hire
+ d by Jeremy Crawford to ghostwrite novels for his bestselling author wife 
+ Verity\, who is unable to finish following an accident. Lowen gradually un
+ covers Verity's disturbing truths while residing at the Crawfords' home to
+  work.\n\nStarring: Dakota Johnson\, Anne Hathaway\, Josh Hartnett\, Ismae
+ l Cruz Cordova\, Brady Wagner\, Irina Dvorovenko\n\nFilm release at Merlin
+  Cinemas Bodmin\nBook tickets: /film/verity\n\nFilm details: https://evenw
+ ebb.github.io/merlin-cinemas/films/verity.html
 LOCATION:Merlin Cinemas Bodmin
 URL:/film/verity
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:85dfb46b1404b660f466a5f8b8272b1f9cd2177a@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20261009
 DTEND;VALUE=DATE:20261010
 SUMMARY:The Uprising @ Merlin Bodmin
@@ -367,7 +362,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:440e3b055ccd54bc33c9f53e5e156f12897fce4d@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20261009
 DTEND;VALUE=DATE:20261010
 SUMMARY:The Social Reckoning @ Merlin Bodmin
@@ -385,7 +380,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:de0f276219389ff3e3ad4d56f9296d71d9266531@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:Whalefall @ Merlin Bodmin
@@ -404,7 +399,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:85c6f0ea66bc128e184724f5399ede1c9b42f535@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:Street Fighter @ Merlin Bodmin
@@ -424,7 +419,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:bbfd306cf0bbde67bc80c9fa469db8d55d6ed0bd@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:Forgotten Island @ Merlin Bodmin
@@ -444,26 +439,28 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:5c9142fea70783bf4d9bdcebe9d57d47eb3399c0@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Wildwood @ Merlin Bodmin
-DESCRIPTION:Wildwood (2h 20min)\nAnimation\, Adventure\, Fantasy\n\nPrue an
- d her classmate Curtis are drawn into a magical forest filled with enchant
- ed creatures\, loyal allies\, and formidable adversaries as they embark on
-  a desperate quest to rescue Prue’s abducted baby brother from a murder of
-  crows led by a mysterious woman named Alexandra.\n\nStarring: Peyton Eliz
- abeth Lee\, Jacob Tremblay\, Carey Mulligan\, Mahershala Ali\, Arthur Knig
- ht\, Angela Bassett\n\nFilm release at Merlin Cinemas Bodmin\nBook tickets
- : /film/wildwood\n\nFilm details: https://evenwebb.github.io/merlin-cinema
- s/films/wildwood.html
+DESCRIPTION:Wildwood (2h 20min)\nAnimation\, Adventure\, Fantasy\n\nAfter h
+ er baby brother is abducted by a murder of crows\, Prue and her classmate 
+ Curtis stumble upon a secret world in the midst of violent upheaval—a worl
+ d full of warring creatures\, peaceable mystics\, and powerful figures wit
+ h dark intentions. And what begins as a rescue mission becomes something m
+ uch greater as the two find themselves entwined in a struggle for the very
+  freedom of this wilderness—a wilderness the locals call Wildwood.\n\nStar
+ ring: Peyton Elizabeth Lee\, Jacob Tremblay\, Carey Mulligan\, Mahershala 
+ Ali\, Arthur Knight\, Angela Bassett\n\nFilm release at Merlin Cinemas Bod
+ min\nBook tickets: /film/wildwood\n\nFilm details: https://evenwebb.github
+ .io/merlin-cinemas/films/wildwood.html
 LOCATION:Merlin Cinemas Bodmin
 URL:/film/wildwood
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:bc1a52175877f66bca36d7e0ba666a4fd5f01bab@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Ghosts: The Possession Of Button House @ Merlin Bodmin
@@ -480,7 +477,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:c39880e223db71adf3e1306b30bce6633b3bac7a@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Klara And The Sun @ Merlin Bodmin
@@ -500,7 +497,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:92c48ccdb4964ef828b1aade029cb19daec48869@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Clayface @ Merlin Bodmin
@@ -518,7 +515,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:ea12b3160c23f58d908ae46700fd5410aa4d2236@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:I Play Rocky @ Merlin Bodmin
@@ -537,7 +534,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:a85d01d8e431650a6a0f3ea0e2e98d4ee8c9c57c@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:Wild Horse Nine @ Merlin Bodmin
@@ -557,7 +554,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:6ec7e27919c7292d400bf6f75121238b480b7858@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:Ebenezer @ Merlin Bodmin
@@ -575,7 +572,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:207519237c22db57f535b7b859fb4df832cbd6ef@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:How To Rob A Bank @ Merlin Bodmin
@@ -595,7 +592,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:f15fcddc1efa0096bf1d071473bd0f32eeca37a6@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:The Hunger Games: Sunrise On The Reaping @ Merlin Bodmin
@@ -613,7 +610,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:da34b562bd0d2389a12654e96757d26460aa7541@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Focker-In-Law @ Merlin Bodmin
@@ -630,7 +627,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:38d0513e46cddd4fa84777986528d7758b72aa93@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Hexed @ Merlin Bodmin
@@ -649,7 +646,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:0678dcbf8a61f2b2cbba5781275cf6c4deae8ee0@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Violent Night 2 @ Merlin Bodmin
@@ -669,10 +666,27 @@ URL:/film/violent-night-2
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:b39c3d220a27585bf4cae1da0a4c141e192326ac@merlin-cinemas
-DTSTAMP:20260908T141659Z
-DTSTART;VALUE=DATE:20261218
-DTEND;VALUE=DATE:20261219
+UID:10fab4e0554c825b1d237d6d273b03a3262bce76@merlin-cinemas
+DTSTAMP:20260909T141702Z
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261216
+SUMMARY:Dune: Part Three @ Merlin Bodmin
+DESCRIPTION:Dune: Part Three (2h 20min)\nScience Fiction\, Adventure\n\nEmp
+ eror Paul Atreides faces the fallout from his ascent to power as political
+  plots and a galaxy-wide holy war endanger the future only he can see.\n\n
+ Starring: Timothée Chalamet\, Zendaya\, Jason Momoa\, Florence Pugh\, Rebe
+ cca Ferguson\, Isaach de Bankolé\n\nFilm release at Merlin Cinemas Bodmin\
+ nBook tickets: /film/dune-part-three\n\nFilm details: https://evenwebb.git
+ hub.io/merlin-cinemas/films/dune-part-three.html
+LOCATION:Merlin Cinemas Bodmin
+URL:/film/dune-part-three
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+UID:8bcde4a29b6f26e28e4bc7ccf40812c1b1ce089f@merlin-cinemas
+DTSTAMP:20260909T141702Z
+DTSTART;VALUE=DATE:20261216
+DTEND;VALUE=DATE:20261217
 SUMMARY:Avengers: Doomsday @ Merlin Bodmin
 DESCRIPTION:Avengers: Doomsday (2h 45min)\nScience Fiction\, Action\, Adven
  ture\n\nBeloved heroes from three distinct universes are set on a deadly c
@@ -683,11 +697,11 @@ DESCRIPTION:Avengers: Doomsday (2h 45min)\nScience Fiction\, Action\, Adven
  ps://evenwebb.github.io/merlin-cinemas/films/avengers-doomsday.html
 LOCATION:Merlin Cinemas Bodmin
 URL:/film/avengers-doomsday
-SEQUENCE:0
+SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:adb9d22e31f1fb0f3a2f717c68c634857ca05488@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20261226
 SUMMARY:Jumanji: Open World @ Merlin Bodmin
@@ -704,7 +718,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:0b0b5ebcdb1186a66b24f8e2782905316885b7c0@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20261226
 SUMMARY:The Angry Birds Movie 3 @ Merlin Bodmin
@@ -720,7 +734,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:d79fc68550efe38b20a230592fe7dc12ab4df3f5@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270102
 SUMMARY:Werwulf @ Merlin Bodmin
@@ -735,7 +749,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:dc1a501c20f05a1b8bc32ed9ed6514ad5ccb9e10@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20270108
 DTEND;VALUE=DATE:20270109
 SUMMARY:Ink @ Merlin Bodmin
@@ -752,7 +766,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:7daa320f6b36cc8182f8f078ed4c10ba62927593@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20270205
 DTEND;VALUE=DATE:20270206
 SUMMARY:Ice Age: Boiling Point @ Merlin Bodmin
@@ -771,7 +785,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:95bf23e2468df428f9da9502ada529cc57c10c1d@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20270212
 DTEND;VALUE=DATE:20270213
 SUMMARY:CoComelon: The Movie @ Merlin Bodmin
@@ -791,7 +805,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:87b6e9f2fc6a14ea1263547c754f6d272cd7e38b@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20270326
 DTEND;VALUE=DATE:20270327
 SUMMARY:Not Alone @ Merlin Bodmin
@@ -809,7 +823,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:f81502369971baef9ea68e30b37fc92b24468cc3@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20270730
 DTEND;VALUE=DATE:20270731
 SUMMARY:Shrek 5 @ Merlin Bodmin

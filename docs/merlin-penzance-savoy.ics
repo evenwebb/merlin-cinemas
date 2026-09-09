@@ -10,7 +10,7 @@ X-WR-CALDESC:Upcoming movie premieres at Merlin Cinemas Savoy Cinema
 X-WR-TIMEZONE:Europe/London
 BEGIN:VEVENT
 UID:0a14a10fd6fde478f1f2d05a63ea2bf9f7909924@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20260710
 DTEND;VALUE=DATE:20260711
 SUMMARY:Life Support @ Merlin Penzance
@@ -26,31 +26,26 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:018bccb82abfbbcd6b54eb8ba224ecb5bd27b556@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20260724
 DTEND;VALUE=DATE:20260725
 SUMMARY:On The Sea @ Merlin Penzance
-DESCRIPTION:On The Sea (1h 55min)\nDrama\, Romance\n\nJack has been married
-  to Maggie for over half his life. He works as a Hand Raker on the mussel 
- beds in North Wales alongside his younger brother\, Dyfan\, and Dyfan’s th
- ree sons. Jack has always assumed that his own boy\, Tom\, will join the f
- amily business on leaving school but Tom’s resistance to follow in his foo
- tsteps creates familial tension. Tensions are further inflamed by the arri
- val of an itinerant deckhand\, Daniel\, who makes known his feelings for J
- ack. In this remote\, rural community where life revolves around Church an
- d fishery\, Jack is faced with an impossible dilemma. On The Sea is a beau
- tiful\, sensual and at times\, tragic exploration of masculinity\, place a
- nd desire.\n\nStarring: Barry Ward\, Lorne MacFadyen\, Liz White\, Henry L
- awfull\, Celyn Jones\, Leisa Gwenllian\n\nFilm release at Merlin Cinemas P
- enzance\nBook tickets: /film/on-the-sea\n\nFilm details: https://evenwebb.
- github.io/merlin-cinemas/films/on-the-sea.html
+DESCRIPTION:On The Sea (1h 55min)\nDrama\, Romance\n\nIn a rural town in No
+ rth Wales\, mussel harvester Jack has been married to his wife Maggie for 
+ over half of his life. He is troubled by his son Tom\, who has little inte
+ rest in the family trade. When Jack crosses paths with Daniel\, an itinera
+ nt deckhand\, their attraction poses an impossible dilemma.\n\nStarring: B
+ arry Ward\, Lorne MacFadyen\, Liz White\, Henry Lawfull\, Celyn Jones\, Le
+ isa Gwenllian\n\nFilm release at Merlin Cinemas Penzance\nBook tickets: /f
+ ilm/on-the-sea\n\nFilm details: https://evenwebb.github.io/merlin-cinemas/
+ films/on-the-sea.html
 LOCATION:Merlin Cinemas Penzance
 URL:/film/on-the-sea
 SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:1ef9d129ce5f14a0cb4e32abf64ed9c873a7bb24@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20260729
 DTEND;VALUE=DATE:20260730
 SUMMARY:Spider-Man: Brand New Day @ Merlin Penzance
@@ -71,7 +66,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:dd4e3f9ca3f23186399aebc222a9fb52b9736351@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20260802
 DTEND;VALUE=DATE:20260803
 SUMMARY:Pip And Posy's Cinema Show Toddler Cinema Charity Screening for Cor
@@ -87,7 +82,7 @@ SEQUENCE:27
 END:VEVENT
 BEGIN:VEVENT
 UID:681532e3513b763d50195527ff51c5938666a879@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20260814
 DTEND;VALUE=DATE:20260815
 SUMMARY:Mermaid Beach @ Merlin Penzance
@@ -104,7 +99,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:0b11b7513e9be5c9322212e2f4c7f34d5cb8d93f@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20260904
 DTEND;VALUE=DATE:20260905
 SUMMARY:The Incomer @ Merlin Penzance
@@ -122,7 +117,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:15e959f0c4243e6bfe2b1766d7b6891e7c32c6a0@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20260904
 DTEND;VALUE=DATE:20260905
 SUMMARY:The Incomer @ Merlin Penzance
@@ -140,7 +135,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:2be169e73c563ab40d93595a6f48c4071810724c@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:All Rivers Spill Their Stories To The Sea @ Merlin Penzance
@@ -160,7 +155,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:244838716a2e6d7093becd1420530d518e8d6a5e@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20260916
 DTEND;VALUE=DATE:20260917
 SUMMARY:St Ives Stories Launch Screening @ Merlin Penzance
@@ -181,7 +176,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:17fa0e4b0c62e45fbc063877d8f56085cbb8a290@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20260918
 DTEND;VALUE=DATE:20260919
 SUMMARY:Resident Evil @ Merlin Penzance
@@ -198,7 +193,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:0e720b72617df38236777bdcf75418fc95948b9e@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20260920
 DTEND;VALUE=DATE:20260921
 SUMMARY:The Fastest Bicycle @ Merlin Penzance
@@ -220,7 +215,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:3f0a28bb0174c88b70e3de83ca595161141b0029@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20260920
 DTEND;VALUE=DATE:20260921
 SUMMARY:Glastonbury: The Movie 30th Anniversary Cut @ Merlin Penzance
@@ -237,7 +232,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:10e48dfbcb773c3649356520062d2013b740d3ee@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20260923
 DTEND;VALUE=DATE:20260924
 SUMMARY:Heart Of The Beast @ Merlin Penzance
@@ -245,17 +240,17 @@ DESCRIPTION:Heart Of The Beast (1h 41min)\nAdventure\, Thriller\n\nAfter a
  harrowing plane crash\, Special Forces officer James Belmont and his comba
  t dog\, Odin\, find themselves stranded deep in the Alaskan wilderness. To
  gether\, they are forced into a brutal fight for survival against the elem
- ents.\n\nStarring: Brad Pitt\, J.K. Simmons\, Anna Lambe\n\nFilm release a
- t Merlin Cinemas Penzance\nBook tickets: /film/heart-of-the-beast\n\nFilm 
- details: https://evenwebb.github.io/merlin-cinemas/films/heart-of-the-beas
- t.html
+ ents.\n\nStarring: Brad Pitt\, J.K. Simmons\, Anna Lambe\, Uber\n\nFilm re
+ lease at Merlin Cinemas Penzance\nBook tickets: /film/heart-of-the-beast\n
+ \nFilm details: https://evenwebb.github.io/merlin-cinemas/films/heart-of-t
+ he-beast.html
 LOCATION:Merlin Cinemas Penzance
 URL:/film/heart-of-the-beast
 SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:9978ebe02b21b7abe9eafd19ff37657b95f5f02c@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20260925
 DTEND;VALUE=DATE:20260926
 SUMMARY:Avengers: Endgame Encore @ Merlin Penzance
@@ -275,7 +270,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:8a765aae4a098845392dc997f92dbb0998bcdc7f@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20260925
 DTEND;VALUE=DATE:20260926
 SUMMARY:Sense And Sensibility @ Merlin Penzance
@@ -298,7 +293,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:1f3d60850138e2610e93f1950a1543c8e73523ee@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20260927
 DTEND;VALUE=DATE:20260928
 SUMMARY:Steel On Film @ Merlin Penzance
@@ -317,7 +312,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:ec9dcb1add4fa655028bef9b9417e5509e636702@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261003
 SUMMARY:Digger @ Merlin Penzance
@@ -333,25 +328,25 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:3e19a7db406588f7f21ecfd0bafaba02c3bce017@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261003
 SUMMARY:Verity @ Merlin Penzance
-DESCRIPTION:Verity (1h 54min)\nMystery\, Thriller\n\nLowen Ashleigh gets hi
- red by Jeremy Crawford to ghostwrite novels for his bestselling author wif
- e Verity\, who's unable to finish after an accident. Lowen uncovers Verity
- 's disturbing truths while residing at the Crawfords' home to work.\n\nSta
- rring: Dakota Johnson\, Anne Hathaway\, Josh Hartnett\, Ismael Cruz Cordov
- a\, Brady Wagner\, Irina Dvorovenko\n\nFilm release at Merlin Cinemas Penz
- ance\nBook tickets: /film/verity\n\nFilm details: https://evenwebb.github.
- io/merlin-cinemas/films/verity.html
+DESCRIPTION:Verity (1h 57min)\nMystery\, Thriller\n\nLowen Ashleigh is hire
+ d by Jeremy Crawford to ghostwrite novels for his bestselling author wife 
+ Verity\, who is unable to finish following an accident. Lowen gradually un
+ covers Verity's disturbing truths while residing at the Crawfords' home to
+  work.\n\nStarring: Dakota Johnson\, Anne Hathaway\, Josh Hartnett\, Ismae
+ l Cruz Cordova\, Brady Wagner\, Irina Dvorovenko\n\nFilm release at Merlin
+  Cinemas Penzance\nBook tickets: /film/verity\n\nFilm details: https://eve
+ nwebb.github.io/merlin-cinemas/films/verity.html
 LOCATION:Merlin Cinemas Penzance
 URL:/film/verity
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:d610dcb748d266c20d90e268ecbf055070dafaa5@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20261009
 DTEND;VALUE=DATE:20261010
 SUMMARY:The Uprising @ Merlin Penzance
@@ -369,7 +364,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:5c04ae63d7ebb08be8b871ce49666a1beae3c79e@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20261009
 DTEND;VALUE=DATE:20261010
 SUMMARY:The Social Reckoning @ Merlin Penzance
@@ -387,7 +382,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:13882baefc8e1a465c0985f8ce19baa61aea1db7@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:Whalefall @ Merlin Penzance
@@ -406,7 +401,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:d7584ca900c8832ffb2ecacf2d12199f881ec812@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:Street Fighter @ Merlin Penzance
@@ -426,7 +421,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:2549430adf8ab65479b2dd3e34b65ea00660d500@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:Forgotten Island @ Merlin Penzance
@@ -446,26 +441,28 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:a29a48bea6ef53b137db59a10a5e7707e5204766@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Wildwood @ Merlin Penzance
-DESCRIPTION:Wildwood (2h 20min)\nAnimation\, Adventure\, Fantasy\n\nPrue an
- d her classmate Curtis are drawn into a magical forest filled with enchant
- ed creatures\, loyal allies\, and formidable adversaries as they embark on
-  a desperate quest to rescue Prue’s abducted baby brother from a murder of
-  crows led by a mysterious woman named Alexandra.\n\nStarring: Peyton Eliz
- abeth Lee\, Jacob Tremblay\, Carey Mulligan\, Mahershala Ali\, Arthur Knig
- ht\, Angela Bassett\n\nFilm release at Merlin Cinemas Penzance\nBook ticke
- ts: /film/wildwood\n\nFilm details: https://evenwebb.github.io/merlin-cine
- mas/films/wildwood.html
+DESCRIPTION:Wildwood (2h 20min)\nAnimation\, Adventure\, Fantasy\n\nAfter h
+ er baby brother is abducted by a murder of crows\, Prue and her classmate 
+ Curtis stumble upon a secret world in the midst of violent upheaval—a worl
+ d full of warring creatures\, peaceable mystics\, and powerful figures wit
+ h dark intentions. And what begins as a rescue mission becomes something m
+ uch greater as the two find themselves entwined in a struggle for the very
+  freedom of this wilderness—a wilderness the locals call Wildwood.\n\nStar
+ ring: Peyton Elizabeth Lee\, Jacob Tremblay\, Carey Mulligan\, Mahershala 
+ Ali\, Arthur Knight\, Angela Bassett\n\nFilm release at Merlin Cinemas Pen
+ zance\nBook tickets: /film/wildwood\n\nFilm details: https://evenwebb.gith
+ ub.io/merlin-cinemas/films/wildwood.html
 LOCATION:Merlin Cinemas Penzance
 URL:/film/wildwood
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:71949fdd0da28c783302315334b0b9897b98a738@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Ghosts: The Possession Of Button House @ Merlin Penzance
@@ -482,7 +479,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:62502d08ff7ce9d0fa27a082f6a6e242afc3f849@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Klara And The Sun @ Merlin Penzance
@@ -502,7 +499,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:d6ca24ff7adc4dbfdb54b5ce248ef1c1b5a5d36b@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Clayface @ Merlin Penzance
@@ -520,7 +517,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:9338b763a0aae6d0f762864237caae09e53aa1d0@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:I Play Rocky @ Merlin Penzance
@@ -539,7 +536,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:ba3e11a9e0728920ef1ca4df949def086fdf6f0e@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:Wild Horse Nine @ Merlin Penzance
@@ -559,7 +556,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:98a632633afdb8e9c237795bf4cda6c77f9759ad@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:Ebenezer @ Merlin Penzance
@@ -577,7 +574,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:07e49ce0b6c859e2b58cbfe8276a2ea7df835374@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:How To Rob A Bank @ Merlin Penzance
@@ -597,7 +594,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:3862cd142dc2544a72db54645aab88d043badb43@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:The Hunger Games: Sunrise On The Reaping @ Merlin Penzance
@@ -616,7 +613,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:f5983670fd0c58ffbebb895520192c91467b4864@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Focker-In-Law @ Merlin Penzance
@@ -633,7 +630,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:6656840ad30c6c4a139b29f7d375676d31f5bee9@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Hexed @ Merlin Penzance
@@ -652,7 +649,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:89d569b7cfaf061d1d1b847005de9cfe720c7d3b@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Violent Night 2 @ Merlin Penzance
@@ -672,10 +669,27 @@ URL:/film/violent-night-2
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:99cb352bb6c730eca816e0c6f22d019bd5547a9c@merlin-cinemas
-DTSTAMP:20260908T141659Z
-DTSTART;VALUE=DATE:20261218
-DTEND;VALUE=DATE:20261219
+UID:e20ac013ce8379197e56092e289f37dba243ef57@merlin-cinemas
+DTSTAMP:20260909T141702Z
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261216
+SUMMARY:Dune: Part Three @ Merlin Penzance
+DESCRIPTION:Dune: Part Three (2h 20min)\nScience Fiction\, Adventure\n\nEmp
+ eror Paul Atreides faces the fallout from his ascent to power as political
+  plots and a galaxy-wide holy war endanger the future only he can see.\n\n
+ Starring: Timothée Chalamet\, Zendaya\, Jason Momoa\, Florence Pugh\, Rebe
+ cca Ferguson\, Isaach de Bankolé\n\nFilm release at Merlin Cinemas Penzanc
+ e\nBook tickets: /film/dune-part-three\n\nFilm details: https://evenwebb.g
+ ithub.io/merlin-cinemas/films/dune-part-three.html
+LOCATION:Merlin Cinemas Penzance
+URL:/film/dune-part-three
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+UID:29fcf414d1233cda765ba05435160214d7ebade2@merlin-cinemas
+DTSTAMP:20260909T141702Z
+DTSTART;VALUE=DATE:20261216
+DTEND;VALUE=DATE:20261217
 SUMMARY:Avengers: Doomsday @ Merlin Penzance
 DESCRIPTION:Avengers: Doomsday (2h 45min)\nScience Fiction\, Action\, Adven
  ture\n\nBeloved heroes from three distinct universes are set on a deadly c
@@ -686,11 +700,11 @@ DESCRIPTION:Avengers: Doomsday (2h 45min)\nScience Fiction\, Action\, Adven
  ttps://evenwebb.github.io/merlin-cinemas/films/avengers-doomsday.html
 LOCATION:Merlin Cinemas Penzance
 URL:/film/avengers-doomsday
-SEQUENCE:0
+SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:ebd90ea6ae3e4cdf30817f37eb16e2a1daadcfa1@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20261226
 SUMMARY:Jumanji: Open World @ Merlin Penzance
@@ -707,7 +721,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:ba91f7ea4f8edf53e89146ec59dfab2e4968c81d@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20261226
 SUMMARY:The Angry Birds Movie 3 @ Merlin Penzance
@@ -723,7 +737,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:ef6574209b4817cc39747d3ee5d905c3bdecb307@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270102
 SUMMARY:Werwulf @ Merlin Penzance
@@ -739,7 +753,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:6344a0456e5f256b1d0f2fd12880434bc2297ce7@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20270108
 DTEND;VALUE=DATE:20270109
 SUMMARY:Ink @ Merlin Penzance
@@ -756,7 +770,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:b884d5b93f2890f7919e979924f541508562bb80@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20270205
 DTEND;VALUE=DATE:20270206
 SUMMARY:Ice Age: Boiling Point @ Merlin Penzance
@@ -775,7 +789,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:52e4c623079ed88cdcd1dc95e1f6c9eecb89a574@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20270212
 DTEND;VALUE=DATE:20270213
 SUMMARY:CoComelon: The Movie @ Merlin Penzance
@@ -795,7 +809,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:45adcdba701cc73dd7001b04e660fc93f7390b3f@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20270326
 DTEND;VALUE=DATE:20270327
 SUMMARY:Not Alone @ Merlin Penzance
@@ -813,7 +827,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:c9d4ce2439104462945c7d3814eb615bd60fe5f7@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20270730
 DTEND;VALUE=DATE:20270731
 SUMMARY:Shrek 5 @ Merlin Penzance

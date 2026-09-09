@@ -10,7 +10,7 @@ X-WR-CALDESC:Upcoming movie premieres at Merlin Cinemas Royal Cinema
 X-WR-TIMEZONE:Europe/London
 BEGIN:VEVENT
 UID:e807c2457f3da2530aceed6d06eabea2302c25b7@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20260710
 DTEND;VALUE=DATE:20260711
 SUMMARY:Life Support @ Merlin St Ives
@@ -26,31 +26,26 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:0bbfaf432c8a43fdb845005acb57f9aa5c2ae0c5@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20260724
 DTEND;VALUE=DATE:20260725
 SUMMARY:On The Sea @ Merlin St Ives
-DESCRIPTION:On The Sea (1h 55min)\nDrama\, Romance\n\nJack has been married
-  to Maggie for over half his life. He works as a Hand Raker on the mussel 
- beds in North Wales alongside his younger brother\, Dyfan\, and Dyfan’s th
- ree sons. Jack has always assumed that his own boy\, Tom\, will join the f
- amily business on leaving school but Tom’s resistance to follow in his foo
- tsteps creates familial tension. Tensions are further inflamed by the arri
- val of an itinerant deckhand\, Daniel\, who makes known his feelings for J
- ack. In this remote\, rural community where life revolves around Church an
- d fishery\, Jack is faced with an impossible dilemma. On The Sea is a beau
- tiful\, sensual and at times\, tragic exploration of masculinity\, place a
- nd desire.\n\nStarring: Barry Ward\, Lorne MacFadyen\, Liz White\, Henry L
- awfull\, Celyn Jones\, Leisa Gwenllian\n\nFilm release at Merlin Cinemas S
- t Ives\nBook tickets: /film/on-the-sea\n\nFilm details: https://evenwebb.g
- ithub.io/merlin-cinemas/films/on-the-sea.html
+DESCRIPTION:On The Sea (1h 55min)\nDrama\, Romance\n\nIn a rural town in No
+ rth Wales\, mussel harvester Jack has been married to his wife Maggie for 
+ over half of his life. He is troubled by his son Tom\, who has little inte
+ rest in the family trade. When Jack crosses paths with Daniel\, an itinera
+ nt deckhand\, their attraction poses an impossible dilemma.\n\nStarring: B
+ arry Ward\, Lorne MacFadyen\, Liz White\, Henry Lawfull\, Celyn Jones\, Le
+ isa Gwenllian\n\nFilm release at Merlin Cinemas St Ives\nBook tickets: /fi
+ lm/on-the-sea\n\nFilm details: https://evenwebb.github.io/merlin-cinemas/f
+ ilms/on-the-sea.html
 LOCATION:Merlin Cinemas St Ives
 URL:/film/on-the-sea
 SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:de617b51c3fe00a8b85c2464a3587bf86240e841@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20260729
 DTEND;VALUE=DATE:20260730
 SUMMARY:Spider-Man: Brand New Day @ Merlin St Ives
@@ -71,7 +66,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:f93406baf2250801e8e793f4d5ac1aabdb83835c@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20260802
 DTEND;VALUE=DATE:20260803
 SUMMARY:Pip And Posy's Cinema Show Toddler Cinema Charity Screening for Cor
@@ -87,7 +82,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:699f34ca56fb80660a20e30f426f148c504b9f0b@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20260814
 DTEND;VALUE=DATE:20260815
 SUMMARY:Mermaid Beach @ Merlin St Ives
@@ -104,7 +99,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:8646605569e38f22679badae6677ec79f95e3fe9@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20260904
 DTEND;VALUE=DATE:20260905
 SUMMARY:The Incomer @ Merlin St Ives
@@ -122,7 +117,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:46a2ccba2157bb46b7948e440815f209d3e8e8cb@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20260904
 DTEND;VALUE=DATE:20260905
 SUMMARY:The Incomer @ Merlin St Ives
@@ -140,7 +135,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:838c93f8b7d844ab79a637d387b4744991ffd5ba@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:All Rivers Spill Their Stories To The Sea @ Merlin St Ives
@@ -160,7 +155,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:3e42277bab9bb4f9a166ad446766025803bbe9d9@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20260916
 DTEND;VALUE=DATE:20260917
 SUMMARY:St Ives Stories Launch Screening @ Merlin St Ives
@@ -181,7 +176,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:65767b8e4a5aeb97829b0a1499eb5f52bbef8c98@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20260918
 DTEND;VALUE=DATE:20260919
 SUMMARY:The Fastest Bicycle @ Merlin St Ives
@@ -203,7 +198,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:72c07305f45a6a328495341bad2210b170a1f2a3@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20260918
 DTEND;VALUE=DATE:20260919
 SUMMARY:Resident Evil @ Merlin St Ives
@@ -220,7 +215,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:138b83fe0aa406b698d24e38a79572b617c41acf@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20260920
 DTEND;VALUE=DATE:20260921
 SUMMARY:Glastonbury: The Movie 30th Anniversary Cut @ Merlin St Ives
@@ -237,7 +232,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:46c6dc52db8e565e73ee5a538fed23c0c17878b8@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20260923
 DTEND;VALUE=DATE:20260924
 SUMMARY:Heart Of The Beast @ Merlin St Ives
@@ -245,17 +240,17 @@ DESCRIPTION:Heart Of The Beast (1h 41min)\nAdventure\, Thriller\n\nAfter a
  harrowing plane crash\, Special Forces officer James Belmont and his comba
  t dog\, Odin\, find themselves stranded deep in the Alaskan wilderness. To
  gether\, they are forced into a brutal fight for survival against the elem
- ents.\n\nStarring: Brad Pitt\, J.K. Simmons\, Anna Lambe\n\nFilm release a
- t Merlin Cinemas St Ives\nBook tickets: /film/heart-of-the-beast\n\nFilm d
- etails: https://evenwebb.github.io/merlin-cinemas/films/heart-of-the-beast
- .html
+ ents.\n\nStarring: Brad Pitt\, J.K. Simmons\, Anna Lambe\, Uber\n\nFilm re
+ lease at Merlin Cinemas St Ives\nBook tickets: /film/heart-of-the-beast\n\
+ nFilm details: https://evenwebb.github.io/merlin-cinemas/films/heart-of-th
+ e-beast.html
 LOCATION:Merlin Cinemas St Ives
 URL:/film/heart-of-the-beast
 SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:0bdee4d56b38d8b3a01a3c00ad8381ce94d62fb5@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20260925
 DTEND;VALUE=DATE:20260926
 SUMMARY:Avengers: Endgame Encore @ Merlin St Ives
@@ -275,7 +270,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:517f956bd6bcff73c4c35ef2ee4e211278c06611@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20260925
 DTEND;VALUE=DATE:20260926
 SUMMARY:Sense And Sensibility @ Merlin St Ives
@@ -298,7 +293,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:4e414ebb45469d3e90818493f0fc48d28574a300@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20260927
 DTEND;VALUE=DATE:20260928
 SUMMARY:Steel On Film @ Merlin St Ives
@@ -317,7 +312,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:139c40463b928b215f443579751e6e213af2e9b1@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261003
 SUMMARY:Digger @ Merlin St Ives
@@ -333,25 +328,25 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:d2b9be1fcf8bb747b1ca4162d29557c30e7060e5@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261003
 SUMMARY:Verity @ Merlin St Ives
-DESCRIPTION:Verity (1h 54min)\nMystery\, Thriller\n\nLowen Ashleigh gets hi
- red by Jeremy Crawford to ghostwrite novels for his bestselling author wif
- e Verity\, who's unable to finish after an accident. Lowen uncovers Verity
- 's disturbing truths while residing at the Crawfords' home to work.\n\nSta
- rring: Dakota Johnson\, Anne Hathaway\, Josh Hartnett\, Ismael Cruz Cordov
- a\, Brady Wagner\, Irina Dvorovenko\n\nFilm release at Merlin Cinemas St I
- ves\nBook tickets: /film/verity\n\nFilm details: https://evenwebb.github.i
- o/merlin-cinemas/films/verity.html
+DESCRIPTION:Verity (1h 57min)\nMystery\, Thriller\n\nLowen Ashleigh is hire
+ d by Jeremy Crawford to ghostwrite novels for his bestselling author wife 
+ Verity\, who is unable to finish following an accident. Lowen gradually un
+ covers Verity's disturbing truths while residing at the Crawfords' home to
+  work.\n\nStarring: Dakota Johnson\, Anne Hathaway\, Josh Hartnett\, Ismae
+ l Cruz Cordova\, Brady Wagner\, Irina Dvorovenko\n\nFilm release at Merlin
+  Cinemas St Ives\nBook tickets: /film/verity\n\nFilm details: https://even
+ webb.github.io/merlin-cinemas/films/verity.html
 LOCATION:Merlin Cinemas St Ives
 URL:/film/verity
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:972bc225d2e8b02a7b4cc728a1e8f7dbb91c2751@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20261009
 DTEND;VALUE=DATE:20261010
 SUMMARY:The Uprising @ Merlin St Ives
@@ -369,7 +364,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:4b6b9f89dec26d80c16b974096235840fe7c08d3@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20261009
 DTEND;VALUE=DATE:20261010
 SUMMARY:The Social Reckoning @ Merlin St Ives
@@ -387,7 +382,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:a9aa7496d62b58bed40779fff6c18047482d5dd2@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:Whalefall @ Merlin St Ives
@@ -406,7 +401,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:740d233a807976d94fbe454e3cb2a0aa84ba125e@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:Street Fighter @ Merlin St Ives
@@ -426,7 +421,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:b7c725e465ff78326ffae0438ed79e9ee3232ebd@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:Forgotten Island @ Merlin St Ives
@@ -446,26 +441,28 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:3531ea2cbcb68c797b1468a8fea0a9a327f8ecf5@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Wildwood @ Merlin St Ives
-DESCRIPTION:Wildwood (2h 20min)\nAnimation\, Adventure\, Fantasy\n\nPrue an
- d her classmate Curtis are drawn into a magical forest filled with enchant
- ed creatures\, loyal allies\, and formidable adversaries as they embark on
-  a desperate quest to rescue Prue’s abducted baby brother from a murder of
-  crows led by a mysterious woman named Alexandra.\n\nStarring: Peyton Eliz
- abeth Lee\, Jacob Tremblay\, Carey Mulligan\, Mahershala Ali\, Arthur Knig
- ht\, Angela Bassett\n\nFilm release at Merlin Cinemas St Ives\nBook ticket
- s: /film/wildwood\n\nFilm details: https://evenwebb.github.io/merlin-cinem
- as/films/wildwood.html
+DESCRIPTION:Wildwood (2h 20min)\nAnimation\, Adventure\, Fantasy\n\nAfter h
+ er baby brother is abducted by a murder of crows\, Prue and her classmate 
+ Curtis stumble upon a secret world in the midst of violent upheaval—a worl
+ d full of warring creatures\, peaceable mystics\, and powerful figures wit
+ h dark intentions. And what begins as a rescue mission becomes something m
+ uch greater as the two find themselves entwined in a struggle for the very
+  freedom of this wilderness—a wilderness the locals call Wildwood.\n\nStar
+ ring: Peyton Elizabeth Lee\, Jacob Tremblay\, Carey Mulligan\, Mahershala 
+ Ali\, Arthur Knight\, Angela Bassett\n\nFilm release at Merlin Cinemas St 
+ Ives\nBook tickets: /film/wildwood\n\nFilm details: https://evenwebb.githu
+ b.io/merlin-cinemas/films/wildwood.html
 LOCATION:Merlin Cinemas St Ives
 URL:/film/wildwood
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:4cb260c7a73cea1464a1569bf340bcdd9e38f84d@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Ghosts: The Possession Of Button House @ Merlin St Ives
@@ -482,7 +479,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:e09d2e9e942a32e9cd0109caecb07485dbcd3e0f@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Klara And The Sun @ Merlin St Ives
@@ -502,7 +499,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:c96d057a73e8b8f4e44ca5551f96dabb82328c14@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Clayface @ Merlin St Ives
@@ -520,7 +517,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:1dbce65feb5e6009d1373532cd3084c9806995da@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:I Play Rocky @ Merlin St Ives
@@ -539,7 +536,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:da8349f20dfeea5b01c018215ac50d5874042b7e@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:Wild Horse Nine @ Merlin St Ives
@@ -559,7 +556,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:bce1a02564674c3cac498f98df42f2ad2fe820de@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:Ebenezer @ Merlin St Ives
@@ -577,7 +574,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:73ec1157b00175b4b50a343db1c8c1e494cfe1d4@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:How To Rob A Bank @ Merlin St Ives
@@ -597,7 +594,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:9a06e478a25e03b1b251027498bb908e3969c6a8@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:The Hunger Games: Sunrise On The Reaping @ Merlin St Ives
@@ -615,7 +612,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:1427e644bbf78e85e37f205315f7d431efdf3fdb@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Focker-In-Law @ Merlin St Ives
@@ -632,7 +629,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:4f1e33d6013e4f1f4d896bcb43a6266cba7c3a23@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Hexed @ Merlin St Ives
@@ -651,7 +648,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:c32ff142370cb94ea24d08a67def6d55e5347e7f@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Violent Night 2 @ Merlin St Ives
@@ -671,10 +668,27 @@ URL:/film/violent-night-2
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:dc6dad048eea79aabbb2111be319f7f20520c20e@merlin-cinemas
-DTSTAMP:20260908T141659Z
-DTSTART;VALUE=DATE:20261218
-DTEND;VALUE=DATE:20261219
+UID:21414c5c66c66355e2194c4a91f41ad2d7c18f8d@merlin-cinemas
+DTSTAMP:20260909T141702Z
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261216
+SUMMARY:Dune: Part Three @ Merlin St Ives
+DESCRIPTION:Dune: Part Three (2h 20min)\nScience Fiction\, Adventure\n\nEmp
+ eror Paul Atreides faces the fallout from his ascent to power as political
+  plots and a galaxy-wide holy war endanger the future only he can see.\n\n
+ Starring: Timothée Chalamet\, Zendaya\, Jason Momoa\, Florence Pugh\, Rebe
+ cca Ferguson\, Isaach de Bankolé\n\nFilm release at Merlin Cinemas St Ives
+ \nBook tickets: /film/dune-part-three\n\nFilm details: https://evenwebb.gi
+ thub.io/merlin-cinemas/films/dune-part-three.html
+LOCATION:Merlin Cinemas St Ives
+URL:/film/dune-part-three
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+UID:b1f83522f97e174b34e4c54fb2be2db280ff4e0b@merlin-cinemas
+DTSTAMP:20260909T141702Z
+DTSTART;VALUE=DATE:20261216
+DTEND;VALUE=DATE:20261217
 SUMMARY:Avengers: Doomsday @ Merlin St Ives
 DESCRIPTION:Avengers: Doomsday (2h 45min)\nScience Fiction\, Action\, Adven
  ture\n\nBeloved heroes from three distinct universes are set on a deadly c
@@ -685,11 +699,11 @@ DESCRIPTION:Avengers: Doomsday (2h 45min)\nScience Fiction\, Action\, Adven
  tps://evenwebb.github.io/merlin-cinemas/films/avengers-doomsday.html
 LOCATION:Merlin Cinemas St Ives
 URL:/film/avengers-doomsday
-SEQUENCE:0
+SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:450dbc36c40d10940f65ab93325c567a04509de6@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20261226
 SUMMARY:Jumanji: Open World @ Merlin St Ives
@@ -706,7 +720,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:3a6030ec0e93a2ae403dcf2f7ee79610336c700d@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20261226
 SUMMARY:The Angry Birds Movie 3 @ Merlin St Ives
@@ -722,7 +736,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:d4bfe33cacaf4f83a47a31e1ffcc9165df791729@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270102
 SUMMARY:Werwulf @ Merlin St Ives
@@ -737,7 +751,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:4bb332226bb50396c630764bcc0719d2eedcd142@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20270108
 DTEND;VALUE=DATE:20270109
 SUMMARY:Ink @ Merlin St Ives
@@ -754,7 +768,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:0323aa856284e917102e1b80162e1264280ee124@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20270205
 DTEND;VALUE=DATE:20270206
 SUMMARY:Ice Age: Boiling Point @ Merlin St Ives
@@ -773,7 +787,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:db86d5d3b895010f1967339d96e6a941cc66f4fd@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20270212
 DTEND;VALUE=DATE:20270213
 SUMMARY:CoComelon: The Movie @ Merlin St Ives
@@ -793,7 +807,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:fce9d668a9b864aa499384c197fced5c04199a9f@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20270326
 DTEND;VALUE=DATE:20270327
 SUMMARY:Not Alone @ Merlin St Ives
@@ -811,7 +825,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:6fe743caa88efd15ba5612b7b55d39f3595b3c33@merlin-cinemas
-DTSTAMP:20260908T141659Z
+DTSTAMP:20260909T141702Z
 DTSTART;VALUE=DATE:20270730
 DTEND;VALUE=DATE:20270731
 SUMMARY:Shrek 5 @ Merlin St Ives
