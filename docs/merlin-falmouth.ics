@@ -10,7 +10,7 @@ X-WR-CALDESC:Upcoming movie premieres at Merlin Cinemas Phoenix Cinema
 X-WR-TIMEZONE:Europe/London
 BEGIN:VEVENT
 UID:fcd7a5e90db716d9e08921c6fd3df8a82577e4a9@merlin-cinemas
-DTSTAMP:20260909T141702Z
+DTSTAMP:20260910T141022Z
 DTSTART;VALUE=DATE:20260710
 DTEND;VALUE=DATE:20260711
 SUMMARY:Life Support @ Merlin Falmouth
@@ -26,7 +26,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:5e2f514c3728ed3ff0af568da771bd215ae2274d@merlin-cinemas
-DTSTAMP:20260909T141702Z
+DTSTAMP:20260910T141022Z
 DTSTART;VALUE=DATE:20260724
 DTEND;VALUE=DATE:20260725
 SUMMARY:On The Sea @ Merlin Falmouth
@@ -44,29 +44,8 @@ URL:/film/on-the-sea
 SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
-UID:301a1520bea3a6e71729aa1c4a6c347674ce4198@merlin-cinemas
-DTSTAMP:20260909T141702Z
-DTSTART;VALUE=DATE:20260729
-DTEND;VALUE=DATE:20260730
-SUMMARY:Spider-Man: Brand New Day @ Merlin Falmouth
-DESCRIPTION:Spider-Man: Brand New Day (2h 25min)\n★★★★☆\nScience Fiction\, 
- Action\, Adventure\n\nFighting crime full-time as Spider-Man in a world th
- at doesn't remember him—and the pressure of seeing his old friends move on
-  without him—sparks a change in Peter Parker he may not have the power to 
- control. But that transformation might also be the only thing that can sto
- p a shocking new threat to the city and those he loves - a powerful villai
- n no one can even see.\n\nStarring: Tom Holland\, Zendaya\, Mark Ruffalo\,
-  Jon Bernthal\, Jacob Batalon\, Sadie Sink\n\nFilm release at Merlin Cinem
- as Falmouth\nBook tickets: /film/spiderman-brand-new-day-3d\n\nFilm detail
- s: https://evenwebb.github.io/merlin-cinemas/films/spider-man-brand-new-da
- y.html
-LOCATION:Merlin Cinemas Falmouth
-URL:/film/spiderman-brand-new-day-3d
-SEQUENCE:1
-END:VEVENT
-BEGIN:VEVENT
 UID:e88eacff3e5ab8ab8ff0bbd5e949b89226a01577@merlin-cinemas
-DTSTAMP:20260909T141702Z
+DTSTAMP:20260910T141022Z
 DTSTART;VALUE=DATE:20260802
 DTEND;VALUE=DATE:20260803
 SUMMARY:Pip And Posy's Cinema Show Toddler Cinema Charity Screening for Cor
@@ -82,7 +61,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:162fb973d3d32a6182904d0a64dcf48977d96f2e@merlin-cinemas
-DTSTAMP:20260909T141702Z
+DTSTAMP:20260910T141022Z
 DTSTART;VALUE=DATE:20260814
 DTEND;VALUE=DATE:20260815
 SUMMARY:Mermaid Beach @ Merlin Falmouth
@@ -99,7 +78,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:3fd9c87488bd3303796e5d8111cd29db2fad09ce@merlin-cinemas
-DTSTAMP:20260909T141702Z
+DTSTAMP:20260910T141022Z
 DTSTART;VALUE=DATE:20260904
 DTEND;VALUE=DATE:20260905
 SUMMARY:The Incomer @ Merlin Falmouth
@@ -117,7 +96,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:d0819fcfc1a6b89ab3bbc566d57fc6e0433c67b2@merlin-cinemas
-DTSTAMP:20260909T141702Z
+DTSTAMP:20260910T141022Z
 DTSTART;VALUE=DATE:20260904
 DTEND;VALUE=DATE:20260905
 SUMMARY:The Incomer @ Merlin Falmouth
@@ -135,7 +114,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:869be8913c9be1926621ba1cc0c06d221d8043ab@merlin-cinemas
-DTSTAMP:20260909T141702Z
+DTSTAMP:20260910T141022Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:All Rivers Spill Their Stories To The Sea @ Merlin Falmouth
@@ -155,7 +134,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:f5d7a2ac0c1577552e14f48ccf72ff0b69078c67@merlin-cinemas
-DTSTAMP:20260909T141702Z
+DTSTAMP:20260910T141022Z
 DTSTART;VALUE=DATE:20260916
 DTEND;VALUE=DATE:20260917
 SUMMARY:St Ives Stories Launch Screening @ Merlin Falmouth
@@ -176,7 +155,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:ad3a95ba583b5bc00a285f270390ca9d8c39b743@merlin-cinemas
-DTSTAMP:20260909T141702Z
+DTSTAMP:20260910T141022Z
 DTSTART;VALUE=DATE:20260918
 DTEND;VALUE=DATE:20260919
 SUMMARY:The Fastest Bicycle @ Merlin Falmouth
@@ -198,11 +177,11 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:3089940f420b405c8f0b82719aafaf7ca2100848@merlin-cinemas
-DTSTAMP:20260909T141702Z
+DTSTAMP:20260910T141022Z
 DTSTART;VALUE=DATE:20260918
 DTEND;VALUE=DATE:20260919
 SUMMARY:Resident Evil @ Merlin Falmouth
-DESCRIPTION:Resident Evil (1h 34min)\nHorror\, Science Fiction\n\nMedical c
+DESCRIPTION:Resident Evil (1h 31min)\nHorror\, Science Fiction\n\nMedical c
  ourier Bryan unwittingly finds himself fighting for survival as one fatefu
  l\, horrifying night collapses around him in chaos.\n\nStarring: Austin Ab
  rams\, Zach Cherry\, Kali Reis\, Paul Walter Hauser\, Johnno Wilson\n\nFil
@@ -214,25 +193,8 @@ URL:/film/resident-evil
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:2dbe3cc624fb2daa0b58afd108f222811f6d2a9d@merlin-cinemas
-DTSTAMP:20260909T141702Z
-DTSTART;VALUE=DATE:20260920
-DTEND;VALUE=DATE:20260921
-SUMMARY:Glastonbury: The Movie 30th Anniversary Cut @ Merlin Falmouth
-DESCRIPTION:Glastonbury: The Movie 30th Anniversary Cut (1h 36min)\nDocumen
- tary\n\nA comprehensive re-edit of the source footage shot in 1993 for the
-  original 1995 film\, charting three days at the Glastonbury music festiva
- l.\n\nStarring: Richard Ashcroft\n\nFilm release at Merlin Cinemas Falmout
- h\nBook tickets: /film/glastonbury-the-movie-30th-anniversary-cut\n\nFilm 
- details: https://evenwebb.github.io/merlin-cinemas/films/glastonbury-the-m
- ovie-30th-anniversary-cut.html
-LOCATION:Merlin Cinemas Falmouth
-URL:/film/glastonbury-the-movie-30th-anniversary-cut
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
 UID:fd1abc6d015e5913a15f650119aa4919c08a1fab@merlin-cinemas
-DTSTAMP:20260909T141702Z
+DTSTAMP:20260910T141022Z
 DTSTART;VALUE=DATE:20260923
 DTEND;VALUE=DATE:20260924
 SUMMARY:Heart Of The Beast @ Merlin Falmouth
@@ -240,7 +202,7 @@ DESCRIPTION:Heart Of The Beast (1h 41min)\nAdventure\, Thriller\n\nAfter a
  harrowing plane crash\, Special Forces officer James Belmont and his comba
  t dog\, Odin\, find themselves stranded deep in the Alaskan wilderness. To
  gether\, they are forced into a brutal fight for survival against the elem
- ents.\n\nStarring: Brad Pitt\, J.K. Simmons\, Anna Lambe\, Uber\n\nFilm re
+ ents.\n\nStarring: Brad Pitt\, Uber\, J.K. Simmons\, Anna Lambe\n\nFilm re
  lease at Merlin Cinemas Falmouth\nBook tickets: /film/heart-of-the-beast\n
  \nFilm details: https://evenwebb.github.io/merlin-cinemas/films/heart-of-t
  he-beast.html
@@ -250,7 +212,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:c9be2a575622699f9902327ff1e830158325c3a2@merlin-cinemas
-DTSTAMP:20260909T141702Z
+DTSTAMP:20260910T141022Z
 DTSTART;VALUE=DATE:20260925
 DTEND;VALUE=DATE:20260926
 SUMMARY:Avengers: Endgame Encore @ Merlin Falmouth
@@ -270,7 +232,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:278e88b7171daf89e9508fff1fca6e7296f3220e@merlin-cinemas
-DTSTAMP:20260909T141702Z
+DTSTAMP:20260910T141022Z
 DTSTART;VALUE=DATE:20260925
 DTEND;VALUE=DATE:20260926
 SUMMARY:Sense And Sensibility @ Merlin Falmouth
@@ -292,8 +254,27 @@ URL:/film/sense-and-sensibility
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
+UID:e712c091fa18a60de29be1bed9409910ae5b0593@merlin-cinemas
+DTSTAMP:20260910T141022Z
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+SUMMARY:Steel On Film @ Merlin Falmouth
+DESCRIPTION:Steel On Film (55 min)\nDocumentary\n\n20 and 18 meters long ar
+ e the two industrial furnaces\, which the Austrian forwarding company Felb
+ ermayr is to transport from a ship dock on the Danube to an aircraft compo
+ nent company. The total weight of both furnaces of a good 300 tons is only
+  one of many problems. The steel colossus is almost seven metres high - to
+ o high to pass through most of the bridges or tunnels. An insoluble enterp
+ rise?\n\nFilm release at Merlin Cinemas Falmouth\nBook tickets: /film/stee
+ l-on-film-with-q-and-a\n\nFilm details: https://evenwebb.github.io/merlin-
+ cinemas/films/steel-on-film.html
+LOCATION:Merlin Cinemas Falmouth
+URL:/film/steel-on-film-with-q-and-a
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
 UID:f7ee042cef88bcc5c7769bd1f10539fc8edf405e@merlin-cinemas
-DTSTAMP:20260909T141702Z
+DTSTAMP:20260910T141022Z
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261003
 SUMMARY:Digger @ Merlin Falmouth
@@ -309,7 +290,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:f4752aac19b11168cb77b2229d5779a9315f9662@merlin-cinemas
-DTSTAMP:20260909T141702Z
+DTSTAMP:20260910T141022Z
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261003
 SUMMARY:Verity @ Merlin Falmouth
@@ -326,8 +307,28 @@ URL:/film/verity
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
+UID:934c74dbe5d12fffba50fbd2bbd7db18d664515d@merlin-cinemas
+DTSTAMP:20260910T141022Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:The Gruffalo’s Child @ Merlin Falmouth
+DESCRIPTION:The Gruffalo’s Child (2h 53min)\n★★★★☆\nAdventure\, Action\, Fa
+ ntasy\n\nOdysseus\, the legendary King of Ithaca\, embarks on a long and p
+ erilous journey home following the Trojan War. Throughout his voyage\, he 
+ is forced to confront the whims of gods\, mythological monsters\, and tria
+ ls that stretch both his cunning and his humanity to the breaking point.\n
+ \nStarring: Matt Damon\, Tom Holland\, Anne Hathaway\, Robert Pattinson\, 
+ Himesh Patel\, Charlize Theron\n\nFilm release at Merlin Cinemas Falmouth\
+ nBook tickets: /film/the-gruffalo-and-the-gruffalos-child-toddler-cinema\n
+ \nFilm details: https://evenwebb.github.io/merlin-cinemas/films/the-gruffa
+ lo-s-child.html
+LOCATION:Merlin Cinemas Falmouth
+URL:/film/the-gruffalo-and-the-gruffalos-child-toddler-cinema
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
 UID:bd137b89e8ff943f7bebe38f66012d4726c20e75@merlin-cinemas
-DTSTAMP:20260909T141702Z
+DTSTAMP:20260910T141022Z
 DTSTART;VALUE=DATE:20261009
 DTEND;VALUE=DATE:20261010
 SUMMARY:The Uprising @ Merlin Falmouth
@@ -345,44 +346,25 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:e96c0bf4bb917024d25a1ec79b8fb1b51cbd50e8@merlin-cinemas
-DTSTAMP:20260909T141702Z
+DTSTAMP:20260910T141022Z
 DTSTART;VALUE=DATE:20261009
 DTEND;VALUE=DATE:20261010
 SUMMARY:The Social Reckoning @ Merlin Falmouth
-DESCRIPTION:The Social Reckoning\nDrama\, Thriller\n\nFrances Haugen\, a yo
- ung Facebook engineer\, enlists the help of Jeff Horwitz\, a Wall Street J
- ournal reporter\, to go on a dangerous journey that ends up blowing the wh
- istle on the social network's most guarded secrets.\n\nStarring: Jeremy St
- rong\, Mikey Madison\, Jeremy Allen White\, Wunmi Mosaku\, Betty Gilpin\, 
- Billy Magnussen\n\nFilm release at Merlin Cinemas Falmouth\nBook tickets: 
- /film/the-social-reckoning\n\nFilm details: https://evenwebb.github.io/mer
- lin-cinemas/films/the-social-reckoning.html
+DESCRIPTION:The Social Reckoning (1h 52min)\nDrama\, Thriller\n\nFrances Ha
+ ugen\, a young Facebook engineer\, enlists the help of Jeff Horwitz\, a Wa
+ ll Street Journal reporter\, to go on a dangerous journey that ends up blo
+ wing the whistle on the social network's most guarded secrets.\n\nStarring
+ : Jeremy Strong\, Mikey Madison\, Jeremy Allen White\, Wunmi Mosaku\, Bett
+ y Gilpin\, Billy Magnussen\n\nFilm release at Merlin Cinemas Falmouth\nBoo
+ k tickets: /film/the-social-reckoning\n\nFilm details: https://evenwebb.gi
+ thub.io/merlin-cinemas/films/the-social-reckoning.html
 LOCATION:Merlin Cinemas Falmouth
 URL:/film/the-social-reckoning
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:ed12d753cd6b76e8927dbfab041178eeaf7522cd@merlin-cinemas
-DTSTAMP:20260909T141702Z
-DTSTART;VALUE=DATE:20261014
-DTEND;VALUE=DATE:20261015
-SUMMARY:Steel On Film @ Merlin Falmouth
-DESCRIPTION:Steel On Film (55 min)\nDocumentary\n\n20 and 18 meters long ar
- e the two industrial furnaces\, which the Austrian forwarding company Felb
- ermayr is to transport from a ship dock on the Danube to an aircraft compo
- nent company. The total weight of both furnaces of a good 300 tons is only
-  one of many problems. The steel colossus is almost seven metres high - to
- o high to pass through most of the bridges or tunnels. An insoluble enterp
- rise?\n\nFilm release at Merlin Cinemas Falmouth\nBook tickets: /film/stee
- l-on-film-with-q-and-a\n\nFilm details: https://evenwebb.github.io/merlin-
- cinemas/films/steel-on-film.html
-LOCATION:Merlin Cinemas Falmouth
-URL:/film/steel-on-film-with-q-and-a
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
 UID:22b5ed3070bb90f3790e95865f7dc7719f226fbe@merlin-cinemas
-DTSTAMP:20260909T141702Z
+DTSTAMP:20260910T141022Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:Whalefall @ Merlin Falmouth
@@ -401,11 +383,11 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:7865f92c5304dd2734899c940ea7ff887b493624@merlin-cinemas
-DTSTAMP:20260909T141702Z
+DTSTAMP:20260910T141022Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:Street Fighter @ Merlin Falmouth
-DESCRIPTION:Street Fighter (1h 48min)\nAction\, Fantasy\n\nIn 1993\, estran
+DESCRIPTION:Street Fighter (1h 59min)\nAction\, Fantasy\n\nIn 1993\, estran
  ged Street Fighters Ryu and Ken Masters are thrown back into combat when t
  he mysterious Chun-Li recruits them for the next World Warrior Tournament:
   a brutal clash of fists\, fate\, and fury. But behind this battle royale 
@@ -421,7 +403,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:8daaedaaf7dc32752496aa0ab58d659f7eae500e@merlin-cinemas
-DTSTAMP:20260909T141702Z
+DTSTAMP:20260910T141022Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:Forgotten Island @ Merlin Falmouth
@@ -441,11 +423,11 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:db4160c23580e256938094d5ccca4deab8189565@merlin-cinemas
-DTSTAMP:20260909T141702Z
+DTSTAMP:20260910T141022Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Wildwood @ Merlin Falmouth
-DESCRIPTION:Wildwood (2h 20min)\nAnimation\, Adventure\, Fantasy\n\nAfter h
+DESCRIPTION:Wildwood (2h 12min)\nAnimation\, Adventure\, Fantasy\n\nAfter h
  er baby brother is abducted by a murder of crows\, Prue and her classmate 
  Curtis stumble upon a secret world in the midst of violent upheaval—a worl
  d full of warring creatures\, peaceable mystics\, and powerful figures wit
@@ -462,7 +444,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:66f4fa2e1e1446f085040c5434ccec7595e09088@merlin-cinemas
-DTSTAMP:20260909T141702Z
+DTSTAMP:20260910T141022Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Ghosts: The Possession Of Button House @ Merlin Falmouth
@@ -479,7 +461,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:c591cb28386512a6ecd2f4de5fc2bd9f18fa8380@merlin-cinemas
-DTSTAMP:20260909T141702Z
+DTSTAMP:20260910T141022Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Klara And The Sun @ Merlin Falmouth
@@ -499,7 +481,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:592508081cd1cdb3a212abffdb19d377a1315546@merlin-cinemas
-DTSTAMP:20260909T141702Z
+DTSTAMP:20260910T141022Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Clayface @ Merlin Falmouth
@@ -517,11 +499,11 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:002f9a94bb9b8e18bb434a81747ef83157ce5e74@merlin-cinemas
-DTSTAMP:20260909T141702Z
+DTSTAMP:20260910T141022Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:I Play Rocky @ Merlin Falmouth
-DESCRIPTION:I Play Rocky (2h 7min)\nDrama\, History\n\nThe electrifying tru
+DESCRIPTION:I Play Rocky (2h 8min)\nDrama\, History\n\nThe electrifying tru
  e story about an unknown actor with an unshakable belief that he wasn't ju
  st meant to write Rocky—he was meant to be Rocky Balboa. Told "no" at ever
  y turn\, Sylvester Stallone bets everything on himself\, holding the line 
@@ -536,7 +518,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:5a1078c0749187a9850db224efea7ab181588252@merlin-cinemas
-DTSTAMP:20260909T141702Z
+DTSTAMP:20260910T141022Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:Wild Horse Nine @ Merlin Falmouth
@@ -556,7 +538,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:d03b65e6664a872d4f96b9ba5e19f70f6b39c533@merlin-cinemas
-DTSTAMP:20260909T141702Z
+DTSTAMP:20260910T141022Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:Ebenezer @ Merlin Falmouth
@@ -574,7 +556,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:c08cbf0753bdcde8b43a572ccbad9a7da64a511e@merlin-cinemas
-DTSTAMP:20260909T141702Z
+DTSTAMP:20260910T141022Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:How To Rob A Bank @ Merlin Falmouth
@@ -594,7 +576,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:8f69e1987c70055beceb39a7b5602b50222e47e8@merlin-cinemas
-DTSTAMP:20260909T141702Z
+DTSTAMP:20260910T141022Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:The Hunger Games: Sunrise On The Reaping @ Merlin Falmouth
@@ -613,24 +595,24 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:7432c7574030f71668c0b8839f29f427bcdca8c6@merlin-cinemas
-DTSTAMP:20260909T141702Z
+DTSTAMP:20260910T141022Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Focker-In-Law @ Merlin Falmouth
-DESCRIPTION:Focker-In-Law\nComedy\, Romance\n\nHenry\, son of Greg and Pam 
- Focker\, faces family chaos when he decides to marry a strong-willed woman
-  who appears to be his complete mismatch.\n\nStarring: Ben Stiller\, Rober
- t De Niro\, Ariana Grande\, Skyler Gisondo\, Owen Wilson\, Blythe Danner\n
- \nFilm release at Merlin Cinemas Falmouth\nBook tickets: /film/fockerinlaw
- \n\nFilm details: https://evenwebb.github.io/merlin-cinemas/films/focker-i
- n-law.html
+DESCRIPTION:Focker-In-Law (1h 45min)\nComedy\, Romance\n\nHenry\, son of Gr
+ eg and Pam Focker\, faces family chaos when he decides to marry a strong-w
+ illed woman who appears to be his complete mismatch.\n\nStarring: Ben Stil
+ ler\, Robert De Niro\, Ariana Grande\, Skyler Gisondo\, Owen Wilson\, Blyt
+ he Danner\n\nFilm release at Merlin Cinemas Falmouth\nBook tickets: /film/
+ fockerinlaw\n\nFilm details: https://evenwebb.github.io/merlin-cinemas/fil
+ ms/focker-in-law.html
 LOCATION:Merlin Cinemas Falmouth
 URL:/film/fockerinlaw
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:ebb794a84d185c6c0ebfaf4e74e5a9397cc475dd@merlin-cinemas
-DTSTAMP:20260909T141702Z
+DTSTAMP:20260910T141022Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Hexed @ Merlin Falmouth
@@ -649,7 +631,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:1c209897abdb95a20d8d0d69a10451f122d2f929@merlin-cinemas
-DTSTAMP:20260909T141702Z
+DTSTAMP:20260910T141022Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Violent Night 2 @ Merlin Falmouth
@@ -670,7 +652,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:7ed28dd7e118fe384e555d59726082b854798da5@merlin-cinemas
-DTSTAMP:20260909T141702Z
+DTSTAMP:20260910T141022Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Dune: Part Three @ Merlin Falmouth
@@ -687,7 +669,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:e93fdea173e5e80d92e9ea5b9657af704b80331f@merlin-cinemas
-DTSTAMP:20260909T141702Z
+DTSTAMP:20260910T141022Z
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
 SUMMARY:Avengers: Doomsday @ Merlin Falmouth
@@ -704,7 +686,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:6b3afa02dbb14a9291ea7d20a7935d37594c9e8f@merlin-cinemas
-DTSTAMP:20260909T141702Z
+DTSTAMP:20260910T141022Z
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20261226
 SUMMARY:Jumanji: Open World @ Merlin Falmouth
@@ -721,7 +703,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:9cf2300c26ba35eba79057bc57959320a5b41515@merlin-cinemas
-DTSTAMP:20260909T141702Z
+DTSTAMP:20260910T141022Z
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20261226
 SUMMARY:The Angry Birds Movie 3 @ Merlin Falmouth
@@ -737,7 +719,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:d40746d073e8fdf9be6a5ada18fcba4b88cf85cc@merlin-cinemas
-DTSTAMP:20260909T141702Z
+DTSTAMP:20260910T141022Z
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270102
 SUMMARY:Werwulf @ Merlin Falmouth
@@ -753,7 +735,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:e069111161f36b15db581a6dcf3457fcacea3817@merlin-cinemas
-DTSTAMP:20260909T141702Z
+DTSTAMP:20260910T141022Z
 DTSTART;VALUE=DATE:20270108
 DTEND;VALUE=DATE:20270109
 SUMMARY:Ink @ Merlin Falmouth
@@ -770,7 +752,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:e2384ba19304364aad69c5fc69632001c8376b9c@merlin-cinemas
-DTSTAMP:20260909T141702Z
+DTSTAMP:20260910T141022Z
 DTSTART;VALUE=DATE:20270205
 DTEND;VALUE=DATE:20270206
 SUMMARY:Ice Age: Boiling Point @ Merlin Falmouth
@@ -789,7 +771,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:d300e73739defec97e05adbc22adb45c9d6f36ac@merlin-cinemas
-DTSTAMP:20260909T141702Z
+DTSTAMP:20260910T141022Z
 DTSTART;VALUE=DATE:20270212
 DTEND;VALUE=DATE:20270213
 SUMMARY:CoComelon: The Movie @ Merlin Falmouth
@@ -809,7 +791,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:a75ec99de417078f3b3b9d5a9ff7f4ae9e81e3be@merlin-cinemas
-DTSTAMP:20260909T141702Z
+DTSTAMP:20260910T141022Z
 DTSTART;VALUE=DATE:20270326
 DTEND;VALUE=DATE:20270327
 SUMMARY:Not Alone @ Merlin Falmouth
@@ -827,7 +809,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:7a23b6a53ce65cc904df6a68aede8d848eacd076@merlin-cinemas
-DTSTAMP:20260909T141702Z
+DTSTAMP:20260910T141022Z
 DTSTART;VALUE=DATE:20270730
 DTEND;VALUE=DATE:20270731
 SUMMARY:Shrek 5 @ Merlin Falmouth
