@@ -10,23 +10,25 @@ X-WR-CALDESC:Upcoming movie premieres at Merlin Cinemas Savoy Cinema
 X-WR-TIMEZONE:Europe/London
 BEGIN:VEVENT
 UID:0a14a10fd6fde478f1f2d05a63ea2bf9f7909924@merlin-cinemas
-DTSTAMP:20260913T141135Z
+DTSTAMP:20260914T161452Z
 DTSTART;VALUE=DATE:20260710
 DTEND;VALUE=DATE:20260711
 SUMMARY:Life Support @ Merlin Penzance
-DESCRIPTION:Life Support\nScience Fiction\, Drama\n\nTwo people wake up in 
- a strange room only to find out that only one of them can survive. As time
-  runs out they must choose one person to live and sacrifice the other.\n\n
- Starring: Tamara Lee Bailey\, Josie Woods\n\nFilm release at Merlin Cinema
- s Penzance\nBook tickets: /film/life-support\n\nFilm details: https://even
- webb.github.io/merlin-cinemas/films/life-support.html
+DESCRIPTION:Life Support (1h 30min)\nDocumentary\n\nSince October 2023\, Ga
+ za has been sealed from the world-except for one group. International doct
+ ors breach the blockade\, what they find is not just a humanitarian crisis
+ \, but a calculated dismantling of life itself.\n\nStarring: Khaled Dawas\
+ , Graeme Groom\, Tanya Haj-Hassan\, Debbie Harrington\, Ana Jeelani\, Mhoi
+ ra Leng\n\nFilm release at Merlin Cinemas Penzance\nBook tickets: /film/li
+ fe-support\n\nFilm details: https://evenwebb.github.io/merlin-cinemas/film
+ s/life-support.html
 LOCATION:Merlin Cinemas Penzance
 URL:/film/life-support
 SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:018bccb82abfbbcd6b54eb8ba224ecb5bd27b556@merlin-cinemas
-DTSTAMP:20260913T141135Z
+DTSTAMP:20260914T161452Z
 DTSTART;VALUE=DATE:20260724
 DTEND;VALUE=DATE:20260725
 SUMMARY:On The Sea @ Merlin Penzance
@@ -45,7 +47,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:dd4e3f9ca3f23186399aebc222a9fb52b9736351@merlin-cinemas
-DTSTAMP:20260913T141135Z
+DTSTAMP:20260914T161452Z
 DTSTART;VALUE=DATE:20260802
 DTEND;VALUE=DATE:20260803
 SUMMARY:Pip And Posy's Cinema Show Toddler Cinema Charity Screening for Cor
@@ -61,7 +63,7 @@ SEQUENCE:27
 END:VEVENT
 BEGIN:VEVENT
 UID:681532e3513b763d50195527ff51c5938666a879@merlin-cinemas
-DTSTAMP:20260913T141135Z
+DTSTAMP:20260914T161452Z
 DTSTART;VALUE=DATE:20260814
 DTEND;VALUE=DATE:20260815
 SUMMARY:Mermaid Beach @ Merlin Penzance
@@ -78,7 +80,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:0b11b7513e9be5c9322212e2f4c7f34d5cb8d93f@merlin-cinemas
-DTSTAMP:20260913T141135Z
+DTSTAMP:20260914T161452Z
 DTSTART;VALUE=DATE:20260904
 DTEND;VALUE=DATE:20260905
 SUMMARY:The Incomer @ Merlin Penzance
@@ -96,7 +98,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:15e959f0c4243e6bfe2b1766d7b6891e7c32c6a0@merlin-cinemas
-DTSTAMP:20260913T141135Z
+DTSTAMP:20260914T161452Z
 DTSTART;VALUE=DATE:20260904
 DTEND;VALUE=DATE:20260905
 SUMMARY:The Incomer @ Merlin Penzance
@@ -114,7 +116,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:2be169e73c563ab40d93595a6f48c4071810724c@merlin-cinemas
-DTSTAMP:20260913T141135Z
+DTSTAMP:20260914T161452Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:All Rivers Spill Their Stories To The Sea @ Merlin Penzance
@@ -134,7 +136,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:244838716a2e6d7093becd1420530d518e8d6a5e@merlin-cinemas
-DTSTAMP:20260913T141135Z
+DTSTAMP:20260914T161452Z
 DTSTART;VALUE=DATE:20260916
 DTEND;VALUE=DATE:20260917
 SUMMARY:St Ives Stories Launch Screening @ Merlin Penzance
@@ -154,25 +156,8 @@ URL:/film/st-ives-stories
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:17fa0e4b0c62e45fbc063877d8f56085cbb8a290@merlin-cinemas
-DTSTAMP:20260913T141135Z
-DTSTART;VALUE=DATE:20260918
-DTEND;VALUE=DATE:20260919
-SUMMARY:Resident Evil @ Merlin Penzance
-DESCRIPTION:Resident Evil (1h 33min)\nHorror\, Thriller\, Adventure\n\nMedi
- cal courier Bryan unwittingly finds himself fighting for survival as one f
- ateful\, horrifying night collapses around him in chaos.\n\nStarring: Aust
- in Abrams\, Zach Cherry\, Kali Reis\, Paul Walter Hauser\, Johnno Wilson\n
- \nFilm release at Merlin Cinemas Penzance\nBook tickets: /film/resident-ev
- il\n\nFilm details: https://evenwebb.github.io/merlin-cinemas/films/reside
- nt-evil.html
-LOCATION:Merlin Cinemas Penzance
-URL:/film/resident-evil
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
 UID:0e720b72617df38236777bdcf75418fc95948b9e@merlin-cinemas
-DTSTAMP:20260913T141135Z
+DTSTAMP:20260914T161452Z
 DTSTART;VALUE=DATE:20260920
 DTEND;VALUE=DATE:20260921
 SUMMARY:The Fastest Bicycle @ Merlin Penzance
@@ -193,26 +178,8 @@ URL:/film/the-fastest-bicycle-with-q-and-a
 SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
-UID:10e48dfbcb773c3649356520062d2013b740d3ee@merlin-cinemas
-DTSTAMP:20260913T141135Z
-DTSTART;VALUE=DATE:20260923
-DTEND;VALUE=DATE:20260924
-SUMMARY:Heart Of The Beast @ Merlin Penzance
-DESCRIPTION:Heart Of The Beast (1h 41min)\nAdventure\, Thriller\n\nAfter a 
- harrowing plane crash\, Special Forces officer James Belmont and his comba
- t dog\, Odin\, find themselves stranded deep in the Alaskan wilderness. To
- gether\, they are forced into a brutal fight for survival against the elem
- ents.\n\nStarring: Brad Pitt\, Uber\, J.K. Simmons\, Anna Lambe\n\nFilm re
- lease at Merlin Cinemas Penzance\nBook tickets: /film/heart-of-the-beast\n
- \nFilm details: https://evenwebb.github.io/merlin-cinemas/films/heart-of-t
- he-beast.html
-LOCATION:Merlin Cinemas Penzance
-URL:/film/heart-of-the-beast
-SEQUENCE:1
-END:VEVENT
-BEGIN:VEVENT
 UID:c844a65b9adc10520592dfaeb7c6f42b16c23857@merlin-cinemas
-DTSTAMP:20260913T141135Z
+DTSTAMP:20260914T161452Z
 DTSTART;VALUE=DATE:20260924
 DTEND;VALUE=DATE:20260925
 SUMMARY:9 To 5 @ Merlin Penzance
@@ -227,20 +194,27 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:9978ebe02b21b7abe9eafd19ff37657b95f5f02c@merlin-cinemas
-DTSTAMP:20260913T141135Z
+DTSTAMP:20260914T161452Z
 DTSTART;VALUE=DATE:20260925
 DTEND;VALUE=DATE:20260926
 SUMMARY:Avengers: Endgame Encore @ Merlin Penzance
-DESCRIPTION:Avengers: Endgame Encore\n\nFilm release at Merlin Cinemas Penz
- ance\nBook tickets: /film/avengers-endgame-encore\n\nFilm details: https:/
- /evenwebb.github.io/merlin-cinemas/films/avengers-endgame-encore.html
+DESCRIPTION:Avengers: Endgame Encore (3h 5min)\n\nThe epic conclusion to th
+ e Infinity Saga returns to theaters as Avengers Endgame:Encore. After deva
+ stating events wiped out half the world's population\, the remaining heroe
+ s struggle to move forward. Ultimately\, they must come together to restor
+ e order and harmony in the universe and bring their loved ones back in a d
+ ramatic showdown against Thanos\n\nStarring: Robert Downey Jr.\, Chris Eva
+ ns\, Mark Ruffalo\, Chris Hemsworth\, Scarlett Johansson\, Jeremy Renner\n
+ \nFilm release at Merlin Cinemas Penzance\nBook tickets: /film/avengers-en
+ dgame-encore\n\nFilm details: https://evenwebb.github.io/merlin-cinemas/fi
+ lms/avengers-endgame-encore.html
 LOCATION:Merlin Cinemas Penzance
 URL:/film/avengers-endgame-encore
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:8a765aae4a098845392dc997f92dbb0998bcdc7f@merlin-cinemas
-DTSTAMP:20260913T141135Z
+DTSTAMP:20260914T161452Z
 DTSTART;VALUE=DATE:20260925
 DTEND;VALUE=DATE:20260926
 SUMMARY:Sense And Sensibility @ Merlin Penzance
@@ -263,7 +237,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:1f3d60850138e2610e93f1950a1543c8e73523ee@merlin-cinemas
-DTSTAMP:20260913T141135Z
+DTSTAMP:20260914T161452Z
 DTSTART;VALUE=DATE:20260927
 DTEND;VALUE=DATE:20260928
 SUMMARY:Steel On Film @ Merlin Penzance
@@ -282,7 +256,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:ec9dcb1add4fa655028bef9b9417e5509e636702@merlin-cinemas
-DTSTAMP:20260913T141135Z
+DTSTAMP:20260914T161452Z
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261003
 SUMMARY:Digger @ Merlin Penzance
@@ -298,7 +272,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:3e19a7db406588f7f21ecfd0bafaba02c3bce017@merlin-cinemas
-DTSTAMP:20260913T141135Z
+DTSTAMP:20260914T161452Z
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261003
 SUMMARY:Verity @ Merlin Penzance
@@ -316,7 +290,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:5ac97595fa44634e1b7fe6e264f3b8bb83943b8f@merlin-cinemas
-DTSTAMP:20260913T141135Z
+DTSTAMP:20260914T161452Z
 DTSTART;VALUE=DATE:20261004
 DTEND;VALUE=DATE:20261005
 SUMMARY:The Gruffalo’s Child @ Merlin Penzance
@@ -336,7 +310,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:d610dcb748d266c20d90e268ecbf055070dafaa5@merlin-cinemas
-DTSTAMP:20260913T141135Z
+DTSTAMP:20260914T161452Z
 DTSTART;VALUE=DATE:20261009
 DTEND;VALUE=DATE:20261010
 SUMMARY:The Uprising @ Merlin Penzance
@@ -354,7 +328,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:5c04ae63d7ebb08be8b871ce49666a1beae3c79e@merlin-cinemas
-DTSTAMP:20260913T141135Z
+DTSTAMP:20260914T161452Z
 DTSTART;VALUE=DATE:20261009
 DTEND;VALUE=DATE:20261010
 SUMMARY:The Social Reckoning @ Merlin Penzance
@@ -362,7 +336,7 @@ DESCRIPTION:The Social Reckoning (1h 52min)\nDrama\, Thriller\n\nFrances Ha
  ugen\, a young Facebook engineer\, enlists the help of Jeff Horwitz\, a Wa
  ll Street Journal reporter\, to go on a dangerous journey that ends up blo
  wing the whistle on the social network's most guarded secrets.\n\nStarring
- : Jeremy Strong\, Mikey Madison\, Jeremy Allen White\, Wunmi Mosaku\, Bett
+ : Mikey Madison\, Jeremy Allen White\, Jeremy Strong\, Wunmi Mosaku\, Bett
  y Gilpin\, Billy Magnussen\n\nFilm release at Merlin Cinemas Penzance\nBoo
  k tickets: /film/the-social-reckoning\n\nFilm details: https://evenwebb.gi
  thub.io/merlin-cinemas/films/the-social-reckoning.html
@@ -372,7 +346,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:13882baefc8e1a465c0985f8ce19baa61aea1db7@merlin-cinemas
-DTSTAMP:20260913T141135Z
+DTSTAMP:20260914T161452Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:Whalefall @ Merlin Penzance
@@ -391,7 +365,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:d7584ca900c8832ffb2ecacf2d12199f881ec812@merlin-cinemas
-DTSTAMP:20260913T141135Z
+DTSTAMP:20260914T161452Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:Street Fighter @ Merlin Penzance
@@ -411,7 +385,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:2549430adf8ab65479b2dd3e34b65ea00660d500@merlin-cinemas
-DTSTAMP:20260913T141135Z
+DTSTAMP:20260914T161452Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:Forgotten Island @ Merlin Penzance
@@ -420,7 +394,7 @@ DESCRIPTION:Forgotten Island (1h 49min)\nAnimation\, Adventure\, Fantasy\,
  ol graduates and best friends Jo and Raissa stumble upon a mysterious port
  al that transports them to the fantastical island of Nakali. When they dis
  cover that the memories of their entire friendship are the price for retur
- ning home\, Jo and Raissa will race to find a way to leave the island befo
+ ning home\, Jo and Raissa must race to find a way to leave the island befo
  re they forget each other forever.\n\nStarring: H.E.R.\, Liza Soberano\, D
  ave Franco\, Lea Salonga\, Manny Jacinto\, Jenny Slate\n\nFilm release at 
  Merlin Cinemas Penzance\nBook tickets: /film/forgotten-island\n\nFilm deta
@@ -431,7 +405,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:a29a48bea6ef53b137db59a10a5e7707e5204766@merlin-cinemas
-DTSTAMP:20260913T141135Z
+DTSTAMP:20260914T161452Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Wildwood @ Merlin Penzance
@@ -450,7 +424,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:71949fdd0da28c783302315334b0b9897b98a738@merlin-cinemas
-DTSTAMP:20260913T141135Z
+DTSTAMP:20260914T161452Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Ghosts: The Possession Of Button House @ Merlin Penzance
@@ -467,7 +441,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:62502d08ff7ce9d0fa27a082f6a6e242afc3f849@merlin-cinemas
-DTSTAMP:20260913T141135Z
+DTSTAMP:20260914T161452Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Klara And The Sun @ Merlin Penzance
@@ -487,7 +461,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:d6ca24ff7adc4dbfdb54b5ce248ef1c1b5a5d36b@merlin-cinemas
-DTSTAMP:20260913T141135Z
+DTSTAMP:20260914T161452Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Clayface @ Merlin Penzance
@@ -507,7 +481,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:9338b763a0aae6d0f762864237caae09e53aa1d0@merlin-cinemas
-DTSTAMP:20260913T141135Z
+DTSTAMP:20260914T161452Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:I Play Rocky @ Merlin Penzance
@@ -526,7 +500,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:ba3e11a9e0728920ef1ca4df949def086fdf6f0e@merlin-cinemas
-DTSTAMP:20260913T141135Z
+DTSTAMP:20260914T161452Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:Wild Horse Nine @ Merlin Penzance
@@ -546,7 +520,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:98a632633afdb8e9c237795bf4cda6c77f9759ad@merlin-cinemas
-DTSTAMP:20260913T141135Z
+DTSTAMP:20260914T161452Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:Ebenezer @ Merlin Penzance
@@ -564,7 +538,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:07e49ce0b6c859e2b58cbfe8276a2ea7df835374@merlin-cinemas
-DTSTAMP:20260913T141135Z
+DTSTAMP:20260914T161452Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:How To Rob A Bank @ Merlin Penzance
@@ -584,7 +558,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:3862cd142dc2544a72db54645aab88d043badb43@merlin-cinemas
-DTSTAMP:20260913T141135Z
+DTSTAMP:20260914T161452Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:The Hunger Games: Sunrise On The Reaping @ Merlin Penzance
@@ -603,7 +577,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:f5983670fd0c58ffbebb895520192c91467b4864@merlin-cinemas
-DTSTAMP:20260913T141135Z
+DTSTAMP:20260914T161452Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Focker-In-Law @ Merlin Penzance
@@ -620,7 +594,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:6656840ad30c6c4a139b29f7d375676d31f5bee9@merlin-cinemas
-DTSTAMP:20260913T141135Z
+DTSTAMP:20260914T161452Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Hexed @ Merlin Penzance
@@ -639,7 +613,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:89d569b7cfaf061d1d1b847005de9cfe720c7d3b@merlin-cinemas
-DTSTAMP:20260913T141135Z
+DTSTAMP:20260914T161452Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Violent Night 2 @ Merlin Penzance
@@ -660,7 +634,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:e20ac013ce8379197e56092e289f37dba243ef57@merlin-cinemas
-DTSTAMP:20260913T141135Z
+DTSTAMP:20260914T161452Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Dune: Part Three @ Merlin Penzance
@@ -677,7 +651,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:29fcf414d1233cda765ba05435160214d7ebade2@merlin-cinemas
-DTSTAMP:20260913T141135Z
+DTSTAMP:20260914T161452Z
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
 SUMMARY:Avengers: Doomsday @ Merlin Penzance
@@ -694,7 +668,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:ebd90ea6ae3e4cdf30817f37eb16e2a1daadcfa1@merlin-cinemas
-DTSTAMP:20260913T141135Z
+DTSTAMP:20260914T161452Z
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20261226
 SUMMARY:Jumanji: Open World @ Merlin Penzance
@@ -711,7 +685,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:ba91f7ea4f8edf53e89146ec59dfab2e4968c81d@merlin-cinemas
-DTSTAMP:20260913T141135Z
+DTSTAMP:20260914T161452Z
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20261226
 SUMMARY:The Angry Birds Movie 3 @ Merlin Penzance
@@ -727,7 +701,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:ef6574209b4817cc39747d3ee5d905c3bdecb307@merlin-cinemas
-DTSTAMP:20260913T141135Z
+DTSTAMP:20260914T161452Z
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270102
 SUMMARY:Werwulf @ Merlin Penzance
@@ -743,7 +717,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:6344a0456e5f256b1d0f2fd12880434bc2297ce7@merlin-cinemas
-DTSTAMP:20260913T141135Z
+DTSTAMP:20260914T161452Z
 DTSTART;VALUE=DATE:20270108
 DTEND;VALUE=DATE:20270109
 SUMMARY:Ink @ Merlin Penzance
@@ -760,7 +734,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:8555bc97a38ec5d646a16040e9327cce930edb4f@merlin-cinemas
-DTSTAMP:20260913T141135Z
+DTSTAMP:20260914T161452Z
 DTSTART;VALUE=DATE:20270205
 DTEND;VALUE=DATE:20270206
 SUMMARY:Remain @ Merlin Penzance
@@ -778,7 +752,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:b884d5b93f2890f7919e979924f541508562bb80@merlin-cinemas
-DTSTAMP:20260913T141135Z
+DTSTAMP:20260914T161452Z
 DTSTART;VALUE=DATE:20270205
 DTEND;VALUE=DATE:20270206
 SUMMARY:Ice Age: Boiling Point @ Merlin Penzance
@@ -797,7 +771,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:52e4c623079ed88cdcd1dc95e1f6c9eecb89a574@merlin-cinemas
-DTSTAMP:20260913T141135Z
+DTSTAMP:20260914T161452Z
 DTSTART;VALUE=DATE:20270212
 DTEND;VALUE=DATE:20270213
 SUMMARY:CoComelon: The Movie @ Merlin Penzance
@@ -817,7 +791,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:45adcdba701cc73dd7001b04e660fc93f7390b3f@merlin-cinemas
-DTSTAMP:20260913T141135Z
+DTSTAMP:20260914T161452Z
 DTSTART;VALUE=DATE:20270326
 DTEND;VALUE=DATE:20270327
 SUMMARY:Not Alone @ Merlin Penzance
@@ -835,7 +809,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:c9d4ce2439104462945c7d3814eb615bd60fe5f7@merlin-cinemas
-DTSTAMP:20260913T141135Z
+DTSTAMP:20260914T161452Z
 DTSTART;VALUE=DATE:20270730
 DTEND;VALUE=DATE:20270731
 SUMMARY:Shrek 5 @ Merlin Penzance
