@@ -10,7 +10,7 @@ X-WR-CALDESC:Upcoming movie premieres at Merlin Cinemas Flora Cinema
 X-WR-TIMEZONE:Europe/London
 BEGIN:VEVENT
 UID:2aaa39ff4474a82e4943f59ddb3ed27b81749430@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:19810205
 DTEND;VALUE=DATE:19810206
 SUMMARY:9 To 5 @ Merlin Helston
@@ -25,7 +25,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:fc0eb84ab1415ba6388ca6993cfa298d5f30f590@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20260710
 DTEND;VALUE=DATE:20260711
 SUMMARY:Life Support @ Merlin Helston
@@ -43,7 +43,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:4987ff9061dfb704022a92d720c43ef84170533f@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20260724
 DTEND;VALUE=DATE:20260725
 SUMMARY:On The Sea @ Merlin Helston
@@ -62,7 +62,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:f913df64b814e6e2bfba4076aab3c7318fec4961@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20260802
 DTEND;VALUE=DATE:20260803
 SUMMARY:Pip And Posy's Cinema Show Toddler Cinema Charity Screening for Cor
@@ -78,7 +78,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:9ca8b7d281cb4ec0a16d9cdd6ce0781396cc46c5@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20260814
 DTEND;VALUE=DATE:20260815
 SUMMARY:Mermaid Beach @ Merlin Helston
@@ -95,7 +95,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:c2ae8415313d3e8aeea6b403d48639181c901fd4@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20260904
 DTEND;VALUE=DATE:20260905
 SUMMARY:The Incomer @ Merlin Helston
@@ -113,7 +113,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:f1fa4de03a2df4c0f5c7d09b5ce403cb4bfc1483@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20260904
 DTEND;VALUE=DATE:20260905
 SUMMARY:The Incomer @ Merlin Helston
@@ -131,7 +131,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:9aeced026729aaeff7a4a8be0af50378275140db@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:All Rivers Spill Their Stories To The Sea @ Merlin Helston
@@ -151,7 +151,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:22686bcc919e73541dd5aed620ee50be035859f6@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20260916
 DTEND;VALUE=DATE:20260917
 SUMMARY:St Ives Stories Launch Screening @ Merlin Helston
@@ -172,7 +172,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:1117e678b9e0736bb062db7dc8d92ed3e5b9f509@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20260918
 DTEND;VALUE=DATE:20260919
 SUMMARY:The Fastest Bicycle @ Merlin Helston
@@ -194,27 +194,27 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:bf83b155fb5fbc5662e4c2d492d1785666a4bcd7@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20260925
 DTEND;VALUE=DATE:20260926
 SUMMARY:Avengers: Endgame Encore @ Merlin Helston
-DESCRIPTION:Avengers: Endgame Encore (3h 5min)\n\nThe epic conclusion to th
- e Infinity Saga returns to theaters as Avengers Endgame:Encore. After deva
- stating events wiped out half the world's population\, the remaining heroe
- s struggle to move forward. Ultimately\, they must come together to restor
- e order and harmony in the universe and bring their loved ones back in a d
- ramatic showdown against Thanos\n\nStarring: Robert Downey Jr.\, Chris Eva
- ns\, Mark Ruffalo\, Chris Hemsworth\, Scarlett Johansson\, Jeremy Renner\n
- \nFilm release at Merlin Cinemas Helston\nBook tickets: /film/avengers-end
- game-encore\n\nFilm details: https://evenwebb.github.io/merlin-cinemas/fil
- ms/avengers-endgame-encore.html
+DESCRIPTION:Avengers: Endgame Encore (3h 1min)\n★★★★☆\nAdventure\, Science 
+ Fiction\, Action\n\nAfter the devastating events of Avengers: Infinity War
+ \, the universe is in ruins due to the efforts of the Mad Titan\, Thanos. 
+ With the help of remaining allies\, the Avengers must assemble once more i
+ n order to undo Thanos' actions and restore order to the universe once and
+  for all\, no matter what consequences may be in store.\n\nStarring: Rober
+ t Downey Jr.\, Chris Evans\, Mark Ruffalo\, Chris Hemsworth\, Scarlett Joh
+ ansson\, Jeremy Renner\n\nFilm release at Merlin Cinemas Helston\nBook tic
+ kets: /film/avengers-endgame-encore\n\nFilm details: https://evenwebb.gith
+ ub.io/merlin-cinemas/films/avengers-endgame-encore.html
 LOCATION:Merlin Cinemas Helston
 URL:/film/avengers-endgame-encore
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:4ece09f4ae2cfb87582f1fca620ad9d5e35832be@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20260925
 DTEND;VALUE=DATE:20260926
 SUMMARY:Sense And Sensibility @ Merlin Helston
@@ -237,7 +237,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:ca0058c622cd21c0e383a097de976371df37d70c@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20260927
 DTEND;VALUE=DATE:20260928
 SUMMARY:Steel On Film @ Merlin Helston
@@ -256,11 +256,11 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:6079b18def948a668e96911b99772fc86f0e082d@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261003
 SUMMARY:Digger @ Merlin Helston
-DESCRIPTION:Digger (2h 8min)\nComedy\n\nThe most powerful man in the world 
+DESCRIPTION:Digger (2h 9min)\nComedy\n\nThe most powerful man in the world 
  embarks on a frantic mission to prove he is humanity's savior before the d
  isaster he's unleashed destroys everything.\n\nStarring: Tom Cruise\, Riz 
  Ahmed\, John Goodman\, Sandra Hüller\, Michael Stuhlbarg\, Jesse Plemons\n
@@ -272,7 +272,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:5ad1f368b12f1e241b8f55f1b252c540559e92a4@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261003
 SUMMARY:Verity @ Merlin Helston
@@ -290,7 +290,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:9c89cce5c021c34919b7a3e4ca61d16d6db19c2d@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20261004
 DTEND;VALUE=DATE:20261005
 SUMMARY:The Gruffalo’s Child @ Merlin Helston
@@ -310,11 +310,11 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:d00e812ccf123d255bb665372a90b583194a895c@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20261009
 DTEND;VALUE=DATE:20261010
 SUMMARY:The Uprising @ Merlin Helston
-DESCRIPTION:The Uprising (2h 8min)\nDrama\, Action\, History\n\nAs war and 
+DESCRIPTION:The Uprising (2h 8min)\nAction\, History\, Drama\n\nAs war and 
  plague devastate 14th-century England\, a humble peasant ignites a rebelli
  on\, uniting an army of commoners to defy the King’s might in a desperate 
  fight for justice and survival.\n\nStarring: Andrew Garfield\, Jamie Bell\
@@ -328,7 +328,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:cf4c04fba7c9309113b524e77d2d04be2c344a7d@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20261009
 DTEND;VALUE=DATE:20261010
 SUMMARY:The Social Reckoning @ Merlin Helston
@@ -346,7 +346,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:940ff108b0c5e6b39e9d317e139f5fd257022c47@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:Whalefall @ Merlin Helston
@@ -365,7 +365,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:2042eda39b60d7803cfc2f805516bb9cdcec870e@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:Street Fighter @ Merlin Helston
@@ -385,7 +385,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:9091cd5d632afbca69be57e18d970df177c81b01@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:Forgotten Island @ Merlin Helston
@@ -405,7 +405,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:18adc2ba65b2cbb567f7897771e11130394a748d@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Wildwood @ Merlin Helston
@@ -424,24 +424,24 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:8657e2942c50f29deff8abc10c07314b6ea481d7@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Ghosts: The Possession Of Button House @ Merlin Helston
-DESCRIPTION:Ghosts: The Possession Of Button House\nFantasy\, Comedy\n\nIt'
- s a matter of life and death for Alison\, Mike\, Mia and the Ghosts.\n\nSt
- arring: Charlotte Ritchie\, Kiell Smith-Bynoe\, Mathew Baynton\, Lolly Ade
- fope\, Ben Willbond\, Jim Howick\n\nFilm release at Merlin Cinemas Helston
- \nBook tickets: /film/ghosts-the-possession-of-button-house\n\nFilm detail
- s: https://evenwebb.github.io/merlin-cinemas/films/ghosts-the-possession-o
- f-button-house.html
+DESCRIPTION:Ghosts: The Possession Of Button House (1h 37min)\nFantasy\, Co
+ medy\n\nIt's a matter of life and death for Alison\, Mike\, Mia and the Gh
+ osts.\n\nStarring: Charlotte Ritchie\, Kiell Smith-Bynoe\, Mathew Baynton\
+ , Lolly Adefope\, Ben Willbond\, Jim Howick\n\nFilm release at Merlin Cine
+ mas Helston\nBook tickets: /film/ghosts-the-possession-of-button-house\n\n
+ Film details: https://evenwebb.github.io/merlin-cinemas/films/ghosts-the-p
+ ossession-of-button-house.html
 LOCATION:Merlin Cinemas Helston
 URL:/film/ghosts-the-possession-of-button-house
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:05404087f734f255e58d14c689f1ab72ce0e40c0@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Klara And The Sun @ Merlin Helston
@@ -461,7 +461,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:de10fea8931c746c7fdb17bd98d3fc0210c94ca9@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Clayface @ Merlin Helston
@@ -481,7 +481,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:37bdc64835611147f9688a605dac707ab34da677@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:I Play Rocky @ Merlin Helston
@@ -500,7 +500,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:40e369e6820bee7756de545cb05aecccad3c71af@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:Wild Horse Nine @ Merlin Helston
@@ -519,8 +519,30 @@ URL:/film/wild-horse-nine
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
+UID:cb3b47d8a62aea5fe0d130e2f90bce0b73eee53e@merlin-cinemas
+DTSTAMP:20260915T144524Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Whispers In The Woods @ Merlin Helston
+DESCRIPTION:Whispers In The Woods (1h 33min)\n★★★★☆\nDocumentary\n\nIn the 
+ heart of the tranquil Vosges forests\, where lynxes\, bears and deer roam 
+ freely\, Vincent Munier accompanies his father on his expeditions. He not 
+ only seeks to capture the visual wonders of this forest kingdom\, but also
+  aims to make its sounds audible. Every whisper of the forest is a reminde
+ r of the knowledge of nature that his father once imbued in him – knowledg
+ e that Vincent now passes on to his own son. Vincent Munier combines breat
+ htaking footage of nature and its sounds to create a fairytale-like cinema
+ tic experience that slows time down.\n\nStarring: Michel Munier\, Simon Mu
+ nier\, Vincent Munier\n\nFilm release at Merlin Cinemas Helston\nBook tick
+ ets: /film/whispers-in-the-woods\n\nFilm details: https://evenwebb.github.
+ io/merlin-cinemas/films/whispers-in-the-woods.html
+LOCATION:Merlin Cinemas Helston
+URL:/film/whispers-in-the-woods
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
 UID:e248ceca8da04263092f526ee51e62128e28a2c0@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:Ebenezer @ Merlin Helston
@@ -538,7 +560,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:c7b1bcc477846f795c4fa2d63de2aac403726dae@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:How To Rob A Bank @ Merlin Helston
@@ -558,7 +580,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:0df5dec001b2f2765225088639f1bd66d4a2fb1d@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:The Hunger Games: Sunrise On The Reaping @ Merlin Helston
@@ -576,7 +598,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:893c69b85257e2ea976052062237b7a6eb95c45d@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Focker-In-Law @ Merlin Helston
@@ -593,7 +615,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:96c10e2794c6958056b9ae7c33e7bd6731acef1b@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Hexed @ Merlin Helston
@@ -612,7 +634,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:dfaa4ba1d900d056973bc85ae39fa9101b414f52@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Violent Night 2 @ Merlin Helston
@@ -633,7 +655,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:31f704160e76cb5f3c01020887e6b82e09bfc672@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Dune: Part Three @ Merlin Helston
@@ -650,7 +672,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:0da83b95a4049cdfa59d0eac8f8a67dc78fd1547@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
 SUMMARY:Avengers: Doomsday @ Merlin Helston
@@ -667,7 +689,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:25090d4d2afd69d67f7a226008a3d07d95bd60fc@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20261226
 SUMMARY:Jumanji: Open World @ Merlin Helston
@@ -684,7 +706,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:649ee6b90200a4f1c98ff00bcf0157536b16b2ab@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20261226
 SUMMARY:The Angry Birds Movie 3 @ Merlin Helston
@@ -700,7 +722,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:d659f355d194e500f19763c149a8c0a3cb309915@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270102
 SUMMARY:Werwulf @ Merlin Helston
@@ -715,7 +737,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:1a6de8202bc7135245cb0c9ece3a2bcbb7b07e0b@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20270108
 DTEND;VALUE=DATE:20270109
 SUMMARY:Ink @ Merlin Helston
@@ -732,7 +754,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:74b0395ebb5227ec8518184d239e8024bc69737b@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20270205
 DTEND;VALUE=DATE:20270206
 SUMMARY:Remain @ Merlin Helston
@@ -750,7 +772,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:17d31bada314af5a7ee9cacde7b9d80aaee79312@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20270205
 DTEND;VALUE=DATE:20270206
 SUMMARY:Ice Age: Boiling Point @ Merlin Helston
@@ -769,7 +791,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:c5a9eac3a826b2a1cdd93892b0464523b737f28c@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20270212
 DTEND;VALUE=DATE:20270213
 SUMMARY:CoComelon: The Movie @ Merlin Helston
@@ -789,7 +811,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:2a04df0381cfd17cf702c493918a74962ade0c49@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20270326
 DTEND;VALUE=DATE:20270327
 SUMMARY:Not Alone @ Merlin Helston
@@ -807,7 +829,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:7063fdf94bc2707441d0f909c4d39fd9791ea40c@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20270730
 DTEND;VALUE=DATE:20270731
 SUMMARY:Shrek 5 @ Merlin Helston

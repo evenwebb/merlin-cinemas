@@ -10,7 +10,7 @@ X-WR-CALDESC:Upcoming movie premieres at Merlin Cinemas Regal Cinema & Theatre
 X-WR-TIMEZONE:Europe/London
 BEGIN:VEVENT
 UID:676faebc33fecb4a9355846e3fc4bc5561943bf9@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20260710
 DTEND;VALUE=DATE:20260711
 SUMMARY:Life Support @ Merlin Redruth
@@ -28,7 +28,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:5199f93ef806c45298403f2361474cc6288a9cb9@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20260724
 DTEND;VALUE=DATE:20260725
 SUMMARY:On The Sea @ Merlin Redruth
@@ -47,7 +47,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:7e021e911a136f60c962f1a96f5142f3f4d11d16@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20260802
 DTEND;VALUE=DATE:20260803
 SUMMARY:Pip And Posy's Cinema Show Toddler Cinema Charity Screening for Cor
@@ -63,7 +63,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:105e0f77c1d6f9d010a127372c7d4817982352f3@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20260814
 DTEND;VALUE=DATE:20260815
 SUMMARY:Mermaid Beach @ Merlin Redruth
@@ -80,7 +80,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:e7f6f77d12f90130ea3d3a48fb17b33f8937b56d@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20260904
 DTEND;VALUE=DATE:20260905
 SUMMARY:The Incomer @ Merlin Redruth
@@ -98,7 +98,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:74d43f6cf06d93b99808e923dab66fe0a9f03b29@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20260904
 DTEND;VALUE=DATE:20260905
 SUMMARY:The Incomer @ Merlin Redruth
@@ -116,7 +116,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:c98429f4dcc7dbc9e5e30c54bbdf92670c877da7@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:All Rivers Spill Their Stories To The Sea @ Merlin Redruth
@@ -136,7 +136,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:1e2fe710bcecff48ef43da4a5e3b5ffc8cd37600@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20260916
 DTEND;VALUE=DATE:20260917
 SUMMARY:St Ives Stories Launch Screening @ Merlin Redruth
@@ -157,7 +157,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:2ff0e6882b794c7e2a649d3c567bea65d3d15c00@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20260918
 DTEND;VALUE=DATE:20260919
 SUMMARY:The Fastest Bicycle @ Merlin Redruth
@@ -179,7 +179,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:7f374eee48eb0bdaa51284d09d9456b054ec014b@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20260921
 DTEND;VALUE=DATE:20260922
 SUMMARY:9 To 5 @ Merlin Redruth
@@ -194,27 +194,27 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:d614b1813e5d634dfeef4d4339bcdc43b7492c26@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20260925
 DTEND;VALUE=DATE:20260926
 SUMMARY:Avengers: Endgame Encore @ Merlin Redruth
-DESCRIPTION:Avengers: Endgame Encore (3h 5min)\n\nThe epic conclusion to th
- e Infinity Saga returns to theaters as Avengers Endgame:Encore. After deva
- stating events wiped out half the world's population\, the remaining heroe
- s struggle to move forward. Ultimately\, they must come together to restor
- e order and harmony in the universe and bring their loved ones back in a d
- ramatic showdown against Thanos\n\nStarring: Robert Downey Jr.\, Chris Eva
- ns\, Mark Ruffalo\, Chris Hemsworth\, Scarlett Johansson\, Jeremy Renner\n
- \nFilm release at Merlin Cinemas Redruth\nBook tickets: /film/avengers-end
- game-encore\n\nFilm details: https://evenwebb.github.io/merlin-cinemas/fil
- ms/avengers-endgame-encore.html
+DESCRIPTION:Avengers: Endgame Encore (3h 1min)\n★★★★☆\nAdventure\, Science 
+ Fiction\, Action\n\nAfter the devastating events of Avengers: Infinity War
+ \, the universe is in ruins due to the efforts of the Mad Titan\, Thanos. 
+ With the help of remaining allies\, the Avengers must assemble once more i
+ n order to undo Thanos' actions and restore order to the universe once and
+  for all\, no matter what consequences may be in store.\n\nStarring: Rober
+ t Downey Jr.\, Chris Evans\, Mark Ruffalo\, Chris Hemsworth\, Scarlett Joh
+ ansson\, Jeremy Renner\n\nFilm release at Merlin Cinemas Redruth\nBook tic
+ kets: /film/avengers-endgame-encore\n\nFilm details: https://evenwebb.gith
+ ub.io/merlin-cinemas/films/avengers-endgame-encore.html
 LOCATION:Merlin Cinemas Redruth
 URL:/film/avengers-endgame-encore
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:541706fd85d051c73e44bef0bb050aa84e18e6a8@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20260925
 DTEND;VALUE=DATE:20260926
 SUMMARY:Sense And Sensibility @ Merlin Redruth
@@ -237,7 +237,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:dcd65cc9a398058b7fd3d7126f51f1ca43f53164@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20260927
 DTEND;VALUE=DATE:20260928
 SUMMARY:Steel On Film @ Merlin Redruth
@@ -256,11 +256,11 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:7f1e4e4d1ee2ee72d240ce800967cc6482889bc9@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261003
 SUMMARY:Digger @ Merlin Redruth
-DESCRIPTION:Digger (2h 8min)\nComedy\n\nThe most powerful man in the world 
+DESCRIPTION:Digger (2h 9min)\nComedy\n\nThe most powerful man in the world 
  embarks on a frantic mission to prove he is humanity's savior before the d
  isaster he's unleashed destroys everything.\n\nStarring: Tom Cruise\, Riz 
  Ahmed\, John Goodman\, Sandra Hüller\, Michael Stuhlbarg\, Jesse Plemons\n
@@ -272,7 +272,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:4737ebf54377086736aacde0b9e4863d1f34863f@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261003
 SUMMARY:Verity @ Merlin Redruth
@@ -290,7 +290,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:630878214e3e5085589c5b711eaac083c2a0315a@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20261004
 DTEND;VALUE=DATE:20261005
 SUMMARY:The Gruffalo’s Child @ Merlin Redruth
@@ -310,11 +310,11 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:c21dfb832fa31c7b3f4b5b4e336b440a4904d327@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20261009
 DTEND;VALUE=DATE:20261010
 SUMMARY:The Uprising @ Merlin Redruth
-DESCRIPTION:The Uprising (2h 8min)\nDrama\, Action\, History\n\nAs war and 
+DESCRIPTION:The Uprising (2h 8min)\nAction\, History\, Drama\n\nAs war and 
  plague devastate 14th-century England\, a humble peasant ignites a rebelli
  on\, uniting an army of commoners to defy the King’s might in a desperate 
  fight for justice and survival.\n\nStarring: Andrew Garfield\, Jamie Bell\
@@ -328,7 +328,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:1248fecb626582f0702923db2265427671d0cebf@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20261009
 DTEND;VALUE=DATE:20261010
 SUMMARY:The Social Reckoning @ Merlin Redruth
@@ -346,7 +346,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:14af9e5f41d96d74e8594d0a761a267eca76f3ce@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:Whalefall @ Merlin Redruth
@@ -365,7 +365,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:e43d356f60eba2537d7ebfce9e3d3241788a4a44@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:Street Fighter @ Merlin Redruth
@@ -385,7 +385,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:0881cfedf44adac16071b60613c106b9aa576f4c@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:Forgotten Island @ Merlin Redruth
@@ -405,7 +405,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:ef77b3998c558ebf2bd5a7840f6dd53889e3a866@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Wildwood @ Merlin Redruth
@@ -424,24 +424,24 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:6661b5a1b3a83a31c9b74b38d29111d46ea9a016@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Ghosts: The Possession Of Button House @ Merlin Redruth
-DESCRIPTION:Ghosts: The Possession Of Button House\nFantasy\, Comedy\n\nIt'
- s a matter of life and death for Alison\, Mike\, Mia and the Ghosts.\n\nSt
- arring: Charlotte Ritchie\, Kiell Smith-Bynoe\, Mathew Baynton\, Lolly Ade
- fope\, Ben Willbond\, Jim Howick\n\nFilm release at Merlin Cinemas Redruth
- \nBook tickets: /film/ghosts-the-possession-of-button-house\n\nFilm detail
- s: https://evenwebb.github.io/merlin-cinemas/films/ghosts-the-possession-o
- f-button-house.html
+DESCRIPTION:Ghosts: The Possession Of Button House (1h 37min)\nFantasy\, Co
+ medy\n\nIt's a matter of life and death for Alison\, Mike\, Mia and the Gh
+ osts.\n\nStarring: Charlotte Ritchie\, Kiell Smith-Bynoe\, Mathew Baynton\
+ , Lolly Adefope\, Ben Willbond\, Jim Howick\n\nFilm release at Merlin Cine
+ mas Redruth\nBook tickets: /film/ghosts-the-possession-of-button-house\n\n
+ Film details: https://evenwebb.github.io/merlin-cinemas/films/ghosts-the-p
+ ossession-of-button-house.html
 LOCATION:Merlin Cinemas Redruth
 URL:/film/ghosts-the-possession-of-button-house
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:e3171fa5da7ba5fc898a3740783ba95021e34099@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Klara And The Sun @ Merlin Redruth
@@ -461,7 +461,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:68a1869949d0f3913b83782076fa2bd85c625632@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Clayface @ Merlin Redruth
@@ -481,7 +481,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:62712e971608c65693c36309786df0c97078d39e@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:I Play Rocky @ Merlin Redruth
@@ -500,7 +500,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:3a55eac572b5edcf788650f85115cd7883347466@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:Wild Horse Nine @ Merlin Redruth
@@ -519,8 +519,30 @@ URL:/film/wild-horse-nine
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
+UID:6b3d7d1a1b4e9d49e9df62a4dd048effd613e50c@merlin-cinemas
+DTSTAMP:20260915T144524Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Whispers In The Woods @ Merlin Redruth
+DESCRIPTION:Whispers In The Woods (1h 33min)\n★★★★☆\nDocumentary\n\nIn the 
+ heart of the tranquil Vosges forests\, where lynxes\, bears and deer roam 
+ freely\, Vincent Munier accompanies his father on his expeditions. He not 
+ only seeks to capture the visual wonders of this forest kingdom\, but also
+  aims to make its sounds audible. Every whisper of the forest is a reminde
+ r of the knowledge of nature that his father once imbued in him – knowledg
+ e that Vincent now passes on to his own son. Vincent Munier combines breat
+ htaking footage of nature and its sounds to create a fairytale-like cinema
+ tic experience that slows time down.\n\nStarring: Michel Munier\, Simon Mu
+ nier\, Vincent Munier\n\nFilm release at Merlin Cinemas Redruth\nBook tick
+ ets: /film/whispers-in-the-woods\n\nFilm details: https://evenwebb.github.
+ io/merlin-cinemas/films/whispers-in-the-woods.html
+LOCATION:Merlin Cinemas Redruth
+URL:/film/whispers-in-the-woods
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
 UID:a3710fea46bbf5674d75369011042b5514efe06d@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:Ebenezer @ Merlin Redruth
@@ -538,7 +560,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:ef816c51747063d7b3bfb787effe1fc42b6eb9d6@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:How To Rob A Bank @ Merlin Redruth
@@ -558,7 +580,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:e8171b72204fffe3bfe46d13d3ef61fa930b093e@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:The Hunger Games: Sunrise On The Reaping @ Merlin Redruth
@@ -576,7 +598,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:47bd6eec7199ffbf192cbc582393bc2a4fd19860@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Focker-In-Law @ Merlin Redruth
@@ -593,7 +615,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:58fb51a348f906a719642cbc86cf82c986fa1ecb@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Hexed @ Merlin Redruth
@@ -612,7 +634,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:9024bf113932a9f1ef97e3d21d098f9d4f5506d9@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Violent Night 2 @ Merlin Redruth
@@ -633,7 +655,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:dba45d8d1c58087df29e2068491aa7ceb825d36a@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Dune: Part Three @ Merlin Redruth
@@ -650,7 +672,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:918463f2725e5df48e5b84c6142735be2f183cdf@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
 SUMMARY:Avengers: Doomsday @ Merlin Redruth
@@ -667,7 +689,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:089ad1d1018f22ffd6969405b1c8691dfac69f99@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20261226
 SUMMARY:Jumanji: Open World @ Merlin Redruth
@@ -684,7 +706,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:8875957c25f046400827fe0adc1ade7856d8bdf1@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20261226
 SUMMARY:The Angry Birds Movie 3 @ Merlin Redruth
@@ -700,7 +722,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:abc7c07c9f44d85da4ff7741b2390c8d355dae7f@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270102
 SUMMARY:Werwulf @ Merlin Redruth
@@ -715,7 +737,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:08084ac251c5ee9e17d0e40f9afbc367a0b574bb@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20270108
 DTEND;VALUE=DATE:20270109
 SUMMARY:Ink @ Merlin Redruth
@@ -732,7 +754,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:45add96410ca0c44928b2b0eaa6ea04ff450834a@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20270205
 DTEND;VALUE=DATE:20270206
 SUMMARY:Remain @ Merlin Redruth
@@ -750,7 +772,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:a1119d6c85dfbfea9fc1a5bb0dfb289993a1a981@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20270205
 DTEND;VALUE=DATE:20270206
 SUMMARY:Ice Age: Boiling Point @ Merlin Redruth
@@ -769,7 +791,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:ebe963c9cb9845240064f4252d0c1380c4d129ad@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20270212
 DTEND;VALUE=DATE:20270213
 SUMMARY:CoComelon: The Movie @ Merlin Redruth
@@ -789,7 +811,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:133d9ec808888234c08356ae45fd6fd163b14067@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20270326
 DTEND;VALUE=DATE:20270327
 SUMMARY:Not Alone @ Merlin Redruth
@@ -807,7 +829,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:7d0bbc8fea8cb59eb8a7b54812854453816aaae0@merlin-cinemas
-DTSTAMP:20260914T161452Z
+DTSTAMP:20260915T144524Z
 DTSTART;VALUE=DATE:20270730
 DTEND;VALUE=DATE:20270731
 SUMMARY:Shrek 5 @ Merlin Redruth
