@@ -9,8 +9,56 @@ X-WR-CALNAME:Merlin Capitol Cinema Movie Premieres
 X-WR-CALDESC:Upcoming movie premieres at Merlin Cinemas Capitol Cinema
 X-WR-TIMEZONE:Europe/London
 BEGIN:VEVENT
+UID:2bc75877d6d618bf30d980426ce64e7281883f4e@merlin-cinemas
+DTSTAMP:20260916T144349Z
+DTSTART;VALUE=DATE:19600915
+DTEND;VALUE=DATE:19600916
+SUMMARY:Picture House presents Psycho @ Merlin Bodmin
+DESCRIPTION:Picture House presents Psycho (7 min)\n\nPassionate debates abo
+ ut cinema and pet peeves lead to a friendship of sorts with movie theater 
+ co-workers Tim and John.\n\nStarring: Tim Cherry\, John Dyslin\n\nFilm rel
+ ease at Merlin Cinemas Bodmin\nBook tickets: /film/picture-house-presents-
+ psycho\n\nFilm details: https://evenwebb.github.io/merlin-cinemas/films/pi
+ cture-house-presents-psycho.html
+LOCATION:Merlin Cinemas Bodmin
+URL:/film/picture-house-presents-psycho
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:4bf01062190977ff8da84d3e7ea23e09436a670b@merlin-cinemas
+DTSTAMP:20260916T144349Z
+DTSTART;VALUE=DATE:19800731
+DTEND;VALUE=DATE:19800801
+SUMMARY:Picture House presents Can't Stop The Music @ Merlin Bodmin
+DESCRIPTION:Picture House presents Can't Stop The Music (7 min)\n\nPassiona
+ te debates about cinema and pet peeves lead to a friendship of sorts with 
+ movie theater co-workers Tim and John.\n\nStarring: Tim Cherry\, John Dysl
+ in\n\nFilm release at Merlin Cinemas Bodmin\nBook tickets: /film/picture-h
+ ouse-presents-cant-stop-the-music\n\nFilm details: https://evenwebb.github
+ .io/merlin-cinemas/films/picture-house-presents-can-t-stop-the-music.html
+LOCATION:Merlin Cinemas Bodmin
+URL:/film/picture-house-presents-cant-stop-the-music
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:e4a19b2008e937e0391e2cd3b3204e3c661f620b@merlin-cinemas
+DTSTAMP:20260916T144349Z
+DTSTART;VALUE=DATE:19820917
+DTEND;VALUE=DATE:19820918
+SUMMARY:Picture House presents Poltergeist @ Merlin Bodmin
+DESCRIPTION:Picture House presents Poltergeist (7 min)\n\nPassionate debate
+ s about cinema and pet peeves lead to a friendship of sorts with movie the
+ ater co-workers Tim and John.\n\nStarring: Tim Cherry\, John Dyslin\n\nFil
+ m release at Merlin Cinemas Bodmin\nBook tickets: /film/picture-house-pres
+ ents-poltergeist\n\nFilm details: https://evenwebb.github.io/merlin-cinema
+ s/films/picture-house-presents-poltergeist.html
+LOCATION:Merlin Cinemas Bodmin
+URL:/film/picture-house-presents-poltergeist
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
 UID:9d935a76dc3ac0014fce56de0b7079b75e4b09ea@merlin-cinemas
-DTSTAMP:20260915T144524Z
+DTSTAMP:20260916T144349Z
 DTSTART;VALUE=DATE:20260710
 DTEND;VALUE=DATE:20260711
 SUMMARY:Life Support @ Merlin Bodmin
@@ -28,7 +76,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:3aa5b1f502ab36efa1548acec55e97a06c8c31a8@merlin-cinemas
-DTSTAMP:20260915T144524Z
+DTSTAMP:20260916T144349Z
 DTSTART;VALUE=DATE:20260724
 DTEND;VALUE=DATE:20260725
 SUMMARY:On The Sea @ Merlin Bodmin
@@ -47,7 +95,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:f6196288e487874045bd70c78dc5d03da5bcf55a@merlin-cinemas
-DTSTAMP:20260915T144524Z
+DTSTAMP:20260916T144349Z
 DTSTART;VALUE=DATE:20260802
 DTEND;VALUE=DATE:20260803
 SUMMARY:Pip And Posy's Cinema Show Toddler Cinema Charity Screening for Cor
@@ -62,8 +110,25 @@ URL:/film/pip-and-posys-cinema-show-toddler-cinema-charity-screening
 SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
+UID:63eb317384f1e9491b8a308845a0f54a9e7217c2@merlin-cinemas
+DTSTAMP:20260916T144349Z
+DTSTART;VALUE=DATE:20260807
+DTEND;VALUE=DATE:20260808
+SUMMARY:Bring Your Own Baby Screening: The Summer Book @ Merlin Bodmin
+DESCRIPTION:Bring Your Own Baby Screening: The Summer Book (2h)\nDocumentar
+ y\n\nAn investigation into our landscape's hidden fire stories and on-the-
+ ground experiences of firefighters and residents struggling through deadly
+  fires.\n\nStarring: Marily Woodhouse\n\nFilm release at Merlin Cinemas Bo
+ dmin\nBook tickets: /film/the-summer-book-byob\n\nFilm details: https://ev
+ enwebb.github.io/merlin-cinemas/films/bring-your-own-baby-screening-the-su
+ mmer-book.html
+LOCATION:Merlin Cinemas Bodmin
+URL:/film/the-summer-book-byob
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
 UID:e940ab08c1280b2ec3a9daa8792c7d51c5b435e1@merlin-cinemas
-DTSTAMP:20260915T144524Z
+DTSTAMP:20260916T144349Z
 DTSTART;VALUE=DATE:20260814
 DTEND;VALUE=DATE:20260815
 SUMMARY:Mermaid Beach @ Merlin Bodmin
@@ -79,43 +144,80 @@ URL:/film/mermaid-beach
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
+UID:3f11b7bfde49d2b1510e29c977b4414ef967dcb4@merlin-cinemas
+DTSTAMP:20260916T144349Z
+DTSTART;VALUE=DATE:20260904
+DTEND;VALUE=DATE:20260905
+SUMMARY:Bring Your Own Baby Screening: Super Nature @ Merlin Bodmin
+DESCRIPTION:Bring Your Own Baby Screening: Super Nature (2h)\nDocumentary\n
+ \nAn investigation into our landscape's hidden fire stories and on-the-gro
+ und experiences of firefighters and residents struggling through deadly fi
+ res.\n\nStarring: Marily Woodhouse\n\nFilm release at Merlin Cinemas Bodmi
+ n\nBook tickets: /film/super-nature-byob\n\nFilm details: https://evenwebb
+ .github.io/merlin-cinemas/films/bring-your-own-baby-screening-super-nature
+ .html
+LOCATION:Merlin Cinemas Bodmin
+URL:/film/super-nature-byob
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
 UID:73514f9f620545fd25a11c7c2a2392ead444160d@merlin-cinemas
-DTSTAMP:20260915T144524Z
+DTSTAMP:20260916T144349Z
 DTSTART;VALUE=DATE:20260904
 DTEND;VALUE=DATE:20260905
 SUMMARY:The Incomer @ Merlin Bodmin
-DESCRIPTION:The Incomer (1h 42min)\nComedy\, Drama\n\nOn a remote Scottish 
- isle\, siblings Isla and Sandy hunt birds and talk to mythical beings whil
- e fighting off outsiders. Their lives change when Daniel\, an awkward offi
- cial\, arrives to relocate them.\n\nStarring: Domhnall Gleeson\, Gayle Ran
- kin\, Grant O'Rourke\, Emun Elliott\, Michelle Gomez\, John Hannah\n\nFilm
-  release at Merlin Cinemas Bodmin\nBook tickets: /film/the-incomer\n\nFilm
-  details: https://evenwebb.github.io/merlin-cinemas/films/the-incomer.html
+DESCRIPTION:The Incomer (1h 42min)\nComedy\, Drama\n\nOn an Orkney isle\, s
+ iblings Isla and Sandy survive by hunting seabirds\, retelling the stories
+  of their ancestors\, and defending the isle from dreaded "Incomers". Thei
+ r world is upended with the arrival of an awkward council worker who has c
+ ome to uproot them from their homeland.\n\nStarring: Domhnall Gleeson\, Ga
+ yle Rankin\, Grant O'Rourke\, Emun Elliott\, Michelle Gomez\, John Hannah\
+ n\nFilm release at Merlin Cinemas Bodmin\nBook tickets: /film/the-incomer\
+ n\nFilm details: https://evenwebb.github.io/merlin-cinemas/films/the-incom
+ er.html
 LOCATION:Merlin Cinemas Bodmin
 URL:/film/the-incomer
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:ca22ec198cf3189398d4760c40209fdd8efe8990@merlin-cinemas
-DTSTAMP:20260915T144524Z
+DTSTAMP:20260916T144349Z
 DTSTART;VALUE=DATE:20260904
 DTEND;VALUE=DATE:20260905
 SUMMARY:The Incomer @ Merlin Bodmin
-DESCRIPTION:The Incomer (1h 42min)\nComedy\, Drama\n\nOn a remote Scottish 
- isle\, siblings Isla and Sandy hunt birds and talk to mythical beings whil
- e fighting off outsiders. Their lives change when Daniel\, an awkward offi
- cial\, arrives to relocate them.\n\nStarring: Domhnall Gleeson\, Gayle Ran
- kin\, Grant O'Rourke\, Emun Elliott\, Michelle Gomez\, John Hannah\n\nFilm
-  release at Merlin Cinemas Bodmin\nBook tickets: /film/the-incomer-with-q-
- and-a\n\nFilm details: https://evenwebb.github.io/merlin-cinemas/films/the
- -incomer.html
+DESCRIPTION:The Incomer (1h 42min)\nComedy\, Drama\n\nOn an Orkney isle\, s
+ iblings Isla and Sandy survive by hunting seabirds\, retelling the stories
+  of their ancestors\, and defending the isle from dreaded "Incomers". Thei
+ r world is upended with the arrival of an awkward council worker who has c
+ ome to uproot them from their homeland.\n\nStarring: Domhnall Gleeson\, Ga
+ yle Rankin\, Grant O'Rourke\, Emun Elliott\, Michelle Gomez\, John Hannah\
+ n\nFilm release at Merlin Cinemas Bodmin\nBook tickets: /film/the-incomer-
+ with-q-and-a\n\nFilm details: https://evenwebb.github.io/merlin-cinemas/fi
+ lms/the-incomer.html
 LOCATION:Merlin Cinemas Bodmin
 URL:/film/the-incomer-with-q-and-a
 SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
+UID:9d6a0a55737f3db3ce0e9b396687b685bc2deb50@merlin-cinemas
+DTSTAMP:20260916T144349Z
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260912
+SUMMARY:Bring Your Own Baby Screening: Practical Magic 2 @ Merlin Bodmin
+DESCRIPTION:Bring Your Own Baby Screening: Practical Magic 2 (2h)\nDocument
+ ary\n\nAn investigation into our landscape's hidden fire stories and on-th
+ e-ground experiences of firefighters and residents struggling through dead
+ ly fires.\n\nStarring: Marily Woodhouse\n\nFilm release at Merlin Cinemas 
+ Bodmin\nBook tickets: /film/practical-magic-2-byob\n\nFilm details: https:
+ //evenwebb.github.io/merlin-cinemas/films/bring-your-own-baby-screening-pr
+ actical-magic-2.html
+LOCATION:Merlin Cinemas Bodmin
+URL:/film/practical-magic-2-byob
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
 UID:8eaf387b2a39c5dfc3c1af71763b7c3570e66157@merlin-cinemas
-DTSTAMP:20260915T144524Z
+DTSTAMP:20260916T144349Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:All Rivers Spill Their Stories To The Sea @ Merlin Bodmin
@@ -134,7 +236,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:8d869982a723620ee189874b7ad973e061e8a035@merlin-cinemas
-DTSTAMP:20260915T144524Z
+DTSTAMP:20260916T144349Z
 DTSTART;VALUE=DATE:20260916
 DTEND;VALUE=DATE:20260917
 SUMMARY:St Ives Stories Launch Screening @ Merlin Bodmin
@@ -155,7 +257,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:7d74c2fc5170b90186ee2f87798348b1b2dfc1b6@merlin-cinemas
-DTSTAMP:20260915T144524Z
+DTSTAMP:20260916T144349Z
 DTSTART;VALUE=DATE:20260918
 DTEND;VALUE=DATE:20260919
 SUMMARY:The Fastest Bicycle @ Merlin Bodmin
@@ -177,7 +279,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:117c924ca14912da634ccb67291136e6fe434700@merlin-cinemas
-DTSTAMP:20260915T144524Z
+DTSTAMP:20260916T144349Z
 DTSTART;VALUE=DATE:20260924
 DTEND;VALUE=DATE:20260925
 SUMMARY:9 To 5 @ Merlin Bodmin
@@ -191,8 +293,26 @@ URL:/film/9-to-5
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
+UID:030bc8d9496e2b02d3488727dc6d69e04a97ccb2@merlin-cinemas
+DTSTAMP:20260916T144349Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+SUMMARY:Bring Your Own Baby Screening: Sense And Sensibility @ Merlin Bodmi
+ n
+DESCRIPTION:Bring Your Own Baby Screening: Sense And Sensibility (2h)\nDocu
+ mentary\n\nAn investigation into our landscape's hidden fire stories and o
+ n-the-ground experiences of firefighters and residents struggling through 
+ deadly fires.\n\nStarring: Marily Woodhouse\n\nFilm release at Merlin Cine
+ mas Bodmin\nBook tickets: /film/sense-and-sensibility-byob\n\nFilm details
+ : https://evenwebb.github.io/merlin-cinemas/films/bring-your-own-baby-scre
+ ening-sense-and-sensibility.html
+LOCATION:Merlin Cinemas Bodmin
+URL:/film/sense-and-sensibility-byob
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
 UID:7766745cd6ad36b546ff112bd6ef1301482629b9@merlin-cinemas
-DTSTAMP:20260915T144524Z
+DTSTAMP:20260916T144349Z
 DTSTART;VALUE=DATE:20260925
 DTEND;VALUE=DATE:20260926
 SUMMARY:Avengers: Endgame Encore @ Merlin Bodmin
@@ -212,7 +332,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:a8d307dac397050f476594d3fe9b603a2d143e35@merlin-cinemas
-DTSTAMP:20260915T144524Z
+DTSTAMP:20260916T144349Z
 DTSTART;VALUE=DATE:20260925
 DTEND;VALUE=DATE:20260926
 SUMMARY:Sense And Sensibility @ Merlin Bodmin
@@ -235,7 +355,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:a46c988be10043d1ebb8cc0b89533d6ad3c63434@merlin-cinemas
-DTSTAMP:20260915T144524Z
+DTSTAMP:20260916T144349Z
 DTSTART;VALUE=DATE:20260927
 DTEND;VALUE=DATE:20260928
 SUMMARY:Steel On Film @ Merlin Bodmin
@@ -254,7 +374,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:85054e12f51353149d7bea850e31b62412baa0a0@merlin-cinemas
-DTSTAMP:20260915T144524Z
+DTSTAMP:20260916T144349Z
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261003
 SUMMARY:Digger @ Merlin Bodmin
@@ -270,7 +390,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:4cd569b2e25033c403a6ca98971a4e1c2bf62379@merlin-cinemas
-DTSTAMP:20260915T144524Z
+DTSTAMP:20260916T144349Z
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261003
 SUMMARY:Verity @ Merlin Bodmin
@@ -288,7 +408,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:63f5d3a01080d11019565bd2b04182f4122dde96@merlin-cinemas
-DTSTAMP:20260915T144524Z
+DTSTAMP:20260916T144349Z
 DTSTART;VALUE=DATE:20261004
 DTEND;VALUE=DATE:20261005
 SUMMARY:The Gruffalo’s Child @ Merlin Bodmin
@@ -307,8 +427,24 @@ URL:/film/the-gruffalo-and-the-gruffalos-child-toddler-cinema
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
+UID:d1595d48d1fd061d8a172b770c780c5855fd0418@merlin-cinemas
+DTSTAMP:20260916T144349Z
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261009
+SUMMARY:Future Acts @ Merlin Bodmin
+DESCRIPTION:Future Acts (1h 28min)\n★★☆☆☆\nScience Fiction\n\nA young boy s
+ earches a future world wasteland for a rumored cure for his dying mother.\
+ n\nStarring: James Franco\, Suki Waterhouse\, Jeff Wahlberg\, Margarita Le
+ vieva\, Snoop Dogg\, Twin Shadow\n\nFilm release at Merlin Cinemas Bodmin\
+ nBook tickets: /film/future-acts-with-q-and-a\n\nFilm details: https://eve
+ nwebb.github.io/merlin-cinemas/films/future-acts.html
+LOCATION:Merlin Cinemas Bodmin
+URL:/film/future-acts-with-q-and-a
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
 UID:85dfb46b1404b660f466a5f8b8272b1f9cd2177a@merlin-cinemas
-DTSTAMP:20260915T144524Z
+DTSTAMP:20260916T144349Z
 DTSTART;VALUE=DATE:20261009
 DTEND;VALUE=DATE:20261010
 SUMMARY:The Uprising @ Merlin Bodmin
@@ -326,7 +462,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:440e3b055ccd54bc33c9f53e5e156f12897fce4d@merlin-cinemas
-DTSTAMP:20260915T144524Z
+DTSTAMP:20260916T144349Z
 DTSTART;VALUE=DATE:20261009
 DTEND;VALUE=DATE:20261010
 SUMMARY:The Social Reckoning @ Merlin Bodmin
@@ -344,7 +480,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:de0f276219389ff3e3ad4d56f9296d71d9266531@merlin-cinemas
-DTSTAMP:20260915T144524Z
+DTSTAMP:20260916T144349Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:Whalefall @ Merlin Bodmin
@@ -363,7 +499,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:85c6f0ea66bc128e184724f5399ede1c9b42f535@merlin-cinemas
-DTSTAMP:20260915T144524Z
+DTSTAMP:20260916T144349Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:Street Fighter @ Merlin Bodmin
@@ -383,7 +519,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:bbfd306cf0bbde67bc80c9fa469db8d55d6ed0bd@merlin-cinemas
-DTSTAMP:20260915T144524Z
+DTSTAMP:20260916T144349Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:Forgotten Island @ Merlin Bodmin
@@ -403,26 +539,28 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:5c9142fea70783bf4d9bdcebe9d57d47eb3399c0@merlin-cinemas
-DTSTAMP:20260915T144524Z
+DTSTAMP:20260916T144349Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Wildwood @ Merlin Bodmin
-DESCRIPTION:Wildwood (2h 12min)\nAnimation\, Adventure\, Fantasy\n\nPrue an
- d her classmate Curtis are drawn into a magical forest filled with enchant
- ed creatures\, loyal allies\, and formidable adversaries as they embark on
-  a desperate quest to rescue Prue’s abducted baby brother from a murder of
-  crows led by a mysterious woman named Alexandra.\n\nStarring: Peyton Eliz
- abeth Lee\, Jacob Tremblay\, Carey Mulligan\, Mahershala Ali\, Arthur Knig
- ht\, Angela Bassett\n\nFilm release at Merlin Cinemas Bodmin\nBook tickets
- : /film/wildwood\n\nFilm details: https://evenwebb.github.io/merlin-cinema
- s/films/wildwood.html
+DESCRIPTION:Wildwood (2h 12min)\nAnimation\, Adventure\, Fantasy\n\nAfter h
+ er baby brother is abducted by a murder of crows\, Prue and her classmate 
+ Curtis stumble upon a secret world in the midst of violent upheaval—a worl
+ d full of warring creatures\, peaceable mystics\, and powerful figures wit
+ h dark intentions. And what begins as a rescue mission becomes something m
+ uch greater as the two find themselves entwined in a struggle for the very
+  freedom of this wilderness—a wilderness the locals call Wildwood.\n\nStar
+ ring: Peyton Elizabeth Lee\, Jacob Tremblay\, Carey Mulligan\, Mahershala 
+ Ali\, Arthur Knight\, Angela Bassett\n\nFilm release at Merlin Cinemas Bod
+ min\nBook tickets: /film/wildwood\n\nFilm details: https://evenwebb.github
+ .io/merlin-cinemas/films/wildwood.html
 LOCATION:Merlin Cinemas Bodmin
 URL:/film/wildwood
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:bc1a52175877f66bca36d7e0ba666a4fd5f01bab@merlin-cinemas
-DTSTAMP:20260915T144524Z
+DTSTAMP:20260916T144349Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Ghosts: The Possession Of Button House @ Merlin Bodmin
@@ -439,7 +577,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:c39880e223db71adf3e1306b30bce6633b3bac7a@merlin-cinemas
-DTSTAMP:20260915T144524Z
+DTSTAMP:20260916T144349Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Klara And The Sun @ Merlin Bodmin
@@ -459,7 +597,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:92c48ccdb4964ef828b1aade029cb19daec48869@merlin-cinemas
-DTSTAMP:20260915T144524Z
+DTSTAMP:20260916T144349Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Clayface @ Merlin Bodmin
@@ -479,7 +617,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:ea12b3160c23f58d908ae46700fd5410aa4d2236@merlin-cinemas
-DTSTAMP:20260915T144524Z
+DTSTAMP:20260916T144349Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:I Play Rocky @ Merlin Bodmin
@@ -498,7 +636,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:a85d01d8e431650a6a0f3ea0e2e98d4ee8c9c57c@merlin-cinemas
-DTSTAMP:20260915T144524Z
+DTSTAMP:20260916T144349Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:Wild Horse Nine @ Merlin Bodmin
@@ -518,7 +656,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:68ddca0e69f6fac52930da9be8875276d617a049@merlin-cinemas
-DTSTAMP:20260915T144524Z
+DTSTAMP:20260916T144349Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:Whispers In The Woods @ Merlin Bodmin
@@ -540,7 +678,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:6ec7e27919c7292d400bf6f75121238b480b7858@merlin-cinemas
-DTSTAMP:20260915T144524Z
+DTSTAMP:20260916T144349Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:Ebenezer @ Merlin Bodmin
@@ -558,7 +696,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:207519237c22db57f535b7b859fb4df832cbd6ef@merlin-cinemas
-DTSTAMP:20260915T144524Z
+DTSTAMP:20260916T144349Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:How To Rob A Bank @ Merlin Bodmin
@@ -578,7 +716,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:f15fcddc1efa0096bf1d071473bd0f32eeca37a6@merlin-cinemas
-DTSTAMP:20260915T144524Z
+DTSTAMP:20260916T144349Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:The Hunger Games: Sunrise On The Reaping @ Merlin Bodmin
@@ -596,7 +734,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:da34b562bd0d2389a12654e96757d26460aa7541@merlin-cinemas
-DTSTAMP:20260915T144524Z
+DTSTAMP:20260916T144349Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Focker-In-Law @ Merlin Bodmin
@@ -613,7 +751,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:38d0513e46cddd4fa84777986528d7758b72aa93@merlin-cinemas
-DTSTAMP:20260915T144524Z
+DTSTAMP:20260916T144349Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Hexed @ Merlin Bodmin
@@ -632,7 +770,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:0678dcbf8a61f2b2cbba5781275cf6c4deae8ee0@merlin-cinemas
-DTSTAMP:20260915T144524Z
+DTSTAMP:20260916T144349Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Violent Night 2 @ Merlin Bodmin
@@ -653,7 +791,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:10fab4e0554c825b1d237d6d273b03a3262bce76@merlin-cinemas
-DTSTAMP:20260915T144524Z
+DTSTAMP:20260916T144349Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Dune: Part Three @ Merlin Bodmin
@@ -670,7 +808,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:8bcde4a29b6f26e28e4bc7ccf40812c1b1ce089f@merlin-cinemas
-DTSTAMP:20260915T144524Z
+DTSTAMP:20260916T144349Z
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
 SUMMARY:Avengers: Doomsday @ Merlin Bodmin
@@ -687,7 +825,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:adb9d22e31f1fb0f3a2f717c68c634857ca05488@merlin-cinemas
-DTSTAMP:20260915T144524Z
+DTSTAMP:20260916T144349Z
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20261226
 SUMMARY:Jumanji: Open World @ Merlin Bodmin
@@ -704,7 +842,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:0b0b5ebcdb1186a66b24f8e2782905316885b7c0@merlin-cinemas
-DTSTAMP:20260915T144524Z
+DTSTAMP:20260916T144349Z
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20261226
 SUMMARY:The Angry Birds Movie 3 @ Merlin Bodmin
@@ -720,39 +858,39 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:d79fc68550efe38b20a230592fe7dc12ab4df3f5@merlin-cinemas
-DTSTAMP:20260915T144524Z
+DTSTAMP:20260916T144349Z
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270102
 SUMMARY:Werwulf @ Merlin Bodmin
-DESCRIPTION:Werwulf\nHorror\, Fantasy\n\nA harrowing tale of devotion\, dam
- nation and the devil within.\n\nStarring: Aaron Taylor-Johnson\, Lily-Rose
-  Depp\, Willem Dafoe\, Bodhi Rae Breathnach\, Ralph Ineson\, Vidal Arzoni\
- n\nFilm release at Merlin Cinemas Bodmin\nBook tickets: /film/werwulf\n\nF
- ilm details: https://evenwebb.github.io/merlin-cinemas/films/werwulf.html
+DESCRIPTION:Werwulf\nHorror\n\nA harrowing tale of devotion\, damnation and
+  the devil within.\n\nStarring: Aaron Taylor-Johnson\, Lily-Rose Depp\, Wi
+ llem Dafoe\, Bodhi Rae Breathnach\, Ralph Ineson\, Vidal Arzoni\n\nFilm re
+ lease at Merlin Cinemas Bodmin\nBook tickets: /film/werwulf\n\nFilm detail
+ s: https://evenwebb.github.io/merlin-cinemas/films/werwulf.html
 LOCATION:Merlin Cinemas Bodmin
 URL:/film/werwulf
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:dc1a501c20f05a1b8bc32ed9ed6514ad5ccb9e10@merlin-cinemas
-DTSTAMP:20260915T144524Z
+DTSTAMP:20260916T144349Z
 DTSTART;VALUE=DATE:20270108
 DTEND;VALUE=DATE:20270109
 SUMMARY:Ink @ Merlin Bodmin
 DESCRIPTION:Ink (1h 56min)\nDrama\, History\n\nA group of misfits and visio
  naries had an idea for a new kind of news - one that would give the people
   what they want\, and would change the face of the world we live in today.
- \n\nStarring: Jack O'Connell\, Guy Pearce\, Claire Foy\, Bertie Carvel\, B
- rian Gleeson\, Patrick Kennedy\n\nFilm release at Merlin Cinemas Bodmin\nB
- ook tickets: /film/ink\n\nFilm details: https://evenwebb.github.io/merlin-
- cinemas/films/ink.html
+ \n\nStarring: Jack O'Connell\, Guy Pearce\, Claire Foy\, Blake Harrison\, 
+ Patrick Kennedy\, Angus Imrie\n\nFilm release at Merlin Cinemas Bodmin\nBo
+ ok tickets: /film/ink\n\nFilm details: https://evenwebb.github.io/merlin-c
+ inemas/films/ink.html
 LOCATION:Merlin Cinemas Bodmin
 URL:/film/ink
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:99847bb065ca31a0430303046006df01ffc1a882@merlin-cinemas
-DTSTAMP:20260915T144524Z
+DTSTAMP:20260916T144349Z
 DTSTART;VALUE=DATE:20270205
 DTEND;VALUE=DATE:20270206
 SUMMARY:Remain @ Merlin Bodmin
@@ -770,7 +908,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:7daa320f6b36cc8182f8f078ed4c10ba62927593@merlin-cinemas
-DTSTAMP:20260915T144524Z
+DTSTAMP:20260916T144349Z
 DTSTART;VALUE=DATE:20270205
 DTEND;VALUE=DATE:20270206
 SUMMARY:Ice Age: Boiling Point @ Merlin Bodmin
@@ -789,7 +927,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:95bf23e2468df428f9da9502ada529cc57c10c1d@merlin-cinemas
-DTSTAMP:20260915T144524Z
+DTSTAMP:20260916T144349Z
 DTSTART;VALUE=DATE:20270212
 DTEND;VALUE=DATE:20270213
 SUMMARY:CoComelon: The Movie @ Merlin Bodmin
@@ -809,7 +947,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:87b6e9f2fc6a14ea1263547c754f6d272cd7e38b@merlin-cinemas
-DTSTAMP:20260915T144524Z
+DTSTAMP:20260916T144349Z
 DTSTART;VALUE=DATE:20270326
 DTEND;VALUE=DATE:20270327
 SUMMARY:Not Alone @ Merlin Bodmin
@@ -827,7 +965,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:f81502369971baef9ea68e30b37fc92b24468cc3@merlin-cinemas
-DTSTAMP:20260915T144524Z
+DTSTAMP:20260916T144349Z
 DTSTART;VALUE=DATE:20270730
 DTEND;VALUE=DATE:20270731
 SUMMARY:Shrek 5 @ Merlin Bodmin
