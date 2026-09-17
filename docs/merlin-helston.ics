@@ -9,279 +9,8 @@ X-WR-CALNAME:Merlin Flora Cinema Movie Premieres
 X-WR-CALDESC:Upcoming movie premieres at Merlin Cinemas Flora Cinema
 X-WR-TIMEZONE:Europe/London
 BEGIN:VEVENT
-UID:238c0ba18f51acc079c2aa763f7734720b648d7a@merlin-cinemas
-DTSTAMP:20260916T144349Z
-DTSTART;VALUE=DATE:19600915
-DTEND;VALUE=DATE:19600916
-SUMMARY:Picture House presents Psycho @ Merlin Helston
-DESCRIPTION:Picture House presents Psycho (7 min)\n\nPassionate debates abo
- ut cinema and pet peeves lead to a friendship of sorts with movie theater 
- co-workers Tim and John.\n\nStarring: Tim Cherry\, John Dyslin\n\nFilm rel
- ease at Merlin Cinemas Helston\nBook tickets: /film/picture-house-presents
- -psycho\n\nFilm details: https://evenwebb.github.io/merlin-cinemas/films/p
- icture-house-presents-psycho.html
-LOCATION:Merlin Cinemas Helston
-URL:/film/picture-house-presents-psycho
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:cc9b29912f95c4126d010cf34e8841cb8b1f6ca8@merlin-cinemas
-DTSTAMP:20260916T144349Z
-DTSTART;VALUE=DATE:19800731
-DTEND;VALUE=DATE:19800801
-SUMMARY:Picture House presents Can't Stop The Music @ Merlin Helston
-DESCRIPTION:Picture House presents Can't Stop The Music (7 min)\n\nPassiona
- te debates about cinema and pet peeves lead to a friendship of sorts with 
- movie theater co-workers Tim and John.\n\nStarring: Tim Cherry\, John Dysl
- in\n\nFilm release at Merlin Cinemas Helston\nBook tickets: /film/picture-
- house-presents-cant-stop-the-music\n\nFilm details: https://evenwebb.githu
- b.io/merlin-cinemas/films/picture-house-presents-can-t-stop-the-music.html
-LOCATION:Merlin Cinemas Helston
-URL:/film/picture-house-presents-cant-stop-the-music
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:2aaa39ff4474a82e4943f59ddb3ed27b81749430@merlin-cinemas
-DTSTAMP:20260916T144349Z
-DTSTART;VALUE=DATE:19810205
-DTEND;VALUE=DATE:19810206
-SUMMARY:9 To 5 @ Merlin Helston
-DESCRIPTION:9 To 5\nComedy\, Drama\n\nA contemporary remake of the 1980 cla
- ssic about three female office employees who decide to take revenge agains
- t their rude and sexist boss.\n\nFilm release at Merlin Cinemas Helston\nB
- ook tickets: /film/9-to-5\n\nFilm details: https://evenwebb.github.io/merl
- in-cinemas/films/9-to-5.html
-LOCATION:Merlin Cinemas Helston
-URL:/film/9-to-5
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:a38eb5379256d3edfdb056c85359edfadc2b4a53@merlin-cinemas
-DTSTAMP:20260916T144349Z
-DTSTART;VALUE=DATE:19820917
-DTEND;VALUE=DATE:19820918
-SUMMARY:Picture House presents Poltergeist @ Merlin Helston
-DESCRIPTION:Picture House presents Poltergeist (7 min)\n\nPassionate debate
- s about cinema and pet peeves lead to a friendship of sorts with movie the
- ater co-workers Tim and John.\n\nStarring: Tim Cherry\, John Dyslin\n\nFil
- m release at Merlin Cinemas Helston\nBook tickets: /film/picture-house-pre
- sents-poltergeist\n\nFilm details: https://evenwebb.github.io/merlin-cinem
- as/films/picture-house-presents-poltergeist.html
-LOCATION:Merlin Cinemas Helston
-URL:/film/picture-house-presents-poltergeist
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:fc0eb84ab1415ba6388ca6993cfa298d5f30f590@merlin-cinemas
-DTSTAMP:20260916T144349Z
-DTSTART;VALUE=DATE:20260710
-DTEND;VALUE=DATE:20260711
-SUMMARY:Life Support @ Merlin Helston
-DESCRIPTION:Life Support (1h 30min)\nDocumentary\n\nSince October 2023\, Ga
- za has been sealed from the world-except for one group. International doct
- ors breach the blockade\, what they find is not just a humanitarian crisis
- \, but a calculated dismantling of life itself.\n\nStarring: Khaled Dawas\
- , Graeme Groom\, Tanya Haj-Hassan\, Debbie Harrington\, Ana Jeelani\, Mhoi
- ra Leng\n\nFilm release at Merlin Cinemas Helston\nBook tickets: /film/lif
- e-support\n\nFilm details: https://evenwebb.github.io/merlin-cinemas/films
- /life-support.html
-LOCATION:Merlin Cinemas Helston
-URL:/film/life-support
-SEQUENCE:1
-END:VEVENT
-BEGIN:VEVENT
-UID:4987ff9061dfb704022a92d720c43ef84170533f@merlin-cinemas
-DTSTAMP:20260916T144349Z
-DTSTART;VALUE=DATE:20260724
-DTEND;VALUE=DATE:20260725
-SUMMARY:On The Sea @ Merlin Helston
-DESCRIPTION:On The Sea (1h 55min)\nDrama\, Romance\n\nIn a rural town in No
- rth Wales\, mussel harvester Jack has been married to his wife Maggie for 
- over half of his life. He is troubled by his son Tom\, who has little inte
- rest in the family trade. When Jack crosses paths with Daniel\, an itinera
- nt deckhand\, their attraction poses an impossible dilemma.\n\nStarring: B
- arry Ward\, Lorne MacFadyen\, Liz White\, Henry Lawfull\, Celyn Jones\, Le
- isa Gwenllian\n\nFilm release at Merlin Cinemas Helston\nBook tickets: /fi
- lm/on-the-sea\n\nFilm details: https://evenwebb.github.io/merlin-cinemas/f
- ilms/on-the-sea.html
-LOCATION:Merlin Cinemas Helston
-URL:/film/on-the-sea
-SEQUENCE:1
-END:VEVENT
-BEGIN:VEVENT
-UID:fcab2712e0a5024c3ad7270d6afe0d91f80fe9da@merlin-cinemas
-DTSTAMP:20260916T144349Z
-DTSTART;VALUE=DATE:20260807
-DTEND;VALUE=DATE:20260808
-SUMMARY:Bring Your Own Baby Screening: The Summer Book @ Merlin Helston
-DESCRIPTION:Bring Your Own Baby Screening: The Summer Book (2h)\nDocumentar
- y\n\nAn investigation into our landscape's hidden fire stories and on-the-
- ground experiences of firefighters and residents struggling through deadly
-  fires.\n\nStarring: Marily Woodhouse\n\nFilm release at Merlin Cinemas He
- lston\nBook tickets: /film/the-summer-book-byob\n\nFilm details: https://e
- venwebb.github.io/merlin-cinemas/films/bring-your-own-baby-screening-the-s
- ummer-book.html
-LOCATION:Merlin Cinemas Helston
-URL:/film/the-summer-book-byob
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:f75acec65f7915ec8b18003537642cc4240292c1@merlin-cinemas
-DTSTAMP:20260916T144349Z
-DTSTART;VALUE=DATE:20260904
-DTEND;VALUE=DATE:20260905
-SUMMARY:Bring Your Own Baby Screening: Super Nature @ Merlin Helston
-DESCRIPTION:Bring Your Own Baby Screening: Super Nature (2h)\nDocumentary\n
- \nAn investigation into our landscape's hidden fire stories and on-the-gro
- und experiences of firefighters and residents struggling through deadly fi
- res.\n\nStarring: Marily Woodhouse\n\nFilm release at Merlin Cinemas Helst
- on\nBook tickets: /film/super-nature-byob\n\nFilm details: https://evenweb
- b.github.io/merlin-cinemas/films/bring-your-own-baby-screening-super-natur
- e.html
-LOCATION:Merlin Cinemas Helston
-URL:/film/super-nature-byob
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:c2ae8415313d3e8aeea6b403d48639181c901fd4@merlin-cinemas
-DTSTAMP:20260916T144349Z
-DTSTART;VALUE=DATE:20260904
-DTEND;VALUE=DATE:20260905
-SUMMARY:The Incomer @ Merlin Helston
-DESCRIPTION:The Incomer (1h 42min)\nComedy\, Drama\n\nOn an Orkney isle\, s
- iblings Isla and Sandy survive by hunting seabirds\, retelling the stories
-  of their ancestors\, and defending the isle from dreaded "Incomers". Thei
- r world is upended with the arrival of an awkward council worker who has c
- ome to uproot them from their homeland.\n\nStarring: Domhnall Gleeson\, Ga
- yle Rankin\, Grant O'Rourke\, Emun Elliott\, Michelle Gomez\, John Hannah\
- n\nFilm release at Merlin Cinemas Helston\nBook tickets: /film/the-incomer
- \n\nFilm details: https://evenwebb.github.io/merlin-cinemas/films/the-inco
- mer.html
-LOCATION:Merlin Cinemas Helston
-URL:/film/the-incomer
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:b9ca7d3db8a8a147da89ce20a43b14edab537058@merlin-cinemas
-DTSTAMP:20260916T144349Z
-DTSTART;VALUE=DATE:20260911
-DTEND;VALUE=DATE:20260912
-SUMMARY:Bring Your Own Baby Screening: Practical Magic 2 @ Merlin Helston
-DESCRIPTION:Bring Your Own Baby Screening: Practical Magic 2 (2h)\nDocument
- ary\n\nAn investigation into our landscape's hidden fire stories and on-th
- e-ground experiences of firefighters and residents struggling through dead
- ly fires.\n\nStarring: Marily Woodhouse\n\nFilm release at Merlin Cinemas 
- Helston\nBook tickets: /film/practical-magic-2-byob\n\nFilm details: https
- ://evenwebb.github.io/merlin-cinemas/films/bring-your-own-baby-screening-p
- ractical-magic-2.html
-LOCATION:Merlin Cinemas Helston
-URL:/film/practical-magic-2-byob
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:9aeced026729aaeff7a4a8be0af50378275140db@merlin-cinemas
-DTSTAMP:20260916T144349Z
-DTSTART;VALUE=DATE:20260912
-DTEND;VALUE=DATE:20260913
-SUMMARY:All Rivers Spill Their Stories To The Sea @ Merlin Helston
-DESCRIPTION:All Rivers Spill Their Stories To The Sea (1h 39min)\nDocumenta
- ry\n\nWhen a tidemark of poisoned crabs & lobsters devastate a small North
-  East fishing town\, veteran fisherman Stan Rennie becomes the unlikeliest
-  of activists. A wry David and Goliath story\, told with gallows humour an
- d a broad Teesside accent\, about the grief of navigating a world which ha
- s suddenly\, inexplicably changed forever.\n\nStarring: Stan Rennie\n\nFil
- m release at Merlin Cinemas Helston\nBook tickets: /film/all-rivers-spill-
- their-stories-to-the-sea-with-q-and-a\n\nFilm details: https://evenwebb.gi
- thub.io/merlin-cinemas/films/all-rivers-spill-their-stories-to-the-sea.htm
- l
-LOCATION:Merlin Cinemas Helston
-URL:/film/all-rivers-spill-their-stories-to-the-sea-with-q-and-a
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:22686bcc919e73541dd5aed620ee50be035859f6@merlin-cinemas
-DTSTAMP:20260916T144349Z
-DTSTART;VALUE=DATE:20260916
-DTEND;VALUE=DATE:20260917
-SUMMARY:St Ives Stories Launch Screening @ Merlin Helston
-DESCRIPTION:St Ives Stories Launch Screening (1h 59min)\n\nInternational Dr
- eam Match  Yoshihiro Tajiri vs 'The Star Attraction' Mark Haskins  Undispu
- ted British Heavyweight Championship Match  Sha Samuels (c) vs. El Ligero 
-  Cruiserweight Contenders Match  Noam Dar vs. The Lion Kid  Undisputed Bri
- tish Cruiserweight Championship Match  'Party' Marty Scurll (c) vs. Prince
-  Devitt  Non-Title Tag Team Challenge Match  Project Ego (Martin Kirby & K
- ris Travis) vs. The Hunter Brothers (Lee & Jim Hunter)  Heavyweight War  '
- Big Bad' Dave Mastiff vs. 'The Heavyweight House of Pain' Stixx\n\nFilm re
- lease at Merlin Cinemas Helston\nBook tickets: /film/st-ives-stories\n\nFi
- lm details: https://evenwebb.github.io/merlin-cinemas/films/st-ives-storie
- s-launch-screening.html
-LOCATION:Merlin Cinemas Helston
-URL:/film/st-ives-stories
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:1117e678b9e0736bb062db7dc8d92ed3e5b9f509@merlin-cinemas
-DTSTAMP:20260916T144349Z
-DTSTART;VALUE=DATE:20260918
-DTEND;VALUE=DATE:20260919
-SUMMARY:The Fastest Bicycle @ Merlin Helston
-DESCRIPTION:The Fastest Bicycle (1h 38min)\nDocumentary\n\nThe story of a L
- ondon team’s mission to 'go fast' and their journey to the 'World Human Po
- wered Speed Challenge' on Route 305\, Battle Mountain\, Nevada USA. There 
- they discover an international community of speed freaks like no other. Th
- e Fastest Bicycle is a story of perseverance\, as the team tackle a missin
- g bike\, high speed crashes\, members departures\, serious design flaws an
- d injury. It’s also an exploration of community\, as they discover that th
- eir competitors can also be their greatest allies.\n\nStarring: Mike Burro
- ws\, Chris Boardman\, Francois Pervis\, Karen Darke\, Ilona Pelletier\, To
- dd Reichert\n\nFilm release at Merlin Cinemas Helston\nBook tickets: /film
- /the-fastest-bicycle-with-q-and-a\n\nFilm details: https://evenwebb.github
- .io/merlin-cinemas/films/the-fastest-bicycle.html
-LOCATION:Merlin Cinemas Helston
-URL:/film/the-fastest-bicycle-with-q-and-a
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:44a99388bb1c49c92e5bb73f4a63ef8da6c23d3c@merlin-cinemas
-DTSTAMP:20260916T144349Z
-DTSTART;VALUE=DATE:20260925
-DTEND;VALUE=DATE:20260926
-SUMMARY:Bring Your Own Baby Screening: Sense And Sensibility @ Merlin Helst
- on
-DESCRIPTION:Bring Your Own Baby Screening: Sense And Sensibility (2h)\nDocu
- mentary\n\nAn investigation into our landscape's hidden fire stories and o
- n-the-ground experiences of firefighters and residents struggling through 
- deadly fires.\n\nStarring: Marily Woodhouse\n\nFilm release at Merlin Cine
- mas Helston\nBook tickets: /film/sense-and-sensibility-byob\n\nFilm detail
- s: https://evenwebb.github.io/merlin-cinemas/films/bring-your-own-baby-scr
- eening-sense-and-sensibility.html
-LOCATION:Merlin Cinemas Helston
-URL:/film/sense-and-sensibility-byob
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:bf83b155fb5fbc5662e4c2d492d1785666a4bcd7@merlin-cinemas
-DTSTAMP:20260916T144349Z
-DTSTART;VALUE=DATE:20260925
-DTEND;VALUE=DATE:20260926
-SUMMARY:Avengers: Endgame Encore @ Merlin Helston
-DESCRIPTION:Avengers: Endgame Encore (3h 1min)\n★★★★☆\nAdventure\, Science 
- Fiction\, Action\n\nAfter the devastating events of Avengers: Infinity War
- \, the universe is in ruins due to the efforts of the Mad Titan\, Thanos. 
- With the help of remaining allies\, the Avengers must assemble once more i
- n order to undo Thanos' actions and restore order to the universe once and
-  for all\, no matter what consequences may be in store.\n\nStarring: Rober
- t Downey Jr.\, Chris Evans\, Mark Ruffalo\, Chris Hemsworth\, Scarlett Joh
- ansson\, Jeremy Renner\n\nFilm release at Merlin Cinemas Helston\nBook tic
- kets: /film/avengers-endgame-encore\n\nFilm details: https://evenwebb.gith
- ub.io/merlin-cinemas/films/avengers-endgame-encore.html
-LOCATION:Merlin Cinemas Helston
-URL:/film/avengers-endgame-encore
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
 UID:4ece09f4ae2cfb87582f1fca620ad9d5e35832be@merlin-cinemas
-DTSTAMP:20260916T144349Z
+DTSTAMP:20260917T144720Z
 DTSTART;VALUE=DATE:20260925
 DTEND;VALUE=DATE:20260926
 SUMMARY:Sense And Sensibility @ Merlin Helston
@@ -303,27 +32,8 @@ URL:/film/sense-and-sensibility
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:ca0058c622cd21c0e383a097de976371df37d70c@merlin-cinemas
-DTSTAMP:20260916T144349Z
-DTSTART;VALUE=DATE:20260927
-DTEND;VALUE=DATE:20260928
-SUMMARY:Steel On Film @ Merlin Helston
-DESCRIPTION:Steel On Film (55 min)\nDocumentary\n\n20 and 18 meters long ar
- e the two industrial furnaces\, which the Austrian forwarding company Felb
- ermayr is to transport from a ship dock on the Danube to an aircraft compo
- nent company. The total weight of both furnaces of a good 300 tons is only
-  one of many problems. The steel colossus is almost seven metres high - to
- o high to pass through most of the bridges or tunnels. An insoluble enterp
- rise?\n\nFilm release at Merlin Cinemas Helston\nBook tickets: /film/steel
- -on-film-with-q-and-a\n\nFilm details: https://evenwebb.github.io/merlin-c
- inemas/films/steel-on-film.html
-LOCATION:Merlin Cinemas Helston
-URL:/film/steel-on-film-with-q-and-a
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
 UID:6079b18def948a668e96911b99772fc86f0e082d@merlin-cinemas
-DTSTAMP:20260916T144349Z
+DTSTAMP:20260917T144720Z
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261003
 SUMMARY:Digger @ Merlin Helston
@@ -339,7 +49,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:5ad1f368b12f1e241b8f55f1b252c540559e92a4@merlin-cinemas
-DTSTAMP:20260916T144349Z
+DTSTAMP:20260917T144720Z
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261003
 SUMMARY:Verity @ Merlin Helston
@@ -357,7 +67,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:9c89cce5c021c34919b7a3e4ca61d16d6db19c2d@merlin-cinemas
-DTSTAMP:20260916T144349Z
+DTSTAMP:20260917T144720Z
 DTSTART;VALUE=DATE:20261004
 DTEND;VALUE=DATE:20261005
 SUMMARY:The Gruffalo’s Child @ Merlin Helston
@@ -376,24 +86,8 @@ URL:/film/the-gruffalo-and-the-gruffalos-child-toddler-cinema
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:c1cfe53f4c325c4bc17ca0156fbaabb60ceb2d66@merlin-cinemas
-DTSTAMP:20260916T144349Z
-DTSTART;VALUE=DATE:20261008
-DTEND;VALUE=DATE:20261009
-SUMMARY:Future Acts @ Merlin Helston
-DESCRIPTION:Future Acts (1h 28min)\n★★☆☆☆\nScience Fiction\n\nA young boy s
- earches a future world wasteland for a rumored cure for his dying mother.\
- n\nStarring: James Franco\, Suki Waterhouse\, Jeff Wahlberg\, Margarita Le
- vieva\, Snoop Dogg\, Twin Shadow\n\nFilm release at Merlin Cinemas Helston
- \nBook tickets: /film/future-acts-with-q-and-a\n\nFilm details: https://ev
- enwebb.github.io/merlin-cinemas/films/future-acts.html
-LOCATION:Merlin Cinemas Helston
-URL:/film/future-acts-with-q-and-a
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
 UID:d00e812ccf123d255bb665372a90b583194a895c@merlin-cinemas
-DTSTAMP:20260916T144349Z
+DTSTAMP:20260917T144720Z
 DTSTART;VALUE=DATE:20261009
 DTEND;VALUE=DATE:20261010
 SUMMARY:The Uprising @ Merlin Helston
@@ -411,7 +105,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:cf4c04fba7c9309113b524e77d2d04be2c344a7d@merlin-cinemas
-DTSTAMP:20260916T144349Z
+DTSTAMP:20260917T144720Z
 DTSTART;VALUE=DATE:20261009
 DTEND;VALUE=DATE:20261010
 SUMMARY:The Social Reckoning @ Merlin Helston
@@ -429,7 +123,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:940ff108b0c5e6b39e9d317e139f5fd257022c47@merlin-cinemas
-DTSTAMP:20260916T144349Z
+DTSTAMP:20260917T144720Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:Whalefall @ Merlin Helston
@@ -448,7 +142,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:2042eda39b60d7803cfc2f805516bb9cdcec870e@merlin-cinemas
-DTSTAMP:20260916T144349Z
+DTSTAMP:20260917T144720Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:Street Fighter @ Merlin Helston
@@ -468,7 +162,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:9091cd5d632afbca69be57e18d970df177c81b01@merlin-cinemas
-DTSTAMP:20260916T144349Z
+DTSTAMP:20260917T144720Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:Forgotten Island @ Merlin Helston
@@ -488,7 +182,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:18adc2ba65b2cbb567f7897771e11130394a748d@merlin-cinemas
-DTSTAMP:20260916T144349Z
+DTSTAMP:20260917T144720Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Wildwood @ Merlin Helston
@@ -498,18 +192,18 @@ DESCRIPTION:Wildwood (2h 12min)\nAnimation\, Adventure\, Fantasy\n\nAfter h
  d full of warring creatures\, peaceable mystics\, and powerful figures wit
  h dark intentions. And what begins as a rescue mission becomes something m
  uch greater as the two find themselves entwined in a struggle for the very
-  freedom of this wilderness—a wilderness the locals call Wildwood.\n\nStar
- ring: Peyton Elizabeth Lee\, Jacob Tremblay\, Carey Mulligan\, Mahershala 
- Ali\, Arthur Knight\, Angela Bassett\n\nFilm release at Merlin Cinemas Hel
- ston\nBook tickets: /film/wildwood\n\nFilm details: https://evenwebb.githu
- b.io/merlin-cinemas/films/wildwood.html
+  freedom of this wilderness—a wilderness the locals call Wildwood\n\nStarr
+ ing: Peyton Elizabeth Lee\, Jacob Tremblay\, Carey Mulligan\, Mahershala A
+ li\, Arthur Knight\, Angela Bassett\n\nFilm release at Merlin Cinemas Hels
+ ton\nBook tickets: /film/wildwood\n\nFilm details: https://evenwebb.github
+ .io/merlin-cinemas/films/wildwood.html
 LOCATION:Merlin Cinemas Helston
 URL:/film/wildwood
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:8657e2942c50f29deff8abc10c07314b6ea481d7@merlin-cinemas
-DTSTAMP:20260916T144349Z
+DTSTAMP:20260917T144720Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Ghosts: The Possession Of Button House @ Merlin Helston
@@ -526,7 +220,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:05404087f734f255e58d14c689f1ab72ce0e40c0@merlin-cinemas
-DTSTAMP:20260916T144349Z
+DTSTAMP:20260917T144720Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Klara And The Sun @ Merlin Helston
@@ -546,7 +240,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:de10fea8931c746c7fdb17bd98d3fc0210c94ca9@merlin-cinemas
-DTSTAMP:20260916T144349Z
+DTSTAMP:20260917T144720Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Clayface @ Merlin Helston
@@ -566,7 +260,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:37bdc64835611147f9688a605dac707ab34da677@merlin-cinemas
-DTSTAMP:20260916T144349Z
+DTSTAMP:20260917T144720Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:I Play Rocky @ Merlin Helston
@@ -585,7 +279,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:40e369e6820bee7756de545cb05aecccad3c71af@merlin-cinemas
-DTSTAMP:20260916T144349Z
+DTSTAMP:20260917T144720Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:Wild Horse Nine @ Merlin Helston
@@ -604,30 +298,8 @@ URL:/film/wild-horse-nine
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:cb3b47d8a62aea5fe0d130e2f90bce0b73eee53e@merlin-cinemas
-DTSTAMP:20260916T144349Z
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
-SUMMARY:Whispers In The Woods @ Merlin Helston
-DESCRIPTION:Whispers In The Woods (1h 33min)\n★★★★☆\nDocumentary\n\nIn the 
- heart of the tranquil Vosges forests\, where lynxes\, bears and deer roam 
- freely\, Vincent Munier accompanies his father on his expeditions. He not 
- only seeks to capture the visual wonders of this forest kingdom\, but also
-  aims to make its sounds audible. Every whisper of the forest is a reminde
- r of the knowledge of nature that his father once imbued in him – knowledg
- e that Vincent now passes on to his own son. Vincent Munier combines breat
- htaking footage of nature and its sounds to create a fairytale-like cinema
- tic experience that slows time down.\n\nStarring: Michel Munier\, Simon Mu
- nier\, Vincent Munier\n\nFilm release at Merlin Cinemas Helston\nBook tick
- ets: /film/whispers-in-the-woods\n\nFilm details: https://evenwebb.github.
- io/merlin-cinemas/films/whispers-in-the-woods.html
-LOCATION:Merlin Cinemas Helston
-URL:/film/whispers-in-the-woods
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
 UID:e248ceca8da04263092f526ee51e62128e28a2c0@merlin-cinemas
-DTSTAMP:20260916T144349Z
+DTSTAMP:20260917T144720Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:Ebenezer @ Merlin Helston
@@ -645,7 +317,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:c7b1bcc477846f795c4fa2d63de2aac403726dae@merlin-cinemas
-DTSTAMP:20260916T144349Z
+DTSTAMP:20260917T144720Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:How To Rob A Bank @ Merlin Helston
@@ -665,7 +337,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:0df5dec001b2f2765225088639f1bd66d4a2fb1d@merlin-cinemas
-DTSTAMP:20260916T144349Z
+DTSTAMP:20260917T144720Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:The Hunger Games: Sunrise On The Reaping @ Merlin Helston
@@ -683,7 +355,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:893c69b85257e2ea976052062237b7a6eb95c45d@merlin-cinemas
-DTSTAMP:20260916T144349Z
+DTSTAMP:20260917T144720Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Focker-In-Law @ Merlin Helston
@@ -700,7 +372,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:96c10e2794c6958056b9ae7c33e7bd6731acef1b@merlin-cinemas
-DTSTAMP:20260916T144349Z
+DTSTAMP:20260917T144720Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Hexed @ Merlin Helston
@@ -719,7 +391,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:dfaa4ba1d900d056973bc85ae39fa9101b414f52@merlin-cinemas
-DTSTAMP:20260916T144349Z
+DTSTAMP:20260917T144720Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Violent Night 2 @ Merlin Helston
@@ -740,7 +412,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:31f704160e76cb5f3c01020887e6b82e09bfc672@merlin-cinemas
-DTSTAMP:20260916T144349Z
+DTSTAMP:20260917T144720Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Dune: Part Three @ Merlin Helston
@@ -757,7 +429,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:0da83b95a4049cdfa59d0eac8f8a67dc78fd1547@merlin-cinemas
-DTSTAMP:20260916T144349Z
+DTSTAMP:20260917T144720Z
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
 SUMMARY:Avengers: Doomsday @ Merlin Helston
@@ -774,7 +446,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:25090d4d2afd69d67f7a226008a3d07d95bd60fc@merlin-cinemas
-DTSTAMP:20260916T144349Z
+DTSTAMP:20260917T144720Z
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20261226
 SUMMARY:Jumanji: Open World @ Merlin Helston
@@ -791,7 +463,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:649ee6b90200a4f1c98ff00bcf0157536b16b2ab@merlin-cinemas
-DTSTAMP:20260916T144349Z
+DTSTAMP:20260917T144720Z
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20261226
 SUMMARY:The Angry Birds Movie 3 @ Merlin Helston
@@ -807,7 +479,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:d659f355d194e500f19763c149a8c0a3cb309915@merlin-cinemas
-DTSTAMP:20260916T144349Z
+DTSTAMP:20260917T144720Z
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270102
 SUMMARY:Werwulf @ Merlin Helston
@@ -822,7 +494,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:1a6de8202bc7135245cb0c9ece3a2bcbb7b07e0b@merlin-cinemas
-DTSTAMP:20260916T144349Z
+DTSTAMP:20260917T144720Z
 DTSTART;VALUE=DATE:20270108
 DTEND;VALUE=DATE:20270109
 SUMMARY:Ink @ Merlin Helston
@@ -839,7 +511,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:74b0395ebb5227ec8518184d239e8024bc69737b@merlin-cinemas
-DTSTAMP:20260916T144349Z
+DTSTAMP:20260917T144720Z
 DTSTART;VALUE=DATE:20270205
 DTEND;VALUE=DATE:20270206
 SUMMARY:Remain @ Merlin Helston
@@ -857,7 +529,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:17d31bada314af5a7ee9cacde7b9d80aaee79312@merlin-cinemas
-DTSTAMP:20260916T144349Z
+DTSTAMP:20260917T144720Z
 DTSTART;VALUE=DATE:20270205
 DTEND;VALUE=DATE:20270206
 SUMMARY:Ice Age: Boiling Point @ Merlin Helston
@@ -876,7 +548,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:c5a9eac3a826b2a1cdd93892b0464523b737f28c@merlin-cinemas
-DTSTAMP:20260916T144349Z
+DTSTAMP:20260917T144720Z
 DTSTART;VALUE=DATE:20270212
 DTEND;VALUE=DATE:20270213
 SUMMARY:CoComelon: The Movie @ Merlin Helston
@@ -896,7 +568,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:2a04df0381cfd17cf702c493918a74962ade0c49@merlin-cinemas
-DTSTAMP:20260916T144349Z
+DTSTAMP:20260917T144720Z
 DTSTART;VALUE=DATE:20270326
 DTEND;VALUE=DATE:20270327
 SUMMARY:Not Alone @ Merlin Helston
@@ -914,7 +586,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:7063fdf94bc2707441d0f909c4d39fd9791ea40c@merlin-cinemas
-DTSTAMP:20260916T144349Z
+DTSTAMP:20260917T144720Z
 DTSTART;VALUE=DATE:20270730
 DTEND;VALUE=DATE:20270731
 SUMMARY:Shrek 5 @ Merlin Helston
