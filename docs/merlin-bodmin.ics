@@ -10,7 +10,7 @@ X-WR-CALDESC:Upcoming movie premieres at Merlin Cinemas Capitol Cinema
 X-WR-TIMEZONE:Europe/London
 BEGIN:VEVENT
 UID:63f5d3a01080d11019565bd2b04182f4122dde96@merlin-cinemas
-DTSTAMP:20260928T180132Z
+DTSTAMP:20260929T162448Z
 DTSTART;VALUE=DATE:20261004
 DTEND;VALUE=DATE:20261005
 SUMMARY:The Gruffalo’s Child @ Merlin Bodmin
@@ -30,7 +30,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:85dfb46b1404b660f466a5f8b8272b1f9cd2177a@merlin-cinemas
-DTSTAMP:20260928T180132Z
+DTSTAMP:20260929T162448Z
 DTSTART;VALUE=DATE:20261009
 DTEND;VALUE=DATE:20261010
 SUMMARY:The Uprising @ Merlin Bodmin
@@ -48,7 +48,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:440e3b055ccd54bc33c9f53e5e156f12897fce4d@merlin-cinemas
-DTSTAMP:20260928T180132Z
+DTSTAMP:20260929T162448Z
 DTSTART;VALUE=DATE:20261009
 DTEND;VALUE=DATE:20261010
 SUMMARY:The Social Reckoning @ Merlin Bodmin
@@ -56,7 +56,7 @@ DESCRIPTION:The Social Reckoning (1h 52min)\nDrama\, Thriller\n\nFrances Ha
  ugen\, a young Facebook engineer\, enlists the help of Jeff Horwitz\, a Wa
  ll Street Journal reporter\, to go on a dangerous journey that ends up blo
  wing the whistle on the social network's most guarded secrets.\n\nStarring
- : Jeremy Strong\, Mikey Madison\, Jeremy Allen White\, Wunmi Mosaku\, Bett
+ : Mikey Madison\, Jeremy Allen White\, Jeremy Strong\, Wunmi Mosaku\, Bett
  y Gilpin\, Billy Magnussen\n\nFilm release at Merlin Cinemas Bodmin\nBook 
  tickets: /film/the-social-reckoning\n\nFilm details: https://evenwebb.gith
  ub.io/merlin-cinemas/films/the-social-reckoning.html
@@ -66,7 +66,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:de0f276219389ff3e3ad4d56f9296d71d9266531@merlin-cinemas
-DTSTAMP:20260928T180132Z
+DTSTAMP:20260929T162448Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:Whalefall @ Merlin Bodmin
@@ -85,7 +85,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:85c6f0ea66bc128e184724f5399ede1c9b42f535@merlin-cinemas
-DTSTAMP:20260928T180132Z
+DTSTAMP:20260929T162448Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:Street Fighter @ Merlin Bodmin
@@ -105,27 +105,28 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:bbfd306cf0bbde67bc80c9fa469db8d55d6ed0bd@merlin-cinemas
-DTSTAMP:20260928T180132Z
+DTSTAMP:20260929T162448Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:Forgotten Island @ Merlin Bodmin
-DESCRIPTION:Forgotten Island (1h 49min)\nAnimation\, Adventure\, Fantasy\, 
- Comedy\, Family\n\nWhile celebrating their last night together\, high scho
- ol graduates and best friends Jo and Raissa stumble upon a mysterious port
- al that transports them to the fantastical island of Nakali. When they dis
- cover that the memories of their entire friendship are the price for retur
- ning home\, Jo and Raissa must race to find a way to leave the island befo
- re they forget each other forever.\n\nStarring: H.E.R.\, Liza Soberano\, D
- ave Franco\, Jenny Slate\, Manny Jacinto\, Lea Salonga\n\nFilm release at 
- Merlin Cinemas Bodmin\nBook tickets: /film/forgotten-island\n\nFilm detail
- s: https://evenwebb.github.io/merlin-cinemas/films/forgotten-island.html
+DESCRIPTION:Forgotten Island (1h 49min)\n★★★★☆\nAnimation\, Adventure\, Fan
+ tasy\, Comedy\, Family\n\nWhile celebrating their last night together\, hi
+ gh school graduates and best friends Jo and Raissa stumble upon a mysterio
+ us portal that transports them to the fantastical island of Nakali. When t
+ hey discover that the memories of their entire friendship are the price fo
+ r returning home\, Jo and Raissa must race to find a way to leave the isla
+ nd before they forget each other forever.\n\nStarring: H.E.R.\, Liza Sober
+ ano\, Dave Franco\, Jenny Slate\, Manny Jacinto\, Lea Salonga\n\nFilm rele
+ ase at Merlin Cinemas Bodmin\nBook tickets: /film/forgotten-island\n\nFilm
+  details: https://evenwebb.github.io/merlin-cinemas/films/forgotten-island
+ .html
 LOCATION:Merlin Cinemas Bodmin
 URL:/film/forgotten-island
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:5c9142fea70783bf4d9bdcebe9d57d47eb3399c0@merlin-cinemas
-DTSTAMP:20260928T180132Z
+DTSTAMP:20260929T162448Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Wildwood @ Merlin Bodmin
@@ -144,7 +145,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:bc1a52175877f66bca36d7e0ba666a4fd5f01bab@merlin-cinemas
-DTSTAMP:20260928T180132Z
+DTSTAMP:20260929T162448Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Ghosts: The Possession Of Button House @ Merlin Bodmin
@@ -161,7 +162,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:c39880e223db71adf3e1306b30bce6633b3bac7a@merlin-cinemas
-DTSTAMP:20260928T180132Z
+DTSTAMP:20260929T162448Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Klara And The Sun @ Merlin Bodmin
@@ -181,7 +182,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:92c48ccdb4964ef828b1aade029cb19daec48869@merlin-cinemas
-DTSTAMP:20260928T180132Z
+DTSTAMP:20260929T162448Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Clayface @ Merlin Bodmin
@@ -202,7 +203,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20859c308093bb3e2fa1f4f0825af850eb6d6efb@merlin-cinemas
-DTSTAMP:20260928T180132Z
+DTSTAMP:20260929T162448Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:Rififi En La Ciudad @ Merlin Bodmin
@@ -223,7 +224,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:ea12b3160c23f58d908ae46700fd5410aa4d2236@merlin-cinemas
-DTSTAMP:20260928T180132Z
+DTSTAMP:20260929T162448Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:I Play Rocky @ Merlin Bodmin
@@ -242,7 +243,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:a85d01d8e431650a6a0f3ea0e2e98d4ee8c9c57c@merlin-cinemas
-DTSTAMP:20260928T180132Z
+DTSTAMP:20260929T162448Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:Wild Horse Nine @ Merlin Bodmin
@@ -262,7 +263,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:6ec7e27919c7292d400bf6f75121238b480b7858@merlin-cinemas
-DTSTAMP:20260928T180132Z
+DTSTAMP:20260929T162448Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:Ebenezer @ Merlin Bodmin
@@ -280,7 +281,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:207519237c22db57f535b7b859fb4df832cbd6ef@merlin-cinemas
-DTSTAMP:20260928T180132Z
+DTSTAMP:20260929T162448Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:How To Rob A Bank @ Merlin Bodmin
@@ -300,25 +301,26 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:f15fcddc1efa0096bf1d071473bd0f32eeca37a6@merlin-cinemas
-DTSTAMP:20260928T180132Z
+DTSTAMP:20260929T162448Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:The Hunger Games: Sunrise On The Reaping @ Merlin Bodmin
-DESCRIPTION:The Hunger Games: Sunrise On The Reaping\nScience Fiction\, Act
- ion\, Adventure\n\nReturn to the world of Panem 24 years before the events
-  of The Hunger Games\, starting on the morning of the reaping of the 50th 
- Hunger Games\, also known as the Second Quarter Quell.\n\nStarring: Joseph
-  Zada\, Ralph Fiennes\, Jesse Plemons\, Mckenna Grace\, Whitney Peak\, Ell
- e Fanning\n\nFilm release at Merlin Cinemas Bodmin\nBook tickets: /film/th
- e-hunger-games-sunrise-on-the-reaping\n\nFilm details: https://evenwebb.gi
- thub.io/merlin-cinemas/films/the-hunger-games-sunrise-on-the-reaping.html
+DESCRIPTION:The Hunger Games: Sunrise On The Reaping (2h 30min)\nScience Fi
+ ction\, Action\, Adventure\n\nReturn to the world of Panem 24 years before
+  the events of The Hunger Games\, starting on the morning of the reaping o
+ f the 50th Hunger Games\, also known as the Second Quarter Quell.\n\nStarr
+ ing: Joseph Zada\, Ralph Fiennes\, Jesse Plemons\, Mckenna Grace\, Whitney
+  Peak\, Elle Fanning\n\nFilm release at Merlin Cinemas Bodmin\nBook ticket
+ s: /film/the-hunger-games-sunrise-on-the-reaping\n\nFilm details: https://
+ evenwebb.github.io/merlin-cinemas/films/the-hunger-games-sunrise-on-the-re
+ aping.html
 LOCATION:Merlin Cinemas Bodmin
 URL:/film/the-hunger-games-sunrise-on-the-reaping
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:da34b562bd0d2389a12654e96757d26460aa7541@merlin-cinemas
-DTSTAMP:20260928T180132Z
+DTSTAMP:20260929T162448Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Focker-In-Law @ Merlin Bodmin
@@ -335,7 +337,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:38d0513e46cddd4fa84777986528d7758b72aa93@merlin-cinemas
-DTSTAMP:20260928T180132Z
+DTSTAMP:20260929T162448Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Hexed @ Merlin Bodmin
@@ -354,7 +356,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:0678dcbf8a61f2b2cbba5781275cf6c4deae8ee0@merlin-cinemas
-DTSTAMP:20260928T180132Z
+DTSTAMP:20260929T162448Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Violent Night 2 @ Merlin Bodmin
@@ -375,7 +377,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:10fab4e0554c825b1d237d6d273b03a3262bce76@merlin-cinemas
-DTSTAMP:20260928T180132Z
+DTSTAMP:20260929T162448Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Dune: Part Three @ Merlin Bodmin
@@ -397,7 +399,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:8bcde4a29b6f26e28e4bc7ccf40812c1b1ce089f@merlin-cinemas
-DTSTAMP:20260928T180132Z
+DTSTAMP:20260929T162448Z
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
 SUMMARY:Avengers: Doomsday @ Merlin Bodmin
@@ -414,7 +416,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:adb9d22e31f1fb0f3a2f717c68c634857ca05488@merlin-cinemas
-DTSTAMP:20260928T180132Z
+DTSTAMP:20260929T162448Z
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20261226
 SUMMARY:Jumanji: Open World @ Merlin Bodmin
@@ -431,7 +433,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:0b0b5ebcdb1186a66b24f8e2782905316885b7c0@merlin-cinemas
-DTSTAMP:20260928T180132Z
+DTSTAMP:20260929T162448Z
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20261226
 SUMMARY:The Angry Birds Movie 3 @ Merlin Bodmin
@@ -447,7 +449,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:d79fc68550efe38b20a230592fe7dc12ab4df3f5@merlin-cinemas
-DTSTAMP:20260928T180132Z
+DTSTAMP:20260929T162448Z
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270102
 SUMMARY:Werwulf @ Merlin Bodmin
@@ -462,7 +464,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:dc1a501c20f05a1b8bc32ed9ed6514ad5ccb9e10@merlin-cinemas
-DTSTAMP:20260928T180132Z
+DTSTAMP:20260929T162448Z
 DTSTART;VALUE=DATE:20270108
 DTEND;VALUE=DATE:20270109
 SUMMARY:Ink @ Merlin Bodmin
@@ -479,7 +481,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:99847bb065ca31a0430303046006df01ffc1a882@merlin-cinemas
-DTSTAMP:20260928T180132Z
+DTSTAMP:20260929T162448Z
 DTSTART;VALUE=DATE:20270205
 DTEND;VALUE=DATE:20270206
 SUMMARY:Remain @ Merlin Bodmin
@@ -497,7 +499,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:7daa320f6b36cc8182f8f078ed4c10ba62927593@merlin-cinemas
-DTSTAMP:20260928T180132Z
+DTSTAMP:20260929T162448Z
 DTSTART;VALUE=DATE:20270205
 DTEND;VALUE=DATE:20270206
 SUMMARY:Ice Age: Boiling Point @ Merlin Bodmin
@@ -516,7 +518,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:95bf23e2468df428f9da9502ada529cc57c10c1d@merlin-cinemas
-DTSTAMP:20260928T180132Z
+DTSTAMP:20260929T162448Z
 DTSTART;VALUE=DATE:20270212
 DTEND;VALUE=DATE:20270213
 SUMMARY:CoComelon: The Movie @ Merlin Bodmin
@@ -536,7 +538,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:87b6e9f2fc6a14ea1263547c754f6d272cd7e38b@merlin-cinemas
-DTSTAMP:20260928T180132Z
+DTSTAMP:20260929T162448Z
 DTSTART;VALUE=DATE:20270326
 DTEND;VALUE=DATE:20270327
 SUMMARY:Not Alone @ Merlin Bodmin
@@ -554,7 +556,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:f81502369971baef9ea68e30b37fc92b24468cc3@merlin-cinemas
-DTSTAMP:20260928T180132Z
+DTSTAMP:20260929T162448Z
 DTSTART;VALUE=DATE:20270730
 DTEND;VALUE=DATE:20270731
 SUMMARY:Shrek 5 @ Merlin Bodmin
