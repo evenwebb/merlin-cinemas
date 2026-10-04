@@ -10,7 +10,7 @@ X-WR-CALDESC:Upcoming movie premieres at Merlin Cinemas Phoenix Cinema
 X-WR-TIMEZONE:Europe/London
 BEGIN:VEVENT
 UID:934c74dbe5d12fffba50fbd2bbd7db18d664515d@merlin-cinemas
-DTSTAMP:20261003T143649Z
+DTSTAMP:20261004T151215Z
 DTSTART;VALUE=DATE:20261004
 DTEND;VALUE=DATE:20261005
 SUMMARY:The Gruffalo’s Child @ Merlin Falmouth
@@ -30,7 +30,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:bd137b89e8ff943f7bebe38f66012d4726c20e75@merlin-cinemas
-DTSTAMP:20261003T143649Z
+DTSTAMP:20261004T151215Z
 DTSTART;VALUE=DATE:20261009
 DTEND;VALUE=DATE:20261010
 SUMMARY:The Uprising @ Merlin Falmouth
@@ -47,7 +47,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:e96c0bf4bb917024d25a1ec79b8fb1b51cbd50e8@merlin-cinemas
-DTSTAMP:20261003T143649Z
+DTSTAMP:20261004T151215Z
 DTSTART;VALUE=DATE:20261009
 DTEND;VALUE=DATE:20261010
 SUMMARY:The Social Reckoning @ Merlin Falmouth
@@ -65,7 +65,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:22b5ed3070bb90f3790e95865f7dc7719f226fbe@merlin-cinemas
-DTSTAMP:20261003T143649Z
+DTSTAMP:20261004T151215Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:Whalefall @ Merlin Falmouth
@@ -84,48 +84,47 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:7865f92c5304dd2734899c940ea7ff887b493624@merlin-cinemas
-DTSTAMP:20261003T143649Z
+DTSTAMP:20261004T151215Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:Street Fighter @ Merlin Falmouth
-DESCRIPTION:Street Fighter\nAction\, Fantasy\n\nIn 1993\, estranged Street 
- Fighters Ryu and Ken Masters are thrown back into combat when the mysterio
- us Chun-Li recruits them for the next World Warrior Tournament: a brutal c
- lash of fists\, fate\, and fury. But behind this battle royale lies a dead
- ly conspiracy that forces them to face off against each other and the demo
- ns of their past. And if they don't\, it's GAME OVER!\n\nStarring: Andrew 
- Koji\, Noah Centineo\, Callina Liang\, Joe Anoa'i\, David Dastmalchian\, C
- ody Rhodes\n\nFilm release at Merlin Cinemas Falmouth\nBook tickets: /film
- /street-fighter\n\nFilm details: https://evenwebb.github.io/merlin-cinemas
- /films/street-fighter.html
+DESCRIPTION:Street Fighter (2h)\nAction\, Fantasy\n\nIn 1993\, estranged St
+ reet Fighters Ryu and Ken Masters are thrown back into combat when the mys
+ terious Chun-Li recruits them for the next World Warrior Tournament: a bru
+ tal clash of fists\, fate\, and fury. But behind this battle royale lies a
+  deadly conspiracy that forces them to face off against each other and the
+  demons of their past. And if they don't\, it's GAME OVER!\n\nStarring: An
+ drew Koji\, Noah Centineo\, Callina Liang\, Joe Anoa'i\, David Dastmalchia
+ n\, Cody Rhodes\n\nFilm release at Merlin Cinemas Falmouth\nBook tickets: 
+ /film/street-fighter\n\nFilm details: https://evenwebb.github.io/merlin-ci
+ nemas/films/street-fighter.html
 LOCATION:Merlin Cinemas Falmouth
 URL:/film/street-fighter
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:8daaedaaf7dc32752496aa0ab58d659f7eae500e@merlin-cinemas
-DTSTAMP:20261003T143649Z
+DTSTAMP:20261004T151215Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:Forgotten Island @ Merlin Falmouth
 DESCRIPTION:Forgotten Island (1h 49min)\n★★★★☆\nAnimation\, Adventure\, Fan
- tasy\, Comedy\, Family\n\nWhile celebrating their last night together\, hi
- gh school graduates and best friends Jo and Raissa stumble upon a mysterio
- us portal that transports them to the fantastical island of Nakali. When t
- hey discover that the memories of their entire friendship are the price fo
- r returning home\, Jo and Raissa must race to find a way to leave the isla
- nd before they forget each other forever.\n\nStarring: H.E.R.\, Liza Sober
- ano\, Dave Franco\, Jenny Slate\, Manny Jacinto\, Lea Salonga\n\nFilm rele
- ase at Merlin Cinemas Falmouth\nBook tickets: /film/forgotten-island\n\nFi
- lm details: https://evenwebb.github.io/merlin-cinemas/films/forgotten-isla
- nd.html
+ tasy\, Comedy\n\nWhile celebrating their last night together\, high school
+  graduates and best friends Jo and Raissa stumble upon a mysterious portal
+  that transports them to the fantastical island of Nakali. When they disco
+ ver that the memories of their entire friendship are the price for returni
+ ng home\, Jo and Raissa must race to find a way to leave the island before
+  they forget each other forever.\n\nStarring: H.E.R.\, Liza Soberano\, Dav
+ e Franco\, Jenny Slate\, Manny Jacinto\, Lea Salonga\n\nFilm release at Me
+ rlin Cinemas Falmouth\nBook tickets: /film/forgotten-island\n\nFilm detail
+ s: https://evenwebb.github.io/merlin-cinemas/films/forgotten-island.html
 LOCATION:Merlin Cinemas Falmouth
 URL:/film/forgotten-island
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:db4160c23580e256938094d5ccca4deab8189565@merlin-cinemas
-DTSTAMP:20261003T143649Z
+DTSTAMP:20261004T151215Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Wildwood @ Merlin Falmouth
@@ -144,7 +143,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:66f4fa2e1e1446f085040c5434ccec7595e09088@merlin-cinemas
-DTSTAMP:20261003T143649Z
+DTSTAMP:20261004T151215Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Ghosts: The Possession Of Button House @ Merlin Falmouth
@@ -161,7 +160,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:c591cb28386512a6ecd2f4de5fc2bd9f18fa8380@merlin-cinemas
-DTSTAMP:20261003T143649Z
+DTSTAMP:20261004T151215Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Klara And The Sun @ Merlin Falmouth
@@ -181,7 +180,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:592508081cd1cdb3a212abffdb19d377a1315546@merlin-cinemas
-DTSTAMP:20261003T143649Z
+DTSTAMP:20261004T151215Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Clayface @ Merlin Falmouth
@@ -202,7 +201,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:2a2286669745130ae864e47d85ea21048a1e5d71@merlin-cinemas
-DTSTAMP:20261003T143649Z
+DTSTAMP:20261004T151215Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:Rififi En La Ciudad @ Merlin Falmouth
@@ -223,7 +222,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:002f9a94bb9b8e18bb434a81747ef83157ce5e74@merlin-cinemas
-DTSTAMP:20261003T143649Z
+DTSTAMP:20261004T151215Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:I Play Rocky @ Merlin Falmouth
@@ -242,7 +241,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:5a1078c0749187a9850db224efea7ab181588252@merlin-cinemas
-DTSTAMP:20261003T143649Z
+DTSTAMP:20261004T151215Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:Wild Horse Nine @ Merlin Falmouth
@@ -262,7 +261,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:86d1d2b61b8918c8d529db8a6fb8caccfdc76338@merlin-cinemas
-DTSTAMP:20261003T143649Z
+DTSTAMP:20261004T151215Z
 DTSTART;VALUE=DATE:20261109
 DTEND;VALUE=DATE:20261110
 SUMMARY:Amazing Grace @ Merlin Falmouth
@@ -280,7 +279,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:d03b65e6664a872d4f96b9ba5e19f70f6b39c533@merlin-cinemas
-DTSTAMP:20261003T143649Z
+DTSTAMP:20261004T151215Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:Ebenezer @ Merlin Falmouth
@@ -298,7 +297,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:c08cbf0753bdcde8b43a572ccbad9a7da64a511e@merlin-cinemas
-DTSTAMP:20261003T143649Z
+DTSTAMP:20261004T151215Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:How To Rob A Bank @ Merlin Falmouth
@@ -318,7 +317,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:8f69e1987c70055beceb39a7b5602b50222e47e8@merlin-cinemas
-DTSTAMP:20261003T143649Z
+DTSTAMP:20261004T151215Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:The Hunger Games: Sunrise On The Reaping @ Merlin Falmouth
@@ -337,7 +336,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:7432c7574030f71668c0b8839f29f427bcdca8c6@merlin-cinemas
-DTSTAMP:20261003T143649Z
+DTSTAMP:20261004T151215Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Focker-In-Law @ Merlin Falmouth
@@ -354,26 +353,24 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:ebb794a84d185c6c0ebfaf4e74e5a9397cc475dd@merlin-cinemas
-DTSTAMP:20261003T143649Z
+DTSTAMP:20261004T151215Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Hexed @ Merlin Falmouth
-DESCRIPTION:Hexed\nAdventure\, Animation\, Family\, Fantasy\n\nAn impulsive
-  and unconventional teenage girl named Billie discovers secret magical abi
- lities which\, once unleashed\, hurtle her into a spectacle-filled journey
-  out of suburbia and into a vast witch realm called Hexe. Forced to team u
- p with her cautious mother\, Alice\, they uncover family mysteries that co
- uld change the world of witches forever.\n\nStarring: Hailee Steinfeld\, R
- ashida Jones\, Tracey Ullman\, Stephen Fry\, Jodie Foster\, Walton Goggins
- \n\nFilm release at Merlin Cinemas Falmouth\nBook tickets: /film/hexed\n\n
- Film details: https://evenwebb.github.io/merlin-cinemas/films/hexed.html
+DESCRIPTION:Hexed\nAdventure\, Animation\, Family\, Fantasy\n\nAn awkward t
+ een and her Type-A mother learn her peculiarities might be magical powers\
+ , transforming their lives and revealing a hidden magical realm.\n\nStarri
+ ng: Hailee Steinfeld\, Rashida Jones\, Tracey Ullman\, Stephen Fry\, Jodie
+  Foster\, Walton Goggins\n\nFilm release at Merlin Cinemas Falmouth\nBook 
+ tickets: /film/hexed\n\nFilm details: https://evenwebb.github.io/merlin-ci
+ nemas/films/hexed.html
 LOCATION:Merlin Cinemas Falmouth
 URL:/film/hexed
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:1c209897abdb95a20d8d0d69a10451f122d2f929@merlin-cinemas
-DTSTAMP:20261003T143649Z
+DTSTAMP:20261004T151215Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Violent Night 2 @ Merlin Falmouth
@@ -394,7 +391,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:7ed28dd7e118fe384e555d59726082b854798da5@merlin-cinemas
-DTSTAMP:20261003T143649Z
+DTSTAMP:20261004T151215Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Dune: Part Three @ Merlin Falmouth
@@ -416,7 +413,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:e93fdea173e5e80d92e9ea5b9657af704b80331f@merlin-cinemas
-DTSTAMP:20261003T143649Z
+DTSTAMP:20261004T151215Z
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
 SUMMARY:Avengers: Doomsday @ Merlin Falmouth
@@ -433,7 +430,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:6b3afa02dbb14a9291ea7d20a7935d37594c9e8f@merlin-cinemas
-DTSTAMP:20261003T143649Z
+DTSTAMP:20261004T151215Z
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20261226
 SUMMARY:Jumanji: Open World @ Merlin Falmouth
@@ -450,7 +447,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:9cf2300c26ba35eba79057bc57959320a5b41515@merlin-cinemas
-DTSTAMP:20261003T143649Z
+DTSTAMP:20261004T151215Z
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20261226
 SUMMARY:The Angry Birds Movie 3 @ Merlin Falmouth
@@ -466,7 +463,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:d40746d073e8fdf9be6a5ada18fcba4b88cf85cc@merlin-cinemas
-DTSTAMP:20261003T143649Z
+DTSTAMP:20261004T151215Z
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270102
 SUMMARY:Werwulf @ Merlin Falmouth
@@ -481,7 +478,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:e069111161f36b15db581a6dcf3457fcacea3817@merlin-cinemas
-DTSTAMP:20261003T143649Z
+DTSTAMP:20261004T151215Z
 DTSTART;VALUE=DATE:20270108
 DTEND;VALUE=DATE:20270109
 SUMMARY:Ink @ Merlin Falmouth
@@ -498,7 +495,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:8e0c5b40423d6a822327165729e5a3152f36c3db@merlin-cinemas
-DTSTAMP:20261003T143649Z
+DTSTAMP:20261004T151215Z
 DTSTART;VALUE=DATE:20270205
 DTEND;VALUE=DATE:20270206
 SUMMARY:Remain @ Merlin Falmouth
@@ -516,7 +513,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:e2384ba19304364aad69c5fc69632001c8376b9c@merlin-cinemas
-DTSTAMP:20261003T143649Z
+DTSTAMP:20261004T151215Z
 DTSTART;VALUE=DATE:20270205
 DTEND;VALUE=DATE:20270206
 SUMMARY:Ice Age: Boiling Point @ Merlin Falmouth
@@ -535,7 +532,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:d300e73739defec97e05adbc22adb45c9d6f36ac@merlin-cinemas
-DTSTAMP:20261003T143649Z
+DTSTAMP:20261004T151215Z
 DTSTART;VALUE=DATE:20270212
 DTEND;VALUE=DATE:20270213
 SUMMARY:CoComelon: The Movie @ Merlin Falmouth
@@ -555,7 +552,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:a75ec99de417078f3b3b9d5a9ff7f4ae9e81e3be@merlin-cinemas
-DTSTAMP:20261003T143649Z
+DTSTAMP:20261004T151215Z
 DTSTART;VALUE=DATE:20270326
 DTEND;VALUE=DATE:20270327
 SUMMARY:Not Alone @ Merlin Falmouth
@@ -573,7 +570,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:7a23b6a53ce65cc904df6a68aede8d848eacd076@merlin-cinemas
-DTSTAMP:20261003T143649Z
+DTSTAMP:20261004T151215Z
 DTSTART;VALUE=DATE:20270730
 DTEND;VALUE=DATE:20270731
 SUMMARY:Shrek 5 @ Merlin Falmouth

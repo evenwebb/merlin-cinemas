@@ -10,7 +10,7 @@ X-WR-CALDESC:Upcoming movie premieres at Merlin Cinemas Flora Cinema
 X-WR-TIMEZONE:Europe/London
 BEGIN:VEVENT
 UID:9c89cce5c021c34919b7a3e4ca61d16d6db19c2d@merlin-cinemas
-DTSTAMP:20261003T143649Z
+DTSTAMP:20261004T151215Z
 DTSTART;VALUE=DATE:20261004
 DTEND;VALUE=DATE:20261005
 SUMMARY:The Gruffalo’s Child @ Merlin Helston
@@ -30,7 +30,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:d00e812ccf123d255bb665372a90b583194a895c@merlin-cinemas
-DTSTAMP:20261003T143649Z
+DTSTAMP:20261004T151215Z
 DTSTART;VALUE=DATE:20261009
 DTEND;VALUE=DATE:20261010
 SUMMARY:The Uprising @ Merlin Helston
@@ -47,7 +47,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:cf4c04fba7c9309113b524e77d2d04be2c344a7d@merlin-cinemas
-DTSTAMP:20261003T143649Z
+DTSTAMP:20261004T151215Z
 DTSTART;VALUE=DATE:20261009
 DTEND;VALUE=DATE:20261010
 SUMMARY:The Social Reckoning @ Merlin Helston
@@ -65,7 +65,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:940ff108b0c5e6b39e9d317e139f5fd257022c47@merlin-cinemas
-DTSTAMP:20261003T143649Z
+DTSTAMP:20261004T151215Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:Whalefall @ Merlin Helston
@@ -84,48 +84,47 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:2042eda39b60d7803cfc2f805516bb9cdcec870e@merlin-cinemas
-DTSTAMP:20261003T143649Z
+DTSTAMP:20261004T151215Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:Street Fighter @ Merlin Helston
-DESCRIPTION:Street Fighter\nAction\, Fantasy\n\nIn 1993\, estranged Street 
- Fighters Ryu and Ken Masters are thrown back into combat when the mysterio
- us Chun-Li recruits them for the next World Warrior Tournament: a brutal c
- lash of fists\, fate\, and fury. But behind this battle royale lies a dead
- ly conspiracy that forces them to face off against each other and the demo
- ns of their past. And if they don't\, it's GAME OVER!\n\nStarring: Andrew 
- Koji\, Noah Centineo\, Callina Liang\, Joe Anoa'i\, David Dastmalchian\, C
- ody Rhodes\n\nFilm release at Merlin Cinemas Helston\nBook tickets: /film/
- street-fighter\n\nFilm details: https://evenwebb.github.io/merlin-cinemas/
- films/street-fighter.html
+DESCRIPTION:Street Fighter (2h)\nAction\, Fantasy\n\nIn 1993\, estranged St
+ reet Fighters Ryu and Ken Masters are thrown back into combat when the mys
+ terious Chun-Li recruits them for the next World Warrior Tournament: a bru
+ tal clash of fists\, fate\, and fury. But behind this battle royale lies a
+  deadly conspiracy that forces them to face off against each other and the
+  demons of their past. And if they don't\, it's GAME OVER!\n\nStarring: An
+ drew Koji\, Noah Centineo\, Callina Liang\, Joe Anoa'i\, David Dastmalchia
+ n\, Cody Rhodes\n\nFilm release at Merlin Cinemas Helston\nBook tickets: /
+ film/street-fighter\n\nFilm details: https://evenwebb.github.io/merlin-cin
+ emas/films/street-fighter.html
 LOCATION:Merlin Cinemas Helston
 URL:/film/street-fighter
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:9091cd5d632afbca69be57e18d970df177c81b01@merlin-cinemas
-DTSTAMP:20261003T143649Z
+DTSTAMP:20261004T151215Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:Forgotten Island @ Merlin Helston
 DESCRIPTION:Forgotten Island (1h 49min)\n★★★★☆\nAnimation\, Adventure\, Fan
- tasy\, Comedy\, Family\n\nWhile celebrating their last night together\, hi
- gh school graduates and best friends Jo and Raissa stumble upon a mysterio
- us portal that transports them to the fantastical island of Nakali. When t
- hey discover that the memories of their entire friendship are the price fo
- r returning home\, Jo and Raissa must race to find a way to leave the isla
- nd before they forget each other forever.\n\nStarring: H.E.R.\, Liza Sober
- ano\, Dave Franco\, Jenny Slate\, Manny Jacinto\, Lea Salonga\n\nFilm rele
- ase at Merlin Cinemas Helston\nBook tickets: /film/forgotten-island\n\nFil
- m details: https://evenwebb.github.io/merlin-cinemas/films/forgotten-islan
- d.html
+ tasy\, Comedy\n\nWhile celebrating their last night together\, high school
+  graduates and best friends Jo and Raissa stumble upon a mysterious portal
+  that transports them to the fantastical island of Nakali. When they disco
+ ver that the memories of their entire friendship are the price for returni
+ ng home\, Jo and Raissa must race to find a way to leave the island before
+  they forget each other forever.\n\nStarring: H.E.R.\, Liza Soberano\, Dav
+ e Franco\, Jenny Slate\, Manny Jacinto\, Lea Salonga\n\nFilm release at Me
+ rlin Cinemas Helston\nBook tickets: /film/forgotten-island\n\nFilm details
+ : https://evenwebb.github.io/merlin-cinemas/films/forgotten-island.html
 LOCATION:Merlin Cinemas Helston
 URL:/film/forgotten-island
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:18adc2ba65b2cbb567f7897771e11130394a748d@merlin-cinemas
-DTSTAMP:20261003T143649Z
+DTSTAMP:20261004T151215Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Wildwood @ Merlin Helston
@@ -144,7 +143,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:8657e2942c50f29deff8abc10c07314b6ea481d7@merlin-cinemas
-DTSTAMP:20261003T143649Z
+DTSTAMP:20261004T151215Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Ghosts: The Possession Of Button House @ Merlin Helston
@@ -161,7 +160,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:05404087f734f255e58d14c689f1ab72ce0e40c0@merlin-cinemas
-DTSTAMP:20261003T143649Z
+DTSTAMP:20261004T151215Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Klara And The Sun @ Merlin Helston
@@ -181,7 +180,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:de10fea8931c746c7fdb17bd98d3fc0210c94ca9@merlin-cinemas
-DTSTAMP:20261003T143649Z
+DTSTAMP:20261004T151215Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Clayface @ Merlin Helston
@@ -202,7 +201,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20050e4ad0215ae51fd0d742ca730958a828179c@merlin-cinemas
-DTSTAMP:20261003T143649Z
+DTSTAMP:20261004T151215Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:Rififi En La Ciudad @ Merlin Helston
@@ -223,7 +222,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:37bdc64835611147f9688a605dac707ab34da677@merlin-cinemas
-DTSTAMP:20261003T143649Z
+DTSTAMP:20261004T151215Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:I Play Rocky @ Merlin Helston
@@ -242,7 +241,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:40e369e6820bee7756de545cb05aecccad3c71af@merlin-cinemas
-DTSTAMP:20261003T143649Z
+DTSTAMP:20261004T151215Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:Wild Horse Nine @ Merlin Helston
@@ -262,7 +261,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:379a1c630c4897dbbde846405b7db753b5bef1f7@merlin-cinemas
-DTSTAMP:20261003T143649Z
+DTSTAMP:20261004T151215Z
 DTSTART;VALUE=DATE:20261109
 DTEND;VALUE=DATE:20261110
 SUMMARY:Amazing Grace @ Merlin Helston
@@ -280,7 +279,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:e248ceca8da04263092f526ee51e62128e28a2c0@merlin-cinemas
-DTSTAMP:20261003T143649Z
+DTSTAMP:20261004T151215Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:Ebenezer @ Merlin Helston
@@ -298,7 +297,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:c7b1bcc477846f795c4fa2d63de2aac403726dae@merlin-cinemas
-DTSTAMP:20261003T143649Z
+DTSTAMP:20261004T151215Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:How To Rob A Bank @ Merlin Helston
@@ -318,7 +317,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:0df5dec001b2f2765225088639f1bd66d4a2fb1d@merlin-cinemas
-DTSTAMP:20261003T143649Z
+DTSTAMP:20261004T151215Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:The Hunger Games: Sunrise On The Reaping @ Merlin Helston
@@ -337,7 +336,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:893c69b85257e2ea976052062237b7a6eb95c45d@merlin-cinemas
-DTSTAMP:20261003T143649Z
+DTSTAMP:20261004T151215Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Focker-In-Law @ Merlin Helston
@@ -354,26 +353,24 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:96c10e2794c6958056b9ae7c33e7bd6731acef1b@merlin-cinemas
-DTSTAMP:20261003T143649Z
+DTSTAMP:20261004T151215Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Hexed @ Merlin Helston
-DESCRIPTION:Hexed\nAdventure\, Animation\, Family\, Fantasy\n\nAn impulsive
-  and unconventional teenage girl named Billie discovers secret magical abi
- lities which\, once unleashed\, hurtle her into a spectacle-filled journey
-  out of suburbia and into a vast witch realm called Hexe. Forced to team u
- p with her cautious mother\, Alice\, they uncover family mysteries that co
- uld change the world of witches forever.\n\nStarring: Hailee Steinfeld\, R
- ashida Jones\, Tracey Ullman\, Stephen Fry\, Jodie Foster\, Walton Goggins
- \n\nFilm release at Merlin Cinemas Helston\nBook tickets: /film/hexed\n\nF
- ilm details: https://evenwebb.github.io/merlin-cinemas/films/hexed.html
+DESCRIPTION:Hexed\nAdventure\, Animation\, Family\, Fantasy\n\nAn awkward t
+ een and her Type-A mother learn her peculiarities might be magical powers\
+ , transforming their lives and revealing a hidden magical realm.\n\nStarri
+ ng: Hailee Steinfeld\, Rashida Jones\, Tracey Ullman\, Stephen Fry\, Jodie
+  Foster\, Walton Goggins\n\nFilm release at Merlin Cinemas Helston\nBook t
+ ickets: /film/hexed\n\nFilm details: https://evenwebb.github.io/merlin-cin
+ emas/films/hexed.html
 LOCATION:Merlin Cinemas Helston
 URL:/film/hexed
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:dfaa4ba1d900d056973bc85ae39fa9101b414f52@merlin-cinemas
-DTSTAMP:20261003T143649Z
+DTSTAMP:20261004T151215Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Violent Night 2 @ Merlin Helston
@@ -394,7 +391,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:31f704160e76cb5f3c01020887e6b82e09bfc672@merlin-cinemas
-DTSTAMP:20261003T143649Z
+DTSTAMP:20261004T151215Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Dune: Part Three @ Merlin Helston
@@ -416,7 +413,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:0da83b95a4049cdfa59d0eac8f8a67dc78fd1547@merlin-cinemas
-DTSTAMP:20261003T143649Z
+DTSTAMP:20261004T151215Z
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
 SUMMARY:Avengers: Doomsday @ Merlin Helston
@@ -433,7 +430,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:25090d4d2afd69d67f7a226008a3d07d95bd60fc@merlin-cinemas
-DTSTAMP:20261003T143649Z
+DTSTAMP:20261004T151215Z
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20261226
 SUMMARY:Jumanji: Open World @ Merlin Helston
@@ -450,7 +447,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:649ee6b90200a4f1c98ff00bcf0157536b16b2ab@merlin-cinemas
-DTSTAMP:20261003T143649Z
+DTSTAMP:20261004T151215Z
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20261226
 SUMMARY:The Angry Birds Movie 3 @ Merlin Helston
@@ -466,7 +463,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:d659f355d194e500f19763c149a8c0a3cb309915@merlin-cinemas
-DTSTAMP:20261003T143649Z
+DTSTAMP:20261004T151215Z
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270102
 SUMMARY:Werwulf @ Merlin Helston
@@ -481,7 +478,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:1a6de8202bc7135245cb0c9ece3a2bcbb7b07e0b@merlin-cinemas
-DTSTAMP:20261003T143649Z
+DTSTAMP:20261004T151215Z
 DTSTART;VALUE=DATE:20270108
 DTEND;VALUE=DATE:20270109
 SUMMARY:Ink @ Merlin Helston
@@ -498,7 +495,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:74b0395ebb5227ec8518184d239e8024bc69737b@merlin-cinemas
-DTSTAMP:20261003T143649Z
+DTSTAMP:20261004T151215Z
 DTSTART;VALUE=DATE:20270205
 DTEND;VALUE=DATE:20270206
 SUMMARY:Remain @ Merlin Helston
@@ -516,7 +513,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:17d31bada314af5a7ee9cacde7b9d80aaee79312@merlin-cinemas
-DTSTAMP:20261003T143649Z
+DTSTAMP:20261004T151215Z
 DTSTART;VALUE=DATE:20270205
 DTEND;VALUE=DATE:20270206
 SUMMARY:Ice Age: Boiling Point @ Merlin Helston
@@ -535,7 +532,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:c5a9eac3a826b2a1cdd93892b0464523b737f28c@merlin-cinemas
-DTSTAMP:20261003T143649Z
+DTSTAMP:20261004T151215Z
 DTSTART;VALUE=DATE:20270212
 DTEND;VALUE=DATE:20270213
 SUMMARY:CoComelon: The Movie @ Merlin Helston
@@ -555,7 +552,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:2a04df0381cfd17cf702c493918a74962ade0c49@merlin-cinemas
-DTSTAMP:20261003T143649Z
+DTSTAMP:20261004T151215Z
 DTSTART;VALUE=DATE:20270326
 DTEND;VALUE=DATE:20270327
 SUMMARY:Not Alone @ Merlin Helston
@@ -573,7 +570,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:7063fdf94bc2707441d0f909c4d39fd9791ea40c@merlin-cinemas
-DTSTAMP:20261003T143649Z
+DTSTAMP:20261004T151215Z
 DTSTART;VALUE=DATE:20270730
 DTEND;VALUE=DATE:20270731
 SUMMARY:Shrek 5 @ Merlin Helston
