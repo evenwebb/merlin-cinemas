@@ -10,7 +10,7 @@ X-WR-CALDESC:Upcoming movie premieres at Merlin Cinemas The Ritz
 X-WR-TIMEZONE:Europe/London
 BEGIN:VEVENT
 UID:6377a5a57ab74602d28e28c0d1892cf3eda7a572@merlin-cinemas
-DTSTAMP:20261012T194213Z
+DTSTAMP:20261013T172653Z
 DTSTART;VALUE=DATE:20260605
 DTEND;VALUE=DATE:20260606
 SUMMARY:Ghost In The Machine @ Merlin Penzance
@@ -29,7 +29,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:5ac97595fa44634e1b7fe6e264f3b8bb83943b8f@merlin-cinemas
-DTSTAMP:20261012T194213Z
+DTSTAMP:20261013T172653Z
 DTSTART;VALUE=DATE:20261004
 DTEND;VALUE=DATE:20261005
 SUMMARY:The Gruffalo’s Child @ Merlin Penzance
@@ -49,7 +49,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:1ce72003b7daa40b3bcb84f8853b3dba0ce6577f@merlin-cinemas
-DTSTAMP:20261012T194213Z
+DTSTAMP:20261013T172653Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Monster Mia @ Merlin Penzance
@@ -69,7 +69,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:a29a48bea6ef53b137db59a10a5e7707e5204766@merlin-cinemas
-DTSTAMP:20261012T194213Z
+DTSTAMP:20261013T172653Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Wildwood @ Merlin Penzance
@@ -88,7 +88,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:71949fdd0da28c783302315334b0b9897b98a738@merlin-cinemas
-DTSTAMP:20261012T194213Z
+DTSTAMP:20261013T172653Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Ghosts: The Possession Of Button House @ Merlin Penzance
@@ -105,7 +105,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:62502d08ff7ce9d0fa27a082f6a6e242afc3f849@merlin-cinemas
-DTSTAMP:20261012T194213Z
+DTSTAMP:20261013T172653Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Klara And The Sun @ Merlin Penzance
@@ -123,7 +123,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:d6ca24ff7adc4dbfdb54b5ce248ef1c1b5a5d36b@merlin-cinemas
-DTSTAMP:20261012T194213Z
+DTSTAMP:20261013T172653Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Clayface @ Merlin Penzance
@@ -144,7 +144,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:dd58870c90b601b1e6c56b2aec5f0f99d4bb71fc@merlin-cinemas
-DTSTAMP:20261012T194213Z
+DTSTAMP:20261013T172653Z
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261025
 SUMMARY:Disney Junior Cinema Club 2026 @ Merlin Penzance
@@ -160,7 +160,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:42e170a481b2a71ccd11aa0ca56b6e5b20fe4a69@merlin-cinemas
-DTSTAMP:20261012T194213Z
+DTSTAMP:20261013T172653Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:Rififi En La Ciudad @ Merlin Penzance
@@ -181,7 +181,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:298ca3b1ba3146fa80003e86df95cce8e41ea0ef@merlin-cinemas
-DTSTAMP:20261012T194213Z
+DTSTAMP:20261013T172653Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:Amazing Grace @ Merlin Penzance
@@ -199,7 +199,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:9338b763a0aae6d0f762864237caae09e53aa1d0@merlin-cinemas
-DTSTAMP:20261012T194213Z
+DTSTAMP:20261013T172653Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:I Play Rocky @ Merlin Penzance
@@ -218,11 +218,11 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:ba3e11a9e0728920ef1ca4df949def086fdf6f0e@merlin-cinemas
-DTSTAMP:20261012T194213Z
+DTSTAMP:20261013T172653Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:Wild Horse Nine @ Merlin Penzance
-DESCRIPTION:Wild Horse Nine (1h 56min)\nComedy\, Crime\, Thriller\n\nShortl
+DESCRIPTION:Wild Horse Nine (1h 57min)\nComedy\, Crime\, Thriller\n\nShortl
  y before the 1973 Chilean coup\, CIA agents Chris and Lee are dispatched f
  rom Santiago to Easter Island by their bureau chief\, MJ. Amongst the Isla
  nd's iconic statues\, and as the longtime partners wrestle with their dark
@@ -238,45 +238,45 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:98a632633afdb8e9c237795bf4cda6c77f9759ad@merlin-cinemas
-DTSTAMP:20261012T194213Z
+DTSTAMP:20261013T172653Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:Ebenezer @ Merlin Penzance
-DESCRIPTION:Ebenezer\nFantasy\, Comedy\n\nAn elderly miser embarks on a sup
- ernatural journey after visits from the ghost of his former business partn
- er and the Spirits of Christmas Past\, Present\, and Yet to Come force him
-  to confront his past and fight for a second chance at happiness.\n\nStarr
- ing: Johnny Depp\, Rupert Grint\, Daisy Ridley\, Andrea Riseborough\, Tram
- ell Tillman\, Ian McKellen\n\nFilm release at Merlin Cinemas Penzance\nBoo
- k tickets: /film/ebenezer\n\nFilm details: https://evenwebb.github.io/merl
- in-cinemas/films/ebenezer.html
+DESCRIPTION:Ebenezer (2h)\nFantasy\, Comedy\n\nAn elderly miser embarks on 
+ a supernatural journey after visits from the ghost of his former business 
+ partner and the Spirits of Christmas Past\, Present\, and Yet to Come forc
+ e him to confront his past and fight for a second chance at happiness.\n\n
+ Starring: Johnny Depp\, Rupert Grint\, Daisy Ridley\, Andrea Riseborough\,
+  Tramell Tillman\, Ian McKellen\n\nFilm release at Merlin Cinemas Penzance
+ \nBook tickets: /film/ebenezer\n\nFilm details: https://evenwebb.github.io
+ /merlin-cinemas/films/ebenezer.html
 LOCATION:Merlin Cinemas Penzance
 URL:/film/ebenezer
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:07e49ce0b6c859e2b58cbfe8276a2ea7df835374@merlin-cinemas
-DTSTAMP:20261012T194213Z
+DTSTAMP:20261013T172653Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:How To Rob A Bank @ Merlin Penzance
-DESCRIPTION:How To Rob A Bank\nCrime\, Thriller\n\nA crew of social media-s
- avvy bank robbers broadcasts their daring heists\, unaware that their grow
- ing viral fame has put them in the crosshairs of a veteran FBI agent and a
-  brilliant software engineer. Despite the unlikely duo closing in\, the cr
- ime ring pushes past their limits\, putting everything on the line for the
- ir most ambitious heist yet.\n\nStarring: Nicholas Hoult\, Zoë Kravitz\, A
- nna Sawai\, Rhenzy Feliz\, Pete Davidson\, John C. Reilly\n\nFilm release 
- at Merlin Cinemas Penzance\nBook tickets: /film/how-to-rob-a-bank\n\nFilm 
- details: https://evenwebb.github.io/merlin-cinemas/films/how-to-rob-a-bank
- .html
+DESCRIPTION:How To Rob A Bank (2h 2min)\nCrime\, Thriller\n\nA crew of soci
+ al media-savvy bank robbers broadcasts their daring heists\, unaware that 
+ their growing viral fame has put them in the crosshairs of a veteran FBI a
+ gent and a brilliant software engineer. Despite the unlikely duo closing i
+ n\, the crime ring pushes past their limits\, putting everything on the li
+ ne for their most ambitious heist yet.\n\nStarring: Nicholas Hoult\, Zoë K
+ ravitz\, Anna Sawai\, Rhenzy Feliz\, Pete Davidson\, John C. Reilly\n\nFil
+ m release at Merlin Cinemas Penzance\nBook tickets: /film/how-to-rob-a-ban
+ k\n\nFilm details: https://evenwebb.github.io/merlin-cinemas/films/how-to-
+ rob-a-bank.html
 LOCATION:Merlin Cinemas Penzance
 URL:/film/how-to-rob-a-bank
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:aa661fff1c6b43b1b21ba821fa0edf65cd772dd5@merlin-cinemas
-DTSTAMP:20261012T194213Z
+DTSTAMP:20261013T172653Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:Festive Fun With Peppa Cinema Experience @ Merlin Penzance
@@ -297,7 +297,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:3862cd142dc2544a72db54645aab88d043badb43@merlin-cinemas
-DTSTAMP:20261012T194213Z
+DTSTAMP:20261013T172653Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:The Hunger Games: Sunrise On The Reaping @ Merlin Penzance
@@ -316,7 +316,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:f5983670fd0c58ffbebb895520192c91467b4864@merlin-cinemas
-DTSTAMP:20261012T194213Z
+DTSTAMP:20261013T172653Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Focker-In-Law @ Merlin Penzance
@@ -333,47 +333,48 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:6656840ad30c6c4a139b29f7d375676d31f5bee9@merlin-cinemas
-DTSTAMP:20261012T194213Z
+DTSTAMP:20261013T172653Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Hexed @ Merlin Penzance
-DESCRIPTION:Hexed\nAdventure\, Animation\, Family\, Fantasy\n\nAn impulsive
-  and unconventional teenage girl named Billie discovers secret magical abi
- lities which\, once unleashed\, hurtle her into a spectacle-filled journey
-  out of suburbia and into a vast witch realm called Hexe. Forced to team u
- p with her cautious mother\, Alice\, they uncover family mysteries that co
- uld change the world of witches forever.\n\nStarring: Hailee Steinfeld\, R
- ashida Jones\, Tracey Ullman\, Stephen Fry\, Jodie Foster\, Walton Goggins
- \n\nFilm release at Merlin Cinemas Penzance\nBook tickets: /film/hexed\n\n
- Film details: https://evenwebb.github.io/merlin-cinemas/films/hexed.html
+DESCRIPTION:Hexed\nAdventure\, Animation\, Family\, Fantasy\, Comedy\n\nAn 
+ impulsive and unconventional teenage girl named Billie discovers secret ma
+ gical abilities which\, once unleashed\, hurtle her into a spectacle-fille
+ d journey out of suburbia and into a vast witch realm called Hexe. Forced 
+ to team up with her cautious mother\, Alice\, they uncover family mysterie
+ s that could change the world of witches forever.\n\nStarring: Hailee Stei
+ nfeld\, Rashida Jones\, Jodie Foster\, Walton Goggins\, Tracey Ullman\, St
+ ephen Fry\n\nFilm release at Merlin Cinemas Penzance\nBook tickets: /film/
+ hexed\n\nFilm details: https://evenwebb.github.io/merlin-cinemas/films/hex
+ ed.html
 LOCATION:Merlin Cinemas Penzance
 URL:/film/hexed
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:89d569b7cfaf061d1d1b847005de9cfe720c7d3b@merlin-cinemas
-DTSTAMP:20261012T194213Z
+DTSTAMP:20261013T172653Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Violent Night 2 @ Merlin Penzance
-DESCRIPTION:Violent Night 2\nAction\, Comedy\, Fantasy\n\nWhen Santa forget
- s the true meaning of Christmas\, he finds himself in the heart of a livel
- y mall community in desperate need of his help. Sapped of his magic\, he’l
- l need another way to take on the goons threatening the mall\, and time is
-  running out. Santa has to rediscover his faith in goodness and call in so
- me last-minute reinforcements from the one person no baddie wants to tangl
- e with: Mrs. Claus.\n\nStarring: David Harbour\, Kristen Bell\, Daniela Me
- lchior\, Jared Harris\, Joe Pantoliano\, Maxwell Jacob Friedman\n\nFilm re
- lease at Merlin Cinemas Penzance\nBook tickets: /film/violent-night-2\n\nF
- ilm details: https://evenwebb.github.io/merlin-cinemas/films/violent-night
- -2.html
+DESCRIPTION:Violent Night 2 (1h 50min)\nAction\, Comedy\n\nWhen Santa forge
+ ts the true meaning of Christmas\, he finds himself in the heart of a live
+ ly mall community in desperate need of his help. Sapped of his magic\, he’
+ ll need another way to take on the goons threatening the mall\, and time i
+ s running out. Santa has to rediscover his faith in goodness and call in s
+ ome last-minute reinforcements from the one person no baddie wants to tang
+ le with: Mrs. Claus.\n\nStarring: David Harbour\, Kristen Bell\, Daniela M
+ elchior\, Jared Harris\, Joe Pantoliano\, Maxwell Jacob Friedman\n\nFilm r
+ elease at Merlin Cinemas Penzance\nBook tickets: /film/violent-night-2\n\n
+ Film details: https://evenwebb.github.io/merlin-cinemas/films/violent-nigh
+ t-2.html
 LOCATION:Merlin Cinemas Penzance
 URL:/film/violent-night-2
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:29fcf414d1233cda765ba05435160214d7ebade2@merlin-cinemas
-DTSTAMP:20261012T194213Z
+DTSTAMP:20261013T172653Z
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
 SUMMARY:Avengers: Doomsday @ Merlin Penzance
@@ -390,7 +391,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:8ffda1331ed8fe5acf4c3a517446e571cb5da7c2@merlin-cinemas
-DTSTAMP:20261012T194213Z
+DTSTAMP:20261013T172653Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
 SUMMARY:Dune: Part Three @ Merlin Penzance
@@ -412,7 +413,7 @@ SEQUENCE:2
 END:VEVENT
 BEGIN:VEVENT
 UID:ebd90ea6ae3e4cdf30817f37eb16e2a1daadcfa1@merlin-cinemas
-DTSTAMP:20261012T194213Z
+DTSTAMP:20261013T172653Z
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20261226
 SUMMARY:Jumanji: Open World @ Merlin Penzance
@@ -429,7 +430,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:ba91f7ea4f8edf53e89146ec59dfab2e4968c81d@merlin-cinemas
-DTSTAMP:20261012T194213Z
+DTSTAMP:20261013T172653Z
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20261226
 SUMMARY:The Angry Birds Movie 3 @ Merlin Penzance
@@ -445,7 +446,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:ef6574209b4817cc39747d3ee5d905c3bdecb307@merlin-cinemas
-DTSTAMP:20261012T194213Z
+DTSTAMP:20261013T172653Z
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270102
 SUMMARY:Werwulf @ Merlin Penzance
@@ -461,7 +462,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:6344a0456e5f256b1d0f2fd12880434bc2297ce7@merlin-cinemas
-DTSTAMP:20261012T194213Z
+DTSTAMP:20261013T172653Z
 DTSTART;VALUE=DATE:20270108
 DTEND;VALUE=DATE:20270109
 SUMMARY:Ink @ Merlin Penzance
@@ -478,7 +479,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:8555bc97a38ec5d646a16040e9327cce930edb4f@merlin-cinemas
-DTSTAMP:20261012T194213Z
+DTSTAMP:20261013T172653Z
 DTSTART;VALUE=DATE:20270205
 DTEND;VALUE=DATE:20270206
 SUMMARY:Remain @ Merlin Penzance
@@ -496,7 +497,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:b884d5b93f2890f7919e979924f541508562bb80@merlin-cinemas
-DTSTAMP:20261012T194213Z
+DTSTAMP:20261013T172653Z
 DTSTART;VALUE=DATE:20270205
 DTEND;VALUE=DATE:20270206
 SUMMARY:Ice Age: Boiling Point @ Merlin Penzance
@@ -515,7 +516,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:52e4c623079ed88cdcd1dc95e1f6c9eecb89a574@merlin-cinemas
-DTSTAMP:20261012T194213Z
+DTSTAMP:20261013T172653Z
 DTSTART;VALUE=DATE:20270212
 DTEND;VALUE=DATE:20270213
 SUMMARY:CoComelon: The Movie @ Merlin Penzance
@@ -535,7 +536,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:874b61f922a3fd03bd17cfac6f07577ec9672b50@merlin-cinemas
-DTSTAMP:20261012T194213Z
+DTSTAMP:20261013T172653Z
 DTSTART;VALUE=DATE:20270521
 DTEND;VALUE=DATE:20270522
 SUMMARY:Not Alone @ Merlin Penzance
@@ -553,7 +554,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:c9d4ce2439104462945c7d3814eb615bd60fe5f7@merlin-cinemas
-DTSTAMP:20261012T194213Z
+DTSTAMP:20261013T172653Z
 DTSTART;VALUE=DATE:20270730
 DTEND;VALUE=DATE:20270731
 SUMMARY:Shrek 5 @ Merlin Penzance
