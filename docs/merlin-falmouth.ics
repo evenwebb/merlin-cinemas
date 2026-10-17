@@ -9,27 +9,8 @@ X-WR-CALNAME:Merlin Phoenix Cinema Movie Premieres
 X-WR-CALDESC:Upcoming movie premieres at Merlin Cinemas Phoenix Cinema
 X-WR-TIMEZONE:Europe/London
 BEGIN:VEVENT
-UID:269d3618e035dc93481620fded157e4f51544dbb@merlin-cinemas
-DTSTAMP:20261016T144050Z
-DTSTART;VALUE=DATE:20260605
-DTEND;VALUE=DATE:20260606
-SUMMARY:Ghost In The Machine @ Merlin Falmouth
-DESCRIPTION:Ghost In The Machine (1h 35min)\n★★☆☆☆\nScience Fiction\, Thril
- ler\, Horror\n\nAfter a freak\, fatal accident\, the soul Karl—aka The Add
- ress Book Killer—ends up trapped in the electrical grid. He targets Terry 
- and her son for his next victims\, turning home technology against them as
-  deadly weapons.\n\nStarring: Karen Allen\, Wil Horneff\, Chris Mulkey\, J
- essica Walter\, Shevonne Durkin\, Brandon Quintin Adams\n\nFilm release at
-  Merlin Cinemas Falmouth\nBook tickets: /film/ghost-in-the-machine-with-q-
- and-a\n\nFilm details: https://evenwebb.github.io/merlin-cinemas/films/gho
- st-in-the-machine.html
-LOCATION:Merlin Cinemas Falmouth
-URL:/film/ghost-in-the-machine-with-q-and-a
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
 UID:934c74dbe5d12fffba50fbd2bbd7db18d664515d@merlin-cinemas
-DTSTAMP:20261016T144050Z
+DTSTAMP:20261017T133214Z
 DTSTART;VALUE=DATE:20261004
 DTEND;VALUE=DATE:20261005
 SUMMARY:The Gruffalo’s Child @ Merlin Falmouth
@@ -49,7 +30,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:680cf6a9c9267b205748592009ebcc933c0950bc@merlin-cinemas
-DTSTAMP:20261016T144050Z
+DTSTAMP:20261017T133214Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Monster Mia @ Merlin Falmouth
@@ -59,21 +40,21 @@ DESCRIPTION:Monster Mia (1h 22min)\nAnimation\, Fantasy\, Family\n\n12-year
  the creeps\, and Mia needs to figure a way out before the students realize
   she isn't a monster like them! But the vice principal Van Vlad hosts a pa
  rticular dislike for humans\, and Mia is scared he has seen through her ac
- t...\n\nStarring: Lilian Jane Gartner\, Vincent Bueno\, Elisabeth Kanettis
- \, Jesse Inman\, Antonia Nimeh\, Christian Heck\n\nFilm release at Merlin 
- Cinemas Falmouth\nBook tickets: /film/monster-mia\n\nFilm details: https:/
- /evenwebb.github.io/merlin-cinemas/films/monster-mia.html
+ t...\n\nStarring: Lilian Jane Gartner\, Dunja Bernatzky\, Verena Altenberg
+ er\, Silvia Schneider\, Susi Stach\, Michael Ostrowski\n\nFilm release at 
+ Merlin Cinemas Falmouth\nBook tickets: /film/monster-mia\n\nFilm details: 
+ https://evenwebb.github.io/merlin-cinemas/films/monster-mia.html
 LOCATION:Merlin Cinemas Falmouth
 URL:/film/monster-mia
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:db4160c23580e256938094d5ccca4deab8189565@merlin-cinemas
-DTSTAMP:20261016T144050Z
+DTSTAMP:20261017T133214Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Wildwood @ Merlin Falmouth
-DESCRIPTION:Wildwood (2h 10min)\nAnimation\, Adventure\, Fantasy\n\nPrue an
+DESCRIPTION:Wildwood (2h 12min)\nAnimation\, Adventure\, Fantasy\n\nPrue an
  d her classmate Curtis are drawn into a magical forest filled with enchant
  ed creatures\, loyal allies\, and formidable adversaries as they embark on
   a desperate quest to rescue Prue's abducted baby brother from a murder of
@@ -88,7 +69,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:66f4fa2e1e1446f085040c5434ccec7595e09088@merlin-cinemas
-DTSTAMP:20261016T144050Z
+DTSTAMP:20261017T133214Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Ghosts: The Possession Of Button House @ Merlin Falmouth
@@ -105,7 +86,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:c591cb28386512a6ecd2f4de5fc2bd9f18fa8380@merlin-cinemas
-DTSTAMP:20261016T144050Z
+DTSTAMP:20261017T133214Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Klara And The Sun @ Merlin Falmouth
@@ -123,11 +104,11 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:592508081cd1cdb3a212abffdb19d377a1315546@merlin-cinemas
-DTSTAMP:20261016T144050Z
+DTSTAMP:20261017T133214Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Clayface @ Merlin Falmouth
-DESCRIPTION:Clayface (1h 48min)\nHorror\, Thriller\, Science Fiction\n\nMat
+DESCRIPTION:Clayface (1h 49min)\nHorror\, Thriller\, Science Fiction\n\nMat
  t Hagen's meteoric rise from Gotham street kid to Hollywood leading man is
   tragically cut short when a local crime boss's actions leave him horribly
   disfigured. Abandoned by his team and with nothing left\, Matt seeks out 
@@ -144,7 +125,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:2c9ebe5dfd5d421fdd4b58cbb5ff590ca529f6fe@merlin-cinemas
-DTSTAMP:20261016T144050Z
+DTSTAMP:20261017T133214Z
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261025
 SUMMARY:Disney Junior Cinema Club 2026 @ Merlin Falmouth
@@ -160,7 +141,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:2a2286669745130ae864e47d85ea21048a1e5d71@merlin-cinemas
-DTSTAMP:20261016T144050Z
+DTSTAMP:20261017T133214Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:Rififi En La Ciudad @ Merlin Falmouth
@@ -181,7 +162,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:469f15b9cbfdf41129996a7f54182bdd408ab6be@merlin-cinemas
-DTSTAMP:20261016T144050Z
+DTSTAMP:20261017T133214Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:Amazing Grace @ Merlin Falmouth
@@ -199,7 +180,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:002f9a94bb9b8e18bb434a81747ef83157ce5e74@merlin-cinemas
-DTSTAMP:20261016T144050Z
+DTSTAMP:20261017T133214Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:I Play Rocky @ Merlin Falmouth
@@ -218,7 +199,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:5a1078c0749187a9850db224efea7ab181588252@merlin-cinemas
-DTSTAMP:20261016T144050Z
+DTSTAMP:20261017T133214Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:Wild Horse Nine @ Merlin Falmouth
@@ -238,7 +219,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:d03b65e6664a872d4f96b9ba5e19f70f6b39c533@merlin-cinemas
-DTSTAMP:20261016T144050Z
+DTSTAMP:20261017T133214Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:Ebenezer @ Merlin Falmouth
@@ -256,7 +237,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:c08cbf0753bdcde8b43a572ccbad9a7da64a511e@merlin-cinemas
-DTSTAMP:20261016T144050Z
+DTSTAMP:20261017T133214Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:How To Rob A Bank @ Merlin Falmouth
@@ -276,7 +257,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:d927144bada00968156e4f6ca85412968c295a1d@merlin-cinemas
-DTSTAMP:20261016T144050Z
+DTSTAMP:20261017T133214Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:Festive Fun With Peppa Cinema Experience @ Merlin Falmouth
@@ -297,7 +278,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:8f69e1987c70055beceb39a7b5602b50222e47e8@merlin-cinemas
-DTSTAMP:20261016T144050Z
+DTSTAMP:20261017T133214Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:The Hunger Games: Sunrise On The Reaping @ Merlin Falmouth
@@ -316,7 +297,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:7432c7574030f71668c0b8839f29f427bcdca8c6@merlin-cinemas
-DTSTAMP:20261016T144050Z
+DTSTAMP:20261017T133214Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Focker-In-Law @ Merlin Falmouth
@@ -333,7 +314,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:ebb794a84d185c6c0ebfaf4e74e5a9397cc475dd@merlin-cinemas
-DTSTAMP:20261016T144050Z
+DTSTAMP:20261017T133214Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Hexed @ Merlin Falmouth
@@ -353,7 +334,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:1c209897abdb95a20d8d0d69a10451f122d2f929@merlin-cinemas
-DTSTAMP:20261016T144050Z
+DTSTAMP:20261017T133214Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Violent Night 2 @ Merlin Falmouth
@@ -374,7 +355,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:7ed28dd7e118fe384e555d59726082b854798da5@merlin-cinemas
-DTSTAMP:20261016T144050Z
+DTSTAMP:20261017T133214Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Dune: Part Three @ Merlin Falmouth
@@ -396,7 +377,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:e93fdea173e5e80d92e9ea5b9657af704b80331f@merlin-cinemas
-DTSTAMP:20261016T144050Z
+DTSTAMP:20261017T133214Z
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
 SUMMARY:Avengers: Doomsday @ Merlin Falmouth
@@ -413,7 +394,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:6b3afa02dbb14a9291ea7d20a7935d37594c9e8f@merlin-cinemas
-DTSTAMP:20261016T144050Z
+DTSTAMP:20261017T133214Z
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20261226
 SUMMARY:Jumanji: Open World @ Merlin Falmouth
@@ -430,7 +411,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:9cf2300c26ba35eba79057bc57959320a5b41515@merlin-cinemas
-DTSTAMP:20261016T144050Z
+DTSTAMP:20261017T133214Z
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20261226
 SUMMARY:The Angry Birds Movie 3 @ Merlin Falmouth
@@ -447,7 +428,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:d40746d073e8fdf9be6a5ada18fcba4b88cf85cc@merlin-cinemas
-DTSTAMP:20261016T144050Z
+DTSTAMP:20261017T133214Z
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270102
 SUMMARY:Werwulf @ Merlin Falmouth
@@ -463,7 +444,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:e069111161f36b15db581a6dcf3457fcacea3817@merlin-cinemas
-DTSTAMP:20261016T144050Z
+DTSTAMP:20261017T133214Z
 DTSTART;VALUE=DATE:20270108
 DTEND;VALUE=DATE:20270109
 SUMMARY:Ink @ Merlin Falmouth
@@ -480,7 +461,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:8e0c5b40423d6a822327165729e5a3152f36c3db@merlin-cinemas
-DTSTAMP:20261016T144050Z
+DTSTAMP:20261017T133214Z
 DTSTART;VALUE=DATE:20270205
 DTEND;VALUE=DATE:20270206
 SUMMARY:Remain @ Merlin Falmouth
@@ -498,7 +479,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:e2384ba19304364aad69c5fc69632001c8376b9c@merlin-cinemas
-DTSTAMP:20261016T144050Z
+DTSTAMP:20261017T133214Z
 DTSTART;VALUE=DATE:20270205
 DTEND;VALUE=DATE:20270206
 SUMMARY:Ice Age: Boiling Point @ Merlin Falmouth
@@ -507,7 +488,7 @@ DESCRIPTION:Ice Age: Boiling Point (1h 43min)\nAdventure\, Animation\, Come
  id\, Diego\, Ellie\, Buck\, acorn-obsessed Scrat – this time joined by Bab
  y Scrat and the enormous Jurassic Scrat – and the rest of the herd to visi
  t never before-seen corners of the treacherous Lost World.\n\nStarring: Ra
- y Romano\, Denis Leary\, John Leguizamo\, Simon Pegg\, Queen Latifah\, Sea
+ y Romano\, John Leguizamo\, Denis Leary\, Simon Pegg\, Queen Latifah\, Sea
  nn William Scott\n\nFilm release at Merlin Cinemas Falmouth\nBook tickets:
   /film/ice-age-boiling-point\n\nFilm details: https://evenwebb.github.io/m
  erlin-cinemas/films/ice-age-boiling-point.html
@@ -517,7 +498,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:d300e73739defec97e05adbc22adb45c9d6f36ac@merlin-cinemas
-DTSTAMP:20261016T144050Z
+DTSTAMP:20261017T133214Z
 DTSTART;VALUE=DATE:20270212
 DTEND;VALUE=DATE:20270213
 SUMMARY:CoComelon: The Movie @ Merlin Falmouth
@@ -537,7 +518,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:4f5c007afb490add1f24336456704873a057d2d8@merlin-cinemas
-DTSTAMP:20261016T144050Z
+DTSTAMP:20261017T133214Z
 DTSTART;VALUE=DATE:20270521
 DTEND;VALUE=DATE:20270522
 SUMMARY:Not Alone @ Merlin Falmouth
@@ -555,15 +536,15 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:7a23b6a53ce65cc904df6a68aede8d848eacd076@merlin-cinemas
-DTSTAMP:20261016T144050Z
+DTSTAMP:20261017T133214Z
 DTSTART;VALUE=DATE:20270730
 DTEND;VALUE=DATE:20270731
 SUMMARY:Shrek 5 @ Merlin Falmouth
 DESCRIPTION:Shrek 5\nComedy\, Animation\, Fantasy\, Adventure\, Family\n\nS
  hrek and Donkey team up for another whirlwind\, big-city adventure\, this 
  time in the magical city of Further Further Away.\n\nStarring: Mike Myers\
- , Eddie Murphy\, Cameron Diaz\, Zendaya\, Marcello Hernández\, Skyler Giso
- ndo\n\nFilm release at Merlin Cinemas Falmouth\nBook tickets: /film/shrek-
+ , Eddie Murphy\, Cameron Diaz\, Marcello Hernández\, Skyler Gisondo\, Zend
+ aya\n\nFilm release at Merlin Cinemas Falmouth\nBook tickets: /film/shrek-
  5\n\nFilm details: https://evenwebb.github.io/merlin-cinemas/films/shrek-5
  .html
 LOCATION:Merlin Cinemas Falmouth
