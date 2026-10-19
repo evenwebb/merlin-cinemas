@@ -10,7 +10,7 @@ X-WR-CALDESC:Upcoming movie premieres at Merlin Cinemas Savoy Cinema
 X-WR-TIMEZONE:Europe/London
 BEGIN:VEVENT
 UID:5ac97595fa44634e1b7fe6e264f3b8bb83943b8f@merlin-cinemas
-DTSTAMP:20261018T135139Z
+DTSTAMP:20261019T165221Z
 DTSTART;VALUE=DATE:20261004
 DTEND;VALUE=DATE:20261005
 SUMMARY:The Gruffalo’s Child @ Merlin Penzance
@@ -30,7 +30,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:1ce72003b7daa40b3bcb84f8853b3dba0ce6577f@merlin-cinemas
-DTSTAMP:20261018T135139Z
+DTSTAMP:20261019T165221Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Monster Mia @ Merlin Penzance
@@ -49,83 +49,8 @@ URL:/film/monster-mia
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:a29a48bea6ef53b137db59a10a5e7707e5204766@merlin-cinemas
-DTSTAMP:20261018T135139Z
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
-SUMMARY:Wildwood @ Merlin Penzance
-DESCRIPTION:Wildwood (2h 12min)\nAnimation\, Adventure\, Fantasy\n\nPrue an
- d her classmate Curtis are drawn into a magical forest filled with enchant
- ed creatures\, loyal allies\, and formidable adversaries as they embark on
-  a desperate quest to rescue Prue's abducted baby brother from a murder of
-  crows led by a mysterious woman named Alexandra.\n\nStarring: Peyton Eliz
- abeth Lee\, Jacob Tremblay\, Carey Mulligan\, Mahershala Ali\, Angela Bass
- ett\, Awkwafina\n\nFilm release at Merlin Cinemas Penzance\nBook tickets: 
- /film/wildwood\n\nFilm details: https://evenwebb.github.io/merlin-cinemas/
- films/wildwood.html
-LOCATION:Merlin Cinemas Penzance
-URL:/film/wildwood
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:71949fdd0da28c783302315334b0b9897b98a738@merlin-cinemas
-DTSTAMP:20261018T135139Z
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
-SUMMARY:Ghosts: The Possession Of Button House @ Merlin Penzance
-DESCRIPTION:Ghosts: The Possession Of Button House (1h 37min)\nFantasy\, Co
- medy\n\nIt's a matter of life and death for Alison\, Mike\, Mia and the Gh
- osts.\n\nStarring: Charlotte Ritchie\, Kiell Smith-Bynoe\, Mathew Baynton\
- , Lolly Adefope\, Ben Willbond\, Jim Howick\n\nFilm release at Merlin Cine
- mas Penzance\nBook tickets: /film/ghosts-the-possession-of-button-house\n\
- nFilm details: https://evenwebb.github.io/merlin-cinemas/films/ghosts-the-
- possession-of-button-house.html
-LOCATION:Merlin Cinemas Penzance
-URL:/film/ghosts-the-possession-of-button-house
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:62502d08ff7ce9d0fa27a082f6a6e242afc3f849@merlin-cinemas
-DTSTAMP:20261018T135139Z
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
-SUMMARY:Klara And The Sun @ Merlin Penzance
-DESCRIPTION:Klara And The Sun (1h 56min)\nScience Fiction\, Drama\, Comedy\
- n\nAn Artificial Friend named Klara finds a deep bond with a troubled youn
- g girl\, bringing light and hope to a grieving family through her unwaveri
- ng devotion and innocent wonder.\n\nStarring: Jenna Ortega\, Mia Tharia\, 
- Amy Adams\, Natasha Lyonne\, Aran Murphy\, Rachel House\n\nFilm release at
-  Merlin Cinemas Penzance\nBook tickets: /film/klara-and-the-sun\n\nFilm de
- tails: https://evenwebb.github.io/merlin-cinemas/films/klara-and-the-sun.h
- tml
-LOCATION:Merlin Cinemas Penzance
-URL:/film/klara-and-the-sun
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:d6ca24ff7adc4dbfdb54b5ce248ef1c1b5a5d36b@merlin-cinemas
-DTSTAMP:20261018T135139Z
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
-SUMMARY:Clayface @ Merlin Penzance
-DESCRIPTION:Clayface (1h 49min)\nHorror\, Thriller\, Science Fiction\n\nMat
- t Hagen's meteoric rise from Gotham street kid to Hollywood leading man is
-  tragically cut short when a local crime boss's actions leave him horribly
-  disfigured. Abandoned by his team and with nothing left\, Matt seeks out 
- a cutting edge treatment that miraculously returns him to his former self…
-  but also unexpectedly affects his grip on reality\, spiraling him down a 
- destructive path of all-consuming revenge.\n\nStarring: Tom Rhys Harries\,
-  Naomi Ackie\, Eddie Marsan\, Max Minghella\, David Dencik\, Francesca Cor
- ney\n\nFilm release at Merlin Cinemas Penzance\nBook tickets: /film/clayfa
- ce\n\nFilm details: https://evenwebb.github.io/merlin-cinemas/films/clayfa
- ce.html
-LOCATION:Merlin Cinemas Penzance
-URL:/film/clayface
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
 UID:dd58870c90b601b1e6c56b2aec5f0f99d4bb71fc@merlin-cinemas
-DTSTAMP:20261018T135139Z
+DTSTAMP:20261019T165221Z
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261025
 SUMMARY:Disney Junior Cinema Club 2026 @ Merlin Penzance
@@ -140,8 +65,26 @@ URL:/film/disney-junior-cinema-club-2026
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
+UID:629e2bebfe48a71f6e7b5d0b49db9e2b3641977c@merlin-cinemas
+DTSTAMP:20261019T165221Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:Primetime @ Merlin Penzance
+DESCRIPTION:Primetime (1h 50min)\n★★★☆☆\nDrama\, Thriller\n\nIn 2006\, To C
+ atch a Predator host Chris Hansen sets out to make television history. Whe
+ n a high stakes operation goes fatally wrong\, his veneered dream of fame 
+ curdles into a nightmare of performative justice.\n\nStarring: Robert Patt
+ inson\, Merritt Wever\, Skyler Gisondo\, Matthew Maher\, Phoebe Bridgers\,
+  Victor Brunette\n\nFilm release at Merlin Cinemas Penzance\nBook tickets:
+  /film/primetime\n\nFilm details: https://evenwebb.github.io/merlin-cinema
+ s/films/primetime.html
+LOCATION:Merlin Cinemas Penzance
+URL:/film/primetime
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
 UID:42e170a481b2a71ccd11aa0ca56b6e5b20fe4a69@merlin-cinemas
-DTSTAMP:20261018T135139Z
+DTSTAMP:20261019T165221Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:Rififi En La Ciudad @ Merlin Penzance
@@ -161,8 +104,28 @@ URL:/film/rififi-en-la-ciudad
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
+UID:285442295c36082ac99d098bbb745d8948c2e7dc@merlin-cinemas
+DTSTAMP:20261019T165221Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:Godzilla Minus Zero @ Merlin Penzance
+DESCRIPTION:Godzilla Minus Zero (2h 15min)\nScience Fiction\, Horror\, Acti
+ on\n\nWar reduced Japan to zero\, and Godzilla plunged it into minus. Two 
+ years have passed since then\, and the country has faced agonizing struggl
+ es to achieve recovery and finally reclaim its daily life. Just as humanit
+ y managed to cling to a hard-won peace\, a new threat strikes\, crushing h
+ ope in an instant.\n\nStarring: Ryunosuke Kamiki\, Minami Hamabe\, Yuki Ya
+ mada\, Kuranosuke Sasaki\, Jun Kunimura\, Miou Tanaka\n\nFilm release at M
+ erlin Cinemas Penzance\nBook tickets: /film/godzilla-minus-zero\n\nFilm de
+ tails: https://evenwebb.github.io/merlin-cinemas/films/godzilla-minus-zero
+ .html
+LOCATION:Merlin Cinemas Penzance
+URL:/film/godzilla-minus-zero
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
 UID:298ca3b1ba3146fa80003e86df95cce8e41ea0ef@merlin-cinemas
-DTSTAMP:20261018T135139Z
+DTSTAMP:20261019T165221Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:Amazing Grace @ Merlin Penzance
@@ -180,7 +143,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:9338b763a0aae6d0f762864237caae09e53aa1d0@merlin-cinemas
-DTSTAMP:20261018T135139Z
+DTSTAMP:20261019T165221Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:I Play Rocky @ Merlin Penzance
@@ -199,7 +162,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:ba3e11a9e0728920ef1ca4df949def086fdf6f0e@merlin-cinemas
-DTSTAMP:20261018T135139Z
+DTSTAMP:20261019T165221Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:Wild Horse Nine @ Merlin Penzance
@@ -219,7 +182,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:98a632633afdb8e9c237795bf4cda6c77f9759ad@merlin-cinemas
-DTSTAMP:20261018T135139Z
+DTSTAMP:20261019T165221Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:Ebenezer @ Merlin Penzance
@@ -237,7 +200,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:07e49ce0b6c859e2b58cbfe8276a2ea7df835374@merlin-cinemas
-DTSTAMP:20261018T135139Z
+DTSTAMP:20261019T165221Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:How To Rob A Bank @ Merlin Penzance
@@ -257,7 +220,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:aa661fff1c6b43b1b21ba821fa0edf65cd772dd5@merlin-cinemas
-DTSTAMP:20261018T135139Z
+DTSTAMP:20261019T165221Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:Festive Fun With Peppa Cinema Experience @ Merlin Penzance
@@ -278,7 +241,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:3862cd142dc2544a72db54645aab88d043badb43@merlin-cinemas
-DTSTAMP:20261018T135139Z
+DTSTAMP:20261019T165221Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:The Hunger Games: Sunrise On The Reaping @ Merlin Penzance
@@ -297,7 +260,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:f5983670fd0c58ffbebb895520192c91467b4864@merlin-cinemas
-DTSTAMP:20261018T135139Z
+DTSTAMP:20261019T165221Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Focker-In-Law @ Merlin Penzance
@@ -314,7 +277,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:6656840ad30c6c4a139b29f7d375676d31f5bee9@merlin-cinemas
-DTSTAMP:20261018T135139Z
+DTSTAMP:20261019T165221Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Hexed @ Merlin Penzance
@@ -334,7 +297,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:89d569b7cfaf061d1d1b847005de9cfe720c7d3b@merlin-cinemas
-DTSTAMP:20261018T135139Z
+DTSTAMP:20261019T165221Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Violent Night 2 @ Merlin Penzance
@@ -355,7 +318,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:e20ac013ce8379197e56092e289f37dba243ef57@merlin-cinemas
-DTSTAMP:20261018T135139Z
+DTSTAMP:20261019T165221Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Dune: Part Three @ Merlin Penzance
@@ -377,7 +340,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:29fcf414d1233cda765ba05435160214d7ebade2@merlin-cinemas
-DTSTAMP:20261018T135139Z
+DTSTAMP:20261019T165221Z
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
 SUMMARY:Avengers: Doomsday @ Merlin Penzance
@@ -394,7 +357,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:ebd90ea6ae3e4cdf30817f37eb16e2a1daadcfa1@merlin-cinemas
-DTSTAMP:20261018T135139Z
+DTSTAMP:20261019T165221Z
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20261226
 SUMMARY:Jumanji: Open World @ Merlin Penzance
@@ -411,7 +374,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:ba91f7ea4f8edf53e89146ec59dfab2e4968c81d@merlin-cinemas
-DTSTAMP:20261018T135139Z
+DTSTAMP:20261019T165221Z
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20261226
 SUMMARY:The Angry Birds Movie 3 @ Merlin Penzance
@@ -428,23 +391,22 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:ef6574209b4817cc39747d3ee5d905c3bdecb307@merlin-cinemas
-DTSTAMP:20261018T135139Z
+DTSTAMP:20261019T165221Z
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270102
 SUMMARY:Werwulf @ Merlin Penzance
-DESCRIPTION:Werwulf (2h)\nHorror\, Fantasy\n\nA harrowing tale of devotion\
- , damnation and the devil within.\n\nStarring: Aaron Taylor-Johnson\, Lily
- -Rose Depp\, Willem Dafoe\, Bodhi Rae Breathnach\, Ralph Ineson\, Vidal Ar
- zoni\n\nFilm release at Merlin Cinemas Penzance\nBook tickets: /film/werwu
- lf\n\nFilm details: https://evenwebb.github.io/merlin-cinemas/films/werwul
- f.html
+DESCRIPTION:Werwulf (2h)\nHorror\n\nA harrowing tale of devotion\, damnatio
+ n and the devil within.\n\nStarring: Aaron Taylor-Johnson\, Lily-Rose Depp
+ \, Willem Dafoe\, Bodhi Rae Breathnach\, Ralph Ineson\, Vidal Arzoni\n\nFi
+ lm release at Merlin Cinemas Penzance\nBook tickets: /film/werwulf\n\nFilm
+  details: https://evenwebb.github.io/merlin-cinemas/films/werwulf.html
 LOCATION:Merlin Cinemas Penzance
 URL:/film/werwulf
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:6344a0456e5f256b1d0f2fd12880434bc2297ce7@merlin-cinemas
-DTSTAMP:20261018T135139Z
+DTSTAMP:20261019T165221Z
 DTSTART;VALUE=DATE:20270108
 DTEND;VALUE=DATE:20270109
 SUMMARY:Ink @ Merlin Penzance
@@ -461,25 +423,25 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:8555bc97a38ec5d646a16040e9327cce930edb4f@merlin-cinemas
-DTSTAMP:20261018T135139Z
+DTSTAMP:20261019T165221Z
 DTSTART;VALUE=DATE:20270205
 DTEND;VALUE=DATE:20270206
 SUMMARY:Remain @ Merlin Penzance
-DESCRIPTION:Remain\nRomance\, Horror\, Mystery\, Thriller\n\nWhen reclusive
-  architect Tate Gordon moves to small coastal town to complete his latest 
- project\, he encounters an alluring young woman who pulls him out of his s
- hell\, and into the center of a deadly mystery that hangs over the town.\n
- \nStarring: Jake Gyllenhaal\, Phoebe Dynevor\, Ashley Walters\, Julie Hage
- rty\, Jay O. Sanders\, Tracy Ifeachor\n\nFilm release at Merlin Cinemas Pe
- nzance\nBook tickets: /film/remain\n\nFilm details: https://evenwebb.githu
- b.io/merlin-cinemas/films/remain.html
+DESCRIPTION:Remain\nRomance\, Horror\, Mystery\n\nWhen reclusive architect 
+ Tate Gordon moves to small coastal town to complete his latest project\, h
+ e encounters an alluring young woman who pulls him out of his shell\, and 
+ into the center of a deadly mystery that hangs over the town.\n\nStarring:
+  Jake Gyllenhaal\, Phoebe Dynevor\, Ashley Walters\, Julie Hagerty\, Jay O
+ . Sanders\, Tracy Ifeachor\n\nFilm release at Merlin Cinemas Penzance\nBoo
+ k tickets: /film/remain\n\nFilm details: https://evenwebb.github.io/merlin
+ -cinemas/films/remain.html
 LOCATION:Merlin Cinemas Penzance
 URL:/film/remain
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:b884d5b93f2890f7919e979924f541508562bb80@merlin-cinemas
-DTSTAMP:20261018T135139Z
+DTSTAMP:20261019T165221Z
 DTSTART;VALUE=DATE:20270205
 DTEND;VALUE=DATE:20270206
 SUMMARY:Ice Age: Boiling Point @ Merlin Penzance
@@ -498,7 +460,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:52e4c623079ed88cdcd1dc95e1f6c9eecb89a574@merlin-cinemas
-DTSTAMP:20261018T135139Z
+DTSTAMP:20261019T165221Z
 DTSTART;VALUE=DATE:20270212
 DTEND;VALUE=DATE:20270213
 SUMMARY:CoComelon: The Movie @ Merlin Penzance
@@ -518,7 +480,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:874b61f922a3fd03bd17cfac6f07577ec9672b50@merlin-cinemas
-DTSTAMP:20261018T135139Z
+DTSTAMP:20261019T165221Z
 DTSTART;VALUE=DATE:20270521
 DTEND;VALUE=DATE:20270522
 SUMMARY:Not Alone @ Merlin Penzance
@@ -536,7 +498,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:c9d4ce2439104462945c7d3814eb615bd60fe5f7@merlin-cinemas
-DTSTAMP:20261018T135139Z
+DTSTAMP:20261019T165221Z
 DTSTART;VALUE=DATE:20270730
 DTEND;VALUE=DATE:20270731
 SUMMARY:Shrek 5 @ Merlin Penzance
