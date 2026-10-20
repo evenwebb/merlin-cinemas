@@ -10,7 +10,7 @@ X-WR-CALDESC:Upcoming movie premieres at Merlin Cinemas Regal Cinema & Theatre
 X-WR-TIMEZONE:Europe/London
 BEGIN:VEVENT
 UID:630878214e3e5085589c5b711eaac083c2a0315a@merlin-cinemas
-DTSTAMP:20261019T165221Z
+DTSTAMP:20261020T145147Z
 DTSTART;VALUE=DATE:20261004
 DTEND;VALUE=DATE:20261005
 SUMMARY:The Gruffalo’s Child @ Merlin Redruth
@@ -30,7 +30,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:8b30ca2bca474fe4b96a1ea3112ebcd78841c8bc@merlin-cinemas
-DTSTAMP:20261019T165221Z
+DTSTAMP:20261020T145147Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Monster Mia @ Merlin Redruth
@@ -50,23 +50,27 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:9751759fcc7a17236a2795096178dc62f3ce8582@merlin-cinemas
-DTSTAMP:20261019T165221Z
+DTSTAMP:20261020T145147Z
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261025
 SUMMARY:Disney Junior Cinema Club 2026 @ Merlin Redruth
-DESCRIPTION:Disney Junior Cinema Club 2026 (51 min)\n\nOn the big screen\, 
- Mickey Mouse as the animated host leads you and your little ones\, through
-  shows\, songs and games over the course of 50 minutes.\n\nFilm release at
-  Merlin Cinemas Redruth\nBook tickets: /film/disney-junior-cinema-club-202
- 6\n\nFilm details: https://evenwebb.github.io/merlin-cinemas/films/disney-
- junior-cinema-club-2026.html
+DESCRIPTION:Disney Junior Cinema Club 2026\n\nPacked with fun for preschool
+ ers and their grown-ups\, this interactive big-screen experience brings to
+ gether some favourite Disney Junior stories from Mickey Mouse Clubhouse+\,
+  Minnie's Bow-Toons: Pet Hotel\, Marvel's Iron Man and His Awesome Friends
+ \, Sofia the First: Royal Magic and Toy Story Toons\, in a fun-filled extr
+ avaganza! Expect sing-alongs\, dance moments\, exciting games and magical 
+ surprises\, where audience participation is a must.\n\nFilm release at Mer
+ lin Cinemas Redruth\nBook tickets: /film/disney-junior-cinema-club-2026\n\
+ nFilm details: https://evenwebb.github.io/merlin-cinemas/films/disney-juni
+ or-cinema-club-2026.html
 LOCATION:Merlin Cinemas Redruth
 URL:/film/disney-junior-cinema-club-2026
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:03f56a5ba47f52c5ae9031dd0858bb9bcff4932d@merlin-cinemas
-DTSTAMP:20261019T165221Z
+DTSTAMP:20261020T145147Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261031
 SUMMARY:Primetime @ Merlin Redruth
@@ -84,7 +88,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:7409d08fce53cd06945cb4e8a9e4d7653f6a1b38@merlin-cinemas
-DTSTAMP:20261019T165221Z
+DTSTAMP:20261020T145147Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:Rififi En La Ciudad @ Merlin Redruth
@@ -105,7 +109,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:d32171e9429f79de9ceecfe0fb543ef0ad8becde@merlin-cinemas
-DTSTAMP:20261019T165221Z
+DTSTAMP:20261020T145147Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:Godzilla Minus Zero @ Merlin Redruth
@@ -125,7 +129,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:f74e5320621457dd3bd8982f02292ab2b2e6db33@merlin-cinemas
-DTSTAMP:20261019T165221Z
+DTSTAMP:20261020T145147Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:Amazing Grace @ Merlin Redruth
@@ -143,7 +147,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:62712e971608c65693c36309786df0c97078d39e@merlin-cinemas
-DTSTAMP:20261019T165221Z
+DTSTAMP:20261020T145147Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:I Play Rocky @ Merlin Redruth
@@ -162,7 +166,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:3a55eac572b5edcf788650f85115cd7883347466@merlin-cinemas
-DTSTAMP:20261019T165221Z
+DTSTAMP:20261020T145147Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:Wild Horse Nine @ Merlin Redruth
@@ -181,8 +185,29 @@ URL:/film/wild-horse-nine
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
+UID:56c7e4cae5a28118b418d62159d2e6111ce049e5@merlin-cinemas
+DTSTAMP:20261020T145147Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Prima Facie @ Merlin Redruth
+DESCRIPTION:Prima Facie (1h 49min)\nDrama\n\nTessa is a brilliant British d
+ efence barrister dominating London’s ruthless courtrooms. Fierce\, witty\,
+  and self-made\, she defends men accused of sexual assault — until she is 
+ assaulted herself by a colleague from a powerful legal dynasty.  Suddenly\
+ , the system she trusted turns against her. As she faces the same tactics 
+ she once used in court\, Tessa’s faith in justice unravels. Once in contro
+ l\, now exposed and disbelieved\, she must fight to reclaim her voice and 
+ sense of self.\n\nStarring: Cynthia Erivo\, Daniel Ings\, Elizabeth Dulau\
+ , Noma Dumezweni\, Toheeb Jimoh\, Harry Treadaway\n\nFilm release at Merli
+ n Cinemas Redruth\nBook tickets: /film/prima-facie\n\nFilm details: https:
+ //evenwebb.github.io/merlin-cinemas/films/prima-facie.html
+LOCATION:Merlin Cinemas Redruth
+URL:/film/prima-facie
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
 UID:a3710fea46bbf5674d75369011042b5514efe06d@merlin-cinemas
-DTSTAMP:20261019T165221Z
+DTSTAMP:20261020T145147Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:Ebenezer @ Merlin Redruth
@@ -200,7 +225,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:ef816c51747063d7b3bfb787effe1fc42b6eb9d6@merlin-cinemas
-DTSTAMP:20261019T165221Z
+DTSTAMP:20261020T145147Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:How To Rob A Bank @ Merlin Redruth
@@ -220,7 +245,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:344de861c4d33b8318c43b3fccb6ba093dff2d2c@merlin-cinemas
-DTSTAMP:20261019T165221Z
+DTSTAMP:20261020T145147Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:Festive Fun With Peppa Cinema Experience @ Merlin Redruth
@@ -241,7 +266,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:e8171b72204fffe3bfe46d13d3ef61fa930b093e@merlin-cinemas
-DTSTAMP:20261019T165221Z
+DTSTAMP:20261020T145147Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:The Hunger Games: Sunrise On The Reaping @ Merlin Redruth
@@ -260,7 +285,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:47bd6eec7199ffbf192cbc582393bc2a4fd19860@merlin-cinemas
-DTSTAMP:20261019T165221Z
+DTSTAMP:20261020T145147Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Focker-In-Law @ Merlin Redruth
@@ -277,7 +302,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:58fb51a348f906a719642cbc86cf82c986fa1ecb@merlin-cinemas
-DTSTAMP:20261019T165221Z
+DTSTAMP:20261020T145147Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Hexed @ Merlin Redruth
@@ -297,7 +322,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:9024bf113932a9f1ef97e3d21d098f9d4f5506d9@merlin-cinemas
-DTSTAMP:20261019T165221Z
+DTSTAMP:20261020T145147Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Violent Night 2 @ Merlin Redruth
@@ -318,7 +343,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:dba45d8d1c58087df29e2068491aa7ceb825d36a@merlin-cinemas
-DTSTAMP:20261019T165221Z
+DTSTAMP:20261020T145147Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Dune: Part Three @ Merlin Redruth
@@ -340,7 +365,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:918463f2725e5df48e5b84c6142735be2f183cdf@merlin-cinemas
-DTSTAMP:20261019T165221Z
+DTSTAMP:20261020T145147Z
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
 SUMMARY:Avengers: Doomsday @ Merlin Redruth
@@ -357,7 +382,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:089ad1d1018f22ffd6969405b1c8691dfac69f99@merlin-cinemas
-DTSTAMP:20261019T165221Z
+DTSTAMP:20261020T145147Z
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20261226
 SUMMARY:Jumanji: Open World @ Merlin Redruth
@@ -374,7 +399,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:8875957c25f046400827fe0adc1ade7856d8bdf1@merlin-cinemas
-DTSTAMP:20261019T165221Z
+DTSTAMP:20261020T145147Z
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20261226
 SUMMARY:The Angry Birds Movie 3 @ Merlin Redruth
@@ -390,7 +415,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:abc7c07c9f44d85da4ff7741b2390c8d355dae7f@merlin-cinemas
-DTSTAMP:20261019T165221Z
+DTSTAMP:20261020T145147Z
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270102
 SUMMARY:Werwulf @ Merlin Redruth
@@ -405,7 +430,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:08084ac251c5ee9e17d0e40f9afbc367a0b574bb@merlin-cinemas
-DTSTAMP:20261019T165221Z
+DTSTAMP:20261020T145147Z
 DTSTART;VALUE=DATE:20270108
 DTEND;VALUE=DATE:20270109
 SUMMARY:Ink @ Merlin Redruth
@@ -422,7 +447,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:45add96410ca0c44928b2b0eaa6ea04ff450834a@merlin-cinemas
-DTSTAMP:20261019T165221Z
+DTSTAMP:20261020T145147Z
 DTSTART;VALUE=DATE:20270205
 DTEND;VALUE=DATE:20270206
 SUMMARY:Remain @ Merlin Redruth
@@ -440,7 +465,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:a1119d6c85dfbfea9fc1a5bb0dfb289993a1a981@merlin-cinemas
-DTSTAMP:20261019T165221Z
+DTSTAMP:20261020T145147Z
 DTSTART;VALUE=DATE:20270205
 DTEND;VALUE=DATE:20270206
 SUMMARY:Ice Age: Boiling Point @ Merlin Redruth
@@ -458,8 +483,26 @@ URL:/film/ice-age-boiling-point
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
+UID:2ebf8c41155e18f216fe30085a7b5ab437fd5972@merlin-cinemas
+DTSTAMP:20261020T145147Z
+DTSTART;VALUE=DATE:20270212
+DTEND;VALUE=DATE:20270213
+SUMMARY:Narnia: The Magician's Nephew @ Merlin Redruth
+DESCRIPTION:Narnia: The Magician's Nephew\nFantasy\, Adventure\, Family\n\n
+ Two children discover a wood full of pools leading to other worlds. One ta
+ kes them to a dead city beneath a dying sun\, where they wake a queen who 
+ exterminated its population and accidentally bring her back to London.\n\n
+ Starring: David McKenna\, Beatrice Campbell\, Emma Mackey\, Carey Mulligan
+ \, Ciarán Hinds\, Daniel Craig\n\nFilm release at Merlin Cinemas Redruth\n
+ Book tickets: /film/narnia-the-magicians-nephew\n\nFilm details: https://e
+ venwebb.github.io/merlin-cinemas/films/narnia-the-magician-s-nephew.html
+LOCATION:Merlin Cinemas Redruth
+URL:/film/narnia-the-magicians-nephew
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
 UID:ebe963c9cb9845240064f4252d0c1380c4d129ad@merlin-cinemas
-DTSTAMP:20261019T165221Z
+DTSTAMP:20261020T145147Z
 DTSTART;VALUE=DATE:20270212
 DTEND;VALUE=DATE:20270213
 SUMMARY:CoComelon: The Movie @ Merlin Redruth
@@ -478,8 +521,28 @@ URL:/film/cocomelon-the-movie
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
+UID:92d9a02200114dd6ec9fd0558accc786b9313be2@merlin-cinemas
+DTSTAMP:20261020T145147Z
+DTSTART;VALUE=DATE:20270312
+DTEND;VALUE=DATE:20270313
+SUMMARY:The Exorcist: Martyrs @ Merlin Redruth
+DESCRIPTION:The Exorcist: Martyrs\nHorror\n\nThirteen years ago\, New York 
+ City detective Julie Miller ended the terror reign of satanic serial kille
+ r Father Sunday. The case made her a hero\, and she has thrown herself int
+ o her work ever since. Now a new killer scrawls her name in an altar boy's
+  blood on the walls of a church crypt\, dragging her back into the darknes
+ s she believed she had buried with him.\n\nStarring: Scarlett Johansson\, 
+ Sasha Calle\, Chiwetel Ejiofor\, John Leguizamo\, Laurence Fishburne\, Dia
+ ne Lane\n\nFilm release at Merlin Cinemas Redruth\nBook tickets: /film/the
+ -exorcist-martyrs\n\nFilm details: https://evenwebb.github.io/merlin-cinem
+ as/films/the-exorcist-martyrs.html
+LOCATION:Merlin Cinemas Redruth
+URL:/film/the-exorcist-martyrs
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
 UID:5607b9c53c36e03267902cf2436d8010e783169f@merlin-cinemas
-DTSTAMP:20261019T165221Z
+DTSTAMP:20261020T145147Z
 DTSTART;VALUE=DATE:20270521
 DTEND;VALUE=DATE:20270522
 SUMMARY:Not Alone @ Merlin Redruth
@@ -497,7 +560,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:7d0bbc8fea8cb59eb8a7b54812854453816aaae0@merlin-cinemas
-DTSTAMP:20261019T165221Z
+DTSTAMP:20261020T145147Z
 DTSTART;VALUE=DATE:20270730
 DTEND;VALUE=DATE:20270731
 SUMMARY:Shrek 5 @ Merlin Redruth
