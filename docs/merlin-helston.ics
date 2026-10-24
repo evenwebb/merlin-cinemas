@@ -10,7 +10,7 @@ X-WR-CALDESC:Upcoming movie premieres at Merlin Cinemas Flora Cinema
 X-WR-TIMEZONE:Europe/London
 BEGIN:VEVENT
 UID:a8b0778a99ad73e2995e9a8552f5cfef9dc0439b@merlin-cinemas
-DTSTAMP:20261023T144727Z
+DTSTAMP:20261024T135434Z
 DTSTART;VALUE=DATE:20250822
 DTEND;VALUE=DATE:20250823
 SUMMARY:The Rocky Horror Picture Show @ Merlin Helston
@@ -30,7 +30,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:7a38ecfdb772058287c46c99916f50db4d3481ed@merlin-cinemas
-DTSTAMP:20261023T144727Z
+DTSTAMP:20261024T135434Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Monster Mia @ Merlin Helston
@@ -50,7 +50,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:5cb4cf813990952c8835a6cf3af2f0dcc135cbc5@merlin-cinemas
-DTSTAMP:20261023T144727Z
+DTSTAMP:20261024T135434Z
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261025
 SUMMARY:Disney Junior Cinema Club 2026 @ Merlin Helston
@@ -70,7 +70,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:f2c1047a186ab2799bb4d38457d812be6e4fdcd9@merlin-cinemas
-DTSTAMP:20261023T144727Z
+DTSTAMP:20261024T135434Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Room On The Broom & The Highway Rat @ Merlin Helston
@@ -94,7 +94,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20050e4ad0215ae51fd0d742ca730958a828179c@merlin-cinemas
-DTSTAMP:20261023T144727Z
+DTSTAMP:20261024T135434Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:Rififi En La Ciudad @ Merlin Helston
@@ -115,7 +115,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:da18f20f46aaccb4d512031a7473d7e069cbd5c0@merlin-cinemas
-DTSTAMP:20261023T144727Z
+DTSTAMP:20261024T135434Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:Godzilla Minus Zero @ Merlin Helston
@@ -135,7 +135,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:578cb8f82161789ac299672a3d697669168c1652@merlin-cinemas
-DTSTAMP:20261023T144727Z
+DTSTAMP:20261024T135434Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:Amazing Grace @ Merlin Helston
@@ -153,7 +153,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:37bdc64835611147f9688a605dac707ab34da677@merlin-cinemas
-DTSTAMP:20261023T144727Z
+DTSTAMP:20261024T135434Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:I Play Rocky @ Merlin Helston
@@ -172,7 +172,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:40e369e6820bee7756de545cb05aecccad3c71af@merlin-cinemas
-DTSTAMP:20261023T144727Z
+DTSTAMP:20261024T135434Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:Wild Horse Nine @ Merlin Helston
@@ -192,7 +192,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:5ed1f8bf18e7fa9e490951996df4aaa4821435e0@merlin-cinemas
-DTSTAMP:20261023T144727Z
+DTSTAMP:20261024T135434Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:Prima Facie @ Merlin Helston
@@ -213,7 +213,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:e248ceca8da04263092f526ee51e62128e28a2c0@merlin-cinemas
-DTSTAMP:20261023T144727Z
+DTSTAMP:20261024T135434Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:Ebenezer @ Merlin Helston
@@ -231,27 +231,27 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:c7b1bcc477846f795c4fa2d63de2aac403726dae@merlin-cinemas
-DTSTAMP:20261023T144727Z
+DTSTAMP:20261024T135434Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:How To Rob A Bank @ Merlin Helston
-DESCRIPTION:How To Rob A Bank (2h 2min)\nAction\, Crime\, Thriller\n\nA cre
- w of social media-savvy bank robbers broadcasts their daring heists\, unaw
- are that their growing viral fame has put them in the crosshairs of a vete
- ran FBI agent and a brilliant software engineer. Despite the unlikely duo 
- closing in\, the crime ring pushes past their limits\, putting everything 
- on the line for their most ambitious heist yet.\n\nStarring: Nicholas Houl
- t\, Zoë Kravitz\, Anna Sawai\, Rhenzy Feliz\, Pete Davidson\, John C. Reil
- ly\n\nFilm release at Merlin Cinemas Helston\nBook tickets: /film/how-to-r
- ob-a-bank\n\nFilm details: https://evenwebb.github.io/merlin-cinemas/films
- /how-to-rob-a-bank.html
+DESCRIPTION:How To Rob A Bank\nAction\, Crime\, Thriller\n\nA crew of socia
+ l media-savvy bank robbers broadcasts their daring heists\, unaware that t
+ heir growing viral fame has put them in the crosshairs of a veteran FBI ag
+ ent and a brilliant software engineer. Despite the unlikely duo closing in
+ \, the crime ring pushes past their limits\, putting everything on the lin
+ e for their most ambitious heist yet.\n\nStarring: Nicholas Hoult\, Zoë Kr
+ avitz\, Anna Sawai\, Rhenzy Feliz\, Pete Davidson\, John C. Reilly\n\nFilm
+  release at Merlin Cinemas Helston\nBook tickets: /film/how-to-rob-a-bank\
+ n\nFilm details: https://evenwebb.github.io/merlin-cinemas/films/how-to-ro
+ b-a-bank.html
 LOCATION:Merlin Cinemas Helston
 URL:/film/how-to-rob-a-bank
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:75320719b9b285d1b302f996e4569488660efa1d@merlin-cinemas
-DTSTAMP:20261023T144727Z
+DTSTAMP:20261024T135434Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:Festive Fun With Peppa Cinema Experience @ Merlin Helston
@@ -272,7 +272,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:0df5dec001b2f2765225088639f1bd66d4a2fb1d@merlin-cinemas
-DTSTAMP:20261023T144727Z
+DTSTAMP:20261024T135434Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:The Hunger Games: Sunrise On The Reaping @ Merlin Helston
@@ -291,7 +291,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:893c69b85257e2ea976052062237b7a6eb95c45d@merlin-cinemas
-DTSTAMP:20261023T144727Z
+DTSTAMP:20261024T135434Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Focker-In-Law @ Merlin Helston
@@ -308,7 +308,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:96c10e2794c6958056b9ae7c33e7bd6731acef1b@merlin-cinemas
-DTSTAMP:20261023T144727Z
+DTSTAMP:20261024T135434Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Hexed @ Merlin Helston
@@ -328,7 +328,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:dfaa4ba1d900d056973bc85ae39fa9101b414f52@merlin-cinemas
-DTSTAMP:20261023T144727Z
+DTSTAMP:20261024T135434Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Violent Night 2 @ Merlin Helston
@@ -349,7 +349,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:31f704160e76cb5f3c01020887e6b82e09bfc672@merlin-cinemas
-DTSTAMP:20261023T144727Z
+DTSTAMP:20261024T135434Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Dune: Part Three @ Merlin Helston
@@ -371,7 +371,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:0da83b95a4049cdfa59d0eac8f8a67dc78fd1547@merlin-cinemas
-DTSTAMP:20261023T144727Z
+DTSTAMP:20261024T135434Z
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
 SUMMARY:Avengers: Doomsday @ Merlin Helston
@@ -388,7 +388,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:25090d4d2afd69d67f7a226008a3d07d95bd60fc@merlin-cinemas
-DTSTAMP:20261023T144727Z
+DTSTAMP:20261024T135434Z
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20261226
 SUMMARY:Jumanji: Open World @ Merlin Helston
@@ -405,7 +405,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:649ee6b90200a4f1c98ff00bcf0157536b16b2ab@merlin-cinemas
-DTSTAMP:20261023T144727Z
+DTSTAMP:20261024T135434Z
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20261226
 SUMMARY:The Angry Birds Movie 3 @ Merlin Helston
@@ -421,7 +421,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:d659f355d194e500f19763c149a8c0a3cb309915@merlin-cinemas
-DTSTAMP:20261023T144727Z
+DTSTAMP:20261024T135434Z
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270102
 SUMMARY:Werwulf @ Merlin Helston
@@ -436,7 +436,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:1a6de8202bc7135245cb0c9ece3a2bcbb7b07e0b@merlin-cinemas
-DTSTAMP:20261023T144727Z
+DTSTAMP:20261024T135434Z
 DTSTART;VALUE=DATE:20270108
 DTEND;VALUE=DATE:20270109
 SUMMARY:Ink @ Merlin Helston
@@ -453,25 +453,25 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:74b0395ebb5227ec8518184d239e8024bc69737b@merlin-cinemas
-DTSTAMP:20261023T144727Z
+DTSTAMP:20261024T135434Z
 DTSTART;VALUE=DATE:20270205
 DTEND;VALUE=DATE:20270206
 SUMMARY:Remain @ Merlin Helston
-DESCRIPTION:Remain\nRomance\, Horror\, Mystery\n\nWhen reclusive architect 
- Tate Gordon moves to small coastal town to complete his latest project\, h
- e encounters an alluring young woman who pulls him out of his shell\, and 
- into the center of a deadly mystery that hangs over the town.\n\nStarring:
-  Jake Gyllenhaal\, Phoebe Dynevor\, Ashley Walters\, Julie Hagerty\, Jay O
- . Sanders\, Tracy Ifeachor\n\nFilm release at Merlin Cinemas Helston\nBook
-  tickets: /film/remain\n\nFilm details: https://evenwebb.github.io/merlin-
- cinemas/films/remain.html
+DESCRIPTION:Remain\nRomance\, Mystery\, Thriller\n\nWhen reclusive architec
+ t Tate Gordon moves to small coastal town to complete his latest project\,
+  he encounters an alluring young woman who pulls him out of his shell\, an
+ d into the center of a deadly mystery that hangs over the town.\n\nStarrin
+ g: Jake Gyllenhaal\, Phoebe Dynevor\, Ashley Walters\, Julie Hagerty\, Jay
+  O. Sanders\, Tracy Ifeachor\n\nFilm release at Merlin Cinemas Helston\nBo
+ ok tickets: /film/remain\n\nFilm details: https://evenwebb.github.io/merli
+ n-cinemas/films/remain.html
 LOCATION:Merlin Cinemas Helston
 URL:/film/remain
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:17d31bada314af5a7ee9cacde7b9d80aaee79312@merlin-cinemas
-DTSTAMP:20261023T144727Z
+DTSTAMP:20261024T135434Z
 DTSTART;VALUE=DATE:20270205
 DTEND;VALUE=DATE:20270206
 SUMMARY:Ice Age: Boiling Point @ Merlin Helston
@@ -490,7 +490,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:c79de4af1c285751ce2ff5a9ce3ed1176f311883@merlin-cinemas
-DTSTAMP:20261023T144727Z
+DTSTAMP:20261024T135434Z
 DTSTART;VALUE=DATE:20270212
 DTEND;VALUE=DATE:20270213
 SUMMARY:Narnia: The Magician's Nephew @ Merlin Helston
@@ -508,7 +508,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:c5a9eac3a826b2a1cdd93892b0464523b737f28c@merlin-cinemas
-DTSTAMP:20261023T144727Z
+DTSTAMP:20261024T135434Z
 DTSTART;VALUE=DATE:20270212
 DTEND;VALUE=DATE:20270213
 SUMMARY:CoComelon: The Movie @ Merlin Helston
@@ -528,7 +528,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:b78e5dcca678f131d0fc7c8880a1c76c2b73dd15@merlin-cinemas
-DTSTAMP:20261023T144727Z
+DTSTAMP:20261024T135434Z
 DTSTART;VALUE=DATE:20270312
 DTEND;VALUE=DATE:20270313
 SUMMARY:The Exorcist: Martyrs @ Merlin Helston
@@ -548,7 +548,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:33f522b2327a82eed47e445434389e57c1b3179a@merlin-cinemas
-DTSTAMP:20261023T144727Z
+DTSTAMP:20261024T135434Z
 DTSTART;VALUE=DATE:20270521
 DTEND;VALUE=DATE:20270522
 SUMMARY:Not Alone @ Merlin Helston
@@ -566,7 +566,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:7063fdf94bc2707441d0f909c4d39fd9791ea40c@merlin-cinemas
-DTSTAMP:20261023T144727Z
+DTSTAMP:20261024T135434Z
 DTSTART;VALUE=DATE:20270730
 DTEND;VALUE=DATE:20270731
 SUMMARY:Shrek 5 @ Merlin Helston

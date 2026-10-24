@@ -9,10 +9,10 @@ X-WR-CALNAME:Merlin Regal Cinema & Theatre Movie Premieres
 X-WR-CALDESC:Upcoming movie premieres at Merlin Cinemas Regal Cinema & Theatre
 X-WR-TIMEZONE:Europe/London
 BEGIN:VEVENT
-UID:9ce11adf5ac0c367457d08417fafdea137dff691@merlin-cinemas
-DTSTAMP:20261023T144727Z
-DTSTART;VALUE=DATE:20261024
-DTEND;VALUE=DATE:20261025
+UID:8a3cc2263df63a938af70584a88f52e4583d48f9@merlin-cinemas
+DTSTAMP:20261024T135434Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
 SUMMARY:Monster Mia @ Merlin Redruth
 DESCRIPTION:Monster Mia (1h 22min)\nAnimation\, Fantasy\, Family\n\n12-year
  -old Mia and her scruffy pet rat Quentin are sent to the mysterious Rotwoo
@@ -29,10 +29,10 @@ URL:/film/monster-mia
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:9751759fcc7a17236a2795096178dc62f3ce8582@merlin-cinemas
-DTSTAMP:20261023T144727Z
-DTSTART;VALUE=DATE:20261024
-DTEND;VALUE=DATE:20261025
+UID:078030a97a5df66a96bdca4574c110f6cf7f59b1@merlin-cinemas
+DTSTAMP:20261024T135434Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
 SUMMARY:Disney Junior Cinema Club 2026 @ Merlin Redruth
 DESCRIPTION:Disney Junior Cinema Club 2026\n\nPacked with fun for preschool
  ers and their grown-ups\, this interactive big-screen experience brings to
@@ -50,7 +50,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:8e9ca6dbb77b5f6aeb6e4603bcb3f0b0132267da@merlin-cinemas
-DTSTAMP:20261023T144727Z
+DTSTAMP:20261024T135434Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261031
 SUMMARY:The Rocky Horror Picture Show @ Merlin Redruth
@@ -70,7 +70,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:d4821390a237e3ef8ef5f86e31ca41116c81e237@merlin-cinemas
-DTSTAMP:20261023T144727Z
+DTSTAMP:20261024T135434Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Room On The Broom & The Highway Rat @ Merlin Redruth
@@ -94,7 +94,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:7409d08fce53cd06945cb4e8a9e4d7653f6a1b38@merlin-cinemas
-DTSTAMP:20261023T144727Z
+DTSTAMP:20261024T135434Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:Rififi En La Ciudad @ Merlin Redruth
@@ -115,7 +115,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:d32171e9429f79de9ceecfe0fb543ef0ad8becde@merlin-cinemas
-DTSTAMP:20261023T144727Z
+DTSTAMP:20261024T135434Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:Godzilla Minus Zero @ Merlin Redruth
@@ -135,7 +135,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:f74e5320621457dd3bd8982f02292ab2b2e6db33@merlin-cinemas
-DTSTAMP:20261023T144727Z
+DTSTAMP:20261024T135434Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:Amazing Grace @ Merlin Redruth
@@ -153,7 +153,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:62712e971608c65693c36309786df0c97078d39e@merlin-cinemas
-DTSTAMP:20261023T144727Z
+DTSTAMP:20261024T135434Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:I Play Rocky @ Merlin Redruth
@@ -172,7 +172,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:3a55eac572b5edcf788650f85115cd7883347466@merlin-cinemas
-DTSTAMP:20261023T144727Z
+DTSTAMP:20261024T135434Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:Wild Horse Nine @ Merlin Redruth
@@ -192,7 +192,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:56c7e4cae5a28118b418d62159d2e6111ce049e5@merlin-cinemas
-DTSTAMP:20261023T144727Z
+DTSTAMP:20261024T135434Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:Prima Facie @ Merlin Redruth
@@ -213,7 +213,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:a3710fea46bbf5674d75369011042b5514efe06d@merlin-cinemas
-DTSTAMP:20261023T144727Z
+DTSTAMP:20261024T135434Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:Ebenezer @ Merlin Redruth
@@ -231,27 +231,27 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:ef816c51747063d7b3bfb787effe1fc42b6eb9d6@merlin-cinemas
-DTSTAMP:20261023T144727Z
+DTSTAMP:20261024T135434Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:How To Rob A Bank @ Merlin Redruth
-DESCRIPTION:How To Rob A Bank (2h 2min)\nAction\, Crime\, Thriller\n\nA cre
- w of social media-savvy bank robbers broadcasts their daring heists\, unaw
- are that their growing viral fame has put them in the crosshairs of a vete
- ran FBI agent and a brilliant software engineer. Despite the unlikely duo 
- closing in\, the crime ring pushes past their limits\, putting everything 
- on the line for their most ambitious heist yet.\n\nStarring: Nicholas Houl
- t\, Zoë Kravitz\, Anna Sawai\, Rhenzy Feliz\, Pete Davidson\, John C. Reil
- ly\n\nFilm release at Merlin Cinemas Redruth\nBook tickets: /film/how-to-r
- ob-a-bank\n\nFilm details: https://evenwebb.github.io/merlin-cinemas/films
- /how-to-rob-a-bank.html
+DESCRIPTION:How To Rob A Bank\nAction\, Crime\, Thriller\n\nA crew of socia
+ l media-savvy bank robbers broadcasts their daring heists\, unaware that t
+ heir growing viral fame has put them in the crosshairs of a veteran FBI ag
+ ent and a brilliant software engineer. Despite the unlikely duo closing in
+ \, the crime ring pushes past their limits\, putting everything on the lin
+ e for their most ambitious heist yet.\n\nStarring: Nicholas Hoult\, Zoë Kr
+ avitz\, Anna Sawai\, Rhenzy Feliz\, Pete Davidson\, John C. Reilly\n\nFilm
+  release at Merlin Cinemas Redruth\nBook tickets: /film/how-to-rob-a-bank\
+ n\nFilm details: https://evenwebb.github.io/merlin-cinemas/films/how-to-ro
+ b-a-bank.html
 LOCATION:Merlin Cinemas Redruth
 URL:/film/how-to-rob-a-bank
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:344de861c4d33b8318c43b3fccb6ba093dff2d2c@merlin-cinemas
-DTSTAMP:20261023T144727Z
+DTSTAMP:20261024T135434Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:Festive Fun With Peppa Cinema Experience @ Merlin Redruth
@@ -272,7 +272,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:e8171b72204fffe3bfe46d13d3ef61fa930b093e@merlin-cinemas
-DTSTAMP:20261023T144727Z
+DTSTAMP:20261024T135434Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:The Hunger Games: Sunrise On The Reaping @ Merlin Redruth
@@ -291,7 +291,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:47bd6eec7199ffbf192cbc582393bc2a4fd19860@merlin-cinemas
-DTSTAMP:20261023T144727Z
+DTSTAMP:20261024T135434Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Focker-In-Law @ Merlin Redruth
@@ -308,7 +308,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:58fb51a348f906a719642cbc86cf82c986fa1ecb@merlin-cinemas
-DTSTAMP:20261023T144727Z
+DTSTAMP:20261024T135434Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Hexed @ Merlin Redruth
@@ -328,7 +328,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:9024bf113932a9f1ef97e3d21d098f9d4f5506d9@merlin-cinemas
-DTSTAMP:20261023T144727Z
+DTSTAMP:20261024T135434Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Violent Night 2 @ Merlin Redruth
@@ -349,7 +349,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:dba45d8d1c58087df29e2068491aa7ceb825d36a@merlin-cinemas
-DTSTAMP:20261023T144727Z
+DTSTAMP:20261024T135434Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Dune: Part Three @ Merlin Redruth
@@ -371,7 +371,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:918463f2725e5df48e5b84c6142735be2f183cdf@merlin-cinemas
-DTSTAMP:20261023T144727Z
+DTSTAMP:20261024T135434Z
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
 SUMMARY:Avengers: Doomsday @ Merlin Redruth
@@ -388,7 +388,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:089ad1d1018f22ffd6969405b1c8691dfac69f99@merlin-cinemas
-DTSTAMP:20261023T144727Z
+DTSTAMP:20261024T135434Z
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20261226
 SUMMARY:Jumanji: Open World @ Merlin Redruth
@@ -405,7 +405,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:8875957c25f046400827fe0adc1ade7856d8bdf1@merlin-cinemas
-DTSTAMP:20261023T144727Z
+DTSTAMP:20261024T135434Z
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20261226
 SUMMARY:The Angry Birds Movie 3 @ Merlin Redruth
@@ -421,7 +421,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:abc7c07c9f44d85da4ff7741b2390c8d355dae7f@merlin-cinemas
-DTSTAMP:20261023T144727Z
+DTSTAMP:20261024T135434Z
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270102
 SUMMARY:Werwulf @ Merlin Redruth
@@ -436,7 +436,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:08084ac251c5ee9e17d0e40f9afbc367a0b574bb@merlin-cinemas
-DTSTAMP:20261023T144727Z
+DTSTAMP:20261024T135434Z
 DTSTART;VALUE=DATE:20270108
 DTEND;VALUE=DATE:20270109
 SUMMARY:Ink @ Merlin Redruth
@@ -453,25 +453,25 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:45add96410ca0c44928b2b0eaa6ea04ff450834a@merlin-cinemas
-DTSTAMP:20261023T144727Z
+DTSTAMP:20261024T135434Z
 DTSTART;VALUE=DATE:20270205
 DTEND;VALUE=DATE:20270206
 SUMMARY:Remain @ Merlin Redruth
-DESCRIPTION:Remain\nRomance\, Horror\, Mystery\n\nWhen reclusive architect 
- Tate Gordon moves to small coastal town to complete his latest project\, h
- e encounters an alluring young woman who pulls him out of his shell\, and 
- into the center of a deadly mystery that hangs over the town.\n\nStarring:
-  Jake Gyllenhaal\, Phoebe Dynevor\, Ashley Walters\, Julie Hagerty\, Jay O
- . Sanders\, Tracy Ifeachor\n\nFilm release at Merlin Cinemas Redruth\nBook
-  tickets: /film/remain\n\nFilm details: https://evenwebb.github.io/merlin-
- cinemas/films/remain.html
+DESCRIPTION:Remain\nRomance\, Mystery\, Thriller\n\nWhen reclusive architec
+ t Tate Gordon moves to small coastal town to complete his latest project\,
+  he encounters an alluring young woman who pulls him out of his shell\, an
+ d into the center of a deadly mystery that hangs over the town.\n\nStarrin
+ g: Jake Gyllenhaal\, Phoebe Dynevor\, Ashley Walters\, Julie Hagerty\, Jay
+  O. Sanders\, Tracy Ifeachor\n\nFilm release at Merlin Cinemas Redruth\nBo
+ ok tickets: /film/remain\n\nFilm details: https://evenwebb.github.io/merli
+ n-cinemas/films/remain.html
 LOCATION:Merlin Cinemas Redruth
 URL:/film/remain
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:a1119d6c85dfbfea9fc1a5bb0dfb289993a1a981@merlin-cinemas
-DTSTAMP:20261023T144727Z
+DTSTAMP:20261024T135434Z
 DTSTART;VALUE=DATE:20270205
 DTEND;VALUE=DATE:20270206
 SUMMARY:Ice Age: Boiling Point @ Merlin Redruth
@@ -490,7 +490,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:2ebf8c41155e18f216fe30085a7b5ab437fd5972@merlin-cinemas
-DTSTAMP:20261023T144727Z
+DTSTAMP:20261024T135434Z
 DTSTART;VALUE=DATE:20270212
 DTEND;VALUE=DATE:20270213
 SUMMARY:Narnia: The Magician's Nephew @ Merlin Redruth
@@ -508,7 +508,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:ebe963c9cb9845240064f4252d0c1380c4d129ad@merlin-cinemas
-DTSTAMP:20261023T144727Z
+DTSTAMP:20261024T135434Z
 DTSTART;VALUE=DATE:20270212
 DTEND;VALUE=DATE:20270213
 SUMMARY:CoComelon: The Movie @ Merlin Redruth
@@ -528,7 +528,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:92d9a02200114dd6ec9fd0558accc786b9313be2@merlin-cinemas
-DTSTAMP:20261023T144727Z
+DTSTAMP:20261024T135434Z
 DTSTART;VALUE=DATE:20270312
 DTEND;VALUE=DATE:20270313
 SUMMARY:The Exorcist: Martyrs @ Merlin Redruth
@@ -548,7 +548,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:5607b9c53c36e03267902cf2436d8010e783169f@merlin-cinemas
-DTSTAMP:20261023T144727Z
+DTSTAMP:20261024T135434Z
 DTSTART;VALUE=DATE:20270521
 DTEND;VALUE=DATE:20270522
 SUMMARY:Not Alone @ Merlin Redruth
@@ -566,7 +566,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:7d0bbc8fea8cb59eb8a7b54812854453816aaae0@merlin-cinemas
-DTSTAMP:20261023T144727Z
+DTSTAMP:20261024T135434Z
 DTSTART;VALUE=DATE:20270730
 DTEND;VALUE=DATE:20270731
 SUMMARY:Shrek 5 @ Merlin Redruth
