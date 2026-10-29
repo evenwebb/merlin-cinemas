@@ -9,48 +9,8 @@ X-WR-CALNAME:Merlin Phoenix Cinema Movie Premieres
 X-WR-CALDESC:Upcoming movie premieres at Merlin Cinemas Phoenix Cinema
 X-WR-TIMEZONE:Europe/London
 BEGIN:VEVENT
-UID:a7dcbf9978f70d15dd67baa6c8be5d6b2e63b7c7@merlin-cinemas
-DTSTAMP:20261028T163030Z
-DTSTART;VALUE=DATE:20261029
-DTEND;VALUE=DATE:20261030
-SUMMARY:Monster Mia @ Merlin Falmouth
-DESCRIPTION:Monster Mia (1h 22min)\nAnimation\, Fantasy\, Family\n\n12-year
- -old Mia and her scruffy pet rat Quentin are sent to the mysterious Rotwoo
- d Academy after one too many problems at school. The new school gives her 
- the creeps\, and Mia needs to figure a way out before the students realize
-  she isn't a monster like them! But the vice principal Van Vlad hosts a pa
- rticular dislike for humans\, and Mia is scared he has seen through her ac
- t...\n\nStarring: Lilian Jane Gartner\, Dunja Bernatzky\, Verena Altenberg
- er\, Silvia Schneider\, Susi Stach\, Michael Ostrowski\n\nFilm release at 
- Merlin Cinemas Falmouth\nBook tickets: /film/monster-mia\n\nFilm details: 
- https://evenwebb.github.io/merlin-cinemas/films/monster-mia.html
-LOCATION:Merlin Cinemas Falmouth
-URL:/film/monster-mia
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:a0be151cf15c309164f70bd510ad7468eb9a76b6@merlin-cinemas
-DTSTAMP:20261028T163030Z
-DTSTART;VALUE=DATE:20261029
-DTEND;VALUE=DATE:20261030
-SUMMARY:Disney Junior Cinema Club 2026 @ Merlin Falmouth
-DESCRIPTION:Disney Junior Cinema Club 2026\n\nPacked with fun for preschool
- ers and their grown-ups\, this interactive big-screen experience brings to
- gether some favourite Disney Junior stories from Mickey Mouse Clubhouse+\,
-  Minnie's Bow-Toons: Pet Hotel\, Marvel's Iron Man and His Awesome Friends
- \, Sofia the First: Royal Magic and Toy Story Toons\, in a fun-filled extr
- avaganza! Expect sing-alongs\, dance moments\, exciting games and magical 
- surprises\, where audience participation is a must.\n\nFilm release at Mer
- lin Cinemas Falmouth\nBook tickets: /film/disney-junior-cinema-club-2026\n
- \nFilm details: https://evenwebb.github.io/merlin-cinemas/films/disney-jun
- ior-cinema-club-2026.html
-LOCATION:Merlin Cinemas Falmouth
-URL:/film/disney-junior-cinema-club-2026
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
 UID:0621782dd9f26322f877655d6da7b099685614fe@merlin-cinemas
-DTSTAMP:20261028T163030Z
+DTSTAMP:20261029T164642Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261031
 SUMMARY:The Rocky Horror Picture Show @ Merlin Falmouth
@@ -69,8 +29,48 @@ URL:/film/the-rocky-horror-picture-show-50th-anniversary
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
+UID:50ece23a7a978916e8e63c9bef78843f71c50549@merlin-cinemas
+DTSTAMP:20261029T164642Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:Monster Mia @ Merlin Falmouth
+DESCRIPTION:Monster Mia (1h 22min)\nAnimation\, Fantasy\, Family\n\n12-year
+ -old Mia and her scruffy pet rat Quentin are sent to the mysterious Rotwoo
+ d Academy after one too many problems at school. The new school gives her 
+ the creeps\, and Mia needs to figure a way out before the students realize
+  she isn't a monster like them! But the vice principal Van Vlad hosts a pa
+ rticular dislike for humans\, and Mia is scared he has seen through her ac
+ t...\n\nStarring: Lilian Jane Gartner\, Dunja Bernatzky\, Verena Altenberg
+ er\, Silvia Schneider\, Susi Stach\, Michael Ostrowski\n\nFilm release at 
+ Merlin Cinemas Falmouth\nBook tickets: /film/monster-mia\n\nFilm details: 
+ https://evenwebb.github.io/merlin-cinemas/films/monster-mia.html
+LOCATION:Merlin Cinemas Falmouth
+URL:/film/monster-mia
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
+UID:12b8754b4830981ee6acb9358399947980ed3e6c@merlin-cinemas
+DTSTAMP:20261029T164642Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:Disney Junior Cinema Club 2026 @ Merlin Falmouth
+DESCRIPTION:Disney Junior Cinema Club 2026\n\nPacked with fun for preschool
+ ers and their grown-ups\, this interactive big-screen experience brings to
+ gether some favourite Disney Junior stories from Mickey Mouse Clubhouse+\,
+  Minnie's Bow-Toons: Pet Hotel\, Marvel's Iron Man and His Awesome Friends
+ \, Sofia the First: Royal Magic and Toy Story Toons\, in a fun-filled extr
+ avaganza! Expect sing-alongs\, dance moments\, exciting games and magical 
+ surprises\, where audience participation is a must.\n\nFilm release at Mer
+ lin Cinemas Falmouth\nBook tickets: /film/disney-junior-cinema-club-2026\n
+ \nFilm details: https://evenwebb.github.io/merlin-cinemas/films/disney-jun
+ ior-cinema-club-2026.html
+LOCATION:Merlin Cinemas Falmouth
+URL:/film/disney-junior-cinema-club-2026
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
 UID:b2bf17b0e191742b23b983a0ecf219e9146119ac@merlin-cinemas
-DTSTAMP:20261028T163030Z
+DTSTAMP:20261029T164642Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Room On The Broom & The Highway Rat @ Merlin Falmouth
@@ -94,7 +94,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:2a2286669745130ae864e47d85ea21048a1e5d71@merlin-cinemas
-DTSTAMP:20261028T163030Z
+DTSTAMP:20261029T164642Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:Rififi En La Ciudad @ Merlin Falmouth
@@ -115,7 +115,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:bc7c68fbd3ef5b30281a79be12d9c5e17cdc1e0c@merlin-cinemas
-DTSTAMP:20261028T163030Z
+DTSTAMP:20261029T164642Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:Godzilla Minus Zero @ Merlin Falmouth
@@ -135,7 +135,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:469f15b9cbfdf41129996a7f54182bdd408ab6be@merlin-cinemas
-DTSTAMP:20261028T163030Z
+DTSTAMP:20261029T164642Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:Amazing Grace @ Merlin Falmouth
@@ -153,7 +153,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:002f9a94bb9b8e18bb434a81747ef83157ce5e74@merlin-cinemas
-DTSTAMP:20261028T163030Z
+DTSTAMP:20261029T164642Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:I Play Rocky @ Merlin Falmouth
@@ -172,7 +172,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:99160a044a4d0ae16e3596d2bf25fe87d58f6a77@merlin-cinemas
-DTSTAMP:20261028T163030Z
+DTSTAMP:20261029T164642Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:Prima Facie @ Merlin Falmouth
@@ -193,7 +193,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:d03b65e6664a872d4f96b9ba5e19f70f6b39c533@merlin-cinemas
-DTSTAMP:20261028T163030Z
+DTSTAMP:20261029T164642Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:Ebenezer @ Merlin Falmouth
@@ -211,27 +211,27 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:c08cbf0753bdcde8b43a572ccbad9a7da64a511e@merlin-cinemas
-DTSTAMP:20261028T163030Z
+DTSTAMP:20261029T164642Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:How To Rob A Bank @ Merlin Falmouth
-DESCRIPTION:How To Rob A Bank\nAction\, Crime\, Thriller\n\nA crew of socia
- l media-savvy bank robbers broadcasts their daring heists\, unaware that t
- heir growing viral fame has put them in the crosshairs of a veteran FBI ag
- ent and a brilliant software engineer. Despite the unlikely duo closing in
- \, the crime ring pushes past their limits\, putting everything on the lin
- e for their most ambitious heist yet.\n\nStarring: Nicholas Hoult\, Zoë Kr
- avitz\, Anna Sawai\, Rhenzy Feliz\, Pete Davidson\, John C. Reilly\n\nFilm
-  release at Merlin Cinemas Falmouth\nBook tickets: /film/how-to-rob-a-bank
- \n\nFilm details: https://evenwebb.github.io/merlin-cinemas/films/how-to-r
- ob-a-bank.html
+DESCRIPTION:How To Rob A Bank (2h 2min)\nAction\, Crime\, Thriller\n\nA cre
+ w of social media-savvy bank robbers broadcasts their daring heists\, unaw
+ are that their growing viral fame has put them in the crosshairs of a vete
+ ran FBI agent and a brilliant software engineer. Despite the unlikely duo 
+ closing in\, the crime ring pushes past their limits\, putting everything 
+ on the line for their most ambitious heist yet.\n\nStarring: Nicholas Houl
+ t\, Zoë Kravitz\, Anna Sawai\, Rhenzy Feliz\, Pete Davidson\, John C. Reil
+ ly\n\nFilm release at Merlin Cinemas Falmouth\nBook tickets: /film/how-to-
+ rob-a-bank\n\nFilm details: https://evenwebb.github.io/merlin-cinemas/film
+ s/how-to-rob-a-bank.html
 LOCATION:Merlin Cinemas Falmouth
 URL:/film/how-to-rob-a-bank
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:d927144bada00968156e4f6ca85412968c295a1d@merlin-cinemas
-DTSTAMP:20261028T163030Z
+DTSTAMP:20261029T164642Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:Festive Fun With Peppa Cinema Experience @ Merlin Falmouth
@@ -252,7 +252,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:8f69e1987c70055beceb39a7b5602b50222e47e8@merlin-cinemas
-DTSTAMP:20261028T163030Z
+DTSTAMP:20261029T164642Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:The Hunger Games: Sunrise On The Reaping @ Merlin Falmouth
@@ -271,7 +271,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:7432c7574030f71668c0b8839f29f427bcdca8c6@merlin-cinemas
-DTSTAMP:20261028T163030Z
+DTSTAMP:20261029T164642Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Focker-In-Law @ Merlin Falmouth
@@ -288,7 +288,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:ebb794a84d185c6c0ebfaf4e74e5a9397cc475dd@merlin-cinemas
-DTSTAMP:20261028T163030Z
+DTSTAMP:20261029T164642Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Hexed @ Merlin Falmouth
@@ -308,7 +308,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:1c209897abdb95a20d8d0d69a10451f122d2f929@merlin-cinemas
-DTSTAMP:20261028T163030Z
+DTSTAMP:20261029T164642Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Violent Night 2 @ Merlin Falmouth
@@ -329,7 +329,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:7ed28dd7e118fe384e555d59726082b854798da5@merlin-cinemas
-DTSTAMP:20261028T163030Z
+DTSTAMP:20261029T164642Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Dune: Part Three @ Merlin Falmouth
@@ -351,7 +351,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:e93fdea173e5e80d92e9ea5b9657af704b80331f@merlin-cinemas
-DTSTAMP:20261028T163030Z
+DTSTAMP:20261029T164642Z
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
 SUMMARY:Avengers: Doomsday @ Merlin Falmouth
@@ -368,7 +368,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:6b3afa02dbb14a9291ea7d20a7935d37594c9e8f@merlin-cinemas
-DTSTAMP:20261028T163030Z
+DTSTAMP:20261029T164642Z
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20261226
 SUMMARY:Jumanji: Open World @ Merlin Falmouth
@@ -385,7 +385,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:9cf2300c26ba35eba79057bc57959320a5b41515@merlin-cinemas
-DTSTAMP:20261028T163030Z
+DTSTAMP:20261029T164642Z
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20261226
 SUMMARY:The Angry Birds Movie 3 @ Merlin Falmouth
@@ -402,7 +402,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:d40746d073e8fdf9be6a5ada18fcba4b88cf85cc@merlin-cinemas
-DTSTAMP:20261028T163030Z
+DTSTAMP:20261029T164642Z
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270102
 SUMMARY:Werwulf @ Merlin Falmouth
@@ -417,7 +417,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:e069111161f36b15db581a6dcf3457fcacea3817@merlin-cinemas
-DTSTAMP:20261028T163030Z
+DTSTAMP:20261029T164642Z
 DTSTART;VALUE=DATE:20270108
 DTEND;VALUE=DATE:20270109
 SUMMARY:Ink @ Merlin Falmouth
@@ -434,7 +434,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:8e0c5b40423d6a822327165729e5a3152f36c3db@merlin-cinemas
-DTSTAMP:20261028T163030Z
+DTSTAMP:20261029T164642Z
 DTSTART;VALUE=DATE:20270205
 DTEND;VALUE=DATE:20270206
 SUMMARY:Remain @ Merlin Falmouth
@@ -452,7 +452,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:e2384ba19304364aad69c5fc69632001c8376b9c@merlin-cinemas
-DTSTAMP:20261028T163030Z
+DTSTAMP:20261029T164642Z
 DTSTART;VALUE=DATE:20270205
 DTEND;VALUE=DATE:20270206
 SUMMARY:Ice Age: Boiling Point @ Merlin Falmouth
@@ -471,7 +471,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20f591cea48bd8c6b47d26c30ba8c8706b982f38@merlin-cinemas
-DTSTAMP:20261028T163030Z
+DTSTAMP:20261029T164642Z
 DTSTART;VALUE=DATE:20270212
 DTEND;VALUE=DATE:20270213
 SUMMARY:Narnia: The Magician's Nephew @ Merlin Falmouth
@@ -489,7 +489,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:d300e73739defec97e05adbc22adb45c9d6f36ac@merlin-cinemas
-DTSTAMP:20261028T163030Z
+DTSTAMP:20261029T164642Z
 DTSTART;VALUE=DATE:20270212
 DTEND;VALUE=DATE:20270213
 SUMMARY:CoComelon: The Movie @ Merlin Falmouth
@@ -509,7 +509,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:b55f23427d08a3173952ae0ab55263154a6b1aea@merlin-cinemas
-DTSTAMP:20261028T163030Z
+DTSTAMP:20261029T164642Z
 DTSTART;VALUE=DATE:20270312
 DTEND;VALUE=DATE:20270313
 SUMMARY:The Exorcist: Martyrs @ Merlin Falmouth
@@ -529,7 +529,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:4f5c007afb490add1f24336456704873a057d2d8@merlin-cinemas
-DTSTAMP:20261028T163030Z
+DTSTAMP:20261029T164642Z
 DTSTART;VALUE=DATE:20270521
 DTEND;VALUE=DATE:20270522
 SUMMARY:Not Alone @ Merlin Falmouth
@@ -547,7 +547,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:7a23b6a53ce65cc904df6a68aede8d848eacd076@merlin-cinemas
-DTSTAMP:20261028T163030Z
+DTSTAMP:20261029T164642Z
 DTSTART;VALUE=DATE:20270730
 DTEND;VALUE=DATE:20270731
 SUMMARY:Shrek 5 @ Merlin Falmouth
