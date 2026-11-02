@@ -10,7 +10,7 @@ X-WR-CALDESC:Upcoming movie premieres at Merlin Cinemas The Ritz
 X-WR-TIMEZONE:Europe/London
 BEGIN:VEVENT
 UID:72010a5263f0060dba24f258a8f495e61d03c1a9@merlin-cinemas
-DTSTAMP:20261101T164048Z
+DTSTAMP:20261102T200643Z
 DTSTART;VALUE=DATE:20250822
 DTEND;VALUE=DATE:20250823
 SUMMARY:The Rocky Horror Picture Show @ Merlin Penzance
@@ -30,7 +30,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:1ce72003b7daa40b3bcb84f8853b3dba0ce6577f@merlin-cinemas
-DTSTAMP:20261101T164048Z
+DTSTAMP:20261102T200643Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Monster Mia @ Merlin Penzance
@@ -40,17 +40,16 @@ DESCRIPTION:Monster Mia (1h 22min)\nAnimation\, Fantasy\, Family\n\n12-year
  the creeps\, and Mia needs to figure a way out before the students realize
   she isn't a monster like them! But the vice principal Van Vlad hosts a pa
  rticular dislike for humans\, and Mia is scared he has seen through her ac
- t...\n\nStarring: Lilian Jane Gartner\, Dunja Bernatzky\, Verena Altenberg
- er\, Silvia Schneider\, Susi Stach\, Michael Ostrowski\n\nFilm release at 
- Merlin Cinemas Penzance\nBook tickets: /film/monster-mia\n\nFilm details: 
- https://evenwebb.github.io/merlin-cinemas/films/monster-mia.html
+ t...\n\nFilm release at Merlin Cinemas Penzance\nBook tickets: /film/monst
+ er-mia\n\nFilm details: https://evenwebb.github.io/merlin-cinemas/films/mo
+ nster-mia.html
 LOCATION:Merlin Cinemas Penzance
 URL:/film/monster-mia
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:dd58870c90b601b1e6c56b2aec5f0f99d4bb71fc@merlin-cinemas
-DTSTAMP:20261101T164048Z
+DTSTAMP:20261102T200643Z
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261025
 SUMMARY:Disney Junior Cinema Club 2026 @ Merlin Penzance
@@ -70,7 +69,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:7919ea01397074e2daa0b0a71976810388e8429c@merlin-cinemas
-DTSTAMP:20261101T164048Z
+DTSTAMP:20261102T200643Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Room On The Broom & The Highway Rat @ Merlin Penzance
@@ -94,7 +93,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:42e170a481b2a71ccd11aa0ca56b6e5b20fe4a69@merlin-cinemas
-DTSTAMP:20261101T164048Z
+DTSTAMP:20261102T200643Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:Rififi En La Ciudad @ Merlin Penzance
@@ -114,28 +113,8 @@ URL:/film/rififi-en-la-ciudad
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:285442295c36082ac99d098bbb745d8948c2e7dc@merlin-cinemas
-DTSTAMP:20261101T164048Z
-DTSTART;VALUE=DATE:20261106
-DTEND;VALUE=DATE:20261107
-SUMMARY:Godzilla Minus Zero @ Merlin Penzance
-DESCRIPTION:Godzilla Minus Zero (2h 15min)\nScience Fiction\, Horror\, Acti
- on\n\nWar reduced Japan to zero\, and Godzilla plunged it into minus. Two 
- years have passed since then\, and the country has faced agonizing struggl
- es to achieve recovery and finally reclaim its daily life. Just as humanit
- y managed to cling to a hard-won peace\, a new threat strikes\, crushing h
- ope in an instant. There is no third time. Everything ends here.\n\nStarri
- ng: Ryunosuke Kamiki\, Minami Hamabe\, Yuki Yamada\, Kuranosuke Sasaki\, J
- un Kunimura\, Miou Tanaka\n\nFilm release at Merlin Cinemas Penzance\nBook
-  tickets: /film/godzilla-minus-zero\n\nFilm details: https://evenwebb.gith
- ub.io/merlin-cinemas/films/godzilla-minus-zero.html
-LOCATION:Merlin Cinemas Penzance
-URL:/film/godzilla-minus-zero
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
 UID:298ca3b1ba3146fa80003e86df95cce8e41ea0ef@merlin-cinemas
-DTSTAMP:20261101T164048Z
+DTSTAMP:20261102T200643Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:Amazing Grace @ Merlin Penzance
@@ -152,27 +131,8 @@ URL:/film/amazing-grace-with-q-and-a
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:9338b763a0aae6d0f762864237caae09e53aa1d0@merlin-cinemas
-DTSTAMP:20261101T164048Z
-DTSTART;VALUE=DATE:20261106
-DTEND;VALUE=DATE:20261107
-SUMMARY:I Play Rocky @ Merlin Penzance
-DESCRIPTION:I Play Rocky (2h 8min)\nDrama\, History\n\nThe electrifying tru
- e story about an unknown actor with an unshakable belief that he wasn't ju
- st meant to write Rocky—he was meant to be Rocky Balboa. Told "no" at ever
- y turn\, Sylvester Stallone bets everything on himself\, holding the line 
- on playing the lead against seemingly impossible odds.\n\nStarring: Anthon
- y Ippolito\, AnnaSophia Robb\, P.J. Byrne\, Toby Kebbell\, Jay Duplass\, T
- racy Letts\n\nFilm release at Merlin Cinemas Penzance\nBook tickets: /film
- /i-play-rocky\n\nFilm details: https://evenwebb.github.io/merlin-cinemas/f
- ilms/i-play-rocky.html
-LOCATION:Merlin Cinemas Penzance
-URL:/film/i-play-rocky
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
 UID:4948fffd9e197874c3cd3f1115591b343e0c2460@merlin-cinemas
-DTSTAMP:20261101T164048Z
+DTSTAMP:20261102T200643Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:Prima Facie @ Merlin Penzance
@@ -193,7 +153,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:98a632633afdb8e9c237795bf4cda6c77f9759ad@merlin-cinemas
-DTSTAMP:20261101T164048Z
+DTSTAMP:20261102T200643Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:Ebenezer @ Merlin Penzance
@@ -211,7 +171,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:07e49ce0b6c859e2b58cbfe8276a2ea7df835374@merlin-cinemas
-DTSTAMP:20261101T164048Z
+DTSTAMP:20261102T200643Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:How To Rob A Bank @ Merlin Penzance
@@ -231,7 +191,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:aa661fff1c6b43b1b21ba821fa0edf65cd772dd5@merlin-cinemas
-DTSTAMP:20261101T164048Z
+DTSTAMP:20261102T200643Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:Festive Fun With Peppa Cinema Experience @ Merlin Penzance
@@ -252,11 +212,11 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:3862cd142dc2544a72db54645aab88d043badb43@merlin-cinemas
-DTSTAMP:20261101T164048Z
+DTSTAMP:20261102T200643Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:The Hunger Games: Sunrise On The Reaping @ Merlin Penzance
-DESCRIPTION:The Hunger Games: Sunrise On The Reaping (2h 38min)\nScience Fi
+DESCRIPTION:The Hunger Games: Sunrise On The Reaping (2h 39min)\nScience Fi
  ction\, Action\, Adventure\n\nReturn to the world of Panem 24 years before
   the events of The Hunger Games\, starting on the morning of the reaping o
  f the 50th Hunger Games\, also known as the Second Quarter Quell.\n\nStarr
@@ -271,7 +231,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:f5983670fd0c58ffbebb895520192c91467b4864@merlin-cinemas
-DTSTAMP:20261101T164048Z
+DTSTAMP:20261102T200643Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Focker-In-Law @ Merlin Penzance
@@ -288,7 +248,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:6656840ad30c6c4a139b29f7d375676d31f5bee9@merlin-cinemas
-DTSTAMP:20261101T164048Z
+DTSTAMP:20261102T200643Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Hexed @ Merlin Penzance
@@ -308,7 +268,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:89d569b7cfaf061d1d1b847005de9cfe720c7d3b@merlin-cinemas
-DTSTAMP:20261101T164048Z
+DTSTAMP:20261102T200643Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Violent Night 2 @ Merlin Penzance
@@ -329,7 +289,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:29fcf414d1233cda765ba05435160214d7ebade2@merlin-cinemas
-DTSTAMP:20261101T164048Z
+DTSTAMP:20261102T200643Z
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
 SUMMARY:Avengers: Doomsday @ Merlin Penzance
@@ -346,7 +306,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:8ffda1331ed8fe5acf4c3a517446e571cb5da7c2@merlin-cinemas
-DTSTAMP:20261101T164048Z
+DTSTAMP:20261102T200643Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
 SUMMARY:Dune: Part Three @ Merlin Penzance
@@ -368,7 +328,7 @@ SEQUENCE:2
 END:VEVENT
 BEGIN:VEVENT
 UID:ebd90ea6ae3e4cdf30817f37eb16e2a1daadcfa1@merlin-cinemas
-DTSTAMP:20261101T164048Z
+DTSTAMP:20261102T200643Z
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20261226
 SUMMARY:Jumanji: Open World @ Merlin Penzance
@@ -385,7 +345,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:ba91f7ea4f8edf53e89146ec59dfab2e4968c81d@merlin-cinemas
-DTSTAMP:20261101T164048Z
+DTSTAMP:20261102T200643Z
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20261226
 SUMMARY:The Angry Birds Movie 3 @ Merlin Penzance
@@ -402,7 +362,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:ef6574209b4817cc39747d3ee5d905c3bdecb307@merlin-cinemas
-DTSTAMP:20261101T164048Z
+DTSTAMP:20261102T200643Z
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270102
 SUMMARY:Werwulf @ Merlin Penzance
@@ -417,7 +377,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:6344a0456e5f256b1d0f2fd12880434bc2297ce7@merlin-cinemas
-DTSTAMP:20261101T164048Z
+DTSTAMP:20261102T200643Z
 DTSTART;VALUE=DATE:20270108
 DTEND;VALUE=DATE:20270109
 SUMMARY:Ink @ Merlin Penzance
@@ -434,7 +394,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:8555bc97a38ec5d646a16040e9327cce930edb4f@merlin-cinemas
-DTSTAMP:20261101T164048Z
+DTSTAMP:20261102T200643Z
 DTSTART;VALUE=DATE:20270205
 DTEND;VALUE=DATE:20270206
 SUMMARY:Remain @ Merlin Penzance
@@ -452,7 +412,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:b884d5b93f2890f7919e979924f541508562bb80@merlin-cinemas
-DTSTAMP:20261101T164048Z
+DTSTAMP:20261102T200643Z
 DTSTART;VALUE=DATE:20270205
 DTEND;VALUE=DATE:20270206
 SUMMARY:Ice Age: Boiling Point @ Merlin Penzance
@@ -471,7 +431,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:c633cdaf5ff36aa75e5e1a7f9cce170328c0312e@merlin-cinemas
-DTSTAMP:20261101T164048Z
+DTSTAMP:20261102T200643Z
 DTSTART;VALUE=DATE:20270212
 DTEND;VALUE=DATE:20270213
 SUMMARY:Narnia: The Magician's Nephew @ Merlin Penzance
@@ -489,7 +449,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:52e4c623079ed88cdcd1dc95e1f6c9eecb89a574@merlin-cinemas
-DTSTAMP:20261101T164048Z
+DTSTAMP:20261102T200643Z
 DTSTART;VALUE=DATE:20270212
 DTEND;VALUE=DATE:20270213
 SUMMARY:CoComelon: The Movie @ Merlin Penzance
@@ -509,7 +469,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:ca28535966e5dd927d961ac77d5b411e9d2ee9cd@merlin-cinemas
-DTSTAMP:20261101T164048Z
+DTSTAMP:20261102T200643Z
 DTSTART;VALUE=DATE:20270312
 DTEND;VALUE=DATE:20270313
 SUMMARY:The Exorcist: Martyrs @ Merlin Penzance
@@ -529,7 +489,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:874b61f922a3fd03bd17cfac6f07577ec9672b50@merlin-cinemas
-DTSTAMP:20261101T164048Z
+DTSTAMP:20261102T200643Z
 DTSTART;VALUE=DATE:20270521
 DTEND;VALUE=DATE:20270522
 SUMMARY:Not Alone @ Merlin Penzance
@@ -547,7 +507,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:c9d4ce2439104462945c7d3814eb615bd60fe5f7@merlin-cinemas
-DTSTAMP:20261101T164048Z
+DTSTAMP:20261102T200643Z
 DTSTART;VALUE=DATE:20270730
 DTEND;VALUE=DATE:20270731
 SUMMARY:Shrek 5 @ Merlin Penzance
