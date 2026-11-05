@@ -10,7 +10,7 @@ X-WR-CALDESC:Upcoming movie premieres at Merlin Cinemas Flora Cinema
 X-WR-TIMEZONE:Europe/London
 BEGIN:VEVENT
 UID:a8b0778a99ad73e2995e9a8552f5cfef9dc0439b@merlin-cinemas
-DTSTAMP:20261104T175225Z
+DTSTAMP:20261105T175528Z
 DTSTART;VALUE=DATE:20250822
 DTEND;VALUE=DATE:20250823
 SUMMARY:The Rocky Horror Picture Show @ Merlin Helston
@@ -30,7 +30,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:7a38ecfdb772058287c46c99916f50db4d3481ed@merlin-cinemas
-DTSTAMP:20261104T175225Z
+DTSTAMP:20261105T175528Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Monster Mia @ Merlin Helston
@@ -49,7 +49,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:5cb4cf813990952c8835a6cf3af2f0dcc135cbc5@merlin-cinemas
-DTSTAMP:20261104T175225Z
+DTSTAMP:20261105T175528Z
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261025
 SUMMARY:Disney Junior Cinema Club 2026 @ Merlin Helston
@@ -69,7 +69,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:f2c1047a186ab2799bb4d38457d812be6e4fdcd9@merlin-cinemas
-DTSTAMP:20261104T175225Z
+DTSTAMP:20261105T175528Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Room On The Broom & The Highway Rat @ Merlin Helston
@@ -93,7 +93,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20050e4ad0215ae51fd0d742ca730958a828179c@merlin-cinemas
-DTSTAMP:20261104T175225Z
+DTSTAMP:20261105T175528Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:Rififi En La Ciudad @ Merlin Helston
@@ -114,25 +114,25 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:578cb8f82161789ac299672a3d697669168c1652@merlin-cinemas
-DTSTAMP:20261104T175225Z
+DTSTAMP:20261105T175528Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:Amazing Grace @ Merlin Helston
-DESCRIPTION:Amazing Grace (1h 57min)\n★★★☆☆\nDrama\n\nThe true story of Wil
- liam Wilberforce and his courageous quest to end the British slave trade. 
- Along the way\, Wilberforce meets intense opposition\, but his minister ur
- ges him to see the cause through.\n\nStarring: Ioan Gruffudd\, Romola Gara
- i\, Ciarán Hinds\, Rufus Sewell\, Youssou N'Dour\, Benedict Cumberbatch\n\
- nFilm release at Merlin Cinemas Helston\nBook tickets: /film/amazing-grace
- -with-q-and-a\n\nFilm details: https://evenwebb.github.io/merlin-cinemas/f
- ilms/amazing-grace.html
+DESCRIPTION:Amazing Grace (1h 30min)\nDrama\n\nOn the brink of suicide\, a 
+ deeply isolated man forms an unexpected bond with a crisis helpline volunt
+ eer who helps him confront the childhood abuse\, addiction\, and shame he 
+ has spent a lifetime trying to survive.\n\nStarring: Hannah Walters\, Jame
+ s Nelson-Joyce\, Chanel Cresswell\, Daniel P. Lewis\, Kelly Condron\, Debi
+  Doy\n\nFilm release at Merlin Cinemas Helston\nBook tickets: /film/amazin
+ g-grace-with-q-and-a\n\nFilm details: https://evenwebb.github.io/merlin-ci
+ nemas/films/amazing-grace.html
 LOCATION:Merlin Cinemas Helston
 URL:/film/amazing-grace-with-q-and-a
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:5ed1f8bf18e7fa9e490951996df4aaa4821435e0@merlin-cinemas
-DTSTAMP:20261104T175225Z
+DTSTAMP:20261105T175528Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:Prima Facie @ Merlin Helston
@@ -153,25 +153,26 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:e248ceca8da04263092f526ee51e62128e28a2c0@merlin-cinemas
-DTSTAMP:20261104T175225Z
+DTSTAMP:20261105T175528Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:Ebenezer @ Merlin Helston
-DESCRIPTION:Ebenezer (1h 55min)\nFantasy\, Comedy\n\nAn elderly miser embar
- ks on a supernatural journey after visits from the ghost of his former bus
- iness partner and the Spirits of Christmas Past\, Present\, and Yet to Com
- e force him to confront his past and fight for a second chance at happines
- s.\n\nStarring: Johnny Depp\, Rupert Grint\, Daisy Ridley\, Andrea Risebor
- ough\, Tramell Tillman\, Ian McKellen\n\nFilm release at Merlin Cinemas He
- lston\nBook tickets: /film/ebenezer\n\nFilm details: https://evenwebb.gith
- ub.io/merlin-cinemas/films/ebenezer.html
+DESCRIPTION:Ebenezer (1h 55min)\nFantasy\, Comedy\n\nAn elderly miser named
+  Sonny O’dell embarks on a supernatural journey across Jaywick after visit
+ s from the ghost of his former business partner Sani and the Spirits of Pr
+ imetime Past\, Present\, and Yet to Come force him to confront his past an
+ d fight for a second chance at happiness.\n\nStarring: Johnny Depp\, Ruper
+ t Grint\, Daisy Ridley\, Andrea Riseborough\, Tramell Tillman\, Ian McKell
+ en\n\nFilm release at Merlin Cinemas Helston\nBook tickets: /film/ebenezer
+ \n\nFilm details: https://evenwebb.github.io/merlin-cinemas/films/ebenezer
+ .html
 LOCATION:Merlin Cinemas Helston
 URL:/film/ebenezer
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:c7b1bcc477846f795c4fa2d63de2aac403726dae@merlin-cinemas
-DTSTAMP:20261104T175225Z
+DTSTAMP:20261105T175528Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:How To Rob A Bank @ Merlin Helston
@@ -191,7 +192,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:75320719b9b285d1b302f996e4569488660efa1d@merlin-cinemas
-DTSTAMP:20261104T175225Z
+DTSTAMP:20261105T175528Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:Festive Fun With Peppa Cinema Experience @ Merlin Helston
@@ -212,7 +213,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:3b7968400edb86dcdfc9fca39f535d3a1d147d8d@merlin-cinemas
-DTSTAMP:20261104T175225Z
+DTSTAMP:20261105T175528Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
 SUMMARY:The Hunger Games: Sunrise On The Reaping @ Merlin Helston
@@ -231,7 +232,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:be99e466fe910b752cc2eaff4aff94be1d349679@merlin-cinemas
-DTSTAMP:20261104T175225Z
+DTSTAMP:20261105T175528Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:CBeebies Panto 2026: Treasure Island @ Merlin Helston
@@ -245,7 +246,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:893c69b85257e2ea976052062237b7a6eb95c45d@merlin-cinemas
-DTSTAMP:20261104T175225Z
+DTSTAMP:20261105T175528Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Focker-In-Law @ Merlin Helston
@@ -262,7 +263,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:96c10e2794c6958056b9ae7c33e7bd6731acef1b@merlin-cinemas
-DTSTAMP:20261104T175225Z
+DTSTAMP:20261105T175528Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Hexed @ Merlin Helston
@@ -282,7 +283,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:dfaa4ba1d900d056973bc85ae39fa9101b414f52@merlin-cinemas
-DTSTAMP:20261104T175225Z
+DTSTAMP:20261105T175528Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Violent Night 2 @ Merlin Helston
@@ -303,7 +304,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:31f704160e76cb5f3c01020887e6b82e09bfc672@merlin-cinemas
-DTSTAMP:20261104T175225Z
+DTSTAMP:20261105T175528Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Dune: Part Three @ Merlin Helston
@@ -325,7 +326,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:0da83b95a4049cdfa59d0eac8f8a67dc78fd1547@merlin-cinemas
-DTSTAMP:20261104T175225Z
+DTSTAMP:20261105T175528Z
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
 SUMMARY:Avengers: Doomsday @ Merlin Helston
@@ -342,7 +343,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:25090d4d2afd69d67f7a226008a3d07d95bd60fc@merlin-cinemas
-DTSTAMP:20261104T175225Z
+DTSTAMP:20261105T175528Z
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20261226
 SUMMARY:Jumanji: Open World @ Merlin Helston
@@ -359,23 +360,24 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:649ee6b90200a4f1c98ff00bcf0157536b16b2ab@merlin-cinemas
-DTSTAMP:20261104T175225Z
+DTSTAMP:20261105T175528Z
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20261226
 SUMMARY:The Angry Birds Movie 3 @ Merlin Helston
-DESCRIPTION:The Angry Birds Movie 3 (1h 36min)\nAnimation\, Comedy\, Family
- \n\nRed faces his greatest challenge yet - surviving fatherhood - while sa
- ving the world.\n\nStarring: Jason Sudeikis\, Josh Gad\, Danny McBride\, R
- achel Bloom\, Emma Myers\, Walker Scobell\n\nFilm release at Merlin Cinema
- s Helston\nBook tickets: /film/the-angry-birds-movie-3\n\nFilm details: ht
- tps://evenwebb.github.io/merlin-cinemas/films/the-angry-birds-movie-3.html
+DESCRIPTION:The Angry Birds Movie 3 (1h 36min)\nAdventure\, Animation\, Com
+ edy\, Family\, Science Fiction\n\nRed faces his greatest challenge yet—sur
+ viving fatherhood… while saving the world.\n\nStarring: Jason Sudeikis\, J
+ osh Gad\, Danny McBride\, Rachel Bloom\, Emma Myers\, Walker Scobell\n\nFi
+ lm release at Merlin Cinemas Helston\nBook tickets: /film/the-angry-birds-
+ movie-3\n\nFilm details: https://evenwebb.github.io/merlin-cinemas/films/t
+ he-angry-birds-movie-3.html
 LOCATION:Merlin Cinemas Helston
 URL:/film/the-angry-birds-movie-3
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:d659f355d194e500f19763c149a8c0a3cb309915@merlin-cinemas
-DTSTAMP:20261104T175225Z
+DTSTAMP:20261105T175528Z
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270102
 SUMMARY:Werwulf @ Merlin Helston
@@ -390,7 +392,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:1a6de8202bc7135245cb0c9ece3a2bcbb7b07e0b@merlin-cinemas
-DTSTAMP:20261104T175225Z
+DTSTAMP:20261105T175528Z
 DTSTART;VALUE=DATE:20270108
 DTEND;VALUE=DATE:20270109
 SUMMARY:Ink @ Merlin Helston
@@ -407,7 +409,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:74b0395ebb5227ec8518184d239e8024bc69737b@merlin-cinemas
-DTSTAMP:20261104T175225Z
+DTSTAMP:20261105T175528Z
 DTSTART;VALUE=DATE:20270205
 DTEND;VALUE=DATE:20270206
 SUMMARY:Remain @ Merlin Helston
@@ -425,7 +427,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:17d31bada314af5a7ee9cacde7b9d80aaee79312@merlin-cinemas
-DTSTAMP:20261104T175225Z
+DTSTAMP:20261105T175528Z
 DTSTART;VALUE=DATE:20270205
 DTEND;VALUE=DATE:20270206
 SUMMARY:Ice Age: Boiling Point @ Merlin Helston
@@ -444,7 +446,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:c79de4af1c285751ce2ff5a9ce3ed1176f311883@merlin-cinemas
-DTSTAMP:20261104T175225Z
+DTSTAMP:20261105T175528Z
 DTSTART;VALUE=DATE:20270212
 DTEND;VALUE=DATE:20270213
 SUMMARY:Narnia: The Magician's Nephew @ Merlin Helston
@@ -462,7 +464,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:c5a9eac3a826b2a1cdd93892b0464523b737f28c@merlin-cinemas
-DTSTAMP:20261104T175225Z
+DTSTAMP:20261105T175528Z
 DTSTART;VALUE=DATE:20270212
 DTEND;VALUE=DATE:20270213
 SUMMARY:CoComelon: The Movie @ Merlin Helston
@@ -482,7 +484,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:b78e5dcca678f131d0fc7c8880a1c76c2b73dd15@merlin-cinemas
-DTSTAMP:20261104T175225Z
+DTSTAMP:20261105T175528Z
 DTSTART;VALUE=DATE:20270312
 DTEND;VALUE=DATE:20270313
 SUMMARY:The Exorcist: Martyrs @ Merlin Helston
@@ -502,7 +504,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:33f522b2327a82eed47e445434389e57c1b3179a@merlin-cinemas
-DTSTAMP:20261104T175225Z
+DTSTAMP:20261105T175528Z
 DTSTART;VALUE=DATE:20270521
 DTEND;VALUE=DATE:20270522
 SUMMARY:Not Alone @ Merlin Helston
@@ -520,7 +522,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:7063fdf94bc2707441d0f909c4d39fd9791ea40c@merlin-cinemas
-DTSTAMP:20261104T175225Z
+DTSTAMP:20261105T175528Z
 DTSTART;VALUE=DATE:20270730
 DTEND;VALUE=DATE:20270731
 SUMMARY:Shrek 5 @ Merlin Helston
