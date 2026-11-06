@@ -15,7 +15,7 @@
     "runtime": "109 min",
     "trailer_url": "https://www.youtube.com/watch?v=tnhynwj29Ew",
     "imdb_id": "tt27759858",
-    "cached_at": "2026-11-05T17:55:12.353933+00:00"
+    "cached_at": "2026-11-06T17:16:17.685657+00:00"
   },
   "ebenezer": {
     "title": "Ebenezer",
@@ -27,34 +27,14 @@
     "vote_average": null,
     "vote_count": 1,
     "director": "Ti West",
-    "cast": "Johnny Depp, Rupert Grint, Daisy Ridley, Andrea Riseborough, Tramell Tillman, Ian McKellen",
+    "cast": "Johnny Depp, Adam Sandler, Will Smith, Kane West, Kim Kardashian, Carel Struycken",
     "poster_url": "https://image.tmdb.org/t/p/w500/6H2N59jJW1hZEzn2ZdrMvJw5vNI.jpg",
     "poster_large_url": "https://image.tmdb.org/t/p/w780/6H2N59jJW1hZEzn2ZdrMvJw5vNI.jpg",
     "backdrop_url": "https://image.tmdb.org/t/p/w780/oveb9ughaDh4GkjmVHvSgFnEzlM.jpg",
     "runtime": "115 min",
     "trailer_url": "https://www.youtube.com/watch?v=l_Ozo1xUgbU",
     "imdb_id": "tt38773219",
-    "cached_at": "2026-11-05T17:55:12.389107+00:00"
-  },
-  "the-rocky-horror-picture-show": {
-    "title": "The Rocky Horror Picture Show",
-    "overview": "After getting a flat tire in the middle of nowhere, newly engaged couple Brad and Janet encounter the eerie mansion of the flamboyant, seductive Dr Frank-N-Furter and a variety of eccentric characters. Through elaborate dance and rock music, the mad scientist unveils his latest creation: a perfect, muscular man.",
-    "genres": [
-      "Comedy",
-      "Science Fiction",
-      "Horror"
-    ],
-    "vote_average": 7.442,
-    "vote_count": 3309,
-    "director": "Jim Sharman",
-    "cast": "Tim Curry, Susan Sarandon, Barry Bostwick, Richard O'Brien, Patricia Quinn, Nell Campbell",
-    "poster_url": "https://image.tmdb.org/t/p/w500/3pyE6ZqDbuJi7zrNzzQzcKTWdmN.jpg",
-    "poster_large_url": "https://image.tmdb.org/t/p/w780/3pyE6ZqDbuJi7zrNzzQzcKTWdmN.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/w780/54aVU7tnvDKkX6ibzFg6ke03BV.jpg",
-    "runtime": "100 min",
-    "trailer_url": "https://www.youtube.com/watch?v=LnYBwampG8U",
-    "imdb_id": "tt0073629",
-    "cached_at": "2026-11-05T17:55:12.396346+00:00"
+    "cached_at": "2026-11-06T17:16:17.708476+00:00"
   },
   "amazing-grace": {
     "title": "Amazing Grace",
@@ -72,7 +52,7 @@
     "runtime": "90 min",
     "trailer_url": "",
     "imdb_id": "tt32857547",
-    "cached_at": "2026-11-05T17:55:12.400955+00:00"
+    "cached_at": "2026-11-06T17:16:17.711682+00:00"
   },
   "monster-mia": {
     "title": "Monster Mia",
@@ -86,13 +66,33 @@
     "vote_count": 9,
     "director": "Verena Fels",
     "cast": "",
-    "poster_url": "https://image.tmdb.org/t/p/w500/rEIgF9W6OXJiHpM1fXLVVMqQlfF.jpg",
-    "poster_large_url": "https://image.tmdb.org/t/p/w780/rEIgF9W6OXJiHpM1fXLVVMqQlfF.jpg",
+    "poster_url": "https://image.tmdb.org/t/p/w500/rlAFhlAdaUoujDxWRxBCVwM8esY.jpg",
+    "poster_large_url": "https://image.tmdb.org/t/p/w780/rlAFhlAdaUoujDxWRxBCVwM8esY.jpg",
     "backdrop_url": "https://image.tmdb.org/t/p/w780/n6P7q23qH4w0XIdDfvG7Hk7GhSZ.jpg",
     "runtime": "82 min",
     "trailer_url": "https://www.youtube.com/watch?v=CbqDABPksnw",
     "imdb_id": "tt38807889",
-    "cached_at": "2026-11-05T17:55:12.402719+00:00"
+    "cached_at": "2026-11-06T17:16:17.714426+00:00"
+  },
+  "the-rocky-horror-picture-show": {
+    "title": "The Rocky Horror Picture Show",
+    "overview": "After getting a flat tire in the middle of nowhere, newly engaged couple Brad and Janet encounter the eerie mansion of the flamboyant, seductive Dr Frank-N-Furter and a variety of eccentric characters. Through elaborate dance and rock music, the mad scientist unveils his latest creation: a perfect, muscular man.",
+    "genres": [
+      "Comedy",
+      "Science Fiction",
+      "Horror"
+    ],
+    "vote_average": 7.441,
+    "vote_count": 3312,
+    "director": "Jim Sharman",
+    "cast": "Tim Curry, Susan Sarandon, Barry Bostwick, Richard O'Brien, Patricia Quinn, Nell Campbell",
+    "poster_url": "https://image.tmdb.org/t/p/w500/3pyE6ZqDbuJi7zrNzzQzcKTWdmN.jpg",
+    "poster_large_url": "https://image.tmdb.org/t/p/w780/3pyE6ZqDbuJi7zrNzzQzcKTWdmN.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w780/54aVU7tnvDKkX6ibzFg6ke03BV.jpg",
+    "runtime": "100 min",
+    "trailer_url": "https://www.youtube.com/watch?v=LnYBwampG8U",
+    "imdb_id": "tt0073629",
+    "cached_at": "2026-11-06T17:16:17.739523+00:00"
   },
   "disney-junior-cinema-club-2026": {
     "title": "Disney Junior Cinema Club 2026",
@@ -108,7 +108,66 @@
     "runtime": "",
     "trailer_url": "",
     "imdb_id": "",
-    "cached_at": "2026-11-05T17:55:12.404356+00:00"
+    "cached_at": "2026-11-06T17:16:17.739951+00:00"
+  },
+  "the-hunger-games-sunrise-on-the-reaping": {
+    "title": "The Hunger Games: Sunrise on the Reaping",
+    "overview": "Return to the world of Panem 24 years before the events of The Hunger Games, starting on the morning of the reaping of the 50th Hunger Games, also known as the Second Quarter Quell.",
+    "genres": [
+      "Science Fiction",
+      "Action",
+      "Adventure"
+    ],
+    "vote_average": null,
+    "vote_count": 0,
+    "director": "Francis Lawrence",
+    "cast": "Joseph Zada, Mckenna Grace, Maya Hawke, Ralph Fiennes, Jesse Plemons, Elle Fanning",
+    "poster_url": "https://image.tmdb.org/t/p/w500/jNcZH8yplxttRlf0wwqfGGMKHxX.jpg",
+    "poster_large_url": "https://image.tmdb.org/t/p/w780/jNcZH8yplxttRlf0wwqfGGMKHxX.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w780/aqFZcr2dxSZ2UwWSo1WC6C0rwDf.jpg",
+    "runtime": "159 min",
+    "trailer_url": "https://www.youtube.com/watch?v=Dr060OLTodE",
+    "imdb_id": "tt32558705",
+    "cached_at": "2026-11-06T17:16:18.197722+00:00"
+  },
+  "focker-in-law": {
+    "title": "Focker-in-Law",
+    "overview": "Henry, son of Greg and Pam Focker, faces family chaos when he decides to marry a strong-willed woman who appears to be his complete mismatch.",
+    "genres": [
+      "Comedy",
+      "Romance"
+    ],
+    "vote_average": null,
+    "vote_count": 0,
+    "director": "John Hamburg",
+    "cast": "Ben Stiller, Robert De Niro, Ariana Grande, Skyler Gisondo, Owen Wilson, Blythe Danner",
+    "poster_url": "https://image.tmdb.org/t/p/w500/gPdzdeehaoaYqxH2rA6yayEDSsS.jpg",
+    "poster_large_url": "https://image.tmdb.org/t/p/w780/gPdzdeehaoaYqxH2rA6yayEDSsS.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w780/nubnNXuMArUhiDW1nUevGsG65x9.jpg",
+    "runtime": "105 min",
+    "trailer_url": "https://www.youtube.com/watch?v=9CKu3WoMYCg",
+    "imdb_id": "tt34966140",
+    "cached_at": "2026-11-06T17:16:18.199053+00:00"
+  },
+  "violent-night-2": {
+    "title": "Violent Night 2",
+    "overview": "When Santa forgets the true meaning of Christmas, he finds himself in the heart of a lively mall community in desperate need of his help. Sapped of his magic, he’ll need another way to take on the goons threatening the mall, and time is running out. Santa has to rediscover his faith in goodness and call in some last-minute reinforcements from the one person no baddie wants to tangle with: Mrs. Claus.",
+    "genres": [
+      "Action",
+      "Comedy",
+      "Fantasy"
+    ],
+    "vote_average": null,
+    "vote_count": 0,
+    "director": "Tommy Wirkola",
+    "cast": "David Harbour, Kristen Bell, Daniela Melchior, Jared Harris, Joe Pantoliano, Maxwell Jacob Friedman",
+    "poster_url": "https://image.tmdb.org/t/p/w500/7HPvgItDw9NgW3iy4tFRRuGNbuN.jpg",
+    "poster_large_url": "https://image.tmdb.org/t/p/w780/7HPvgItDw9NgW3iy4tFRRuGNbuN.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w780/78dChJs7doULSEhIiOvGUcXQRGU.jpg",
+    "runtime": "110 min",
+    "trailer_url": "https://www.youtube.com/watch?v=FmM2giDwLAE",
+    "imdb_id": "tt32432428",
+    "cached_at": "2026-11-06T17:16:18.227211+00:00"
   },
   "hexed": {
     "title": "Hexed",
@@ -130,7 +189,7 @@
     "runtime": "103 min",
     "trailer_url": "https://www.youtube.com/watch?v=IuosV-TRxDU",
     "imdb_id": "tt38077943",
-    "cached_at": "2026-11-05T17:55:12.940730+00:00"
+    "cached_at": "2026-11-06T17:16:18.230202+00:00"
   },
   "how-to-rob-a-bank": {
     "title": "How to Rob a Bank",
@@ -150,26 +209,7 @@
     "runtime": "122 min",
     "trailer_url": "https://www.youtube.com/watch?v=MVvWKh336m4",
     "imdb_id": "tt35866986",
-    "cached_at": "2026-11-05T17:55:13.298088+00:00"
-  },
-  "focker-in-law": {
-    "title": "Focker-in-Law",
-    "overview": "Henry, son of Greg and Pam Focker, faces family chaos when he decides to marry a strong-willed woman who appears to be his complete mismatch.",
-    "genres": [
-      "Comedy",
-      "Romance"
-    ],
-    "vote_average": null,
-    "vote_count": 0,
-    "director": "John Hamburg",
-    "cast": "Ben Stiller, Robert De Niro, Ariana Grande, Skyler Gisondo, Owen Wilson, Blythe Danner",
-    "poster_url": "https://image.tmdb.org/t/p/w500/gPdzdeehaoaYqxH2rA6yayEDSsS.jpg",
-    "poster_large_url": "https://image.tmdb.org/t/p/w780/gPdzdeehaoaYqxH2rA6yayEDSsS.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/w780/nubnNXuMArUhiDW1nUevGsG65x9.jpg",
-    "runtime": "105 min",
-    "trailer_url": "https://www.youtube.com/watch?v=9CKu3WoMYCg",
-    "imdb_id": "tt34966140",
-    "cached_at": "2026-11-05T17:55:13.365302+00:00"
+    "cached_at": "2026-11-06T17:16:18.455348+00:00"
   },
   "avengers-doomsday": {
     "title": "Avengers: Doomsday",
@@ -189,66 +229,7 @@
     "runtime": "165 min",
     "trailer_url": "https://www.youtube.com/watch?v=X1aFkAkFASk",
     "imdb_id": "tt21357150",
-    "cached_at": "2026-11-05T17:55:13.478432+00:00"
-  },
-  "festive-fun-with-peppa-cinema-experience": {
-    "title": "Festive Fun with Peppa",
-    "overview": "Join Peppa Pig and her family as they celebrate baby Evie’s first Christmas. This festive cinema experience brings together seven classic festive-themed Peppa Pig episodes, new interstitial content, and four brand-new songs with music videos. From snowy adventures and festive plays to decorating the Christmas tree, Peppa and her family share treasured Christmas memories in this special big-screen experience.",
-    "genres": [
-      "Animation",
-      "Family"
-    ],
-    "vote_average": null,
-    "vote_count": 0,
-    "director": "",
-    "cast": "Morwenna Banks, Richard Ridings, Amelie Bea Smith",
-    "poster_url": "https://image.tmdb.org/t/p/w500/m73eSyjsue3zTorttAJbckNVJtA.jpg",
-    "poster_large_url": "https://image.tmdb.org/t/p/w780/m73eSyjsue3zTorttAJbckNVJtA.jpg",
-    "backdrop_url": "",
-    "runtime": "60 min",
-    "trailer_url": "",
-    "imdb_id": "tt46666063",
-    "cached_at": "2026-11-05T17:55:13.481038+00:00"
-  },
-  "the-hunger-games-sunrise-on-the-reaping": {
-    "title": "The Hunger Games: Sunrise on the Reaping",
-    "overview": "Return to the world of Panem 24 years before the events of The Hunger Games, starting on the morning of the reaping of the 50th Hunger Games, also known as the Second Quarter Quell.",
-    "genres": [
-      "Science Fiction",
-      "Action",
-      "Adventure"
-    ],
-    "vote_average": null,
-    "vote_count": 0,
-    "director": "Francis Lawrence",
-    "cast": "Joseph Zada, Mckenna Grace, Maya Hawke, Ralph Fiennes, Jesse Plemons, Elle Fanning",
-    "poster_url": "https://image.tmdb.org/t/p/w500/jNcZH8yplxttRlf0wwqfGGMKHxX.jpg",
-    "poster_large_url": "https://image.tmdb.org/t/p/w780/jNcZH8yplxttRlf0wwqfGGMKHxX.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/w780/aqFZcr2dxSZ2UwWSo1WC6C0rwDf.jpg",
-    "runtime": "159 min",
-    "trailer_url": "https://www.youtube.com/watch?v=Dr060OLTodE",
-    "imdb_id": "tt32558705",
-    "cached_at": "2026-11-05T17:55:13.725389+00:00"
-  },
-  "violent-night-2": {
-    "title": "Violent Night 2",
-    "overview": "When Santa forgets the true meaning of Christmas, he finds himself in the heart of a lively mall community in desperate need of his help. Sapped of his magic, he’ll need another way to take on the goons threatening the mall, and time is running out. Santa has to rediscover his faith in goodness and call in some last-minute reinforcements from the one person no baddie wants to tangle with: Mrs. Claus.",
-    "genres": [
-      "Action",
-      "Comedy",
-      "Fantasy"
-    ],
-    "vote_average": null,
-    "vote_count": 0,
-    "director": "Tommy Wirkola",
-    "cast": "David Harbour, Kristen Bell, Daniela Melchior, Jared Harris, Joe Pantoliano, Maxwell Jacob Friedman",
-    "poster_url": "https://image.tmdb.org/t/p/w500/7HPvgItDw9NgW3iy4tFRRuGNbuN.jpg",
-    "poster_large_url": "https://image.tmdb.org/t/p/w780/7HPvgItDw9NgW3iy4tFRRuGNbuN.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/w780/78dChJs7doULSEhIiOvGUcXQRGU.jpg",
-    "runtime": "110 min",
-    "trailer_url": "https://www.youtube.com/watch?v=FmM2giDwLAE",
-    "imdb_id": "tt32432428",
-    "cached_at": "2026-11-05T17:55:13.811158+00:00"
+    "cached_at": "2026-11-06T17:16:18.688296+00:00"
   },
   "dune-part-three": {
     "title": "Dune: Part Three",
@@ -267,7 +248,26 @@
     "runtime": "150 min",
     "trailer_url": "https://www.youtube.com/watch?v=uJqaGLmZpGo",
     "imdb_id": "tt31378509",
-    "cached_at": "2026-11-05T17:55:13.841838+00:00"
+    "cached_at": "2026-11-06T17:16:18.700558+00:00"
+  },
+  "festive-fun-with-peppa-cinema-experience": {
+    "title": "Festive Fun with Peppa",
+    "overview": "Join Peppa Pig and her family as they celebrate baby Evie’s first Christmas. This festive cinema experience brings together seven classic festive-themed Peppa Pig episodes, new interstitial content, and four brand-new songs with music videos. From snowy adventures and festive plays to decorating the Christmas tree, Peppa and her family share treasured Christmas memories in this special big-screen experience.",
+    "genres": [
+      "Animation",
+      "Family"
+    ],
+    "vote_average": null,
+    "vote_count": 0,
+    "director": "",
+    "cast": "Morwenna Banks, Richard Ridings, Amelie Bea Smith",
+    "poster_url": "https://image.tmdb.org/t/p/w500/m73eSyjsue3zTorttAJbckNVJtA.jpg",
+    "poster_large_url": "https://image.tmdb.org/t/p/w780/m73eSyjsue3zTorttAJbckNVJtA.jpg",
+    "backdrop_url": "",
+    "runtime": "60 min",
+    "trailer_url": "",
+    "imdb_id": "tt46666063",
+    "cached_at": "2026-11-06T17:16:18.706385+00:00"
   },
   "jumanji-open-world": {
     "title": "Jumanji: Open World",
@@ -287,7 +287,7 @@
     "runtime": "",
     "trailer_url": "https://www.youtube.com/watch?v=nIw1O3zvOfE",
     "imdb_id": "tt26735127",
-    "cached_at": "2026-11-05T17:55:13.907492+00:00"
+    "cached_at": "2026-11-06T17:16:18.706927+00:00"
   },
   "the-angry-birds-movie-3": {
     "title": "The Angry Birds Movie 3",
@@ -309,64 +309,7 @@
     "runtime": "96 min",
     "trailer_url": "https://www.youtube.com/watch?v=FjYzudbOzlY",
     "imdb_id": "tt32557122",
-    "cached_at": "2026-11-05T17:55:14.025212+00:00"
-  },
-  "werwulf": {
-    "title": "Werwulf",
-    "overview": "A harrowing tale of devotion, damnation and the devil within.",
-    "genres": [
-      "Horror"
-    ],
-    "vote_average": null,
-    "vote_count": 0,
-    "director": "Robert Eggers",
-    "cast": "Aaron Taylor-Johnson, Lily-Rose Depp, Willem Dafoe, Bodhi Rae Breathnach, Ralph Ineson, Vidal Arzoni",
-    "poster_url": "https://image.tmdb.org/t/p/w500/imnkSt4PSQpxIuyiRpJCiLk3SZz.jpg",
-    "poster_large_url": "https://image.tmdb.org/t/p/w780/imnkSt4PSQpxIuyiRpJCiLk3SZz.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/w780/jmW9NkzbpI9vhyxJU2x644Nj7VU.jpg",
-    "runtime": "120 min",
-    "trailer_url": "https://www.youtube.com/watch?v=CL1EFACsWag",
-    "imdb_id": "tt35514120",
-    "cached_at": "2026-11-05T17:55:14.031520+00:00"
-  },
-  "room-on-the-broom-the-highway-rat": {
-    "title": "Room on the Broom",
-    "overview": "Animated film based on the wonderful children's picture book written by Julia Donaldson and illustrated by Axel Scheffler.  The story of a kind witch who invites a surprising collection of animals to join her on her broom, much to the frustration of her cat. The gang ultimately saves the witch from a fearsome dragon, and in gratitude she rewards them with a magnificent new broom which has room for everyone.  A magical tale about friendship and family from Magic Light Pictures, the producers of the hugely successful The Gruffalo and The Gruffalo's Child.",
-    "genres": [
-      "Family",
-      "Animation",
-      "TV Movie"
-    ],
-    "vote_average": 6.7,
-    "vote_count": 125,
-    "director": "Max Lang, Jan Lachauer",
-    "cast": "Gillian Anderson, Timothy Spall, Sally Hawkins, Rob Brydon, Martin Clunes, Simon Pegg",
-    "poster_url": "https://image.tmdb.org/t/p/w500/9qAL19JR0oJ7ZlVpUE1Os2P6XXp.jpg",
-    "poster_large_url": "https://image.tmdb.org/t/p/w780/9qAL19JR0oJ7ZlVpUE1Os2P6XXp.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/w780/h0G3twpMgJsMrPCa4aafial7w1c.jpg",
-    "runtime": "25 min",
-    "trailer_url": "https://www.youtube.com/watch?v=jwZavzhym2A",
-    "imdb_id": "tt2484120",
-    "cached_at": "2026-11-05T17:55:14.191464+00:00"
-  },
-  "ink": {
-    "title": "Ink",
-    "overview": "A group of misfits and visionaries had an idea for a new kind of news - one that would give the people what they want, and would change the face of the world we live in today.",
-    "genres": [
-      "Drama",
-      "History"
-    ],
-    "vote_average": null,
-    "vote_count": 0,
-    "director": "Danny Boyle",
-    "cast": "Jack O'Connell, Guy Pearce, Claire Foy, Blake Harrison, Patrick Kennedy, Angus Imrie",
-    "poster_url": "https://image.tmdb.org/t/p/w500/aZECpoGsveEXtxogaz0GMiyVB6n.jpg",
-    "poster_large_url": "https://image.tmdb.org/t/p/w780/aZECpoGsveEXtxogaz0GMiyVB6n.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/w780/sWtM1GfbjMkcvpj2riGW8QxlTr.jpg",
-    "runtime": "116 min",
-    "trailer_url": "https://www.youtube.com/watch?v=eokBqEFiVHs",
-    "imdb_id": "tt37967547",
-    "cached_at": "2026-11-05T17:55:14.300077+00:00"
+    "cached_at": "2026-11-06T17:16:18.724355+00:00"
   },
   "rififi-en-la-ciudad": {
     "title": "Rififi",
@@ -386,48 +329,46 @@
     "runtime": "118 min",
     "trailer_url": "https://www.youtube.com/watch?v=fJXgBZeFgNk",
     "imdb_id": "tt0048021",
-    "cached_at": "2026-11-05T17:55:14.357202+00:00"
+    "cached_at": "2026-11-06T17:16:18.791369+00:00"
   },
-  "remain": {
-    "title": "Remain",
-    "overview": "When reclusive architect Tate Gordon moves to small coastal town to complete his latest project, he encounters an alluring young woman who pulls him out of his shell, and into the center of a deadly mystery that hangs over the town.",
+  "room-on-the-broom-the-highway-rat": {
+    "title": "Room on the Broom",
+    "overview": "Animated film based on the wonderful children's picture book written by Julia Donaldson and illustrated by Axel Scheffler.  The story of a kind witch who invites a surprising collection of animals to join her on her broom, much to the frustration of her cat. The gang ultimately saves the witch from a fearsome dragon, and in gratitude she rewards them with a magnificent new broom which has room for everyone.  A magical tale about friendship and family from Magic Light Pictures, the producers of the hugely successful The Gruffalo and The Gruffalo's Child.",
     "genres": [
-      "Romance",
-      "Mystery",
-      "Thriller"
-    ],
-    "vote_average": null,
-    "vote_count": 0,
-    "director": "M. Night Shyamalan",
-    "cast": "Jake Gyllenhaal, Phoebe Dynevor, Ashley Walters, Julie Hagerty, Jay O. Sanders, Tracy Ifeachor",
-    "poster_url": "https://image.tmdb.org/t/p/w500/5hPNq5h2y8Ux6nPBRMEwZ8npVTp.jpg",
-    "poster_large_url": "https://image.tmdb.org/t/p/w780/5hPNq5h2y8Ux6nPBRMEwZ8npVTp.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/w780/v7kL3an4ornAOWOxZucZilfTDbR.jpg",
-    "runtime": "",
-    "trailer_url": "https://www.youtube.com/watch?v=h969bLwxgKc",
-    "imdb_id": "tt35621542",
-    "cached_at": "2026-11-05T17:55:14.364721+00:00"
-  },
-  "ice-age-boiling-point": {
-    "title": "Ice Age: Boiling Point",
-    "overview": "A dinosaur-and-lava-filled madcap adventure takes Manny, Sid, Diego, Ellie, Buck, acorn-obsessed Scrat – this time joined by Baby Scrat and the enormous Jurassic Scrat – and the rest of the herd to visit never before-seen corners of the treacherous Lost World.",
-    "genres": [
-      "Adventure",
+      "Family",
       "Animation",
-      "Comedy",
-      "Family"
+      "TV Movie"
+    ],
+    "vote_average": 6.7,
+    "vote_count": 125,
+    "director": "Jan Lachauer, Max Lang",
+    "cast": "Gillian Anderson, Timothy Spall, Sally Hawkins, Rob Brydon, Martin Clunes, Simon Pegg",
+    "poster_url": "https://image.tmdb.org/t/p/w500/9qAL19JR0oJ7ZlVpUE1Os2P6XXp.jpg",
+    "poster_large_url": "https://image.tmdb.org/t/p/w780/9qAL19JR0oJ7ZlVpUE1Os2P6XXp.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w780/h0G3twpMgJsMrPCa4aafial7w1c.jpg",
+    "runtime": "25 min",
+    "trailer_url": "https://www.youtube.com/watch?v=jwZavzhym2A",
+    "imdb_id": "tt2484120",
+    "cached_at": "2026-11-06T17:16:18.826890+00:00"
+  },
+  "ink": {
+    "title": "Ink",
+    "overview": "A group of misfits and visionaries had an idea for a new kind of news - one that would give the people what they want, and would change the face of the world we live in today.",
+    "genres": [
+      "Drama",
+      "History"
     ],
     "vote_average": null,
     "vote_count": 0,
-    "director": "John Donkin",
-    "cast": "Ray Romano, John Leguizamo, Denis Leary, Simon Pegg, Queen Latifah, Seann William Scott",
-    "poster_url": "https://image.tmdb.org/t/p/w500/mPhAreyZLLcZ9pl4KRyEaqSu1Zv.jpg",
-    "poster_large_url": "https://image.tmdb.org/t/p/w780/mPhAreyZLLcZ9pl4KRyEaqSu1Zv.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/w780/pJfMliqzzVzTU634zpYDMfYNX6c.jpg",
-    "runtime": "103 min",
-    "trailer_url": "https://www.youtube.com/watch?v=3fjmjX0QOIg",
-    "imdb_id": "tt34512981",
-    "cached_at": "2026-11-05T17:55:14.377020+00:00"
+    "director": "Danny Boyle",
+    "cast": "Jack O'Connell, Guy Pearce, Claire Foy, Blake Harrison, Patrick Kennedy, Angus Imrie",
+    "poster_url": "https://image.tmdb.org/t/p/w500/aZECpoGsveEXtxogaz0GMiyVB6n.jpg",
+    "poster_large_url": "https://image.tmdb.org/t/p/w780/aZECpoGsveEXtxogaz0GMiyVB6n.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w780/sWtM1GfbjMkcvpj2riGW8QxlTr.jpg",
+    "runtime": "116 min",
+    "trailer_url": "https://www.youtube.com/watch?v=eokBqEFiVHs",
+    "imdb_id": "tt37967547",
+    "cached_at": "2026-11-06T17:16:19.177054+00:00"
   },
   "narnia-the-magician-s-nephew": {
     "title": "Narnia: The Magician's Nephew",
@@ -447,7 +388,7 @@
     "runtime": "",
     "trailer_url": "https://www.youtube.com/watch?v=gDJ-ini7fF0",
     "imdb_id": "tt9077514",
-    "cached_at": "2026-11-05T17:55:14.450265+00:00"
+    "cached_at": "2026-11-06T17:16:19.206504+00:00"
   },
   "cocomelon-the-movie": {
     "title": "CoComelon: The Movie",
@@ -469,7 +410,45 @@
     "runtime": "",
     "trailer_url": "https://www.youtube.com/watch?v=HGZZJClFIa0",
     "imdb_id": "tt31339071",
-    "cached_at": "2026-11-05T17:55:14.571855+00:00"
+    "cached_at": "2026-11-06T17:16:19.208663+00:00"
+  },
+  "remain": {
+    "title": "Remain",
+    "overview": "When reclusive architect Tate Gordon moves to small coastal town to complete his latest project, he encounters an alluring young woman who pulls him out of his shell, and into the center of a deadly mystery that hangs over the town.",
+    "genres": [
+      "Romance",
+      "Mystery",
+      "Thriller"
+    ],
+    "vote_average": null,
+    "vote_count": 0,
+    "director": "M. Night Shyamalan",
+    "cast": "Jake Gyllenhaal, Phoebe Dynevor, Ashley Walters, Julie Hagerty, Jay O. Sanders, Tracy Ifeachor",
+    "poster_url": "https://image.tmdb.org/t/p/w500/5hPNq5h2y8Ux6nPBRMEwZ8npVTp.jpg",
+    "poster_large_url": "https://image.tmdb.org/t/p/w780/5hPNq5h2y8Ux6nPBRMEwZ8npVTp.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w780/v7kL3an4ornAOWOxZucZilfTDbR.jpg",
+    "runtime": "",
+    "trailer_url": "https://www.youtube.com/watch?v=h969bLwxgKc",
+    "imdb_id": "tt35621542",
+    "cached_at": "2026-11-06T17:16:19.209101+00:00"
+  },
+  "werwulf": {
+    "title": "Werwulf",
+    "overview": "A harrowing tale of devotion, damnation and the devil within.",
+    "genres": [
+      "Horror"
+    ],
+    "vote_average": null,
+    "vote_count": 0,
+    "director": "Robert Eggers",
+    "cast": "Aaron Taylor-Johnson, Lily-Rose Depp, Willem Dafoe, Bodhi Rae Breathnach, Ralph Ineson, Vidal Arzoni",
+    "poster_url": "https://image.tmdb.org/t/p/w500/imnkSt4PSQpxIuyiRpJCiLk3SZz.jpg",
+    "poster_large_url": "https://image.tmdb.org/t/p/w780/imnkSt4PSQpxIuyiRpJCiLk3SZz.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w780/jmW9NkzbpI9vhyxJU2x644Nj7VU.jpg",
+    "runtime": "120 min",
+    "trailer_url": "https://www.youtube.com/watch?v=CL1EFACsWag",
+    "imdb_id": "tt35514120",
+    "cached_at": "2026-11-06T17:16:19.277680+00:00"
   },
   "the-exorcist-martyrs": {
     "title": "The Exorcist: Martyrs",
@@ -487,7 +466,7 @@
     "runtime": "",
     "trailer_url": "https://www.youtube.com/watch?v=iIEYfH-jg1Y",
     "imdb_id": "tt32492552",
-    "cached_at": "2026-11-05T17:55:14.575567+00:00"
+    "cached_at": "2026-11-06T17:16:19.285691+00:00"
   },
   "not-alone": {
     "title": "Not Alone",
@@ -509,7 +488,7 @@
     "runtime": "",
     "trailer_url": "https://www.youtube.com/watch?v=wtUdmUTNbO4",
     "imdb_id": "tt43609247",
-    "cached_at": "2026-11-05T17:55:14.735398+00:00"
+    "cached_at": "2026-11-06T17:16:19.319385+00:00"
   },
   "shrek-5": {
     "title": "Shrek 5",
@@ -531,62 +510,86 @@
     "runtime": "",
     "trailer_url": "https://www.youtube.com/watch?v=Swiz1XyfhcI",
     "imdb_id": "tt6113186",
-    "cached_at": "2026-11-05T17:55:14.837580+00:00"
+    "cached_at": "2026-11-06T17:16:19.659653+00:00"
   },
-  "i-play-rocky": {
-    "title": "I Play Rocky",
-    "overview": "The electrifying true story about an unknown actor with an unshakable belief that he wasn't just meant to write Rocky—he was meant to be Rocky Balboa. Told \"no\" at every turn, Sylvester Stallone bets everything on himself, holding the line on playing the lead against seemingly impossible odds.",
+  "gatto": {
+    "title": "Gatto",
+    "overview": "After years of maneuvering the canal-ridden, superstitious city of Venice, Italy, a scrappy black cat named Nero begins to question whether he’s lived the right lives. Indebted to Rocco, a ruthless local feline mob boss, Nero finds himself in a quandary and is forced to forge a truly unexpected friendship that may finally lead him to his purpose — unless Venice gets the better of him first.",
     "genres": [
-      "Drama",
-      "History"
-    ],
-    "vote_average": null,
-    "vote_count": 6,
-    "director": "Peter Farrelly",
-    "cast": "Anthony Ippolito, AnnaSophia Robb, P.J. Byrne, Toby Kebbell, Jay Duplass, Tracy Letts",
-    "poster_url": "https://image.tmdb.org/t/p/w500/xE5tY3lppZUyG7WKKThsuYHuAHr.jpg",
-    "poster_large_url": "https://image.tmdb.org/t/p/w780/xE5tY3lppZUyG7WKKThsuYHuAHr.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/w780/1lnnjBCRLZzKRhQipK5zm61YkPe.jpg",
-    "runtime": "128 min",
-    "trailer_url": "https://www.youtube.com/watch?v=jq5oCjhQtIc",
-    "imdb_id": "tt11995650",
-    "cached_at": "2026-11-05T17:55:15.379353+00:00"
-  },
-  "andrew-lloyd-webber-s-starlight-express-live-on-stage": {
-    "title": "Andrew Lloyd Webber's Starlight Express: Live on Stage",
-    "overview": "Andrew Lloyd Webber's, 'Starlight Express' races back onto the stage in a spectacular new production, where trains come to life, dreams are on the line, and only one can become champion.",
-    "genres": [
-      "Music"
+      "Animation",
+      "Comedy",
+      "Crime",
+      "Family"
     ],
     "vote_average": null,
     "vote_count": 0,
-    "director": "Brett Sullivan",
-    "cast": "Jeevan Braich, Kayna Montecillo, Jade Marvin, Olivia Ringrose, Asher Forth, Sophie Naglik",
-    "poster_url": "https://image.tmdb.org/t/p/w500/aE8fTHv9lKYmKBM6eqzvCfki8Bw.jpg",
-    "poster_large_url": "https://image.tmdb.org/t/p/w780/aE8fTHv9lKYmKBM6eqzvCfki8Bw.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/w780/hu0kzpG1FqFqJJquU8QSu49JQHx.jpg",
-    "runtime": "125 min",
-    "trailer_url": "https://www.youtube.com/watch?v=lV42yurkaGA",
-    "imdb_id": "tt50017070",
-    "cached_at": "2026-11-05T17:55:15.385334+00:00"
+    "director": "Enrico Casarosa",
+    "cast": "Mark Ruffalo, Laurence Fishburne, Enrico Casarosa",
+    "poster_url": "https://image.tmdb.org/t/p/w500/bgt6dSrwkJCMqdKWRpN4ZTAd1kL.jpg",
+    "poster_large_url": "https://image.tmdb.org/t/p/w780/bgt6dSrwkJCMqdKWRpN4ZTAd1kL.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w780/etB2OT0nUknOAPZV7EgbEbt6HJh.jpg",
+    "runtime": "",
+    "trailer_url": "https://www.youtube.com/watch?v=NIKfR_uF_d0",
+    "imdb_id": "tt26443610",
+    "cached_at": "2026-11-06T17:16:19.694900+00:00"
   },
-  "giant-the-play": {
-    "title": "Giant",
-    "overview": "Set in the summer of 1983, just before the release of The Witches, Giant imagines a tense meeting between Roald Dahl and his American and British publishers as they scramble to contain the fallout from his public denunciation of Israel and defence of the Palestinians in a review of a book on the 1982 Lebanon war. Filmed live onstage at the Harold Pinter Theatre in London's West End in 2025.",
+  "elsinore": {
+    "title": "Elsinore",
+    "overview": "The deeply emotional and inspirational true story of Ian Charleson, a gifted actor whose greatest challenge becomes his greatest triumph. Facing his own mortality with unflinching honesty, wit, and grace, Charleson delivers a courageous performance that becomes a source of healing and inspiration for those around him.",
     "genres": [
       "Drama"
     ],
     "vote_average": null,
     "vote_count": 0,
-    "director": "Nicholas Hytner",
-    "cast": "John Lithgow, Elliot Levey, Aya Cash, Rachael Stirling, Tessa Bonham Jones, Richard Hope",
-    "poster_url": "https://image.tmdb.org/t/p/w500/mI3F2JdhxQuXiCoWKAtAZssQVkj.jpg",
-    "poster_large_url": "https://image.tmdb.org/t/p/w780/mI3F2JdhxQuXiCoWKAtAZssQVkj.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/w780/wI6ljMHvNEySdpxih6dG8nFAxCC.jpg",
-    "runtime": "136 min",
-    "trailer_url": "https://www.youtube.com/watch?v=iJ6aCRF3_m0",
-    "imdb_id": "tt42870035",
-    "cached_at": "2026-11-05T17:55:15.387094+00:00"
+    "director": "Simon Stone",
+    "cast": "Andrew Scott, Olivia Colman, Billie Piper, Johnny Flynn, Luke Thompson, David Dawson",
+    "poster_url": "https://image.tmdb.org/t/p/w500/kohUtEueIVyDXC30MaOdi36aAwn.jpg",
+    "poster_large_url": "https://image.tmdb.org/t/p/w780/kohUtEueIVyDXC30MaOdi36aAwn.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w780/AlUUcnCiPbZUcAKoiS7GyXN7y6Z.jpg",
+    "runtime": "111 min",
+    "trailer_url": "https://www.youtube.com/watch?v=TpNEh5vvAns",
+    "imdb_id": "tt37363222",
+    "cached_at": "2026-11-06T17:16:19.701847+00:00"
+  },
+  "children-of-blood-and-bone": {
+    "title": "Children of Blood and Bone",
+    "overview": "In the world of Orïsha, a young woman goes on a quest to reclaim the magic that was violently stolen from her people. She and her brother ally with the daughter and son of the king to fight back against his brutal rule.",
+    "genres": [
+      "Fantasy",
+      "Adventure"
+    ],
+    "vote_average": null,
+    "vote_count": 0,
+    "director": "Gina Prince-Bythewood",
+    "cast": "Thuso Mbedu, Damson Idris, Amandla Stenberg, Tosin Cole, Viola Davis, Cynthia Erivo",
+    "poster_url": "https://image.tmdb.org/t/p/w500/qxUPu92DF5Bo6jcCDhnMTHFPEEc.jpg",
+    "poster_large_url": "https://image.tmdb.org/t/p/w780/qxUPu92DF5Bo6jcCDhnMTHFPEEc.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w780/iJHHwaFZumvMLx96apZPNhhIb1A.jpg",
+    "runtime": "146 min",
+    "trailer_url": "https://www.youtube.com/watch?v=HnWvg90lQt8",
+    "imdb_id": "tt6779038",
+    "cached_at": "2026-11-06T17:16:19.706555+00:00"
+  },
+  "ice-age-boiling-point": {
+    "title": "Ice Age: Boiling Point",
+    "overview": "A dinosaur-and-lava-filled madcap adventure takes Manny, Sid, Diego, Ellie, Buck, acorn-obsessed Scrat – this time joined by Baby Scrat and the enormous Jurassic Scrat – and the rest of the herd to visit never before-seen corners of the treacherous Lost World.",
+    "genres": [
+      "Adventure",
+      "Animation",
+      "Family",
+      "Comedy"
+    ],
+    "vote_average": null,
+    "vote_count": 0,
+    "director": "John Donkin",
+    "cast": "Ray Romano, John Leguizamo, Denis Leary, Simon Pegg, Queen Latifah, Seann William Scott",
+    "poster_url": "https://image.tmdb.org/t/p/w500/mPhAreyZLLcZ9pl4KRyEaqSu1Zv.jpg",
+    "poster_large_url": "https://image.tmdb.org/t/p/w780/mPhAreyZLLcZ9pl4KRyEaqSu1Zv.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w780/pJfMliqzzVzTU634zpYDMfYNX6c.jpg",
+    "runtime": "103 min",
+    "trailer_url": "https://www.youtube.com/watch?v=3fjmjX0QOIg",
+    "imdb_id": "tt34512981",
+    "cached_at": "2026-11-06T17:16:19.896082+00:00"
   },
   "shaun-the-sheep-the-beast-of-mossy-bottom": {
     "title": "Shaun the Sheep: The Beast of Mossy Bottom",
@@ -597,8 +600,8 @@
       "Comedy",
       "Family"
     ],
-    "vote_average": 7.415,
-    "vote_count": 53,
+    "vote_average": 7.4,
+    "vote_count": 54,
     "director": "Steve Cox, Matthew Walker",
     "cast": "Justin Fletcher, John Sparkes, Nina Sosanya, Kate Harbour, Rich Webber, Emma Tate",
     "poster_url": "https://image.tmdb.org/t/p/w500/gayX49siwXf8eNs16rtk1fI91Ey.jpg",
@@ -607,69 +610,26 @@
     "runtime": "81 min",
     "trailer_url": "https://www.youtube.com/watch?v=daZMq0AyOMc",
     "imdb_id": "tt36841161",
-    "cached_at": "2026-11-05T17:55:15.393388+00:00"
+    "cached_at": "2026-11-06T17:16:20.382191+00:00"
   },
-  "wicker": {
-    "title": "Wicker",
-    "overview": "On the outskirts of a village by the sea, lives a Fisherwoman; smelly, single and perpetually ridiculed. One day, fed up with her stuffy, small-minded neighbours, she commissions herself a husband to be made from wicker. In an otherwise conservative town, this unconventional romance sparks outrage, jealousy and chaos.",
+  "i-play-rocky": {
+    "title": "I Play Rocky",
+    "overview": "The electrifying true story about an unknown actor with an unshakable belief that he wasn't just meant to write Rocky—he was meant to be Rocky Balboa. Told \"no\" at every turn, Sylvester Stallone bets everything on himself, holding the line on playing the lead against seemingly impossible odds.",
     "genres": [
-      "Romance",
-      "Fantasy",
-      "Comedy"
+      "Drama",
+      "History"
     ],
     "vote_average": null,
-    "vote_count": 29,
-    "director": "Eleanor Wilson, Alex Huston Fischer",
-    "cast": "Olivia Colman, Alexander Skarsgård, Peter Dinklage, Elizabeth Debicki, Marli Siu, Nabhaan Rizwan",
-    "poster_url": "https://image.tmdb.org/t/p/w500/6FcBZOKvyrLCKGCyBG0ySCR4okt.jpg",
-    "poster_large_url": "https://image.tmdb.org/t/p/w780/6FcBZOKvyrLCKGCyBG0ySCR4okt.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/w780/xVh1ypMoVkMf5IB7y3hnRplJ14c.jpg",
-    "runtime": "105 min",
-    "trailer_url": "https://www.youtube.com/watch?v=kA9NfV4pM_Q",
-    "imdb_id": "tt29611136",
-    "cached_at": "2026-11-05T17:55:15.428325+00:00"
-  },
-  "wild-horse-nine": {
-    "title": "Wild Horse Nine",
-    "overview": "Shortly before the 1973 Chilean coup, CIA agents Chris and Lee are dispatched from Santiago to Easter Island by their bureau chief, MJ. Amongst the Island's iconic statues, and as the longtime partners wrestle with their dark pasts and present conspiracies, Chris's newfound bond with a pair of rebellious students threatens to send everyone’s trip to this remote paradise sideways.",
-    "genres": [
-      "Comedy",
-      "Crime",
-      "Thriller"
-    ],
-    "vote_average": null,
-    "vote_count": 22,
-    "director": "Martin McDonagh",
-    "cast": "John Malkovich, Sam Rockwell, Steve Buscemi, Tom Waits, Parker Posey, Mariana di Girolamo",
-    "poster_url": "https://image.tmdb.org/t/p/w500/dNJFRtVg3xLQ7dbNIQ55cmmIniD.jpg",
-    "poster_large_url": "https://image.tmdb.org/t/p/w780/dNJFRtVg3xLQ7dbNIQ55cmmIniD.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/w780/b17UWf3LqHgKolQkXckne32qv0.jpg",
-    "runtime": "117 min",
-    "trailer_url": "https://www.youtube.com/watch?v=kqxuamKxRTo",
-    "imdb_id": "tt15799564",
-    "cached_at": "2026-11-05T17:55:15.429307+00:00"
-  },
-  "forgotten-island": {
-    "title": "Forgotten Island",
-    "overview": "While celebrating their last night together, high school graduates and best friends Jo and Raissa stumble upon a mysterious portal that transports them to the fantastical island of Nakali. When they discover that the memories of their entire friendship are the price for returning home, Jo and Raissa must race to find a way to leave the island before they forget each other forever.",
-    "genres": [
-      "Animation",
-      "Adventure",
-      "Fantasy",
-      "Comedy",
-      "Family"
-    ],
-    "vote_average": 8.012,
-    "vote_count": 210,
-    "director": "Januel Mercado, Joel Crawford",
-    "cast": "H.E.R., Liza Soberano, Dave Franco, Jenny Slate, Manny Jacinto, Lea Salonga",
-    "poster_url": "https://image.tmdb.org/t/p/w500/myd1K3gefdNAWFsGNRDdMeiK9Qg.jpg",
-    "poster_large_url": "https://image.tmdb.org/t/p/w780/myd1K3gefdNAWFsGNRDdMeiK9Qg.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/w780/cNICUho5uiAGkfCAQq1ihyaMla4.jpg",
-    "runtime": "109 min",
-    "trailer_url": "https://www.youtube.com/watch?v=PhgY8cOJiQA",
-    "imdb_id": "tt36583977",
-    "cached_at": "2026-11-05T17:55:15.431095+00:00"
+    "vote_count": 7,
+    "director": "Peter Farrelly",
+    "cast": "Anthony Ippolito, AnnaSophia Robb, P.J. Byrne, Toby Kebbell, Jay Duplass, Tracy Letts",
+    "poster_url": "https://image.tmdb.org/t/p/w500/xE5tY3lppZUyG7WKKThsuYHuAHr.jpg",
+    "poster_large_url": "https://image.tmdb.org/t/p/w780/xE5tY3lppZUyG7WKKThsuYHuAHr.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w780/1lnnjBCRLZzKRhQipK5zm61YkPe.jpg",
+    "runtime": "128 min",
+    "trailer_url": "https://www.youtube.com/watch?v=jq5oCjhQtIc",
+    "imdb_id": "tt11995650",
+    "cached_at": "2026-11-06T17:16:20.382572+00:00"
   },
   "ghosts-the-possession-of-button-house": {
     "title": "Ghosts: The Possession of Button House",
@@ -688,215 +648,105 @@
     "runtime": "97 min",
     "trailer_url": "https://www.youtube.com/watch?v=iLKGXt5JHKk",
     "imdb_id": "tt40311603",
-    "cached_at": "2026-11-05T17:55:15.779085+00:00"
+    "cached_at": "2026-11-06T17:16:20.385088+00:00"
   },
-  "andre-rieu-s-2026-christmas-concert-let-it-snow": {
-    "title": "Andre Rieu's 2026 Christmas Concert Let It Snow",
-    "overview": "Andre Rieu's annual concert celebrating the magic of Christmas.",
-    "genres": [],
-    "vote_average": null,
-    "vote_count": 0,
-    "director": "",
-    "cast": "André Rieu",
-    "poster_url": "https://image.tmdb.org/t/p/w500/6jVby5VFD1fKSwe0Q1q7X4G3fbN.jpg",
-    "poster_large_url": "https://image.tmdb.org/t/p/w780/6jVby5VFD1fKSwe0Q1q7X4G3fbN.jpg",
-    "backdrop_url": "",
-    "runtime": "165 min",
-    "trailer_url": "",
-    "imdb_id": "tt43693579",
-    "cached_at": "2026-11-05T17:55:15.920020+00:00"
-  },
-  "primetime": {
-    "title": "Primetime",
-    "overview": "In 2006, To Catch a Predator host Chris Hansen sets out to make television history. When a high stakes operation goes fatally wrong, his veneered dream of fame curdles into a nightmare of performative justice.",
-    "genres": [
-      "Thriller",
-      "Drama"
-    ],
-    "vote_average": 6.8,
-    "vote_count": 311,
-    "director": "Lance Oppenheim",
-    "cast": "Robert Pattinson, Merritt Wever, Skyler Gisondo, Matthew Maher, Phoebe Bridgers, Victor Brunette",
-    "poster_url": "https://image.tmdb.org/t/p/w500/lmrulvLbmaejTix1YaMxo1oGhH1.jpg",
-    "poster_large_url": "https://image.tmdb.org/t/p/w780/lmrulvLbmaejTix1YaMxo1oGhH1.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/w780/sEsMwSDUWGIx9EfNxzM6KzVSsSQ.jpg",
-    "runtime": "110 min",
-    "trailer_url": "https://www.youtube.com/watch?v=C0NZa01qTRU",
-    "imdb_id": "tt34206385",
-    "cached_at": "2026-11-05T17:55:15.972200+00:00"
-  },
-  "godzilla-minus-zero": {
-    "title": "Godzilla Minus Zero",
-    "overview": "War reduced Japan to zero, and Godzilla plunged it into minus. Two years have passed since then, and the country has faced agonizing struggles to achieve recovery and finally reclaim its daily life. Just as humanity managed to cling to a hard-won peace, a new threat strikes, crushing hope in an instant. There is no third time. Everything ends here.",
-    "genres": [
-      "Science Fiction",
-      "Horror",
-      "Action"
-    ],
-    "vote_average": 8.21,
-    "vote_count": 31,
-    "director": "Takashi Yamazaki",
-    "cast": "Ryunosuke Kamiki, Minami Hamabe, Yuki Yamada, Kuranosuke Sasaki, Jun Kunimura, Miou Tanaka",
-    "poster_url": "https://image.tmdb.org/t/p/w500/hSmIJluOJmTWvJs4d7kHRxjc8s8.jpg",
-    "poster_large_url": "https://image.tmdb.org/t/p/w780/hSmIJluOJmTWvJs4d7kHRxjc8s8.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/w780/oqrYIDH4tvfEzPe1yqT4jzmAWHQ.jpg",
-    "runtime": "135 min",
-    "trailer_url": "https://www.youtube.com/watch?v=pWJjYoqVSjQ",
-    "imdb_id": "tt34384661",
-    "cached_at": "2026-11-05T17:55:16.354593+00:00"
-  },
-  "minions-monsters": {
-    "title": "Minions & Monsters",
-    "overview": "This is the rambunctious, ridiculous and totally true story of how the Minions conquered Hollywood, became movie stars, lost everything, unleashed monsters onto the world and then banded together to try and save the planet from the mayhem they had just created.",
-    "genres": [
-      "Adventure",
-      "Animation",
-      "Comedy",
-      "Family",
-      "Fantasy"
-    ],
-    "vote_average": 7.6,
-    "vote_count": 1369,
-    "director": "Pierre Coffin",
-    "cast": "Pierre Coffin, Trey Parker, Christoph Waltz, Allison Janney, Jesse Eisenberg, Jeff Bridges",
-    "poster_url": "https://image.tmdb.org/t/p/w500/4LwvU9SZc8QQzW1X1FAPhNbXnEU.jpg",
-    "poster_large_url": "https://image.tmdb.org/t/p/w780/4LwvU9SZc8QQzW1X1FAPhNbXnEU.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/w780/kkcwhgSFd81QDlXo8ytrpHPQjhy.jpg",
-    "runtime": "90 min",
-    "trailer_url": "https://www.youtube.com/watch?v=V-O-uBaHk3c",
-    "imdb_id": "tt32890033",
-    "cached_at": "2026-11-05T17:55:16.470422+00:00"
-  },
-  "everest-the-other-side": {
-    "title": "Everest: The Other Side",
-    "overview": "An intimate portrait of two people bound by love, ambition, and the pursuit of the impossible. Elite ski mountaineers Jim Morrison and Hilaree Nelson fell deeply in love while reaching the pinnacle of their sport. Their drive sharpened into a shared dream: to climb and ski the direct North Face of Mount Everest—the most difficult and dangerous climb on the mountain and the most coveted ski line on Earth—something only a handful have ever achieved, and no one has successfully skied down.",
-    "genres": [
-      "Documentary"
-    ],
-    "vote_average": null,
-    "vote_count": 2,
-    "director": "Jimmy Chin, Elizabeth Chai Vasarhelyi",
-    "cast": "Hilaree Nelson, Jim Morrison, Jimmy Chin, Elizabeth Chai Vasarhelyi, Mikey Schaefer",
-    "poster_url": "https://image.tmdb.org/t/p/w500/2m9ts8LfjG8d4xcUtx66aApngJL.jpg",
-    "poster_large_url": "https://image.tmdb.org/t/p/w780/2m9ts8LfjG8d4xcUtx66aApngJL.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/w780/ySbav9wRhnA1yGadMIpoQnLgTq6.jpg",
-    "runtime": "115 min",
-    "trailer_url": "https://www.youtube.com/watch?v=q6XUlPdTuto",
-    "imdb_id": "tt38691481",
-    "cached_at": "2026-11-05T17:55:16.525789+00:00"
-  },
-  "hay-fever": {
-    "title": "Hay Fever",
-    "overview": "A confrontational and friendly judge gets in trouble when his wife is trying to arouse his jealousy of her long-term relationship with their mutual friend Chief Klausen. Superintendent and is still convinced that he strives against his life. At the same time the judge's chess friend Lise not stand that he was not hitting on her. All intricacies rubs judge with a serious time hay fever",
-    "genres": [
-      "Drama",
-      "Comedy"
-    ],
-    "vote_average": null,
-    "vote_count": 5,
-    "director": "Annelise Hovmand",
-    "cast": "Frits Helmuth, Lisbet Dahl, Kirsten Lehfeldt, Axel Strøbye, Thomas Mørk, Peter Schrøder",
-    "poster_url": "https://image.tmdb.org/t/p/w500/dG3iMF45jR3a4VfUB59Sjj4Ds9N.jpg",
-    "poster_large_url": "https://image.tmdb.org/t/p/w780/dG3iMF45jR3a4VfUB59Sjj4Ds9N.jpg",
-    "backdrop_url": "",
-    "runtime": "80 min",
-    "trailer_url": "",
-    "imdb_id": "tt0102084",
-    "cached_at": "2026-11-05T17:55:16.727793+00:00"
-  },
-  "sense-and-sensibility": {
-    "title": "Sense and Sensibility",
-    "overview": "A charming, witty, and deeply relatable story of love and sisterhood.",
+  "wicker": {
+    "title": "Wicker",
+    "overview": "On the outskirts of a village by the sea, lives a Fisherwoman; smelly, single and perpetually ridiculed. One day, fed up with her stuffy, small-minded neighbours, she commissions herself a husband to be made from wicker. In an otherwise conservative town, this unconventional romance sparks outrage, jealousy and chaos.",
     "genres": [
       "Romance",
-      "Drama",
-      "History"
-    ],
-    "vote_average": 7.246,
-    "vote_count": 138,
-    "director": "Georgia Oakley",
-    "cast": "Daisy Edgar-Jones, Esmé Creed-Miles, Caitríona Balfe, Frank Dillane, Herbert Nordrum, George MacKay",
-    "poster_url": "https://image.tmdb.org/t/p/w500/czsyPHosFNbh4PPqXfqWu1aBXnA.jpg",
-    "poster_large_url": "https://image.tmdb.org/t/p/w780/czsyPHosFNbh4PPqXfqWu1aBXnA.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/w780/rv6dwE4SXAT5f00Ks8YL2kFvnLA.jpg",
-    "runtime": "132 min",
-    "trailer_url": "https://www.youtube.com/watch?v=OFLyW0lxFU0",
-    "imdb_id": "tt13609648",
-    "cached_at": "2026-11-05T17:55:16.900451+00:00"
-  },
-  "golden-boy": {
-    "title": "Golden Boy",
-    "overview": "Antoine a Union representative works in a financially troubled factory. He's not the sharpest tool in the box but he has a big heart and when he and his wife win the jackpot of the national lottery. Antoine will invest his gain to try and safe the factory.",
-    "genres": [
+      "Fantasy",
       "Comedy"
     ],
-    "vote_average": null,
-    "vote_count": 5,
-    "director": "Jean-Pierre Vergne",
-    "cast": "Jacques Villeret, Anne Roumanoff, Martin Lamotte, Virginie Lemoine, Isabelle Petit-Jacques, Biana",
-    "poster_url": "https://image.tmdb.org/t/p/w500/1v6VNIzETGrX4X5B4NADaEVRxRy.jpg",
-    "poster_large_url": "https://image.tmdb.org/t/p/w780/1v6VNIzETGrX4X5B4NADaEVRxRy.jpg",
-    "backdrop_url": "",
-    "runtime": "91 min",
-    "trailer_url": "",
-    "imdb_id": "tt0116432",
-    "cached_at": "2026-11-05T17:55:16.960067+00:00"
-  },
-  "pressure": {
-    "title": "Pressure",
-    "overview": "In the tense 72 hours before D-Day, and the fate of the free world hanging in the balance, General Dwight D. Eisenhower and Captain James Stagg face an impossible choice—launch the largest and most dangerous seaborne invasion in history or risk losing the war altogether.",
-    "genres": [
-      "Thriller",
-      "History",
-      "War"
-    ],
     "vote_average": 7.7,
-    "vote_count": 533,
-    "director": "Anthony Maras",
-    "cast": "Andrew Scott, Brendan Fraser, Kerry Condon, Chris Messina, Damian Lewis, Tamsin Topolski",
-    "poster_url": "https://image.tmdb.org/t/p/w500/gFjEggtrejCN79r6SXRjM269OtG.jpg",
-    "poster_large_url": "https://image.tmdb.org/t/p/w780/gFjEggtrejCN79r6SXRjM269OtG.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/w780/apfyLCPVFttB8oXcsLJ7q0NSFLx.jpg",
-    "runtime": "101 min",
-    "trailer_url": "https://www.youtube.com/watch?v=jjdOSchcobk",
-    "imdb_id": "tt32547691",
-    "cached_at": "2026-11-05T17:55:17.010033+00:00"
+    "vote_count": 31,
+    "director": "Eleanor Wilson, Alex Huston Fischer",
+    "cast": "Olivia Colman, Alexander Skarsgård, Peter Dinklage, Elizabeth Debicki, Marli Siu, Nabhaan Rizwan",
+    "poster_url": "https://image.tmdb.org/t/p/w500/6FcBZOKvyrLCKGCyBG0ySCR4okt.jpg",
+    "poster_large_url": "https://image.tmdb.org/t/p/w780/6FcBZOKvyrLCKGCyBG0ySCR4okt.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w780/xVh1ypMoVkMf5IB7y3hnRplJ14c.jpg",
+    "runtime": "105 min",
+    "trailer_url": "https://www.youtube.com/watch?v=kA9NfV4pM_Q",
+    "imdb_id": "tt29611136",
+    "cached_at": "2026-11-06T17:16:20.391140+00:00"
   },
-  "wildwood": {
-    "title": "Wildwood",
-    "overview": "Prue and her classmate Curtis are drawn into a magical forest filled with enchanted creatures, loyal allies, and formidable adversaries as they embark on a desperate quest to rescue Prue's abducted baby brother from a murder of crows led by a mysterious woman named Alexandra.",
+  "forgotten-island": {
+    "title": "Forgotten Island",
+    "overview": "While celebrating their last night together, high school graduates and best friends Jo and Raissa stumble upon a mysterious portal that transports them to the fantastical island of Nakali. When they discover that the memories of their entire friendship are the price for returning home, Jo and Raissa must race to find a way to leave the island before they forget each other forever.",
     "genres": [
       "Animation",
       "Adventure",
-      "Fantasy"
+      "Fantasy",
+      "Comedy",
+      "Family"
     ],
-    "vote_average": 8.464,
-    "vote_count": 194,
-    "director": "Travis Knight",
-    "cast": "Peyton Elizabeth Lee, Jacob Tremblay, Carey Mulligan, Mahershala Ali, Richard E. Grant, Angela Bassett",
-    "poster_url": "https://image.tmdb.org/t/p/w500/snFM00mpNAfUzUtkdEW0uDEvXA0.jpg",
-    "poster_large_url": "https://image.tmdb.org/t/p/w780/snFM00mpNAfUzUtkdEW0uDEvXA0.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/w780/sl5NJ1vtyhP9Vr88bB4blULsJYp.jpg",
-    "runtime": "132 min",
-    "trailer_url": "https://www.youtube.com/watch?v=bJQGtSeLPII",
-    "imdb_id": "tt2056785",
-    "cached_at": "2026-11-05T17:55:17.025514+00:00"
+    "vote_average": 8.0,
+    "vote_count": 213,
+    "director": "Januel Mercado, Joel Crawford",
+    "cast": "H.E.R., Liza Soberano, Dave Franco, Jenny Slate, Manny Jacinto, Lea Salonga",
+    "poster_url": "https://image.tmdb.org/t/p/w500/myd1K3gefdNAWFsGNRDdMeiK9Qg.jpg",
+    "poster_large_url": "https://image.tmdb.org/t/p/w780/myd1K3gefdNAWFsGNRDdMeiK9Qg.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w780/cNICUho5uiAGkfCAQq1ihyaMla4.jpg",
+    "runtime": "109 min",
+    "trailer_url": "https://www.youtube.com/watch?v=PhgY8cOJiQA",
+    "imdb_id": "tt36583977",
+    "cached_at": "2026-11-06T17:16:20.395143+00:00"
   },
-  "the-royal-opera-carmen": {
-    "title": "Royal Ballet & Opera 2026/27: Carmen",
-    "overview": "Under the oppressive heat of the Spanish sun, the fiercely independent Carmen attracts the\r attention of Don José. She warns him not to fall in love with her, but his obsession knows no bounds.\r Damiano Michieletto’s searing production returns, casting scorching light on the lust, violence and\r destructive desire of Bizet’s ever-popular opera.\r An all-star cast brings this white-hot drama to life, with Ginger Costa-Jackson in the fiery title role,\r alongside Russell Thomas as the jealous and despairing Don José. Following his 2023 Royal Opera\r debut, Sesto Quatrini returns to conduct Bizet’s electrifying and sensual score.",
-    "genres": [],
+  "wild-horse-nine": {
+    "title": "Wild Horse Nine",
+    "overview": "Shortly before the 1973 Chilean coup, CIA agents Chris and Lee are dispatched from Santiago to Easter Island by their bureau chief, MJ. Amongst the Island's iconic statues, and as the longtime partners wrestle with their dark pasts and present conspiracies, Chris's newfound bond with a pair of rebellious students threatens to send everyone’s trip to this remote paradise sideways.",
+    "genres": [
+      "Comedy",
+      "Crime",
+      "Thriller"
+    ],
+    "vote_average": 8.5,
+    "vote_count": 34,
+    "director": "Martin McDonagh",
+    "cast": "John Malkovich, Sam Rockwell, Steve Buscemi, Bastián Bodenhöfer, Luciano Reinoso, Sofía Chacón",
+    "poster_url": "https://image.tmdb.org/t/p/w500/dNJFRtVg3xLQ7dbNIQ55cmmIniD.jpg",
+    "poster_large_url": "https://image.tmdb.org/t/p/w780/dNJFRtVg3xLQ7dbNIQ55cmmIniD.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w780/b17UWf3LqHgKolQkXckne32qv0.jpg",
+    "runtime": "117 min",
+    "trailer_url": "https://www.youtube.com/watch?v=kqxuamKxRTo",
+    "imdb_id": "tt15799564",
+    "cached_at": "2026-11-06T17:16:20.398711+00:00"
+  },
+  "giant-the-play": {
+    "title": "Giant",
+    "overview": "Set in the summer of 1983, just before the release of The Witches, Giant imagines a tense meeting between Roald Dahl and his American and British publishers as they scramble to contain the fallout from his public denunciation of Israel and defence of the Palestinians in a review of a book on the 1982 Lebanon war. Filmed live onstage at the Harold Pinter Theatre in London's West End in 2025.",
+    "genres": [
+      "Drama"
+    ],
     "vote_average": null,
     "vote_count": 0,
-    "director": "",
-    "cast": "",
-    "poster_url": "https://image.tmdb.org/t/p/w500/UhXsQRwE0eqTW5E95DKHZZj3aZ.jpg",
-    "poster_large_url": "https://image.tmdb.org/t/p/w780/UhXsQRwE0eqTW5E95DKHZZj3aZ.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/w780/l1RwXeVqTtoM6nkOJBVw6OJh4ng.jpg",
-    "runtime": "",
-    "trailer_url": "",
-    "imdb_id": "",
-    "cached_at": "2026-11-05T17:55:17.088648+00:00"
+    "director": "Nicholas Hytner",
+    "cast": "John Lithgow, Elliot Levey, Aya Cash, Rachael Stirling, Tessa Bonham Jones, Richard Hope",
+    "poster_url": "https://image.tmdb.org/t/p/w500/mI3F2JdhxQuXiCoWKAtAZssQVkj.jpg",
+    "poster_large_url": "https://image.tmdb.org/t/p/w780/mI3F2JdhxQuXiCoWKAtAZssQVkj.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w780/wI6ljMHvNEySdpxih6dG8nFAxCC.jpg",
+    "runtime": "136 min",
+    "trailer_url": "https://www.youtube.com/watch?v=iJ6aCRF3_m0",
+    "imdb_id": "tt42870035",
+    "cached_at": "2026-11-06T17:16:20.833786+00:00"
+  },
+  "andrew-lloyd-webber-s-starlight-express-live-on-stage": {
+    "title": "Andrew Lloyd Webber's Starlight Express: Live on Stage",
+    "overview": "Andrew Lloyd Webber's, 'Starlight Express' races back onto the stage in a spectacular new production, where trains come to life, dreams are on the line, and only one can become champion.",
+    "genres": [
+      "Music"
+    ],
+    "vote_average": null,
+    "vote_count": 0,
+    "director": "Brett Sullivan",
+    "cast": "Jeevan Braich, Kayna Montecillo, Jade Marvin, Olivia Ringrose, Asher Forth, Sophie Naglik",
+    "poster_url": "https://image.tmdb.org/t/p/w500/aE8fTHv9lKYmKBM6eqzvCfki8Bw.jpg",
+    "poster_large_url": "https://image.tmdb.org/t/p/w780/aE8fTHv9lKYmKBM6eqzvCfki8Bw.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w780/hu0kzpG1FqFqJJquU8QSu49JQHx.jpg",
+    "runtime": "125 min",
+    "trailer_url": "https://www.youtube.com/watch?v=lV42yurkaGA",
+    "imdb_id": "tt50017070",
+    "cached_at": "2026-11-06T17:16:20.873520+00:00"
   },
   "the-motive-and-the-cue": {
     "title": "National Theatre Live: The Motive and the Cue",
@@ -915,44 +765,135 @@
     "runtime": "165 min",
     "trailer_url": "https://www.youtube.com/watch?v=7OhicKyhS_k",
     "imdb_id": "tt23781890",
-    "cached_at": "2026-11-05T17:55:17.240809+00:00"
+    "cached_at": "2026-11-06T17:16:20.878392+00:00"
   },
-  "verity": {
-    "title": "Verity",
-    "overview": "Lowen Ashleigh, hired to ghostwrite for best-selling author Verity Crawford, uncovers Verity's autobiographical notes, and becomes involved in what may prove to be a lethal conspiracy.",
-    "genres": [
-      "Mystery",
-      "Thriller"
-    ],
-    "vote_average": 6.976,
-    "vote_count": 601,
-    "director": "Michael Showalter",
-    "cast": "Dakota Johnson, Anne Hathaway, Josh Hartnett, Brady Wagner, Ismael Cruz Cordova, Iryna Dvorovenko",
-    "poster_url": "https://image.tmdb.org/t/p/w500/rmaNMA1seHqpjtnYKzyynFAr1g8.jpg",
-    "poster_large_url": "https://image.tmdb.org/t/p/w780/rmaNMA1seHqpjtnYKzyynFAr1g8.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/w780/cKetrF2dAnQ0AMV5i4BMOs41I5P.jpg",
-    "runtime": "117 min",
-    "trailer_url": "https://www.youtube.com/watch?v=xdPMKhjMSFs",
-    "imdb_id": "tt32261958",
-    "cached_at": "2026-11-05T17:55:17.284102+00:00"
-  },
-  "all-rivers-spill-their-stories-to-the-sea-with-pre-recorded-q-a": {
-    "title": "All Rivers Spill Their Stories to the Sea",
-    "overview": "On England’s North East coast, where rivers, heavy industry and the sea have shaped lives for generations, fisherman Stan Rennie is watching the world he knows disappear. His family have worked these waters for generations. Then, almost overnight, thousands of dead crabs and lobsters wash ashore, and a community already living with uncertainty is pushed into crisis. Teesside filmmaker Jeanie Finlay brings warmth, wit and deep local feeling to this David-and-Goliath story of environmental damage, official evasions and working-class resilience. At its centre is Stan: funny, stubborn, vulnerable and increasingly determined to be heard.",
+  "derek-vs-derek": {
+    "title": "Derek vs Derek",
+    "overview": "The idyllic English countryside. An intensive dairy farmer called Derek. One day his neighbour, also called Derek, forsakes farming tradition and starts to turn his land over to wild nature. How does the community react when one of it’s own turns his back on their way of life?",
     "genres": [
       "Documentary"
     ],
     "vote_average": null,
     "vote_count": 0,
-    "director": "Jeanie Finlay",
-    "cast": "Stan Rennie",
-    "poster_url": "https://image.tmdb.org/t/p/w500/d0m6PDzDLByPNfp1bdv2D9MbFGY.jpg",
-    "poster_large_url": "https://image.tmdb.org/t/p/w780/d0m6PDzDLByPNfp1bdv2D9MbFGY.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/w780/lvKgRpSk1REV5UCJCnypqZZSkot.jpg",
-    "runtime": "99 min",
+    "director": "James Dawson",
+    "cast": "Derek Banbury, Derek Gow",
+    "poster_url": "https://image.tmdb.org/t/p/w500/xAMl5jYNuY482LZxgejyUVXjBM0.jpg",
+    "poster_large_url": "https://image.tmdb.org/t/p/w780/xAMl5jYNuY482LZxgejyUVXjBM0.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w780/vH5yyw3jJaGua1DrnuwK9UBJZPP.jpg",
+    "runtime": "87 min",
     "trailer_url": "",
-    "imdb_id": "tt40548469",
-    "cached_at": "2026-11-05T17:55:17.439412+00:00"
+    "imdb_id": "tt40150384",
+    "cached_at": "2026-11-06T17:16:20.879264+00:00"
+  },
+  "minions-monsters": {
+    "title": "Minions & Monsters",
+    "overview": "This is the rambunctious, ridiculous and totally true story of how the Minions conquered Hollywood, became movie stars, lost everything, unleashed monsters onto the world and then banded together to try and save the planet from the mayhem they had just created.",
+    "genres": [
+      "Adventure",
+      "Animation",
+      "Comedy",
+      "Family",
+      "Fantasy"
+    ],
+    "vote_average": 7.554,
+    "vote_count": 1369,
+    "director": "Pierre Coffin",
+    "cast": "Pierre Coffin, Trey Parker, Christoph Waltz, Allison Janney, Jesse Eisenberg, Jeff Bridges",
+    "poster_url": "https://image.tmdb.org/t/p/w500/4LwvU9SZc8QQzW1X1FAPhNbXnEU.jpg",
+    "poster_large_url": "https://image.tmdb.org/t/p/w780/4LwvU9SZc8QQzW1X1FAPhNbXnEU.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w780/kkcwhgSFd81QDlXo8ytrpHPQjhy.jpg",
+    "runtime": "90 min",
+    "trailer_url": "https://www.youtube.com/watch?v=V-O-uBaHk3c",
+    "imdb_id": "tt32890033",
+    "cached_at": "2026-11-06T17:16:21.345084+00:00"
+  },
+  "everest-the-other-side": {
+    "title": "Everest: The Other Side",
+    "overview": "An intimate portrait of two people bound by love, ambition, and the pursuit of the impossible. Elite ski mountaineers Jim Morrison and Hilaree Nelson fell deeply in love while reaching the pinnacle of their sport. Their drive sharpened into a shared dream: to climb and ski the direct North Face of Mount Everest—the most difficult and dangerous climb on the mountain and the most coveted ski line on Earth—something only a handful have ever achieved, and no one has successfully skied down.",
+    "genres": [
+      "Documentary"
+    ],
+    "vote_average": null,
+    "vote_count": 2,
+    "director": "Jimmy Chin, Elizabeth Chai Vasarhelyi",
+    "cast": "Hilaree Nelson, Jim Morrison, Jimmy Chin, Elizabeth Chai Vasarhelyi, Mikey Schaefer",
+    "poster_url": "https://image.tmdb.org/t/p/w500/2m9ts8LfjG8d4xcUtx66aApngJL.jpg",
+    "poster_large_url": "https://image.tmdb.org/t/p/w780/2m9ts8LfjG8d4xcUtx66aApngJL.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w780/ySbav9wRhnA1yGadMIpoQnLgTq6.jpg",
+    "runtime": "115 min",
+    "trailer_url": "https://www.youtube.com/watch?v=q6XUlPdTuto",
+    "imdb_id": "tt38691481",
+    "cached_at": "2026-11-06T17:16:21.372325+00:00"
+  },
+  "primetime": {
+    "title": "Primetime",
+    "overview": "In 2006, To Catch a Predator host Chris Hansen sets out to make television history. When a high stakes operation goes fatally wrong, his veneered dream of fame curdles into a nightmare of performative justice.",
+    "genres": [
+      "Thriller",
+      "Drama"
+    ],
+    "vote_average": 6.809,
+    "vote_count": 324,
+    "director": "Lance Oppenheim",
+    "cast": "Robert Pattinson, Merritt Wever, Skyler Gisondo, Matthew Maher, Phoebe Bridgers, Victor Brunette",
+    "poster_url": "https://image.tmdb.org/t/p/w500/lmrulvLbmaejTix1YaMxo1oGhH1.jpg",
+    "poster_large_url": "https://image.tmdb.org/t/p/w780/lmrulvLbmaejTix1YaMxo1oGhH1.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w780/sEsMwSDUWGIx9EfNxzM6KzVSsSQ.jpg",
+    "runtime": "110 min",
+    "trailer_url": "https://www.youtube.com/watch?v=C0NZa01qTRU",
+    "imdb_id": "tt34206385",
+    "cached_at": "2026-11-06T17:16:21.377733+00:00"
+  },
+  "the-royal-opera-carmen": {
+    "title": "Royal Ballet & Opera 2026/27: Carmen",
+    "overview": "Under the oppressive heat of the Spanish sun, the fiercely independent Carmen attracts the\r attention of Don José. She warns him not to fall in love with her, but his obsession knows no bounds.\r Damiano Michieletto’s searing production returns, casting scorching light on the lust, violence and\r destructive desire of Bizet’s ever-popular opera.\r An all-star cast brings this white-hot drama to life, with Ginger Costa-Jackson in the fiery title role,\r alongside Russell Thomas as the jealous and despairing Don José. Following his 2023 Royal Opera\r debut, Sesto Quatrini returns to conduct Bizet’s electrifying and sensual score.",
+    "genres": [],
+    "vote_average": null,
+    "vote_count": 0,
+    "director": "",
+    "cast": "",
+    "poster_url": "https://image.tmdb.org/t/p/w500/UhXsQRwE0eqTW5E95DKHZZj3aZ.jpg",
+    "poster_large_url": "https://image.tmdb.org/t/p/w780/UhXsQRwE0eqTW5E95DKHZZj3aZ.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w780/l1RwXeVqTtoM6nkOJBVw6OJh4ng.jpg",
+    "runtime": "",
+    "trailer_url": "",
+    "imdb_id": "",
+    "cached_at": "2026-11-06T17:16:21.406717+00:00"
+  },
+  "andre-rieu-s-2026-christmas-concert-let-it-snow": {
+    "title": "Andre Rieu's 2026 Christmas Concert Let It Snow",
+    "overview": "Andre Rieu's annual concert celebrating the magic of Christmas.",
+    "genres": [],
+    "vote_average": null,
+    "vote_count": 0,
+    "director": "",
+    "cast": "André Rieu",
+    "poster_url": "https://image.tmdb.org/t/p/w500/6jVby5VFD1fKSwe0Q1q7X4G3fbN.jpg",
+    "poster_large_url": "https://image.tmdb.org/t/p/w780/6jVby5VFD1fKSwe0Q1q7X4G3fbN.jpg",
+    "backdrop_url": "",
+    "runtime": "165 min",
+    "trailer_url": "",
+    "imdb_id": "tt43693579",
+    "cached_at": "2026-11-06T17:16:21.632606+00:00"
+  },
+  "hay-fever": {
+    "title": "Hay Fever",
+    "overview": "A confrontational and friendly judge gets in trouble when his wife is trying to arouse his jealousy of her long-term relationship with their mutual friend Chief Klausen. Superintendent and is still convinced that he strives against his life. At the same time the judge's chess friend Lise not stand that he was not hitting on her. All intricacies rubs judge with a serious time hay fever",
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "vote_average": null,
+    "vote_count": 5,
+    "director": "Annelise Hovmand",
+    "cast": "Frits Helmuth, Lisbet Dahl, Kirsten Lehfeldt, Axel Strøbye, Thomas Mørk, Peter Schrøder",
+    "poster_url": "https://image.tmdb.org/t/p/w500/dG3iMF45jR3a4VfUB59Sjj4Ds9N.jpg",
+    "poster_large_url": "https://image.tmdb.org/t/p/w780/dG3iMF45jR3a4VfUB59Sjj4Ds9N.jpg",
+    "backdrop_url": "",
+    "runtime": "80 min",
+    "trailer_url": "",
+    "imdb_id": "tt0102084",
+    "cached_at": "2026-11-06T17:16:21.642348+00:00"
   },
   "hadestown-the-musical": {
     "title": "Hadestown: The Musical",
@@ -972,7 +913,7 @@
     "runtime": "141 min",
     "trailer_url": "https://www.youtube.com/watch?v=76Q5TWHslOE",
     "imdb_id": "tt36307021",
-    "cached_at": "2026-11-05T17:55:17.512700+00:00"
+    "cached_at": "2026-11-06T17:16:21.831315+00:00"
   },
   "doctor-who-the-satan-pit": {
     "title": "Doctor Who: The Satan Pit",
@@ -992,7 +933,7 @@
     "runtime": "120 min",
     "trailer_url": "https://www.youtube.com/watch?v=BBBP-iqluxw",
     "imdb_id": "",
-    "cached_at": "2026-11-05T17:55:17.551951+00:00"
+    "cached_at": "2026-11-06T17:16:21.871908+00:00"
   },
   "the-royal-ballet-the-nutcracker": {
     "title": "The Royal Ballet: The Nutcracker",
@@ -1010,7 +951,7 @@
     "runtime": "140 min",
     "trailer_url": "https://www.youtube.com/watch?v=idx7-0TcPAY",
     "imdb_id": "",
-    "cached_at": "2026-11-05T17:55:17.571962+00:00"
+    "cached_at": "2026-11-06T17:16:21.888605+00:00"
   },
   "whispers-in-the-woods": {
     "title": "Whispers in the Woods",
@@ -1028,95 +969,7 @@
     "runtime": "99 min",
     "trailer_url": "https://www.youtube.com/watch?v=jNgDillNElk",
     "imdb_id": "tt32368068",
-    "cached_at": "2026-11-05T17:55:17.675767+00:00"
-  },
-  "clayface": {
-    "title": "Clayface",
-    "overview": "Matt Hagen's meteoric rise from Gotham street kid to Hollywood leading man is tragically cut short when a local crime boss's actions leave him horribly disfigured. Abandoned by his team and with nothing left, Matt seeks out a cutting edge treatment that miraculously returns him to his former self… but also unexpectedly affects his grip on reality, spiraling him down a destructive path of all-consuming revenge.",
-    "genres": [
-      "Horror",
-      "Thriller",
-      "Science Fiction"
-    ],
-    "vote_average": 7.434,
-    "vote_count": 391,
-    "director": "James Watkins",
-    "cast": "Tom Rhys Harries, Naomi Ackie, Eddie Marsan, Max Minghella, David Dencik, Francesca Corney",
-    "poster_url": "https://image.tmdb.org/t/p/w500/9l1NuFjel2j89hiuiJbsxfblqjy.jpg",
-    "poster_large_url": "https://image.tmdb.org/t/p/w780/9l1NuFjel2j89hiuiJbsxfblqjy.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/w780/xSDoxv4pHvs4xZjvTb0Iqg1A6ro.jpg",
-    "runtime": "109 min",
-    "trailer_url": "https://www.youtube.com/watch?v=f7jlCqdtwdM",
-    "imdb_id": "tt34890576",
-    "cached_at": "2026-11-05T17:55:17.740855+00:00"
-  },
-  "the-royal-opera-cos-fan-tutte": {
-    "title": "Royal Ballet & Opera 2026/27: Così fan tutte",
-    "overview": "",
-    "genres": [],
-    "vote_average": null,
-    "vote_count": 0,
-    "director": "",
-    "cast": "",
-    "poster_url": "https://image.tmdb.org/t/p/w500/jll3LbWdct2yykgP9bxjb0vZ44w.jpg",
-    "poster_large_url": "https://image.tmdb.org/t/p/w780/jll3LbWdct2yykgP9bxjb0vZ44w.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/w780/szgVDijsvujk9Bz2P8JJ99EqXXL.jpg",
-    "runtime": "",
-    "trailer_url": "",
-    "imdb_id": "",
-    "cached_at": "2026-11-05T17:55:17.997769+00:00"
-  },
-  "the-royal-ballet-alice-s-adventures-in-wonderland": {
-    "title": "Royal Ballet & Opera 2026/27: Alice's Adventures in Wonderland",
-    "overview": "At a garden party on a sunny afternoon, Alice is surprised to see her parents’ friend Lewis Carroll transform into a white rabbit. When she follows him down a rabbit hole, events become curiouser and curiouser…As Alice journeys through Wonderland, she encounters countless strange creatures. She’s swept off her feet by the charming Knave of Hearts, who’s on the run for stealing the tarts. Confusion piles upon confusion. Then Alice wakes with a start. Was it all a daydream?",
-    "genres": [],
-    "vote_average": null,
-    "vote_count": 0,
-    "director": "",
-    "cast": "",
-    "poster_url": "https://image.tmdb.org/t/p/w500/5objvLeZTI5oBGHeu5D2hG0EksB.jpg",
-    "poster_large_url": "https://image.tmdb.org/t/p/w780/5objvLeZTI5oBGHeu5D2hG0EksB.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/w780/dUx5cb2R1H5UU7bCZCtxEozHRPj.jpg",
-    "runtime": "",
-    "trailer_url": "",
-    "imdb_id": "",
-    "cached_at": "2026-11-05T17:55:18.079580+00:00"
-  },
-  "the-royal-opera-tosca": {
-    "title": "Royal Ballet & Opera 2025/26: Tosca",
-    "overview": "In war-torn Rome, Floria Tosca and Mario Cavaradossi live for each other and for their art. But when Cavaradossi helps an escaped prisoner, the lovers make a deadly enemy in the form of Baron Scarpia, Chief of Police. At the mercy of Scarpia’s twisted desires, Tosca is forced to make a horrific bargain: sleeping with the man she hates in order to save the man she loves. Can she find a way out?",
-    "genres": [
-      "Music"
-    ],
-    "vote_average": null,
-    "vote_count": 0,
-    "director": "Oliver Mears",
-    "cast": "Anna Netrebko, Freddie De Tommaso, Gerald Finley, Carlo Bosi, Ossian Huskinson, Alessandro Corbelli",
-    "poster_url": "https://image.tmdb.org/t/p/w500/2oGW2AfBeG9AArHLplp0Y7cTwj1.jpg",
-    "poster_large_url": "https://image.tmdb.org/t/p/w780/2oGW2AfBeG9AArHLplp0Y7cTwj1.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/w780/9vUBa0FSjFQ43vw3jon30MeZwzz.jpg",
-    "runtime": "210 min",
-    "trailer_url": "https://www.youtube.com/watch?v=9B8DfHdFhvM",
-    "imdb_id": "",
-    "cached_at": "2026-11-05T17:55:18.126745+00:00"
-  },
-  "exhibition-on-screen-monet": {
-    "title": "Exhibition on Screen: Monet",
-    "overview": "To coincide with a major exhibition at Tate Britain, Exhibition on Screen brings a brand-new film dedicated to the father of Impressionism, Claude Monet. The documentary explores his passion, rebellion, and his revolutionary mastery of light and color.",
-    "genres": [
-      "Documentary"
-    ],
-    "vote_average": null,
-    "vote_count": 0,
-    "director": "Phil Grabsky",
-    "cast": "",
-    "poster_url": "https://image.tmdb.org/t/p/w500/3JqxnIoA5tL2iPMGohP14utpYZq.jpg",
-    "poster_large_url": "https://image.tmdb.org/t/p/w780/3JqxnIoA5tL2iPMGohP14utpYZq.jpg",
-    "backdrop_url": "",
-    "runtime": "90 min",
-    "trailer_url": "",
-    "imdb_id": "",
-    "cached_at": "2026-11-05T17:55:18.209805+00:00"
+    "cached_at": "2026-11-06T17:16:21.894476+00:00"
   },
   "the-royal-opera-g-tterd-mmerung": {
     "title": "Royal Ballet & Opera 2026/27: Götterdämmerung",
@@ -1132,43 +985,59 @@
     "runtime": "",
     "trailer_url": "",
     "imdb_id": "",
-    "cached_at": "2026-11-05T17:55:18.512170+00:00"
+    "cached_at": "2026-11-06T17:16:22.129982+00:00"
   },
-  "exhibition-on-screen-renoir-love": {
-    "title": "Exhibition on Screen: Monet",
-    "overview": "To coincide with a major exhibition at Tate Britain, Exhibition on Screen brings a brand-new film dedicated to the father of Impressionism, Claude Monet. The documentary explores his passion, rebellion, and his revolutionary mastery of light and color.",
+  "godzilla-minus-zero": {
+    "title": "Godzilla Minus Zero",
+    "overview": "War reduced Japan to zero, and Godzilla plunged it into minus. Two years have passed since then, and the country has faced agonizing struggles to achieve recovery and finally reclaim its daily life. Just as humanity managed to cling to a hard-won peace, a new threat strikes, crushing hope in an instant. There is no third time. Everything ends here.",
     "genres": [
-      "Documentary"
+      "Science Fiction",
+      "Horror",
+      "Action"
     ],
+    "vote_average": 7.955,
+    "vote_count": 44,
+    "director": "Takashi Yamazaki",
+    "cast": "Ryunosuke Kamiki, Minami Hamabe, Yuki Yamada, Kuranosuke Sasaki, Jun Kunimura, Miou Tanaka",
+    "poster_url": "https://image.tmdb.org/t/p/w500/hSmIJluOJmTWvJs4d7kHRxjc8s8.jpg",
+    "poster_large_url": "https://image.tmdb.org/t/p/w780/hSmIJluOJmTWvJs4d7kHRxjc8s8.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w780/oqrYIDH4tvfEzPe1yqT4jzmAWHQ.jpg",
+    "runtime": "135 min",
+    "trailer_url": "https://www.youtube.com/watch?v=E-Q2tEgJ1ZI",
+    "imdb_id": "tt34384661",
+    "cached_at": "2026-11-06T17:16:22.135646+00:00"
+  },
+  "the-royal-opera-cos-fan-tutte": {
+    "title": "Royal Ballet & Opera 2026/27: Così fan tutte",
+    "overview": "",
+    "genres": [],
     "vote_average": null,
     "vote_count": 0,
-    "director": "Phil Grabsky",
+    "director": "",
     "cast": "",
-    "poster_url": "https://image.tmdb.org/t/p/w500/3JqxnIoA5tL2iPMGohP14utpYZq.jpg",
-    "poster_large_url": "https://image.tmdb.org/t/p/w780/3JqxnIoA5tL2iPMGohP14utpYZq.jpg",
-    "backdrop_url": "",
-    "runtime": "90 min",
+    "poster_url": "https://image.tmdb.org/t/p/w500/jll3LbWdct2yykgP9bxjb0vZ44w.jpg",
+    "poster_large_url": "https://image.tmdb.org/t/p/w780/jll3LbWdct2yykgP9bxjb0vZ44w.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w780/szgVDijsvujk9Bz2P8JJ99EqXXL.jpg",
+    "runtime": "",
     "trailer_url": "",
     "imdb_id": "",
-    "cached_at": "2026-11-05T17:55:18.558437+00:00"
+    "cached_at": "2026-11-06T17:16:22.140709+00:00"
   },
-  "derek-vs-derek": {
-    "title": "Derek vs Derek",
-    "overview": "The idyllic English countryside. An intensive dairy farmer called Derek. One day his neighbour, also called Derek, forsakes farming tradition and starts to turn his land over to wild nature. How does the community react when one of it’s own turns his back on their way of life?",
-    "genres": [
-      "Documentary"
-    ],
+  "the-royal-ballet-alice-s-adventures-in-wonderland": {
+    "title": "Royal Ballet & Opera 2026/27: Alice's Adventures in Wonderland",
+    "overview": "At a garden party on a sunny afternoon, Alice is surprised to see her parents’ friend Lewis Carroll transform into a white rabbit. When she follows him down a rabbit hole, events become curiouser and curiouser…As Alice journeys through Wonderland, she encounters countless strange creatures. She’s swept off her feet by the charming Knave of Hearts, who’s on the run for stealing the tarts. Confusion piles upon confusion. Then Alice wakes with a start. Was it all a daydream?",
+    "genres": [],
     "vote_average": null,
     "vote_count": 0,
-    "director": "James Dawson",
-    "cast": "Derek Banbury, Derek Gow",
-    "poster_url": "https://image.tmdb.org/t/p/w500/xAMl5jYNuY482LZxgejyUVXjBM0.jpg",
-    "poster_large_url": "https://image.tmdb.org/t/p/w780/xAMl5jYNuY482LZxgejyUVXjBM0.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/w780/vH5yyw3jJaGua1DrnuwK9UBJZPP.jpg",
-    "runtime": "87 min",
+    "director": "",
+    "cast": "",
+    "poster_url": "https://image.tmdb.org/t/p/w500/5objvLeZTI5oBGHeu5D2hG0EksB.jpg",
+    "poster_large_url": "https://image.tmdb.org/t/p/w780/5objvLeZTI5oBGHeu5D2hG0EksB.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w780/dUx5cb2R1H5UU7bCZCtxEozHRPj.jpg",
+    "runtime": "",
     "trailer_url": "",
-    "imdb_id": "tt40150384",
-    "cached_at": "2026-11-05T17:55:18.563004+00:00"
+    "imdb_id": "",
+    "cached_at": "2026-11-06T17:16:22.335407+00:00"
   },
   "the-royal-ballet-swan-lake": {
     "title": "The Royal Ballet: Swan Lake",
@@ -1186,25 +1055,123 @@
     "runtime": "",
     "trailer_url": "",
     "imdb_id": "",
-    "cached_at": "2026-11-05T17:55:18.579486+00:00"
+    "cached_at": "2026-11-06T17:16:22.372323+00:00"
   },
-  "no-trees-no-seas": {
-    "title": "No Trees, No Seas",
-    "overview": "A people-led climate documentary rooted in Cornwall, where stories, science and surfing come together to reveal how restoring the connections between land, sea and community could change everything.",
+  "the-royal-ballet-romeo-juliet": {
+    "title": "The Royal Ballet: Romeo and Juliet",
+    "overview": "An ancient family feud casts a long shadow over the town of Verona. In this hothouse of tension, brawls are quick to break out and both sides get caught in the crossfire.",
     "genres": [
-      "Documentary"
+      "Romance",
+      "Music"
+    ],
+    "vote_average": null,
+    "vote_count": 1,
+    "director": "Ross MacGibbon",
+    "cast": "Vadim Muntagirov, Fumi Kaneko, Francisco Serrano, Ryoichi Hirano, Giacomo Rovero, Lukas Bjørneboe Brændsrød",
+    "poster_url": "https://image.tmdb.org/t/p/w500/AqSVnFLayKhOqhLFwx3kRqX6Glu.jpg",
+    "poster_large_url": "https://image.tmdb.org/t/p/w780/AqSVnFLayKhOqhLFwx3kRqX6Glu.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w780/l4e2Gre0sXG7QBIQk2xPXsqf5Uc.jpg",
+    "runtime": "175 min",
+    "trailer_url": "https://www.youtube.com/watch?v=JvaypCQe-Fc",
+    "imdb_id": "",
+    "cached_at": "2026-11-06T17:16:22.387913+00:00"
+  },
+  "the-royal-opera-tosca": {
+    "title": "Royal Ballet & Opera 2025/26: Tosca",
+    "overview": "In war-torn Rome, Floria Tosca and Mario Cavaradossi live for each other and for their art. But when Cavaradossi helps an escaped prisoner, the lovers make a deadly enemy in the form of Baron Scarpia, Chief of Police. At the mercy of Scarpia’s twisted desires, Tosca is forced to make a horrific bargain: sleeping with the man she hates in order to save the man she loves. Can she find a way out?",
+    "genres": [
+      "Music"
     ],
     "vote_average": null,
     "vote_count": 0,
-    "director": "James Stuart",
-    "cast": "Sam Bleakley",
-    "poster_url": "https://image.tmdb.org/t/p/w500/boV3KViD9hy4tG83Y0pJnMLi24F.jpg",
-    "poster_large_url": "https://image.tmdb.org/t/p/w780/boV3KViD9hy4tG83Y0pJnMLi24F.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/w780/7TWzuiA9q5pZlR2bnlKg20RLxkb.jpg",
-    "runtime": "60 min",
-    "trailer_url": "",
-    "imdb_id": "tt45114398",
-    "cached_at": "2026-11-05T17:55:18.625661+00:00"
+    "director": "Oliver Mears",
+    "cast": "Anna Netrebko, Freddie De Tommaso, Gerald Finley, Carlo Bosi, Ossian Huskinson, Alessandro Corbelli",
+    "poster_url": "https://image.tmdb.org/t/p/w500/2oGW2AfBeG9AArHLplp0Y7cTwj1.jpg",
+    "poster_large_url": "https://image.tmdb.org/t/p/w780/2oGW2AfBeG9AArHLplp0Y7cTwj1.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w780/9vUBa0FSjFQ43vw3jon30MeZwzz.jpg",
+    "runtime": "210 min",
+    "trailer_url": "https://www.youtube.com/watch?v=9B8DfHdFhvM",
+    "imdb_id": "",
+    "cached_at": "2026-11-06T17:16:22.390174+00:00"
+  },
+  "wildwood": {
+    "title": "Wildwood",
+    "overview": "Prue and her classmate Curtis are drawn into a magical forest filled with enchanted creatures, loyal allies, and formidable adversaries as they embark on a desperate quest to rescue Prue's abducted baby brother from a murder of crows led by a mysterious woman named Alexandra.",
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Fantasy"
+    ],
+    "vote_average": 8.467,
+    "vote_count": 199,
+    "director": "Travis Knight",
+    "cast": "Peyton Elizabeth Lee, Jacob Tremblay, Carey Mulligan, Mahershala Ali, Richard E. Grant, Angela Bassett",
+    "poster_url": "https://image.tmdb.org/t/p/w500/snFM00mpNAfUzUtkdEW0uDEvXA0.jpg",
+    "poster_large_url": "https://image.tmdb.org/t/p/w780/snFM00mpNAfUzUtkdEW0uDEvXA0.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w780/sl5NJ1vtyhP9Vr88bB4blULsJYp.jpg",
+    "runtime": "132 min",
+    "trailer_url": "https://www.youtube.com/watch?v=bJQGtSeLPII",
+    "imdb_id": "tt2056785",
+    "cached_at": "2026-11-06T17:16:22.616534+00:00"
+  },
+  "sense-and-sensibility": {
+    "title": "Sense and Sensibility",
+    "overview": "A charming, witty, and deeply relatable story of love and sisterhood.",
+    "genres": [
+      "Romance",
+      "Drama",
+      "History"
+    ],
+    "vote_average": 7.253,
+    "vote_count": 146,
+    "director": "Georgia Oakley",
+    "cast": "Daisy Edgar-Jones, Esmé Creed-Miles, Caitríona Balfe, Frank Dillane, Herbert Nordrum, George MacKay",
+    "poster_url": "https://image.tmdb.org/t/p/w500/czsyPHosFNbh4PPqXfqWu1aBXnA.jpg",
+    "poster_large_url": "https://image.tmdb.org/t/p/w780/czsyPHosFNbh4PPqXfqWu1aBXnA.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w780/rv6dwE4SXAT5f00Ks8YL2kFvnLA.jpg",
+    "runtime": "132 min",
+    "trailer_url": "https://www.youtube.com/watch?v=OFLyW0lxFU0",
+    "imdb_id": "tt13609648",
+    "cached_at": "2026-11-06T17:16:22.617078+00:00"
+  },
+  "pressure": {
+    "title": "Pressure",
+    "overview": "In the tense 72 hours before D-Day, and the fate of the free world hanging in the balance, General Dwight D. Eisenhower and Captain James Stagg face an impossible choice—launch the largest and most dangerous seaborne invasion in history or risk losing the war altogether.",
+    "genres": [
+      "Thriller",
+      "History",
+      "War"
+    ],
+    "vote_average": 7.7,
+    "vote_count": 533,
+    "director": "Anthony Maras",
+    "cast": "Andrew Scott, Brendan Fraser, Kerry Condon, Chris Messina, Damian Lewis, Tamsin Topolski",
+    "poster_url": "https://image.tmdb.org/t/p/w500/gFjEggtrejCN79r6SXRjM269OtG.jpg",
+    "poster_large_url": "https://image.tmdb.org/t/p/w780/gFjEggtrejCN79r6SXRjM269OtG.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w780/apfyLCPVFttB8oXcsLJ7q0NSFLx.jpg",
+    "runtime": "101 min",
+    "trailer_url": "https://www.youtube.com/watch?v=jjdOSchcobk",
+    "imdb_id": "tt32547691",
+    "cached_at": "2026-11-06T17:16:22.633717+00:00"
+  },
+  "verity": {
+    "title": "Verity",
+    "overview": "Lowen Ashleigh, hired to ghostwrite for best-selling author Verity Crawford, uncovers Verity's autobiographical notes, and becomes involved in what may prove to be a lethal conspiracy.",
+    "genres": [
+      "Mystery",
+      "Thriller"
+    ],
+    "vote_average": 6.973,
+    "vote_count": 608,
+    "director": "Michael Showalter",
+    "cast": "Dakota Johnson, Anne Hathaway, Josh Hartnett, Brady Wagner, Ismael Cruz Cordova, Iryna Dvorovenko",
+    "poster_url": "https://image.tmdb.org/t/p/w500/rmaNMA1seHqpjtnYKzyynFAr1g8.jpg",
+    "poster_large_url": "https://image.tmdb.org/t/p/w780/rmaNMA1seHqpjtnYKzyynFAr1g8.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w780/cKetrF2dAnQ0AMV5i4BMOs41I5P.jpg",
+    "runtime": "117 min",
+    "trailer_url": "https://www.youtube.com/watch?v=xdPMKhjMSFs",
+    "imdb_id": "tt32261958",
+    "cached_at": "2026-11-06T17:16:22.830700+00:00"
   },
   "paw-patrol-the-dino-movie": {
     "title": "PAW Patrol: The Dino Movie",
@@ -1226,7 +1193,61 @@
     "runtime": "88 min",
     "trailer_url": "https://www.youtube.com/watch?v=xgI5iYmOf5Q",
     "imdb_id": "tt29356163",
-    "cached_at": "2026-11-05T17:55:18.675541+00:00"
+    "cached_at": "2026-11-06T17:16:23.095263+00:00"
+  },
+  "no-trees-no-seas": {
+    "title": "No Trees, No Seas",
+    "overview": "A people-led climate documentary rooted in Cornwall, where stories, science and surfing come together to reveal how restoring the connections between land, sea and community could change everything.",
+    "genres": [
+      "Documentary"
+    ],
+    "vote_average": null,
+    "vote_count": 0,
+    "director": "James Stuart",
+    "cast": "Sam Bleakley",
+    "poster_url": "https://image.tmdb.org/t/p/w500/boV3KViD9hy4tG83Y0pJnMLi24F.jpg",
+    "poster_large_url": "https://image.tmdb.org/t/p/w780/boV3KViD9hy4tG83Y0pJnMLi24F.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w780/7TWzuiA9q5pZlR2bnlKg20RLxkb.jpg",
+    "runtime": "60 min",
+    "trailer_url": "",
+    "imdb_id": "tt45114398",
+    "cached_at": "2026-11-06T17:16:23.100364+00:00"
+  },
+  "exhibition-on-screen-monet": {
+    "title": "Exhibition on Screen: Monet",
+    "overview": "To coincide with a major exhibition at Tate Britain, Exhibition on Screen brings a brand-new film dedicated to the father of Impressionism, Claude Monet. The documentary explores his passion, rebellion, and his revolutionary mastery of light and color.",
+    "genres": [
+      "Documentary"
+    ],
+    "vote_average": null,
+    "vote_count": 0,
+    "director": "Phil Grabsky",
+    "cast": "",
+    "poster_url": "https://image.tmdb.org/t/p/w500/3JqxnIoA5tL2iPMGohP14utpYZq.jpg",
+    "poster_large_url": "https://image.tmdb.org/t/p/w780/3JqxnIoA5tL2iPMGohP14utpYZq.jpg",
+    "backdrop_url": "",
+    "runtime": "90 min",
+    "trailer_url": "",
+    "imdb_id": "",
+    "cached_at": "2026-11-06T17:16:23.281418+00:00"
+  },
+  "all-rivers-spill-their-stories-to-the-sea-with-pre-recorded-q-a": {
+    "title": "All Rivers Spill Their Stories to the Sea",
+    "overview": "On England’s North East coast, where rivers, heavy industry and the sea have shaped lives for generations, fisherman Stan Rennie is watching the world he knows disappear. His family have worked these waters for generations. Then, almost overnight, thousands of dead crabs and lobsters wash ashore, and a community already living with uncertainty is pushed into crisis. Teesside filmmaker Jeanie Finlay brings warmth, wit and deep local feeling to this David-and-Goliath story of environmental damage, official evasions and working-class resilience. At its centre is Stan: funny, stubborn, vulnerable and increasingly determined to be heard.",
+    "genres": [
+      "Documentary"
+    ],
+    "vote_average": null,
+    "vote_count": 0,
+    "director": "Jeanie Finlay",
+    "cast": "Stan Rennie",
+    "poster_url": "https://image.tmdb.org/t/p/w500/d0m6PDzDLByPNfp1bdv2D9MbFGY.jpg",
+    "poster_large_url": "https://image.tmdb.org/t/p/w780/d0m6PDzDLByPNfp1bdv2D9MbFGY.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w780/lvKgRpSk1REV5UCJCnypqZZSkot.jpg",
+    "runtime": "99 min",
+    "trailer_url": "",
+    "imdb_id": "tt40548469",
+    "cached_at": "2026-11-06T17:16:23.411904+00:00"
   },
   "street-fighter": {
     "title": "Street Fighter",
@@ -1235,8 +1256,8 @@
       "Action",
       "Fantasy"
     ],
-    "vote_average": 6.3,
-    "vote_count": 216,
+    "vote_average": 6.326,
+    "vote_count": 219,
     "director": "Kitao Sakurai",
     "cast": "Andrew Koji, Noah Centineo, Callina Liang, David Dastmalchian, Andrew Schulz, Joe Anoa'i",
     "poster_url": "https://image.tmdb.org/t/p/w500/ccxdepKqORLwccbzvO4eAGkN0IC.jpg",
@@ -1245,7 +1266,64 @@
     "runtime": "120 min",
     "trailer_url": "https://www.youtube.com/watch?v=U6sbm1OaJb8",
     "imdb_id": "tt27419420",
-    "cached_at": "2026-11-05T17:55:18.754295+00:00"
+    "cached_at": "2026-11-06T17:16:23.646945+00:00"
+  },
+  "kpop-party": {
+    "title": "KPop Demon Hunters",
+    "overview": "When K-pop superstars Rumi, Mira and Zoey aren't selling out stadiums, they're using their secret powers to protect their fans from supernatural threats.",
+    "genres": [
+      "Fantasy",
+      "Music",
+      "Comedy",
+      "Animation"
+    ],
+    "vote_average": 7.972,
+    "vote_count": 3352,
+    "director": "Chris Appelhans, Maggie Kang",
+    "cast": "Arden Cho, May Hong, Ji-young Yoo, Ahn Hyo-seop, Yunjin Kim, Ken Jeong",
+    "poster_url": "https://image.tmdb.org/t/p/w500/zT7Lhw3BhJbMkRqm9Zlx2YGMsY0.jpg",
+    "poster_large_url": "https://image.tmdb.org/t/p/w780/zT7Lhw3BhJbMkRqm9Zlx2YGMsY0.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w780/w3Bi0wygeFQctn6AqFTwhGNXRwL.jpg",
+    "runtime": "96 min",
+    "trailer_url": "https://www.youtube.com/watch?v=AzCAwdp1uIQ",
+    "imdb_id": "tt14205554",
+    "cached_at": "2026-11-06T17:16:23.874074+00:00"
+  },
+  "exhibition-on-screen-renoir-love": {
+    "title": "Exhibition on Screen: Monet",
+    "overview": "To coincide with a major exhibition at Tate Britain, Exhibition on Screen brings a brand-new film dedicated to the father of Impressionism, Claude Monet. The documentary explores his passion, rebellion, and his revolutionary mastery of light and color.",
+    "genres": [
+      "Documentary"
+    ],
+    "vote_average": null,
+    "vote_count": 0,
+    "director": "Phil Grabsky",
+    "cast": "",
+    "poster_url": "https://image.tmdb.org/t/p/w500/3JqxnIoA5tL2iPMGohP14utpYZq.jpg",
+    "poster_large_url": "https://image.tmdb.org/t/p/w780/3JqxnIoA5tL2iPMGohP14utpYZq.jpg",
+    "backdrop_url": "",
+    "runtime": "90 min",
+    "trailer_url": "",
+    "imdb_id": "",
+    "cached_at": "2026-11-06T17:16:23.959383+00:00"
+  },
+  "movie-magic-screening-focker-in-law-see-it-first": {
+    "title": "Movie Magic",
+    "overview": "Kat, an aspiring writer, and Justin, a fantasizing director, once believed in the magic of movies - until making one of their own stalled their dreams. Now passing the days as ushers in a fading London indie cinema, they cling to the place as it edges toward closure. On the cinema’s final night, a half-serious wish to be part of the movies lands them inside the screen itself. Swept through a series of classic film worlds, they slip into shifting roles as spies, period protagonists, and something far more monstrous, while forces outside the frame race to bring them back. Filmed at London’s Phoenix Cinema, Movie Magic is a playful, self-aware romantic comedy that celebrates cinema as both escape and obsession.",
+    "genres": [
+      "Comedy"
+    ],
+    "vote_average": null,
+    "vote_count": 0,
+    "director": "Alex Kennedy, Michael Magarren",
+    "cast": "Ilayda Arden, Michael Magarren, Jonathan Hansler, Amber Doig-Thorne, Ben Lund-Conlon, Zarmeeneh Khan",
+    "poster_url": "https://image.tmdb.org/t/p/w500/hgrw9qRgPlfpnVkoJ6j0UrMIpav.jpg",
+    "poster_large_url": "https://image.tmdb.org/t/p/w780/hgrw9qRgPlfpnVkoJ6j0UrMIpav.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w780/yFGjNyfcSBYSJmss2Y9GplHPLSE.jpg",
+    "runtime": "90 min",
+    "trailer_url": "https://www.youtube.com/watch?v=22HvCIyIhl0",
+    "imdb_id": "",
+    "cached_at": "2026-11-06T17:16:24.157046+00:00"
   },
   "tease": {
     "title": "Tease",
@@ -1263,47 +1341,7 @@
     "runtime": "2 min",
     "trailer_url": "",
     "imdb_id": "",
-    "cached_at": "2026-11-05T17:55:19.188921+00:00"
-  },
-  "the-royal-ballet-romeo-juliet": {
-    "title": "The Royal Ballet: Romeo and Juliet",
-    "overview": "An ancient family feud casts a long shadow over the town of Verona. In this hothouse of tension, brawls are quick to break out and both sides get caught in the crossfire.",
-    "genres": [
-      "Romance",
-      "Music"
-    ],
-    "vote_average": null,
-    "vote_count": 1,
-    "director": "Ross MacGibbon",
-    "cast": "Vadim Muntagirov, Fumi Kaneko, Francisco Serrano, Ryoichi Hirano, Giacomo Rovero, Lukas Bjørneboe Brændsrød",
-    "poster_url": "https://image.tmdb.org/t/p/w500/AqSVnFLayKhOqhLFwx3kRqX6Glu.jpg",
-    "poster_large_url": "https://image.tmdb.org/t/p/w780/AqSVnFLayKhOqhLFwx3kRqX6Glu.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/w780/l4e2Gre0sXG7QBIQk2xPXsqf5Uc.jpg",
-    "runtime": "175 min",
-    "trailer_url": "https://www.youtube.com/watch?v=JvaypCQe-Fc",
-    "imdb_id": "",
-    "cached_at": "2026-11-05T17:55:19.285223+00:00"
-  },
-  "kpop-party": {
-    "title": "KPop Demon Hunters",
-    "overview": "When K-pop superstars Rumi, Mira and Zoey aren't selling out stadiums, they're using their secret powers to protect their fans from supernatural threats.",
-    "genres": [
-      "Fantasy",
-      "Music",
-      "Comedy",
-      "Animation"
-    ],
-    "vote_average": 7.971,
-    "vote_count": 3350,
-    "director": "Maggie Kang, Chris Appelhans",
-    "cast": "Arden Cho, May Hong, Ji-young Yoo, Ahn Hyo-seop, Yunjin Kim, Ken Jeong",
-    "poster_url": "https://image.tmdb.org/t/p/w500/zT7Lhw3BhJbMkRqm9Zlx2YGMsY0.jpg",
-    "poster_large_url": "https://image.tmdb.org/t/p/w780/zT7Lhw3BhJbMkRqm9Zlx2YGMsY0.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/w780/w3Bi0wygeFQctn6AqFTwhGNXRwL.jpg",
-    "runtime": "96 min",
-    "trailer_url": "https://www.youtube.com/watch?v=AzCAwdp1uIQ",
-    "imdb_id": "tt14205554",
-    "cached_at": "2026-11-05T17:55:19.381868+00:00"
+    "cached_at": "2026-11-06T17:16:24.334817+00:00"
   },
   "amazing-animals": {
     "title": "Amazing Animals",
@@ -1321,120 +1359,7 @@
     "runtime": "76 min",
     "trailer_url": "",
     "imdb_id": "tt10073902",
-    "cached_at": "2026-11-05T17:55:19.749170+00:00"
-  },
-  "the-americana-revue": {
-    "title": "What Happened At The Americana?",
-    "overview": "A group of actors are invited to a cast dinner where they discover the dead body of their director. As the situation escalates they soon forget about the murder and become focused only on their own personal agendas and problems.",
-    "genres": [
-      "Comedy",
-      "Mystery"
-    ],
-    "vote_average": null,
-    "vote_count": 1,
-    "director": "Kieran Jordan",
-    "cast": "Charlie Blanshard, Emily Stefan, Ryan Carley, Mollie Crone, Cameron Lloyd Morris",
-    "poster_url": "https://image.tmdb.org/t/p/w500/7jzYOcY7wf1a0ZCfi9K9IXGOJWM.jpg",
-    "poster_large_url": "https://image.tmdb.org/t/p/w780/7jzYOcY7wf1a0ZCfi9K9IXGOJWM.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/w780/nRzxn5h6AjneBjlkeBA14AchLFL.jpg",
-    "runtime": "14 min",
-    "trailer_url": "",
-    "imdb_id": "",
-    "cached_at": "2026-11-05T17:55:20.238016+00:00"
-  },
-  "fred-dinenage-s-ronnie-reggie-me": {
-    "title": "Fred",
-    "overview": "Fred (Vincent Lindon) is a former crane driver who was a victim of the closure of his factory. He takes care of the little boy of his girlfriend (Clotilde Courau), does the housework and sometimes goes to the job center but boredom is inescapable. One day, because he accepted to drive a truck for a friend to a warehouse, he's caught up in a vicious spiral that goes beyond him. It's all the more serious as shady men want to eliminate him an the police is on his back.",
-    "genres": [
-      "Crime"
-    ],
-    "vote_average": null,
-    "vote_count": 12,
-    "director": "Pierre Jolivet",
-    "cast": "Vincent Lindon, Clotilde Courau, François Berléand, Stéphane Jobert, Roschdy Zem, Albert Dray",
-    "poster_url": "https://image.tmdb.org/t/p/w500/p1ZNYeE1Ytf9xtD7YroMM93Srfd.jpg",
-    "poster_large_url": "https://image.tmdb.org/t/p/w780/p1ZNYeE1Ytf9xtD7YroMM93Srfd.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/w780/dtZHLsxuxuDNXQSgcNWz1IiiKYO.jpg",
-    "runtime": "",
-    "trailer_url": "",
-    "imdb_id": "tt0119150",
-    "cached_at": "2026-11-05T17:55:20.647293+00:00"
-  },
-  "the-carpenters-story": {
-    "title": "Only Yesterday: The Carpenters Story",
-    "overview": "Documentary about brother and sister duo The Carpenters, one of the biggest-selling pop acts of the 1970s, but one with a destructive and complex secret that ended in tragedy.",
-    "genres": [
-      "Documentary",
-      "Music"
-    ],
-    "vote_average": null,
-    "vote_count": 0,
-    "director": "Samantha Peters",
-    "cast": "Richard Carpenter, Karen Carpenter, Herb Alpert, Linda Perry",
-    "poster_url": "https://image.tmdb.org/t/p/w500/jUAGMXnOg7HegKX7pZv4V2A1muf.jpg",
-    "poster_large_url": "https://image.tmdb.org/t/p/w780/jUAGMXnOg7HegKX7pZv4V2A1muf.jpg",
-    "backdrop_url": "",
-    "runtime": "58 min",
-    "trailer_url": "",
-    "imdb_id": "tt1014805",
-    "cached_at": "2026-11-05T17:55:20.803297+00:00"
-  },
-  "jim-davidson-no-holds-barred": {
-    "title": "Jim Davidson: No Further Action - Back & Live",
-    "overview": "Comedy legend Jim Davidson returns with his brand new DVD Back & Live! filmed during his No Further Action UK tour. Jim takes a wry look at what life is like under investigation in the public eye as he tells the story of his year from hell following his arrest by Operation Yewtree detectives. He gives an honest and witty account of fighting to clear his name, subsequently having all allegations against him dropped and winning the heart of the nation all over again when he was crowned the winner of the most successful series of Big Brother by a landslide public vote. Hear the outrageous unseen stories of the Celebrity Big Brother house and what Jim really thought about his fellow housemates!",
-    "genres": [
-      "Comedy"
-    ],
-    "vote_average": null,
-    "vote_count": 1,
-    "director": "",
-    "cast": "Jim Davidson",
-    "poster_url": "https://image.tmdb.org/t/p/w500/vDDLRIE55kdci6gCfQlcVvmo4p3.jpg",
-    "poster_large_url": "https://image.tmdb.org/t/p/w780/vDDLRIE55kdci6gCfQlcVvmo4p3.jpg",
-    "backdrop_url": "",
-    "runtime": "86 min",
-    "trailer_url": "",
-    "imdb_id": "tt4294116",
-    "cached_at": "2026-11-05T17:55:21.079722+00:00"
-  },
-  "the-overtones-up-close-and-personal": {
-    "title": "The Dark Knight",
-    "overview": "Batman raises the stakes in his war on crime. With the help of Lt. Jim Gordon and District Attorney Harvey Dent, Batman sets out to dismantle the remaining criminal organizations that plague the streets. The partnership proves to be effective, but they soon find themselves prey to a reign of chaos unleashed by a rising criminal mastermind known to the terrified citizens of Gotham as the Joker.",
-    "genres": [
-      "Action",
-      "Thriller",
-      "Crime"
-    ],
-    "vote_average": 8.54,
-    "vote_count": 37236,
-    "director": "Christopher Nolan",
-    "cast": "Christian Bale, Heath Ledger, Aaron Eckhart, Michael Caine, Maggie Gyllenhaal, Gary Oldman",
-    "poster_url": "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
-    "poster_large_url": "https://image.tmdb.org/t/p/w780/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/w780/cfT29Im5VDvjE0RpyKOSdCKZal7.jpg",
-    "runtime": "152 min",
-    "trailer_url": "https://www.youtube.com/watch?v=_PZpmTj1Q8Q",
-    "imdb_id": "tt0468569",
-    "cached_at": "2026-11-05T17:55:21.225160+00:00"
-  },
-  "locomotive-for-murder-the-improvised-whodunnit": {
-    "title": "The Railways: Engine of Progress",
-    "overview": "When the first railroads were built some two hundred years ago, they brought about a revolutionary change for mankind, linking cities and countryside, driving the industrial revolution and irrevocably changing the landscape: a history of the railroad from its beginnings to the present day.",
-    "genres": [
-      "Documentary",
-      "History"
-    ],
-    "vote_average": null,
-    "vote_count": 2,
-    "director": "Thomas Staehler",
-    "cast": "Henrik van Ypsilon",
-    "poster_url": "https://image.tmdb.org/t/p/w500/z8l4PFg80HiyHak1wBbvQrIaDx1.jpg",
-    "poster_large_url": "https://image.tmdb.org/t/p/w780/z8l4PFg80HiyHak1wBbvQrIaDx1.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/w780/2ORZRQ16AD3AfKDps5UXIwBFDeH.jpg",
-    "runtime": "89 min",
-    "trailer_url": "",
-    "imdb_id": "tt31789931",
-    "cached_at": "2026-11-05T17:55:21.470990+00:00"
+    "cached_at": "2026-11-06T17:16:24.455388+00:00"
   },
   "the-bev-lyn-school-of-dance-presents-search-for-santa": {
     "title": "",
@@ -1450,7 +1375,7 @@
     "runtime": "",
     "trailer_url": "",
     "imdb_id": "",
-    "cached_at": "2026-11-05T17:55:18.712248+00:00"
+    "cached_at": "2026-11-06T17:16:23.030669+00:00"
   },
   "scummy-mummies-on-the-edge": {
     "title": "Scummy Man",
@@ -1469,7 +1394,99 @@
     "runtime": "16 min",
     "trailer_url": "",
     "imdb_id": "tt0811058",
-    "cached_at": "2026-11-05T17:55:21.582588+00:00"
+    "cached_at": "2026-11-06T17:16:24.648127+00:00"
+  },
+  "the-americana-revue": {
+    "title": "What Happened At The Americana?",
+    "overview": "A group of actors are invited to a cast dinner where they discover the dead body of their director. As the situation escalates they soon forget about the murder and become focused only on their own personal agendas and problems.",
+    "genres": [
+      "Comedy",
+      "Mystery"
+    ],
+    "vote_average": null,
+    "vote_count": 1,
+    "director": "Kieran Jordan",
+    "cast": "Charlie Blanshard, Emily Stefan, Ryan Carley, Mollie Crone, Cameron Lloyd Morris",
+    "poster_url": "https://image.tmdb.org/t/p/w500/7jzYOcY7wf1a0ZCfi9K9IXGOJWM.jpg",
+    "poster_large_url": "https://image.tmdb.org/t/p/w780/7jzYOcY7wf1a0ZCfi9K9IXGOJWM.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w780/nRzxn5h6AjneBjlkeBA14AchLFL.jpg",
+    "runtime": "14 min",
+    "trailer_url": "",
+    "imdb_id": "",
+    "cached_at": "2026-11-06T17:16:25.556655+00:00"
+  },
+  "jim-davidson-no-holds-barred": {
+    "title": "Jim Davidson: No Further Action - Back & Live",
+    "overview": "Comedy legend Jim Davidson returns with his brand new DVD Back & Live! filmed during his No Further Action UK tour. Jim takes a wry look at what life is like under investigation in the public eye as he tells the story of his year from hell following his arrest by Operation Yewtree detectives. He gives an honest and witty account of fighting to clear his name, subsequently having all allegations against him dropped and winning the heart of the nation all over again when he was crowned the winner of the most successful series of Big Brother by a landslide public vote. Hear the outrageous unseen stories of the Celebrity Big Brother house and what Jim really thought about his fellow housemates!",
+    "genres": [
+      "Comedy"
+    ],
+    "vote_average": null,
+    "vote_count": 1,
+    "director": "",
+    "cast": "Jim Davidson",
+    "poster_url": "https://image.tmdb.org/t/p/w500/vDDLRIE55kdci6gCfQlcVvmo4p3.jpg",
+    "poster_large_url": "https://image.tmdb.org/t/p/w780/vDDLRIE55kdci6gCfQlcVvmo4p3.jpg",
+    "backdrop_url": "",
+    "runtime": "86 min",
+    "trailer_url": "",
+    "imdb_id": "tt4294116",
+    "cached_at": "2026-11-06T17:16:25.594189+00:00"
+  },
+  "the-carpenters-story": {
+    "title": "Only Yesterday: The Carpenters Story",
+    "overview": "Documentary about brother and sister duo The Carpenters, one of the biggest-selling pop acts of the 1970s, but one with a destructive and complex secret that ended in tragedy.",
+    "genres": [
+      "Documentary",
+      "Music"
+    ],
+    "vote_average": null,
+    "vote_count": 0,
+    "director": "Samantha Peters",
+    "cast": "Richard Carpenter, Karen Carpenter, Herb Alpert, Linda Perry",
+    "poster_url": "https://image.tmdb.org/t/p/w500/jUAGMXnOg7HegKX7pZv4V2A1muf.jpg",
+    "poster_large_url": "https://image.tmdb.org/t/p/w780/jUAGMXnOg7HegKX7pZv4V2A1muf.jpg",
+    "backdrop_url": "",
+    "runtime": "58 min",
+    "trailer_url": "",
+    "imdb_id": "tt1014805",
+    "cached_at": "2026-11-06T17:16:25.773630+00:00"
+  },
+  "the-overtones-up-close-and-personal": {
+    "title": "The Dark Knight",
+    "overview": "Batman raises the stakes in his war on crime. With the help of Lt. Jim Gordon and District Attorney Harvey Dent, Batman sets out to dismantle the remaining criminal organizations that plague the streets. The partnership proves to be effective, but they soon find themselves prey to a reign of chaos unleashed by a rising criminal mastermind known to the terrified citizens of Gotham as the Joker.",
+    "genres": [
+      "Action",
+      "Thriller",
+      "Crime"
+    ],
+    "vote_average": 8.5,
+    "vote_count": 37242,
+    "director": "Christopher Nolan",
+    "cast": "Christian Bale, Heath Ledger, Aaron Eckhart, Michael Caine, Maggie Gyllenhaal, Gary Oldman",
+    "poster_url": "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+    "poster_large_url": "https://image.tmdb.org/t/p/w780/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w780/cfT29Im5VDvjE0RpyKOSdCKZal7.jpg",
+    "runtime": "152 min",
+    "trailer_url": "https://www.youtube.com/watch?v=_PZpmTj1Q8Q",
+    "imdb_id": "tt0468569",
+    "cached_at": "2026-11-06T17:16:25.786645+00:00"
+  },
+  "james-phelan-the-man-who-was-magic": {
+    "title": "",
+    "overview": "",
+    "genres": [],
+    "vote_average": null,
+    "vote_count": 0,
+    "director": "",
+    "cast": "",
+    "poster_url": "",
+    "poster_large_url": "",
+    "backdrop_url": "",
+    "runtime": "",
+    "trailer_url": "",
+    "imdb_id": "",
+    "cached_at": "2026-11-06T17:16:24.357099+00:00"
   },
   "bugboy": {
     "title": "Bugboy",
@@ -1487,42 +1504,25 @@
     "runtime": "88 min",
     "trailer_url": "",
     "imdb_id": "tt40007233",
-    "cached_at": "2026-11-05T17:55:21.776873+00:00"
+    "cached_at": "2026-11-06T17:16:26.284143+00:00"
   },
-  "the-makings-of-a-murderer-fatal-mistake": {
-    "title": "Selfless: The Makings of a Champion",
-    "overview": "Get to know a little more about the Hunter Lawrence story with this short film titled Selfless: The Makings of a Champion. With insights from father Darren Lawrence, brother Jett, and of course Hunter Lawrence himself, it’s a unique look into the mindset and moral compass of an athlete who has both enjoyed and endured one of the most impressive journeys to the top of our sport.",
+  "fred-dinenage-s-ronnie-reggie-me": {
+    "title": "Fred",
+    "overview": "Fred (Vincent Lindon) is a former crane driver who was a victim of the closure of his factory. He takes care of the little boy of his girlfriend (Clotilde Courau), does the housework and sometimes goes to the job center but boredom is inescapable. One day, because he accepted to drive a truck for a friend to a warehouse, he's caught up in a vicious spiral that goes beyond him. It's all the more serious as shady men want to eliminate him an the police is on his back.",
     "genres": [
-      "Documentary",
-      "Action"
+      "Crime"
     ],
     "vote_average": null,
-    "vote_count": 0,
-    "director": "Dominick Russo",
-    "cast": "Hunter Lawrence, Jett Lawrence, Darren Lawrence",
-    "poster_url": "https://image.tmdb.org/t/p/w500/fBK10UPFzKavODqmzAKFKQCQplj.jpg",
-    "poster_large_url": "https://image.tmdb.org/t/p/w780/fBK10UPFzKavODqmzAKFKQCQplj.jpg",
-    "backdrop_url": "",
-    "runtime": "10 min",
-    "trailer_url": "",
-    "imdb_id": "",
-    "cached_at": "2026-11-05T17:55:22.112574+00:00"
-  },
-  "james-phelan-the-man-who-was-magic": {
-    "title": "",
-    "overview": "",
-    "genres": [],
-    "vote_average": null,
-    "vote_count": 0,
-    "director": "",
-    "cast": "",
-    "poster_url": "",
-    "poster_large_url": "",
-    "backdrop_url": "",
+    "vote_count": 12,
+    "director": "Pierre Jolivet",
+    "cast": "Vincent Lindon, Clotilde Courau, François Berléand, Stéphane Jobert, Roschdy Zem, Albert Dray",
+    "poster_url": "https://image.tmdb.org/t/p/w500/p1ZNYeE1Ytf9xtD7YroMM93Srfd.jpg",
+    "poster_large_url": "https://image.tmdb.org/t/p/w780/p1ZNYeE1Ytf9xtD7YroMM93Srfd.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w780/dtZHLsxuxuDNXQSgcNWz1IiiKYO.jpg",
     "runtime": "",
     "trailer_url": "",
-    "imdb_id": "",
-    "cached_at": "2026-11-05T17:55:19.485301+00:00"
+    "imdb_id": "tt0119150",
+    "cached_at": "2026-11-06T17:16:26.333031+00:00"
   },
   "phantoms-of-the-popera-starring-g4": {
     "title": "Phantoms of the PopEra",
@@ -1540,43 +1540,7 @@
     "runtime": "60 min",
     "trailer_url": "",
     "imdb_id": "",
-    "cached_at": "2026-11-05T17:55:22.453437+00:00"
-  },
-  "pfs-presents-the-sacrifice": {
-    "title": "Peeping Freedom Shutters for Osakabe Sayaka (Apollomat vertical screen PFS_D)",
-    "overview": "Sight and sex viewed through a window.",
-    "genres": [],
-    "vote_average": null,
-    "vote_count": 0,
-    "director": "Pipilotti Rist",
-    "cast": "",
-    "poster_url": "https://image.tmdb.org/t/p/w500/4zJju8B6vtLFjozceaEQ8To5q6.jpg",
-    "poster_large_url": "https://image.tmdb.org/t/p/w780/4zJju8B6vtLFjozceaEQ8To5q6.jpg",
-    "backdrop_url": "",
-    "runtime": "9 min",
-    "trailer_url": "",
-    "imdb_id": "",
-    "cached_at": "2026-11-05T17:55:22.480389+00:00"
-  },
-  "guilty-pleasures-at-the-ritz": {
-    "title": "Guilty Pleasures",
-    "overview": "Two beautiful women who live in the same apartment building each have a shocking story to tell. On the first floor lives Silvia Resino (Alexandra Paulhiac), who has three psychotic admirers while on the second floor, RoseMarie Curtis (Sasha Graham) is descending into madness after joining an insane acting school.",
-    "genres": [
-      "Horror",
-      "Mystery",
-      "Thriller"
-    ],
-    "vote_average": null,
-    "vote_count": 3,
-    "director": "Joe Zaso, Joseph F. Parda",
-    "cast": "Sasha Graham, Alexandra Paulhiac, Eraldo Maglara, Joe Zaso, Liz Haverty, Joseph Marzano",
-    "poster_url": "https://image.tmdb.org/t/p/w500/164ytenXP3l3nEux7mbJuWvXLom.jpg",
-    "poster_large_url": "https://image.tmdb.org/t/p/w780/164ytenXP3l3nEux7mbJuWvXLom.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/w780/rjB2Ny7K92Im6jyS4zZmHs09AkP.jpg",
-    "runtime": "105 min",
-    "trailer_url": "https://www.youtube.com/watch?v=rapLnzzq3S0",
-    "imdb_id": "tt0128343",
-    "cached_at": "2026-11-05T17:55:23.215955+00:00"
+    "cached_at": "2026-11-06T17:16:26.569684+00:00"
   },
   "the-godfather-at-the-ritz": {
     "title": "The Godfather",
@@ -1585,8 +1549,8 @@
       "Drama",
       "Crime"
     ],
-    "vote_average": 8.689,
-    "vote_count": 23915,
+    "vote_average": 8.7,
+    "vote_count": 23921,
     "director": "Francis Ford Coppola",
     "cast": "Marlon Brando, Al Pacino, James Caan, Robert Duvall, Richard S. Castellano, Diane Keaton",
     "poster_url": "https://image.tmdb.org/t/p/w500/3bhkrj58Vtu7enYsRolD1fZdja1.jpg",
@@ -1595,7 +1559,26 @@
     "runtime": "175 min",
     "trailer_url": "https://www.youtube.com/watch?v=Ew9ngL1GZvs",
     "imdb_id": "tt0068646",
-    "cached_at": "2026-11-05T17:55:23.252817+00:00"
+    "cached_at": "2026-11-06T17:16:27.093362+00:00"
+  },
+  "locomotive-for-murder-the-improvised-whodunnit": {
+    "title": "The Railways: Engine of Progress",
+    "overview": "When the first railroads were built some two hundred years ago, they brought about a revolutionary change for mankind, linking cities and countryside, driving the industrial revolution and irrevocably changing the landscape: a history of the railroad from its beginnings to the present day.",
+    "genres": [
+      "Documentary",
+      "History"
+    ],
+    "vote_average": null,
+    "vote_count": 2,
+    "director": "Thomas Staehler",
+    "cast": "Henrik van Ypsilon",
+    "poster_url": "https://image.tmdb.org/t/p/w500/z8l4PFg80HiyHak1wBbvQrIaDx1.jpg",
+    "poster_large_url": "https://image.tmdb.org/t/p/w780/z8l4PFg80HiyHak1wBbvQrIaDx1.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w780/2ORZRQ16AD3AfKDps5UXIwBFDeH.jpg",
+    "runtime": "89 min",
+    "trailer_url": "",
+    "imdb_id": "tt31789931",
+    "cached_at": "2026-11-06T17:16:27.479683+00:00"
   },
   "the-man-who-fell-to-earth-at-the-ritz": {
     "title": "The Man Who Fell to Earth",
@@ -1615,7 +1598,115 @@
     "runtime": "139 min",
     "trailer_url": "https://www.youtube.com/watch?v=y72dBnyXUho",
     "imdb_id": "tt0074851",
-    "cached_at": "2026-11-05T17:55:23.337052+00:00"
+    "cached_at": "2026-11-06T17:16:27.551699+00:00"
+  },
+  "guilty-pleasures-at-the-ritz": {
+    "title": "Guilty Pleasures",
+    "overview": "Two beautiful women who live in the same apartment building each have a shocking story to tell. On the first floor lives Silvia Resino (Alexandra Paulhiac), who has three psychotic admirers while on the second floor, RoseMarie Curtis (Sasha Graham) is descending into madness after joining an insane acting school.",
+    "genres": [
+      "Horror",
+      "Mystery",
+      "Thriller"
+    ],
+    "vote_average": null,
+    "vote_count": 3,
+    "director": "Joe Zaso, Joseph F. Parda",
+    "cast": "Sasha Graham, Alexandra Paulhiac, Eraldo Maglara, Joe Zaso, Liz Haverty, Joseph Marzano",
+    "poster_url": "https://image.tmdb.org/t/p/w500/164ytenXP3l3nEux7mbJuWvXLom.jpg",
+    "poster_large_url": "https://image.tmdb.org/t/p/w780/164ytenXP3l3nEux7mbJuWvXLom.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w780/rjB2Ny7K92Im6jyS4zZmHs09AkP.jpg",
+    "runtime": "105 min",
+    "trailer_url": "https://www.youtube.com/watch?v=rapLnzzq3S0",
+    "imdb_id": "tt0128343",
+    "cached_at": "2026-11-06T17:16:27.587850+00:00"
+  },
+  "the-makings-of-a-murderer-fatal-mistake": {
+    "title": "Selfless: The Makings of a Champion",
+    "overview": "Get to know a little more about the Hunter Lawrence story with this short film titled Selfless: The Makings of a Champion. With insights from father Darren Lawrence, brother Jett, and of course Hunter Lawrence himself, it’s a unique look into the mindset and moral compass of an athlete who has both enjoyed and endured one of the most impressive journeys to the top of our sport.",
+    "genres": [
+      "Documentary",
+      "Action"
+    ],
+    "vote_average": null,
+    "vote_count": 0,
+    "director": "Dominick Russo",
+    "cast": "Hunter Lawrence, Jett Lawrence, Darren Lawrence",
+    "poster_url": "https://image.tmdb.org/t/p/w500/fBK10UPFzKavODqmzAKFKQCQplj.jpg",
+    "poster_large_url": "https://image.tmdb.org/t/p/w780/fBK10UPFzKavODqmzAKFKQCQplj.jpg",
+    "backdrop_url": "",
+    "runtime": "10 min",
+    "trailer_url": "",
+    "imdb_id": "",
+    "cached_at": "2026-11-06T17:16:27.613360+00:00"
+  },
+  "pfs-presents-the-sacrifice": {
+    "title": "Peeping Freedom Shutters for Osakabe Sayaka (Apollomat vertical screen PFS_D)",
+    "overview": "Sight and sex viewed through a window.",
+    "genres": [],
+    "vote_average": null,
+    "vote_count": 0,
+    "director": "Pipilotti Rist",
+    "cast": "",
+    "poster_url": "https://image.tmdb.org/t/p/w500/4zJju8B6vtLFjozceaEQ8To5q6.jpg",
+    "poster_large_url": "https://image.tmdb.org/t/p/w780/4zJju8B6vtLFjozceaEQ8To5q6.jpg",
+    "backdrop_url": "",
+    "runtime": "9 min",
+    "trailer_url": "",
+    "imdb_id": "",
+    "cached_at": "2026-11-06T17:16:27.848366+00:00"
+  },
+  "a-dairy-story-at-the-ritz": {
+    "title": "A Dairy Story",
+    "overview": "Every day, thousands of dairy calves are separated from their mothers at birth. A Dairy Story follows a husband-and-wife team as they risk everything to prove there's another way.",
+    "genres": [
+      "Documentary"
+    ],
+    "vote_average": null,
+    "vote_count": 0,
+    "director": "Ian Findlay",
+    "cast": "",
+    "poster_url": "https://image.tmdb.org/t/p/w500/62f9cuS1OV2Anwa01MpNzSdzLSC.jpg",
+    "poster_large_url": "https://image.tmdb.org/t/p/w780/62f9cuS1OV2Anwa01MpNzSdzLSC.jpg",
+    "backdrop_url": "",
+    "runtime": "78 min",
+    "trailer_url": "https://www.youtube.com/watch?v=LtbQE24Z-NI",
+    "imdb_id": "tt38075983",
+    "cached_at": "2026-11-06T17:16:27.853904+00:00"
+  },
+  "die-hard-at-the-ritz": {
+    "title": "Bad Habits Die Hard",
+    "overview": "Diana Liviatani is joined in her family house by her almost new boyfriend, Orlando who is going to meet her scary parents. Due to his insecure, clumsy and embarrassing personality, Orlando insists that his best friend Biagio goes along with him. The social gap between the two friends and the Liviatani family is obvious from the start. The Liviatani have been part of the high business class for generations. The misadventures and the personal problems distract the two unfortunate friends from the creepy secret that hides behind the mansion’s walls...",
+    "genres": [
+      "Comedy",
+      "Crime"
+    ],
+    "vote_average": null,
+    "vote_count": 4,
+    "director": "Riccardo Papa",
+    "cast": "Gabriel Lo Giudice, Federica Sabatini, Fortunato Cerlino, Antónia Lišková, Giovanni Anzaldo, Giulia Cragnotti",
+    "poster_url": "https://image.tmdb.org/t/p/w500/ezEfTpAtwHfICAABcwX9CRzDI33.jpg",
+    "poster_large_url": "https://image.tmdb.org/t/p/w780/ezEfTpAtwHfICAABcwX9CRzDI33.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w780/mt8BXswG9KhxyndlPtIdldEhvzb.jpg",
+    "runtime": "100 min",
+    "trailer_url": "",
+    "imdb_id": "tt11183868",
+    "cached_at": "2026-11-06T17:16:28.099146+00:00"
+  },
+  "new-year-s-eve-party": {
+    "title": "Miley's New Year's Eve Party",
+    "overview": "Live from Miami, multi-platinum-selling superstar Miley Cyrus is back with the legendary Dolly Parton to host a star-studded evening full of amazing surprises, incredible performances and more as they ring in the New Year.",
+    "genres": [],
+    "vote_average": null,
+    "vote_count": 0,
+    "director": "Joe DeMaio, Tim Wilkime, Ryan Sage",
+    "cast": "Miley Cyrus, Dolly Parton, Chloe Fineman, Sarah Sherman, David Byrne, Latto",
+    "poster_url": "https://image.tmdb.org/t/p/w500/csPJKtQS4vmMUL3K16fO7tG72Lf.jpg",
+    "poster_large_url": "https://image.tmdb.org/t/p/w780/csPJKtQS4vmMUL3K16fO7tG72Lf.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w780/h0FIR1uWudsq9jYpP6tgoeh6m7d.jpg",
+    "runtime": "",
+    "trailer_url": "",
+    "imdb_id": "tt23779904",
+    "cached_at": "2026-11-06T17:16:28.350205+00:00"
   },
   "white-christmas-at-the-ritz": {
     "title": "White Christmas",
@@ -1635,81 +1726,7 @@
     "runtime": "120 min",
     "trailer_url": "https://www.youtube.com/watch?v=3n3-UtakD3I",
     "imdb_id": "tt0047673",
-    "cached_at": "2026-11-05T17:55:23.529904+00:00"
-  },
-  "a-dairy-story-at-the-ritz": {
-    "title": "A Dairy Story",
-    "overview": "Every day, thousands of dairy calves are separated from their mothers at birth. A Dairy Story follows a husband-and-wife team as they risk everything to prove there's another way.",
-    "genres": [
-      "Documentary"
-    ],
-    "vote_average": null,
-    "vote_count": 0,
-    "director": "Ian Findlay",
-    "cast": "",
-    "poster_url": "https://image.tmdb.org/t/p/w500/62f9cuS1OV2Anwa01MpNzSdzLSC.jpg",
-    "poster_large_url": "https://image.tmdb.org/t/p/w780/62f9cuS1OV2Anwa01MpNzSdzLSC.jpg",
-    "backdrop_url": "",
-    "runtime": "78 min",
-    "trailer_url": "https://www.youtube.com/watch?v=LtbQE24Z-NI",
-    "imdb_id": "tt38075983",
-    "cached_at": "2026-11-05T17:55:23.807461+00:00"
-  },
-  "polar-express-at-the-ritz": {
-    "title": "The Polar Express",
-    "overview": "When a doubting young boy takes an extraordinary train ride to the North Pole, he embarks on a journey of self-discovery that shows him that the wonder of life never fades for those who believe.",
-    "genres": [
-      "Adventure",
-      "Animation",
-      "Family",
-      "Fantasy"
-    ],
-    "vote_average": 6.728,
-    "vote_count": 7126,
-    "director": "Robert Zemeckis",
-    "cast": "Tom Hanks, Leslie Zemeckis, Eddie Deezen, Nona Gaye, Peter Scolari, Michael Jeter",
-    "poster_url": "https://image.tmdb.org/t/p/w500/eOoCzH0MqeGr2taUZO4SwG416PF.jpg",
-    "poster_large_url": "https://image.tmdb.org/t/p/w780/eOoCzH0MqeGr2taUZO4SwG416PF.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/w780/jtOvTVlkF8TlaOq94oNXRc9u2yp.jpg",
-    "runtime": "100 min",
-    "trailer_url": "https://www.youtube.com/watch?v=f0oyHtZiJJs",
-    "imdb_id": "tt0338348",
-    "cached_at": "2026-11-05T17:55:23.894904+00:00"
-  },
-  "new-year-s-eve-party": {
-    "title": "Miley's New Year's Eve Party",
-    "overview": "Live from Miami, multi-platinum-selling superstar Miley Cyrus is back with the legendary Dolly Parton to host a star-studded evening full of amazing surprises, incredible performances and more as they ring in the New Year.",
-    "genres": [],
-    "vote_average": null,
-    "vote_count": 0,
-    "director": "Joe DeMaio, Tim Wilkime, Ryan Sage",
-    "cast": "Miley Cyrus, Dolly Parton, Chloe Fineman, Sarah Sherman, David Byrne, Latto",
-    "poster_url": "https://image.tmdb.org/t/p/w500/csPJKtQS4vmMUL3K16fO7tG72Lf.jpg",
-    "poster_large_url": "https://image.tmdb.org/t/p/w780/csPJKtQS4vmMUL3K16fO7tG72Lf.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/w780/h0FIR1uWudsq9jYpP6tgoeh6m7d.jpg",
-    "runtime": "",
-    "trailer_url": "",
-    "imdb_id": "tt23779904",
-    "cached_at": "2026-11-05T17:55:23.901262+00:00"
-  },
-  "die-hard-at-the-ritz": {
-    "title": "Bad Habits Die Hard",
-    "overview": "Diana Liviatani is joined in her family house by her almost new boyfriend, Orlando who is going to meet her scary parents. Due to his insecure, clumsy and embarrassing personality, Orlando insists that his best friend Biagio goes along with him. The social gap between the two friends and the Liviatani family is obvious from the start. The Liviatani have been part of the high business class for generations. The misadventures and the personal problems distract the two unfortunate friends from the creepy secret that hides behind the mansion’s walls...",
-    "genres": [
-      "Comedy",
-      "Crime"
-    ],
-    "vote_average": null,
-    "vote_count": 4,
-    "director": "Riccardo Papa",
-    "cast": "Gabriel Lo Giudice, Federica Sabatini, Fortunato Cerlino, Antónia Lišková, Giovanni Anzaldo, Giulia Cragnotti",
-    "poster_url": "https://image.tmdb.org/t/p/w500/ezEfTpAtwHfICAABcwX9CRzDI33.jpg",
-    "poster_large_url": "https://image.tmdb.org/t/p/w780/ezEfTpAtwHfICAABcwX9CRzDI33.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/w780/mt8BXswG9KhxyndlPtIdldEhvzb.jpg",
-    "runtime": "100 min",
-    "trailer_url": "",
-    "imdb_id": "tt11183868",
-    "cached_at": "2026-11-05T17:55:23.934760+00:00"
+    "cached_at": "2026-11-06T17:16:28.350483+00:00"
   },
   "it-s-a-wonderful-life-at-the-ritz": {
     "title": "It's a Wonderful Life",
@@ -1719,8 +1736,8 @@
       "Family",
       "Fantasy"
     ],
-    "vote_average": 8.278,
-    "vote_count": 5149,
+    "vote_average": 8.3,
+    "vote_count": 5151,
     "director": "Frank Capra",
     "cast": "James Stewart, Donna Reed, Lionel Barrymore, Thomas Mitchell, Henry Travers, Beulah Bondi",
     "poster_url": "https://image.tmdb.org/t/p/w500/bSqt9rhDZx1Q7UZ86dBPKdNomp2.jpg",
@@ -1729,7 +1746,26 @@
     "runtime": "131 min",
     "trailer_url": "https://www.youtube.com/watch?v=iLR3gZrU2Xo",
     "imdb_id": "tt0038650",
-    "cached_at": "2026-11-05T17:55:24.343576+00:00"
+    "cached_at": "2026-11-06T17:16:28.592514+00:00"
+  },
+  "new-year-s-eve-dinner-and-party": {
+    "title": "New Year's Eve",
+    "overview": "The lives of several couples and singles in New York intertwine over the course of New Year's Eve.",
+    "genres": [
+      "Comedy",
+      "Romance"
+    ],
+    "vote_average": 5.881,
+    "vote_count": 2259,
+    "director": "Garry Marshall",
+    "cast": "Hilary Swank, Michelle Pfeiffer, Zac Efron, Robert De Niro, Halle Berry, Jessica Biel",
+    "poster_url": "https://image.tmdb.org/t/p/w500/TroWD1BdcLEL7Ycqv4kkCRw7KJ.jpg",
+    "poster_large_url": "https://image.tmdb.org/t/p/w780/TroWD1BdcLEL7Ycqv4kkCRw7KJ.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w780/ryci9wQygdRfeElrSEbYxkHHget.jpg",
+    "runtime": "118 min",
+    "trailer_url": "https://www.youtube.com/watch?v=pnDzKi5j_9Q",
+    "imdb_id": "tt1598822",
+    "cached_at": "2026-11-06T17:16:28.864473+00:00"
   },
   "princess-live": {
     "title": "Princess Principal THE LIVE Yuki Kajiura×Void_Chords",
@@ -1747,79 +1783,28 @@
     "runtime": "154 min",
     "trailer_url": "",
     "imdb_id": "",
-    "cached_at": "2026-11-05T17:55:24.487771+00:00"
+    "cached_at": "2026-11-06T17:16:29.094144+00:00"
   },
-  "new-year-s-eve-dinner-and-party": {
-    "title": "New Year's Eve",
-    "overview": "The lives of several couples and singles in New York intertwine over the course of New Year's Eve.",
+  "polar-express-at-the-ritz": {
+    "title": "The Polar Express",
+    "overview": "When a doubting young boy takes an extraordinary train ride to the North Pole, he embarks on a journey of self-discovery that shows him that the wonder of life never fades for those who believe.",
     "genres": [
-      "Comedy",
-      "Romance"
+      "Adventure",
+      "Animation",
+      "Family",
+      "Fantasy"
     ],
-    "vote_average": 5.9,
-    "vote_count": 2259,
-    "director": "Garry Marshall",
-    "cast": "Hilary Swank, Michelle Pfeiffer, Zac Efron, Robert De Niro, Halle Berry, Jessica Biel",
-    "poster_url": "https://image.tmdb.org/t/p/w500/TroWD1BdcLEL7Ycqv4kkCRw7KJ.jpg",
-    "poster_large_url": "https://image.tmdb.org/t/p/w780/TroWD1BdcLEL7Ycqv4kkCRw7KJ.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/w780/ryci9wQygdRfeElrSEbYxkHHget.jpg",
-    "runtime": "118 min",
-    "trailer_url": "https://www.youtube.com/watch?v=pnDzKi5j_9Q",
-    "imdb_id": "tt1598822",
-    "cached_at": "2026-11-05T17:55:24.654601+00:00"
-  },
-  "the-history-of-soul-at-the-ritz": {
-    "title": "The History of Concrete",
-    "overview": "After attending a workshop on how to write and sell a Hallmark movie, filmmaker John Wilson tries to use the same formula to sell a documentary about concrete.",
-    "genres": [
-      "Documentary",
-      "Comedy"
-    ],
-    "vote_average": null,
-    "vote_count": 12,
-    "director": "John Wilson",
-    "cast": "John Wilson, Michael Imperioli, Jack Macco, Nathan Fielder, Timothée Chalamet, Josh Safdie",
-    "poster_url": "https://image.tmdb.org/t/p/w500/2GWR1g1VdUNnNpLh6XfAQ6LVfyd.jpg",
-    "poster_large_url": "https://image.tmdb.org/t/p/w780/2GWR1g1VdUNnNpLh6XfAQ6LVfyd.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/w780/dsyJUsyrl2rBiF0k9RpSKT2YQzL.jpg",
-    "runtime": "101 min",
-    "trailer_url": "https://www.youtube.com/watch?v=O05arcJjOd0",
-    "imdb_id": "tt39150234",
-    "cached_at": "2026-11-05T17:55:25.585099+00:00"
-  },
-  "coldplace-at-the-ritz": {
-    "title": "",
-    "overview": "",
-    "genres": [],
-    "vote_average": null,
-    "vote_count": 0,
-    "director": "",
-    "cast": "",
-    "poster_url": "",
-    "poster_large_url": "",
-    "backdrop_url": "",
-    "runtime": "",
-    "trailer_url": "",
-    "imdb_id": "",
-    "cached_at": "2026-11-05T17:55:24.687834+00:00"
-  },
-  "seann-walsh-this-is-torture": {
-    "title": "Seann Walsh: Kiss",
-    "overview": "In this hilarious and critically acclaimed stand-up show, Seann Walsh recounts living through the centre of a media storm in his distinctively shambolic, intense and energetic trademark style.  Recorded live at the Bill Murray pub in Angel, London.",
-    "genres": [
-      "Comedy"
-    ],
-    "vote_average": null,
-    "vote_count": 3,
-    "director": "Horatio Gould",
-    "cast": "Seann Walsh",
-    "poster_url": "https://image.tmdb.org/t/p/w500/ffPrORdrg6AnFaGvZulUbd6rJ9J.jpg",
-    "poster_large_url": "https://image.tmdb.org/t/p/w780/ffPrORdrg6AnFaGvZulUbd6rJ9J.jpg",
-    "backdrop_url": "",
-    "runtime": "62 min",
-    "trailer_url": "",
-    "imdb_id": "tt19381772",
-    "cached_at": "2026-11-05T17:55:25.784562+00:00"
+    "vote_average": 6.728,
+    "vote_count": 7127,
+    "director": "Robert Zemeckis",
+    "cast": "Tom Hanks, Leslie Zemeckis, Eddie Deezen, Nona Gaye, Peter Scolari, Michael Jeter",
+    "poster_url": "https://image.tmdb.org/t/p/w500/eOoCzH0MqeGr2taUZO4SwG416PF.jpg",
+    "poster_large_url": "https://image.tmdb.org/t/p/w780/eOoCzH0MqeGr2taUZO4SwG416PF.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w780/jtOvTVlkF8TlaOq94oNXRc9u2yp.jpg",
+    "runtime": "100 min",
+    "trailer_url": "https://www.youtube.com/watch?v=f0oyHtZiJJs",
+    "imdb_id": "tt0338348",
+    "cached_at": "2026-11-06T17:16:29.131087+00:00"
   },
   "ritz-christmas-party-with-the-soul-reverend": {
     "title": "The Ritz",
@@ -1838,26 +1823,7 @@
     "runtime": "91 min",
     "trailer_url": "https://www.youtube.com/watch?v=i8GNYal5YtE",
     "imdb_id": "tt0075144",
-    "cached_at": "2026-11-05T17:55:25.805823+00:00"
-  },
-  "an-evening-of-burlesque-cabaret-at-the-ritz": {
-    "title": "An Evening of Memories",
-    "overview": "The characters remember their youth, which took place during the Civil War. The events of those years had a decisive impact on their lives - Kolobov became a career officer, and Svedomsky became a famous pianist.",
-    "genres": [
-      "Drama",
-      "TV Movie"
-    ],
-    "vote_average": null,
-    "vote_count": 0,
-    "director": "Konstantin Khudyakov",
-    "cast": "Yuriy Yakovlev, Pyotr Shcherbakov, Vladimir Izotov, Nikolai Berezin, Anna Kamenkova, Vitaly Moskalenko",
-    "poster_url": "https://image.tmdb.org/t/p/w500/l0FZtaqg4cEZrsj0rmesPMN7x7H.jpg",
-    "poster_large_url": "https://image.tmdb.org/t/p/w780/l0FZtaqg4cEZrsj0rmesPMN7x7H.jpg",
-    "backdrop_url": "",
-    "runtime": "85 min",
-    "trailer_url": "",
-    "imdb_id": "tt6301730",
-    "cached_at": "2026-11-05T17:55:25.815879+00:00"
+    "cached_at": "2026-11-06T17:16:29.598049+00:00"
   },
   "back-to-the-80s-with-riviera-dogs-2027": {
     "title": "Back to the 80s",
@@ -1876,81 +1842,79 @@
     "runtime": "6 min",
     "trailer_url": "",
     "imdb_id": "tt7110774",
-    "cached_at": "2026-11-05T17:55:25.827514+00:00"
+    "cached_at": "2026-11-06T17:16:29.976490+00:00"
   },
-  "mark-smith-antiques-expert-on-the-road": {
-    "title": "Mark Smith: Old Smudge",
-    "overview": "Mark Smith (Russell Howard's Good News) returns to Edinburgh with a new show and Lord have mercy is he excited. Expect to hear him cram as many funny, stupid and potentially dangerous observations into the show as possible on topics as diverse as bowling, going bowling, and do you like bowling? There's also a couple of dick jokes. In a nutshell then, something for everyone.",
-    "genres": [
-      "Comedy"
-    ],
+  "coldplace-at-the-ritz": {
+    "title": "",
+    "overview": "",
+    "genres": [],
     "vote_average": null,
     "vote_count": 0,
     "director": "",
     "cast": "",
-    "poster_url": "https://image.tmdb.org/t/p/w500/8FojROZK2gTJfC1Tm9tvvhcPghn.jpg",
-    "poster_large_url": "https://image.tmdb.org/t/p/w780/8FojROZK2gTJfC1Tm9tvvhcPghn.jpg",
+    "poster_url": "",
+    "poster_large_url": "",
     "backdrop_url": "",
     "runtime": "",
     "trailer_url": "",
     "imdb_id": "",
-    "cached_at": "2026-11-05T17:55:26.600098+00:00"
+    "cached_at": "2026-11-06T17:16:29.294196+00:00"
   },
-  "country-superstars": {
-    "title": "Country",
-    "overview": "Jewell and Gil are farmers. They seem to be working against the odds, producing no financial surplus. Gil has lost hope of ever becoming prosperous, but Jewell decides to fight for her family.",
+  "an-evening-of-burlesque-cabaret-at-the-ritz": {
+    "title": "An Evening of Memories",
+    "overview": "The characters remember their youth, which took place during the Civil War. The events of those years had a decisive impact on their lives - Kolobov became a career officer, and Svedomsky became a famous pianist.",
     "genres": [
-      "Drama"
-    ],
-    "vote_average": 6.5,
-    "vote_count": 34,
-    "director": "Richard Pearce",
-    "cast": "Jessica Lange, Sam Shepard, Wilford Brimley, Matt Clark, Theresa Graham, Levi L. Knebel",
-    "poster_url": "https://image.tmdb.org/t/p/w500/2lcDRkDJVtFt06Z1oueZtobcJJz.jpg",
-    "poster_large_url": "https://image.tmdb.org/t/p/w780/2lcDRkDJVtFt06Z1oueZtobcJJz.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/w780/wR9Ftexcr9dZ8FfsCiBLRwllF1f.jpg",
-    "runtime": "105 min",
-    "trailer_url": "https://www.youtube.com/watch?v=aCK9GhpAeJM",
-    "imdb_id": "tt0087091",
-    "cached_at": "2026-11-05T17:55:26.637655+00:00"
-  },
-  "jive-aces-at-the-ritz": {
-    "title": "Jungle Jive",
-    "overview": "At the Sandwich Islands, which includes the \"deviled egg\" island, the \"hot dog on a bun\" island, and the \"hamburger\" island (with a sign, \"Hold the Onions\"), we see a man on the \"tunaville\" island surveying the area with a telescope. He notices a crate full of musical instruments wash ashore and alerts the others. The tribe finds these instruments strange and unusual at first but eventually really get the hang of them, particularly one member who plays a hot piano, his playing being somewhat interrupted by a pestiferous crab.",
-    "genres": [
-      "Animation"
-    ],
-    "vote_average": null,
-    "vote_count": 2,
-    "director": "Shamus Culhane",
-    "cast": "",
-    "poster_url": "https://image.tmdb.org/t/p/w500/4EdfsQomkSvjgKREGc7vRbHANqg.jpg",
-    "poster_large_url": "https://image.tmdb.org/t/p/w780/4EdfsQomkSvjgKREGc7vRbHANqg.jpg",
-    "backdrop_url": "",
-    "runtime": "7 min",
-    "trailer_url": "",
-    "imdb_id": "tt0151163",
-    "cached_at": "2026-11-05T17:55:27.433598+00:00"
-  },
-  "once-in-a-lifetime-visionaries-of-the-80s": {
-    "title": "Once in a Lifetime",
-    "overview": "After losing her husband and baby daughter to a fire, Daphne Fields raises her deaf son while beginning a writing career. Hollywood loves her scripts, but her heart remains with her son Andrew, under the care of Headmaster Matthew Dane at an eastern boarding school. Daphne finally seems to have rediscovered love in her leading man. But an accident leaves her hospitalized, contemplating her life, fate and her best chance for love.",
-    "genres": [
-      "TV Movie",
       "Drama",
-      "Romance"
+      "TV Movie"
     ],
     "vote_average": null,
-    "vote_count": 6,
-    "director": "Michael Miller",
-    "cast": "Lindsay Wagner, Barry Bostwick, Duncan Regehr, Amy Aquino, Rex Smith, Darrell Thomas Utley",
-    "poster_url": "https://image.tmdb.org/t/p/w500/v0UzxyI2IpJofd52RvlCjmWLshz.jpg",
-    "poster_large_url": "https://image.tmdb.org/t/p/w780/v0UzxyI2IpJofd52RvlCjmWLshz.jpg",
-    "backdrop_url": "https://image.tmdb.org/t/p/w780/5zCHSYKzbWD0GUoSdEET5uU3Xks.jpg",
-    "runtime": "96 min",
-    "trailer_url": "https://www.youtube.com/watch?v=OLD7UETXPY0",
-    "imdb_id": "tt0110730",
-    "cached_at": "2026-11-05T17:55:27.503981+00:00"
+    "vote_count": 0,
+    "director": "Konstantin Khudyakov",
+    "cast": "Yuriy Yakovlev, Pyotr Shcherbakov, Vladimir Izotov, Nikolai Berezin, Anna Kamenkova, Vitaly Moskalenko",
+    "poster_url": "https://image.tmdb.org/t/p/w500/l0FZtaqg4cEZrsj0rmesPMN7x7H.jpg",
+    "poster_large_url": "https://image.tmdb.org/t/p/w780/l0FZtaqg4cEZrsj0rmesPMN7x7H.jpg",
+    "backdrop_url": "",
+    "runtime": "85 min",
+    "trailer_url": "",
+    "imdb_id": "tt6301730",
+    "cached_at": "2026-11-06T17:16:30.208991+00:00"
+  },
+  "seann-walsh-this-is-torture": {
+    "title": "Seann Walsh: Kiss",
+    "overview": "In this hilarious and critically acclaimed stand-up show, Seann Walsh recounts living through the centre of a media storm in his distinctively shambolic, intense and energetic trademark style.  Recorded live at the Bill Murray pub in Angel, London.",
+    "genres": [
+      "Comedy"
+    ],
+    "vote_average": null,
+    "vote_count": 3,
+    "director": "Horatio Gould",
+    "cast": "Seann Walsh",
+    "poster_url": "https://image.tmdb.org/t/p/w500/ffPrORdrg6AnFaGvZulUbd6rJ9J.jpg",
+    "poster_large_url": "https://image.tmdb.org/t/p/w780/ffPrORdrg6AnFaGvZulUbd6rJ9J.jpg",
+    "backdrop_url": "",
+    "runtime": "62 min",
+    "trailer_url": "",
+    "imdb_id": "tt19381772",
+    "cached_at": "2026-11-06T17:16:30.408633+00:00"
+  },
+  "the-history-of-soul-at-the-ritz": {
+    "title": "The History of Concrete",
+    "overview": "After attending a workshop on how to write and sell a Hallmark movie, filmmaker John Wilson tries to use the same formula to sell a documentary about concrete.",
+    "genres": [
+      "Documentary",
+      "Comedy"
+    ],
+    "vote_average": null,
+    "vote_count": 13,
+    "director": "John Wilson",
+    "cast": "John Wilson, Michael Imperioli, Jack Macco, Nathan Fielder, Timothée Chalamet, Josh Safdie",
+    "poster_url": "https://image.tmdb.org/t/p/w500/2GWR1g1VdUNnNpLh6XfAQ6LVfyd.jpg",
+    "poster_large_url": "https://image.tmdb.org/t/p/w780/2GWR1g1VdUNnNpLh6XfAQ6LVfyd.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w780/dsyJUsyrl2rBiF0k9RpSKT2YQzL.jpg",
+    "runtime": "101 min",
+    "trailer_url": "https://www.youtube.com/watch?v=O05arcJjOd0",
+    "imdb_id": "tt39150234",
+    "cached_at": "2026-11-06T17:16:30.655579+00:00"
   },
   "falmouth-soul-sensation-at-the-ritz": {
     "title": "Off The Radar, On The Stage: Music in Falmouth",
@@ -1969,7 +1933,25 @@
     "runtime": "20 min",
     "trailer_url": "",
     "imdb_id": "",
-    "cached_at": "2026-11-05T17:55:27.638718+00:00"
+    "cached_at": "2026-11-06T17:16:30.927172+00:00"
+  },
+  "mark-smith-antiques-expert-on-the-road": {
+    "title": "Mark Smith: Old Smudge",
+    "overview": "Mark Smith (Russell Howard's Good News) returns to Edinburgh with a new show and Lord have mercy is he excited. Expect to hear him cram as many funny, stupid and potentially dangerous observations into the show as possible on topics as diverse as bowling, going bowling, and do you like bowling? There's also a couple of dick jokes. In a nutshell then, something for everyone.",
+    "genres": [
+      "Comedy"
+    ],
+    "vote_average": null,
+    "vote_count": 0,
+    "director": "",
+    "cast": "",
+    "poster_url": "https://image.tmdb.org/t/p/w500/8FojROZK2gTJfC1Tm9tvvhcPghn.jpg",
+    "poster_large_url": "https://image.tmdb.org/t/p/w780/8FojROZK2gTJfC1Tm9tvvhcPghn.jpg",
+    "backdrop_url": "",
+    "runtime": "",
+    "trailer_url": "",
+    "imdb_id": "",
+    "cached_at": "2026-11-06T17:16:31.319293+00:00"
   },
   "the-magic-of-the-bee-gees-at-the-ritz": {
     "title": "The Academy of Magic",
@@ -1989,7 +1971,43 @@
     "runtime": "89 min",
     "trailer_url": "https://www.youtube.com/watch?v=_1GaYympn1M",
     "imdb_id": "tt5768992",
-    "cached_at": "2026-11-05T17:55:27.842363+00:00"
+    "cached_at": "2026-11-06T17:16:31.405334+00:00"
+  },
+  "country-superstars": {
+    "title": "Country",
+    "overview": "Jewell and Gil are farmers. They seem to be working against the odds, producing no financial surplus. Gil has lost hope of ever becoming prosperous, but Jewell decides to fight for her family.",
+    "genres": [
+      "Drama"
+    ],
+    "vote_average": 6.5,
+    "vote_count": 34,
+    "director": "Richard Pearce",
+    "cast": "Jessica Lange, Sam Shepard, Wilford Brimley, Matt Clark, Theresa Graham, Levi L. Knebel",
+    "poster_url": "https://image.tmdb.org/t/p/w500/2lcDRkDJVtFt06Z1oueZtobcJJz.jpg",
+    "poster_large_url": "https://image.tmdb.org/t/p/w780/2lcDRkDJVtFt06Z1oueZtobcJJz.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w780/wR9Ftexcr9dZ8FfsCiBLRwllF1f.jpg",
+    "runtime": "105 min",
+    "trailer_url": "https://www.youtube.com/watch?v=aCK9GhpAeJM",
+    "imdb_id": "tt0087091",
+    "cached_at": "2026-11-06T17:16:31.457546+00:00"
+  },
+  "jive-aces-at-the-ritz": {
+    "title": "Jungle Jive",
+    "overview": "At the Sandwich Islands, which includes the \"deviled egg\" island, the \"hot dog on a bun\" island, and the \"hamburger\" island (with a sign, \"Hold the Onions\"), we see a man on the \"tunaville\" island surveying the area with a telescope. He notices a crate full of musical instruments wash ashore and alerts the others. The tribe finds these instruments strange and unusual at first but eventually really get the hang of them, particularly one member who plays a hot piano, his playing being somewhat interrupted by a pestiferous crab.",
+    "genres": [
+      "Animation"
+    ],
+    "vote_average": null,
+    "vote_count": 2,
+    "director": "Shamus Culhane",
+    "cast": "",
+    "poster_url": "https://image.tmdb.org/t/p/w500/4EdfsQomkSvjgKREGc7vRbHANqg.jpg",
+    "poster_large_url": "https://image.tmdb.org/t/p/w780/4EdfsQomkSvjgKREGc7vRbHANqg.jpg",
+    "backdrop_url": "",
+    "runtime": "7 min",
+    "trailer_url": "",
+    "imdb_id": "tt0151163",
+    "cached_at": "2026-11-06T17:16:31.507541+00:00"
   },
   "neil-brand-presents-kings-of-silent-comedy": {
     "title": "Neil",
@@ -2005,6 +2023,26 @@
     "runtime": "116 min",
     "trailer_url": "",
     "imdb_id": "tt10004906",
-    "cached_at": "2026-11-05T17:55:28.063774+00:00"
+    "cached_at": "2026-11-06T17:16:32.584883+00:00"
+  },
+  "once-in-a-lifetime-visionaries-of-the-80s": {
+    "title": "Once in a Lifetime",
+    "overview": "After losing her husband and baby daughter to a fire, Daphne Fields raises her deaf son while beginning a writing career. Hollywood loves her scripts, but her heart remains with her son Andrew, under the care of Headmaster Matthew Dane at an eastern boarding school. Daphne finally seems to have rediscovered love in her leading man. But an accident leaves her hospitalized, contemplating her life, fate and her best chance for love.",
+    "genres": [
+      "TV Movie",
+      "Drama",
+      "Romance"
+    ],
+    "vote_average": null,
+    "vote_count": 6,
+    "director": "Michael Miller",
+    "cast": "Lindsay Wagner, Barry Bostwick, Duncan Regehr, Amy Aquino, Rex Smith, Darrell Thomas Utley",
+    "poster_url": "https://image.tmdb.org/t/p/w500/v0UzxyI2IpJofd52RvlCjmWLshz.jpg",
+    "poster_large_url": "https://image.tmdb.org/t/p/w780/v0UzxyI2IpJofd52RvlCjmWLshz.jpg",
+    "backdrop_url": "https://image.tmdb.org/t/p/w780/5zCHSYKzbWD0GUoSdEET5uU3Xks.jpg",
+    "runtime": "96 min",
+    "trailer_url": "https://www.youtube.com/watch?v=OLD7UETXPY0",
+    "imdb_id": "tt0110730",
+    "cached_at": "2026-11-06T17:16:32.625213+00:00"
   }
 }
