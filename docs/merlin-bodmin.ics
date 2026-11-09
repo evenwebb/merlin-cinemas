@@ -10,7 +10,7 @@ X-WR-CALDESC:Upcoming movie premieres at Merlin Cinemas Capitol Cinema
 X-WR-TIMEZONE:Europe/London
 BEGIN:VEVENT
 UID:34470af15d3d1ce4d289c9f6afb38596dac0e3ae@merlin-cinemas
-DTSTAMP:20261108T163348Z
+DTSTAMP:20261109T203208Z
 DTSTART;VALUE=DATE:20250822
 DTEND;VALUE=DATE:20250823
 SUMMARY:The Rocky Horror Picture Show @ Merlin Bodmin
@@ -30,7 +30,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:2de7c29ce04cfebe9767d419e84cdfbf1427b004@merlin-cinemas
-DTSTAMP:20261108T163348Z
+DTSTAMP:20261109T203208Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Monster Mia @ Merlin Bodmin
@@ -49,7 +49,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:f5b5dbd1f7662423d3476dc79d425739389e8fb1@merlin-cinemas
-DTSTAMP:20261108T163348Z
+DTSTAMP:20261109T203208Z
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261025
 SUMMARY:Disney Junior Cinema Club 2026 @ Merlin Bodmin
@@ -69,7 +69,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:0e5711f60dcb34104aec0cc6d017b5305de00a1f@merlin-cinemas
-DTSTAMP:20261108T163348Z
+DTSTAMP:20261109T203208Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Room On The Broom & The Highway Rat @ Merlin Bodmin
@@ -93,7 +93,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20859c308093bb3e2fa1f4f0825af850eb6d6efb@merlin-cinemas
-DTSTAMP:20261108T163348Z
+DTSTAMP:20261109T203208Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:Rififi En La Ciudad @ Merlin Bodmin
@@ -114,25 +114,25 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:9e443662363634dcae215a0eb55acba712a877db@merlin-cinemas
-DTSTAMP:20261108T163348Z
+DTSTAMP:20261109T203208Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:Amazing Grace @ Merlin Bodmin
-DESCRIPTION:Amazing Grace (1h 30min)\nDrama\n\nOn the brink of suicide\, a 
- deeply isolated man forms an unexpected bond with a crisis helpline volunt
- eer who helps him confront the childhood abuse\, addiction\, and shame he 
- has spent a lifetime trying to survive.\n\nStarring: Hannah Walters\, Jame
- s Nelson-Joyce\, Chanel Cresswell\, Daniel P. Lewis\, Kelly Condron\, Debi
-  Doy\n\nFilm release at Merlin Cinemas Bodmin\nBook tickets: /film/amazing
- -grace-with-q-and-a\n\nFilm details: https://evenwebb.github.io/merlin-cin
- emas/films/amazing-grace.html
+DESCRIPTION:Amazing Grace (1h 57min)\n★★★☆☆\nDrama\n\nThe true story of Wil
+ liam Wilberforce and his courageous quest to end the British slave trade. 
+ Along the way\, Wilberforce meets intense opposition\, but his minister ur
+ ges him to see the cause through.\n\nStarring: Ioan Gruffudd\, Romola Gara
+ i\, Ciarán Hinds\, Rufus Sewell\, Youssou N'Dour\, Benedict Cumberbatch\n\
+ nFilm release at Merlin Cinemas Bodmin\nBook tickets: /film/amazing-grace-
+ with-q-and-a\n\nFilm details: https://evenwebb.github.io/merlin-cinemas/fi
+ lms/amazing-grace.html
 LOCATION:Merlin Cinemas Bodmin
 URL:/film/amazing-grace-with-q-and-a
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:d84b3446e2bd42a5277abd032ca15c0b8dd83af3@merlin-cinemas
-DTSTAMP:20261108T163348Z
+DTSTAMP:20261109T203208Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:Prima Facie @ Merlin Bodmin
@@ -152,26 +152,8 @@ URL:/film/prima-facie
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:6ec7e27919c7292d400bf6f75121238b480b7858@merlin-cinemas
-DTSTAMP:20261108T163348Z
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
-SUMMARY:Ebenezer @ Merlin Bodmin
-DESCRIPTION:Ebenezer (1h 55min)\nFantasy\, Comedy\n\nAn elderly miser embar
- ks on a supernatural journey after visits from the ghost of his former bus
- iness partner and the Spirits of Christmas Past\, Present\, and Yet to Com
- e force him to confront his past and fight for a second chance at happines
- s.\n\nStarring: Johnny Depp\, Rupert Grint\, Daisy Ridley\, Sam Claflin\, 
- Tramell Tillman\, Ian McKellen\n\nFilm release at Merlin Cinemas Bodmin\nB
- ook tickets: /film/ebenezer\n\nFilm details: https://evenwebb.github.io/me
- rlin-cinemas/films/ebenezer.html
-LOCATION:Merlin Cinemas Bodmin
-URL:/film/ebenezer
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
 UID:207519237c22db57f535b7b859fb4df832cbd6ef@merlin-cinemas
-DTSTAMP:20261108T163348Z
+DTSTAMP:20261109T203208Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:How To Rob A Bank @ Merlin Bodmin
@@ -190,48 +172,8 @@ URL:/film/how-to-rob-a-bank
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:6f778b9c04aeca7fea28d204c63e1190db182fba@merlin-cinemas
-DTSTAMP:20261108T163348Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
-SUMMARY:Festive Fun With Peppa Cinema Experience @ Merlin Bodmin
-DESCRIPTION:Festive Fun With Peppa Cinema Experience (1h)\nAnimation\, Fami
- ly\n\nJoin Peppa Pig and her family as they celebrate baby Evie’s first Ch
- ristmas. This festive cinema experience brings together seven classic fest
- ive-themed Peppa Pig episodes\, new interstitial content\, and four brand-
- new songs with music videos. From snowy adventures and festive plays to de
- corating the Christmas tree\, Peppa and her family share treasured Christm
- as memories in this special big-screen experience.\n\nStarring: Morwenna B
- anks\, Richard Ridings\, Amelie Bea Smith\n\nFilm release at Merlin Cinema
- s Bodmin\nBook tickets: /film/festive-fun-with-peppa-cinema-experience\n\n
- Film details: https://evenwebb.github.io/merlin-cinemas/films/festive-fun-
- with-peppa-cinema-experience.html
-LOCATION:Merlin Cinemas Bodmin
-URL:/film/festive-fun-with-peppa-cinema-experience
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:e3fccb7cee523088b5dad7d191554a9dbc25a3a1@merlin-cinemas
-DTSTAMP:20261108T163348Z
-DTSTART;VALUE=DATE:20261118
-DTEND;VALUE=DATE:20261119
-SUMMARY:The Hunger Games: Sunrise On The Reaping @ Merlin Bodmin
-DESCRIPTION:The Hunger Games: Sunrise On The Reaping (2h 39min)\nScience Fi
- ction\, Action\, Adventure\n\nReturn to the world of Panem 24 years before
-  the events of The Hunger Games\, starting on the morning of the reaping o
- f the 50th Hunger Games\, also known as the Second Quarter Quell.\n\nStarr
- ing: Joseph Zada\, Ralph Fiennes\, Jesse Plemons\, Whitney Peak\, Elle Fan
- ning\, Kieran Culkin\n\nFilm release at Merlin Cinemas Bodmin\nBook ticket
- s: /film/the-hunger-games-sunrise-on-the-reaping\n\nFilm details: https://
- evenwebb.github.io/merlin-cinemas/films/the-hunger-games-sunrise-on-the-re
- aping.html
-LOCATION:Merlin Cinemas Bodmin
-URL:/film/the-hunger-games-sunrise-on-the-reaping
-SEQUENCE:1
-END:VEVENT
-BEGIN:VEVENT
 UID:8e5857b1eef1a6356e9cd4c5b92f8a33227d66f5@merlin-cinemas
-DTSTAMP:20261108T163348Z
+DTSTAMP:20261109T203208Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:CBeebies Panto 2026: Treasure Island @ Merlin Bodmin
@@ -245,7 +187,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:da34b562bd0d2389a12654e96757d26460aa7541@merlin-cinemas
-DTSTAMP:20261108T163348Z
+DTSTAMP:20261109T203208Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Focker-In-Law @ Merlin Bodmin
@@ -262,7 +204,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:38d0513e46cddd4fa84777986528d7758b72aa93@merlin-cinemas
-DTSTAMP:20261108T163348Z
+DTSTAMP:20261109T203208Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Hexed @ Merlin Bodmin
@@ -282,7 +224,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:0678dcbf8a61f2b2cbba5781275cf6c4deae8ee0@merlin-cinemas
-DTSTAMP:20261108T163348Z
+DTSTAMP:20261109T203208Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Violent Night 2 @ Merlin Bodmin
@@ -303,7 +245,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:10fab4e0554c825b1d237d6d273b03a3262bce76@merlin-cinemas
-DTSTAMP:20261108T163348Z
+DTSTAMP:20261109T203208Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Dune: Part Three @ Merlin Bodmin
@@ -325,7 +267,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:8bcde4a29b6f26e28e4bc7ccf40812c1b1ce089f@merlin-cinemas
-DTSTAMP:20261108T163348Z
+DTSTAMP:20261109T203208Z
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
 SUMMARY:Avengers: Doomsday @ Merlin Bodmin
@@ -342,7 +284,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:adb9d22e31f1fb0f3a2f717c68c634857ca05488@merlin-cinemas
-DTSTAMP:20261108T163348Z
+DTSTAMP:20261109T203208Z
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20261226
 SUMMARY:Jumanji: Open World @ Merlin Bodmin
@@ -359,7 +301,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:0b0b5ebcdb1186a66b24f8e2782905316885b7c0@merlin-cinemas
-DTSTAMP:20261108T163348Z
+DTSTAMP:20261109T203208Z
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20261226
 SUMMARY:The Angry Birds Movie 3 @ Merlin Bodmin
@@ -376,7 +318,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:d79fc68550efe38b20a230592fe7dc12ab4df3f5@merlin-cinemas
-DTSTAMP:20261108T163348Z
+DTSTAMP:20261109T203208Z
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270102
 SUMMARY:Werwulf @ Merlin Bodmin
@@ -391,7 +333,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:dc1a501c20f05a1b8bc32ed9ed6514ad5ccb9e10@merlin-cinemas
-DTSTAMP:20261108T163348Z
+DTSTAMP:20261109T203208Z
 DTSTART;VALUE=DATE:20270108
 DTEND;VALUE=DATE:20270109
 SUMMARY:Ink @ Merlin Bodmin
@@ -408,7 +350,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:fb0e4f8771912d66e49f971ea4f2c274e4e6c3b6@merlin-cinemas
-DTSTAMP:20261108T163348Z
+DTSTAMP:20261109T203208Z
 DTSTART;VALUE=DATE:20270122
 DTEND;VALUE=DATE:20270123
 SUMMARY:Children Of Blood And Bone @ Merlin Bodmin
@@ -426,7 +368,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:ae950e5e0addb39e3f7628d3e365acba3ce2233b@merlin-cinemas
-DTSTAMP:20261108T163348Z
+DTSTAMP:20261109T203208Z
 DTSTART;VALUE=DATE:20270129
 DTEND;VALUE=DATE:20270130
 SUMMARY:Elsinore @ Merlin Bodmin
@@ -445,7 +387,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:99847bb065ca31a0430303046006df01ffc1a882@merlin-cinemas
-DTSTAMP:20261108T163348Z
+DTSTAMP:20261109T203208Z
 DTSTART;VALUE=DATE:20270205
 DTEND;VALUE=DATE:20270206
 SUMMARY:Remain @ Merlin Bodmin
@@ -463,7 +405,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:7daa320f6b36cc8182f8f078ed4c10ba62927593@merlin-cinemas
-DTSTAMP:20261108T163348Z
+DTSTAMP:20261109T203208Z
 DTSTART;VALUE=DATE:20270205
 DTEND;VALUE=DATE:20270206
 SUMMARY:Ice Age: Boiling Point @ Merlin Bodmin
@@ -482,7 +424,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:45a5aace4c9cc331a8a3da5120950a60b628851a@merlin-cinemas
-DTSTAMP:20261108T163348Z
+DTSTAMP:20261109T203208Z
 DTSTART;VALUE=DATE:20270212
 DTEND;VALUE=DATE:20270213
 SUMMARY:Narnia: The Magician's Nephew @ Merlin Bodmin
@@ -500,7 +442,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:95bf23e2468df428f9da9502ada529cc57c10c1d@merlin-cinemas
-DTSTAMP:20261108T163348Z
+DTSTAMP:20261109T203208Z
 DTSTART;VALUE=DATE:20270212
 DTEND;VALUE=DATE:20270213
 SUMMARY:CoComelon: The Movie @ Merlin Bodmin
@@ -520,7 +462,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:09c5fb59cc77e579c80569b6e637b63dba95d988@merlin-cinemas
-DTSTAMP:20261108T163348Z
+DTSTAMP:20261109T203208Z
 DTSTART;VALUE=DATE:20270305
 DTEND;VALUE=DATE:20270306
 SUMMARY:Gatto @ Merlin Bodmin
@@ -539,7 +481,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:781717feb073ed59fc43ffd92a08aadfeeb72c87@merlin-cinemas
-DTSTAMP:20261108T163348Z
+DTSTAMP:20261109T203208Z
 DTSTART;VALUE=DATE:20270312
 DTEND;VALUE=DATE:20270313
 SUMMARY:The Exorcist: Martyrs @ Merlin Bodmin
@@ -559,7 +501,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:793c2b92173291fa4c96e58256f17bb238d1c5ef@merlin-cinemas
-DTSTAMP:20261108T163348Z
+DTSTAMP:20261109T203208Z
 DTSTART;VALUE=DATE:20270521
 DTEND;VALUE=DATE:20270522
 SUMMARY:Not Alone @ Merlin Bodmin
@@ -577,7 +519,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:f81502369971baef9ea68e30b37fc92b24468cc3@merlin-cinemas
-DTSTAMP:20261108T163348Z
+DTSTAMP:20261109T203208Z
 DTSTART;VALUE=DATE:20270730
 DTEND;VALUE=DATE:20270731
 SUMMARY:Shrek 5 @ Merlin Bodmin
