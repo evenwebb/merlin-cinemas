@@ -10,7 +10,7 @@ X-WR-CALDESC:Upcoming movie premieres at Merlin Cinemas Phoenix Cinema
 X-WR-TIMEZONE:Europe/London
 BEGIN:VEVENT
 UID:e5ddaf00c3b1334aa802770daa88d7932fa787b9@merlin-cinemas
-DTSTAMP:20261113T173523Z
+DTSTAMP:20261114T162749Z
 DTSTART;VALUE=DATE:20250822
 DTEND;VALUE=DATE:20250823
 SUMMARY:The Rocky Horror Picture Show @ Merlin Falmouth
@@ -30,7 +30,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:680cf6a9c9267b205748592009ebcc933c0950bc@merlin-cinemas
-DTSTAMP:20261113T173523Z
+DTSTAMP:20261114T162749Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Monster Mia @ Merlin Falmouth
@@ -49,7 +49,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:2c9ebe5dfd5d421fdd4b58cbb5ff590ca529f6fe@merlin-cinemas
-DTSTAMP:20261113T173523Z
+DTSTAMP:20261114T162749Z
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261025
 SUMMARY:Disney Junior Cinema Club 2026 @ Merlin Falmouth
@@ -69,7 +69,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:b2bf17b0e191742b23b983a0ecf219e9146119ac@merlin-cinemas
-DTSTAMP:20261113T173523Z
+DTSTAMP:20261114T162749Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Room On The Broom & The Highway Rat @ Merlin Falmouth
@@ -93,7 +93,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:2a2286669745130ae864e47d85ea21048a1e5d71@merlin-cinemas
-DTSTAMP:20261113T173523Z
+DTSTAMP:20261114T162749Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:Rififi En La Ciudad @ Merlin Falmouth
@@ -114,7 +114,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:469f15b9cbfdf41129996a7f54182bdd408ab6be@merlin-cinemas
-DTSTAMP:20261113T173523Z
+DTSTAMP:20261114T162749Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:Amazing Grace @ Merlin Falmouth
@@ -132,7 +132,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:99160a044a4d0ae16e3596d2bf25fe87d58f6a77@merlin-cinemas
-DTSTAMP:20261113T173523Z
+DTSTAMP:20261114T162749Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:Prima Facie @ Merlin Falmouth
@@ -153,7 +153,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:c08cbf0753bdcde8b43a572ccbad9a7da64a511e@merlin-cinemas
-DTSTAMP:20261113T173523Z
+DTSTAMP:20261114T162749Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:How To Rob A Bank @ Merlin Falmouth
@@ -163,8 +163,8 @@ DESCRIPTION:How To Rob A Bank (2h 2min)\nAction\, Crime\, Thriller\n\nA cre
  ran FBI agent and a brilliant software engineer. Despite the unlikely duo 
  closing in\, the crime ring pushes past their limits\, putting everything 
  on the line for their most ambitious heist yet.\n\nStarring: Nicholas Houl
- t\, Zoë Kravitz\, Anna Sawai\, Rhenzy Feliz\, Pete Davidson\, John C. Reil
- ly\n\nFilm release at Merlin Cinemas Falmouth\nBook tickets: /film/how-to-
+ t\, Zoë Kravitz\, Pete Davidson\, John C. Reilly\, Anna Sawai\, Rhenzy Fel
+ iz\n\nFilm release at Merlin Cinemas Falmouth\nBook tickets: /film/how-to-
  rob-a-bank\n\nFilm details: https://evenwebb.github.io/merlin-cinemas/film
  s/how-to-rob-a-bank.html
 LOCATION:Merlin Cinemas Falmouth
@@ -173,7 +173,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:c71605c808efdb33913f341d9242110b53fad93b@merlin-cinemas
-DTSTAMP:20261113T173523Z
+DTSTAMP:20261114T162749Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:CBeebies Panto 2026: Treasure Island @ Merlin Falmouth
@@ -187,7 +187,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:7432c7574030f71668c0b8839f29f427bcdca8c6@merlin-cinemas
-DTSTAMP:20261113T173523Z
+DTSTAMP:20261114T162749Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:Focker-In-Law @ Merlin Falmouth
@@ -204,7 +204,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:ebb794a84d185c6c0ebfaf4e74e5a9397cc475dd@merlin-cinemas
-DTSTAMP:20261113T173523Z
+DTSTAMP:20261114T162749Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Hexed @ Merlin Falmouth
@@ -224,7 +224,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:1c209897abdb95a20d8d0d69a10451f122d2f929@merlin-cinemas
-DTSTAMP:20261113T173523Z
+DTSTAMP:20261114T162749Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Violent Night 2 @ Merlin Falmouth
@@ -245,7 +245,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:7ed28dd7e118fe384e555d59726082b854798da5@merlin-cinemas
-DTSTAMP:20261113T173523Z
+DTSTAMP:20261114T162749Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Dune: Part Three @ Merlin Falmouth
@@ -267,7 +267,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:e93fdea173e5e80d92e9ea5b9657af704b80331f@merlin-cinemas
-DTSTAMP:20261113T173523Z
+DTSTAMP:20261114T162749Z
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
 SUMMARY:Avengers: Doomsday @ Merlin Falmouth
@@ -284,7 +284,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:6b3afa02dbb14a9291ea7d20a7935d37594c9e8f@merlin-cinemas
-DTSTAMP:20261113T173523Z
+DTSTAMP:20261114T162749Z
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20261226
 SUMMARY:Jumanji: Open World @ Merlin Falmouth
@@ -301,7 +301,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:9cf2300c26ba35eba79057bc57959320a5b41515@merlin-cinemas
-DTSTAMP:20261113T173523Z
+DTSTAMP:20261114T162749Z
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20261226
 SUMMARY:The Angry Birds Movie 3 @ Merlin Falmouth
@@ -318,22 +318,23 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:d40746d073e8fdf9be6a5ada18fcba4b88cf85cc@merlin-cinemas
-DTSTAMP:20261113T173523Z
+DTSTAMP:20261114T162749Z
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270102
 SUMMARY:Werwulf @ Merlin Falmouth
-DESCRIPTION:Werwulf (2h)\nHorror\n\nA harrowing tale of devotion\, damnatio
- n and the devil within.\n\nStarring: Aaron Taylor-Johnson\, Lily-Rose Depp
- \, Willem Dafoe\, Bodhi Rae Breathnach\, Ralph Ineson\, Vidal Arzoni\n\nFi
- lm release at Merlin Cinemas Falmouth\nBook tickets: /film/werwulf\n\nFilm
-  details: https://evenwebb.github.io/merlin-cinemas/films/werwulf.html
+DESCRIPTION:Werwulf (2h)\nHorror\, Fantasy\n\nA harrowing tale of devotion\
+ , damnation and the devil within.\n\nStarring: Aaron Taylor-Johnson\, Lily
+ -Rose Depp\, Willem Dafoe\, Bodhi Rae Breathnach\, Ralph Ineson\, Vidal Ar
+ zoni\n\nFilm release at Merlin Cinemas Falmouth\nBook tickets: /film/werwu
+ lf\n\nFilm details: https://evenwebb.github.io/merlin-cinemas/films/werwul
+ f.html
 LOCATION:Merlin Cinemas Falmouth
 URL:/film/werwulf
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:e069111161f36b15db581a6dcf3457fcacea3817@merlin-cinemas
-DTSTAMP:20261113T173523Z
+DTSTAMP:20261114T162749Z
 DTSTART;VALUE=DATE:20270108
 DTEND;VALUE=DATE:20270109
 SUMMARY:Ink @ Merlin Falmouth
@@ -350,7 +351,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:c3eb97c90da83485a856b1d5be9273fa493fbcc2@merlin-cinemas
-DTSTAMP:20261113T173523Z
+DTSTAMP:20261114T162749Z
 DTSTART;VALUE=DATE:20270122
 DTEND;VALUE=DATE:20270123
 SUMMARY:Children Of Blood And Bone @ Merlin Falmouth
@@ -368,7 +369,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:ce9e891b557a5756e115a97d931cbf99deda919a@merlin-cinemas
-DTSTAMP:20261113T173523Z
+DTSTAMP:20261114T162749Z
 DTSTART;VALUE=DATE:20270129
 DTEND;VALUE=DATE:20270130
 SUMMARY:Elsinore @ Merlin Falmouth
@@ -387,7 +388,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:8e0c5b40423d6a822327165729e5a3152f36c3db@merlin-cinemas
-DTSTAMP:20261113T173523Z
+DTSTAMP:20261114T162749Z
 DTSTART;VALUE=DATE:20270205
 DTEND;VALUE=DATE:20270206
 SUMMARY:Remain @ Merlin Falmouth
@@ -405,7 +406,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:e2384ba19304364aad69c5fc69632001c8376b9c@merlin-cinemas
-DTSTAMP:20261113T173523Z
+DTSTAMP:20261114T162749Z
 DTSTART;VALUE=DATE:20270205
 DTEND;VALUE=DATE:20270206
 SUMMARY:Ice Age: Boiling Point @ Merlin Falmouth
@@ -424,7 +425,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20f591cea48bd8c6b47d26c30ba8c8706b982f38@merlin-cinemas
-DTSTAMP:20261113T173523Z
+DTSTAMP:20261114T162749Z
 DTSTART;VALUE=DATE:20270212
 DTEND;VALUE=DATE:20270213
 SUMMARY:Narnia: The Magician's Nephew @ Merlin Falmouth
@@ -442,7 +443,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:d300e73739defec97e05adbc22adb45c9d6f36ac@merlin-cinemas
-DTSTAMP:20261113T173523Z
+DTSTAMP:20261114T162749Z
 DTSTART;VALUE=DATE:20270212
 DTEND;VALUE=DATE:20270213
 SUMMARY:CoComelon: The Movie @ Merlin Falmouth
@@ -462,27 +463,27 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:00a7098b64136384a4331657f30af010e3879e17@merlin-cinemas
-DTSTAMP:20261113T173523Z
+DTSTAMP:20261114T162749Z
 DTSTART;VALUE=DATE:20270305
 DTEND;VALUE=DATE:20270306
 SUMMARY:Gatto @ Merlin Falmouth
-DESCRIPTION:Gatto\nAnimation\, Comedy\, Crime\, Family\n\nAfter years of ma
- neuvering the canal-ridden\, superstitious city of Venice\, Italy\, a scra
- ppy black cat named Nero begins to question whether he’s lived the right l
- ives. Indebted to Rocco\, a ruthless local feline mob boss\, Nero finds hi
- mself in a quandary and is forced to forge a truly unexpected friendship t
- hat may finally lead him to his purpose—unless Venice gets the better of h
- im first.\n\nStarring: Mark Ruffalo\, Laurence Fishburne\, Enrico Casarosa
- \, Bianca Babaşa\, Sherry Cola\, John Turturro\n\nFilm release at Merlin C
- inemas Falmouth\nBook tickets: /film/gatto\n\nFilm details: https://evenwe
- bb.github.io/merlin-cinemas/films/gatto.html
+DESCRIPTION:Gatto\nAnimation\, Comedy\, Crime\, Family\, Adventure\n\nAfter
+  years of maneuvering the canal-ridden\, superstitious city of Venice\, It
+ aly\, a scrappy black cat named Nero begins to question whether he’s lived
+  the right lives. Indebted to Rocco\, a ruthless local feline mob boss\, N
+ ero finds himself in a quandary and is forced to forge a truly unexpected 
+ friendship that may finally lead him to his purpose—unless Venice gets the
+  better of him first.\n\nStarring: Mark Ruffalo\, Laurence Fishburne\, Enr
+ ico Casarosa\, Bianca Babaşa\, Sherry Cola\, John Turturro\n\nFilm release
+  at Merlin Cinemas Falmouth\nBook tickets: /film/gatto\n\nFilm details: ht
+ tps://evenwebb.github.io/merlin-cinemas/films/gatto.html
 LOCATION:Merlin Cinemas Falmouth
 URL:/film/gatto
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:b55f23427d08a3173952ae0ab55263154a6b1aea@merlin-cinemas
-DTSTAMP:20261113T173523Z
+DTSTAMP:20261114T162749Z
 DTSTART;VALUE=DATE:20270312
 DTEND;VALUE=DATE:20270313
 SUMMARY:The Exorcist: Martyrs @ Merlin Falmouth
@@ -502,7 +503,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:4f5c007afb490add1f24336456704873a057d2d8@merlin-cinemas
-DTSTAMP:20261113T173523Z
+DTSTAMP:20261114T162749Z
 DTSTART;VALUE=DATE:20270521
 DTEND;VALUE=DATE:20270522
 SUMMARY:Not Alone @ Merlin Falmouth
@@ -520,7 +521,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:7a23b6a53ce65cc904df6a68aede8d848eacd076@merlin-cinemas
-DTSTAMP:20261113T173523Z
+DTSTAMP:20261114T162749Z
 DTSTART;VALUE=DATE:20270730
 DTEND;VALUE=DATE:20270731
 SUMMARY:Shrek 5 @ Merlin Falmouth
