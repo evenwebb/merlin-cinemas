@@ -10,7 +10,7 @@ X-WR-CALDESC:Upcoming movie premieres at Merlin Cinemas Flora Cinema
 X-WR-TIMEZONE:Europe/London
 BEGIN:VEVENT
 UID:a8b0778a99ad73e2995e9a8552f5cfef9dc0439b@merlin-cinemas
-DTSTAMP:20261116T200831Z
+DTSTAMP:20261117T190023Z
 DTSTART;VALUE=DATE:20250822
 DTEND;VALUE=DATE:20250823
 SUMMARY:The Rocky Horror Picture Show @ Merlin Helston
@@ -30,7 +30,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:7a38ecfdb772058287c46c99916f50db4d3481ed@merlin-cinemas
-DTSTAMP:20261116T200831Z
+DTSTAMP:20261117T190023Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:Monster Mia @ Merlin Helston
@@ -49,7 +49,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:5cb4cf813990952c8835a6cf3af2f0dcc135cbc5@merlin-cinemas
-DTSTAMP:20261116T200831Z
+DTSTAMP:20261117T190023Z
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261025
 SUMMARY:Disney Junior Cinema Club 2026 @ Merlin Helston
@@ -69,7 +69,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:f2c1047a186ab2799bb4d38457d812be6e4fdcd9@merlin-cinemas
-DTSTAMP:20261116T200831Z
+DTSTAMP:20261117T190023Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:Room On The Broom & The Highway Rat @ Merlin Helston
@@ -93,7 +93,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:20050e4ad0215ae51fd0d742ca730958a828179c@merlin-cinemas
-DTSTAMP:20261116T200831Z
+DTSTAMP:20261117T190023Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:Rififi En La Ciudad @ Merlin Helston
@@ -114,7 +114,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:578cb8f82161789ac299672a3d697669168c1652@merlin-cinemas
-DTSTAMP:20261116T200831Z
+DTSTAMP:20261117T190023Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:Amazing Grace @ Merlin Helston
@@ -132,7 +132,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:5ed1f8bf18e7fa9e490951996df4aaa4821435e0@merlin-cinemas
-DTSTAMP:20261116T200831Z
+DTSTAMP:20261117T190023Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:Prima Facie @ Merlin Helston
@@ -153,7 +153,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:c7b1bcc477846f795c4fa2d63de2aac403726dae@merlin-cinemas
-DTSTAMP:20261116T200831Z
+DTSTAMP:20261117T190023Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:How To Rob A Bank @ Merlin Helston
@@ -173,7 +173,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:96c10e2794c6958056b9ae7c33e7bd6731acef1b@merlin-cinemas
-DTSTAMP:20261116T200831Z
+DTSTAMP:20261117T190023Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Hexed @ Merlin Helston
@@ -193,7 +193,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:dfaa4ba1d900d056973bc85ae39fa9101b414f52@merlin-cinemas
-DTSTAMP:20261116T200831Z
+DTSTAMP:20261117T190023Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Violent Night 2 @ Merlin Helston
@@ -213,8 +213,27 @@ URL:/film/violent-night-2
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
+UID:d295907debaad67df10f3ef20022916e25cff19a@merlin-cinemas
+DTSTAMP:20261117T190023Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:The Cat In The Hat @ Merlin Helston
+DESCRIPTION:The Cat In The Hat (1h 48min)\nAnimation\, Fantasy\, Adventure\
+ , Family\, Comedy\n\nAssigned his toughest mission yet\, the Cat must chee
+ r up siblings Gabby and Sebastian as they adjust to life in a new town. Kn
+ own for pushing boundaries\, this agent of chaos must prove himself or ris
+ k losing his magical hat forever.\n\nStarring: Bill Hader\, Xochitl Gomez\
+ , Tiago Martinez\, Matt Berry\, Quinta Brunson\, Bowen Yang\n\nFilm releas
+ e at Merlin Cinemas Helston\nBook tickets: /film/the-cat-in-the-hat\n\nFil
+ m details: https://evenwebb.github.io/merlin-cinemas/films/the-cat-in-the-
+ hat.html
+LOCATION:Merlin Cinemas Helston
+URL:/film/the-cat-in-the-hat
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
 UID:31f704160e76cb5f3c01020887e6b82e09bfc672@merlin-cinemas
-DTSTAMP:20261116T200831Z
+DTSTAMP:20261117T190023Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Dune: Part Three @ Merlin Helston
@@ -236,7 +255,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:0da83b95a4049cdfa59d0eac8f8a67dc78fd1547@merlin-cinemas
-DTSTAMP:20261116T200831Z
+DTSTAMP:20261117T190023Z
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
 SUMMARY:Avengers: Doomsday @ Merlin Helston
@@ -253,7 +272,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:25090d4d2afd69d67f7a226008a3d07d95bd60fc@merlin-cinemas
-DTSTAMP:20261116T200831Z
+DTSTAMP:20261117T190023Z
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20261226
 SUMMARY:Jumanji: Open World @ Merlin Helston
@@ -270,7 +289,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:649ee6b90200a4f1c98ff00bcf0157536b16b2ab@merlin-cinemas
-DTSTAMP:20261116T200831Z
+DTSTAMP:20261117T190023Z
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20261226
 SUMMARY:The Angry Birds Movie 3 @ Merlin Helston
@@ -287,7 +306,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:d659f355d194e500f19763c149a8c0a3cb309915@merlin-cinemas
-DTSTAMP:20261116T200831Z
+DTSTAMP:20261117T190023Z
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270102
 SUMMARY:Werwulf @ Merlin Helston
@@ -303,7 +322,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:1a6de8202bc7135245cb0c9ece3a2bcbb7b07e0b@merlin-cinemas
-DTSTAMP:20261116T200831Z
+DTSTAMP:20261117T190023Z
 DTSTART;VALUE=DATE:20270108
 DTEND;VALUE=DATE:20270109
 SUMMARY:Ink @ Merlin Helston
@@ -320,7 +339,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:7259392300b1c28a6c0cc5a7957236829c3b4203@merlin-cinemas
-DTSTAMP:20261116T200831Z
+DTSTAMP:20261117T190023Z
 DTSTART;VALUE=DATE:20270122
 DTEND;VALUE=DATE:20270123
 SUMMARY:Children Of Blood And Bone @ Merlin Helston
@@ -338,7 +357,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:07bb5268f8f1eb76ab90609e41af176f44ac972d@merlin-cinemas
-DTSTAMP:20261116T200831Z
+DTSTAMP:20261117T190023Z
 DTSTART;VALUE=DATE:20270129
 DTEND;VALUE=DATE:20270130
 SUMMARY:Elsinore @ Merlin Helston
@@ -357,7 +376,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:74b0395ebb5227ec8518184d239e8024bc69737b@merlin-cinemas
-DTSTAMP:20261116T200831Z
+DTSTAMP:20261117T190023Z
 DTSTART;VALUE=DATE:20270205
 DTEND;VALUE=DATE:20270206
 SUMMARY:Remain @ Merlin Helston
@@ -375,7 +394,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:17d31bada314af5a7ee9cacde7b9d80aaee79312@merlin-cinemas
-DTSTAMP:20261116T200831Z
+DTSTAMP:20261117T190023Z
 DTSTART;VALUE=DATE:20270205
 DTEND;VALUE=DATE:20270206
 SUMMARY:Ice Age: Boiling Point @ Merlin Helston
@@ -394,7 +413,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:c79de4af1c285751ce2ff5a9ce3ed1176f311883@merlin-cinemas
-DTSTAMP:20261116T200831Z
+DTSTAMP:20261117T190023Z
 DTSTART;VALUE=DATE:20270212
 DTEND;VALUE=DATE:20270213
 SUMMARY:Narnia: The Magician's Nephew @ Merlin Helston
@@ -402,7 +421,7 @@ DESCRIPTION:Narnia: The Magician's Nephew\nFantasy\, Adventure\, Family\n\n
  Two children discover a wood full of pools leading to other worlds. One ta
  kes them to a dead city beneath a dying sun\, where they wake a queen who 
  exterminated its population and accidentally bring her back to London.\n\n
- Starring: Beatrice Campbell\, David McKenna\, Daniel Craig\, Carey Mulliga
+ Starring: David McKenna\, Beatrice Campbell\, Daniel Craig\, Carey Mulliga
  n\, Emma Mackey\, Meryl Streep\n\nFilm release at Merlin Cinemas Helston\n
  Book tickets: /film/narnia-the-magicians-nephew\n\nFilm details: https://e
  venwebb.github.io/merlin-cinemas/films/narnia-the-magician-s-nephew.html
@@ -412,7 +431,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:c5a9eac3a826b2a1cdd93892b0464523b737f28c@merlin-cinemas
-DTSTAMP:20261116T200831Z
+DTSTAMP:20261117T190023Z
 DTSTART;VALUE=DATE:20270212
 DTEND;VALUE=DATE:20270213
 SUMMARY:CoComelon: The Movie @ Merlin Helston
@@ -432,27 +451,27 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:8ac5a7ff9da920f14f5776b940b9d97ba9f6da8c@merlin-cinemas
-DTSTAMP:20261116T200831Z
+DTSTAMP:20261117T190023Z
 DTSTART;VALUE=DATE:20270305
 DTEND;VALUE=DATE:20270306
 SUMMARY:Gatto @ Merlin Helston
-DESCRIPTION:Gatto\nAnimation\, Comedy\, Crime\, Family\, Adventure\n\nAfter
-  years of maneuvering the canal-ridden\, superstitious city of Venice\, It
- aly\, a scrappy black cat named Nero begins to question whether he’s lived
-  the right lives. Indebted to Rocco\, a ruthless local feline mob boss\, N
- ero finds himself in a quandary and is forced to forge a truly unexpected 
- friendship that may finally lead him to his purpose—unless Venice gets the
-  better of him first.\n\nStarring: Mark Ruffalo\, Laurence Fishburne\, Enr
- ico Casarosa\, Bianca Babaşa\, Sherry Cola\, John Turturro\n\nFilm release
-  at Merlin Cinemas Helston\nBook tickets: /film/gatto\n\nFilm details: htt
- ps://evenwebb.github.io/merlin-cinemas/films/gatto.html
+DESCRIPTION:Gatto\nAnimation\, Comedy\, Crime\, Family\n\nAfter years of ma
+ neuvering the canal-ridden\, superstitious city of Venice\, Italy\, a scra
+ ppy black cat named Nero begins to question whether he’s lived the right l
+ ives. Indebted to Rocco\, a ruthless local feline mob boss\, Nero finds hi
+ mself in a quandary and is forced to forge a truly unexpected friendship t
+ hat may finally lead him to his purpose—unless Venice gets the better of h
+ im first.\n\nStarring: Mark Ruffalo\, Laurence Fishburne\, Enrico Casarosa
+ \, Bianca Babaşa\, Sherry Cola\, John Turturro\n\nFilm release at Merlin C
+ inemas Helston\nBook tickets: /film/gatto\n\nFilm details: https://evenweb
+ b.github.io/merlin-cinemas/films/gatto.html
 LOCATION:Merlin Cinemas Helston
 URL:/film/gatto
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:b78e5dcca678f131d0fc7c8880a1c76c2b73dd15@merlin-cinemas
-DTSTAMP:20261116T200831Z
+DTSTAMP:20261117T190023Z
 DTSTART;VALUE=DATE:20270312
 DTEND;VALUE=DATE:20270313
 SUMMARY:The Exorcist: Martyrs @ Merlin Helston
@@ -472,7 +491,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:33f522b2327a82eed47e445434389e57c1b3179a@merlin-cinemas
-DTSTAMP:20261116T200831Z
+DTSTAMP:20261117T190023Z
 DTSTART;VALUE=DATE:20270521
 DTEND;VALUE=DATE:20270522
 SUMMARY:Not Alone @ Merlin Helston
@@ -490,7 +509,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:7063fdf94bc2707441d0f909c4d39fd9791ea40c@merlin-cinemas
-DTSTAMP:20261116T200831Z
+DTSTAMP:20261117T190023Z
 DTSTART;VALUE=DATE:20270730
 DTEND;VALUE=DATE:20270731
 SUMMARY:Shrek 5 @ Merlin Helston
