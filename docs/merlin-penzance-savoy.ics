@@ -9,112 +9,8 @@ X-WR-CALNAME:Merlin Savoy Cinema Movie Premieres
 X-WR-CALDESC:Upcoming movie premieres at Merlin Cinemas Savoy Cinema
 X-WR-TIMEZONE:Europe/London
 BEGIN:VEVENT
-UID:72010a5263f0060dba24f258a8f495e61d03c1a9@merlin-cinemas
-DTSTAMP:20261117T190023Z
-DTSTART;VALUE=DATE:20250822
-DTEND;VALUE=DATE:20250823
-SUMMARY:The Rocky Horror Picture Show @ Merlin Penzance
-DESCRIPTION:The Rocky Horror Picture Show (1h 40min)\n★★★★☆\nComedy\, Scien
- ce Fiction\, Horror\n\nAfter getting a flat tire in the middle of nowhere\
- , newly engaged couple Brad and Janet encounter the eerie mansion of the f
- lamboyant\, seductive Dr Frank-N-Furter and a variety of eccentric charact
- ers. Through elaborate dance and rock music\, the mad scientist unveils hi
- s latest creation: a perfect\, muscular man.\n\nStarring: Tim Curry\, Susa
- n Sarandon\, Barry Bostwick\, Richard O'Brien\, Patricia Quinn\, Nell Camp
- bell\n\nFilm release at Merlin Cinemas Penzance\nBook tickets: /film/the-r
- ocky-horror-picture-show-50th-anniversary\n\nFilm details: https://evenweb
- b.github.io/merlin-cinemas/films/the-rocky-horror-picture-show.html
-LOCATION:Merlin Cinemas Penzance
-URL:/film/the-rocky-horror-picture-show-50th-anniversary
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:1ce72003b7daa40b3bcb84f8853b3dba0ce6577f@merlin-cinemas
-DTSTAMP:20261117T190023Z
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
-SUMMARY:Monster Mia @ Merlin Penzance
-DESCRIPTION:Monster Mia (1h 22min)\nAnimation\, Fantasy\, Family\n\n12-year
- -old Mia and her scruffy pet rat Quentin are sent to the mysterious Rotwoo
- d Academy after one too many problems at school. The new school gives her 
- the creeps\, and Mia needs to figure a way out before the students realize
-  she isn't a monster like them! But the vice principal Van Vlad hosts a pa
- rticular dislike for humans\, and Mia is scared he has seen through her ac
- t...\n\nFilm release at Merlin Cinemas Penzance\nBook tickets: /film/monst
- er-mia\n\nFilm details: https://evenwebb.github.io/merlin-cinemas/films/mo
- nster-mia.html
-LOCATION:Merlin Cinemas Penzance
-URL:/film/monster-mia
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:dd58870c90b601b1e6c56b2aec5f0f99d4bb71fc@merlin-cinemas
-DTSTAMP:20261117T190023Z
-DTSTART;VALUE=DATE:20261024
-DTEND;VALUE=DATE:20261025
-SUMMARY:Disney Junior Cinema Club 2026 @ Merlin Penzance
-DESCRIPTION:Disney Junior Cinema Club 2026\n\nPacked with fun for preschool
- ers and their grown-ups\, this interactive big-screen experience brings to
- gether some favourite Disney Junior stories from Mickey Mouse Clubhouse+\,
-  Minnie's Bow-Toons: Pet Hotel\, Marvel's Iron Man and His Awesome Friends
- \, Sofia the First: Royal Magic and Toy Story Toons\, in a fun-filled extr
- avaganza! Expect sing-alongs\, dance moments\, exciting games and magical 
- surprises\, where audience participation is a must.\n\nFilm release at Mer
- lin Cinemas Penzance\nBook tickets: /film/disney-junior-cinema-club-2026\n
- \nFilm details: https://evenwebb.github.io/merlin-cinemas/films/disney-jun
- ior-cinema-club-2026.html
-LOCATION:Merlin Cinemas Penzance
-URL:/film/disney-junior-cinema-club-2026
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:7919ea01397074e2daa0b0a71976810388e8429c@merlin-cinemas
-DTSTAMP:20261117T190023Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
-SUMMARY:Room On The Broom & The Highway Rat @ Merlin Penzance
-DESCRIPTION:Room On The Broom & The Highway Rat (25 min)\n★★★☆☆\nFamily\, A
- nimation\, TV Movie\n\nAnimated film based on the wonderful children's pic
- ture book written by Julia Donaldson and illustrated by Axel Scheffler.  T
- he story of a kind witch who invites a surprising collection of animals to
-  join her on her broom\, much to the frustration of her cat. The gang ulti
- mately saves the witch from a fearsome dragon\, and in gratitude she rewar
- ds them with a magnificent new broom which has room for everyone.  A magic
- al tale about friendship and family from Magic Light Pictures\, the produc
- ers of the hugely successful The Gruffalo and The Gruffalo's Child.\n\nSta
- rring: Gillian Anderson\, Timothy Spall\, Sally Hawkins\, Rob Brydon\, Mar
- tin Clunes\, Simon Pegg\n\nFilm release at Merlin Cinemas Penzance\nBook t
- ickets: /film/room-on-the-broom-and-the-highway-rat-toddler-cinema\n\nFilm
-  details: https://evenwebb.github.io/merlin-cinemas/films/room-on-the-broo
- m-the-highway-rat.html
-LOCATION:Merlin Cinemas Penzance
-URL:/film/room-on-the-broom-and-the-highway-rat-toddler-cinema
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:42e170a481b2a71ccd11aa0ca56b6e5b20fe4a69@merlin-cinemas
-DTSTAMP:20261117T190023Z
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
-SUMMARY:Rififi En La Ciudad @ Merlin Penzance
-DESCRIPTION:Rififi En La Ciudad (1h 58min)\n★★★★☆\nCrime\, Thriller\, Drama
- \n\nOut of prison after a five-year stretch\, jewel thief Tony turns down 
- a quick job his friend Jo offers him\, until he discovers that his old gir
- lfriend Mado has become the lover of local gangster Pierre Grutter during 
- Tony's absence. Expanding a minor smash-and-grab into a full-scale jewel h
- eist\, Tony and his crew appear to get away clean\, but their actions afte
- r the job is completed threaten the lives of everyone involved.\n\nStarrin
- g: Jean Servais\, Carl Möhner\, Robert Manuel\, Janine Darcey\, Pierre Gra
- sset\, Robert Hossein\n\nFilm release at Merlin Cinemas Penzance\nBook tic
- kets: /film/rififi-en-la-ciudad\n\nFilm details: https://evenwebb.github.i
- o/merlin-cinemas/films/rififi-en-la-ciudad.html
-LOCATION:Merlin Cinemas Penzance
-URL:/film/rififi-en-la-ciudad
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
 UID:298ca3b1ba3146fa80003e86df95cce8e41ea0ef@merlin-cinemas
-DTSTAMP:20261117T190023Z
+DTSTAMP:20261118T184433Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:Amazing Grace @ Merlin Penzance
@@ -132,7 +28,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:4948fffd9e197874c3cd3f1115591b343e0c2460@merlin-cinemas
-DTSTAMP:20261117T190023Z
+DTSTAMP:20261118T184433Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:Prima Facie @ Merlin Penzance
@@ -153,7 +49,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:07e49ce0b6c859e2b58cbfe8276a2ea7df835374@merlin-cinemas
-DTSTAMP:20261117T190023Z
+DTSTAMP:20261118T184433Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:How To Rob A Bank @ Merlin Penzance
@@ -173,7 +69,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:6656840ad30c6c4a139b29f7d375676d31f5bee9@merlin-cinemas
-DTSTAMP:20261117T190023Z
+DTSTAMP:20261118T184433Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Hexed @ Merlin Penzance
@@ -193,7 +89,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:89d569b7cfaf061d1d1b847005de9cfe720c7d3b@merlin-cinemas
-DTSTAMP:20261117T190023Z
+DTSTAMP:20261118T184433Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Violent Night 2 @ Merlin Penzance
@@ -214,7 +110,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:1ef2910a4c141be297260cced4cc3caa79a1a6a6@merlin-cinemas
-DTSTAMP:20261117T190023Z
+DTSTAMP:20261118T184433Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:The Cat In The Hat @ Merlin Penzance
@@ -232,8 +128,27 @@ URL:/film/the-cat-in-the-hat
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
+UID:f3e4e5b41ac75f21b13258cdfe13d95ed6aea14e@merlin-cinemas
+DTSTAMP:20261118T184433Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:Tabby McTat & Stick Man @ Merlin Penzance
+DESCRIPTION:Tabby McTat & Stick Man (25 min)\nFamily\, Animation\, TV Movie
+ \n\nBusker Fred and his cat Tabby McTat entertain and delight passersby wi
+ th music across London. One day\, Fred falls\, injures his leg\, and is wh
+ isked away in an ambulance\, leaving Tabby alone on the city's streets.\n\
+ nStarring: Jodie Whittaker\, Rob Brydon\, Ṣọpẹ́ Dìrísù\, Susan Wokoma\, Jo
+ anna Scanlan\, Cariad Lloyd\n\nFilm release at Merlin Cinemas Penzance\nBo
+ ok tickets: /film/tabby-mctat-and-stick-man-toddler-cinema\n\nFilm details
+ : https://evenwebb.github.io/merlin-cinemas/films/tabby-mctat-stick-man.ht
+ ml
+LOCATION:Merlin Cinemas Penzance
+URL:/film/tabby-mctat-and-stick-man-toddler-cinema
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
 UID:e20ac013ce8379197e56092e289f37dba243ef57@merlin-cinemas
-DTSTAMP:20261117T190023Z
+DTSTAMP:20261118T184433Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Dune: Part Three @ Merlin Penzance
@@ -255,7 +170,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:29fcf414d1233cda765ba05435160214d7ebade2@merlin-cinemas
-DTSTAMP:20261117T190023Z
+DTSTAMP:20261118T184433Z
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
 SUMMARY:Avengers: Doomsday @ Merlin Penzance
@@ -271,42 +186,43 @@ URL:/film/avengers-doomsday
 SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
-UID:ebd90ea6ae3e4cdf30817f37eb16e2a1daadcfa1@merlin-cinemas
-DTSTAMP:20261117T190023Z
-DTSTART;VALUE=DATE:20261225
-DTEND;VALUE=DATE:20261226
+UID:e8c32239052daebbc09531940fefff1eb3532759@merlin-cinemas
+DTSTAMP:20261118T184433Z
+DTSTART;VALUE=DATE:20261223
+DTEND;VALUE=DATE:20261224
 SUMMARY:Jumanji: Open World @ Merlin Penzance
-DESCRIPTION:Jumanji: Open World\nAdventure\, Comedy\, Fantasy\n\nOur heroes
-  have escaped the ever-changing jungles of Jumanji before\, but this time 
- the game comes to us—as Jumanji breaks free of its console\, unleashing it
- s chaos into our world.\n\nStarring: Dwayne Johnson\, Kevin Hart\, Jack Bl
- ack\, Karen Gillan\, Awkwafina\, Alex Wolff\n\nFilm release at Merlin Cine
- mas Penzance\nBook tickets: /film/jumanji-open-world\n\nFilm details: http
- s://evenwebb.github.io/merlin-cinemas/films/jumanji-open-world.html
+DESCRIPTION:Jumanji: Open World (2h 6min)\nAdventure\, Comedy\, Fantasy\n\n
+ Our heroes have escaped the ever-changing jungles of Jumanji before\, but 
+ this time the game comes to us—as Jumanji breaks free of its console\, unl
+ eashing its chaos into our world.\n\nStarring: Dwayne Johnson\, Kevin Hart
+ \, Jack Black\, Karen Gillan\, Alex Wolff\, Morgan Turner\n\nFilm release 
+ at Merlin Cinemas Penzance\nBook tickets: /film/jumanji-open-world\n\nFilm
+  details: https://evenwebb.github.io/merlin-cinemas/films/jumanji-open-wor
+ ld.html
 LOCATION:Merlin Cinemas Penzance
 URL:/film/jumanji-open-world
-SEQUENCE:0
+SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:ba91f7ea4f8edf53e89146ec59dfab2e4968c81d@merlin-cinemas
-DTSTAMP:20261117T190023Z
+DTSTAMP:20261118T184433Z
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20261226
 SUMMARY:The Angry Birds Movie 3 @ Merlin Penzance
 DESCRIPTION:The Angry Birds Movie 3 (1h 36min)\nAdventure\, Animation\, Com
- edy\, Family\, Science Fiction\n\nRed faces his greatest challenge yet—sur
- viving fatherhood… while saving the world.\n\nStarring: Jason Sudeikis\, J
- osh Gad\, Danny McBride\, Rachel Bloom\, Emma Myers\, Walker Scobell\n\nFi
- lm release at Merlin Cinemas Penzance\nBook tickets: /film/the-angry-birds
- -movie-3\n\nFilm details: https://evenwebb.github.io/merlin-cinemas/films/
- the-angry-birds-movie-3.html
+ edy\, Family\n\nRed faces his greatest challenge yet—surviving fatherhood…
+  while saving the world.\n\nStarring: Jason Sudeikis\, Josh Gad\, Danny Mc
+ Bride\, Rachel Bloom\, Emma Myers\, Walker Scobell\n\nFilm release at Merl
+ in Cinemas Penzance\nBook tickets: /film/the-angry-birds-movie-3\n\nFilm d
+ etails: https://evenwebb.github.io/merlin-cinemas/films/the-angry-birds-mo
+ vie-3.html
 LOCATION:Merlin Cinemas Penzance
 URL:/film/the-angry-birds-movie-3
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:ef6574209b4817cc39747d3ee5d905c3bdecb307@merlin-cinemas
-DTSTAMP:20261117T190023Z
+DTSTAMP:20261118T184433Z
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270102
 SUMMARY:Werwulf @ Merlin Penzance
@@ -322,7 +238,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:6344a0456e5f256b1d0f2fd12880434bc2297ce7@merlin-cinemas
-DTSTAMP:20261117T190023Z
+DTSTAMP:20261118T184433Z
 DTSTART;VALUE=DATE:20270108
 DTEND;VALUE=DATE:20270109
 SUMMARY:Ink @ Merlin Penzance
@@ -339,7 +255,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:b7c5b766e1f2506047b38b3414a989148695411e@merlin-cinemas
-DTSTAMP:20261117T190023Z
+DTSTAMP:20261118T184433Z
 DTSTART;VALUE=DATE:20270122
 DTEND;VALUE=DATE:20270123
 SUMMARY:Children Of Blood And Bone @ Merlin Penzance
@@ -357,7 +273,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:5f5afa2ba13475a72e3673302f92ab6534cb434a@merlin-cinemas
-DTSTAMP:20261117T190023Z
+DTSTAMP:20261118T184433Z
 DTSTART;VALUE=DATE:20270129
 DTEND;VALUE=DATE:20270130
 SUMMARY:Elsinore @ Merlin Penzance
@@ -376,7 +292,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:8555bc97a38ec5d646a16040e9327cce930edb4f@merlin-cinemas
-DTSTAMP:20261117T190023Z
+DTSTAMP:20261118T184433Z
 DTSTART;VALUE=DATE:20270205
 DTEND;VALUE=DATE:20270206
 SUMMARY:Remain @ Merlin Penzance
@@ -394,7 +310,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:b884d5b93f2890f7919e979924f541508562bb80@merlin-cinemas
-DTSTAMP:20261117T190023Z
+DTSTAMP:20261118T184433Z
 DTSTART;VALUE=DATE:20270205
 DTEND;VALUE=DATE:20270206
 SUMMARY:Ice Age: Boiling Point @ Merlin Penzance
@@ -413,7 +329,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:c633cdaf5ff36aa75e5e1a7f9cce170328c0312e@merlin-cinemas
-DTSTAMP:20261117T190023Z
+DTSTAMP:20261118T184433Z
 DTSTART;VALUE=DATE:20270212
 DTEND;VALUE=DATE:20270213
 SUMMARY:Narnia: The Magician's Nephew @ Merlin Penzance
@@ -431,7 +347,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:52e4c623079ed88cdcd1dc95e1f6c9eecb89a574@merlin-cinemas
-DTSTAMP:20261117T190023Z
+DTSTAMP:20261118T184433Z
 DTSTART;VALUE=DATE:20270212
 DTEND;VALUE=DATE:20270213
 SUMMARY:CoComelon: The Movie @ Merlin Penzance
@@ -451,27 +367,27 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:fadd9d7e9c24cb751a11cbb7ba7a58f9f5eaf3a2@merlin-cinemas
-DTSTAMP:20261117T190023Z
+DTSTAMP:20261118T184433Z
 DTSTART;VALUE=DATE:20270305
 DTEND;VALUE=DATE:20270306
 SUMMARY:Gatto @ Merlin Penzance
-DESCRIPTION:Gatto\nAnimation\, Comedy\, Crime\, Family\n\nAfter years of ma
- neuvering the canal-ridden\, superstitious city of Venice\, Italy\, a scra
- ppy black cat named Nero begins to question whether he’s lived the right l
- ives. Indebted to Rocco\, a ruthless local feline mob boss\, Nero finds hi
- mself in a quandary and is forced to forge a truly unexpected friendship t
- hat may finally lead him to his purpose—unless Venice gets the better of h
- im first.\n\nStarring: Mark Ruffalo\, Laurence Fishburne\, Enrico Casarosa
- \, Bianca Babaşa\, Sherry Cola\, John Turturro\n\nFilm release at Merlin C
- inemas Penzance\nBook tickets: /film/gatto\n\nFilm details: https://evenwe
- bb.github.io/merlin-cinemas/films/gatto.html
+DESCRIPTION:Gatto (1h 38min)\nAnimation\, Comedy\, Crime\, Family\n\nAfter 
+ years of maneuvering the canal-ridden\, superstitious city of Venice\, Ita
+ ly\, a scrappy black cat named Nero begins to question whether he’s lived 
+ the right lives. Indebted to Rocco\, a ruthless local feline mob boss\, Ne
+ ro finds himself in a quandary and is forced to forge a truly unexpected f
+ riendship that may finally lead him to his purpose—unless Venice gets the 
+ better of him first.\n\nStarring: Mark Ruffalo\, Laurence Fishburne\, Enri
+ co Casarosa\, Bianca Babaşa\, Sherry Cola\, John Turturro\n\nFilm release 
+ at Merlin Cinemas Penzance\nBook tickets: /film/gatto\n\nFilm details: htt
+ ps://evenwebb.github.io/merlin-cinemas/films/gatto.html
 LOCATION:Merlin Cinemas Penzance
 URL:/film/gatto
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:ca28535966e5dd927d961ac77d5b411e9d2ee9cd@merlin-cinemas
-DTSTAMP:20261117T190023Z
+DTSTAMP:20261118T184433Z
 DTSTART;VALUE=DATE:20270312
 DTEND;VALUE=DATE:20270313
 SUMMARY:The Exorcist: Martyrs @ Merlin Penzance
@@ -491,7 +407,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:874b61f922a3fd03bd17cfac6f07577ec9672b50@merlin-cinemas
-DTSTAMP:20261117T190023Z
+DTSTAMP:20261118T184433Z
 DTSTART;VALUE=DATE:20270521
 DTEND;VALUE=DATE:20270522
 SUMMARY:Not Alone @ Merlin Penzance
@@ -509,7 +425,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:c9d4ce2439104462945c7d3814eb615bd60fe5f7@merlin-cinemas
-DTSTAMP:20261117T190023Z
+DTSTAMP:20261118T184433Z
 DTSTART;VALUE=DATE:20270730
 DTEND;VALUE=DATE:20270731
 SUMMARY:Shrek 5 @ Merlin Penzance

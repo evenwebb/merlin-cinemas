@@ -9,112 +9,8 @@ X-WR-CALNAME:Merlin Regal Cinema & Theatre Movie Premieres
 X-WR-CALDESC:Upcoming movie premieres at Merlin Cinemas Regal Cinema & Theatre
 X-WR-TIMEZONE:Europe/London
 BEGIN:VEVENT
-UID:e78388cd542a5473c14a46e7f5208d02533a5abb@merlin-cinemas
-DTSTAMP:20261117T190023Z
-DTSTART;VALUE=DATE:20250822
-DTEND;VALUE=DATE:20250823
-SUMMARY:The Rocky Horror Picture Show @ Merlin Redruth
-DESCRIPTION:The Rocky Horror Picture Show (1h 40min)\n★★★★☆\nComedy\, Scien
- ce Fiction\, Horror\n\nAfter getting a flat tire in the middle of nowhere\
- , newly engaged couple Brad and Janet encounter the eerie mansion of the f
- lamboyant\, seductive Dr Frank-N-Furter and a variety of eccentric charact
- ers. Through elaborate dance and rock music\, the mad scientist unveils hi
- s latest creation: a perfect\, muscular man.\n\nStarring: Tim Curry\, Susa
- n Sarandon\, Barry Bostwick\, Richard O'Brien\, Patricia Quinn\, Nell Camp
- bell\n\nFilm release at Merlin Cinemas Redruth\nBook tickets: /film/the-ro
- cky-horror-picture-show-50th-anniversary\n\nFilm details: https://evenwebb
- .github.io/merlin-cinemas/films/the-rocky-horror-picture-show.html
-LOCATION:Merlin Cinemas Redruth
-URL:/film/the-rocky-horror-picture-show-50th-anniversary
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:8b30ca2bca474fe4b96a1ea3112ebcd78841c8bc@merlin-cinemas
-DTSTAMP:20261117T190023Z
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
-SUMMARY:Monster Mia @ Merlin Redruth
-DESCRIPTION:Monster Mia (1h 22min)\nAnimation\, Fantasy\, Family\n\n12-year
- -old Mia and her scruffy pet rat Quentin are sent to the mysterious Rotwoo
- d Academy after one too many problems at school. The new school gives her 
- the creeps\, and Mia needs to figure a way out before the students realize
-  she isn't a monster like them! But the vice principal Van Vlad hosts a pa
- rticular dislike for humans\, and Mia is scared he has seen through her ac
- t...\n\nFilm release at Merlin Cinemas Redruth\nBook tickets: /film/monste
- r-mia\n\nFilm details: https://evenwebb.github.io/merlin-cinemas/films/mon
- ster-mia.html
-LOCATION:Merlin Cinemas Redruth
-URL:/film/monster-mia
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:9751759fcc7a17236a2795096178dc62f3ce8582@merlin-cinemas
-DTSTAMP:20261117T190023Z
-DTSTART;VALUE=DATE:20261024
-DTEND;VALUE=DATE:20261025
-SUMMARY:Disney Junior Cinema Club 2026 @ Merlin Redruth
-DESCRIPTION:Disney Junior Cinema Club 2026\n\nPacked with fun for preschool
- ers and their grown-ups\, this interactive big-screen experience brings to
- gether some favourite Disney Junior stories from Mickey Mouse Clubhouse+\,
-  Minnie's Bow-Toons: Pet Hotel\, Marvel's Iron Man and His Awesome Friends
- \, Sofia the First: Royal Magic and Toy Story Toons\, in a fun-filled extr
- avaganza! Expect sing-alongs\, dance moments\, exciting games and magical 
- surprises\, where audience participation is a must.\n\nFilm release at Mer
- lin Cinemas Redruth\nBook tickets: /film/disney-junior-cinema-club-2026\n\
- nFilm details: https://evenwebb.github.io/merlin-cinemas/films/disney-juni
- or-cinema-club-2026.html
-LOCATION:Merlin Cinemas Redruth
-URL:/film/disney-junior-cinema-club-2026
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:d4821390a237e3ef8ef5f86e31ca41116c81e237@merlin-cinemas
-DTSTAMP:20261117T190023Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
-SUMMARY:Room On The Broom & The Highway Rat @ Merlin Redruth
-DESCRIPTION:Room On The Broom & The Highway Rat (25 min)\n★★★☆☆\nFamily\, A
- nimation\, TV Movie\n\nAnimated film based on the wonderful children's pic
- ture book written by Julia Donaldson and illustrated by Axel Scheffler.  T
- he story of a kind witch who invites a surprising collection of animals to
-  join her on her broom\, much to the frustration of her cat. The gang ulti
- mately saves the witch from a fearsome dragon\, and in gratitude she rewar
- ds them with a magnificent new broom which has room for everyone.  A magic
- al tale about friendship and family from Magic Light Pictures\, the produc
- ers of the hugely successful The Gruffalo and The Gruffalo's Child.\n\nSta
- rring: Gillian Anderson\, Timothy Spall\, Sally Hawkins\, Rob Brydon\, Mar
- tin Clunes\, Simon Pegg\n\nFilm release at Merlin Cinemas Redruth\nBook ti
- ckets: /film/room-on-the-broom-and-the-highway-rat-toddler-cinema\n\nFilm 
- details: https://evenwebb.github.io/merlin-cinemas/films/room-on-the-broom
- -the-highway-rat.html
-LOCATION:Merlin Cinemas Redruth
-URL:/film/room-on-the-broom-and-the-highway-rat-toddler-cinema
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:7409d08fce53cd06945cb4e8a9e4d7653f6a1b38@merlin-cinemas
-DTSTAMP:20261117T190023Z
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
-SUMMARY:Rififi En La Ciudad @ Merlin Redruth
-DESCRIPTION:Rififi En La Ciudad (1h 58min)\n★★★★☆\nCrime\, Thriller\, Drama
- \n\nOut of prison after a five-year stretch\, jewel thief Tony turns down 
- a quick job his friend Jo offers him\, until he discovers that his old gir
- lfriend Mado has become the lover of local gangster Pierre Grutter during 
- Tony's absence. Expanding a minor smash-and-grab into a full-scale jewel h
- eist\, Tony and his crew appear to get away clean\, but their actions afte
- r the job is completed threaten the lives of everyone involved.\n\nStarrin
- g: Jean Servais\, Carl Möhner\, Robert Manuel\, Janine Darcey\, Pierre Gra
- sset\, Robert Hossein\n\nFilm release at Merlin Cinemas Redruth\nBook tick
- ets: /film/rififi-en-la-ciudad\n\nFilm details: https://evenwebb.github.io
- /merlin-cinemas/films/rififi-en-la-ciudad.html
-LOCATION:Merlin Cinemas Redruth
-URL:/film/rififi-en-la-ciudad
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
 UID:f74e5320621457dd3bd8982f02292ab2b2e6db33@merlin-cinemas
-DTSTAMP:20261117T190023Z
+DTSTAMP:20261118T184433Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:Amazing Grace @ Merlin Redruth
@@ -132,7 +28,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:56c7e4cae5a28118b418d62159d2e6111ce049e5@merlin-cinemas
-DTSTAMP:20261117T190023Z
+DTSTAMP:20261118T184433Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:Prima Facie @ Merlin Redruth
@@ -152,10 +48,10 @@ URL:/film/prima-facie
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
-UID:ebce52c5639243c6bcc0046884d2829849b0636a@merlin-cinemas
-DTSTAMP:20261117T190023Z
-DTSTART;VALUE=DATE:20261117
-DTEND;VALUE=DATE:20261118
+UID:970d0992d59e4fc8f101954aa22eb55f4b64dd51@merlin-cinemas
+DTSTAMP:20261118T184433Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
 SUMMARY:How To Rob A Bank @ Merlin Redruth
 DESCRIPTION:How To Rob A Bank (2h 2min)\n★★★☆☆\nAction\, Crime\, Thriller\n
  \nA crew of social media-savvy bank robbers broadcasts their daring heists
@@ -173,7 +69,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:58fb51a348f906a719642cbc86cf82c986fa1ecb@merlin-cinemas
-DTSTAMP:20261117T190023Z
+DTSTAMP:20261118T184433Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Hexed @ Merlin Redruth
@@ -193,7 +89,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:9024bf113932a9f1ef97e3d21d098f9d4f5506d9@merlin-cinemas
-DTSTAMP:20261117T190023Z
+DTSTAMP:20261118T184433Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Violent Night 2 @ Merlin Redruth
@@ -214,7 +110,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:49e38f4bc6e4846b78c04622d4f34e4f656ea2c0@merlin-cinemas
-DTSTAMP:20261117T190023Z
+DTSTAMP:20261118T184433Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:The Cat In The Hat @ Merlin Redruth
@@ -232,8 +128,27 @@ URL:/film/the-cat-in-the-hat
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
+UID:e72f72d7865c0520fed254ff93b71fe45a5749a8@merlin-cinemas
+DTSTAMP:20261118T184433Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:Tabby McTat & Stick Man @ Merlin Redruth
+DESCRIPTION:Tabby McTat & Stick Man (25 min)\nFamily\, Animation\, TV Movie
+ \n\nBusker Fred and his cat Tabby McTat entertain and delight passersby wi
+ th music across London. One day\, Fred falls\, injures his leg\, and is wh
+ isked away in an ambulance\, leaving Tabby alone on the city's streets.\n\
+ nStarring: Jodie Whittaker\, Rob Brydon\, Ṣọpẹ́ Dìrísù\, Susan Wokoma\, Jo
+ anna Scanlan\, Cariad Lloyd\n\nFilm release at Merlin Cinemas Redruth\nBoo
+ k tickets: /film/tabby-mctat-and-stick-man-toddler-cinema\n\nFilm details:
+  https://evenwebb.github.io/merlin-cinemas/films/tabby-mctat-stick-man.htm
+ l
+LOCATION:Merlin Cinemas Redruth
+URL:/film/tabby-mctat-and-stick-man-toddler-cinema
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
 UID:dba45d8d1c58087df29e2068491aa7ceb825d36a@merlin-cinemas
-DTSTAMP:20261117T190023Z
+DTSTAMP:20261118T184433Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Dune: Part Three @ Merlin Redruth
@@ -255,7 +170,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:918463f2725e5df48e5b84c6142735be2f183cdf@merlin-cinemas
-DTSTAMP:20261117T190023Z
+DTSTAMP:20261118T184433Z
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
 SUMMARY:Avengers: Doomsday @ Merlin Redruth
@@ -271,42 +186,43 @@ URL:/film/avengers-doomsday
 SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
-UID:089ad1d1018f22ffd6969405b1c8691dfac69f99@merlin-cinemas
-DTSTAMP:20261117T190023Z
-DTSTART;VALUE=DATE:20261225
-DTEND;VALUE=DATE:20261226
+UID:e1c29b2bad10117a147b0abea8b8d3e0d19da4a8@merlin-cinemas
+DTSTAMP:20261118T184433Z
+DTSTART;VALUE=DATE:20261223
+DTEND;VALUE=DATE:20261224
 SUMMARY:Jumanji: Open World @ Merlin Redruth
-DESCRIPTION:Jumanji: Open World\nAdventure\, Comedy\, Fantasy\n\nOur heroes
-  have escaped the ever-changing jungles of Jumanji before\, but this time 
- the game comes to us—as Jumanji breaks free of its console\, unleashing it
- s chaos into our world.\n\nStarring: Dwayne Johnson\, Kevin Hart\, Jack Bl
- ack\, Karen Gillan\, Awkwafina\, Alex Wolff\n\nFilm release at Merlin Cine
- mas Redruth\nBook tickets: /film/jumanji-open-world\n\nFilm details: https
- ://evenwebb.github.io/merlin-cinemas/films/jumanji-open-world.html
+DESCRIPTION:Jumanji: Open World (2h 6min)\nAdventure\, Comedy\, Fantasy\n\n
+ Our heroes have escaped the ever-changing jungles of Jumanji before\, but 
+ this time the game comes to us—as Jumanji breaks free of its console\, unl
+ eashing its chaos into our world.\n\nStarring: Dwayne Johnson\, Kevin Hart
+ \, Jack Black\, Karen Gillan\, Alex Wolff\, Morgan Turner\n\nFilm release 
+ at Merlin Cinemas Redruth\nBook tickets: /film/jumanji-open-world\n\nFilm 
+ details: https://evenwebb.github.io/merlin-cinemas/films/jumanji-open-worl
+ d.html
 LOCATION:Merlin Cinemas Redruth
 URL:/film/jumanji-open-world
-SEQUENCE:0
+SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:8875957c25f046400827fe0adc1ade7856d8bdf1@merlin-cinemas
-DTSTAMP:20261117T190023Z
+DTSTAMP:20261118T184433Z
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20261226
 SUMMARY:The Angry Birds Movie 3 @ Merlin Redruth
 DESCRIPTION:The Angry Birds Movie 3 (1h 36min)\nAdventure\, Animation\, Com
- edy\, Family\, Science Fiction\n\nRed faces his greatest challenge yet—sur
- viving fatherhood… while saving the world.\n\nStarring: Jason Sudeikis\, J
- osh Gad\, Danny McBride\, Rachel Bloom\, Emma Myers\, Walker Scobell\n\nFi
- lm release at Merlin Cinemas Redruth\nBook tickets: /film/the-angry-birds-
- movie-3\n\nFilm details: https://evenwebb.github.io/merlin-cinemas/films/t
- he-angry-birds-movie-3.html
+ edy\, Family\n\nRed faces his greatest challenge yet—surviving fatherhood…
+  while saving the world.\n\nStarring: Jason Sudeikis\, Josh Gad\, Danny Mc
+ Bride\, Rachel Bloom\, Emma Myers\, Walker Scobell\n\nFilm release at Merl
+ in Cinemas Redruth\nBook tickets: /film/the-angry-birds-movie-3\n\nFilm de
+ tails: https://evenwebb.github.io/merlin-cinemas/films/the-angry-birds-mov
+ ie-3.html
 LOCATION:Merlin Cinemas Redruth
 URL:/film/the-angry-birds-movie-3
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:abc7c07c9f44d85da4ff7741b2390c8d355dae7f@merlin-cinemas
-DTSTAMP:20261117T190023Z
+DTSTAMP:20261118T184433Z
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270102
 SUMMARY:Werwulf @ Merlin Redruth
@@ -322,7 +238,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:08084ac251c5ee9e17d0e40f9afbc367a0b574bb@merlin-cinemas
-DTSTAMP:20261117T190023Z
+DTSTAMP:20261118T184433Z
 DTSTART;VALUE=DATE:20270108
 DTEND;VALUE=DATE:20270109
 SUMMARY:Ink @ Merlin Redruth
@@ -339,7 +255,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:6eb21c0fff44d4f51604a6e9bee8befd65cfcf9b@merlin-cinemas
-DTSTAMP:20261117T190023Z
+DTSTAMP:20261118T184433Z
 DTSTART;VALUE=DATE:20270122
 DTEND;VALUE=DATE:20270123
 SUMMARY:Children Of Blood And Bone @ Merlin Redruth
@@ -357,7 +273,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:a9e7caf8bc37c62b76b322223b23f7ffe525ea36@merlin-cinemas
-DTSTAMP:20261117T190023Z
+DTSTAMP:20261118T184433Z
 DTSTART;VALUE=DATE:20270129
 DTEND;VALUE=DATE:20270130
 SUMMARY:Elsinore @ Merlin Redruth
@@ -376,7 +292,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:45add96410ca0c44928b2b0eaa6ea04ff450834a@merlin-cinemas
-DTSTAMP:20261117T190023Z
+DTSTAMP:20261118T184433Z
 DTSTART;VALUE=DATE:20270205
 DTEND;VALUE=DATE:20270206
 SUMMARY:Remain @ Merlin Redruth
@@ -394,7 +310,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:a1119d6c85dfbfea9fc1a5bb0dfb289993a1a981@merlin-cinemas
-DTSTAMP:20261117T190023Z
+DTSTAMP:20261118T184433Z
 DTSTART;VALUE=DATE:20270205
 DTEND;VALUE=DATE:20270206
 SUMMARY:Ice Age: Boiling Point @ Merlin Redruth
@@ -413,7 +329,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:2ebf8c41155e18f216fe30085a7b5ab437fd5972@merlin-cinemas
-DTSTAMP:20261117T190023Z
+DTSTAMP:20261118T184433Z
 DTSTART;VALUE=DATE:20270212
 DTEND;VALUE=DATE:20270213
 SUMMARY:Narnia: The Magician's Nephew @ Merlin Redruth
@@ -431,7 +347,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:ebe963c9cb9845240064f4252d0c1380c4d129ad@merlin-cinemas
-DTSTAMP:20261117T190023Z
+DTSTAMP:20261118T184433Z
 DTSTART;VALUE=DATE:20270212
 DTEND;VALUE=DATE:20270213
 SUMMARY:CoComelon: The Movie @ Merlin Redruth
@@ -451,27 +367,27 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:703a8c76105f67c0422e34b81ca75c85410b139c@merlin-cinemas
-DTSTAMP:20261117T190023Z
+DTSTAMP:20261118T184433Z
 DTSTART;VALUE=DATE:20270305
 DTEND;VALUE=DATE:20270306
 SUMMARY:Gatto @ Merlin Redruth
-DESCRIPTION:Gatto\nAnimation\, Comedy\, Crime\, Family\n\nAfter years of ma
- neuvering the canal-ridden\, superstitious city of Venice\, Italy\, a scra
- ppy black cat named Nero begins to question whether he’s lived the right l
- ives. Indebted to Rocco\, a ruthless local feline mob boss\, Nero finds hi
- mself in a quandary and is forced to forge a truly unexpected friendship t
- hat may finally lead him to his purpose—unless Venice gets the better of h
- im first.\n\nStarring: Mark Ruffalo\, Laurence Fishburne\, Enrico Casarosa
- \, Bianca Babaşa\, Sherry Cola\, John Turturro\n\nFilm release at Merlin C
- inemas Redruth\nBook tickets: /film/gatto\n\nFilm details: https://evenweb
- b.github.io/merlin-cinemas/films/gatto.html
+DESCRIPTION:Gatto (1h 38min)\nAnimation\, Comedy\, Crime\, Family\n\nAfter 
+ years of maneuvering the canal-ridden\, superstitious city of Venice\, Ita
+ ly\, a scrappy black cat named Nero begins to question whether he’s lived 
+ the right lives. Indebted to Rocco\, a ruthless local feline mob boss\, Ne
+ ro finds himself in a quandary and is forced to forge a truly unexpected f
+ riendship that may finally lead him to his purpose—unless Venice gets the 
+ better of him first.\n\nStarring: Mark Ruffalo\, Laurence Fishburne\, Enri
+ co Casarosa\, Bianca Babaşa\, Sherry Cola\, John Turturro\n\nFilm release 
+ at Merlin Cinemas Redruth\nBook tickets: /film/gatto\n\nFilm details: http
+ s://evenwebb.github.io/merlin-cinemas/films/gatto.html
 LOCATION:Merlin Cinemas Redruth
 URL:/film/gatto
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:92d9a02200114dd6ec9fd0558accc786b9313be2@merlin-cinemas
-DTSTAMP:20261117T190023Z
+DTSTAMP:20261118T184433Z
 DTSTART;VALUE=DATE:20270312
 DTEND;VALUE=DATE:20270313
 SUMMARY:The Exorcist: Martyrs @ Merlin Redruth
@@ -491,7 +407,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:5607b9c53c36e03267902cf2436d8010e783169f@merlin-cinemas
-DTSTAMP:20261117T190023Z
+DTSTAMP:20261118T184433Z
 DTSTART;VALUE=DATE:20270521
 DTEND;VALUE=DATE:20270522
 SUMMARY:Not Alone @ Merlin Redruth
@@ -509,7 +425,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:7d0bbc8fea8cb59eb8a7b54812854453816aaae0@merlin-cinemas
-DTSTAMP:20261117T190023Z
+DTSTAMP:20261118T184433Z
 DTSTART;VALUE=DATE:20270730
 DTEND;VALUE=DATE:20270731
 SUMMARY:Shrek 5 @ Merlin Redruth

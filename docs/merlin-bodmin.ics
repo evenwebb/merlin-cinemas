@@ -9,112 +9,8 @@ X-WR-CALNAME:Merlin Capitol Cinema Movie Premieres
 X-WR-CALDESC:Upcoming movie premieres at Merlin Cinemas Capitol Cinema
 X-WR-TIMEZONE:Europe/London
 BEGIN:VEVENT
-UID:34470af15d3d1ce4d289c9f6afb38596dac0e3ae@merlin-cinemas
-DTSTAMP:20261117T190023Z
-DTSTART;VALUE=DATE:20250822
-DTEND;VALUE=DATE:20250823
-SUMMARY:The Rocky Horror Picture Show @ Merlin Bodmin
-DESCRIPTION:The Rocky Horror Picture Show (1h 40min)\n★★★★☆\nComedy\, Scien
- ce Fiction\, Horror\n\nAfter getting a flat tire in the middle of nowhere\
- , newly engaged couple Brad and Janet encounter the eerie mansion of the f
- lamboyant\, seductive Dr Frank-N-Furter and a variety of eccentric charact
- ers. Through elaborate dance and rock music\, the mad scientist unveils hi
- s latest creation: a perfect\, muscular man.\n\nStarring: Tim Curry\, Susa
- n Sarandon\, Barry Bostwick\, Richard O'Brien\, Patricia Quinn\, Nell Camp
- bell\n\nFilm release at Merlin Cinemas Bodmin\nBook tickets: /film/the-roc
- ky-horror-picture-show-50th-anniversary\n\nFilm details: https://evenwebb.
- github.io/merlin-cinemas/films/the-rocky-horror-picture-show.html
-LOCATION:Merlin Cinemas Bodmin
-URL:/film/the-rocky-horror-picture-show-50th-anniversary
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:2de7c29ce04cfebe9767d419e84cdfbf1427b004@merlin-cinemas
-DTSTAMP:20261117T190023Z
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
-SUMMARY:Monster Mia @ Merlin Bodmin
-DESCRIPTION:Monster Mia (1h 22min)\nAnimation\, Fantasy\, Family\n\n12-year
- -old Mia and her scruffy pet rat Quentin are sent to the mysterious Rotwoo
- d Academy after one too many problems at school. The new school gives her 
- the creeps\, and Mia needs to figure a way out before the students realize
-  she isn't a monster like them! But the vice principal Van Vlad hosts a pa
- rticular dislike for humans\, and Mia is scared he has seen through her ac
- t...\n\nFilm release at Merlin Cinemas Bodmin\nBook tickets: /film/monster
- -mia\n\nFilm details: https://evenwebb.github.io/merlin-cinemas/films/mons
- ter-mia.html
-LOCATION:Merlin Cinemas Bodmin
-URL:/film/monster-mia
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:f5b5dbd1f7662423d3476dc79d425739389e8fb1@merlin-cinemas
-DTSTAMP:20261117T190023Z
-DTSTART;VALUE=DATE:20261024
-DTEND;VALUE=DATE:20261025
-SUMMARY:Disney Junior Cinema Club 2026 @ Merlin Bodmin
-DESCRIPTION:Disney Junior Cinema Club 2026\n\nPacked with fun for preschool
- ers and their grown-ups\, this interactive big-screen experience brings to
- gether some favourite Disney Junior stories from Mickey Mouse Clubhouse+\,
-  Minnie's Bow-Toons: Pet Hotel\, Marvel's Iron Man and His Awesome Friends
- \, Sofia the First: Royal Magic and Toy Story Toons\, in a fun-filled extr
- avaganza! Expect sing-alongs\, dance moments\, exciting games and magical 
- surprises\, where audience participation is a must.\n\nFilm release at Mer
- lin Cinemas Bodmin\nBook tickets: /film/disney-junior-cinema-club-2026\n\n
- Film details: https://evenwebb.github.io/merlin-cinemas/films/disney-junio
- r-cinema-club-2026.html
-LOCATION:Merlin Cinemas Bodmin
-URL:/film/disney-junior-cinema-club-2026
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:0e5711f60dcb34104aec0cc6d017b5305de00a1f@merlin-cinemas
-DTSTAMP:20261117T190023Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
-SUMMARY:Room On The Broom & The Highway Rat @ Merlin Bodmin
-DESCRIPTION:Room On The Broom & The Highway Rat (25 min)\n★★★☆☆\nFamily\, A
- nimation\, TV Movie\n\nAnimated film based on the wonderful children's pic
- ture book written by Julia Donaldson and illustrated by Axel Scheffler.  T
- he story of a kind witch who invites a surprising collection of animals to
-  join her on her broom\, much to the frustration of her cat. The gang ulti
- mately saves the witch from a fearsome dragon\, and in gratitude she rewar
- ds them with a magnificent new broom which has room for everyone.  A magic
- al tale about friendship and family from Magic Light Pictures\, the produc
- ers of the hugely successful The Gruffalo and The Gruffalo's Child.\n\nSta
- rring: Gillian Anderson\, Timothy Spall\, Sally Hawkins\, Rob Brydon\, Mar
- tin Clunes\, Simon Pegg\n\nFilm release at Merlin Cinemas Bodmin\nBook tic
- kets: /film/room-on-the-broom-and-the-highway-rat-toddler-cinema\n\nFilm d
- etails: https://evenwebb.github.io/merlin-cinemas/films/room-on-the-broom-
- the-highway-rat.html
-LOCATION:Merlin Cinemas Bodmin
-URL:/film/room-on-the-broom-and-the-highway-rat-toddler-cinema
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:20859c308093bb3e2fa1f4f0825af850eb6d6efb@merlin-cinemas
-DTSTAMP:20261117T190023Z
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
-SUMMARY:Rififi En La Ciudad @ Merlin Bodmin
-DESCRIPTION:Rififi En La Ciudad (1h 58min)\n★★★★☆\nCrime\, Thriller\, Drama
- \n\nOut of prison after a five-year stretch\, jewel thief Tony turns down 
- a quick job his friend Jo offers him\, until he discovers that his old gir
- lfriend Mado has become the lover of local gangster Pierre Grutter during 
- Tony's absence. Expanding a minor smash-and-grab into a full-scale jewel h
- eist\, Tony and his crew appear to get away clean\, but their actions afte
- r the job is completed threaten the lives of everyone involved.\n\nStarrin
- g: Jean Servais\, Carl Möhner\, Robert Manuel\, Janine Darcey\, Pierre Gra
- sset\, Robert Hossein\n\nFilm release at Merlin Cinemas Bodmin\nBook ticke
- ts: /film/rififi-en-la-ciudad\n\nFilm details: https://evenwebb.github.io/
- merlin-cinemas/films/rififi-en-la-ciudad.html
-LOCATION:Merlin Cinemas Bodmin
-URL:/film/rififi-en-la-ciudad
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
 UID:9e443662363634dcae215a0eb55acba712a877db@merlin-cinemas
-DTSTAMP:20261117T190023Z
+DTSTAMP:20261118T184433Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:Amazing Grace @ Merlin Bodmin
@@ -132,7 +28,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:d84b3446e2bd42a5277abd032ca15c0b8dd83af3@merlin-cinemas
-DTSTAMP:20261117T190023Z
+DTSTAMP:20261118T184433Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:Prima Facie @ Merlin Bodmin
@@ -153,7 +49,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:207519237c22db57f535b7b859fb4df832cbd6ef@merlin-cinemas
-DTSTAMP:20261117T190023Z
+DTSTAMP:20261118T184433Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:How To Rob A Bank @ Merlin Bodmin
@@ -173,7 +69,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:38d0513e46cddd4fa84777986528d7758b72aa93@merlin-cinemas
-DTSTAMP:20261117T190023Z
+DTSTAMP:20261118T184433Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Hexed @ Merlin Bodmin
@@ -193,7 +89,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:0678dcbf8a61f2b2cbba5781275cf6c4deae8ee0@merlin-cinemas
-DTSTAMP:20261117T190023Z
+DTSTAMP:20261118T184433Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Violent Night 2 @ Merlin Bodmin
@@ -214,7 +110,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:2ee0adcc255249726bd20ace21208c1d5a5114e3@merlin-cinemas
-DTSTAMP:20261117T190023Z
+DTSTAMP:20261118T184433Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:The Cat In The Hat @ Merlin Bodmin
@@ -232,8 +128,26 @@ URL:/film/the-cat-in-the-hat
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
+UID:f4ce8ad146372036e33f9cd0a82f41c8b8db773c@merlin-cinemas
+DTSTAMP:20261118T184433Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:Tabby McTat & Stick Man @ Merlin Bodmin
+DESCRIPTION:Tabby McTat & Stick Man (25 min)\nFamily\, Animation\, TV Movie
+ \n\nBusker Fred and his cat Tabby McTat entertain and delight passersby wi
+ th music across London. One day\, Fred falls\, injures his leg\, and is wh
+ isked away in an ambulance\, leaving Tabby alone on the city's streets.\n\
+ nStarring: Jodie Whittaker\, Rob Brydon\, Ṣọpẹ́ Dìrísù\, Susan Wokoma\, Jo
+ anna Scanlan\, Cariad Lloyd\n\nFilm release at Merlin Cinemas Bodmin\nBook
+  tickets: /film/tabby-mctat-and-stick-man-toddler-cinema\n\nFilm details: 
+ https://evenwebb.github.io/merlin-cinemas/films/tabby-mctat-stick-man.html
+LOCATION:Merlin Cinemas Bodmin
+URL:/film/tabby-mctat-and-stick-man-toddler-cinema
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
 UID:10fab4e0554c825b1d237d6d273b03a3262bce76@merlin-cinemas
-DTSTAMP:20261117T190023Z
+DTSTAMP:20261118T184433Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Dune: Part Three @ Merlin Bodmin
@@ -255,7 +169,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:8bcde4a29b6f26e28e4bc7ccf40812c1b1ce089f@merlin-cinemas
-DTSTAMP:20261117T190023Z
+DTSTAMP:20261118T184433Z
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
 SUMMARY:Avengers: Doomsday @ Merlin Bodmin
@@ -271,42 +185,43 @@ URL:/film/avengers-doomsday
 SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
-UID:adb9d22e31f1fb0f3a2f717c68c634857ca05488@merlin-cinemas
-DTSTAMP:20261117T190023Z
-DTSTART;VALUE=DATE:20261225
-DTEND;VALUE=DATE:20261226
+UID:280d3ba85536a4fecc99776a114418257f522f58@merlin-cinemas
+DTSTAMP:20261118T184433Z
+DTSTART;VALUE=DATE:20261223
+DTEND;VALUE=DATE:20261224
 SUMMARY:Jumanji: Open World @ Merlin Bodmin
-DESCRIPTION:Jumanji: Open World\nAdventure\, Comedy\, Fantasy\n\nOur heroes
-  have escaped the ever-changing jungles of Jumanji before\, but this time 
- the game comes to us—as Jumanji breaks free of its console\, unleashing it
- s chaos into our world.\n\nStarring: Dwayne Johnson\, Kevin Hart\, Jack Bl
- ack\, Karen Gillan\, Awkwafina\, Alex Wolff\n\nFilm release at Merlin Cine
- mas Bodmin\nBook tickets: /film/jumanji-open-world\n\nFilm details: https:
- //evenwebb.github.io/merlin-cinemas/films/jumanji-open-world.html
+DESCRIPTION:Jumanji: Open World (2h 6min)\nAdventure\, Comedy\, Fantasy\n\n
+ Our heroes have escaped the ever-changing jungles of Jumanji before\, but 
+ this time the game comes to us—as Jumanji breaks free of its console\, unl
+ eashing its chaos into our world.\n\nStarring: Dwayne Johnson\, Kevin Hart
+ \, Jack Black\, Karen Gillan\, Alex Wolff\, Morgan Turner\n\nFilm release 
+ at Merlin Cinemas Bodmin\nBook tickets: /film/jumanji-open-world\n\nFilm d
+ etails: https://evenwebb.github.io/merlin-cinemas/films/jumanji-open-world
+ .html
 LOCATION:Merlin Cinemas Bodmin
 URL:/film/jumanji-open-world
-SEQUENCE:0
+SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:0b0b5ebcdb1186a66b24f8e2782905316885b7c0@merlin-cinemas
-DTSTAMP:20261117T190023Z
+DTSTAMP:20261118T184433Z
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20261226
 SUMMARY:The Angry Birds Movie 3 @ Merlin Bodmin
 DESCRIPTION:The Angry Birds Movie 3 (1h 36min)\nAdventure\, Animation\, Com
- edy\, Family\, Science Fiction\n\nRed faces his greatest challenge yet—sur
- viving fatherhood… while saving the world.\n\nStarring: Jason Sudeikis\, J
- osh Gad\, Danny McBride\, Rachel Bloom\, Emma Myers\, Walker Scobell\n\nFi
- lm release at Merlin Cinemas Bodmin\nBook tickets: /film/the-angry-birds-m
- ovie-3\n\nFilm details: https://evenwebb.github.io/merlin-cinemas/films/th
- e-angry-birds-movie-3.html
+ edy\, Family\n\nRed faces his greatest challenge yet—surviving fatherhood…
+  while saving the world.\n\nStarring: Jason Sudeikis\, Josh Gad\, Danny Mc
+ Bride\, Rachel Bloom\, Emma Myers\, Walker Scobell\n\nFilm release at Merl
+ in Cinemas Bodmin\nBook tickets: /film/the-angry-birds-movie-3\n\nFilm det
+ ails: https://evenwebb.github.io/merlin-cinemas/films/the-angry-birds-movi
+ e-3.html
 LOCATION:Merlin Cinemas Bodmin
 URL:/film/the-angry-birds-movie-3
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:d79fc68550efe38b20a230592fe7dc12ab4df3f5@merlin-cinemas
-DTSTAMP:20261117T190023Z
+DTSTAMP:20261118T184433Z
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270102
 SUMMARY:Werwulf @ Merlin Bodmin
@@ -322,7 +237,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:dc1a501c20f05a1b8bc32ed9ed6514ad5ccb9e10@merlin-cinemas
-DTSTAMP:20261117T190023Z
+DTSTAMP:20261118T184433Z
 DTSTART;VALUE=DATE:20270108
 DTEND;VALUE=DATE:20270109
 SUMMARY:Ink @ Merlin Bodmin
@@ -339,7 +254,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:fb0e4f8771912d66e49f971ea4f2c274e4e6c3b6@merlin-cinemas
-DTSTAMP:20261117T190023Z
+DTSTAMP:20261118T184433Z
 DTSTART;VALUE=DATE:20270122
 DTEND;VALUE=DATE:20270123
 SUMMARY:Children Of Blood And Bone @ Merlin Bodmin
@@ -357,7 +272,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:ae950e5e0addb39e3f7628d3e365acba3ce2233b@merlin-cinemas
-DTSTAMP:20261117T190023Z
+DTSTAMP:20261118T184433Z
 DTSTART;VALUE=DATE:20270129
 DTEND;VALUE=DATE:20270130
 SUMMARY:Elsinore @ Merlin Bodmin
@@ -376,7 +291,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:99847bb065ca31a0430303046006df01ffc1a882@merlin-cinemas
-DTSTAMP:20261117T190023Z
+DTSTAMP:20261118T184433Z
 DTSTART;VALUE=DATE:20270205
 DTEND;VALUE=DATE:20270206
 SUMMARY:Remain @ Merlin Bodmin
@@ -394,7 +309,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:7daa320f6b36cc8182f8f078ed4c10ba62927593@merlin-cinemas
-DTSTAMP:20261117T190023Z
+DTSTAMP:20261118T184433Z
 DTSTART;VALUE=DATE:20270205
 DTEND;VALUE=DATE:20270206
 SUMMARY:Ice Age: Boiling Point @ Merlin Bodmin
@@ -413,7 +328,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:45a5aace4c9cc331a8a3da5120950a60b628851a@merlin-cinemas
-DTSTAMP:20261117T190023Z
+DTSTAMP:20261118T184433Z
 DTSTART;VALUE=DATE:20270212
 DTEND;VALUE=DATE:20270213
 SUMMARY:Narnia: The Magician's Nephew @ Merlin Bodmin
@@ -431,7 +346,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:95bf23e2468df428f9da9502ada529cc57c10c1d@merlin-cinemas
-DTSTAMP:20261117T190023Z
+DTSTAMP:20261118T184433Z
 DTSTART;VALUE=DATE:20270212
 DTEND;VALUE=DATE:20270213
 SUMMARY:CoComelon: The Movie @ Merlin Bodmin
@@ -451,27 +366,27 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:09c5fb59cc77e579c80569b6e637b63dba95d988@merlin-cinemas
-DTSTAMP:20261117T190023Z
+DTSTAMP:20261118T184433Z
 DTSTART;VALUE=DATE:20270305
 DTEND;VALUE=DATE:20270306
 SUMMARY:Gatto @ Merlin Bodmin
-DESCRIPTION:Gatto\nAnimation\, Comedy\, Crime\, Family\n\nAfter years of ma
- neuvering the canal-ridden\, superstitious city of Venice\, Italy\, a scra
- ppy black cat named Nero begins to question whether he’s lived the right l
- ives. Indebted to Rocco\, a ruthless local feline mob boss\, Nero finds hi
- mself in a quandary and is forced to forge a truly unexpected friendship t
- hat may finally lead him to his purpose—unless Venice gets the better of h
- im first.\n\nStarring: Mark Ruffalo\, Laurence Fishburne\, Enrico Casarosa
- \, Bianca Babaşa\, Sherry Cola\, John Turturro\n\nFilm release at Merlin C
- inemas Bodmin\nBook tickets: /film/gatto\n\nFilm details: https://evenwebb
- .github.io/merlin-cinemas/films/gatto.html
+DESCRIPTION:Gatto (1h 38min)\nAnimation\, Comedy\, Crime\, Family\n\nAfter 
+ years of maneuvering the canal-ridden\, superstitious city of Venice\, Ita
+ ly\, a scrappy black cat named Nero begins to question whether he’s lived 
+ the right lives. Indebted to Rocco\, a ruthless local feline mob boss\, Ne
+ ro finds himself in a quandary and is forced to forge a truly unexpected f
+ riendship that may finally lead him to his purpose—unless Venice gets the 
+ better of him first.\n\nStarring: Mark Ruffalo\, Laurence Fishburne\, Enri
+ co Casarosa\, Bianca Babaşa\, Sherry Cola\, John Turturro\n\nFilm release 
+ at Merlin Cinemas Bodmin\nBook tickets: /film/gatto\n\nFilm details: https
+ ://evenwebb.github.io/merlin-cinemas/films/gatto.html
 LOCATION:Merlin Cinemas Bodmin
 URL:/film/gatto
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:781717feb073ed59fc43ffd92a08aadfeeb72c87@merlin-cinemas
-DTSTAMP:20261117T190023Z
+DTSTAMP:20261118T184433Z
 DTSTART;VALUE=DATE:20270312
 DTEND;VALUE=DATE:20270313
 SUMMARY:The Exorcist: Martyrs @ Merlin Bodmin
@@ -491,7 +406,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:793c2b92173291fa4c96e58256f17bb238d1c5ef@merlin-cinemas
-DTSTAMP:20261117T190023Z
+DTSTAMP:20261118T184433Z
 DTSTART;VALUE=DATE:20270521
 DTEND;VALUE=DATE:20270522
 SUMMARY:Not Alone @ Merlin Bodmin
@@ -509,7 +424,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:f81502369971baef9ea68e30b37fc92b24468cc3@merlin-cinemas
-DTSTAMP:20261117T190023Z
+DTSTAMP:20261118T184433Z
 DTSTART;VALUE=DATE:20270730
 DTEND;VALUE=DATE:20270731
 SUMMARY:Shrek 5 @ Merlin Bodmin

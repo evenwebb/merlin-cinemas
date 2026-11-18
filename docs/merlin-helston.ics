@@ -9,112 +9,8 @@ X-WR-CALNAME:Merlin Flora Cinema Movie Premieres
 X-WR-CALDESC:Upcoming movie premieres at Merlin Cinemas Flora Cinema
 X-WR-TIMEZONE:Europe/London
 BEGIN:VEVENT
-UID:a8b0778a99ad73e2995e9a8552f5cfef9dc0439b@merlin-cinemas
-DTSTAMP:20261117T190023Z
-DTSTART;VALUE=DATE:20250822
-DTEND;VALUE=DATE:20250823
-SUMMARY:The Rocky Horror Picture Show @ Merlin Helston
-DESCRIPTION:The Rocky Horror Picture Show (1h 40min)\n★★★★☆\nComedy\, Scien
- ce Fiction\, Horror\n\nAfter getting a flat tire in the middle of nowhere\
- , newly engaged couple Brad and Janet encounter the eerie mansion of the f
- lamboyant\, seductive Dr Frank-N-Furter and a variety of eccentric charact
- ers. Through elaborate dance and rock music\, the mad scientist unveils hi
- s latest creation: a perfect\, muscular man.\n\nStarring: Tim Curry\, Susa
- n Sarandon\, Barry Bostwick\, Richard O'Brien\, Patricia Quinn\, Nell Camp
- bell\n\nFilm release at Merlin Cinemas Helston\nBook tickets: /film/the-ro
- cky-horror-picture-show-50th-anniversary\n\nFilm details: https://evenwebb
- .github.io/merlin-cinemas/films/the-rocky-horror-picture-show.html
-LOCATION:Merlin Cinemas Helston
-URL:/film/the-rocky-horror-picture-show-50th-anniversary
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:7a38ecfdb772058287c46c99916f50db4d3481ed@merlin-cinemas
-DTSTAMP:20261117T190023Z
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
-SUMMARY:Monster Mia @ Merlin Helston
-DESCRIPTION:Monster Mia (1h 22min)\nAnimation\, Fantasy\, Family\n\n12-year
- -old Mia and her scruffy pet rat Quentin are sent to the mysterious Rotwoo
- d Academy after one too many problems at school. The new school gives her 
- the creeps\, and Mia needs to figure a way out before the students realize
-  she isn't a monster like them! But the vice principal Van Vlad hosts a pa
- rticular dislike for humans\, and Mia is scared he has seen through her ac
- t...\n\nFilm release at Merlin Cinemas Helston\nBook tickets: /film/monste
- r-mia\n\nFilm details: https://evenwebb.github.io/merlin-cinemas/films/mon
- ster-mia.html
-LOCATION:Merlin Cinemas Helston
-URL:/film/monster-mia
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:5cb4cf813990952c8835a6cf3af2f0dcc135cbc5@merlin-cinemas
-DTSTAMP:20261117T190023Z
-DTSTART;VALUE=DATE:20261024
-DTEND;VALUE=DATE:20261025
-SUMMARY:Disney Junior Cinema Club 2026 @ Merlin Helston
-DESCRIPTION:Disney Junior Cinema Club 2026\n\nPacked with fun for preschool
- ers and their grown-ups\, this interactive big-screen experience brings to
- gether some favourite Disney Junior stories from Mickey Mouse Clubhouse+\,
-  Minnie's Bow-Toons: Pet Hotel\, Marvel's Iron Man and His Awesome Friends
- \, Sofia the First: Royal Magic and Toy Story Toons\, in a fun-filled extr
- avaganza! Expect sing-alongs\, dance moments\, exciting games and magical 
- surprises\, where audience participation is a must.\n\nFilm release at Mer
- lin Cinemas Helston\nBook tickets: /film/disney-junior-cinema-club-2026\n\
- nFilm details: https://evenwebb.github.io/merlin-cinemas/films/disney-juni
- or-cinema-club-2026.html
-LOCATION:Merlin Cinemas Helston
-URL:/film/disney-junior-cinema-club-2026
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:f2c1047a186ab2799bb4d38457d812be6e4fdcd9@merlin-cinemas
-DTSTAMP:20261117T190023Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
-SUMMARY:Room On The Broom & The Highway Rat @ Merlin Helston
-DESCRIPTION:Room On The Broom & The Highway Rat (25 min)\n★★★☆☆\nFamily\, A
- nimation\, TV Movie\n\nAnimated film based on the wonderful children's pic
- ture book written by Julia Donaldson and illustrated by Axel Scheffler.  T
- he story of a kind witch who invites a surprising collection of animals to
-  join her on her broom\, much to the frustration of her cat. The gang ulti
- mately saves the witch from a fearsome dragon\, and in gratitude she rewar
- ds them with a magnificent new broom which has room for everyone.  A magic
- al tale about friendship and family from Magic Light Pictures\, the produc
- ers of the hugely successful The Gruffalo and The Gruffalo's Child.\n\nSta
- rring: Gillian Anderson\, Timothy Spall\, Sally Hawkins\, Rob Brydon\, Mar
- tin Clunes\, Simon Pegg\n\nFilm release at Merlin Cinemas Helston\nBook ti
- ckets: /film/room-on-the-broom-and-the-highway-rat-toddler-cinema\n\nFilm 
- details: https://evenwebb.github.io/merlin-cinemas/films/room-on-the-broom
- -the-highway-rat.html
-LOCATION:Merlin Cinemas Helston
-URL:/film/room-on-the-broom-and-the-highway-rat-toddler-cinema
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:20050e4ad0215ae51fd0d742ca730958a828179c@merlin-cinemas
-DTSTAMP:20261117T190023Z
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
-SUMMARY:Rififi En La Ciudad @ Merlin Helston
-DESCRIPTION:Rififi En La Ciudad (1h 58min)\n★★★★☆\nCrime\, Thriller\, Drama
- \n\nOut of prison after a five-year stretch\, jewel thief Tony turns down 
- a quick job his friend Jo offers him\, until he discovers that his old gir
- lfriend Mado has become the lover of local gangster Pierre Grutter during 
- Tony's absence. Expanding a minor smash-and-grab into a full-scale jewel h
- eist\, Tony and his crew appear to get away clean\, but their actions afte
- r the job is completed threaten the lives of everyone involved.\n\nStarrin
- g: Jean Servais\, Carl Möhner\, Robert Manuel\, Janine Darcey\, Pierre Gra
- sset\, Robert Hossein\n\nFilm release at Merlin Cinemas Helston\nBook tick
- ets: /film/rififi-en-la-ciudad\n\nFilm details: https://evenwebb.github.io
- /merlin-cinemas/films/rififi-en-la-ciudad.html
-LOCATION:Merlin Cinemas Helston
-URL:/film/rififi-en-la-ciudad
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
 UID:578cb8f82161789ac299672a3d697669168c1652@merlin-cinemas
-DTSTAMP:20261117T190023Z
+DTSTAMP:20261118T184433Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:Amazing Grace @ Merlin Helston
@@ -132,7 +28,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:5ed1f8bf18e7fa9e490951996df4aaa4821435e0@merlin-cinemas
-DTSTAMP:20261117T190023Z
+DTSTAMP:20261118T184433Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:Prima Facie @ Merlin Helston
@@ -153,7 +49,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:c7b1bcc477846f795c4fa2d63de2aac403726dae@merlin-cinemas
-DTSTAMP:20261117T190023Z
+DTSTAMP:20261118T184433Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:How To Rob A Bank @ Merlin Helston
@@ -173,7 +69,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:96c10e2794c6958056b9ae7c33e7bd6731acef1b@merlin-cinemas
-DTSTAMP:20261117T190023Z
+DTSTAMP:20261118T184433Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Hexed @ Merlin Helston
@@ -193,7 +89,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:dfaa4ba1d900d056973bc85ae39fa9101b414f52@merlin-cinemas
-DTSTAMP:20261117T190023Z
+DTSTAMP:20261118T184433Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Violent Night 2 @ Merlin Helston
@@ -214,7 +110,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:d295907debaad67df10f3ef20022916e25cff19a@merlin-cinemas
-DTSTAMP:20261117T190023Z
+DTSTAMP:20261118T184433Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:The Cat In The Hat @ Merlin Helston
@@ -232,8 +128,27 @@ URL:/film/the-cat-in-the-hat
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
+UID:98c61460a616aadf4c7b02ac4b19cd67cf7e2ce5@merlin-cinemas
+DTSTAMP:20261118T184433Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:Tabby McTat & Stick Man @ Merlin Helston
+DESCRIPTION:Tabby McTat & Stick Man (25 min)\nFamily\, Animation\, TV Movie
+ \n\nBusker Fred and his cat Tabby McTat entertain and delight passersby wi
+ th music across London. One day\, Fred falls\, injures his leg\, and is wh
+ isked away in an ambulance\, leaving Tabby alone on the city's streets.\n\
+ nStarring: Jodie Whittaker\, Rob Brydon\, Ṣọpẹ́ Dìrísù\, Susan Wokoma\, Jo
+ anna Scanlan\, Cariad Lloyd\n\nFilm release at Merlin Cinemas Helston\nBoo
+ k tickets: /film/tabby-mctat-and-stick-man-toddler-cinema\n\nFilm details:
+  https://evenwebb.github.io/merlin-cinemas/films/tabby-mctat-stick-man.htm
+ l
+LOCATION:Merlin Cinemas Helston
+URL:/film/tabby-mctat-and-stick-man-toddler-cinema
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
 UID:31f704160e76cb5f3c01020887e6b82e09bfc672@merlin-cinemas
-DTSTAMP:20261117T190023Z
+DTSTAMP:20261118T184433Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Dune: Part Three @ Merlin Helston
@@ -255,7 +170,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:0da83b95a4049cdfa59d0eac8f8a67dc78fd1547@merlin-cinemas
-DTSTAMP:20261117T190023Z
+DTSTAMP:20261118T184433Z
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
 SUMMARY:Avengers: Doomsday @ Merlin Helston
@@ -272,41 +187,42 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:25090d4d2afd69d67f7a226008a3d07d95bd60fc@merlin-cinemas
-DTSTAMP:20261117T190023Z
+DTSTAMP:20261118T184433Z
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20261226
 SUMMARY:Jumanji: Open World @ Merlin Helston
-DESCRIPTION:Jumanji: Open World\nAdventure\, Comedy\, Fantasy\n\nOur heroes
-  have escaped the ever-changing jungles of Jumanji before\, but this time 
- the game comes to us—as Jumanji breaks free of its console\, unleashing it
- s chaos into our world.\n\nStarring: Dwayne Johnson\, Kevin Hart\, Jack Bl
- ack\, Karen Gillan\, Awkwafina\, Alex Wolff\n\nFilm release at Merlin Cine
- mas Helston\nBook tickets: /film/jumanji-open-world\n\nFilm details: https
- ://evenwebb.github.io/merlin-cinemas/films/jumanji-open-world.html
+DESCRIPTION:Jumanji: Open World (2h 6min)\nAdventure\, Comedy\, Fantasy\n\n
+ Our heroes have escaped the ever-changing jungles of Jumanji before\, but 
+ this time the game comes to us—as Jumanji breaks free of its console\, unl
+ eashing its chaos into our world.\n\nStarring: Dwayne Johnson\, Kevin Hart
+ \, Jack Black\, Karen Gillan\, Alex Wolff\, Morgan Turner\n\nFilm release 
+ at Merlin Cinemas Helston\nBook tickets: /film/jumanji-open-world\n\nFilm 
+ details: https://evenwebb.github.io/merlin-cinemas/films/jumanji-open-worl
+ d.html
 LOCATION:Merlin Cinemas Helston
 URL:/film/jumanji-open-world
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:649ee6b90200a4f1c98ff00bcf0157536b16b2ab@merlin-cinemas
-DTSTAMP:20261117T190023Z
+DTSTAMP:20261118T184433Z
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20261226
 SUMMARY:The Angry Birds Movie 3 @ Merlin Helston
 DESCRIPTION:The Angry Birds Movie 3 (1h 36min)\nAdventure\, Animation\, Com
- edy\, Family\, Science Fiction\n\nRed faces his greatest challenge yet—sur
- viving fatherhood… while saving the world.\n\nStarring: Jason Sudeikis\, J
- osh Gad\, Danny McBride\, Rachel Bloom\, Emma Myers\, Walker Scobell\n\nFi
- lm release at Merlin Cinemas Helston\nBook tickets: /film/the-angry-birds-
- movie-3\n\nFilm details: https://evenwebb.github.io/merlin-cinemas/films/t
- he-angry-birds-movie-3.html
+ edy\, Family\n\nRed faces his greatest challenge yet—surviving fatherhood…
+  while saving the world.\n\nStarring: Jason Sudeikis\, Josh Gad\, Danny Mc
+ Bride\, Rachel Bloom\, Emma Myers\, Walker Scobell\n\nFilm release at Merl
+ in Cinemas Helston\nBook tickets: /film/the-angry-birds-movie-3\n\nFilm de
+ tails: https://evenwebb.github.io/merlin-cinemas/films/the-angry-birds-mov
+ ie-3.html
 LOCATION:Merlin Cinemas Helston
 URL:/film/the-angry-birds-movie-3
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:d659f355d194e500f19763c149a8c0a3cb309915@merlin-cinemas
-DTSTAMP:20261117T190023Z
+DTSTAMP:20261118T184433Z
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270102
 SUMMARY:Werwulf @ Merlin Helston
@@ -322,7 +238,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:1a6de8202bc7135245cb0c9ece3a2bcbb7b07e0b@merlin-cinemas
-DTSTAMP:20261117T190023Z
+DTSTAMP:20261118T184433Z
 DTSTART;VALUE=DATE:20270108
 DTEND;VALUE=DATE:20270109
 SUMMARY:Ink @ Merlin Helston
@@ -339,7 +255,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:7259392300b1c28a6c0cc5a7957236829c3b4203@merlin-cinemas
-DTSTAMP:20261117T190023Z
+DTSTAMP:20261118T184433Z
 DTSTART;VALUE=DATE:20270122
 DTEND;VALUE=DATE:20270123
 SUMMARY:Children Of Blood And Bone @ Merlin Helston
@@ -357,7 +273,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:07bb5268f8f1eb76ab90609e41af176f44ac972d@merlin-cinemas
-DTSTAMP:20261117T190023Z
+DTSTAMP:20261118T184433Z
 DTSTART;VALUE=DATE:20270129
 DTEND;VALUE=DATE:20270130
 SUMMARY:Elsinore @ Merlin Helston
@@ -376,7 +292,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:74b0395ebb5227ec8518184d239e8024bc69737b@merlin-cinemas
-DTSTAMP:20261117T190023Z
+DTSTAMP:20261118T184433Z
 DTSTART;VALUE=DATE:20270205
 DTEND;VALUE=DATE:20270206
 SUMMARY:Remain @ Merlin Helston
@@ -394,7 +310,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:17d31bada314af5a7ee9cacde7b9d80aaee79312@merlin-cinemas
-DTSTAMP:20261117T190023Z
+DTSTAMP:20261118T184433Z
 DTSTART;VALUE=DATE:20270205
 DTEND;VALUE=DATE:20270206
 SUMMARY:Ice Age: Boiling Point @ Merlin Helston
@@ -413,7 +329,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:c79de4af1c285751ce2ff5a9ce3ed1176f311883@merlin-cinemas
-DTSTAMP:20261117T190023Z
+DTSTAMP:20261118T184433Z
 DTSTART;VALUE=DATE:20270212
 DTEND;VALUE=DATE:20270213
 SUMMARY:Narnia: The Magician's Nephew @ Merlin Helston
@@ -431,7 +347,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:c5a9eac3a826b2a1cdd93892b0464523b737f28c@merlin-cinemas
-DTSTAMP:20261117T190023Z
+DTSTAMP:20261118T184433Z
 DTSTART;VALUE=DATE:20270212
 DTEND;VALUE=DATE:20270213
 SUMMARY:CoComelon: The Movie @ Merlin Helston
@@ -451,27 +367,27 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:8ac5a7ff9da920f14f5776b940b9d97ba9f6da8c@merlin-cinemas
-DTSTAMP:20261117T190023Z
+DTSTAMP:20261118T184433Z
 DTSTART;VALUE=DATE:20270305
 DTEND;VALUE=DATE:20270306
 SUMMARY:Gatto @ Merlin Helston
-DESCRIPTION:Gatto\nAnimation\, Comedy\, Crime\, Family\n\nAfter years of ma
- neuvering the canal-ridden\, superstitious city of Venice\, Italy\, a scra
- ppy black cat named Nero begins to question whether he’s lived the right l
- ives. Indebted to Rocco\, a ruthless local feline mob boss\, Nero finds hi
- mself in a quandary and is forced to forge a truly unexpected friendship t
- hat may finally lead him to his purpose—unless Venice gets the better of h
- im first.\n\nStarring: Mark Ruffalo\, Laurence Fishburne\, Enrico Casarosa
- \, Bianca Babaşa\, Sherry Cola\, John Turturro\n\nFilm release at Merlin C
- inemas Helston\nBook tickets: /film/gatto\n\nFilm details: https://evenweb
- b.github.io/merlin-cinemas/films/gatto.html
+DESCRIPTION:Gatto (1h 38min)\nAnimation\, Comedy\, Crime\, Family\n\nAfter 
+ years of maneuvering the canal-ridden\, superstitious city of Venice\, Ita
+ ly\, a scrappy black cat named Nero begins to question whether he’s lived 
+ the right lives. Indebted to Rocco\, a ruthless local feline mob boss\, Ne
+ ro finds himself in a quandary and is forced to forge a truly unexpected f
+ riendship that may finally lead him to his purpose—unless Venice gets the 
+ better of him first.\n\nStarring: Mark Ruffalo\, Laurence Fishburne\, Enri
+ co Casarosa\, Bianca Babaşa\, Sherry Cola\, John Turturro\n\nFilm release 
+ at Merlin Cinemas Helston\nBook tickets: /film/gatto\n\nFilm details: http
+ s://evenwebb.github.io/merlin-cinemas/films/gatto.html
 LOCATION:Merlin Cinemas Helston
 URL:/film/gatto
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:b78e5dcca678f131d0fc7c8880a1c76c2b73dd15@merlin-cinemas
-DTSTAMP:20261117T190023Z
+DTSTAMP:20261118T184433Z
 DTSTART;VALUE=DATE:20270312
 DTEND;VALUE=DATE:20270313
 SUMMARY:The Exorcist: Martyrs @ Merlin Helston
@@ -491,7 +407,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:33f522b2327a82eed47e445434389e57c1b3179a@merlin-cinemas
-DTSTAMP:20261117T190023Z
+DTSTAMP:20261118T184433Z
 DTSTART;VALUE=DATE:20270521
 DTEND;VALUE=DATE:20270522
 SUMMARY:Not Alone @ Merlin Helston
@@ -509,7 +425,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:7063fdf94bc2707441d0f909c4d39fd9791ea40c@merlin-cinemas
-DTSTAMP:20261117T190023Z
+DTSTAMP:20261118T184433Z
 DTSTART;VALUE=DATE:20270730
 DTEND;VALUE=DATE:20270731
 SUMMARY:Shrek 5 @ Merlin Helston
