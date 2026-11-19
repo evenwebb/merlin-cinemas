@@ -10,7 +10,7 @@ X-WR-CALDESC:Upcoming movie premieres at Merlin Cinemas Flora Cinema
 X-WR-TIMEZONE:Europe/London
 BEGIN:VEVENT
 UID:578cb8f82161789ac299672a3d697669168c1652@merlin-cinemas
-DTSTAMP:20261118T184433Z
+DTSTAMP:20261119T185544Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:Amazing Grace @ Merlin Helston
@@ -28,7 +28,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:5ed1f8bf18e7fa9e490951996df4aaa4821435e0@merlin-cinemas
-DTSTAMP:20261118T184433Z
+DTSTAMP:20261119T185544Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:Prima Facie @ Merlin Helston
@@ -49,7 +49,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:c7b1bcc477846f795c4fa2d63de2aac403726dae@merlin-cinemas
-DTSTAMP:20261118T184433Z
+DTSTAMP:20261119T185544Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:How To Rob A Bank @ Merlin Helston
@@ -69,7 +69,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:96c10e2794c6958056b9ae7c33e7bd6731acef1b@merlin-cinemas
-DTSTAMP:20261118T184433Z
+DTSTAMP:20261119T185544Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Hexed @ Merlin Helston
@@ -89,7 +89,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:dfaa4ba1d900d056973bc85ae39fa9101b414f52@merlin-cinemas
-DTSTAMP:20261118T184433Z
+DTSTAMP:20261119T185544Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Violent Night 2 @ Merlin Helston
@@ -110,26 +110,26 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:d295907debaad67df10f3ef20022916e25cff19a@merlin-cinemas
-DTSTAMP:20261118T184433Z
+DTSTAMP:20261119T185544Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:The Cat In The Hat @ Merlin Helston
-DESCRIPTION:The Cat In The Hat (1h 48min)\nAnimation\, Fantasy\, Adventure\
- , Family\, Comedy\n\nAssigned his toughest mission yet\, the Cat must chee
- r up siblings Gabby and Sebastian as they adjust to life in a new town. Kn
- own for pushing boundaries\, this agent of chaos must prove himself or ris
- k losing his magical hat forever.\n\nStarring: Bill Hader\, Xochitl Gomez\
- , Tiago Martinez\, Matt Berry\, Quinta Brunson\, Bowen Yang\n\nFilm releas
- e at Merlin Cinemas Helston\nBook tickets: /film/the-cat-in-the-hat\n\nFil
- m details: https://evenwebb.github.io/merlin-cinemas/films/the-cat-in-the-
- hat.html
+DESCRIPTION:The Cat In The Hat (1h 48min)\n★★★☆☆\nAnimation\, Fantasy\, Adv
+ enture\, Family\, Comedy\n\nAssigned his toughest mission yet\, the Cat mu
+ st cheer up siblings Gabby and Sebastian as they adjust to life in a new t
+ own. Known for pushing boundaries\, this agent of chaos must prove himself
+  or risk losing his magical hat forever.\n\nStarring: Bill Hader\, Xochitl
+  Gomez\, Tiago Martinez\, Matt Berry\, Quinta Brunson\, Bowen Yang\n\nFilm
+  release at Merlin Cinemas Helston\nBook tickets: /film/the-cat-in-the-hat
+ \n\nFilm details: https://evenwebb.github.io/merlin-cinemas/films/the-cat-
+ in-the-hat.html
 LOCATION:Merlin Cinemas Helston
 URL:/film/the-cat-in-the-hat
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:98c61460a616aadf4c7b02ac4b19cd67cf7e2ce5@merlin-cinemas
-DTSTAMP:20261118T184433Z
+DTSTAMP:20261119T185544Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 SUMMARY:Tabby McTat & Stick Man @ Merlin Helston
@@ -148,7 +148,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:31f704160e76cb5f3c01020887e6b82e09bfc672@merlin-cinemas
-DTSTAMP:20261118T184433Z
+DTSTAMP:20261119T185544Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Dune: Part Three @ Merlin Helston
@@ -170,7 +170,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:0da83b95a4049cdfa59d0eac8f8a67dc78fd1547@merlin-cinemas
-DTSTAMP:20261118T184433Z
+DTSTAMP:20261119T185544Z
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
 SUMMARY:Avengers: Doomsday @ Merlin Helston
@@ -187,7 +187,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:25090d4d2afd69d67f7a226008a3d07d95bd60fc@merlin-cinemas
-DTSTAMP:20261118T184433Z
+DTSTAMP:20261119T185544Z
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20261226
 SUMMARY:Jumanji: Open World @ Merlin Helston
@@ -205,7 +205,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:649ee6b90200a4f1c98ff00bcf0157536b16b2ab@merlin-cinemas
-DTSTAMP:20261118T184433Z
+DTSTAMP:20261119T185544Z
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20261226
 SUMMARY:The Angry Birds Movie 3 @ Merlin Helston
@@ -222,7 +222,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:d659f355d194e500f19763c149a8c0a3cb309915@merlin-cinemas
-DTSTAMP:20261118T184433Z
+DTSTAMP:20261119T185544Z
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270102
 SUMMARY:Werwulf @ Merlin Helston
@@ -238,7 +238,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:1a6de8202bc7135245cb0c9ece3a2bcbb7b07e0b@merlin-cinemas
-DTSTAMP:20261118T184433Z
+DTSTAMP:20261119T185544Z
 DTSTART;VALUE=DATE:20270108
 DTEND;VALUE=DATE:20270109
 SUMMARY:Ink @ Merlin Helston
@@ -255,7 +255,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:7259392300b1c28a6c0cc5a7957236829c3b4203@merlin-cinemas
-DTSTAMP:20261118T184433Z
+DTSTAMP:20261119T185544Z
 DTSTART;VALUE=DATE:20270122
 DTEND;VALUE=DATE:20270123
 SUMMARY:Children Of Blood And Bone @ Merlin Helston
@@ -273,7 +273,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:07bb5268f8f1eb76ab90609e41af176f44ac972d@merlin-cinemas
-DTSTAMP:20261118T184433Z
+DTSTAMP:20261119T185544Z
 DTSTART;VALUE=DATE:20270129
 DTEND;VALUE=DATE:20270130
 SUMMARY:Elsinore @ Merlin Helston
@@ -292,7 +292,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:74b0395ebb5227ec8518184d239e8024bc69737b@merlin-cinemas
-DTSTAMP:20261118T184433Z
+DTSTAMP:20261119T185544Z
 DTSTART;VALUE=DATE:20270205
 DTEND;VALUE=DATE:20270206
 SUMMARY:Remain @ Merlin Helston
@@ -310,7 +310,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:17d31bada314af5a7ee9cacde7b9d80aaee79312@merlin-cinemas
-DTSTAMP:20261118T184433Z
+DTSTAMP:20261119T185544Z
 DTSTART;VALUE=DATE:20270205
 DTEND;VALUE=DATE:20270206
 SUMMARY:Ice Age: Boiling Point @ Merlin Helston
@@ -319,17 +319,17 @@ DESCRIPTION:Ice Age: Boiling Point (1h 43min)\nAdventure\, Animation\, Fami
  id\, Diego\, Ellie\, Buck\, acorn-obsessed Scrat – this time joined by Bab
  y Scrat and the enormous Jurassic Scrat – and the rest of the herd to visi
  t never before-seen corners of the treacherous Lost World.\n\nStarring: Ra
- y Romano\, John Leguizamo\, Denis Leary\, Simon Pegg\, Queen Latifah\, Sea
- nn William Scott\n\nFilm release at Merlin Cinemas Helston\nBook tickets: 
- /film/ice-age-boiling-point\n\nFilm details: https://evenwebb.github.io/me
- rlin-cinemas/films/ice-age-boiling-point.html
+ y Romano\, John Leguizamo\, Denis Leary\, Simon Pegg\, Queen Latifah\, Ash
+ ley Park\n\nFilm release at Merlin Cinemas Helston\nBook tickets: /film/ic
+ e-age-boiling-point\n\nFilm details: https://evenwebb.github.io/merlin-cin
+ emas/films/ice-age-boiling-point.html
 LOCATION:Merlin Cinemas Helston
 URL:/film/ice-age-boiling-point
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:c79de4af1c285751ce2ff5a9ce3ed1176f311883@merlin-cinemas
-DTSTAMP:20261118T184433Z
+DTSTAMP:20261119T185544Z
 DTSTART;VALUE=DATE:20270212
 DTEND;VALUE=DATE:20270213
 SUMMARY:Narnia: The Magician's Nephew @ Merlin Helston
@@ -347,7 +347,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:c5a9eac3a826b2a1cdd93892b0464523b737f28c@merlin-cinemas
-DTSTAMP:20261118T184433Z
+DTSTAMP:20261119T185544Z
 DTSTART;VALUE=DATE:20270212
 DTEND;VALUE=DATE:20270213
 SUMMARY:CoComelon: The Movie @ Merlin Helston
@@ -367,7 +367,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:8ac5a7ff9da920f14f5776b940b9d97ba9f6da8c@merlin-cinemas
-DTSTAMP:20261118T184433Z
+DTSTAMP:20261119T185544Z
 DTSTART;VALUE=DATE:20270305
 DTEND;VALUE=DATE:20270306
 SUMMARY:Gatto @ Merlin Helston
@@ -387,7 +387,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:b78e5dcca678f131d0fc7c8880a1c76c2b73dd15@merlin-cinemas
-DTSTAMP:20261118T184433Z
+DTSTAMP:20261119T185544Z
 DTSTART;VALUE=DATE:20270312
 DTEND;VALUE=DATE:20270313
 SUMMARY:The Exorcist: Martyrs @ Merlin Helston
@@ -407,7 +407,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:33f522b2327a82eed47e445434389e57c1b3179a@merlin-cinemas
-DTSTAMP:20261118T184433Z
+DTSTAMP:20261119T185544Z
 DTSTART;VALUE=DATE:20270521
 DTEND;VALUE=DATE:20270522
 SUMMARY:Not Alone @ Merlin Helston
@@ -425,7 +425,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:7063fdf94bc2707441d0f909c4d39fd9791ea40c@merlin-cinemas
-DTSTAMP:20261118T184433Z
+DTSTAMP:20261119T185544Z
 DTSTART;VALUE=DATE:20270730
 DTEND;VALUE=DATE:20270731
 SUMMARY:Shrek 5 @ Merlin Helston
