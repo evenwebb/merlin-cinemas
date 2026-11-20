@@ -9,67 +9,8 @@ X-WR-CALNAME:Merlin Royal Cinema Movie Premieres
 X-WR-CALDESC:Upcoming movie premieres at Merlin Cinemas Royal Cinema
 X-WR-TIMEZONE:Europe/London
 BEGIN:VEVENT
-UID:529e46da54d877f05fe56a419aedcc1aaac7565e@merlin-cinemas
-DTSTAMP:20261119T185544Z
-DTSTART;VALUE=DATE:20261106
-DTEND;VALUE=DATE:20261107
-SUMMARY:Amazing Grace @ Merlin St Ives
-DESCRIPTION:Amazing Grace (1h 57min)\n★★★☆☆\nDrama\n\nThe true story of Wil
- liam Wilberforce and his courageous quest to end the British slave trade. 
- Along the way\, Wilberforce meets intense opposition\, but his minister ur
- ges him to see the cause through.\n\nStarring: Ioan Gruffudd\, Romola Gara
- i\, Ciarán Hinds\, Rufus Sewell\, Youssou N'Dour\, Benedict Cumberbatch\n\
- nFilm release at Merlin Cinemas St Ives\nBook tickets: /film/amazing-grace
- -with-q-and-a\n\nFilm details: https://evenwebb.github.io/merlin-cinemas/f
- ilms/amazing-grace.html
-LOCATION:Merlin Cinemas St Ives
-URL:/film/amazing-grace-with-q-and-a
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:962001e117fabbb8ee1cf0813c7827da9474a267@merlin-cinemas
-DTSTAMP:20261119T185544Z
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
-SUMMARY:Prima Facie @ Merlin St Ives
-DESCRIPTION:Prima Facie (1h 49min)\nDrama\n\nTessa is a brilliant British d
- efence barrister dominating London’s ruthless courtrooms. Fierce\, witty\,
-  and self-made\, she defends men accused of sexual assault — until she is 
- assaulted herself by a colleague from a powerful legal dynasty.  Suddenly\
- , the system she trusted turns against her. As she faces the same tactics 
- she once used in court\, Tessa’s faith in justice unravels. Once in contro
- l\, now exposed and disbelieved\, she must fight to reclaim her voice and 
- sense of self.\n\nStarring: Cynthia Erivo\, Daniel Ings\, Elizabeth Dulau\
- , Noma Dumezweni\, Toheeb Jimoh\, Harry Treadaway\n\nFilm release at Merli
- n Cinemas St Ives\nBook tickets: /film/prima-facie\n\nFilm details: https:
- //evenwebb.github.io/merlin-cinemas/films/prima-facie.html
-LOCATION:Merlin Cinemas St Ives
-URL:/film/prima-facie
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:73ec1157b00175b4b50a343db1c8c1e494cfe1d4@merlin-cinemas
-DTSTAMP:20261119T185544Z
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
-SUMMARY:How To Rob A Bank @ Merlin St Ives
-DESCRIPTION:How To Rob A Bank (2h 2min)\n★★★☆☆\nAction\, Crime\, Thriller\n
- \nA crew of social media-savvy bank robbers broadcasts their daring heists
- \, unaware that their growing viral fame has put them in the crosshairs of
-  a veteran FBI agent and a brilliant software engineer. Despite the unlike
- ly duo closing in\, the crime ring pushes past their limits\, putting ever
- ything on the line for their most ambitious heist yet.\n\nStarring: Nichol
- as Hoult\, Zoë Kravitz\, Pete Davidson\, John C. Reilly\, Anna Sawai\, Rhe
- nzy Feliz\n\nFilm release at Merlin Cinemas St Ives\nBook tickets: /film/h
- ow-to-rob-a-bank\n\nFilm details: https://evenwebb.github.io/merlin-cinema
- s/films/how-to-rob-a-bank.html
-LOCATION:Merlin Cinemas St Ives
-URL:/film/how-to-rob-a-bank
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
 UID:4f1e33d6013e4f1f4d896bcb43a6266cba7c3a23@merlin-cinemas
-DTSTAMP:20261119T185544Z
+DTSTAMP:20261120T182549Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Hexed @ Merlin St Ives
@@ -89,7 +30,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:c32ff142370cb94ea24d08a67def6d55e5347e7f@merlin-cinemas
-DTSTAMP:20261119T185544Z
+DTSTAMP:20261120T182549Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Violent Night 2 @ Merlin St Ives
@@ -110,7 +51,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:1d998f0c2a3958a2ac3cb9e5333ff556944abb62@merlin-cinemas
-DTSTAMP:20261119T185544Z
+DTSTAMP:20261120T182549Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:The Cat In The Hat @ Merlin St Ives
@@ -129,7 +70,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:0fd51a3463448156535ce837d73bba85ab66ccc4@merlin-cinemas
-DTSTAMP:20261119T185544Z
+DTSTAMP:20261120T182549Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 SUMMARY:Tabby McTat & Stick Man @ Merlin St Ives
@@ -148,7 +89,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:21414c5c66c66355e2194c4a91f41ad2d7c18f8d@merlin-cinemas
-DTSTAMP:20261119T185544Z
+DTSTAMP:20261120T182549Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Dune: Part Three @ Merlin St Ives
@@ -170,7 +111,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:b1f83522f97e174b34e4c54fb2be2db280ff4e0b@merlin-cinemas
-DTSTAMP:20261119T185544Z
+DTSTAMP:20261120T182549Z
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
 SUMMARY:Avengers: Doomsday @ Merlin St Ives
@@ -187,7 +128,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:450dbc36c40d10940f65ab93325c567a04509de6@merlin-cinemas
-DTSTAMP:20261119T185544Z
+DTSTAMP:20261120T182549Z
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20261226
 SUMMARY:Jumanji: Open World @ Merlin St Ives
@@ -205,7 +146,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:3a6030ec0e93a2ae403dcf2f7ee79610336c700d@merlin-cinemas
-DTSTAMP:20261119T185544Z
+DTSTAMP:20261120T182549Z
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20261226
 SUMMARY:The Angry Birds Movie 3 @ Merlin St Ives
@@ -222,7 +163,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:d4bfe33cacaf4f83a47a31e1ffcc9165df791729@merlin-cinemas
-DTSTAMP:20261119T185544Z
+DTSTAMP:20261120T182549Z
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270102
 SUMMARY:Werwulf @ Merlin St Ives
@@ -238,7 +179,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:4bb332226bb50396c630764bcc0719d2eedcd142@merlin-cinemas
-DTSTAMP:20261119T185544Z
+DTSTAMP:20261120T182549Z
 DTSTART;VALUE=DATE:20270108
 DTEND;VALUE=DATE:20270109
 SUMMARY:Ink @ Merlin St Ives
@@ -255,7 +196,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:8298e03f99b4b00f0fee050ca7a30443757599cf@merlin-cinemas
-DTSTAMP:20261119T185544Z
+DTSTAMP:20261120T182549Z
 DTSTART;VALUE=DATE:20270122
 DTEND;VALUE=DATE:20270123
 SUMMARY:Children Of Blood And Bone @ Merlin St Ives
@@ -273,7 +214,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:e92b48c68670cad301261ad80a633ab0418898df@merlin-cinemas
-DTSTAMP:20261119T185544Z
+DTSTAMP:20261120T182549Z
 DTSTART;VALUE=DATE:20270129
 DTEND;VALUE=DATE:20270130
 SUMMARY:Elsinore @ Merlin St Ives
@@ -291,8 +232,25 @@ URL:/film/elsinore
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
+UID:55d1bf707e8638d3f21004c72aa4e47cbd78e84d@merlin-cinemas
+DTSTAMP:20261120T182549Z
+DTSTART;VALUE=DATE:20270205
+DTEND;VALUE=DATE:20270206
+SUMMARY:The Comeback King @ Merlin St Ives
+DESCRIPTION:The Comeback King\nComedy\, Western\, Romance\n\nA country west
+ ern star named Aubrey must return to college to earn his long-abandoned de
+ gree after a false rumor that he cheated on his girlfriend throws his care
+ er into free fall.\n\nStarring: Glen Powell\, Cristin Milioti\, Madelyn Cl
+ ine\, Stavros Halkias\, Jin Hao Li\, Leanne Morgan\n\nFilm release at Merl
+ in Cinemas St Ives\nBook tickets: /film/the-comeback-king\n\nFilm details:
+  https://evenwebb.github.io/merlin-cinemas/films/the-comeback-king.html
+LOCATION:Merlin Cinemas St Ives
+URL:/film/the-comeback-king
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
 UID:94a319b36f10b3c618f50fa99a5ba5f57501dc43@merlin-cinemas
-DTSTAMP:20261119T185544Z
+DTSTAMP:20261120T182549Z
 DTSTART;VALUE=DATE:20270205
 DTEND;VALUE=DATE:20270206
 SUMMARY:Remain @ Merlin St Ives
@@ -310,7 +268,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:0323aa856284e917102e1b80162e1264280ee124@merlin-cinemas
-DTSTAMP:20261119T185544Z
+DTSTAMP:20261120T182549Z
 DTSTART;VALUE=DATE:20270205
 DTEND;VALUE=DATE:20270206
 SUMMARY:Ice Age: Boiling Point @ Merlin St Ives
@@ -329,7 +287,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:a4d83af613eb273bb8df30da040644eda56e15bb@merlin-cinemas
-DTSTAMP:20261119T185544Z
+DTSTAMP:20261120T182549Z
 DTSTART;VALUE=DATE:20270212
 DTEND;VALUE=DATE:20270213
 SUMMARY:Narnia: The Magician's Nephew @ Merlin St Ives
@@ -347,7 +305,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:db86d5d3b895010f1967339d96e6a941cc66f4fd@merlin-cinemas
-DTSTAMP:20261119T185544Z
+DTSTAMP:20261120T182549Z
 DTSTART;VALUE=DATE:20270212
 DTEND;VALUE=DATE:20270213
 SUMMARY:CoComelon: The Movie @ Merlin St Ives
@@ -367,27 +325,27 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:932cb52073973afa60ea3de90e6b4845dfd1f70d@merlin-cinemas
-DTSTAMP:20261119T185544Z
+DTSTAMP:20261120T182549Z
 DTSTART;VALUE=DATE:20270305
 DTEND;VALUE=DATE:20270306
 SUMMARY:Gatto @ Merlin St Ives
-DESCRIPTION:Gatto (1h 38min)\nAnimation\, Comedy\, Crime\, Family\n\nAfter 
- years of maneuvering the canal-ridden\, superstitious city of Venice\, Ita
- ly\, a scrappy black cat named Nero begins to question whether he’s lived 
- the right lives. Indebted to Rocco\, a ruthless local feline mob boss\, Ne
- ro finds himself in a quandary and is forced to forge a truly unexpected f
- riendship that may finally lead him to his purpose—unless Venice gets the 
- better of him first.\n\nStarring: Mark Ruffalo\, Laurence Fishburne\, Enri
- co Casarosa\, Bianca Babaşa\, Sherry Cola\, John Turturro\n\nFilm release 
- at Merlin Cinemas St Ives\nBook tickets: /film/gatto\n\nFilm details: http
- s://evenwebb.github.io/merlin-cinemas/films/gatto.html
+DESCRIPTION:Gatto\nAnimation\, Comedy\, Crime\, Family\n\nAfter years of ma
+ neuvering the canal-ridden\, superstitious city of Venice\, Italy\, a scra
+ ppy black cat named Nero begins to question whether he’s lived the right l
+ ives. Indebted to Rocco\, a ruthless local feline mob boss\, Nero finds hi
+ mself in a quandary and is forced to forge a truly unexpected friendship t
+ hat may finally lead him to his purpose—unless Venice gets the better of h
+ im first.\n\nStarring: Mark Ruffalo\, Laurence Fishburne\, Enrico Casarosa
+ \, Bianca Babaşa\, Sherry Cola\, John Turturro\n\nFilm release at Merlin C
+ inemas St Ives\nBook tickets: /film/gatto\n\nFilm details: https://evenweb
+ b.github.io/merlin-cinemas/films/gatto.html
 LOCATION:Merlin Cinemas St Ives
 URL:/film/gatto
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:291e2fe82d9df10190545b8ec0428c716ef9de46@merlin-cinemas
-DTSTAMP:20261119T185544Z
+DTSTAMP:20261120T182549Z
 DTSTART;VALUE=DATE:20270312
 DTEND;VALUE=DATE:20270313
 SUMMARY:The Exorcist: Martyrs @ Merlin St Ives
@@ -407,7 +365,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:6f139030b462ab582cd790aa7cc64ee10363be13@merlin-cinemas
-DTSTAMP:20261119T185544Z
+DTSTAMP:20261120T182549Z
 DTSTART;VALUE=DATE:20270521
 DTEND;VALUE=DATE:20270522
 SUMMARY:Not Alone @ Merlin St Ives
@@ -425,7 +383,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:6fe743caa88efd15ba5612b7b55d39f3595b3c33@merlin-cinemas
-DTSTAMP:20261119T185544Z
+DTSTAMP:20261120T182549Z
 DTSTART;VALUE=DATE:20270730
 DTEND;VALUE=DATE:20270731
 SUMMARY:Shrek 5 @ Merlin St Ives

@@ -9,67 +9,8 @@ X-WR-CALNAME:Merlin Savoy Cinema Movie Premieres
 X-WR-CALDESC:Upcoming movie premieres at Merlin Cinemas Savoy Cinema
 X-WR-TIMEZONE:Europe/London
 BEGIN:VEVENT
-UID:298ca3b1ba3146fa80003e86df95cce8e41ea0ef@merlin-cinemas
-DTSTAMP:20261119T185544Z
-DTSTART;VALUE=DATE:20261106
-DTEND;VALUE=DATE:20261107
-SUMMARY:Amazing Grace @ Merlin Penzance
-DESCRIPTION:Amazing Grace (1h 57min)\n★★★☆☆\nDrama\n\nThe true story of Wil
- liam Wilberforce and his courageous quest to end the British slave trade. 
- Along the way\, Wilberforce meets intense opposition\, but his minister ur
- ges him to see the cause through.\n\nStarring: Ioan Gruffudd\, Romola Gara
- i\, Ciarán Hinds\, Rufus Sewell\, Youssou N'Dour\, Benedict Cumberbatch\n\
- nFilm release at Merlin Cinemas Penzance\nBook tickets: /film/amazing-grac
- e-with-q-and-a\n\nFilm details: https://evenwebb.github.io/merlin-cinemas/
- films/amazing-grace.html
-LOCATION:Merlin Cinemas Penzance
-URL:/film/amazing-grace-with-q-and-a
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:4948fffd9e197874c3cd3f1115591b343e0c2460@merlin-cinemas
-DTSTAMP:20261119T185544Z
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
-SUMMARY:Prima Facie @ Merlin Penzance
-DESCRIPTION:Prima Facie (1h 49min)\nDrama\n\nTessa is a brilliant British d
- efence barrister dominating London’s ruthless courtrooms. Fierce\, witty\,
-  and self-made\, she defends men accused of sexual assault — until she is 
- assaulted herself by a colleague from a powerful legal dynasty.  Suddenly\
- , the system she trusted turns against her. As she faces the same tactics 
- she once used in court\, Tessa’s faith in justice unravels. Once in contro
- l\, now exposed and disbelieved\, she must fight to reclaim her voice and 
- sense of self.\n\nStarring: Cynthia Erivo\, Daniel Ings\, Elizabeth Dulau\
- , Noma Dumezweni\, Toheeb Jimoh\, Harry Treadaway\n\nFilm release at Merli
- n Cinemas Penzance\nBook tickets: /film/prima-facie\n\nFilm details: https
- ://evenwebb.github.io/merlin-cinemas/films/prima-facie.html
-LOCATION:Merlin Cinemas Penzance
-URL:/film/prima-facie
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
-UID:07e49ce0b6c859e2b58cbfe8276a2ea7df835374@merlin-cinemas
-DTSTAMP:20261119T185544Z
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
-SUMMARY:How To Rob A Bank @ Merlin Penzance
-DESCRIPTION:How To Rob A Bank (2h 2min)\n★★★☆☆\nAction\, Crime\, Thriller\n
- \nA crew of social media-savvy bank robbers broadcasts their daring heists
- \, unaware that their growing viral fame has put them in the crosshairs of
-  a veteran FBI agent and a brilliant software engineer. Despite the unlike
- ly duo closing in\, the crime ring pushes past their limits\, putting ever
- ything on the line for their most ambitious heist yet.\n\nStarring: Nichol
- as Hoult\, Zoë Kravitz\, Pete Davidson\, John C. Reilly\, Anna Sawai\, Rhe
- nzy Feliz\n\nFilm release at Merlin Cinemas Penzance\nBook tickets: /film/
- how-to-rob-a-bank\n\nFilm details: https://evenwebb.github.io/merlin-cinem
- as/films/how-to-rob-a-bank.html
-LOCATION:Merlin Cinemas Penzance
-URL:/film/how-to-rob-a-bank
-SEQUENCE:0
-END:VEVENT
-BEGIN:VEVENT
 UID:6656840ad30c6c4a139b29f7d375676d31f5bee9@merlin-cinemas
-DTSTAMP:20261119T185544Z
+DTSTAMP:20261120T182549Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Hexed @ Merlin Penzance
@@ -89,7 +30,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:89d569b7cfaf061d1d1b847005de9cfe720c7d3b@merlin-cinemas
-DTSTAMP:20261119T185544Z
+DTSTAMP:20261120T182549Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Violent Night 2 @ Merlin Penzance
@@ -110,7 +51,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:1ef2910a4c141be297260cced4cc3caa79a1a6a6@merlin-cinemas
-DTSTAMP:20261119T185544Z
+DTSTAMP:20261120T182549Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:The Cat In The Hat @ Merlin Penzance
@@ -129,7 +70,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:f3e4e5b41ac75f21b13258cdfe13d95ed6aea14e@merlin-cinemas
-DTSTAMP:20261119T185544Z
+DTSTAMP:20261120T182549Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 SUMMARY:Tabby McTat & Stick Man @ Merlin Penzance
@@ -148,7 +89,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:e20ac013ce8379197e56092e289f37dba243ef57@merlin-cinemas
-DTSTAMP:20261119T185544Z
+DTSTAMP:20261120T182549Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Dune: Part Three @ Merlin Penzance
@@ -170,7 +111,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:29fcf414d1233cda765ba05435160214d7ebade2@merlin-cinemas
-DTSTAMP:20261119T185544Z
+DTSTAMP:20261120T182549Z
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
 SUMMARY:Avengers: Doomsday @ Merlin Penzance
@@ -187,7 +128,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:e8c32239052daebbc09531940fefff1eb3532759@merlin-cinemas
-DTSTAMP:20261119T185544Z
+DTSTAMP:20261120T182549Z
 DTSTART;VALUE=DATE:20261223
 DTEND;VALUE=DATE:20261224
 SUMMARY:Jumanji: Open World @ Merlin Penzance
@@ -205,7 +146,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:ba91f7ea4f8edf53e89146ec59dfab2e4968c81d@merlin-cinemas
-DTSTAMP:20261119T185544Z
+DTSTAMP:20261120T182549Z
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20261226
 SUMMARY:The Angry Birds Movie 3 @ Merlin Penzance
@@ -222,7 +163,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:ef6574209b4817cc39747d3ee5d905c3bdecb307@merlin-cinemas
-DTSTAMP:20261119T185544Z
+DTSTAMP:20261120T182549Z
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270102
 SUMMARY:Werwulf @ Merlin Penzance
@@ -238,7 +179,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:6344a0456e5f256b1d0f2fd12880434bc2297ce7@merlin-cinemas
-DTSTAMP:20261119T185544Z
+DTSTAMP:20261120T182549Z
 DTSTART;VALUE=DATE:20270108
 DTEND;VALUE=DATE:20270109
 SUMMARY:Ink @ Merlin Penzance
@@ -255,7 +196,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:b7c5b766e1f2506047b38b3414a989148695411e@merlin-cinemas
-DTSTAMP:20261119T185544Z
+DTSTAMP:20261120T182549Z
 DTSTART;VALUE=DATE:20270122
 DTEND;VALUE=DATE:20270123
 SUMMARY:Children Of Blood And Bone @ Merlin Penzance
@@ -273,7 +214,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:5f5afa2ba13475a72e3673302f92ab6534cb434a@merlin-cinemas
-DTSTAMP:20261119T185544Z
+DTSTAMP:20261120T182549Z
 DTSTART;VALUE=DATE:20270129
 DTEND;VALUE=DATE:20270130
 SUMMARY:Elsinore @ Merlin Penzance
@@ -291,8 +232,25 @@ URL:/film/elsinore
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
+UID:aa4690b04a6439f43661a68153a1f1ab4757cc62@merlin-cinemas
+DTSTAMP:20261120T182549Z
+DTSTART;VALUE=DATE:20270205
+DTEND;VALUE=DATE:20270206
+SUMMARY:The Comeback King @ Merlin Penzance
+DESCRIPTION:The Comeback King\nComedy\, Western\, Romance\n\nA country west
+ ern star named Aubrey must return to college to earn his long-abandoned de
+ gree after a false rumor that he cheated on his girlfriend throws his care
+ er into free fall.\n\nStarring: Glen Powell\, Cristin Milioti\, Madelyn Cl
+ ine\, Stavros Halkias\, Jin Hao Li\, Leanne Morgan\n\nFilm release at Merl
+ in Cinemas Penzance\nBook tickets: /film/the-comeback-king\n\nFilm details
+ : https://evenwebb.github.io/merlin-cinemas/films/the-comeback-king.html
+LOCATION:Merlin Cinemas Penzance
+URL:/film/the-comeback-king
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
 UID:8555bc97a38ec5d646a16040e9327cce930edb4f@merlin-cinemas
-DTSTAMP:20261119T185544Z
+DTSTAMP:20261120T182549Z
 DTSTART;VALUE=DATE:20270205
 DTEND;VALUE=DATE:20270206
 SUMMARY:Remain @ Merlin Penzance
@@ -310,7 +268,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:b884d5b93f2890f7919e979924f541508562bb80@merlin-cinemas
-DTSTAMP:20261119T185544Z
+DTSTAMP:20261120T182549Z
 DTSTART;VALUE=DATE:20270205
 DTEND;VALUE=DATE:20270206
 SUMMARY:Ice Age: Boiling Point @ Merlin Penzance
@@ -329,7 +287,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:c633cdaf5ff36aa75e5e1a7f9cce170328c0312e@merlin-cinemas
-DTSTAMP:20261119T185544Z
+DTSTAMP:20261120T182549Z
 DTSTART;VALUE=DATE:20270212
 DTEND;VALUE=DATE:20270213
 SUMMARY:Narnia: The Magician's Nephew @ Merlin Penzance
@@ -347,7 +305,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:52e4c623079ed88cdcd1dc95e1f6c9eecb89a574@merlin-cinemas
-DTSTAMP:20261119T185544Z
+DTSTAMP:20261120T182549Z
 DTSTART;VALUE=DATE:20270212
 DTEND;VALUE=DATE:20270213
 SUMMARY:CoComelon: The Movie @ Merlin Penzance
@@ -367,27 +325,27 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:fadd9d7e9c24cb751a11cbb7ba7a58f9f5eaf3a2@merlin-cinemas
-DTSTAMP:20261119T185544Z
+DTSTAMP:20261120T182549Z
 DTSTART;VALUE=DATE:20270305
 DTEND;VALUE=DATE:20270306
 SUMMARY:Gatto @ Merlin Penzance
-DESCRIPTION:Gatto (1h 38min)\nAnimation\, Comedy\, Crime\, Family\n\nAfter 
- years of maneuvering the canal-ridden\, superstitious city of Venice\, Ita
- ly\, a scrappy black cat named Nero begins to question whether he’s lived 
- the right lives. Indebted to Rocco\, a ruthless local feline mob boss\, Ne
- ro finds himself in a quandary and is forced to forge a truly unexpected f
- riendship that may finally lead him to his purpose—unless Venice gets the 
- better of him first.\n\nStarring: Mark Ruffalo\, Laurence Fishburne\, Enri
- co Casarosa\, Bianca Babaşa\, Sherry Cola\, John Turturro\n\nFilm release 
- at Merlin Cinemas Penzance\nBook tickets: /film/gatto\n\nFilm details: htt
- ps://evenwebb.github.io/merlin-cinemas/films/gatto.html
+DESCRIPTION:Gatto\nAnimation\, Comedy\, Crime\, Family\n\nAfter years of ma
+ neuvering the canal-ridden\, superstitious city of Venice\, Italy\, a scra
+ ppy black cat named Nero begins to question whether he’s lived the right l
+ ives. Indebted to Rocco\, a ruthless local feline mob boss\, Nero finds hi
+ mself in a quandary and is forced to forge a truly unexpected friendship t
+ hat may finally lead him to his purpose—unless Venice gets the better of h
+ im first.\n\nStarring: Mark Ruffalo\, Laurence Fishburne\, Enrico Casarosa
+ \, Bianca Babaşa\, Sherry Cola\, John Turturro\n\nFilm release at Merlin C
+ inemas Penzance\nBook tickets: /film/gatto\n\nFilm details: https://evenwe
+ bb.github.io/merlin-cinemas/films/gatto.html
 LOCATION:Merlin Cinemas Penzance
 URL:/film/gatto
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:ca28535966e5dd927d961ac77d5b411e9d2ee9cd@merlin-cinemas
-DTSTAMP:20261119T185544Z
+DTSTAMP:20261120T182549Z
 DTSTART;VALUE=DATE:20270312
 DTEND;VALUE=DATE:20270313
 SUMMARY:The Exorcist: Martyrs @ Merlin Penzance
@@ -407,7 +365,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:874b61f922a3fd03bd17cfac6f07577ec9672b50@merlin-cinemas
-DTSTAMP:20261119T185544Z
+DTSTAMP:20261120T182549Z
 DTSTART;VALUE=DATE:20270521
 DTEND;VALUE=DATE:20270522
 SUMMARY:Not Alone @ Merlin Penzance
@@ -425,7 +383,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:c9d4ce2439104462945c7d3814eb615bd60fe5f7@merlin-cinemas
-DTSTAMP:20261119T185544Z
+DTSTAMP:20261120T182549Z
 DTSTART;VALUE=DATE:20270730
 DTEND;VALUE=DATE:20270731
 SUMMARY:Shrek 5 @ Merlin Penzance
