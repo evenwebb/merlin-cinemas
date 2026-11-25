@@ -10,28 +10,28 @@ X-WR-CALDESC:Upcoming movie premieres at Merlin Cinemas Royal Cinema
 X-WR-TIMEZONE:Europe/London
 BEGIN:VEVENT
 UID:c32ff142370cb94ea24d08a67def6d55e5347e7f@merlin-cinemas
-DTSTAMP:20261124T203318Z
+DTSTAMP:20261125T195023Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Violent Night 2 @ Merlin St Ives
-DESCRIPTION:Violent Night 2 (1h 50min)\nAction\, Comedy\, Fantasy\n\nWhen S
- anta forgets the true meaning of Christmas\, he finds himself in the heart
-  of a lively mall community in desperate need of his help. Sapped of his m
- agic\, he’ll need another way to take on the goons threatening the mall\, 
- and time is running out. Santa has to rediscover his faith in goodness and
-  call in some last-minute reinforcements from the one person no baddie wan
- ts to tangle with: Mrs. Claus.\n\nStarring: David Harbour\, Kristen Bell\,
-  Daniela Melchior\, Jared Harris\, Joe Pantoliano\, Maxwell Jacob Friedman
- \n\nFilm release at Merlin Cinemas St Ives\nBook tickets: /film/violent-ni
- ght-2\n\nFilm details: https://evenwebb.github.io/merlin-cinemas/films/vio
- lent-night-2.html
+DESCRIPTION:Violent Night 2 (1h 50min)\nAction\, Comedy\n\nWhen Santa forge
+ ts the true meaning of Christmas\, he finds himself in the heart of a live
+ ly mall community in desperate need of his help. Sapped of his magic\, he’
+ ll need another way to take on the goons threatening the mall\, and time i
+ s running out. Santa has to rediscover his faith in goodness and call in s
+ ome last-minute reinforcements from the one person no baddie wants to tang
+ le with: Mrs. Claus.\n\nStarring: David Harbour\, Kristen Bell\, Daniela M
+ elchior\, Jared Harris\, Joe Pantoliano\, Maxwell Jacob Friedman\n\nFilm r
+ elease at Merlin Cinemas St Ives\nBook tickets: /film/violent-night-2\n\nF
+ ilm details: https://evenwebb.github.io/merlin-cinemas/films/violent-night
+ -2.html
 LOCATION:Merlin Cinemas St Ives
 URL:/film/violent-night-2
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:1d998f0c2a3958a2ac3cb9e5333ff556944abb62@merlin-cinemas
-DTSTAMP:20261124T203318Z
+DTSTAMP:20261125T195023Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:The Cat In The Hat @ Merlin St Ives
@@ -50,7 +50,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:0fd51a3463448156535ce837d73bba85ab66ccc4@merlin-cinemas
-DTSTAMP:20261124T203318Z
+DTSTAMP:20261125T195023Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 SUMMARY:Tabby McTat & Stick Man @ Merlin St Ives
@@ -69,7 +69,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:21414c5c66c66355e2194c4a91f41ad2d7c18f8d@merlin-cinemas
-DTSTAMP:20261124T203318Z
+DTSTAMP:20261125T195023Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Dune: Part Three @ Merlin St Ives
@@ -91,7 +91,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:b1f83522f97e174b34e4c54fb2be2db280ff4e0b@merlin-cinemas
-DTSTAMP:20261124T203318Z
+DTSTAMP:20261125T195023Z
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
 SUMMARY:Avengers: Doomsday @ Merlin St Ives
@@ -108,7 +108,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:450dbc36c40d10940f65ab93325c567a04509de6@merlin-cinemas
-DTSTAMP:20261124T203318Z
+DTSTAMP:20261125T195023Z
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20261226
 SUMMARY:Jumanji: Open World @ Merlin St Ives
@@ -126,7 +126,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:3a6030ec0e93a2ae403dcf2f7ee79610336c700d@merlin-cinemas
-DTSTAMP:20261124T203318Z
+DTSTAMP:20261125T195023Z
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20261226
 SUMMARY:The Angry Birds Movie 3 @ Merlin St Ives
@@ -143,7 +143,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:d4bfe33cacaf4f83a47a31e1ffcc9165df791729@merlin-cinemas
-DTSTAMP:20261124T203318Z
+DTSTAMP:20261125T195023Z
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270102
 SUMMARY:Werwulf @ Merlin St Ives
@@ -159,24 +159,43 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:4bb332226bb50396c630764bcc0719d2eedcd142@merlin-cinemas
-DTSTAMP:20261124T203318Z
+DTSTAMP:20261125T195023Z
 DTSTART;VALUE=DATE:20270108
 DTEND;VALUE=DATE:20270109
 SUMMARY:Ink @ Merlin St Ives
 DESCRIPTION:Ink (1h 56min)\nDrama\, History\n\nAfter buying a struggling Br
- itish tabloid in 1969\, mogul Rupert Murdoch and editor Larry Lamb banded 
- together a group of misfits and visionaries to reshape the image of the ne
- ws industry as we know it.\n\nStarring: Jack O'Connell\, Guy Pearce\, Clai
- re Foy\, Blake Harrison\, Patrick Kennedy\, Angus Imrie\n\nFilm release at
-  Merlin Cinemas St Ives\nBook tickets: /film/ink\n\nFilm details: https://
- evenwebb.github.io/merlin-cinemas/films/ink.html
+ itish tabloid in 1969\, mogul Rupert Murdoch and editor Larry Lamb band to
+ gether a group of misfits and visionaries to reshape the image of the news
+  industry as we know it.\n\nStarring: Jack O'Connell\, Guy Pearce\, Claire
+  Foy\, Blake Harrison\, Patrick Kennedy\, Angus Imrie\n\nFilm release at M
+ erlin Cinemas St Ives\nBook tickets: /film/ink\n\nFilm details: https://ev
+ enwebb.github.io/merlin-cinemas/films/ink.html
 LOCATION:Merlin Cinemas St Ives
 URL:/film/ink
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
+UID:02f6b5e34c7257a2282eb8b5a378f178dc53ab6f@merlin-cinemas
+DTSTAMP:20261125T195023Z
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+SUMMARY:The Debut @ Merlin St Ives
+DESCRIPTION:The Debut (1h 45min)\nMusic\, Comedy\, Drama\n\nWhen Mona Fried
+ man is cast in a bit part at a small community theater\, she transforms fr
+ om a shy\, unassuming housewife into a zealous method actor willing to do 
+ anything to protect the artistic integrity of her marginal role—even if it
+  means waging war against the show’s domineering director.\n\nStarring: Ju
+ lianne Moore\, Paul Giamatti\, Halle Bailey\, Colton Ryan\, Eldar Isgandar
+ ov\, K. Todd Freeman\n\nFilm release at Merlin Cinemas St Ives\nBook ticke
+ ts: /film/the-debut\n\nFilm details: https://evenwebb.github.io/merlin-cin
+ emas/films/the-debut.html
+LOCATION:Merlin Cinemas St Ives
+URL:/film/the-debut
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
 UID:8298e03f99b4b00f0fee050ca7a30443757599cf@merlin-cinemas
-DTSTAMP:20261124T203318Z
+DTSTAMP:20261125T195023Z
 DTSTART;VALUE=DATE:20270122
 DTEND;VALUE=DATE:20270123
 SUMMARY:Children Of Blood And Bone @ Merlin St Ives
@@ -193,8 +212,25 @@ URL:/film/children-of-blood-and-bone
 SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
+UID:f47417c004070110be70121a7a40fa015eb08b9e@merlin-cinemas
+DTSTAMP:20261125T195023Z
+DTSTART;VALUE=DATE:20270129
+DTEND;VALUE=DATE:20270130
+SUMMARY:The Rescue @ Merlin St Ives
+DESCRIPTION:The Rescue\nWestern\, Thriller\n\nA former rodeo cowboy takes m
+ atters into his own hands when his daughter is kidnapped for ransom. With 
+ her devoted dog by his side\, he sets out to bring her home and will stop 
+ at nothing to find her.\n\nStarring: Brandon Sklenar\, Hassie Harrison\, J
+ osh Lucas\, Tim Blake Nelson\, Josh Duhamel\, Jeremy Childs\n\nFilm releas
+ e at Merlin Cinemas St Ives\nBook tickets: /film/the-rescue\n\nFilm detail
+ s: https://evenwebb.github.io/merlin-cinemas/films/the-rescue.html
+LOCATION:Merlin Cinemas St Ives
+URL:/film/the-rescue
+SEQUENCE:0
+END:VEVENT
+BEGIN:VEVENT
 UID:e92b48c68670cad301261ad80a633ab0418898df@merlin-cinemas
-DTSTAMP:20261124T203318Z
+DTSTAMP:20261125T195023Z
 DTSTART;VALUE=DATE:20270129
 DTEND;VALUE=DATE:20270130
 SUMMARY:Elsinore @ Merlin St Ives
@@ -213,7 +249,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:55d1bf707e8638d3f21004c72aa4e47cbd78e84d@merlin-cinemas
-DTSTAMP:20261124T203318Z
+DTSTAMP:20261125T195023Z
 DTSTART;VALUE=DATE:20270205
 DTEND;VALUE=DATE:20270206
 SUMMARY:The Comeback King @ Merlin St Ives
@@ -230,7 +266,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:94a319b36f10b3c618f50fa99a5ba5f57501dc43@merlin-cinemas
-DTSTAMP:20261124T203318Z
+DTSTAMP:20261125T195023Z
 DTSTART;VALUE=DATE:20270205
 DTEND;VALUE=DATE:20270206
 SUMMARY:Remain @ Merlin St Ives
@@ -248,7 +284,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:0323aa856284e917102e1b80162e1264280ee124@merlin-cinemas
-DTSTAMP:20261124T203318Z
+DTSTAMP:20261125T195023Z
 DTSTART;VALUE=DATE:20270205
 DTEND;VALUE=DATE:20270206
 SUMMARY:Ice Age: Boiling Point @ Merlin St Ives
@@ -267,7 +303,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:a4d83af613eb273bb8df30da040644eda56e15bb@merlin-cinemas
-DTSTAMP:20261124T203318Z
+DTSTAMP:20261125T195023Z
 DTSTART;VALUE=DATE:20270212
 DTEND;VALUE=DATE:20270213
 SUMMARY:Narnia: The Magician's Nephew @ Merlin St Ives
@@ -285,7 +321,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:db86d5d3b895010f1967339d96e6a941cc66f4fd@merlin-cinemas
-DTSTAMP:20261124T203318Z
+DTSTAMP:20261125T195023Z
 DTSTART;VALUE=DATE:20270212
 DTEND;VALUE=DATE:20270213
 SUMMARY:CoComelon: The Movie @ Merlin St Ives
@@ -305,7 +341,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:932cb52073973afa60ea3de90e6b4845dfd1f70d@merlin-cinemas
-DTSTAMP:20261124T203318Z
+DTSTAMP:20261125T195023Z
 DTSTART;VALUE=DATE:20270305
 DTEND;VALUE=DATE:20270306
 SUMMARY:Gatto @ Merlin St Ives
@@ -325,7 +361,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:291e2fe82d9df10190545b8ec0428c716ef9de46@merlin-cinemas
-DTSTAMP:20261124T203318Z
+DTSTAMP:20261125T195023Z
 DTSTART;VALUE=DATE:20270312
 DTEND;VALUE=DATE:20270313
 SUMMARY:The Exorcist: Martyrs @ Merlin St Ives
@@ -345,7 +381,7 @@ SEQUENCE:0
 END:VEVENT
 BEGIN:VEVENT
 UID:6f139030b462ab582cd790aa7cc64ee10363be13@merlin-cinemas
-DTSTAMP:20261124T203318Z
+DTSTAMP:20261125T195023Z
 DTSTART;VALUE=DATE:20270521
 DTEND;VALUE=DATE:20270522
 SUMMARY:Not Alone @ Merlin St Ives
@@ -363,7 +399,7 @@ SEQUENCE:1
 END:VEVENT
 BEGIN:VEVENT
 UID:6fe743caa88efd15ba5612b7b55d39f3595b3c33@merlin-cinemas
-DTSTAMP:20261124T203318Z
+DTSTAMP:20261125T195023Z
 DTSTART;VALUE=DATE:20270730
 DTEND;VALUE=DATE:20270731
 SUMMARY:Shrek 5 @ Merlin St Ives
